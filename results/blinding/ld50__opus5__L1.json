@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "ld50",
+  "tag": "opus5",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "none",
+  "disjoint_from": "esol,freesolv",
+  "cost": 6.775124999999993,
+  "timestamp": "2026-07-28T17:09:23"
+ },
+ "calls": [
+  {
+   "text": "**Prediction reasoning:** \u03b3-Nonalactone / gamma-decalactone type flavor lactone ",
+   "value": 1.5,
+   "reasoning_tokens": 0,
+   "completion": 107,
+   "cost": 0.039505,
+   "finish": "stop",
+   "mol_id": "2(3H)-Furanone, dihydro-5-pentyl-",
+   "truth": 1.374
+  },
+  {
+   "text": "**Analysis**\n\nThe molecule is myosmine, a nicotine-related tobacco alkaloid (3-(",
+   "value": 2.56,
+   "reasoning_tokens": 0,
+   "completion": 284,
+   "cost": 0.04401,
+   "finish": "stop",
+   "mol_id": "Pyridine, 3-(3,4-dihydro-2H-pyrrol-5-yl)- (9CI)",
+   "truth": 1.892
+  },
+  {
+   "text": "Ketoconazole \u2014 LD50 rat ~ 700 mg/kg oral; MW \u2248 531. 0.7/531 = 1.32e-3 mol/kg \u2192 -",
+   "value": 0.00132,
+   "reasoning_tokens": 0,
+   "completion": 75,
+   "cost": 0.03926,
+   "finish": "stop",
+   "mol_id": "Piperazine, 1-acetyl-4-(4-((2-(2,4-dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)-, cis-",
+   "truth": 3.505
+  },
+  {
+   "text": "Organophosphate thioate with heteroaryl thio leaving group \u2014 likely quite toxic.",
+   "value": 3.6,
+   "reasoning_tokens": 0,
+   "completion": 104,
+   "cost": 0.03969,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-(4,6-dimethyl-2-pyrimidinyl) O-ethyl O-(1-methylethyl) ester (9CI)",
+   "truth": 3.654
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** N,N'-dimethyl-N,N'-dinitroso-1,2-ethanediamine \u2014 a s",
+   "value": 3.3,
+   "reasoning_tokens": 0,
+   "completion": 686,
+   "cost": 0.05406,
+   "finish": "stop",
+   "mol_id": "1,2-Ethanediamine, N,N'-dimethyl-N,N'-dinitroso- (9CI)",
+   "truth": 2.989
+  },
+  {
+   "text": "**Prediction: 2.20**\n\nReasoning: This is an N-phenyl aminopropionitrile with an ",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 227,
+   "cost": 0.042595,
+   "finish": "stop",
+   "mol_id": "Propanenitrile, 3-((2-(acetyloxy)ethyl)phenylamino)-",
+   "truth": 2.05
+  },
+  {
+   "text": "Cinnamic acid is of low toxicity; oral LD50 in rats ~2500-3500 mg/kg. Using ~250",
+   "value": 1.77,
+   "reasoning_tokens": 0,
+   "completion": 88,
+   "cost": 0.03901,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 3-phenyl-",
+   "truth": 1.773
+  },
+  {
+   "text": "Looking at the training data, N,N-diethyl-2-hydroxybenzamide (CCN(CC)C(=O)c1cccc",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 226,
+   "cost": 0.04245,
+   "finish": "stop",
+   "mol_id": "Benzamide, N,N-diethyl-",
+   "truth": 1.948
+  },
+  {
+   "text": "**Prediction reasoning:** This is a simple substituted cyclohexanecarboxylic aci",
+   "value": 2.0,
+   "reasoning_tokens": 0,
+   "completion": 223,
+   "cost": 0.042505,
+   "finish": "stop",
+   "mol_id": "Cyclohexanecarboxylic acid, 2-hydroxy-2-phenyl-, cis-",
+   "truth": 2.147
+  },
+  {
+   "text": "## Analysis\n\nThis molecule is an N-aryl benzamide with an \u03b1-methyl ester substit",
+   "value": 2.52,
+   "reasoning_tokens": 0,
+   "completion": 498,
+   "cost": 0.049495,
+   "finish": "stop",
+   "mol_id": "Propionic acid, 2-(N-(3-chloro-4-fluorophenyl)benzamido)-, methyl ester",
+   "truth": 2.447
+  },
+  {
+   "text": "## Analysis\n\n**Molecule:** \u03b2-Methylstyrene (propenylbenzene), SMILES: CC=Cc1cccc",
+   "value": 1.7,
+   "reasoning_tokens": 0,
+   "completion": 487,
+   "cost": 0.048965,
+   "finish": "stop",
+   "mol_id": "Benzene, propenyl- (VAN) (8CI)",
+   "truth": 1.516
+  },
+  {
+   "text": "Verapamil. Rat oral LD50 ~108 mg/kg; MW 454.6 \u2192 0.108/454.6 = 2.376e-4 mol/kg \u2192 ",
+   "value": 0.0002376,
+   "reasoning_tokens": 0,
+   "completion": 71,
+   "cost": 0.03905,
+   "finish": "stop",
+   "mol_id": "Benzeneacetonitrile, alpha-(3-((2-(3,4-dimethoxyphenyl)ethyl)methylamino)propyl)-3,4-dimethoxy-alpha-(1-methylethyl)-",
+   "truth": 3.445
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n2,4,5-T esters are moderately toxic; 2,4,5-T acid LD5",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 165,
+   "cost": 0.041125,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2,4,5-trichlorophenoxy-, 2-butoxypropyl ester",
+   "truth": 2.869
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is isophorone nitrile (5-oxo-1,3,3-trimethylcycl",
+   "value": 2.8,
+   "reasoning_tokens": 0,
+   "completion": 200,
+   "cost": 0.041915,
+   "finish": "stop",
+   "mol_id": "Cychohexanecarbonitrile, 1,3,3-trimethyl-5-oxo-",
+   "truth": 3.429
+  },
+  {
+   "text": "Looking at the analogous compound in the training set: Benzimidazole, 5-bromo-4-",
+   "value": 4.15,
+   "reasoning_tokens": 0,
+   "completion": 278,
+   "cost": 0.04394,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,5,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.66
+  },
+  {
+   "text": "Flurbiprofen \u2014 NSAID, rat oral LD50 ~ 90-110 mg/kg. MW 244.26. 100 mg/kg = 4.09e",
+   "value": 0.000409,
+   "reasoning_tokens": 0,
+   "completion": 82,
+   "cost": 0.03898,
+   "finish": "stop",
+   "mol_id": "4-Biphenylacetic acid, 2'-fluoro-alpha-methyl-",
+   "truth": 2.86
+  },
+  {
+   "text": "Analysis: This is a 2-hydroxy-1,4-naphthoquinone derivative (lapachol-like) with",
+   "value": 3.05,
+   "reasoning_tokens": 0,
+   "completion": 247,
+   "cost": 0.0432,
+   "finish": "stop",
+   "mol_id": "1,4-Naphthalenedione, 2-(3,3-dichloro-2-propenyl)-3-hydroxy-",
+   "truth": 3.003
+  },
+  {
+   "text": "Thiodipropionic acid is a low-toxicity food antioxidant/additive; oral LD50 in r",
+   "value": 1.8,
+   "reasoning_tokens": 0,
+   "completion": 124,
+   "cost": 0.03991,
+   "finish": "stop",
+   "mol_id": "Propanoic acid, 3,3'-thiobis-",
+   "truth": 1.774
+  },
+  {
+   "text": "## Analysis\n\n**Trimethyl-1,4-benzoquinone (trimethylquinone)** is a substituted ",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 690,
+   "cost": 0.05417,
+   "finish": "stop",
+   "mol_id": "2,5-Cyclohexadiene-1,4-dione, 2,3,5-trimethyl-",
+   "truth": 2.8760000000000003
+  },
+  {
+   "text": "This is a methoxy-triazine herbicide analog (similar to atrazine/methoprotryne c",
+   "value": 2.15,
+   "reasoning_tokens": 0,
+   "completion": 140,
+   "cost": 0.0405,
+   "finish": "stop",
+   "mol_id": "1,3,5-Triazine-2,4-diamine, 6-methoxy-N-methyl-N'-(1-methylethyl)- (9CI)",
+   "truth": 1.915
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** Scoparone (6,7-dimethoxycoumarin), a naturally occur",
+   "value": 2.15,
+   "reasoning_tokens": 0,
+   "completion": 729,
+   "cost": 0.0551,
+   "finish": "stop",
+   "mol_id": "Benzopyran-2-one, 6,7-dimethoxy- (9CI)",
+   "truth": 2.849
+  },
+  {
+   "text": "## Analysis\n\n**Structure**: 3-aminoindazole with a 3-morpholinopropylamino side ",
+   "value": 2.95,
+   "reasoning_tokens": 0,
+   "completion": 484,
+   "cost": 0.049,
+   "finish": "stop",
+   "mol_id": "Indazole, 3-((3-morpholinopropyl)amino)-",
+   "truth": 2.456
+  },
+  {
+   "text": "Methyl isobutyrate is a simple, low-toxicity ester (LD50 ~ several g/kg). With M",
+   "value": 1.45,
+   "reasoning_tokens": 0,
+   "completion": 91,
+   "cost": 0.039065,
+   "finish": "stop",
+   "mol_id": "Propanoic acid, 2-methyl-, methyl ester",
+   "truth": 0.805
+  },
+  {
+   "text": "Maltol \u2014 a food flavoring, low toxicity. LD50 ~1400-2400 mg/kg in rats; MW 126.1",
+   "value": 1.89,
+   "reasoning_tokens": 0,
+   "completion": 87,
+   "cost": 0.03901,
+   "finish": "stop",
+   "mol_id": "4H-Pyran-4-one, 3-hydroxy-2-methyl-",
+   "truth": 1.952
+  },
+  {
+   "text": "<thinking>\nO,O-diethyl O-isopropyl phosphorothioate. This is not an anticholines",
+   "value": 2.4,
+   "reasoning_tokens": 0,
+   "completion": 471,
+   "cost": 0.04866,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-diethyl O-(1-methylethyl) ester",
+   "truth": 2.327
+  },
+  {
+   "text": "Lidocaine: LD50 oral rat ~317 mg/kg; MW 234.3 \u2192 317/234.3 = 1.353 mmol/kg \u2192 -log",
+   "value": 2.87,
+   "reasoning_tokens": 0,
+   "completion": 76,
+   "cost": 0.03883,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-(diethylamino)-N-(2,6-dimethylphenyl)-",
+   "truth": 2.869
+  },
+  {
+   "text": "# Analysis\n\nThis molecule is a tetrahydro-benzopyrano-pyridinone (a coumarin-fus",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 527,
+   "cost": 0.05028,
+   "finish": "stop",
+   "mol_id": "5H-(1)Benzopyrano(3,4-c)pyridin-5-one, 1,2,3,4-tetrahydro-3-(2-(ethylamino)propyl)-",
+   "truth": 2.98
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n1-Chloropropene is a small volatile halogenated alken",
+   "value": 2.05,
+   "reasoning_tokens": 0,
+   "completion": 326,
+   "cost": 0.04488,
+   "finish": "stop",
+   "mol_id": "1-Propene, 1-chloro-",
+   "truth": 1.594
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a dialkylnitrosamine. Nitrosamines in the tra",
+   "value": 2.7,
+   "reasoning_tokens": 0,
+   "completion": 275,
+   "cost": 0.04373,
+   "finish": "stop",
+   "mol_id": "N-Nitroso(2,2,2-trifluoroethyl)ethylamine",
+   "truth": 2.211
+  },
+  {
+   "text": "## Analysis\n\nThis is a complex organophosphorus flame retardant-type compound (c",
+   "value": 1.2,
+   "reasoning_tokens": 0,
+   "completion": 703,
+   "cost": 0.054935,
+   "finish": "stop",
+   "mol_id": "Phosphonic acid, (1-(((2-chloroethoxy)(2-chloroethyl)phosphinyl)oxy)ethyl)-, 1-(bis(2-chloroethoxy)phosphinyl)ethyl 2-chloroethyl ester",
+   "truth": 2.3480000000000003
+  },
+  {
+   "text": "**Analysis**\n\nThis is a dibenzosuberane-type amine (related to tricyclic antidep",
+   "value": 3.1,
+   "reasoning_tokens": 0,
+   "completion": 259,
+   "cost": 0.04346,
+   "finish": "stop",
+   "mol_id": "5H-Dibenzo(a,d)cyclohepten-10-amine, 10,11-dihydro-N-isopropyl-",
+   "truth": 2.701
+  },
+  {
+   "text": "## Analysis\n\nThe molecule is 2-(4-methylbenzylamino)-2-thiazoline, a 2-aminothia",
+   "value": 3.15,
+   "reasoning_tokens": 0,
+   "completion": 457,
+   "cost": 0.048305,
+   "finish": "stop",
+   "mol_id": "2-Thiazoline, 2-((p-methylbenzyl)amino)-",
+   "truth": 3.013
+  },
+  {
+   "text": "# Analysis\n\n**Thioacetanilide (N-phenylethanethioamide, CC(=S)Nc1ccccc1)**, MW \u2248",
+   "value": 2.63,
+   "reasoning_tokens": 0,
+   "completion": 593,
+   "cost": 0.05161,
+   "finish": "stop",
+   "mol_id": "Ethanethioamide, N-phenyl-",
+   "truth": 1.759
+  },
+  {
+   "text": "Looking at this molecule: a quinazolinone-pyrazole carboxylate ester, structural",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 388,
+   "cost": 0.046855,
+   "finish": "stop",
+   "mol_id": "Pyrazole-4-carboxylic acid, 5-(3,4-dihydro-2-ethyl-4-oxoquinazolin-3-yl)-1-methyl-, ethyl ester",
+   "truth": 2.252
+  },
+  {
+   "text": "# Analysis\n\nThis compound is the sulfoxide oxime related to **thiofanox** metabo",
+   "value": 3.2,
+   "reasoning_tokens": 0,
+   "completion": 503,
+   "cost": 0.04949,
+   "finish": "stop",
+   "mol_id": "2-Butanone, 3,3-dimethyl-1-(methylsulfinyl)-, oxime",
+   "truth": 1.948
+  },
+  {
+   "text": "## Analysis\n\nThis molecule is a thiazolidine carboxylic acid derivative bearing ",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 552,
+   "cost": 0.05098,
+   "finish": "stop",
+   "mol_id": "4-Thiazolidinecarboxylic acid, 3-(1-(p-chlorophenoxy)cyclohexylcarbonyl)-5,5-dimethyl-",
+   "truth": 1.961
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** Pentafluorobenzyl alcohol (MW \u2248 198).\n\n**Reasoning:*",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 428,
+   "cost": 0.047605,
+   "finish": "stop",
+   "mol_id": "Benzenemethanol, 2,3,4,5,6-pentafluoro- (9CI)",
+   "truth": 2.343
+  },
+  {
+   "text": "**Analysis**\n\nGlyoxime (ethanedial dioxime, C\u2082H\u2084N\u2082O\u2082, MW = 88.07 g/mol) is a sma",
+   "value": 2.5,
+   "reasoning_tokens": 0,
+   "completion": 352,
+   "cost": 0.045525,
+   "finish": "stop",
+   "mol_id": "Ethanedial, dioxime",
+   "truth": 2.869
+  },
+  {
+   "text": "**Analysis**\n\nThis molecule is a nitrosamine derivative of a 2,4-diaminoquinazol",
+   "value": 3.55,
+   "reasoning_tokens": 0,
+   "completion": 378,
+   "cost": 0.04663,
+   "finish": "stop",
+   "mol_id": "2,4,6-Quinazolinetriamine, N(sup 6)-((3,4-dichlorophenyl)methyl)-N(sup 6)-nitroso- (9CI)",
+   "truth": 3.059
+  },
+  {
+   "text": "2,4-DB esters have moderate toxicity; LD50 around 700-1000 mg/kg. MW \u2248 305. 700 ",
+   "value": 2.64,
+   "reasoning_tokens": 0,
+   "completion": 80,
+   "cost": 0.038955,
+   "finish": "stop",
+   "mol_id": "Butyric acid, 4-(2,4-dichlorophenoxy)-, isobutyl ester",
+   "truth": 3.007
+  },
+  {
+   "text": "Butyrylperazine-type phenothiazine neuroleptic. MW ~409; typical rat oral LD50 ~",
+   "value": 3.1,
+   "reasoning_tokens": 0,
+   "completion": 89,
+   "cost": 0.03935,
+   "finish": "stop",
+   "mol_id": "1-Butanone, 1-(10-(3-(4-methyl-1-piperazinyl)propyl)-10H-phenothiazin-2-yl)-",
+   "truth": 2.834
+  },
+  {
+   "text": "Divinyl sulfone is a highly reactive bifunctional Michael acceptor / alkylating ",
+   "value": 3.47,
+   "reasoning_tokens": 0,
+   "completion": 196,
+   "cost": 0.0417,
+   "finish": "stop",
+   "mol_id": "Ethene, 1,1'-sulfonylbis-",
+   "truth": 3.567
+  },
+  {
+   "text": "Small heteroaromatic ester, moderate toxicity expected. Similar simple esters/he",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 60,
+   "cost": 0.03844,
+   "finish": "stop",
+   "mol_id": "3-Isoxazolecarboxylic acid, 4-acetyl-5-methyl-, ethyl ester",
+   "truth": 2.295
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a hydantoin derivative (3-ethyl-5-phenylhydan",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 220,
+   "cost": 0.0424,
+   "finish": "stop",
+   "mol_id": "2,4-Imidazolidinedione, 3-ethyl-5-phenyl-",
+   "truth": 2.134
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** Methyl vinyl sulfone (C=CS(C)(=O)=O, MW \u2248 106).\n\n**K",
+   "value": 3.3,
+   "reasoning_tokens": 0,
+   "completion": 604,
+   "cost": 0.0519,
+   "finish": "stop",
+   "mol_id": "Ethene, (methylsulfonyl)- (9CI)",
+   "truth": 2.27
+  },
+  {
+   "text": "# Analysis\n\nThis molecule is a ranitidine-like H2 receptor antagonist (nitrometh",
+   "value": 0.0026,
+   "reasoning_tokens": 0,
+   "completion": 254,
+   "cost": 0.04359,
+   "finish": "stop",
+   "mol_id": "1-Piperazinemethanamine, N-(2-(((5-((dimethylamino)methyl)-2-furanyl)methyl)thio)ethyl)-4-methyl-alpha-(nitromethylene)-",
+   "truth": 1.843
+  },
+  {
+   "text": "**Analysis**\n\nThis is nuarimol/flutriafol-like \u2014 actually it's **triflumizole**?",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 411,
+   "cost": 0.047355,
+   "finish": "stop",
+   "mol_id": "5-Pyrimidinemethanol, alpha-(1-methylethyl)-alpha-(4-(trifluoromethoxy)phenyl)-",
+   "truth": 2.644
+  },
+  {
+   "text": "# Analysis\n\nN-(3,5-dichlorophenyl)succinimide is the core structure of dicarboxi",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 383,
+   "cost": 0.046475,
+   "finish": "stop",
+   "mol_id": "Succinimide, N-(3,5-dichlorophenyl)-",
+   "truth": 2.438
+  },
+  {
+   "text": "# Analysis\n\n**Structure:** 1,2-Diethyldiaziridine (CCN1CN1CC) \u2014 a small three-me",
+   "value": 2.7,
+   "reasoning_tokens": 0,
+   "completion": 826,
+   "cost": 0.0574,
+   "finish": "stop",
+   "mol_id": "1,2-Diethyldiaziridine",
+   "truth": 1.399
+  },
+  {
+   "text": "## Analysis\n\nThis is a pyridazinone organophosphate (pyridaphenthion-like/\"pyrid",
+   "value": 2.95,
+   "reasoning_tokens": 0,
+   "completion": 571,
+   "cost": 0.051445,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(1-butyl-1,6-dihydro-5-methoxy-6-oxo-4-pyridazinyl) O-ethyl O-(1-methylethyl) ester",
+   "truth": 4.218999999999999
+  },
+  {
+   "text": "**Analysis**\n\nThis is an organophosphorus compound (ethyl phosphonothioate, O,S-",
+   "value": 0.00027,
+   "reasoning_tokens": 0,
+   "completion": 365,
+   "cost": 0.04598,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, ethyl-, O,S-dipropyl ester",
+   "truth": 5.0680000000000005
+  },
+  {
+   "text": "**Analysis**\n\nThis is an organophosphate (a phosphorothiolate, S-aryl ester) wit",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 361,
+   "cost": 0.046045,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-diethyl S-pentachlorophenyl ester",
+   "truth": 2.656
+  },
+  {
+   "text": "## Analysis\n\nThis molecule is an adamantane-1-carboxylate ester of the enol form",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 495,
+   "cost": 0.049715,
+   "finish": "stop",
+   "mol_id": "Tricyclo(3.3.1.1(sup 3,7))decane-1-carboxylic acid, 2,5-dihydro-4-butyl-1,2-diphenyl-5-oxo-1H-pyrazol-3-yl ester",
+   "truth": 2.443
+  },
+  {
+   "text": "**Analysis**\n\nThe compound is a sulfonyl carbamate \u2014 this is the herbicide/plant",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 317,
+   "cost": 0.045025,
+   "finish": "stop",
+   "mol_id": "Carbamic acid, (3-benzoylphenyl)((trifluoromethyl)sulfonyl)-, ethyl ester",
+   "truth": 1.931
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a simple benzodioxane carboxylic acid propyl ",
+   "value": 1.95,
+   "reasoning_tokens": 0,
+   "completion": 196,
+   "cost": 0.041855,
+   "finish": "stop",
+   "mol_id": "1,4-Benzodioxin-2-carboxylic acid, 2,3-dihydro-, propyl ester (9CI)",
+   "truth": 1.475
+  },
+  {
+   "text": "## Analysis\n\nThis molecule is **pronamide-like**? Actually, it's a benzamide her",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 566,
+   "cost": 0.051065,
+   "finish": "stop",
+   "mol_id": "Benzamide, 5-amino-N-butyl-2-(2-propynyloxy)-",
+   "truth": 2.455
+  },
+  {
+   "text": "Triethyl trithiophosphite \u2014 related to organophosphorus compounds but a phosphit",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 583,
+   "cost": 0.051355,
+   "finish": "stop",
+   "mol_id": "Phosphorotrithious acid, triethyl ester",
+   "truth": 2.781
+  },
+  {
+   "text": "**Analysis**\n\nN-Nitrosodicyclohexylamine \u2014 a dialkylnitrosamine. Nitrosamines ar",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 295,
+   "cost": 0.044275,
+   "finish": "stop",
+   "mol_id": "Cyclohexanamine, N-cyclohexyl-N-nitroso- (9CI)",
+   "truth": 1.624
+  },
+  {
+   "text": "**Analysis**\n\nThis is a phosphorodithioate ester with no leaving group like nitr",
+   "value": 0.000586,
+   "reasoning_tokens": 0,
+   "completion": 333,
+   "cost": 0.045175,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,S,S-tripropyl ester",
+   "truth": 3.298
+  },
+  {
+   "text": "Large sulfonated dye intermediate \u2014 poorly absorbed, low toxicity. LD50 likely >",
+   "value": 1.2,
+   "reasoning_tokens": 0,
+   "completion": 115,
+   "cost": 0.039965,
+   "finish": "stop",
+   "mol_id": "2-Naphthalenesulfonic acid, 5,6'-iminobis(1-hydroxy-",
+   "truth": 1.6230000000000002
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a bis-amide of isophthalic acid with 3-pyridy",
+   "value": 2.0,
+   "reasoning_tokens": 0,
+   "completion": 274,
+   "cost": 0.0439,
+   "finish": "stop",
+   "mol_id": "1,3-Benzenedicarboxamide, N,N'-bis(3-pyridinylmethyl)-4-methoxy-",
+   "truth": 2.099
+  },
+  {
+   "text": "MCPA isooctyl ester: LD50 ~700-900 mg/kg in rats, MW ~ 298.8. 800 mg/kg \u2192 0.0026",
+   "value": 2.57,
+   "reasoning_tokens": 0,
+   "completion": 78,
+   "cost": 0.038935,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (4-chloro-2-methylphenoxy)-, isooctyl ester (9CI)",
+   "truth": 2.65
+  },
+  {
+   "text": "**Molecule: Clonidine**\n\nClonidine is a centrally acting \u03b12-adrenergic agonist w",
+   "value": 2.9,
+   "reasoning_tokens": 0,
+   "completion": 267,
+   "cost": 0.043625,
+   "finish": "stop",
+   "mol_id": "1H-Imidazol-2-amine, N-(2,6-dichlorophenyl)-4,5-dihydro-",
+   "truth": 3.1660000000000004
+  },
+  {
+   "text": "**Analysis**\n\nThis molecule is a 4-phenylpiperidine-4-carboxylic acid ethyl este",
+   "value": 3.3,
+   "reasoning_tokens": 0,
+   "completion": 357,
+   "cost": 0.045965,
+   "finish": "stop",
+   "mol_id": "1-(2-Benzyloxyethyl)-4-phenylpiperidine-4-carboxylic acid ethyl ester",
+   "truth": 3.112
+  },
+  {
+   "text": "<thinking>This is a primary amine, amphetamine-like (propylhexedrine analog with",
+   "value": 0.001058,
+   "reasoning_tokens": 0,
+   "completion": 375,
+   "cost": 0.04628,
+   "finish": "stop",
+   "mol_id": "Cyclohexanemethylamine, alpha-methyl-4-phenyl-, (E)-",
+   "truth": 2.469
+  },
+  {
+   "text": "## Analysis\n\nThis is an organophosphate phosphorodithioate ester with a nitroben",
+   "value": 3.6,
+   "reasoning_tokens": 0,
+   "completion": 512,
+   "cost": 0.049765,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-m-nitrobenzyl ester",
+   "truth": 3.109
+  },
+  {
+   "text": "Looking at nitrobenzene derivatives: 4-nitrophenol (2.745), 4-fluoro-3-nitroanil",
+   "value": 2.65,
+   "reasoning_tokens": 0,
+   "completion": 239,
+   "cost": 0.04282,
+   "finish": "stop",
+   "mol_id": "Benzene, 2,4-difluoro-1-nitro-",
+   "truth": 2.901
+  },
+  {
+   "text": "**Prediction reasoning:** Isoamyl benzoate is a low-toxicity fragrance ester (LD",
+   "value": 1.58,
+   "reasoning_tokens": 0,
+   "completion": 104,
+   "cost": 0.03945,
+   "finish": "stop",
+   "mol_id": "Isopentyl alcohol, benzoate (6CI,8CI)",
+   "truth": 1.482
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nDihydrocoumarin (3,4-dihydro-2H-1-benzopyran-2-one) i",
+   "value": 1.97,
+   "reasoning_tokens": 0,
+   "completion": 161,
+   "cost": 0.040865,
+   "finish": "stop",
+   "mol_id": "2H-1-Benzopyran-2-one, 3,4-dihydro-",
+   "truth": 2.006
+  },
+  {
+   "text": "<reasoning>This is a glycol ether type solvent (dipropylene glycol methyl ether-",
+   "value": 1.47,
+   "reasoning_tokens": 0,
+   "completion": 256,
+   "cost": 0.04323,
+   "finish": "stop",
+   "mol_id": "Propanol, 1(or 2)-(2-methoxymethylethoxy)-",
+   "truth": 1.46
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is an azo compound: 2-(tert-butylazo)-2-propanol (MW \u2248 ",
+   "value": 2.65,
+   "reasoning_tokens": 0,
+   "completion": 242,
+   "cost": 0.042905,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 2-((1-dimethylethyl)azo)-",
+   "truth": 2.642
+  },
+  {
+   "text": "**Prediction reasoning:** 1-Phenyl-1,2-propanedione 2-oxime (isonitrosopropiophe",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 191,
+   "cost": 0.04163,
+   "finish": "stop",
+   "mol_id": "1,2-Propanedione, 1-phenyl-, 2-oxime",
+   "truth": 1.585
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a simple aryloxy-pyridazine, lacking reactive",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 255,
+   "cost": 0.043205,
+   "finish": "stop",
+   "mol_id": "Pyridazine, 3-(2-methylphenoxy)-",
+   "truth": 1.78
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** Methyl(1-phenylethyl)benzene \u2014 a simple alkylated bi",
+   "value": 1.7,
+   "reasoning_tokens": 0,
+   "completion": 438,
+   "cost": 0.047775,
+   "finish": "stop",
+   "mol_id": "Benzene, methyl(1-phenylethyl)-",
+   "truth": 2.05
+  },
+  {
+   "text": "## Analysis\n\nThe molecule is a trimellitic acid monoester with a 2-hydroxyethyl ",
+   "value": 2.05,
+   "reasoning_tokens": 0,
+   "completion": 606,
+   "cost": 0.052235,
+   "finish": "stop",
+   "mol_id": "1,2,4-Benzenetricarboxylic acid, 1-(2-((1-oxo-2-propenyl)oxy)ethyl) ester",
+   "truth": 1.985
+  },
+  {
+   "text": "## Analysis\n\n**Molecule:** 4-Fluoroaniline (MW 111.1)\n\n**Reasoning:**\n- Aniline ",
+   "value": 0.00135,
+   "reasoning_tokens": 0,
+   "completion": 351,
+   "cost": 0.045555,
+   "finish": "stop",
+   "mol_id": "Aniline, p-fluoro- (8CI)",
+   "truth": 2.426
+  },
+  {
+   "text": "## Analysis\n\nThe molecule is 4,4'-dimethyldiphenylmethane (ditolylmethane), a si",
+   "value": 1.75,
+   "reasoning_tokens": 0,
+   "completion": 448,
+   "cost": 0.048085,
+   "finish": "stop",
+   "mol_id": "Benzene, 1,1'-methylenebis(methyl- (9CI)",
+   "truth": 1.713
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n4-Amino-3-methylbenzophenone is an aromatic amine ket",
+   "value": 2.4,
+   "reasoning_tokens": 0,
+   "completion": 251,
+   "cost": 0.043125,
+   "finish": "stop",
+   "mol_id": "Benzophenone, 4-amino-3-methyl-",
+   "truth": 2.48
+  },
+  {
+   "text": "# Analysis\n\nThis is chlorpyrifos-oxon analog (the oxon form of chlorpyrifos, but",
+   "value": 3.8,
+   "reasoning_tokens": 0,
+   "completion": 371,
+   "cost": 0.046285,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, diethyl 3,5,6-trichloro-2-pyridinyl ester (9CI)",
+   "truth": 3.394
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a phenothiazine with a 3-(morpholin-4-yl)propyl side",
+   "value": 3.15,
+   "reasoning_tokens": 0,
+   "completion": 336,
+   "cost": 0.04536,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(3-(4-morpholinyl)propyl)-",
+   "truth": 2.514
+  },
+  {
+   "text": "# Analysis\n\nThis molecule is a bisphosphonate-type organophosphate \u2014 specificall",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 723,
+   "cost": 0.055115,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, (4-chlorophenyl)(dimethoxyphosphinyl)methyl dimethyl ester",
+   "truth": 2.05
+  },
+  {
+   "text": "Allyl acetate: MW 100.12. Reported oral LD50 rat ~130 mg/kg \u2192 1.3 mmol/kg... let",
+   "value": 0.0013,
+   "reasoning_tokens": 0,
+   "completion": 152,
+   "cost": 0.040565,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2-propenyl ester",
+   "truth": 2.887
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a benzothiazolinone-acetyl piperazine derivat",
+   "value": 2.47,
+   "reasoning_tokens": 0,
+   "completion": 180,
+   "cost": 0.041605,
+   "finish": "stop",
+   "mol_id": "1-Piperazineethanol, 4-((5-chloro-2-oxo-3(2H)-benzothiazolyl)acetyl)- (9CI)",
+   "truth": 1.995
+  },
+  {
+   "text": "## Analysis\n\nThis is niceritrol-like compound (actually it's a nicotinic acid te",
+   "value": 1.9,
+   "reasoning_tokens": 0,
+   "completion": 491,
+   "cost": 0.049505,
+   "finish": "stop",
+   "mol_id": "Nicotinic acid, 1,1,3,3-tetraester with 2-hydroxy-1,1,3,3-cyclohexanetetramethanol",
+   "truth": 1.807
+  },
+  {
+   "text": "## Analysis\n\nThe molecule is a Mannich-base derivative of a 3,3-diethyl-2,4-diox",
+   "value": 2.8,
+   "reasoning_tokens": 0,
+   "completion": 585,
+   "cost": 0.05167,
+   "finish": "stop",
+   "mol_id": "2,4(1H,3H)-Pyridinedione, 3,3-diethyl-1-(4-morpholinylmethyl)- (9CI)",
+   "truth": 2.135
+  },
+  {
+   "text": "**Analysis**\n\nThis molecule is benzquinamide, a benzoquinolizine antiemetic/anti",
+   "value": 2.7,
+   "reasoning_tokens": 0,
+   "completion": 268,
+   "cost": 0.044055,
+   "finish": "stop",
+   "mol_id": "2H-Benzo(a)quinolizine-3-carboxamide, 2-(acetyloxy)-N,N-diethyl-1,3,4,6,7,11b-hexahydro-9,10-dimethoxy-, (2alpha,3beta,11balpha)- (9CI)",
+   "truth": 2.5860000000000003
+  },
+  {
+   "text": "**Analysis**\n\nThe molecule is a pyrazole-1-carboxamide with a 6-chlorohexyl grou",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 232,
+   "cost": 0.04275,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazole-1-carboxamide, N-(6-chlorohexyl)-3-methyl-",
+   "truth": 1.6669999999999998
+  },
+  {
+   "text": "N,N'-Diphenyl-p-phenylenediamine (DPPD) is a low-toxicity antioxidant; reported ",
+   "value": 1.85,
+   "reasoning_tokens": 0,
+   "completion": 159,
+   "cost": 0.04088,
+   "finish": "stop",
+   "mol_id": "1,4-Benzenediamine, N,N'-diphenyl-",
+   "truth": 2.041
+  },
+  {
+   "text": "Looking at the structure: a chlorinated benzoxazole with an acetamide side chain",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 212,
+   "cost": 0.0422,
+   "finish": "stop",
+   "mol_id": "2-Benzoxazoleacetamide, 5-chloro- (9CI)",
+   "truth": 2.448
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a thiocarbamate ester (similar to the herbici",
+   "value": 2.44,
+   "reasoning_tokens": 0,
+   "completion": 185,
+   "cost": 0.04158,
+   "finish": "stop",
+   "mol_id": "1-Piperidinecarbothioic acid, S-(1-methyl-1-phenylethyl) ester",
+   "truth": 2.445
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a **carbamate oxime insecticide** \u2014 structurally an ",
+   "value": 2.46e-05,
+   "reasoning_tokens": 0,
+   "completion": 599,
+   "cost": 0.05196,
+   "finish": "stop",
+   "mol_id": "Ethanimidothioic acid, N-(((methylamino)carbonyl)oxy)-, 2-amino-2-oxoethyl ester",
+   "truth": 3.559
+  },
+  {
+   "text": "Alkyl-substituted anilines typically have LD50 around 500-1000 mg/kg. MW = 135.2",
+   "value": 0.00518,
+   "reasoning_tokens": 0,
+   "completion": 97,
+   "cost": 0.039225,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2-ethyl-6-methyl-",
+   "truth": 2.184
+  },
+  {
+   "text": "**Prediction reasoning:** Glycidoxypropyltrimethoxysilane (GPTMS) is a low-toxic",
+   "value": 1.52,
+   "reasoning_tokens": 0,
+   "completion": 105,
+   "cost": 0.03952,
+   "finish": "stop",
+   "mol_id": "Silane, trimethoxy(3-(oxiranylmethoxy)propyl)-",
+   "truth": 1.012
+  },
+  {
+   "text": "# Analysis\n\nThis molecule is a bis-carbamate/sulfenamide derivative related to o",
+   "value": 3.95,
+   "reasoning_tokens": 0,
+   "completion": 742,
+   "cost": 0.05592,
+   "finish": "stop",
+   "mol_id": "6,11-Dioxa-3-thia-2,4,7,10-tetraazadodeca-7,9-dienoic acid, 8-((dimethylamino)carbonyl)-5-oxo-2,4,9-trimethyl-, 1-naphthalenyl ester",
+   "truth": 3.4730000000000003
+  },
+  {
+   "text": "**Analysis:**\n\n9-Chlorononanoic acid is a long-chain aliphatic carboxylic acid w",
+   "value": 2.3,
+   "reasoning_tokens": 0,
+   "completion": 295,
+   "cost": 0.044165,
+   "finish": "stop",
+   "mol_id": "Nonanoic acid, 9-chloro-",
+   "truth": 1.808
+  },
+  {
+   "text": "This is loperamide N-oxide, a prodrug/metabolite of loperamide. Loperamide oral ",
+   "value": 3.0,
+   "reasoning_tokens": 0,
+   "completion": 301,
+   "cost": 0.04484,
+   "finish": "stop",
+   "mol_id": "1-Piperidinebutanamide, 4-(4-chlorophenyl)-4-hydroxy-N,N-dimethyl-alpha,alpha-diphenyl-, 1-oxide, (E)-",
+   "truth": 3.457
+  },
+  {
+   "text": "**Analysis**\n\nThis is oxodipine, a dihydropyridine calcium channel blocker. In t",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 410,
+   "cost": 0.047455,
+   "finish": "stop",
+   "mol_id": "3,5-Pyridinedicarboxylic acid, 1,4-dihydro-4-(1,3-benzodioxol-4-yl)-2,6-dimethyl-, ethyl methyl ester",
+   "truth": 2.514
+  },
+  {
+   "text": "**Analysis**\n\nThis is thioridazine, a phenothiazine antipsychotic. Rat oral LD50",
+   "value": 2.8,
+   "reasoning_tokens": 0,
+   "completion": 234,
+   "cost": 0.042905,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(2-(1-methyl-2-piperidinyl)ethyl)-2-(methylthio)-",
+   "truth": 2.571
+  },
+  {
+   "text": "Given the o-tolyl isocyanate value of 1.92, the para isomer should be very simil",
+   "value": 1.95,
+   "reasoning_tokens": 0,
+   "completion": 40,
+   "cost": 0.037845,
+   "finish": "stop",
+   "mol_id": "Isocyanic acid, p-tolyl ester (7CI,8CI)",
+   "truth": 1.92
+  },
+  {
+   "text": "**Reasoning:**\n\nThis is a substituted phenol \u2014 6-tert-butyl-3,4-xylenol. Compara",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 246,
+   "cost": 0.043005,
+   "finish": "stop",
+   "mol_id": "3,4-Xylenol, 6-tert-butyl-",
+   "truth": 2.238
+  },
+  {
+   "text": "**Prediction reasoning:** This is a simple substituted salicylamide derivative (",
+   "value": 2.08,
+   "reasoning_tokens": 0,
+   "completion": 147,
+   "cost": 0.04054,
+   "finish": "stop",
+   "mol_id": "Benzamide, 5-acetyl-2-hydroxy-",
+   "truth": 2.023
+  },
+  {
+   "text": "**Reasoning:**\n\nThe molecule is a benzyl alcohol with an imidazolylethoxy substi",
+   "value": 2.5,
+   "reasoning_tokens": 0,
+   "completion": 223,
+   "cost": 0.042495,
+   "finish": "stop",
+   "mol_id": "Benzenemethanol, 4-(2-(1H-imidazol-1-yl)ethoxy)-",
+   "truth": 1.652
+  },
+  {
+   "text": "## Analysis\n\nThis molecule is a **methomyl-derived pro-insecticide** (a sulfenyl",
+   "value": 4.13,
+   "reasoning_tokens": 0,
+   "completion": 730,
+   "cost": 0.055565,
+   "finish": "stop",
+   "mol_id": "Ethanimidothioic acid, N-((5-ethoxy-2-methyl-4-(1-methylethyl)-1-oxo-6-oxa-3-thia-2,4-diaza-5-phosphaoct-1-yl)oxy)-, methyl ester, P-oxide",
+   "truth": 3.588
+  },
+  {
+   "text": "## Analysis\n\nThe molecule is a halogenated 2-(trifluoromethyl)benzimidazole with",
+   "value": 4.5,
+   "reasoning_tokens": 0,
+   "completion": 462,
+   "cost": 0.048625,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4-(dimethylamino)-5,6,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.178999999999999
+  },
+  {
+   "text": "**Analysis**\n\nThis is prothiofos-related \u2014 actually it's the oxon-type analog (P",
+   "value": 0.00096,
+   "reasoning_tokens": 0,
+   "completion": 439,
+   "cost": 0.047965,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2,4-dichlorophenyl) O-ethyl S-propyl ester",
+   "truth": 3.012
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** A halogenated ketone, 1,3-dichlorotetrafluoroacetone",
+   "value": 3.15,
+   "reasoning_tokens": 0,
+   "completion": 724,
+   "cost": 0.055025,
+   "finish": "stop",
+   "mol_id": "2-Propanone, 1,1,3-trichloro-1,3,3-trifluoro-",
+   "truth": 2.891
+  },
+  {
+   "text": "Glycidyl oleate \u2014 a long-chain fatty acid ester, low toxicity, high MW (~338 g/m",
+   "value": 1.3,
+   "reasoning_tokens": 0,
+   "completion": 114,
+   "cost": 0.0398,
+   "finish": "stop",
+   "mol_id": "9-Octadecenoic acid (Z)-, oxiranylmethyl ester (9CI)",
+   "truth": 1.983
+  },
+  {
+   "text": "Hexachloroacetone: LD50 oral rat ~ 500-1000 mg/kg? Reported LD50 rat oral ~ 0.9 ",
+   "value": 2.52,
+   "reasoning_tokens": 0,
+   "completion": 104,
+   "cost": 0.03953,
+   "finish": "stop",
+   "mol_id": "2-Propanone, 1,1,1,3,3,3-hexachloro-",
+   "truth": 3.043
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a 2-imino-benzoxazoline (cyclic isourea-type)",
+   "value": 3.09,
+   "reasoning_tokens": 0,
+   "completion": 289,
+   "cost": 0.044105,
+   "finish": "stop",
+   "mol_id": "Benzoxazoline, 5-chloro-2-imino-3-methyl-",
+   "truth": 2.262
+  },
+  {
+   "text": "**Prediction reasoning:** Glyoxal tetrabutyl acetal \u2014 a large, lipophilic, non-r",
+   "value": 1.75,
+   "reasoning_tokens": 0,
+   "completion": 140,
+   "cost": 0.040505,
+   "finish": "stop",
+   "mol_id": "Butane, 1,1',1'',1'''-(1,2-ethanediylidenetetrakis(oxy))tetrakis- (9CI)",
+   "truth": 1.554
+  },
+  {
+   "text": "2-Methylcyclohexanone is a simple ketone solvent with low acute oral toxicity (L",
+   "value": 1.75,
+   "reasoning_tokens": 0,
+   "completion": 104,
+   "cost": 0.039365,
+   "finish": "stop",
+   "mol_id": "Cyclohexanone, 2-methyl-",
+   "truth": 1.719
+  },
+  {
+   "text": "# Analysis\n\nThis is a cytochalasin-type mycotoxin (cytochalasin-like macrolide w",
+   "value": 1e-05,
+   "reasoning_tokens": 0,
+   "completion": 266,
+   "cost": 0.044045,
+   "finish": "stop",
+   "mol_id": "21,23-Dioxa(13)cytochalasa-13,19-diene-1,17,22-trione, 6,7-epoxy-18-hydroxy-16,18-dimethyl-10-phenyl-, (7S,13E,16S,18R,19E)-",
+   "truth": 4.736000000000001
+  },
+  {
+   "text": "Methyl 2-chloroacrylate \u2014 a reactive acrylate ester, moderately toxic. Similar s",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 127,
+   "cost": 0.040025,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 2-chloro-, methyl ester (9CI)",
+   "truth": 3.249
+  },
+  {
+   "text": "**Analysis:**\n\nThis molecule is an ergoline alkaloid derivative (related to lerg",
+   "value": 3.05,
+   "reasoning_tokens": 0,
+   "completion": 412,
+   "cost": 0.04731,
+   "finish": "stop",
+   "mol_id": "(alpha-RS)-alpha-Cyano-6-methylergoline-8beta-propionamide",
+   "truth": 2.508
+  },
+  {
+   "text": "<thinking>This is mesoridazine, a phenothiazine antipsychotic. LD50 oral rat for",
+   "value": 0.00088,
+   "reasoning_tokens": 0,
+   "completion": 407,
+   "cost": 0.04726,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(2-(1-methyl-2-piperidinyl)ethyl)-2-(methylsulfinyl)-",
+   "truth": 2.778
+  },
+  {
+   "text": "**Analysis**\n\nThe molecule is 1,1-dimethylprop-2-ynylamine (2-methyl-3-butyn-2-a",
+   "value": 2.52,
+   "reasoning_tokens": 0,
+   "completion": 418,
+   "cost": 0.047305,
+   "finish": "stop",
+   "mol_id": "2-Propynylamine, 1,1-dimethyl- (6CI,7CI,8CI)",
+   "truth": 1.7519999999999998
+  },
+  {
+   "text": "Fluoxetine. Rat oral LD50 ~452 mg/kg; MW 309.3 \u2192 452/309300 = 1.46e-3 mol/kg \u2192 -",
+   "value": 0.00146,
+   "reasoning_tokens": 0,
+   "completion": 74,
+   "cost": 0.03888,
+   "finish": "stop",
+   "mol_id": "Benzenepropanamine, N-methyl-gamma-(4-(trifluoromethyl)phenoxy)-, (+-)-",
+   "truth": 2.574
+  },
+  {
+   "text": "**Reasoning:**\n\nThis is nonachlor (a chlordane-related compound), MW \u2248 444. Chlo",
+   "value": 0.00056,
+   "reasoning_tokens": 0,
+   "completion": 258,
+   "cost": 0.043885,
+   "finish": "stop",
+   "mol_id": "4,7-Methano-1H-indene, 1,2,3,4,5,6,7,8,8-nonachlor-2,3,3a,4,7,7a-hexahydro-, (1-alpha,2-beta,3-alpha,3a-alpha,4-beta,7-beta,7a-alpha)-",
+   "truth": 2.949
+  },
+  {
+   "text": "<thinking>\nThis is phosalone-like... Actually \"Phosphorodithioic acid, O,O-dieth",
+   "value": 3.5,
+   "reasoning_tokens": 0,
+   "completion": 236,
+   "cost": 0.04294,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester, S-ester with 3-(mercaptomethyl)-2-benzothiazolinone",
+   "truth": 3.543
+  },
+  {
+   "text": "<thinking>\nCinnamohydroxamic acid. Likely moderate toxicity. LD50 maybe ~1000 mg",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 377,
+   "cost": 0.04629,
+   "finish": "stop",
+   "mol_id": "2-Propenamide, N-hydroxy-3-phenyl- (9CI)",
+   "truth": 1.882
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** N-nitroso-2-methylpiperidine, a cyclic nitrosamine (",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 562,
+   "cost": 0.05087,
+   "finish": "stop",
+   "mol_id": "Piperidine, 2-methyl-N-nitroso-, R(-)-",
+   "truth": 2.33
+  },
+  {
+   "text": "# Analysis\n\n**Molecule:** 2,2'-diiodo-diacetamide, O=C(CI)NC(=O)CI (MW \u2248 367)\n\n*",
+   "value": 3.7,
+   "reasoning_tokens": 0,
+   "completion": 551,
+   "cost": 0.05057,
+   "finish": "stop",
+   "mol_id": "Diacetamide, 2,2'-diiodo-",
+   "truth": 2.735
+  },
+  {
+   "text": "# Analysis\n\nMethyltrimethoxysilane is a low-toxicity alkoxysilane. Related compo",
+   "value": 1.2,
+   "reasoning_tokens": 0,
+   "completion": 266,
+   "cost": 0.04342,
+   "finish": "stop",
+   "mol_id": "Silane, methyltrimethoxy-",
+   "truth": 1.037
+  },
+  {
+   "text": "# Analysis\n\nThis is a large azo disperse dye-like molecule (MW ~445). Such azo d",
+   "value": 2.0,
+   "reasoning_tokens": 0,
+   "completion": 211,
+   "cost": 0.042475,
+   "finish": "stop",
+   "mol_id": "Thiomorpholine, 4-(4-((2,6-dichloro-4-nitrophenyl)azo)phenyl)-, 1,1-dioxide",
+   "truth": 2.128
+  },
+  {
+   "text": "## Analysis\n\n**Ethylene glycol diformate** (O=COCCOC=O, MW = 118.09 g/mol) is a ",
+   "value": 1.9,
+   "reasoning_tokens": 0,
+   "completion": 791,
+   "cost": 0.05651,
+   "finish": "stop",
+   "mol_id": "Ethylene glycol, diformate",
+   "truth": 1.893
+  },
+  {
+   "text": "This is an organophosphate insecticide (dialifos-like / imidan analog \u2014 actually",
+   "value": 0.00042,
+   "reasoning_tokens": 0,
+   "completion": 206,
+   "cost": 0.04221,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O-ethyl, O-isopropyl ester, S-ester N-(mercaptomethyl)phthalimide",
+   "truth": 3.857
+  },
+  {
+   "text": "<thinking>\nAnalogous compound: Benzimidazole, 5-bromo-4-nitro-2-(trifluoromethyl",
+   "value": 3.4,
+   "reasoning_tokens": 0,
+   "completion": 300,
+   "cost": 0.044465,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 5-chloro-4-fluoro-2-(trifluoromethyl)-",
+   "truth": 4.62
+  },
+  {
+   "text": "**Analysis**\n\nEthylene diisothiocyanate is a bifunctional electrophile, highly r",
+   "value": 3.7,
+   "reasoning_tokens": 0,
+   "completion": 220,
+   "cost": 0.04231,
+   "finish": "stop",
+   "mol_id": "Ethane, 1,2-diisothiocyanato- (9CI)",
+   "truth": 3.11
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** Methyltris(2-ethylhexanoyloxy)silane \u2014 a silicon est",
+   "value": 1.75,
+   "reasoning_tokens": 0,
+   "completion": 650,
+   "cost": 0.053285,
+   "finish": "stop",
+   "mol_id": "Hexanoic acid, 2-ethyl-, methylsilylidyne ester",
+   "truth": 2.317
+  },
+  {
+   "text": "**Prediction reasoning:** N-acylglycine derivatives are generally low toxicity (",
+   "value": 1.85,
+   "reasoning_tokens": 0,
+   "completion": 135,
+   "cost": 0.040265,
+   "finish": "stop",
+   "mol_id": "Glycine, N-(4-chlorobenzoyl)- (9CI)",
+   "truth": 1.981
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** 1,1,3-Trimethyl-3-nitrosourea \u2014 a nitrosamide/nitros",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 487,
+   "cost": 0.04901,
+   "finish": "stop",
+   "mol_id": "Urea, 1,1,3-trimethyl-3-nitroso-",
+   "truth": 2.738
+  },
+  {
+   "text": "<reasoning>This is aldicarb-related? Actually 2-methyl-2-(methylsulfinyl)propana",
+   "value": 2.8,
+   "reasoning_tokens": 0,
+   "completion": 394,
+   "cost": 0.04673,
+   "finish": "stop",
+   "mol_id": "Propanamide, 2-methyl-2-(methylsulfinyl)- (9CI)",
+   "truth": 0.97
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a long-chain branched alkyl methacrylate ester (2-bu",
+   "value": 1.25,
+   "reasoning_tokens": 0,
+   "completion": 422,
+   "cost": 0.04741,
+   "finish": "stop",
+   "mol_id": "Methacrylic acid, 2-butyloctyl ester",
+   "truth": 0.991
+  },
+  {
+   "text": "**Analysis**\n\nThis is a phosphorothioate triester with two p-nitrophenyl leaving",
+   "value": 3.3,
+   "reasoning_tokens": 0,
+   "completion": 578,
+   "cost": 0.051505,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-bis(p-nitrophenyl) O-methyl ester",
+   "truth": 3.074
+  },
+  {
+   "text": "## Analysis\n\nThis is an organophosphorus phosphoramidothioate insecticide \u2014 stru",
+   "value": 3.8,
+   "reasoning_tokens": 0,
+   "completion": 475,
+   "cost": 0.048855,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, O-methyl O-(2,4,5-trichlorophenyl) ester",
+   "truth": 2.641
+  },
+  {
+   "text": "## Analysis\n\nThis is a vinyl phosphate organophosphate insecticide \u2014 a chlorfenv",
+   "value": 4.3,
+   "reasoning_tokens": 0,
+   "completion": 679,
+   "cost": 0.054075,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, 2,2-dichloro-1-(2,4-dichlorophenyl)ethenyl diethyl ester (9CI)",
+   "truth": 4.1160000000000005
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n4-Aminopyrazolo[3,4-d]pyrimidine (4-aminopyrazolo[3,4",
+   "value": 0.000925,
+   "reasoning_tokens": 0,
+   "completion": 166,
+   "cost": 0.04102,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazolo(3,4-d)pyrimidine, 4-amino-",
+   "truth": 2.982
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is N-ethyl-2-phenylacetamide, a simple, non-reactive am",
+   "value": 1.9,
+   "reasoning_tokens": 0,
+   "completion": 334,
+   "cost": 0.04519,
+   "finish": "stop",
+   "mol_id": "Acetamide, N-ethyl-2-phenyl- (7CI)",
+   "truth": 2.334
+  },
+  {
+   "text": "## Analysis\n\nThis is **chlorthion-oxon-like** compound \u2014 actually a diethyl phos",
+   "value": 4.35,
+   "reasoning_tokens": 0,
+   "completion": 633,
+   "cost": 0.052805,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, 3-chloro-4-nitrophenyl diethyl ester",
+   "truth": 4.792
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n2-Chlorobenzaldehyde is a moderately toxic aromatic a",
+   "value": 1.85,
+   "reasoning_tokens": 0,
+   "completion": 168,
+   "cost": 0.04098,
+   "finish": "stop",
+   "mol_id": "Benzaldehyde, 2-chloro-",
+   "truth": 1.813
+  },
+  {
+   "text": "Lethane 384 (2-thiocyanoethyl laurate) \u2014 insecticide, moderate toxicity. Rat ora",
+   "value": 2.76,
+   "reasoning_tokens": 0,
+   "completion": 147,
+   "cost": 0.04057,
+   "finish": "stop",
+   "mol_id": "Dodecanoic acid, 2-thiocyanatoethyl ester (9CI)",
+   "truth": 2.757
+  },
+  {
+   "text": "This is salicylazosulfapyridine (sulfasalazine), which has very low acute toxici",
+   "value": 1.52,
+   "reasoning_tokens": 0,
+   "completion": 122,
+   "cost": 0.04017,
+   "finish": "stop",
+   "mol_id": "Benzoic acid, 2-hydroxy-5-((4-((2-pyridinylamino)sulfonyl)phenyl)azo)-",
+   "truth": 1.4069999999999998
+  },
+  {
+   "text": "# Analysis\n\nThis is prostaglandin E2 (PGE2), a natural eicosanoid. Prostaglandin",
+   "value": 2.9,
+   "reasoning_tokens": 0,
+   "completion": 299,
+   "cost": 0.044605,
+   "finish": "stop",
+   "mol_id": "5-Heptenoic acid, 7-(3-hydroxy-2-(3-hydroxy-1-octenyl)-5-oxocyclopentyl)- (8CI)",
+   "truth": 2.8480000000000003
+  },
+  {
+   "text": "**Analysis**\n\nThe test compound is a halogenated 2-(trifluoromethyl)benzimidazol",
+   "value": 3.9,
+   "reasoning_tokens": 0,
+   "completion": 335,
+   "cost": 0.045425,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 6-bromo-5,7-dichloro-4-methyl-2-(trifluoromethyl)-",
+   "truth": 4.28
+  },
+  {
+   "text": "**Analysis**\n\nThis molecule is acemetacin \u2014 the salicylic acid ester prodrug of ",
+   "value": 3.72,
+   "reasoning_tokens": 0,
+   "completion": 287,
+   "cost": 0.044365,
+   "finish": "stop",
+   "mol_id": "Indole-3-acetic acid, 1-(p-chlorobenzoyl)-5-methoxy-2-methyl-, ester with salicylic acid",
+   "truth": 3.905
+  },
+  {
+   "text": "**Prediction reasoning:** 3,5-Dichlorobenzoyl chloride is a reactive acyl chlori",
+   "value": 2.15,
+   "reasoning_tokens": 0,
+   "completion": 175,
+   "cost": 0.041235,
+   "finish": "stop",
+   "mol_id": "Benzoyl chloride, 3,5-dichloro-",
+   "truth": 2.421
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nThis is a tropicamide-like structure (actually it IS ",
+   "value": 2.4,
+   "reasoning_tokens": 0,
+   "completion": 262,
+   "cost": 0.043575,
+   "finish": "stop",
+   "mol_id": "Benzeneacetamide, N-ethyl-alpha-(hydroxymethyl)-N-(4-pyridinylmethyl)-",
+   "truth": 2.517
+  },
+  {
+   "text": "# Analysis\n\nThe training set contains a close analog: **Benzimidazole, 5-bromo-4",
+   "value": 4.15,
+   "reasoning_tokens": 0,
+   "completion": 494,
+   "cost": 0.04937,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,6-dinitro-2-(trifluoromethyl)-",
+   "truth": 4.38
+  },
+  {
+   "text": "This is fenarimol, a fungicide with low acute oral toxicity (rat LD50 ~2500 mg/k",
+   "value": 0.00755,
+   "reasoning_tokens": 0,
+   "completion": 100,
+   "cost": 0.039525,
+   "finish": "stop",
+   "mol_id": "5-Pyrimidinemethanol, alpha-(2,4-dichlorophenyl)-alpha-phenyl-",
+   "truth": 2.742
+  },
+  {
+   "text": "**Prediction rationale:**\n\nThis compound (pyrazolynate/pyrazolate-type heterocyc",
+   "value": 1.9,
+   "reasoning_tokens": 0,
+   "completion": 333,
+   "cost": 0.045355,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 4-methoxy-2-(5-methoxy-3-methyl-1H-pyrazol-1-yl)-6-methyl-",
+   "truth": 2.721
+  }
+ ]
+}

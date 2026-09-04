@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "sol",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 8.868250124999989,
+  "timestamp": "2026-08-10T16:14:32"
+ },
+ "calls": [
+  {
+   "text": "-3.04",
+   "value": -3.04,
+   "reasoning_tokens": 2288,
+   "completion": 2298,
+   "cost": 0.04087125,
+   "finish": "stop",
+   "mol_id": "1,1,2-Trichlorotrifluoroethane",
+   "truth": -3.04
+  },
+  {
+   "text": "-6.48",
+   "value": -6.48,
+   "reasoning_tokens": 2894,
+   "completion": 2904,
+   "cost": 0.049970625,
+   "finish": "stop",
+   "mol_id": "2,2',4,5'-PCB",
+   "truth": -6.57
+  },
+  {
+   "text": "-1.05",
+   "value": -1.05,
+   "reasoning_tokens": 2120,
+   "completion": 2130,
+   "cost": 0.038316875,
+   "finish": "stop",
+   "mol_id": "Chloroethane",
+   "truth": -1.06
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.06873125,
+   "finish": "stop",
+   "mol_id": "Deoxycorticosterone",
+   "truth": -3.45
+  },
+  {
+   "text": "1.22",
+   "value": 1.22,
+   "reasoning_tokens": 5120,
+   "completion": 5129,
+   "cost": 0.083301875,
+   "finish": "stop",
+   "mol_id": "1-Propanol",
+   "truth": 0.62
+  },
+  {
+   "text": "-2.94",
+   "value": -2.94,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.05311625,
+   "finish": "stop",
+   "mol_id": "2-Chlorotoluene",
+   "truth": -3.52
+  },
+  {
+   "text": "-8.65",
+   "value": -8.65,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.053188125,
+   "finish": "stop",
+   "mol_id": "2,2',3,3',4,4',5,5'-PCB",
+   "truth": -9.16
+  },
+  {
+   "text": "1.10",
+   "value": 1.1,
+   "reasoning_tokens": 4585,
+   "completion": 4594,
+   "cost": 0.07528,
+   "finish": "stop",
+   "mol_id": "Pyridine",
+   "truth": 0.76
+  },
+  {
+   "text": "-6.95",
+   "value": -6.95,
+   "reasoning_tokens": 2560,
+   "completion": 2570,
+   "cost": 0.04497,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,6-PCB",
+   "truth": -7.43
+  },
+  {
+   "text": "-2.77",
+   "value": -2.77,
+   "reasoning_tokens": 3276,
+   "completion": 3286,
+   "cost": 0.05571625,
+   "finish": "stop",
+   "mol_id": "Metolachlor",
+   "truth": -2.73
+  },
+  {
+   "text": "-7.48",
+   "value": -7.48,
+   "reasoning_tokens": 4087,
+   "completion": 4097,
+   "cost": 0.067946875,
+   "finish": "stop",
+   "mol_id": "Cyhalothrin",
+   "truth": -8.176
+  },
+  {
+   "text": "-2.70",
+   "value": -2.7,
+   "reasoning_tokens": 2420,
+   "completion": 2430,
+   "cost": 0.04282625,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "-0.410",
+   "value": -0.41,
+   "reasoning_tokens": 1949,
+   "completion": 1959,
+   "cost": 0.035764375,
+   "finish": "stop",
+   "mol_id": "2-Pentanol",
+   "truth": -0.29
+  },
+  {
+   "text": "-3.62",
+   "value": -3.62,
+   "reasoning_tokens": 3749,
+   "completion": 3759,
+   "cost": 0.062820625,
+   "finish": "stop",
+   "mol_id": "Nitrazepam",
+   "truth": -3.796
+  },
+  {
+   "text": "-1.59",
+   "value": -1.59,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.068646875,
+   "finish": "stop",
+   "mol_id": "Iodoethane",
+   "truth": -1.6
+  },
+  {
+   "text": "-2.58",
+   "value": -2.58,
+   "reasoning_tokens": 1443,
+   "completion": 1453,
+   "cost": 0.028180625,
+   "finish": "stop",
+   "mol_id": "2-Nonanone",
+   "truth": -2.58
+  },
+  {
+   "text": "-1.05",
+   "value": -1.05,
+   "reasoning_tokens": 3536,
+   "completion": 3546,
+   "cost": 0.059575625,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-hexanol",
+   "truth": -1.08
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 3048,
+   "completion": 3058,
+   "cost": 0.05229,
+   "finish": "stop",
+   "mol_id": "Ronnel",
+   "truth": -5.72
+  },
+  {
+   "text": "-2.95",
+   "value": -2.95,
+   "reasoning_tokens": 2152,
+   "completion": 2162,
+   "cost": 0.0388125,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "-4.16",
+   "value": -4.16,
+   "reasoning_tokens": 3736,
+   "completion": 3746,
+   "cost": 0.06256625,
+   "finish": "stop",
+   "mol_id": "1-Heptene",
+   "truth": -3.73
+  },
+  {
+   "text": "-2.87",
+   "value": -2.87,
+   "reasoning_tokens": 4043,
+   "completion": 4053,
+   "cost": 0.06720875,
+   "finish": "stop",
+   "mol_id": "Metoxuron",
+   "truth": -2.564
+  },
+  {
+   "text": "-4.67",
+   "value": -4.67,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.053113125,
+   "finish": "stop",
+   "mol_id": "1-Dodecanol",
+   "truth": -4.8
+  },
+  {
+   "text": "-4.40",
+   "value": -4.4,
+   "reasoning_tokens": 3471,
+   "completion": 3481,
+   "cost": 0.058606875,
+   "finish": "stop",
+   "mol_id": "trans-1,4-Dimethylcyclohexane",
+   "truth": -4.47
+  },
+  {
+   "text": "-2.30",
+   "value": -2.3,
+   "reasoning_tokens": 4423,
+   "completion": 4433,
+   "cost": 0.072905625,
+   "finish": "stop",
+   "mol_id": "Glutethimide",
+   "truth": -2.337
+  },
+  {
+   "text": "-5.18",
+   "value": -5.18,
+   "reasoning_tokens": 5078,
+   "completion": 5088,
+   "cost": 0.082711875,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "-2.08",
+   "value": -2.08,
+   "reasoning_tokens": 5254,
+   "completion": 5264,
+   "cost": 0.08539875,
+   "finish": "stop",
+   "mol_id": "nitroglycerin",
+   "truth": -2.22
+  },
+  {
+   "text": "-6.01",
+   "value": -6.01,
+   "reasoning_tokens": 1034,
+   "completion": 1044,
+   "cost": 0.022058125,
+   "finish": "stop",
+   "mol_id": "2',3,4-PCB",
+   "truth": -6.29
+  },
+  {
+   "text": "-2.32",
+   "value": -2.32,
+   "reasoning_tokens": 5122,
+   "completion": 5132,
+   "cost": 0.083409375,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "-4.64",
+   "value": -4.64,
+   "reasoning_tokens": 3731,
+   "completion": 3741,
+   "cost": 0.062538125,
+   "finish": "stop",
+   "mol_id": "Lindane",
+   "truth": -4.64
+  },
+  {
+   "text": "-1.08",
+   "value": -1.08,
+   "reasoning_tokens": 739,
+   "completion": 749,
+   "cost": 0.017614375,
+   "finish": "stop",
+   "mol_id": "2-methylpteridine",
+   "truth": -0.12
+  },
+  {
+   "text": "-2.73",
+   "value": -2.73,
+   "reasoning_tokens": 4059,
+   "completion": 4069,
+   "cost": 0.0674175,
+   "finish": "stop",
+   "mol_id": "p-Xylene",
+   "truth": -2.77
+  },
+  {
+   "text": "-7.27",
+   "value": -7.27,
+   "reasoning_tokens": 2856,
+   "completion": 2866,
+   "cost": 0.04937875,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "1.02",
+   "value": 1.02,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.060865,
+   "finish": "stop",
+   "mol_id": "2-Hydroxypyridine",
+   "truth": 1.02
+  },
+  {
+   "text": "-1.48",
+   "value": -1.48,
+   "reasoning_tokens": 3458,
+   "completion": 3468,
+   "cost": 0.0584025,
+   "finish": "stop",
+   "mol_id": "2-Heptanol",
+   "truth": -1.55
+  },
+  {
+   "text": "-0.100",
+   "value": -0.1,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.060901875,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanone",
+   "truth": -0.12
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 2946,
+   "completion": 2956,
+   "cost": 0.050735,
+   "finish": "stop",
+   "mol_id": "1,2,4,5-Tetramethylbenzene",
+   "truth": -4.59
+  },
+  {
+   "text": "-7.40",
+   "value": -7.4,
+   "reasoning_tokens": 2515,
+   "completion": 2525,
+   "cost": 0.04433875,
+   "finish": "stop",
+   "mol_id": "Fenpropathrin",
+   "truth": -6.025
+  },
+  {
+   "text": "-2.82",
+   "value": -2.82,
+   "reasoning_tokens": 3593,
+   "completion": 3603,
+   "cost": 0.06043375,
+   "finish": "stop",
+   "mol_id": "3-methylindole",
+   "truth": -2.42
+  },
+  {
+   "text": "-3.30",
+   "value": -3.3,
+   "reasoning_tokens": 4083,
+   "completion": 4093,
+   "cost": 0.067811875,
+   "finish": "stop",
+   "mol_id": "Triamterene",
+   "truth": -2.404
+  },
+  {
+   "text": "-3.68",
+   "value": -3.68,
+   "reasoning_tokens": 3714,
+   "completion": 3724,
+   "cost": 0.06223625,
+   "finish": "stop",
+   "mol_id": "3-Methylpentane",
+   "truth": -3.68
+  },
+  {
+   "text": "-5.49",
+   "value": -5.49,
+   "reasoning_tokens": 5559,
+   "completion": 5569,
+   "cost": 0.089958125,
+   "finish": "stop",
+   "mol_id": "Linuron",
+   "truth": -3.592
+  },
+  {
+   "text": "-1.18",
+   "value": -1.18,
+   "reasoning_tokens": 3605,
+   "completion": 3615,
+   "cost": 0.060698125,
+   "finish": "stop",
+   "mol_id": "Sparsomycin (3,8mg/ml)",
+   "truth": -1.981
+  },
+  {
+   "text": "-1.20",
+   "value": -1.2,
+   "reasoning_tokens": 2131,
+   "completion": 2141,
+   "cost": 0.0384975,
+   "finish": "stop",
+   "mol_id": "p-Methylaniline",
+   "truth": -1.21
+  },
+  {
+   "text": "-2.84",
+   "value": -2.84,
+   "reasoning_tokens": 4944,
+   "completion": 4954,
+   "cost": 0.080701875,
+   "finish": "stop",
+   "mol_id": "o-Chloronitrobenzene",
+   "truth": -2.55
+  },
+  {
+   "text": "-4.55",
+   "value": -4.55,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.068728125,
+   "finish": "stop",
+   "mol_id": "Ethisterone",
+   "truth": -5.66
+  },
+  {
+   "text": "-1.70",
+   "value": -1.7,
+   "reasoning_tokens": 4378,
+   "completion": 4388,
+   "cost": 0.072243125,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "-2.05",
+   "value": -2.05,
+   "reasoning_tokens": 5156,
+   "completion": 5166,
+   "cost": 0.083925625,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "-1.39",
+   "value": -1.39,
+   "reasoning_tokens": 4005,
+   "completion": 4015,
+   "cost": 0.06662,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethylphenol",
+   "truth": -1.19
+  },
+  {
+   "text": "-3.20",
+   "value": -3.2,
+   "reasoning_tokens": 3092,
+   "completion": 3102,
+   "cost": 0.052915625,
+   "finish": "stop",
+   "mol_id": "3-Methyl-3-hexanol",
+   "truth": -0.98
+  },
+  {
+   "text": "-2.95",
+   "value": -2.95,
+   "reasoning_tokens": 5174,
+   "completion": 5184,
+   "cost": 0.084164375,
+   "finish": "stop",
+   "mol_id": "chlordimeform",
+   "truth": -2.86
+  },
+  {
+   "text": "-0.0700",
+   "value": -0.07,
+   "reasoning_tokens": 3263,
+   "completion": 3274,
+   "cost": 0.05553625,
+   "finish": "stop",
+   "mol_id": "Caffeine",
+   "truth": -0.8759999999999999
+  },
+  {
+   "text": "-1.14",
+   "value": -1.14,
+   "reasoning_tokens": 1239,
+   "completion": 1249,
+   "cost": 0.0251175,
+   "finish": "stop",
+   "mol_id": "3-Hexanone",
+   "truth": -0.83
+  },
+  {
+   "text": "-4.22",
+   "value": -4.22,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.045343125,
+   "finish": "stop",
+   "mol_id": "Cyclooctane",
+   "truth": -4.15
+  },
+  {
+   "text": "-1.62",
+   "value": -1.62,
+   "reasoning_tokens": 3991,
+   "completion": 4001,
+   "cost": 0.06639125,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "-5.10",
+   "value": -5.1,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.0531225,
+   "finish": "stop",
+   "mol_id": "2,2'-PCB",
+   "truth": -5.27
+  },
+  {
+   "text": "-0.0500",
+   "value": -0.05,
+   "reasoning_tokens": 3106,
+   "completion": 3117,
+   "cost": 0.05314375,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "-1.24",
+   "value": -1.24,
+   "reasoning_tokens": 2379,
+   "completion": 2389,
+   "cost": 0.042205,
+   "finish": "stop",
+   "mol_id": "1-Hexanol",
+   "truth": -1.24
+  },
+  {
+   "text": "-2.34",
+   "value": -2.34,
+   "reasoning_tokens": 2455,
+   "completion": 2465,
+   "cost": 0.0433575,
+   "finish": "stop",
+   "mol_id": "cis-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "-2.10",
+   "value": -2.1,
+   "reasoning_tokens": 5531,
+   "completion": 5541,
+   "cost": 0.08951,
+   "finish": "stop",
+   "mol_id": "Estragole",
+   "truth": -2.92
+  },
+  {
+   "text": "-2.20",
+   "value": -2.2,
+   "reasoning_tokens": 1938,
+   "completion": 1948,
+   "cost": 0.03559625,
+   "finish": "stop",
+   "mol_id": "1,4-Pentadiene",
+   "truth": -2.09
+  },
+  {
+   "text": "0.850",
+   "value": 0.85,
+   "reasoning_tokens": 3910,
+   "completion": 3919,
+   "cost": 0.0651675,
+   "finish": "stop",
+   "mol_id": "O-Ethyl carbamate",
+   "truth": 0.85
+  },
+  {
+   "text": "-0.750",
+   "value": -0.75,
+   "reasoning_tokens": 3545,
+   "completion": 3555,
+   "cost": 0.059723125,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanone",
+   "truth": -0.72
+  },
+  {
+   "text": "-3.87",
+   "value": -3.87,
+   "reasoning_tokens": 3229,
+   "completion": 3239,
+   "cost": 0.054964375,
+   "finish": "stop",
+   "mol_id": "Indan",
+   "truth": -3.04
+  },
+  {
+   "text": "-2.35",
+   "value": -2.35,
+   "reasoning_tokens": 3500,
+   "completion": 3510,
+   "cost": 0.059085625,
+   "finish": "stop",
+   "mol_id": "dimetan",
+   "truth": -0.85
+  },
+  {
+   "text": "-4.06",
+   "value": -4.06,
+   "reasoning_tokens": 3891,
+   "completion": 3901,
+   "cost": 0.0649225,
+   "finish": "stop",
+   "mol_id": "Trietazine",
+   "truth": -4.06
+  },
+  {
+   "text": "-6.15",
+   "value": -6.15,
+   "reasoning_tokens": 2171,
+   "completion": 2181,
+   "cost": 0.039150625,
+   "finish": "stop",
+   "mol_id": "Niclosamide",
+   "truth": -4.7
+  },
+  {
+   "text": "-1.26",
+   "value": -1.26,
+   "reasoning_tokens": 2070,
+   "completion": 2080,
+   "cost": 0.037616875,
+   "finish": "stop",
+   "mol_id": "Meprobamate",
+   "truth": -1.807
+  },
+  {
+   "text": "-2.20",
+   "value": -2.2,
+   "reasoning_tokens": 2484,
+   "completion": 2494,
+   "cost": 0.043789375,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "-3.85",
+   "value": -3.85,
+   "reasoning_tokens": 3435,
+   "completion": 3445,
+   "cost": 0.0580575,
+   "finish": "stop",
+   "mol_id": "1,4-Diethylbenzene",
+   "truth": -3.75
+  },
+  {
+   "text": "-0.600",
+   "value": -0.6,
+   "reasoning_tokens": 3487,
+   "completion": 3497,
+   "cost": 0.05883125,
+   "finish": "stop",
+   "mol_id": "3,4-Dimethylpyridine",
+   "truth": 0.36
+  },
+  {
+   "text": "-3.60",
+   "value": -3.6,
+   "reasoning_tokens": 3400,
+   "completion": 3410,
+   "cost": 0.05753875,
+   "finish": "stop",
+   "mol_id": "Diphenylamine",
+   "truth": -3.504
+  },
+  {
+   "text": "-1.72",
+   "value": -1.72,
+   "reasoning_tokens": 5474,
+   "completion": 5484,
+   "cost": 0.08864875,
+   "finish": "stop",
+   "mol_id": "indazole",
+   "truth": -2.16
+  },
+  {
+   "text": "-6.53",
+   "value": -6.53,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.05320375,
+   "finish": "stop",
+   "mol_id": "Benfluralin",
+   "truth": -5.53
+  },
+  {
+   "text": "-5.35",
+   "value": -5.35,
+   "reasoning_tokens": 4004,
+   "completion": 4014,
+   "cost": 0.066655,
+   "finish": "stop",
+   "mol_id": "Methoprene",
+   "truth": -5.19
+  },
+  {
+   "text": "-5.84",
+   "value": -5.84,
+   "reasoning_tokens": 4608,
+   "completion": 4618,
+   "cost": 0.075724375,
+   "finish": "stop",
+   "mol_id": "norethindrone acetate",
+   "truth": -4.8
+  },
+  {
+   "text": "-4.74",
+   "value": -4.74,
+   "reasoning_tokens": 5073,
+   "completion": 5083,
+   "cost": 0.082624375,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "-3.46",
+   "value": -3.46,
+   "reasoning_tokens": 4014,
+   "completion": 4024,
+   "cost": 0.066851875,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "-8.34",
+   "value": -8.34,
+   "reasoning_tokens": 5413,
+   "completion": 5423,
+   "cost": 0.087830625,
+   "finish": "stop",
+   "mol_id": "Cyfluthrin",
+   "truth": -7.337000000000001
+  },
+  {
+   "text": "-7.32",
+   "value": -7.32,
+   "reasoning_tokens": 2540,
+   "completion": 2550,
+   "cost": 0.04475125,
+   "finish": "stop",
+   "mol_id": "Tetrafluthrin",
+   "truth": -7.321000000000001
+  },
+  {
+   "text": "-2.18",
+   "value": -2.18,
+   "reasoning_tokens": 4843,
+   "completion": 4853,
+   "cost": 0.07917125,
+   "finish": "stop",
+   "mol_id": "1-Napthylamine",
+   "truth": -1.92
+  },
+  {
+   "text": "-5.60",
+   "value": -5.6,
+   "reasoning_tokens": 5776,
+   "completion": 5786,
+   "cost": 0.09316625,
+   "finish": "stop",
+   "mol_id": "Pentylcyclopentane",
+   "truth": -6.08
+  },
+  {
+   "text": "-3.70",
+   "value": -3.7,
+   "reasoning_tokens": 3875,
+   "completion": 3885,
+   "cost": 0.064648125,
+   "finish": "stop",
+   "mol_id": "Cycloheptane",
+   "truth": -3.51
+  },
+  {
+   "text": "-3.66",
+   "value": -3.66,
+   "reasoning_tokens": 4544,
+   "completion": 4554,
+   "cost": 0.074683125,
+   "finish": "stop",
+   "mol_id": "1-Bromoheptane",
+   "truth": -4.43
+  },
+  {
+   "text": "1.58",
+   "value": 1.58,
+   "reasoning_tokens": 2576,
+   "completion": 2585,
+   "cost": 0.045154375,
+   "finish": "stop",
+   "mol_id": "Acetamide",
+   "truth": 1.58
+  },
+  {
+   "text": "-3.05",
+   "value": -3.05,
+   "reasoning_tokens": 5095,
+   "completion": 5105,
+   "cost": 0.0829825,
+   "finish": "stop",
+   "mol_id": "brompyrazone",
+   "truth": -3.127
+  },
+  {
+   "text": "-2.64",
+   "value": -2.64,
+   "reasoning_tokens": 3593,
+   "completion": 3603,
+   "cost": 0.060436875,
+   "finish": "stop",
+   "mol_id": "2,3,6-Trichlorophenol",
+   "truth": -2.64
+  },
+  {
+   "text": "-4.60",
+   "value": -4.6,
+   "reasoning_tokens": 4513,
+   "completion": 4523,
+   "cost": 0.074218125,
+   "finish": "stop",
+   "mol_id": "Propylcyclopentane",
+   "truth": -4.74
+  },
+  {
+   "text": "-0.340",
+   "value": -0.34,
+   "reasoning_tokens": 2850,
+   "completion": 2860,
+   "cost": 0.04927625,
+   "finish": "stop",
+   "mol_id": "Guaiacol",
+   "truth": -1.96
+  },
+  {
+   "text": "-2.06",
+   "value": -2.06,
+   "reasoning_tokens": 4206,
+   "completion": 4216,
+   "cost": 0.069644375,
+   "finish": "stop",
+   "mol_id": "citral",
+   "truth": -2.06
+  },
+  {
+   "text": "-3.74",
+   "value": -3.74,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.068728125,
+   "finish": "stop",
+   "mol_id": "3-Propanoyloxymethylphenytoin",
+   "truth": -4.907
+  },
+  {
+   "text": "-0.150",
+   "value": -0.15,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.060883125,
+   "finish": "stop",
+   "mol_id": "Propyl formate",
+   "truth": -0.49
+  },
+  {
+   "text": "-2.95",
+   "value": -2.95,
+   "reasoning_tokens": 1735,
+   "completion": 1745,
+   "cost": 0.032548125,
+   "finish": "stop",
+   "mol_id": "Ethylbenzene",
+   "truth": -2.77
+  },
+  {
+   "text": "-4.29",
+   "value": -4.29,
+   "reasoning_tokens": 3306,
+   "completion": 3316,
+   "cost": 0.056175625,
+   "finish": "stop",
+   "mol_id": "Diallate",
+   "truth": -4.2860000000000005
+  },
+  {
+   "text": "-2.38",
+   "value": -2.38,
+   "reasoning_tokens": 2009,
+   "completion": 2019,
+   "cost": 0.036714375,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "-0.0620",
+   "value": -0.062,
+   "reasoning_tokens": 4994,
+   "completion": 5005,
+   "cost": 0.08147625,
+   "finish": "stop",
+   "mol_id": "Malonic acid diethylester",
+   "truth": -0.82
+  },
+  {
+   "text": "-3.70",
+   "value": -3.7,
+   "reasoning_tokens": 3788,
+   "completion": 3798,
+   "cost": 0.063449375,
+   "finish": "stop",
+   "mol_id": "Fludrocortisone",
+   "truth": -3.43
+  },
+  {
+   "text": "-2.74",
+   "value": -2.74,
+   "reasoning_tokens": 4056,
+   "completion": 4066,
+   "cost": 0.067419375,
+   "finish": "stop",
+   "mol_id": "gentisin",
+   "truth": -2.943
+  },
+  {
+   "text": "-0.820",
+   "value": -0.82,
+   "reasoning_tokens": 2649,
+   "completion": 2659,
+   "cost": 0.046264375,
+   "finish": "stop",
+   "mol_id": "2-Methylpentanol",
+   "truth": -1.11
+  },
+  {
+   "text": "-3.75",
+   "value": -3.75,
+   "reasoning_tokens": 3542,
+   "completion": 3552,
+   "cost": 0.0596625,
+   "finish": "stop",
+   "mol_id": "1,4-Dibromobenzene",
+   "truth": -4.07
+  },
+  {
+   "text": "-3.39",
+   "value": -3.39,
+   "reasoning_tokens": 287,
+   "completion": 297,
+   "cost": 0.010875,
+   "finish": "stop",
+   "mol_id": "1,3-Dinitrobenzene",
+   "truth": -2.29
+  },
+  {
+   "text": "-4.18",
+   "value": -4.18,
+   "reasoning_tokens": 5614,
+   "completion": 5624,
+   "cost": 0.090805,
+   "finish": "stop",
+   "mol_id": "Terbacil",
+   "truth": -2.484
+  },
+  {
+   "text": "-4.80",
+   "value": -4.8,
+   "reasoning_tokens": 4257,
+   "completion": 4267,
+   "cost": 0.070384375,
+   "finish": "stop",
+   "mol_id": "3-Methylheptane",
+   "truth": -5.16
+  },
+  {
+   "text": "-5.80",
+   "value": -5.8,
+   "reasoning_tokens": 3420,
+   "completion": 3430,
+   "cost": 0.057816875,
+   "finish": "stop",
+   "mol_id": "Nonane",
+   "truth": -5.88
+  },
+  {
+   "text": "-1.55",
+   "value": -1.55,
+   "reasoning_tokens": 1610,
+   "completion": 1620,
+   "cost": 0.0306825,
+   "finish": "stop",
+   "mol_id": "Trichloroethylene",
+   "truth": -1.96
+  },
+  {
+   "text": "-2.75",
+   "value": -2.75,
+   "reasoning_tokens": 2070,
+   "completion": 2080,
+   "cost": 0.0376075,
+   "finish": "stop",
+   "mol_id": "XMC",
+   "truth": -2.5810000000000004
+  },
+  {
+   "text": "-7.30",
+   "value": -7.3,
+   "reasoning_tokens": 3448,
+   "completion": 3458,
+   "cost": 0.05835875,
+   "finish": "stop",
+   "mol_id": "Kepone",
+   "truth": -5.259
+  },
+  {
+   "text": "-1.23",
+   "value": -1.23,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.0453775,
+   "finish": "stop",
+   "mol_id": "Metronidazole",
+   "truth": -1.22
+  },
+  {
+   "text": "-9.03",
+   "value": -9.03,
+   "reasoning_tokens": 4660,
+   "completion": 4670,
+   "cost": 0.0764575,
+   "finish": "stop",
+   "mol_id": "Benzo[ghi]perylene",
+   "truth": -9.018
+  },
+  {
+   "text": "-4.52",
+   "value": -4.52,
+   "reasoning_tokens": 3076,
+   "completion": 3086,
+   "cost": 0.052694375,
+   "finish": "stop",
+   "mol_id": "1,2,3,5-Tetrachlorobenzene",
+   "truth": -4.63
+  },
+  {
+   "text": "-2.34",
+   "value": -2.34,
+   "reasoning_tokens": 3357,
+   "completion": 3367,
+   "cost": 0.056903125,
+   "finish": "stop",
+   "mol_id": "p-Fluoroacetanilide",
+   "truth": -1.78
+  },
+  {
+   "text": "-0.710",
+   "value": -0.71,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.04534625,
+   "finish": "stop",
+   "mol_id": "2-Phenoxyethanol",
+   "truth": -0.7
+  },
+  {
+   "text": "-3.70",
+   "value": -3.7,
+   "reasoning_tokens": 2705,
+   "completion": 2715,
+   "cost": 0.047123125,
+   "finish": "stop",
+   "mol_id": "1-Nitronapthalene",
+   "truth": -3.54
+  },
+  {
+   "text": "-6.08",
+   "value": -6.08,
+   "reasoning_tokens": 2191,
+   "completion": 2201,
+   "cost": 0.039435,
+   "finish": "stop",
+   "mol_id": "2,3',4',5-PCB",
+   "truth": -7.25
+  },
+  {
+   "text": "-11.6",
+   "value": -11.6,
+   "reasoning_tokens": 2982,
+   "completion": 2992,
+   "cost": 0.051371875,
+   "finish": "stop",
+   "mol_id": "Mirex",
+   "truth": -6.8
+  },
+  {
+   "text": "-3.65",
+   "value": -3.65,
+   "reasoning_tokens": 5024,
+   "completion": 5034,
+   "cost": 0.08189875,
+   "finish": "stop",
+   "mol_id": "2,3-Dimethylbutane",
+   "truth": -3.65
+  },
+  {
+   "text": "0.650",
+   "value": 0.65,
+   "reasoning_tokens": 3738,
+   "completion": 3747,
+   "cost": 0.062625,
+   "finish": "stop",
+   "mol_id": "Azodrin",
+   "truth": 0.6509999999999999
+  },
+  {
+   "text": "-1.24",
+   "value": -1.24,
+   "reasoning_tokens": 5298,
+   "completion": 5308,
+   "cost": 0.085999375,
+   "finish": "stop",
+   "mol_id": "Methyl propionate",
+   "truth": -0.14
+  },
+  {
+   "text": "0.270",
+   "value": 0.27,
+   "reasoning_tokens": 1757,
+   "completion": 1766,
+   "cost": 0.032869375,
+   "finish": "stop",
+   "mol_id": "Thiourea",
+   "truth": 0.32
+  },
+  {
+   "text": "-1.48",
+   "value": -1.48,
+   "reasoning_tokens": 2496,
+   "completion": 2506,
+   "cost": 0.043956875,
+   "finish": "stop",
+   "mol_id": "1-Chloro-2-bromoethane",
+   "truth": -1.32
+  },
+  {
+   "text": "-0.740",
+   "value": -0.74,
+   "reasoning_tokens": 3996,
+   "completion": 4006,
+   "cost": 0.06647875,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "-1.35",
+   "value": -1.35,
+   "reasoning_tokens": 5264,
+   "completion": 5274,
+   "cost": 0.08549875,
+   "finish": "stop",
+   "mol_id": "benzylurea",
+   "truth": -0.95
+  },
+  {
+   "text": "-4.24",
+   "value": -4.24,
+   "reasoning_tokens": 3182,
+   "completion": 3192,
+   "cost": 0.05426875,
+   "finish": "stop",
+   "mol_id": "Diphenylmethane",
+   "truth": -4.08
+  },
+  {
+   "text": "-3.32",
+   "value": -3.32,
+   "reasoning_tokens": 5624,
+   "completion": 5634,
+   "cost": 0.09092375,
+   "finish": "stop",
+   "mol_id": "pyracarbolid",
+   "truth": -2.56
+  },
+  {
+   "text": "-4.35",
+   "value": -4.35,
+   "reasoning_tokens": 4060,
+   "completion": 4070,
+   "cost": 0.067473125,
+   "finish": "stop",
+   "mol_id": "Methyldymron",
+   "truth": -3.35
+  },
+  {
+   "text": "-1.52",
+   "value": -1.52,
+   "reasoning_tokens": 4001,
+   "completion": 4011,
+   "cost": 0.066585,
+   "finish": "stop",
+   "mol_id": "tubercidin",
+   "truth": -1.95
+  },
+  {
+   "text": "-1.35",
+   "value": -1.35,
+   "reasoning_tokens": 4594,
+   "completion": 4604,
+   "cost": 0.07543625,
+   "finish": "stop",
+   "mol_id": "Isoquinoline",
+   "truth": -1.45
+  },
+  {
+   "text": "-2.64",
+   "value": -2.64,
+   "reasoning_tokens": 3617,
+   "completion": 3627,
+   "cost": 0.060796875,
+   "finish": "stop",
+   "mol_id": "2,4,6-Trichlorophenol",
+   "truth": -2.34
+  },
+  {
+   "text": "-2.55",
+   "value": -2.55,
+   "reasoning_tokens": 3235,
+   "completion": 3245,
+   "cost": 0.05507,
+   "finish": "stop",
+   "mol_id": "o-Nitrotoluene",
+   "truth": -2.33
+  },
+  {
+   "text": "0.0500",
+   "value": 0.05,
+   "reasoning_tokens": 2526,
+   "completion": 2536,
+   "cost": 0.04446,
+   "finish": "stop",
+   "mol_id": "alloxan",
+   "truth": -1.25
+  },
+  {
+   "text": "-9.60",
+   "value": -9.6,
+   "reasoning_tokens": 3023,
+   "completion": 3033,
+   "cost": 0.051965,
+   "finish": "stop",
+   "mol_id": "2,2',3,3',4,4',5,5',6,6'-PCB",
+   "truth": -11.6
+  },
+  {
+   "text": "-1.75",
+   "value": -1.75,
+   "reasoning_tokens": 3432,
+   "completion": 3442,
+   "cost": 0.058003125,
+   "finish": "stop",
+   "mol_id": "1-Heptanol",
+   "truth": -1.81
+  },
+  {
+   "text": "-2.96",
+   "value": -2.96,
+   "reasoning_tokens": 2544,
+   "completion": 2554,
+   "cost": 0.04468625,
+   "finish": "stop",
+   "mol_id": "1-Heptyne",
+   "truth": -3.01
+  },
+  {
+   "text": "-1.45",
+   "value": -1.45,
+   "reasoning_tokens": 3596,
+   "completion": 3606,
+   "cost": 0.060525625,
+   "finish": "stop",
+   "mol_id": "Talbutal",
+   "truth": -2.016
+  },
+  {
+   "text": "-4.63",
+   "value": -4.63,
+   "reasoning_tokens": 2548,
+   "completion": 2558,
+   "cost": 0.04479625,
+   "finish": "stop",
+   "mol_id": "Phoxim",
+   "truth": -4.862
+  },
+  {
+   "text": "-8.80",
+   "value": -8.8,
+   "reasoning_tokens": 5042,
+   "completion": 5052,
+   "cost": 0.082153125,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "-7.32",
+   "value": -7.32,
+   "reasoning_tokens": 2568,
+   "completion": 2578,
+   "cost": 0.04507125,
+   "finish": "stop",
+   "mol_id": "p-terphenyl",
+   "truth": -7.11
+  },
+  {
+   "text": "-2.22",
+   "value": -2.22,
+   "reasoning_tokens": 2464,
+   "completion": 2474,
+   "cost": 0.043505,
+   "finish": "stop",
+   "mol_id": "ethiofencarb",
+   "truth": -2.09
+  },
+  {
+   "text": "-3.38",
+   "value": -3.38,
+   "reasoning_tokens": 3577,
+   "completion": 3587,
+   "cost": 0.060215625,
+   "finish": "stop",
+   "mol_id": "Chloropham",
+   "truth": -3.38
+  },
+  {
+   "text": "-2.18",
+   "value": -2.18,
+   "reasoning_tokens": 2260,
+   "completion": 2270,
+   "cost": 0.040441875,
+   "finish": "stop",
+   "mol_id": "Nitrobenzene",
+   "truth": -1.8
+  },
+  {
+   "text": "-0.220",
+   "value": -0.22,
+   "reasoning_tokens": 4787,
+   "completion": 4797,
+   "cost": 0.078340625,
+   "finish": "stop",
+   "mol_id": "Methyl acrylate",
+   "truth": -0.22
+  },
+  {
+   "text": "-1.89",
+   "value": -1.89,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.053175625,
+   "finish": "stop",
+   "mol_id": "Pirimicarb",
+   "truth": -1.95
+  },
+  {
+   "text": "-1.26",
+   "value": -1.26,
+   "reasoning_tokens": 1911,
+   "completion": 1921,
+   "cost": 0.0293345,
+   "finish": "stop",
+   "mol_id": "Metranidazole",
+   "truth": -1.26
+  },
+  {
+   "text": "-2.10",
+   "value": -2.1,
+   "reasoning_tokens": 3781,
+   "completion": 3791,
+   "cost": 0.063256875,
+   "finish": "stop",
+   "mol_id": "3,4-Dichlorophenol",
+   "truth": -1.25
+  },
+  {
+   "text": "0.230",
+   "value": 0.23,
+   "reasoning_tokens": 3219,
+   "completion": 3228,
+   "cost": 0.05479,
+   "finish": "stop",
+   "mol_id": "Ethyne",
+   "truth": 0.29
+  },
+  {
+   "text": "1.07",
+   "value": 1.07,
+   "reasoning_tokens": 3067,
+   "completion": 3076,
+   "cost": 0.052519375,
+   "finish": "stop",
+   "mol_id": "2-pyrrolidone",
+   "truth": 1.07
+  },
+  {
+   "text": "-4.65",
+   "value": -4.65,
+   "reasoning_tokens": 3372,
+   "completion": 3382,
+   "cost": 0.057128125,
+   "finish": "stop",
+   "mol_id": "DEF",
+   "truth": -5.14
+  },
+  {
+   "text": "-5.10",
+   "value": -5.1,
+   "reasoning_tokens": 3771,
+   "completion": 3781,
+   "cost": 0.063131875,
+   "finish": "stop",
+   "mol_id": "Benomyl",
+   "truth": -4.883
+  },
+  {
+   "text": "-4.10",
+   "value": -4.1,
+   "reasoning_tokens": 5089,
+   "completion": 5099,
+   "cost": 0.08287375,
+   "finish": "stop",
+   "mol_id": "2,3-Dimethylpentane",
+   "truth": -4.28
+  },
+  {
+   "text": "-2.39",
+   "value": -2.39,
+   "reasoning_tokens": 3173,
+   "completion": 3183,
+   "cost": 0.054143125,
+   "finish": "stop",
+   "mol_id": "p-t-Butylphenol",
+   "truth": -2.41
+  },
+  {
+   "text": "-2.20",
+   "value": -2.2,
+   "reasoning_tokens": 5696,
+   "completion": 5706,
+   "cost": 0.092019375,
+   "finish": "stop",
+   "mol_id": "cyclobarbital",
+   "truth": -2.17
+  }
+ ]
+}

@@ -1,0 +1,1635 @@
+{
+ "meta": {
+  "dataset": "aqsoldb",
+  "tag": "gpt55",
+  "endpoint": "openai/gpt-5.5",
+  "level": "medium",
+  "n_mol": 60,
+  "iters": 3,
+  "max_tokens": 8000,
+  "cost": 11.415907499999996,
+  "timestamp": "2026-08-15T02:52:33"
+ },
+ "calls": [
+  {
+   "text": "-3.52",
+   "value": -3.52,
+   "reasoning_tokens": 7681,
+   "completion": 7691,
+   "cost": 0.1157125,
+   "finish": "stop",
+   "mol_id": "N,N,N-trimethyloctadecan-1-aminium bromide"
+  },
+  {
+   "text": "-3.59",
+   "value": -3.59,
+   "reasoning_tokens": 6214,
+   "completion": 6224,
+   "cost": 0.0937075,
+   "finish": "stop",
+   "mol_id": "N,N,N-trimethyloctadecan-1-aminium bromide"
+  },
+  {
+   "text": "-3.72",
+   "value": -3.72,
+   "reasoning_tokens": 6732,
+   "completion": 6742,
+   "cost": 0.1014775,
+   "finish": "stop",
+   "mol_id": "N,N,N-trimethyloctadecan-1-aminium bromide"
+  },
+  {
+   "text": "-3.32",
+   "value": -3.32,
+   "reasoning_tokens": 4478,
+   "completion": 4488,
+   "cost": 0.0676525,
+   "finish": "stop",
+   "mol_id": "Benzo[cd]indol-2(1H)-one"
+  },
+  {
+   "text": "-3.39",
+   "value": -3.39,
+   "reasoning_tokens": 1552,
+   "completion": 1562,
+   "cost": 0.0237625,
+   "finish": "stop",
+   "mol_id": "Benzo[cd]indol-2(1H)-one"
+  },
+  {
+   "text": "-3.30",
+   "value": -3.3,
+   "reasoning_tokens": 5693,
+   "completion": 5703,
+   "cost": 0.0858775,
+   "finish": "stop",
+   "mol_id": "Benzo[cd]indol-2(1H)-one"
+  },
+  {
+   "text": "-2.18",
+   "value": -2.18,
+   "reasoning_tokens": 3526,
+   "completion": 3536,
+   "cost": 0.05337,
+   "finish": "stop",
+   "mol_id": "4-chlorobenzaldehyde"
+  },
+  {
+   "text": "-2.18",
+   "value": -2.18,
+   "reasoning_tokens": 1401,
+   "completion": 1411,
+   "cost": 0.021495,
+   "finish": "stop",
+   "mol_id": "4-chlorobenzaldehyde"
+  },
+  {
+   "text": "-2.18",
+   "value": -2.18,
+   "reasoning_tokens": 3612,
+   "completion": 3622,
+   "cost": 0.05466,
+   "finish": "stop",
+   "mol_id": "4-chlorobenzaldehyde"
+  },
+  {
+   "text": "-8.27",
+   "value": -8.27,
+   "reasoning_tokens": 4857,
+   "completion": 4867,
+   "cost": 0.0734675,
+   "finish": "stop",
+   "mol_id": "zinc bis[2-hydroxy-3,5-bis(1-phenylethyl)benzoate]"
+  },
+  {
+   "text": "-8.49",
+   "value": -8.49,
+   "reasoning_tokens": 4660,
+   "completion": 4670,
+   "cost": 0.0705125,
+   "finish": "stop",
+   "mol_id": "zinc bis[2-hydroxy-3,5-bis(1-phenylethyl)benzoate]"
+  },
+  {
+   "text": "-8.09",
+   "value": -8.09,
+   "reasoning_tokens": 4660,
+   "completion": 4670,
+   "cost": 0.0705125,
+   "finish": "stop",
+   "mol_id": "zinc bis[2-hydroxy-3,5-bis(1-phenylethyl)benzoate]"
+  },
+  {
+   "text": "-4.52",
+   "value": -4.52,
+   "reasoning_tokens": 5178,
+   "completion": 5188,
+   "cost": 0.078205,
+   "finish": "stop",
+   "mol_id": "4-({4-[bis(oxiran-2-ylmethyl)amino]phenyl}methyl)-N,N-bis(oxiran-2-ylmethyl)aniline"
+  },
+  {
+   "text": "-4.58",
+   "value": -4.58,
+   "reasoning_tokens": 4292,
+   "completion": 4302,
+   "cost": 0.064915,
+   "finish": "stop",
+   "mol_id": "4-({4-[bis(oxiran-2-ylmethyl)amino]phenyl}methyl)-N,N-bis(oxiran-2-ylmethyl)aniline"
+  },
+  {
+   "text": "-5.21",
+   "value": -5.21,
+   "reasoning_tokens": 5696,
+   "completion": 5706,
+   "cost": 0.085975,
+   "finish": "stop",
+   "mol_id": "4-({4-[bis(oxiran-2-ylmethyl)amino]phenyl}methyl)-N,N-bis(oxiran-2-ylmethyl)aniline"
+  },
+  {
+   "text": "-3.10",
+   "value": -3.1,
+   "reasoning_tokens": 2070,
+   "completion": 2080,
+   "cost": 0.031525,
+   "finish": "stop",
+   "mol_id": "vinyltoluene"
+  },
+  {
+   "text": "-3.12",
+   "value": -3.12,
+   "reasoning_tokens": 2070,
+   "completion": 2080,
+   "cost": 0.031525,
+   "finish": "stop",
+   "mol_id": "vinyltoluene"
+  },
+  {
+   "text": "-3.12",
+   "value": -3.12,
+   "reasoning_tokens": 2572,
+   "completion": 2582,
+   "cost": 0.039055,
+   "finish": "stop",
+   "mol_id": "vinyltoluene"
+  },
+  {
+   "text": "-3.24",
+   "value": -3.24,
+   "reasoning_tokens": 6103,
+   "completion": 6113,
+   "cost": 0.0920275,
+   "finish": "stop",
+   "mol_id": "3-(3-ethylcyclopentyl)propanoic acid"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1203325,
+   "finish": "length",
+   "mol_id": "3-(3-ethylcyclopentyl)propanoic acid"
+  },
+  {
+   "text": "-2.85",
+   "value": -2.85,
+   "reasoning_tokens": 5570,
+   "completion": 5580,
+   "cost": 0.0840325,
+   "finish": "stop",
+   "mol_id": "3-(3-ethylcyclopentyl)propanoic acid"
+  },
+  {
+   "text": "-3.21",
+   "value": -3.21,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.00829,
+   "finish": "stop",
+   "mol_id": "11,16,17,21-tetrahydroxypregna-1,4-diene-3,20-dione"
+  },
+  {
+   "text": "-3.21",
+   "value": -3.21,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.05491,
+   "finish": "stop",
+   "mol_id": "11,16,17,21-tetrahydroxypregna-1,4-diene-3,20-dione"
+  },
+  {
+   "text": "-3.18",
+   "value": -3.18,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.03937,
+   "finish": "stop",
+   "mol_id": "11,16,17,21-tetrahydroxypregna-1,4-diene-3,20-dione"
+  },
+  {
+   "text": "-4.56",
+   "value": -4.56,
+   "reasoning_tokens": 2070,
+   "completion": 2080,
+   "cost": 0.0315475,
+   "finish": "stop",
+   "mol_id": "bis(4-fluorophenyl)methanone"
+  },
+  {
+   "text": "-4.34",
+   "value": -4.34,
+   "reasoning_tokens": 4799,
+   "completion": 4809,
+   "cost": 0.0724825,
+   "finish": "stop",
+   "mol_id": "bis(4-fluorophenyl)methanone"
+  },
+  {
+   "text": "-4.35",
+   "value": -4.35,
+   "reasoning_tokens": 4205,
+   "completion": 4215,
+   "cost": 0.0635725,
+   "finish": "stop",
+   "mol_id": "bis(4-fluorophenyl)methanone"
+  },
+  {
+   "text": "-4.35",
+   "value": -4.35,
+   "reasoning_tokens": 4450,
+   "completion": 4460,
+   "cost": 0.0672575,
+   "finish": "stop",
+   "mol_id": "1-[2-(benzoyloxy)propoxy]propan-2-yl benzoate 1-{[1-(benzoyloxy)propan-2-yl]oxy}propan-2-yl benzoate 2-{[1-(benzoyloxy)propan-2-yl]oxy}propyl benzoate"
+  },
+  {
+   "text": "-4.72",
+   "value": -4.72,
+   "reasoning_tokens": 5626,
+   "completion": 5636,
+   "cost": 0.0848975,
+   "finish": "stop",
+   "mol_id": "1-[2-(benzoyloxy)propoxy]propan-2-yl benzoate 1-{[1-(benzoyloxy)propan-2-yl]oxy}propan-2-yl benzoate 2-{[1-(benzoyloxy)propan-2-yl]oxy}propyl benzoate"
+  },
+  {
+   "text": "-4.46",
+   "value": -4.46,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.0548675,
+   "finish": "stop",
+   "mol_id": "1-[2-(benzoyloxy)propoxy]propan-2-yl benzoate 1-{[1-(benzoyloxy)propan-2-yl]oxy}propan-2-yl benzoate 2-{[1-(benzoyloxy)propan-2-yl]oxy}propyl benzoate"
+  },
+  {
+   "text": "-2.17",
+   "value": -2.17,
+   "reasoning_tokens": 5178,
+   "completion": 5188,
+   "cost": 0.0781525,
+   "finish": "stop",
+   "mol_id": "4-(dimethylamino)benzaldehyde"
+  },
+  {
+   "text": "-2.11",
+   "value": -2.11,
+   "reasoning_tokens": 5107,
+   "completion": 5117,
+   "cost": 0.0770875,
+   "finish": "stop",
+   "mol_id": "4-(dimethylamino)benzaldehyde"
+  },
+  {
+   "text": "-2.22",
+   "value": -2.22,
+   "reasoning_tokens": 1552,
+   "completion": 1562,
+   "cost": 0.0237625,
+   "finish": "stop",
+   "mol_id": "4-(dimethylamino)benzaldehyde"
+  },
+  {
+   "text": "-3.77",
+   "value": -3.77,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.0548525,
+   "finish": "stop",
+   "mol_id": "2-methyl-1-phenylpropan-2-yl acetate"
+  },
+  {
+   "text": "-3.87",
+   "value": -3.87,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0082325,
+   "finish": "stop",
+   "mol_id": "2-methyl-1-phenylpropan-2-yl acetate"
+  },
+  {
+   "text": "-3.88",
+   "value": -3.88,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0082325,
+   "finish": "stop",
+   "mol_id": "2-methyl-1-phenylpropan-2-yl acetate"
+  },
+  {
+   "text": "-1.42",
+   "value": -1.42,
+   "reasoning_tokens": 4199,
+   "completion": 4209,
+   "cost": 0.0635725,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylphenol; 2,4-dimethylphenol; 2,5-dimethylphenol; 2,6-dimethylphenol; 3,4-dimethylphenol; 3,5-dimethylphenol"
+  },
+  {
+   "text": "-1.29",
+   "value": -1.29,
+   "reasoning_tokens": 5696,
+   "completion": 5706,
+   "cost": 0.0860275,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylphenol; 2,4-dimethylphenol; 2,5-dimethylphenol; 2,6-dimethylphenol; 3,4-dimethylphenol; 3,5-dimethylphenol"
+  },
+  {
+   "text": "-1.29",
+   "value": -1.29,
+   "reasoning_tokens": 5817,
+   "completion": 5827,
+   "cost": 0.0878425,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylphenol; 2,4-dimethylphenol; 2,5-dimethylphenol; 2,6-dimethylphenol; 3,4-dimethylphenol; 3,5-dimethylphenol"
+  },
+  {
+   "text": "-3.68",
+   "value": -3.68,
+   "reasoning_tokens": 3547,
+   "completion": 3557,
+   "cost": 0.0536975,
+   "finish": "stop",
+   "mol_id": "2-(4-tert-butylphenoxymethyl)oxirane"
+  },
+  {
+   "text": "-3.85",
+   "value": -3.85,
+   "reasoning_tokens": 5568,
+   "completion": 5578,
+   "cost": 0.0840125,
+   "finish": "stop",
+   "mol_id": "2-(4-tert-butylphenoxymethyl)oxirane"
+  },
+  {
+   "text": "-3.84",
+   "value": -3.84,
+   "reasoning_tokens": 6732,
+   "completion": 6742,
+   "cost": 0.1014725,
+   "finish": "stop",
+   "mol_id": "2-(4-tert-butylphenoxymethyl)oxirane"
+  },
+  {
+   "text": "-4.28",
+   "value": -4.28,
+   "reasoning_tokens": 4637,
+   "completion": 4647,
+   "cost": 0.070055,
+   "finish": "stop",
+   "mol_id": "5-methoxy-1-[4-(trifluoromethyl)phenyl]pentan-1-one"
+  },
+  {
+   "text": "-4.32",
+   "value": -4.32,
+   "reasoning_tokens": 6732,
+   "completion": 6742,
+   "cost": 0.10148,
+   "finish": "stop",
+   "mol_id": "5-methoxy-1-[4-(trifluoromethyl)phenyl]pentan-1-one"
+  },
+  {
+   "text": "-4.12",
+   "value": -4.12,
+   "reasoning_tokens": 4399,
+   "completion": 4409,
+   "cost": 0.066485,
+   "finish": "stop",
+   "mol_id": "5-methoxy-1-[4-(trifluoromethyl)phenyl]pentan-1-one"
+  },
+  {
+   "text": "-2.58",
+   "value": -2.58,
+   "reasoning_tokens": 6472,
+   "completion": 6482,
+   "cost": 0.0975625,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-ol"
+  },
+  {
+   "text": "-3.19",
+   "value": -3.19,
+   "reasoning_tokens": 6732,
+   "completion": 6742,
+   "cost": 0.1014625,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-ol"
+  },
+  {
+   "text": "-2.68",
+   "value": -2.68,
+   "reasoning_tokens": 5696,
+   "completion": 5706,
+   "cost": 0.0859225,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-ol"
+  },
+  {
+   "text": "-2.54",
+   "value": -2.54,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.054855,
+   "finish": "stop",
+   "mol_id": "2-(4-chloro-2-methylphenoxy)propanoic acid"
+  },
+  {
+   "text": "-2.46",
+   "value": -2.46,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.008235,
+   "finish": "stop",
+   "mol_id": "2-(4-chloro-2-methylphenoxy)propanoic acid"
+  },
+  {
+   "text": "-2.54",
+   "value": -2.54,
+   "reasoning_tokens": 4737,
+   "completion": 4747,
+   "cost": 0.07155,
+   "finish": "stop",
+   "mol_id": "2-(4-chloro-2-methylphenoxy)propanoic acid"
+  },
+  {
+   "text": "-5.62",
+   "value": -5.62,
+   "reasoning_tokens": 7194,
+   "completion": 7204,
+   "cost": 0.10847,
+   "finish": "stop",
+   "mol_id": "zinc bis[O-(2-ethylhexyl) O-isobutyl dithiophosphate]"
+  },
+  {
+   "text": "-5.62",
+   "value": -5.62,
+   "reasoning_tokens": 3623,
+   "completion": 3633,
+   "cost": 0.054905,
+   "finish": "stop",
+   "mol_id": "zinc bis[O-(2-ethylhexyl) O-isobutyl dithiophosphate]"
+  },
+  {
+   "text": "-7.82",
+   "value": -7.82,
+   "reasoning_tokens": 5653,
+   "completion": 5663,
+   "cost": 0.085355,
+   "finish": "stop",
+   "mol_id": "zinc bis[O-(2-ethylhexyl) O-isobutyl dithiophosphate]"
+  },
+  {
+   "text": "-3.52",
+   "value": -3.52,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.0393025,
+   "finish": "stop",
+   "mol_id": "1-chloro-3-(trifluoromethyl)benzene"
+  },
+  {
+   "text": "-3.54",
+   "value": -3.54,
+   "reasoning_tokens": 6195,
+   "completion": 6205,
+   "cost": 0.0934075,
+   "finish": "stop",
+   "mol_id": "1-chloro-3-(trifluoromethyl)benzene"
+  },
+  {
+   "text": "-3.79",
+   "value": -3.79,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0082225,
+   "finish": "stop",
+   "mol_id": "1-chloro-3-(trifluoromethyl)benzene"
+  },
+  {
+   "text": "-4.36",
+   "value": -4.36,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.05486,
+   "finish": "stop",
+   "mol_id": "oxiran-2-ylmethyl 2,2-dimethyloctanoate"
+  },
+  {
+   "text": "-3.35",
+   "value": -3.35,
+   "reasoning_tokens": 5365,
+   "completion": 5375,
+   "cost": 0.080975,
+   "finish": "stop",
+   "mol_id": "oxiran-2-ylmethyl 2,2-dimethyloctanoate"
+  },
+  {
+   "text": "-4.07",
+   "value": -4.07,
+   "reasoning_tokens": 4130,
+   "completion": 4140,
+   "cost": 0.06245,
+   "finish": "stop",
+   "mol_id": "oxiran-2-ylmethyl 2,2-dimethyloctanoate"
+  },
+  {
+   "text": "-4.29",
+   "value": -4.29,
+   "reasoning_tokens": 5338,
+   "completion": 5348,
+   "cost": 0.080555,
+   "finish": "stop",
+   "mol_id": "2-methylheptyl 3-sulfanylpropanoate"
+  },
+  {
+   "text": "-4.13",
+   "value": -4.13,
+   "reasoning_tokens": 6148,
+   "completion": 6158,
+   "cost": 0.092705,
+   "finish": "stop",
+   "mol_id": "2-methylheptyl 3-sulfanylpropanoate"
+  },
+  {
+   "text": "-4.41",
+   "value": -4.41,
+   "reasoning_tokens": 4532,
+   "completion": 4542,
+   "cost": 0.068465,
+   "finish": "stop",
+   "mol_id": "2-methylheptyl 3-sulfanylpropanoate"
+  },
+  {
+   "text": "-4.48",
+   "value": -4.48,
+   "reasoning_tokens": 1552,
+   "completion": 1562,
+   "cost": 0.023765,
+   "finish": "stop",
+   "mol_id": "1-methyl-4-(propan-2-ylidene)cyclohex-1-ene"
+  },
+  {
+   "text": "-4.47",
+   "value": -4.47,
+   "reasoning_tokens": 1034,
+   "completion": 1044,
+   "cost": 0.015995,
+   "finish": "stop",
+   "mol_id": "1-methyl-4-(propan-2-ylidene)cyclohex-1-ene"
+  },
+  {
+   "text": "-4.46",
+   "value": -4.46,
+   "reasoning_tokens": 3384,
+   "completion": 3394,
+   "cost": 0.051245,
+   "finish": "stop",
+   "mol_id": "1-methyl-4-(propan-2-ylidene)cyclohex-1-ene"
+  },
+  {
+   "text": "-4.55",
+   "value": -4.55,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0082725,
+   "finish": "stop",
+   "mol_id": "aluminium(3+) ion sodium bis(oxosilanebis(olate))"
+  },
+  {
+   "text": "-3.70",
+   "value": -3.7,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.0626625,
+   "finish": "stop",
+   "mol_id": "aluminium(3+) ion sodium bis(oxosilanebis(olate))"
+  },
+  {
+   "text": "-3.7",
+   "value": -3.7,
+   "reasoning_tokens": 4792,
+   "completion": 4802,
+   "cost": 0.0724125,
+   "finish": "stop",
+   "mol_id": "aluminium(3+) ion sodium bis(oxosilanebis(olate))"
+  },
+  {
+   "text": "-0.68",
+   "value": -0.68,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.039315,
+   "finish": "stop",
+   "mol_id": "zinc(2+) ion bis(2-methylprop-2-enoate)"
+  },
+  {
+   "text": "-2.18",
+   "value": -2.18,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.054855,
+   "finish": "stop",
+   "mol_id": "zinc(2+) ion bis(2-methylprop-2-enoate)"
+  },
+  {
+   "text": "-1.81",
+   "value": -1.81,
+   "reasoning_tokens": 3758,
+   "completion": 3768,
+   "cost": 0.056865,
+   "finish": "stop",
+   "mol_id": "zinc(2+) ion bis(2-methylprop-2-enoate)"
+  },
+  {
+   "text": "-1.15",
+   "value": -1.15,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.06261,
+   "finish": "stop",
+   "mol_id": "3-[2-(ethylamino)-1-hydroxyethyl]phenol"
+  },
+  {
+   "text": "-0.77",
+   "value": -0.77,
+   "reasoning_tokens": 5696,
+   "completion": 5706,
+   "cost": 0.08592,
+   "finish": "stop",
+   "mol_id": "3-[2-(ethylamino)-1-hydroxyethyl]phenol"
+  },
+  {
+   "text": "-0.77",
+   "value": -0.77,
+   "reasoning_tokens": 4652,
+   "completion": 4662,
+   "cost": 0.07026,
+   "finish": "stop",
+   "mol_id": "3-[2-(ethylamino)-1-hydroxyethyl]phenol"
+  },
+  {
+   "text": "-6.96",
+   "value": -6.96,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.0626975,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, mixed O,O-bis(sec-Bu and 1,3-dimethylbutyl) esters, zinc salts"
+  },
+  {
+   "text": "-5.35",
+   "value": -5.35,
+   "reasoning_tokens": 6572,
+   "completion": 6582,
+   "cost": 0.0991475,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, mixed O,O-bis(sec-Bu and 1,3-dimethylbutyl) esters, zinc salts"
+  },
+  {
+   "text": "-5.74",
+   "value": -5.74,
+   "reasoning_tokens": 6211,
+   "completion": 6221,
+   "cost": 0.0937325,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, mixed O,O-bis(sec-Bu and 1,3-dimethylbutyl) esters, zinc salts"
+  },
+  {
+   "text": "-3.52",
+   "value": -3.52,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.00822,
+   "finish": "stop",
+   "mol_id": "2,4-dichloro-1-(chloromethyl)benzene"
+  },
+  {
+   "text": "-4.08",
+   "value": -4.08,
+   "reasoning_tokens": 7454,
+   "completion": 7464,
+   "cost": 0.11229,
+   "finish": "stop",
+   "mol_id": "2,4-dichloro-1-(chloromethyl)benzene"
+  },
+  {
+   "text": "-4.09",
+   "value": -4.09,
+   "reasoning_tokens": 4753,
+   "completion": 4763,
+   "cost": 0.071775,
+   "finish": "stop",
+   "mol_id": "2,4-dichloro-1-(chloromethyl)benzene"
+  },
+  {
+   "text": "-4.8",
+   "value": -4.8,
+   "reasoning_tokens": 1552,
+   "completion": 1562,
+   "cost": 0.0237725,
+   "finish": "stop",
+   "mol_id": "(1S,5S)-6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptane"
+  },
+  {
+   "text": "-4.74",
+   "value": -4.74,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0082325,
+   "finish": "stop",
+   "mol_id": "(1S,5S)-6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptane"
+  },
+  {
+   "text": "-4.74",
+   "value": -4.74,
+   "reasoning_tokens": 2577,
+   "completion": 2587,
+   "cost": 0.0391475,
+   "finish": "stop",
+   "mol_id": "(1S,5S)-6,6-dimethyl-2-methylidenebicyclo[3.1.1]heptane"
+  },
+  {
+   "text": "-3.43",
+   "value": -3.43,
+   "reasoning_tokens": 5696,
+   "completion": 5706,
+   "cost": 0.0859375,
+   "finish": "stop",
+   "mol_id": "9-Octadecenoic acid (Z)-, reaction products with 2-[(2-aminoethyl)amino]ethanol"
+  },
+  {
+   "text": "-3.35",
+   "value": -3.35,
+   "reasoning_tokens": 5166,
+   "completion": 5176,
+   "cost": 0.0779875,
+   "finish": "stop",
+   "mol_id": "9-Octadecenoic acid (Z)-, reaction products with 2-[(2-aminoethyl)amino]ethanol"
+  },
+  {
+   "text": "-4.43",
+   "value": -4.43,
+   "reasoning_tokens": 6033,
+   "completion": 6043,
+   "cost": 0.0909925,
+   "finish": "stop",
+   "mol_id": "9-Octadecenoic acid (Z)-, reaction products with 2-[(2-aminoethyl)amino]ethanol"
+  },
+  {
+   "text": "-4.84",
+   "value": -4.84,
+   "reasoning_tokens": 4660,
+   "completion": 4670,
+   "cost": 0.07039,
+   "finish": "stop",
+   "mol_id": "dodecyl 2-hydroxypropanoate"
+  },
+  {
+   "text": "-5.39",
+   "value": -5.39,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.00823,
+   "finish": "stop",
+   "mol_id": "dodecyl 2-hydroxypropanoate"
+  },
+  {
+   "text": "-5.38",
+   "value": -5.38,
+   "reasoning_tokens": 5294,
+   "completion": 5304,
+   "cost": 0.0799,
+   "finish": "stop",
+   "mol_id": "dodecyl 2-hydroxypropanoate"
+  },
+  {
+   "text": "1.48",
+   "value": 1.48,
+   "reasoning_tokens": 3195,
+   "completion": 3204,
+   "cost": 0.0483675,
+   "finish": "stop",
+   "mol_id": "hydroxylamine"
+  },
+  {
+   "text": "1.18",
+   "value": 1.18,
+   "reasoning_tokens": 516,
+   "completion": 525,
+   "cost": 0.0081825,
+   "finish": "stop",
+   "mol_id": "hydroxylamine"
+  },
+  {
+   "text": "1.48",
+   "value": 1.48,
+   "reasoning_tokens": 4142,
+   "completion": 4151,
+   "cost": 0.0625725,
+   "finish": "stop",
+   "mol_id": "hydroxylamine"
+  },
+  {
+   "text": "-2.11",
+   "value": -2.11,
+   "reasoning_tokens": 6214,
+   "completion": 6224,
+   "cost": 0.0937,
+   "finish": "stop",
+   "mol_id": "2-phenoxyethyl prop-2-enoate"
+  },
+  {
+   "text": "-2.18",
+   "value": -2.18,
+   "reasoning_tokens": 5178,
+   "completion": 5188,
+   "cost": 0.07816,
+   "finish": "stop",
+   "mol_id": "2-phenoxyethyl prop-2-enoate"
+  },
+  {
+   "text": "-2.54",
+   "value": -2.54,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.00823,
+   "finish": "stop",
+   "mol_id": "2-phenoxyethyl prop-2-enoate"
+  },
+  {
+   "text": "-6.29",
+   "value": -6.29,
+   "reasoning_tokens": 5540,
+   "completion": 5550,
+   "cost": 0.08364,
+   "finish": "stop",
+   "mol_id": "benzyl-tributylazanium; 4-hydroxynaphthalene-1-sulfonate"
+  },
+  {
+   "text": "-4.56",
+   "value": -4.56,
+   "reasoning_tokens": 7986,
+   "completion": 7996,
+   "cost": 0.12033,
+   "finish": "stop",
+   "mol_id": "benzyl-tributylazanium; 4-hydroxynaphthalene-1-sulfonate"
+  },
+  {
+   "text": "-5.19",
+   "value": -5.19,
+   "reasoning_tokens": 5635,
+   "completion": 5645,
+   "cost": 0.085065,
+   "finish": "stop",
+   "mol_id": "benzyl-tributylazanium; 4-hydroxynaphthalene-1-sulfonate"
+  },
+  {
+   "text": "-3.38",
+   "value": -3.38,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0082175,
+   "finish": "stop",
+   "mol_id": "undec-10-enoic acid"
+  },
+  {
+   "text": "-4.06",
+   "value": -4.06,
+   "reasoning_tokens": 3598,
+   "completion": 3608,
+   "cost": 0.0544475,
+   "finish": "stop",
+   "mol_id": "undec-10-enoic acid"
+  },
+  {
+   "text": "-3.49",
+   "value": -3.49,
+   "reasoning_tokens": 5818,
+   "completion": 5828,
+   "cost": 0.0877475,
+   "finish": "stop",
+   "mol_id": "undec-10-enoic acid"
+  },
+  {
+   "text": "-2.92",
+   "value": -2.92,
+   "reasoning_tokens": 4756,
+   "completion": 4766,
+   "cost": 0.0719325,
+   "finish": "stop",
+   "mol_id": "carboxymethyldimethyl-3-[[(3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooctyl)sulphonyl]amino]propylammonium hydroxide"
+  },
+  {
+   "text": "-3.42",
+   "value": -3.42,
+   "reasoning_tokens": 5176,
+   "completion": 5186,
+   "cost": 0.0782325,
+   "finish": "stop",
+   "mol_id": "carboxymethyldimethyl-3-[[(3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooctyl)sulphonyl]amino]propylammonium hydroxide"
+  },
+  {
+   "text": "-2.75",
+   "value": -2.75,
+   "reasoning_tokens": 7203,
+   "completion": 7213,
+   "cost": 0.1086375,
+   "finish": "stop",
+   "mol_id": "carboxymethyldimethyl-3-[[(3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooctyl)sulphonyl]amino]propylammonium hydroxide"
+  },
+  {
+   "text": "-4.31",
+   "value": -4.31,
+   "reasoning_tokens": 5178,
+   "completion": 5188,
+   "cost": 0.0781975,
+   "finish": "stop",
+   "mol_id": "2-benzyl-2-(dimethylamino)-1-[4-(morpholin-4-yl)phenyl]butan-1-one"
+  },
+  {
+   "text": "-4.74",
+   "value": -4.74,
+   "reasoning_tokens": 5779,
+   "completion": 5789,
+   "cost": 0.0872125,
+   "finish": "stop",
+   "mol_id": "2-benzyl-2-(dimethylamino)-1-[4-(morpholin-4-yl)phenyl]butan-1-one"
+  },
+  {
+   "text": "-4.32",
+   "value": -4.32,
+   "reasoning_tokens": 6936,
+   "completion": 6946,
+   "cost": 0.1045675,
+   "finish": "stop",
+   "mol_id": "2-benzyl-2-(dimethylamino)-1-[4-(morpholin-4-yl)phenyl]butan-1-one"
+  },
+  {
+   "text": "-4.61",
+   "value": -4.61,
+   "reasoning_tokens": 4660,
+   "completion": 4670,
+   "cost": 0.070385,
+   "finish": "stop",
+   "mol_id": "4-(4,6-dimethylheptan-2-yl)phenol; 4-(5,6-dimethylheptan-2-yl)phenol; 4-(5,6-dimethylheptyl)phenol; 4-(7-methyloctyl)phenol"
+  },
+  {
+   "text": "-4.56",
+   "value": -4.56,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.008225,
+   "finish": "stop",
+   "mol_id": "4-(4,6-dimethylheptan-2-yl)phenol; 4-(5,6-dimethylheptan-2-yl)phenol; 4-(5,6-dimethylheptyl)phenol; 4-(7-methyloctyl)phenol"
+  },
+  {
+   "text": "-4.21",
+   "value": -4.21,
+   "reasoning_tokens": 6667,
+   "completion": 6677,
+   "cost": 0.10049,
+   "finish": "stop",
+   "mol_id": "4-(4,6-dimethylheptan-2-yl)phenol; 4-(5,6-dimethylheptan-2-yl)phenol; 4-(5,6-dimethylheptyl)phenol; 4-(7-methyloctyl)phenol"
+  },
+  {
+   "text": "-3.88",
+   "value": -3.88,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.00823,
+   "finish": "stop",
+   "mol_id": "1,3-bis(prop-1-en-2-yl)benzene"
+  },
+  {
+   "text": "-4.48",
+   "value": -4.48,
+   "reasoning_tokens": 4699,
+   "completion": 4709,
+   "cost": 0.070975,
+   "finish": "stop",
+   "mol_id": "1,3-bis(prop-1-en-2-yl)benzene"
+  },
+  {
+   "text": "-4.32",
+   "value": -4.32,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.05485,
+   "finish": "stop",
+   "mol_id": "1,3-bis(prop-1-en-2-yl)benzene"
+  },
+  {
+   "text": "-6.08",
+   "value": -6.08,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.04705,
+   "finish": "stop",
+   "mol_id": "molybdenum"
+  },
+  {
+   "text": "-6.22",
+   "value": -6.22,
+   "reasoning_tokens": 4874,
+   "completion": 4884,
+   "cost": 0.07357,
+   "finish": "stop",
+   "mol_id": "molybdenum"
+  },
+  {
+   "text": "-4.68",
+   "value": -4.68,
+   "reasoning_tokens": 5607,
+   "completion": 5617,
+   "cost": 0.084565,
+   "finish": "stop",
+   "mol_id": "molybdenum"
+  },
+  {
+   "text": "-5.25",
+   "value": -5.25,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.0548475,
+   "finish": "stop",
+   "mol_id": "ethenyl 2,2-dimethyloctanoate"
+  },
+  {
+   "text": "-4.38",
+   "value": -4.38,
+   "reasoning_tokens": 4649,
+   "completion": 4659,
+   "cost": 0.0702225,
+   "finish": "stop",
+   "mol_id": "ethenyl 2,2-dimethyloctanoate"
+  },
+  {
+   "text": "-5.34",
+   "value": -5.34,
+   "reasoning_tokens": 5117,
+   "completion": 5127,
+   "cost": 0.0772425,
+   "finish": "stop",
+   "mol_id": "ethenyl 2,2-dimethyloctanoate"
+  },
+  {
+   "text": "-4.37",
+   "value": -4.37,
+   "reasoning_tokens": 3540,
+   "completion": 3550,
+   "cost": 0.0535875,
+   "finish": "stop",
+   "mol_id": "1-tert-butyl-4-methylbenzene"
+  },
+  {
+   "text": "-4.0000",
+   "value": -4.0,
+   "reasoning_tokens": 516,
+   "completion": 527,
+   "cost": 0.0082425,
+   "finish": "stop",
+   "mol_id": "1-tert-butyl-4-methylbenzene"
+  },
+  {
+   "text": "-4.39",
+   "value": -4.39,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.0470775,
+   "finish": "stop",
+   "mol_id": "1-tert-butyl-4-methylbenzene"
+  },
+  {
+   "text": "-1.81",
+   "value": -1.81,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.00822,
+   "finish": "stop",
+   "mol_id": "cyclohexanecarboxylic acid"
+  },
+  {
+   "text": "-1.11",
+   "value": -1.11,
+   "reasoning_tokens": 5962,
+   "completion": 5972,
+   "cost": 0.08991,
+   "finish": "stop",
+   "mol_id": "cyclohexanecarboxylic acid"
+  },
+  {
+   "text": "-1.26",
+   "value": -1.26,
+   "reasoning_tokens": 6603,
+   "completion": 6613,
+   "cost": 0.099525,
+   "finish": "stop",
+   "mol_id": "cyclohexanecarboxylic acid"
+  },
+  {
+   "text": "-1.24",
+   "value": -1.24,
+   "reasoning_tokens": 5178,
+   "completion": 5188,
+   "cost": 0.078435,
+   "finish": "stop",
+   "mol_id": "pentasodium 5-{[4-chloro-6-({3-[2-(sulfonatooxy)ethanesulfonyl]phenyl}amino)-1,3,5-triazin-2-yl]amino}-3-[(E)-2-(1,5-disulfonatonaphthalen-2-yl)diazen-1-yl]-4-hydroxynaphthalene-2,7-disulfonate"
+  },
+  {
+   "text": "-1.08",
+   "value": -1.08,
+   "reasoning_tokens": 5027,
+   "completion": 5037,
+   "cost": 0.07617,
+   "finish": "stop",
+   "mol_id": "pentasodium 5-{[4-chloro-6-({3-[2-(sulfonatooxy)ethanesulfonyl]phenyl}amino)-1,3,5-triazin-2-yl]amino}-3-[(E)-2-(1,5-disulfonatonaphthalen-2-yl)diazen-1-yl]-4-hydroxynaphthalene-2,7-disulfonate"
+  },
+  {
+   "text": "-1.15",
+   "value": -1.15,
+   "reasoning_tokens": 5156,
+   "completion": 5166,
+   "cost": 0.078105,
+   "finish": "stop",
+   "mol_id": "pentasodium 5-{[4-chloro-6-({3-[2-(sulfonatooxy)ethanesulfonyl]phenyl}amino)-1,3,5-triazin-2-yl]amino}-3-[(E)-2-(1,5-disulfonatonaphthalen-2-yl)diazen-1-yl]-4-hydroxynaphthalene-2,7-disulfonate"
+  },
+  {
+   "text": "-5.89",
+   "value": -5.89,
+   "reasoning_tokens": 4891,
+   "completion": 4901,
+   "cost": 0.07388,
+   "finish": "stop",
+   "mol_id": "N,N'-bis(3-phenylprop-2-en-1-ylidene)hexane-1,6-diamine"
+  },
+  {
+   "text": "-7.32",
+   "value": -7.32,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.062645,
+   "finish": "stop",
+   "mol_id": "N,N'-bis(3-phenylprop-2-en-1-ylidene)hexane-1,6-diamine"
+  },
+  {
+   "text": "-6.02",
+   "value": -6.02,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.054875,
+   "finish": "stop",
+   "mol_id": "N,N'-bis(3-phenylprop-2-en-1-ylidene)hexane-1,6-diamine"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1204425,
+   "finish": "length",
+   "mol_id": "2-(benzotriazol-2-yl)-6-[[3-(benzotriazol-2-yl)-2-hydroxy-5-(2,4,4-trimethylpentan-2-yl)phenyl]methyl]-4-(2,4,4-trimethylpentan-2-yl)phenol"
+  },
+  {
+   "text": "-11.12",
+   "value": -11.12,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0083325,
+   "finish": "stop",
+   "mol_id": "2-(benzotriazol-2-yl)-6-[[3-(benzotriazol-2-yl)-2-hydroxy-5-(2,4,4-trimethylpentan-2-yl)phenyl]methyl]-4-(2,4,4-trimethylpentan-2-yl)phenol"
+  },
+  {
+   "text": "-10.41",
+   "value": -10.41,
+   "reasoning_tokens": 4453,
+   "completion": 4463,
+   "cost": 0.0673875,
+   "finish": "stop",
+   "mol_id": "2-(benzotriazol-2-yl)-6-[[3-(benzotriazol-2-yl)-2-hydroxy-5-(2,4,4-trimethylpentan-2-yl)phenyl]methyl]-4-(2,4,4-trimethylpentan-2-yl)phenol"
+  },
+  {
+   "text": "-1.34",
+   "value": -1.34,
+   "reasoning_tokens": 6214,
+   "completion": 6224,
+   "cost": 0.09376,
+   "finish": "stop",
+   "mol_id": "[2-({4-[(E)-2-(2-chloro-4-nitrophenyl)diazen-1-yl]phenyl}(ethyl)amino)ethyl]trimethylazanium chloride"
+  },
+  {
+   "text": "-0.85",
+   "value": -0.85,
+   "reasoning_tokens": 4780,
+   "completion": 4790,
+   "cost": 0.07225,
+   "finish": "stop",
+   "mol_id": "[2-({4-[(E)-2-(2-chloro-4-nitrophenyl)diazen-1-yl]phenyl}(ethyl)amino)ethyl]trimethylazanium chloride"
+  },
+  {
+   "text": "-0.85",
+   "value": -0.85,
+   "reasoning_tokens": 3166,
+   "completion": 3176,
+   "cost": 0.04804,
+   "finish": "stop",
+   "mol_id": "[2-({4-[(E)-2-(2-chloro-4-nitrophenyl)diazen-1-yl]phenyl}(ethyl)amino)ethyl]trimethylazanium chloride"
+  },
+  {
+   "text": "-4.74",
+   "value": -4.74,
+   "reasoning_tokens": 6626,
+   "completion": 6636,
+   "cost": 0.099885,
+   "finish": "stop",
+   "mol_id": "2-(morpholin-4-ylsulfanyl)-1,3-benzothiazole"
+  },
+  {
+   "text": "-4.69",
+   "value": -4.69,
+   "reasoning_tokens": 5894,
+   "completion": 5904,
+   "cost": 0.088905,
+   "finish": "stop",
+   "mol_id": "2-(morpholin-4-ylsulfanyl)-1,3-benzothiazole"
+  },
+  {
+   "text": "-4.09",
+   "value": -4.09,
+   "reasoning_tokens": 4502,
+   "completion": 4512,
+   "cost": 0.068025,
+   "finish": "stop",
+   "mol_id": "2-(morpholin-4-ylsulfanyl)-1,3-benzothiazole"
+  },
+  {
+   "text": "-2.75",
+   "value": -2.75,
+   "reasoning_tokens": 5178,
+   "completion": 5188,
+   "cost": 0.0781975,
+   "finish": "stop",
+   "mol_id": "(1R-(1alpha,2beta,4beta,6alpha))-2,2,7-Trimethyl-3-oxatricyclo(4.1.1.02,4)octane"
+  },
+  {
+   "text": "-2.86",
+   "value": -2.86,
+   "reasoning_tokens": 4495,
+   "completion": 4505,
+   "cost": 0.0679525,
+   "finish": "stop",
+   "mol_id": "(1R-(1alpha,2beta,4beta,6alpha))-2,2,7-Trimethyl-3-oxatricyclo(4.1.1.02,4)octane"
+  },
+  {
+   "text": "-3.09",
+   "value": -3.09,
+   "reasoning_tokens": 5513,
+   "completion": 5523,
+   "cost": 0.0832225,
+   "finish": "stop",
+   "mol_id": "(1R-(1alpha,2beta,4beta,6alpha))-2,2,7-Trimethyl-3-oxatricyclo(4.1.1.02,4)octane"
+  },
+  {
+   "text": "-1.01",
+   "value": -1.01,
+   "reasoning_tokens": 3307,
+   "completion": 3317,
+   "cost": 0.0503225,
+   "finish": "stop",
+   "mol_id": "tetrasodium 7-[(E)-2-[2-(carbamoylamino)-4-{[4-chloro-6-({3-[2-(sulfonatooxy)ethanesulfonyl]phenyl}amino)-1,3,5-triazin-2-yl]amino}phenyl]diazen-1-yl]naphthalene-1,3,6-trisulfonate"
+  },
+  {
+   "text": "-1.01",
+   "value": -1.01,
+   "reasoning_tokens": 6211,
+   "completion": 6221,
+   "cost": 0.0938825,
+   "finish": "stop",
+   "mol_id": "tetrasodium 7-[(E)-2-[2-(carbamoylamino)-4-{[4-chloro-6-({3-[2-(sulfonatooxy)ethanesulfonyl]phenyl}amino)-1,3,5-triazin-2-yl]amino}phenyl]diazen-1-yl]naphthalene-1,3,6-trisulfonate"
+  },
+  {
+   "text": "-1.01",
+   "value": -1.01,
+   "reasoning_tokens": 6140,
+   "completion": 6150,
+   "cost": 0.0928175,
+   "finish": "stop",
+   "mol_id": "tetrasodium 7-[(E)-2-[2-(carbamoylamino)-4-{[4-chloro-6-({3-[2-(sulfonatooxy)ethanesulfonyl]phenyl}amino)-1,3,5-triazin-2-yl]amino}phenyl]diazen-1-yl]naphthalene-1,3,6-trisulfonate"
+  },
+  {
+   "text": "-3.06",
+   "value": -3.06,
+   "reasoning_tokens": 5280,
+   "completion": 5290,
+   "cost": 0.0798275,
+   "finish": "stop",
+   "mol_id": "disodium 7-{[4-chloro-6-(dodecylamino)-1,3,5-triazin-2-yl]amino}-4-hydroxy-3-(2-{4-[2-(4-sulfonatophenyl)diazen-1-yl]phenyl}diazen-1-yl)naphthalene-2-sulfonate"
+  },
+  {
+   "text": "-1.94",
+   "value": -1.94,
+   "reasoning_tokens": 6732,
+   "completion": 6742,
+   "cost": 0.1016075,
+   "finish": "stop",
+   "mol_id": "disodium 7-{[4-chloro-6-(dodecylamino)-1,3,5-triazin-2-yl]amino}-4-hydroxy-3-(2-{4-[2-(4-sulfonatophenyl)diazen-1-yl]phenyl}diazen-1-yl)naphthalene-2-sulfonate"
+  },
+  {
+   "text": "-1.54",
+   "value": -1.54,
+   "reasoning_tokens": 7658,
+   "completion": 7668,
+   "cost": 0.1154975,
+   "finish": "stop",
+   "mol_id": "disodium 7-{[4-chloro-6-(dodecylamino)-1,3,5-triazin-2-yl]amino}-4-hydroxy-3-(2-{4-[2-(4-sulfonatophenyl)diazen-1-yl]phenyl}diazen-1-yl)naphthalene-2-sulfonate"
+  },
+  {
+   "text": "-2.71",
+   "value": -2.71,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.039305,
+   "finish": "stop",
+   "mol_id": "S-ethyl dipropylthiocarbamate"
+  },
+  {
+   "text": "-2.74",
+   "value": -2.74,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.008225,
+   "finish": "stop",
+   "mol_id": "S-ethyl dipropylthiocarbamate"
+  },
+  {
+   "text": "-2.70",
+   "value": -2.7,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.008225,
+   "finish": "stop",
+   "mol_id": "S-ethyl dipropylthiocarbamate"
+  },
+  {
+   "text": "-1.71",
+   "value": -1.71,
+   "reasoning_tokens": 4960,
+   "completion": 4970,
+   "cost": 0.0748975,
+   "finish": "stop",
+   "mol_id": "2-[({4-[(oxiran-2-ylmethoxy)methyl]cyclohexyl}methoxy)methyl]oxirane"
+  },
+  {
+   "text": "-1.58",
+   "value": -1.58,
+   "reasoning_tokens": 3512,
+   "completion": 3522,
+   "cost": 0.0531775,
+   "finish": "stop",
+   "mol_id": "2-[({4-[(oxiran-2-ylmethoxy)methyl]cyclohexyl}methoxy)methyl]oxirane"
+  },
+  {
+   "text": "-1.66",
+   "value": -1.66,
+   "reasoning_tokens": 6345,
+   "completion": 6355,
+   "cost": 0.0956725,
+   "finish": "stop",
+   "mol_id": "2-[({4-[(oxiran-2-ylmethoxy)methyl]cyclohexyl}methoxy)methyl]oxirane"
+  },
+  {
+   "text": "-2.30",
+   "value": -2.3,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.0393425,
+   "finish": "stop",
+   "mol_id": "1-hydroxy-4-methyl-6-(2,4,4-trimethylpentyl)pyridin-2(1H)-one - 2-aminoethanol (1:1)"
+  },
+  {
+   "text": "-2.42",
+   "value": -2.42,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.0626525,
+   "finish": "stop",
+   "mol_id": "1-hydroxy-4-methyl-6-(2,4,4-trimethylpentyl)pyridin-2(1H)-one - 2-aminoethanol (1:1)"
+  },
+  {
+   "text": "-2.47",
+   "value": -2.47,
+   "reasoning_tokens": 4347,
+   "completion": 4357,
+   "cost": 0.0657275,
+   "finish": "stop",
+   "mol_id": "1-hydroxy-4-methyl-6-(2,4,4-trimethylpentyl)pyridin-2(1H)-one - 2-aminoethanol (1:1)"
+  },
+  {
+   "text": "-4.4",
+   "value": -4.4,
+   "reasoning_tokens": 7768,
+   "completion": 7778,
+   "cost": 0.11714,
+   "finish": "stop",
+   "mol_id": "pentacalcium hydroxide triphosphate"
+  },
+  {
+   "text": "-7.06",
+   "value": -7.06,
+   "reasoning_tokens": 5696,
+   "completion": 5706,
+   "cost": 0.08606,
+   "finish": "stop",
+   "mol_id": "pentacalcium hydroxide triphosphate"
+  },
+  {
+   "text": "-6.22",
+   "value": -6.22,
+   "reasoning_tokens": 3616,
+   "completion": 3626,
+   "cost": 0.05486,
+   "finish": "stop",
+   "mol_id": "pentacalcium hydroxide triphosphate"
+  },
+  {
+   "text": "-3.31",
+   "value": -3.31,
+   "reasoning_tokens": 7096,
+   "completion": 7106,
+   "cost": 0.1069325,
+   "finish": "stop",
+   "mol_id": "6H-dibenzo[c,e][1,2]oxaphosphinine 6-oxide"
+  },
+  {
+   "text": "-3.34",
+   "value": -3.34,
+   "reasoning_tokens": 6675,
+   "completion": 6685,
+   "cost": 0.1006175,
+   "finish": "stop",
+   "mol_id": "6H-dibenzo[c,e][1,2]oxaphosphinine 6-oxide"
+  },
+  {
+   "text": "-2.86",
+   "value": -2.86,
+   "reasoning_tokens": 5157,
+   "completion": 5167,
+   "cost": 0.0778475,
+   "finish": "stop",
+   "mol_id": "6H-dibenzo[c,e][1,2]oxaphosphinine 6-oxide"
+  },
+  {
+   "text": "-2.54",
+   "value": -2.54,
+   "reasoning_tokens": 4718,
+   "completion": 4728,
+   "cost": 0.071255,
+   "finish": "stop",
+   "mol_id": "ethenyl benzoate"
+  },
+  {
+   "text": "-2.78",
+   "value": -2.78,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.008225,
+   "finish": "stop",
+   "mol_id": "ethenyl benzoate"
+  },
+  {
+   "text": "-2.59",
+   "value": -2.59,
+   "reasoning_tokens": 4494,
+   "completion": 4504,
+   "cost": 0.067895,
+   "finish": "stop",
+   "mol_id": "ethenyl benzoate"
+  },
+  {
+   "text": "-4.1",
+   "value": -4.1,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.0626275,
+   "finish": "stop",
+   "mol_id": "methyl 4-tert-butylbenzoate"
+  },
+  {
+   "text": "-4.08",
+   "value": -4.08,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0082375,
+   "finish": "stop",
+   "mol_id": "methyl 4-tert-butylbenzoate"
+  },
+  {
+   "text": "-4.43",
+   "value": -4.43,
+   "reasoning_tokens": 4142,
+   "completion": 4152,
+   "cost": 0.0626275,
+   "finish": "stop",
+   "mol_id": "methyl 4-tert-butylbenzoate"
+  },
+  {
+   "text": "-3.30",
+   "value": -3.3,
+   "reasoning_tokens": 4602,
+   "completion": 4612,
+   "cost": 0.069515,
+   "finish": "stop",
+   "mol_id": "2,2-dimethyl-3-(3-methylphenyl)propan-1-ol"
+  },
+  {
+   "text": "-3.08",
+   "value": -3.08,
+   "reasoning_tokens": 1552,
+   "completion": 1562,
+   "cost": 0.023765,
+   "finish": "stop",
+   "mol_id": "2,2-dimethyl-3-(3-methylphenyl)propan-1-ol"
+  },
+  {
+   "text": "-3.06",
+   "value": -3.06,
+   "reasoning_tokens": 4660,
+   "completion": 4670,
+   "cost": 0.070385,
+   "finish": "stop",
+   "mol_id": "2,2-dimethyl-3-(3-methylphenyl)propan-1-ol"
+  },
+  {
+   "text": "-4.46",
+   "value": -4.46,
+   "reasoning_tokens": 1632,
+   "completion": 1642,
+   "cost": 0.024975,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-yl acetate"
+  },
+  {
+   "text": "-4.52",
+   "value": -4.52,
+   "reasoning_tokens": 1034,
+   "completion": 1044,
+   "cost": 0.016005,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-yl acetate"
+  },
+  {
+   "text": "-4.24",
+   "value": -4.24,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.008235,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-yl acetate"
+  },
+  {
+   "text": "-2.56",
+   "value": -2.56,
+   "reasoning_tokens": 516,
+   "completion": 526,
+   "cost": 0.0082475,
+   "finish": "stop",
+   "mol_id": "2-{6,6-dimethylbicyclo[3.1.1]hept-2-en-2-yl}ethan-1-ol"
+  },
+  {
+   "text": "-2.47",
+   "value": -2.47,
+   "reasoning_tokens": 2070,
+   "completion": 2080,
+   "cost": 0.0315575,
+   "finish": "stop",
+   "mol_id": "2-{6,6-dimethylbicyclo[3.1.1]hept-2-en-2-yl}ethan-1-ol"
+  },
+  {
+   "text": "-2.52",
+   "value": -2.52,
+   "reasoning_tokens": 3613,
+   "completion": 3623,
+   "cost": 0.0547025,
+   "finish": "stop",
+   "mol_id": "2-{6,6-dimethylbicyclo[3.1.1]hept-2-en-2-yl}ethan-1-ol"
+  }
+ ]
+}

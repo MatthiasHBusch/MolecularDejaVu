@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "freesolv",
+  "tag": "opus5",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 13.932584999999989,
+  "timestamp": "2026-08-10T16:58:04"
+ },
+ "calls": [
+  {
+   "text": "Looking at the training data, ring\u2011type structures written with the \"r\u2026r\" closur",
+   "value": -7.0,
+   "reasoning_tokens": 290,
+   "completion": 3078,
+   "cost": 0.08854,
+   "finish": "stop",
+   "mol_id": "1,4-dioxane",
+   "truth": -5.06
+  },
+  {
+   "text": "Looking at the training data, purely aliphatic/all\u2011\"A\" structures have distinctl",
+   "value": 2.35,
+   "reasoning_tokens": 77,
+   "completion": 1249,
+   "cost": 0.0428,
+   "finish": "stop",
+   "mol_id": "propane",
+   "truth": 2.0
+  },
+  {
+   "text": "## Analysis\n\nDecoding the notation (A = aliphatic C, a = aromatic c, r/s = ring\u2011",
+   "value": -9.4,
+   "reasoning_tokens": 1940,
+   "completion": 12869,
+   "cost": 0.333415,
+   "finish": "stop",
+   "mol_id": "diflunisal",
+   "truth": -9.4
+  },
+  {
+   "text": "**Prediction: \u2248 -5.10**",
+   "value": -5.1,
+   "reasoning_tokens": 53,
+   "completion": 1485,
+   "cost": 0.04872,
+   "finish": "stop",
+   "mol_id": "4-ethylpyridine",
+   "truth": -4.73
+  },
+  {
+   "text": "## Analysis\n\nDecoding the string grammar (this is clearly a hydration free\u2011energ",
+   "value": -1.4,
+   "reasoning_tokens": 746,
+   "completion": 5289,
+   "cost": 0.14382,
+   "finish": "stop",
+   "mol_id": "2-methylthiophene",
+   "truth": -1.38
+  },
+  {
+   "text": "## Analysis\n\nDecoding the string representation (it is a cipher of SMILES):\n\n- `",
+   "value": 0.0,
+   "reasoning_tokens": 3076,
+   "completion": 15053,
+   "cost": 0.38792,
+   "finish": "stop",
+   "mol_id": "1-iodohexane",
+   "truth": 0.08
+  },
+  {
+   "text": "Looking at the closest analogs:\n\n- **AAaraaaaar** = -0.79\n- **ABaraaaaar** = -2.",
+   "value": -4.3,
+   "reasoning_tokens": 105,
+   "completion": 2414,
+   "cost": 0.071955,
+   "finish": "stop",
+   "mol_id": "2-ethylphenol",
+   "truth": -5.66
+  },
+  {
+   "text": "## Analysis\n\n**Finding close analogs in the training set:**\n\n| Structure | Prope",
+   "value": -2.5,
+   "reasoning_tokens": 442,
+   "completion": 5343,
+   "cost": 0.1452,
+   "finish": "stop",
+   "mol_id": "2-methylbutan-1-ol",
+   "truth": -4.42
+  },
+  {
+   "text": "**\u2248 -12.5**",
+   "value": -12.5,
+   "reasoning_tokens": 10,
+   "completion": 194,
+   "cost": 0.016555,
+   "finish": "stop",
+   "mol_id": "1-(2-hydroxyethylamino)-9,10-anthraquinone",
+   "truth": -14.21
+  },
+  {
+   "text": "**\u2248 2.90**",
+   "value": 2.9,
+   "reasoning_tokens": 119,
+   "completion": 1845,
+   "cost": 0.057725,
+   "finish": "stop",
+   "mol_id": "3-methylpentane",
+   "truth": 2.51
+  },
+  {
+   "text": "**Prediction: \u2248 -8.50**",
+   "value": -8.5,
+   "reasoning_tokens": 0,
+   "completion": 186,
+   "cost": 0.016285,
+   "finish": "stop",
+   "mol_id": "4-nitroaniline",
+   "truth": -9.82
+  },
+  {
+   "text": "**\u2248 -3.60**",
+   "value": -3.6,
+   "reasoning_tokens": 127,
+   "completion": 2310,
+   "cost": 0.06936,
+   "finish": "stop",
+   "mol_id": "benzaldehyde",
+   "truth": -4.02
+  },
+  {
+   "text": "**Prediction: \u2248 -2.50**",
+   "value": -2.5,
+   "reasoning_tokens": 116,
+   "completion": 2339,
+   "cost": 0.070065,
+   "finish": "stop",
+   "mol_id": "chloro-fluoro-methane",
+   "truth": -0.77
+  },
+  {
+   "text": "**Predicted sample property \u2248 -9.30**",
+   "value": -9.3,
+   "reasoning_tokens": 137,
+   "completion": 2523,
+   "cost": 0.07481,
+   "finish": "stop",
+   "mol_id": "bromacil",
+   "truth": -9.73
+  },
+  {
+   "text": "Looking at the training patterns:\n\n- Single internal \"B\" in an all\u2011A chain: AABA",
+   "value": 3.6,
+   "reasoning_tokens": 284,
+   "completion": 3147,
+   "cost": 0.09028,
+   "finish": "stop",
+   "mol_id": "1,1-diethoxyethane",
+   "truth": -3.28
+  },
+  {
+   "text": "Looking at the training data, the closest analogues are the linear alkyl\u2011type ch",
+   "value": -3.7,
+   "reasoning_tokens": 241,
+   "completion": 3719,
+   "cost": 0.104555,
+   "finish": "stop",
+   "mol_id": "acetaldehyde",
+   "truth": -3.5
+  },
+  {
+   "text": "**Prediction: \u20116.00**",
+   "value": 6.0,
+   "reasoning_tokens": 36,
+   "completion": 349,
+   "cost": 0.02044,
+   "finish": "stop",
+   "mol_id": "3-nitrooxypropyl nitrate",
+   "truth": -4.8
+  },
+  {
+   "text": "**Prediction: \u2248 -7.20**",
+   "value": -7.2,
+   "reasoning_tokens": 179,
+   "completion": 2730,
+   "cost": 0.079955,
+   "finish": "stop",
+   "mol_id": "N,N-dimethyl-4-nitro-benzamide",
+   "truth": -11.95
+  },
+  {
+   "text": "Looking at analogous chains containing both a B branch point and a {~B} unit:\n\n-",
+   "value": -2.3,
+   "reasoning_tokens": 123,
+   "completion": 2489,
+   "cost": 0.07384,
+   "finish": "stop",
+   "mol_id": "pentyl acetate",
+   "truth": -2.51
+  },
+  {
+   "text": "**\u2248 2.85**",
+   "value": 2.85,
+   "reasoning_tokens": 310,
+   "completion": 3835,
+   "cost": 0.107475,
+   "finish": "stop",
+   "mol_id": "octane",
+   "truth": 2.88
+  },
+  {
+   "text": "**Prediction: \u20116.50**",
+   "value": 6.5,
+   "reasoning_tokens": 135,
+   "completion": 1224,
+   "cost": 0.04225,
+   "finish": "stop",
+   "mol_id": "naphthalen-1-yl N-methylcarbamate",
+   "truth": -9.45
+  },
+  {
+   "text": "**Prediction: \u2248 -1.40**",
+   "value": -1.4,
+   "reasoning_tokens": 89,
+   "completion": 2325,
+   "cost": 0.06974,
+   "finish": "stop",
+   "mol_id": "p-xylene",
+   "truth": -0.8
+  },
+  {
+   "text": "**Prediction: \u2248 -9.70**",
+   "value": -9.7,
+   "reasoning_tokens": 0,
+   "completion": 163,
+   "cost": 0.01589,
+   "finish": "stop",
+   "mol_id": "trifluralin",
+   "truth": -3.25
+  },
+  {
+   "text": "## Analysis\n\nDecoding the string representation reveals this is a molecular enco",
+   "value": -2.2,
+   "reasoning_tokens": 719,
+   "completion": 5170,
+   "cost": 0.140865,
+   "finish": "stop",
+   "mol_id": "bromoform",
+   "truth": -2.13
+  },
+  {
+   "text": "**Prediction \u2248 1.90**",
+   "value": 1.9,
+   "reasoning_tokens": 201,
+   "completion": 2718,
+   "cost": 0.079565,
+   "finish": "stop",
+   "mol_id": "1,4-dimethylcyclohexane",
+   "truth": 2.11
+  },
+  {
+   "text": "**Prediction \u2248 -0.600**\n\nReasoning (brief): \"AY\" is a very short, minimally subs",
+   "value": -0.6,
+   "reasoning_tokens": 168,
+   "completion": 2608,
+   "cost": 0.07677,
+   "finish": "stop",
+   "mol_id": "bromomethane",
+   "truth": -0.82
+  },
+  {
+   "text": "## Analysis\n\nDecoding the notation against the training values reveals this is a",
+   "value": -0.45,
+   "reasoning_tokens": 2827,
+   "completion": 16733,
+   "cost": 0.42991,
+   "finish": "stop",
+   "mol_id": "1-iodobutane",
+   "truth": -0.25
+  },
+  {
+   "text": "**Prediction: \u2248 -1.30**",
+   "value": -1.3,
+   "reasoning_tokens": 89,
+   "completion": 271,
+   "cost": 0.018355,
+   "finish": "stop",
+   "mol_id": "1-methoxypropane",
+   "truth": -1.66
+  },
+  {
+   "text": "Looking at the training data, short strings with few heavy\u2011atom tokens tend towa",
+   "value": -3.2,
+   "reasoning_tokens": 216,
+   "completion": 3008,
+   "cost": 0.086865,
+   "finish": "stop",
+   "mol_id": "2-bromo-1,1,1,2-tetrafluoro-ethane",
+   "truth": 0.5
+  },
+  {
+   "text": "Looking at the training data, the closest analogue is **ara{a{~B}{dQ}a{~B}{dQ}r}",
+   "value": -16.6,
+   "reasoning_tokens": 488,
+   "completion": 6718,
+   "cost": 0.179645,
+   "finish": "stop",
+   "mol_id": "5-bromouracil",
+   "truth": -18.17
+  },
+  {
+   "text": "## Analysis\n\n**Structural features of the target:** `araa{aa{ar}{D%}{~B}{B_}}D`\n",
+   "value": -6.0,
+   "reasoning_tokens": 628,
+   "completion": 6623,
+   "cost": 0.17725,
+   "finish": "stop",
+   "mol_id": "3-nitroaniline",
+   "truth": -8.84
+  },
+  {
+   "text": "**Prediction: \u2248 -3.40**",
+   "value": -3.4,
+   "reasoning_tokens": 142,
+   "completion": 2356,
+   "cost": 0.070575,
+   "finish": "stop",
+   "mol_id": "1,3,5-trichloro-2-phenyl-benzene",
+   "truth": -2.16
+  },
+  {
+   "text": "## Analysis\n\nThe property values match **experimental hydration free energies (k",
+   "value": 1.28,
+   "reasoning_tokens": 586,
+   "completion": 5893,
+   "cost": 0.1589,
+   "finish": "stop",
+   "mol_id": "ethylene",
+   "truth": 1.28
+  },
+  {
+   "text": "## Analysis\n\nWorking from the additive trends visible in the pure\u2011A chains and t",
+   "value": -6.5,
+   "reasoning_tokens": 668,
+   "completion": 7423,
+   "cost": 0.197165,
+   "finish": "stop",
+   "mol_id": "butanenitrile",
+   "truth": -3.64
+  },
+  {
+   "text": "## Analysis\n\nDecoding the string grammar (A=C, B=O, D=N, Z=Cl, E=S, G=F, lowerca",
+   "value": -15.5,
+   "reasoning_tokens": 2151,
+   "completion": 12442,
+   "cost": 0.322775,
+   "finish": "stop",
+   "mol_id": "5-trifluoromethyluracil",
+   "truth": -15.46
+  },
+  {
+   "text": "**Predicted sample property \u2248 -8.50**",
+   "value": -8.5,
+   "reasoning_tokens": 200,
+   "completion": 2732,
+   "cost": 0.07991,
+   "finish": "stop",
+   "mol_id": "4-methyl-1H-imidazole",
+   "truth": -10.27
+  },
+  {
+   "text": "## Analysis\n\nLooking at additive trends in the training data:\n\n**All\u2011A baselines",
+   "value": -6.0,
+   "reasoning_tokens": 421,
+   "completion": 4008,
+   "cost": 0.11181,
+   "finish": "stop",
+   "mol_id": "isopentyl formate",
+   "truth": -2.13
+  },
+  {
+   "text": "**Prediction: \u2248 -2.30**",
+   "value": -2.3,
+   "reasoning_tokens": 2,
+   "completion": 180,
+   "cost": 0.01614,
+   "finish": "stop",
+   "mol_id": "1,1,2,2-tetrachloroethane",
+   "truth": -2.37
+  },
+  {
+   "text": "## Analysis\n\nThe strings encode molecular structures (A = aliphatic carbon, a = ",
+   "value": -0.83,
+   "reasoning_tokens": 414,
+   "completion": 3645,
+   "cost": 0.102745,
+   "finish": "stop",
+   "mol_id": "m-xylene",
+   "truth": -0.83
+  },
+  {
+   "text": "Looking at analogous entries:\n\n- `AA{~B}araaa{aar}BA` \u2192 **-4.40**\n- `araaa{aar}B",
+   "value": -5.8,
+   "reasoning_tokens": 125,
+   "completion": 2738,
+   "cost": 0.08009,
+   "finish": "stop",
+   "mol_id": "propyl paraben",
+   "truth": -9.37
+  },
+  {
+   "text": "Looking at the closely related analogues in the training set:\n\n- **AZ** \u2192 \u22120.55\n",
+   "value": -0.29,
+   "reasoning_tokens": 81,
+   "completion": 1496,
+   "cost": 0.048985,
+   "finish": "stop",
+   "mol_id": "1-chloropropane",
+   "truth": -0.33
+  },
+  {
+   "text": "Looking at the training data, this test structure is a highly nested, symmetric ",
+   "value": -4.8,
+   "reasoning_tokens": 142,
+   "completion": 2691,
+   "cost": 0.07909,
+   "finish": "stop",
+   "mol_id": "1,2,3,4,5-pentachloro-6-(2,3,4,5,6-pentachlorophenyl)benzene",
+   "truth": -2.98
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the pattern strongly suggests these a",
+   "value": -6.31,
+   "reasoning_tokens": 499,
+   "completion": 5113,
+   "cost": 0.13939,
+   "finish": "stop",
+   "mol_id": "ammonia",
+   "truth": -4.29
+  },
+  {
+   "text": "## Analysis\n\nRecognizing the pattern: this notation encodes molecules where **A ",
+   "value": -3.96,
+   "reasoning_tokens": 625,
+   "completion": 4604,
+   "cost": 0.12671,
+   "finish": "stop",
+   "mol_id": "nonan-1-ol",
+   "truth": -3.88
+  },
+  {
+   "text": "## Analysis\n\nThe notation appears to encode molecular structures where **A** = c",
+   "value": 2.34,
+   "reasoning_tokens": 455,
+   "completion": 4133,
+   "cost": 0.114935,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylbutane",
+   "truth": 2.34
+  },
+  {
+   "text": "## Analysis\n\nDecoding the string representation, this is a cipher over SMILES:\n\n",
+   "value": -0.8,
+   "reasoning_tokens": 1871,
+   "completion": 11296,
+   "cost": 0.29399,
+   "finish": "stop",
+   "mol_id": "3-chloroprop-1-ene",
+   "truth": -0.57
+  },
+  {
+   "text": "## Structure Decoding\n\nThe notation is a cipher for SMILES (A=C, B=O, D=N, G=F, ",
+   "value": -8.5,
+   "reasoning_tokens": 1858,
+   "completion": 12313,
+   "cost": 0.319545,
+   "finish": "stop",
+   "mol_id": "flurbiprofen",
+   "truth": -8.42
+  },
+  {
+   "text": "**Prediction: \u2248 -7.20**",
+   "value": -7.2,
+   "reasoning_tokens": 102,
+   "completion": 2527,
+   "cost": 0.074795,
+   "finish": "stop",
+   "mol_id": "1,1,1-trimethoxyethane",
+   "truth": -4.42
+  },
+  {
+   "text": "## Analysis\n\nDecoding the notation (it behaves like an atom/branch string, FreeS",
+   "value": -3.2,
+   "reasoning_tokens": 730,
+   "completion": 4488,
+   "cost": 0.123835,
+   "finish": "stop",
+   "mol_id": "methyl cyclohexanecarboxylate",
+   "truth": -3.3
+  },
+  {
+   "text": "**Prediction: \u2248 -7.20**",
+   "value": -7.2,
+   "reasoning_tokens": 49,
+   "completion": 236,
+   "cost": 0.017555,
+   "finish": "stop",
+   "mol_id": "1,4-dichloro-2-phenyl-benzene",
+   "truth": -2.46
+  },
+  {
+   "text": "**Predicted sample property \u2248 -5.20**",
+   "value": -5.2,
+   "reasoning_tokens": 183,
+   "completion": 2680,
+   "cost": 0.078635,
+   "finish": "stop",
+   "mol_id": "triethylphosphate",
+   "truth": -7.5
+  },
+  {
+   "text": "**Predicted sample property: \u2248 -3.50**",
+   "value": -3.5,
+   "reasoning_tokens": 600,
+   "completion": 5486,
+   "cost": 0.14877,
+   "finish": "stop",
+   "mol_id": "2-methyltetrahydrofuran",
+   "truth": -3.3
+  },
+  {
+   "text": "Looking at the homologous series in the training data:\n\n- AAAAA~B \u2192 -3.03\n- AAAA",
+   "value": -2.48,
+   "reasoning_tokens": 112,
+   "completion": 1986,
+   "cost": 0.061265,
+   "finish": "stop",
+   "mol_id": "nonanal",
+   "truth": -2.07
+  },
+  {
+   "text": "**Predicted sample property \u2248 -4.10**",
+   "value": -4.1,
+   "reasoning_tokens": 46,
+   "completion": 312,
+   "cost": 0.01944,
+   "finish": "stop",
+   "mol_id": "9,10-dihydroanthracene",
+   "truth": -3.78
+  },
+  {
+   "text": "**-5.30**",
+   "value": -5.3,
+   "reasoning_tokens": 79,
+   "completion": 477,
+   "cost": 0.023525,
+   "finish": "stop",
+   "mol_id": "cyclopentene",
+   "truth": 0.56
+  },
+  {
+   "text": "## Analysis\n\nThe strings encode molecules (A = carbon, ~ = double bond, {} = bra",
+   "value": 2.2,
+   "reasoning_tokens": 518,
+   "completion": 4214,
+   "cost": 0.11696,
+   "finish": "stop",
+   "mol_id": "hept-2-ene",
+   "truth": 1.68
+  },
+  {
+   "text": "**Prediction: \u2248 -7.00**",
+   "value": -7.0,
+   "reasoning_tokens": 157,
+   "completion": 2582,
+   "cost": 0.076165,
+   "finish": "stop",
+   "mol_id": "4-hydroxybenzaldehyde",
+   "truth": -8.83
+  },
+  {
+   "text": "Looking at the training data, I can compare closely related structures:\n\n- **AA{",
+   "value": -0.6,
+   "reasoning_tokens": 202,
+   "completion": 3040,
+   "cost": 0.087595,
+   "finish": "stop",
+   "mol_id": "1-bromo-2-methyl-propane",
+   "truth": -0.03
+  },
+  {
+   "text": "**Predicted sample property: \u201112.5**",
+   "value": 12.5,
+   "reasoning_tokens": 54,
+   "completion": 275,
+   "cost": 0.01864,
+   "finish": "stop",
+   "mol_id": "dialifor",
+   "truth": -5.74
+  },
+  {
+   "text": "Looking at the training data, the fragment pattern \"araaa{aar}X\" appears several",
+   "value": -5.7,
+   "reasoning_tokens": 157,
+   "completion": 3224,
+   "cost": 0.0922,
+   "finish": "stop",
+   "mol_id": "benzenethiol",
+   "truth": -2.55
+  },
+  {
+   "text": "**Predicted sample property \u2248 -5.00**",
+   "value": -5.0,
+   "reasoning_tokens": 115,
+   "completion": 3129,
+   "cost": 0.089915,
+   "finish": "stop",
+   "mol_id": "6-isopropyl-3-methyl-1-cyclohex-2-enone",
+   "truth": -4.51
+  },
+  {
+   "text": "**Prediction: \u20112.40**",
+   "value": 2.4,
+   "reasoning_tokens": 23,
+   "completion": 189,
+   "cost": 0.016365,
+   "finish": "stop",
+   "mol_id": "1,1,1,2-tetrachloroethane",
+   "truth": -1.43
+  },
+  {
+   "text": "Looking at the closest analogues in the training set \u2014 e.g. \"Aaraaa{aar}A{~B}A\" ",
+   "value": -3.2,
+   "reasoning_tokens": 134,
+   "completion": 2336,
+   "cost": 0.070035,
+   "finish": "stop",
+   "mol_id": "1,2,4-trimethylbenzene",
+   "truth": -0.86
+  },
+  {
+   "text": "Looking at the closest structural analogues in the training set:\n\n- **AAaraaaaar",
+   "value": -1.1,
+   "reasoning_tokens": 276,
+   "completion": 3582,
+   "cost": 0.101175,
+   "finish": "stop",
+   "mol_id": "tert-butylbenzene",
+   "truth": -0.44
+  },
+  {
+   "text": "**Prediction: \u2248 -2.30**",
+   "value": -2.3,
+   "reasoning_tokens": 79,
+   "completion": 320,
+   "cost": 0.01963,
+   "finish": "stop",
+   "mol_id": "1,2-dichloropropane",
+   "truth": -1.27
+  },
+  {
+   "text": "## Analysis\n\nDecoding the notation: this is a SMILES\u2011like encoding (A = C, B = O",
+   "value": -3.02,
+   "reasoning_tokens": 739,
+   "completion": 4043,
+   "cost": 0.11268,
+   "finish": "stop",
+   "mol_id": "N,N-diethylethanamine",
+   "truth": -3.22
+  },
+  {
+   "text": "**Prediction: \u2248 -3.60**",
+   "value": -3.6,
+   "reasoning_tokens": 137,
+   "completion": 2200,
+   "cost": 0.06661,
+   "finish": "stop",
+   "mol_id": "methyl 2-chloroacetate",
+   "truth": -4.0
+  },
+  {
+   "text": "Looking at the homologous series in the training data:\n\n- **AAAA^A** \u2192 0.01\n- **",
+   "value": 0.35,
+   "reasoning_tokens": 141,
+   "completion": 2327,
+   "cost": 0.06977,
+   "finish": "stop",
+   "mol_id": "hex-1-yne",
+   "truth": 0.29
+  },
+  {
+   "text": "**Prediction: \u2248 -2.50**",
+   "value": -2.5,
+   "reasoning_tokens": 8,
+   "completion": 282,
+   "cost": 0.018675,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trifluoro-ethane",
+   "truth": 0.06
+  },
+  {
+   "text": "**Predicted sample property \u2248 -4.00**",
+   "value": -4.0,
+   "reasoning_tokens": 290,
+   "completion": 3141,
+   "cost": 0.09013,
+   "finish": "stop",
+   "mol_id": "octan-1-amine",
+   "truth": -3.65
+  },
+  {
+   "text": "Looking at analogous structures in the training set (e.g., ABAABA = -2.86, AAA{~",
+   "value": -4.0,
+   "reasoning_tokens": 86,
+   "completion": 519,
+   "cost": 0.024585,
+   "finish": "stop",
+   "mol_id": "2-ethoxyethyl acetate",
+   "truth": -5.31
+  },
+  {
+   "text": "Looking at the training set, small compact structures built from a single \"A\" ce",
+   "value": -2.8,
+   "reasoning_tokens": 163,
+   "completion": 2741,
+   "cost": 0.08013,
+   "finish": "stop",
+   "mol_id": "chloro-difluoro-methane",
+   "truth": -0.5
+  },
+  {
+   "text": "## Analysis\n\n**Decoding the notation:** The strings appear to encode molecular s",
+   "value": 0.7,
+   "reasoning_tokens": 403,
+   "completion": 4412,
+   "cost": 0.12192,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylbuta-1,3-diene",
+   "truth": 0.4
+  },
+  {
+   "text": "Looking at the most analogous training entry, **ABaraa{a{a{arB}BA}Z}A~B = \u22127.78*",
+   "value": -4.9,
+   "reasoning_tokens": 235,
+   "completion": 2887,
+   "cost": 0.083835,
+   "finish": "stop",
+   "mol_id": "3,5-dichloro-2,6-dimethoxyphenol",
+   "truth": -6.44
+  },
+  {
+   "text": "**Prediction: \u2248 -0.300**",
+   "value": -0.3,
+   "reasoning_tokens": 151,
+   "completion": 2292,
+   "cost": 0.06888,
+   "finish": "stop",
+   "mol_id": "prop-1-yne",
+   "truth": -0.48
+  },
+  {
+   "text": "**Prediction reasoning (brief):**\n\nComparing analogous training entries:\n- AAAAA",
+   "value": -3.35,
+   "reasoning_tokens": 512,
+   "completion": 7080,
+   "cost": 0.188585,
+   "finish": "stop",
+   "mol_id": "propanal",
+   "truth": -3.43
+  },
+  {
+   "text": "Looking at the closest analogues:\n\n- **AA{A\\*\\*Q}{A}A{A}A** (2.52) shares the sa",
+   "value": -4.3,
+   "reasoning_tokens": 229,
+   "completion": 3287,
+   "cost": 0.09396,
+   "finish": "stop",
+   "mol_id": "2-[(1R)-1-methylpropyl]-4,6-dinitro-phenolate",
+   "truth": -6.23
+  },
+  {
+   "text": "Looking at the closest analogues in the training set:\n\n- `AAr~AA{A*Q}{A{A**Q}rB}",
+   "value": -4.35,
+   "reasoning_tokens": 576,
+   "completion": 5240,
+   "cost": 0.142705,
+   "finish": "stop",
+   "mol_id": "(2R,5R)-2-methyl-5-(1-methylethenyl)-cyclohexanone",
+   "truth": -3.75
+  },
+  {
+   "text": "Based on the patterns in the training data, particularly other short chains term",
+   "value": -3.2,
+   "reasoning_tokens": 141,
+   "completion": 2446,
+   "cost": 0.07278,
+   "finish": "stop",
+   "mol_id": "1-nitroethane",
+   "truth": -3.71
+  },
+  {
+   "text": "**Predicted sample property: \u2248 -6.30**",
+   "value": -6.3,
+   "reasoning_tokens": 180,
+   "completion": 2366,
+   "cost": 0.07085,
+   "finish": "stop",
+   "mol_id": "naproxen",
+   "truth": -10.21
+  },
+  {
+   "text": "**Prediction: \u2248 -2.20**",
+   "value": -2.2,
+   "reasoning_tokens": 138,
+   "completion": 2263,
+   "cost": 0.06815,
+   "finish": "stop",
+   "mol_id": "bromoethane",
+   "truth": -0.74
+  },
+  {
+   "text": "**Predicted sample property: \u20116.80**",
+   "value": 6.8,
+   "reasoning_tokens": 2,
+   "completion": 287,
+   "cost": 0.018845,
+   "finish": "stop",
+   "mol_id": "1,2,2-trifluoroethoxybenzene",
+   "truth": -1.29
+  },
+  {
+   "text": "Looking at the closest analogues in the training set:\n\n- `Aaraaa{dar}A` = -4.72\n",
+   "value": -4.95,
+   "reasoning_tokens": 78,
+   "completion": 2394,
+   "cost": 0.07146,
+   "finish": "stop",
+   "mol_id": "3,5-dimethylpyridine",
+   "truth": -4.84
+  },
+  {
+   "text": "**Predicted sample property \u2248 -5.20**",
+   "value": -5.2,
+   "reasoning_tokens": 76,
+   "completion": 2171,
+   "cost": 0.065885,
+   "finish": "stop",
+   "mol_id": "1-(4-pyridyl)ethanone",
+   "truth": -7.62
+  },
+  {
+   "text": "**Predicted sample property \u2248 -7.00**",
+   "value": -7.0,
+   "reasoning_tokens": 58,
+   "completion": 385,
+   "cost": 0.02123,
+   "finish": "stop",
+   "mol_id": "2-methoxyaniline",
+   "truth": -6.12
+  },
+  {
+   "text": "Looking at closely related training samples:\n\n- `AA{A}A~B` \u2192 \u22122.86 (same skeleto",
+   "value": -4.1,
+   "reasoning_tokens": 200,
+   "completion": 4204,
+   "cost": 0.1167,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylformamide",
+   "truth": -7.81
+  },
+  {
+   "text": "**Prediction: \u2248 -1.60**",
+   "value": -1.6,
+   "reasoning_tokens": 126,
+   "completion": 2531,
+   "cost": 0.07491,
+   "finish": "stop",
+   "mol_id": "trifluoromethylbenzene",
+   "truth": -0.25
+  },
+  {
+   "text": "## Analysis\n\n**Decoding the notation:** The lowercase `a` letters are aromatic c",
+   "value": -3.3,
+   "reasoning_tokens": 1874,
+   "completion": 11914,
+   "cost": 0.309565,
+   "finish": "stop",
+   "mol_id": "1,2,3-trichloro-5-(2,5-dichlorophenyl)benzene",
+   "truth": -3.61
+  },
+  {
+   "text": "**\u2248 -5.20**",
+   "value": -5.2,
+   "reasoning_tokens": 78,
+   "completion": 2045,
+   "cost": 0.062735,
+   "finish": "stop",
+   "mol_id": "2,4-dimethylpyridine",
+   "truth": -4.86
+  },
+  {
+   "text": "**Predicted sample property \u2248 -4.20**",
+   "value": -4.2,
+   "reasoning_tokens": 245,
+   "completion": 4373,
+   "cost": 0.120965,
+   "finish": "stop",
+   "mol_id": "4-methylpentan-2-ol",
+   "truth": -3.73
+  },
+  {
+   "text": "## Analysis\n\nThe string grammar maps to molecular structures where `A` = carbon,",
+   "value": 0.75,
+   "reasoning_tokens": 594,
+   "completion": 4894,
+   "cost": 0.133935,
+   "finish": "stop",
+   "mol_id": "cyclopropane",
+   "truth": 0.75
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, chains of pure A's are strongly posit",
+   "value": -2.8,
+   "reasoning_tokens": 426,
+   "completion": 4145,
+   "cost": 0.115215,
+   "finish": "stop",
+   "mol_id": "pentan-1-ol",
+   "truth": -4.57
+  },
+  {
+   "text": "**Prediction reasoning (brief):**\n\n- Closest analogues:\n - `araa{aaarB}Y` = **-5",
+   "value": -4.6,
+   "reasoning_tokens": 581,
+   "completion": 5189,
+   "cost": 0.141335,
+   "finish": "stop",
+   "mol_id": "1,4-dibromobenzene",
+   "truth": -2.3
+  },
+  {
+   "text": "**Predicted sample property \u2248 -9.50**",
+   "value": -9.5,
+   "reasoning_tokens": 134,
+   "completion": 2448,
+   "cost": 0.072845,
+   "finish": "stop",
+   "mol_id": "diethoxy-(ethylsulfanylmethylsulfanyl)-thioxo-$l^{5}-phosphane",
+   "truth": -4.37
+  },
+  {
+   "text": "Looking at the closest analogues:\n\n- **AA{A}{A}B** = -4.47 (same skeleton, termi",
+   "value": -4.2,
+   "reasoning_tokens": 91,
+   "completion": 701,
+   "cost": 0.029135,
+   "finish": "stop",
+   "mol_id": "2-bromo-2-methyl-propane",
+   "truth": 0.84
+  },
+  {
+   "text": "**Prediction reasoning:** The strings encode molecular structures, and the prope",
+   "value": 2.38,
+   "reasoning_tokens": 159,
+   "completion": 2777,
+   "cost": 0.08102,
+   "finish": "stop",
+   "mol_id": "isopentane",
+   "truth": 2.38
+  },
+  {
+   "text": "Looking at the training data, the strongest determinant of very negative values ",
+   "value": -19.5,
+   "reasoning_tokens": 276,
+   "completion": 3297,
+   "cost": 0.094145,
+   "finish": "stop",
+   "mol_id": "cyanuric acid",
+   "truth": -18.06
+  },
+  {
+   "text": "**\u2248 -1.30**",
+   "value": -1.3,
+   "reasoning_tokens": 0,
+   "completion": 134,
+   "cost": 0.01495,
+   "finish": "stop",
+   "mol_id": "1,2-dichloroethane",
+   "truth": -1.79
+  },
+  {
+   "text": "**Prediction \u2248 -7.30**",
+   "value": -7.3,
+   "reasoning_tokens": 109,
+   "completion": 2485,
+   "cost": 0.073755,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trimethoxy-ethane",
+   "truth": -4.59
+  },
+  {
+   "text": "## Analysis\n\n**Target:** `Aaraa{aa{ar}A}A` \u2014 a fused/bridged aromatic system bea",
+   "value": -1.5,
+   "reasoning_tokens": 413,
+   "completion": 4458,
+   "cost": 0.123085,
+   "finish": "stop",
+   "mol_id": "mesitylene",
+   "truth": -0.9
+  },
+  {
+   "text": "**Prediction: \u2248 -2.70**",
+   "value": -2.7,
+   "reasoning_tokens": 229,
+   "completion": 3170,
+   "cost": 0.09087,
+   "finish": "stop",
+   "mol_id": "3-methylbutanoic acid",
+   "truth": -6.09
+  },
+  {
+   "text": "**Predicted sample property: \u20114.60**",
+   "value": 4.6,
+   "reasoning_tokens": 65,
+   "completion": 342,
+   "cost": 0.020185,
+   "finish": "stop",
+   "mol_id": "2-acetoxyethyl acetate",
+   "truth": -6.34
+  },
+  {
+   "text": "**Prediction reasoning**\n\nLooking at the closely related analogues:\n- `AAA{~B}BA",
+   "value": -2.25,
+   "reasoning_tokens": 142,
+   "completion": 1718,
+   "cost": 0.054575,
+   "finish": "stop",
+   "mol_id": "ethyl hexanoate",
+   "truth": -2.23
+  },
+  {
+   "text": "Looking at the closely related structures:\n\n- `AZ` \u2192 -0.55\n- `A{AZ}AZ` \u2192 -1.89\n-",
+   "value": -1.05,
+   "reasoning_tokens": 63,
+   "completion": 816,
+   "cost": 0.032015,
+   "finish": "stop",
+   "mol_id": "chloroform",
+   "truth": -1.08
+  },
+  {
+   "text": "## Analysis\n\nDecoding the string alphabet against the training data reveals this",
+   "value": -9.3,
+   "reasoning_tokens": 1118,
+   "completion": 11723,
+   "cost": 0.304665,
+   "finish": "stop",
+   "mol_id": "ethylene glycol",
+   "truth": -9.3
+  },
+  {
+   "text": "**Prediction: \u2248 -3.10**",
+   "value": -3.1,
+   "reasoning_tokens": 40,
+   "completion": 1172,
+   "cost": 0.040915,
+   "finish": "stop",
+   "mol_id": "N-isopropylpropan-2-amine",
+   "truth": -3.22
+  },
+  {
+   "text": "Looking at the training set, the closest analogue is:\n\n- `araaasa{ar}A{~B}ataaa{",
+   "value": -11.8,
+   "reasoning_tokens": 60,
+   "completion": 483,
+   "cost": 0.023765,
+   "finish": "stop",
+   "mol_id": "1-amino-9,10-anthracenedione",
+   "truth": -9.44
+  },
+  {
+   "text": "Looking at the training data, I can decompose the target **ABaraaa{aar}A{~B}BA**",
+   "value": -7.2,
+   "reasoning_tokens": 186,
+   "completion": 3519,
+   "cost": 0.09962,
+   "finish": "stop",
+   "mol_id": "methyl 4-methoxybenzoate",
+   "truth": -5.33
+  },
+  {
+   "text": "**Predicted sample property \u2248 -12.5**",
+   "value": -12.5,
+   "reasoning_tokens": 31,
+   "completion": 405,
+   "cost": 0.0219,
+   "finish": "stop",
+   "mol_id": "captan",
+   "truth": -9.01
+  },
+  {
+   "text": "**-9.50**",
+   "value": -9.5,
+   "reasoning_tokens": 55,
+   "completion": 201,
+   "cost": 0.016765,
+   "finish": "stop",
+   "mol_id": "diethyl (2R)-2-dimethoxyphosphinothioylsulfanylbutanedioate",
+   "truth": -8.15
+  },
+  {
+   "text": "Looking at the training data, I can identify the key structural contributions:\n\n",
+   "value": -8.3,
+   "reasoning_tokens": 273,
+   "completion": 3870,
+   "cost": 0.10835,
+   "finish": "stop",
+   "mol_id": "N-methylacetamide",
+   "truth": -10.0
+  },
+  {
+   "text": "**Prediction \u2248 2.30**",
+   "value": 2.3,
+   "reasoning_tokens": 74,
+   "completion": 307,
+   "cost": 0.01928,
+   "finish": "stop",
+   "mol_id": "2-methylpent-1-ene",
+   "truth": 1.47
+  },
+  {
+   "text": "Looking at the analogous structures (ABaraaaaar \u2248 \u20111.99, AD{A}araaaaar \u2248 0.10, A",
+   "value": -2.5,
+   "reasoning_tokens": 108,
+   "completion": 2161,
+   "cost": 0.06564,
+   "finish": "stop",
+   "mol_id": "pentylbenzene",
+   "truth": -0.23
+  },
+  {
+   "text": "**Prediction: \u2248 -0.400**",
+   "value": -0.4,
+   "reasoning_tokens": 61,
+   "completion": 302,
+   "cost": 0.019155,
+   "finish": "stop",
+   "mol_id": "propylbenzene",
+   "truth": -0.53
+  },
+  {
+   "text": "**Prediction reasoning (brief):**\n\n- Pure carbon-like chains (A\u2011only, e.g. AAAAA",
+   "value": -7.8,
+   "reasoning_tokens": 133,
+   "completion": 1654,
+   "cost": 0.052935,
+   "finish": "stop",
+   "mol_id": "2-methoxyethanamine",
+   "truth": -6.55
+  },
+  {
+   "text": "**Prediction: -0.400**",
+   "value": -0.4,
+   "reasoning_tokens": 75,
+   "completion": 1150,
+   "cost": 0.04036,
+   "finish": "stop",
+   "mol_id": "butylbenzene",
+   "truth": -0.4
+  },
+  {
+   "text": "**Predicted sample property \u2248 -4.60**",
+   "value": -4.6,
+   "reasoning_tokens": 86,
+   "completion": 2210,
+   "cost": 0.06689,
+   "finish": "stop",
+   "mol_id": "2,2-dichloro-1,1-difluoro-1-methoxy-ethane",
+   "truth": -1.12
+  },
+  {
+   "text": "## Analysis\n\nDecoding the notation (using training anchors):\n- **A = C**, **B = ",
+   "value": 4.42,
+   "reasoning_tokens": 2716,
+   "completion": 13201,
+   "cost": 0.341625,
+   "finish": "stop",
+   "mol_id": "3-methylbutan-1-ol",
+   "truth": -4.42
+  },
+  {
+   "text": "**Prediction \u2248 1.65**",
+   "value": 1.65,
+   "reasoning_tokens": 134,
+   "completion": 2232,
+   "cost": 0.067395,
+   "finish": "stop",
+   "mol_id": "hex-1-ene",
+   "truth": 1.58
+  },
+  {
+   "text": "**Predicted sample property \u2248 -3.00**",
+   "value": -3.0,
+   "reasoning_tokens": 87,
+   "completion": 356,
+   "cost": 0.02054,
+   "finish": "stop",
+   "mol_id": "sec-butylbenzene",
+   "truth": -0.45
+  },
+  {
+   "text": "Looking at the closest analogues:\n\n- `araaa{a{ar}B}G` \u2192 \u22125.29\n- `AAAaraaa{a{ar}B",
+   "value": -7.5,
+   "reasoning_tokens": 193,
+   "completion": 2912,
+   "cost": 0.08443,
+   "finish": "stop",
+   "mol_id": "2-hydroxybenzaldehyde",
+   "truth": -4.68
+  },
+  {
+   "text": "**Prediction: \u20112.20**",
+   "value": 2.2,
+   "reasoning_tokens": 130,
+   "completion": 3242,
+   "cost": 0.092645,
+   "finish": "stop",
+   "mol_id": "1,2-dibromoethane",
+   "truth": -2.33
+  },
+  {
+   "text": "**Prediction: \u2248 -1.60**",
+   "value": -1.6,
+   "reasoning_tokens": 130,
+   "completion": 2477,
+   "cost": 0.07352,
+   "finish": "stop",
+   "mol_id": "2-bromopropane",
+   "truth": -0.48
+  },
+  {
+   "text": "**Prediction: \u20115.20**",
+   "value": 5.2,
+   "reasoning_tokens": 82,
+   "completion": 373,
+   "cost": 0.020935,
+   "finish": "stop",
+   "mol_id": "4-chlorophenol",
+   "truth": -7.03
+  },
+  {
+   "text": "**Prediction: \u2248 -3.20**",
+   "value": -3.2,
+   "reasoning_tokens": 11,
+   "completion": 180,
+   "cost": 0.016105,
+   "finish": "stop",
+   "mol_id": "butyric acid",
+   "truth": -6.35
+  },
+  {
+   "text": "**Prediction: \u2248 -1.10**\n\nBased on comparison with structurally similar chains (A",
+   "value": -1.1,
+   "reasoning_tokens": 62,
+   "completion": 398,
+   "cost": 0.021545,
+   "finish": "stop",
+   "mol_id": "hexan-1-ol",
+   "truth": -4.4
+  },
+  {
+   "text": "**Predicted sample property: \u20113.20**",
+   "value": 3.2,
+   "reasoning_tokens": 278,
+   "completion": 1998,
+   "cost": 0.061555,
+   "finish": "stop",
+   "mol_id": "naphthalene",
+   "truth": -2.4
+  },
+  {
+   "text": "Looking at the closest analogues in the training set:\n\n- `ABaraa{a{a{arB}BA}Z}A~",
+   "value": -7.6,
+   "reasoning_tokens": 140,
+   "completion": 2769,
+   "cost": 0.08089,
+   "finish": "stop",
+   "mol_id": "dicamba",
+   "truth": -9.86
+  },
+  {
+   "text": "**Predicted sample property \u2248 -2.60**",
+   "value": -2.6,
+   "reasoning_tokens": 346,
+   "completion": 3564,
+   "cost": 0.100745,
+   "finish": "stop",
+   "mol_id": "isobutyl 2-methylpropanoate",
+   "truth": -1.69
+  },
+  {
+   "text": "**Predicted sample property \u2248 -4.80**",
+   "value": -4.8,
+   "reasoning_tokens": 153,
+   "completion": 2518,
+   "cost": 0.07455,
+   "finish": "stop",
+   "mol_id": "fluorobenzene",
+   "truth": -0.8
+  },
+  {
+   "text": "## Analysis\n\nDecoding the notation (it's a cipher of SMILES):\n\n- **A = C**, **B ",
+   "value": -1.17,
+   "reasoning_tokens": 2322,
+   "completion": 12180,
+   "cost": 0.316115,
+   "finish": "stop",
+   "mol_id": "(Z)-1,2-dichloroethylene",
+   "truth": -1.17
+  },
+  {
+   "text": "Looking at the training data, structures composed mainly of lowercase \"a\" chains",
+   "value": -6.1,
+   "reasoning_tokens": 160,
+   "completion": 1396,
+   "cost": 0.046625,
+   "finish": "stop",
+   "mol_id": "1,2,4,5-tetrachloro-3-(3,4-dichlorophenyl)benzene",
+   "truth": -4.38
+  },
+  {
+   "text": "**Predicted sample property \u2248 -6.30**",
+   "value": -6.3,
+   "reasoning_tokens": 81,
+   "completion": 2488,
+   "cost": 0.073825,
+   "finish": "stop",
+   "mol_id": "2-chloroaniline",
+   "truth": -4.91
+  },
+  {
+   "text": "**Prediction: \u2248 -3.00**",
+   "value": -3.0,
+   "reasoning_tokens": 45,
+   "completion": 284,
+   "cost": 0.01869,
+   "finish": "stop",
+   "mol_id": "1-iodopentane",
+   "truth": -0.14
+  },
+  {
+   "text": "Looking at the closely related homologous series in the training set:\n\n- **AAA{~",
+   "value": -2.78,
+   "reasoning_tokens": 126,
+   "completion": 1881,
+   "cost": 0.058635,
+   "finish": "stop",
+   "mol_id": "methyl butanoate",
+   "truth": -2.83
+  },
+  {
+   "text": "## Analysis\n\nDecoding the notation: `A` = aliphatic carbon, `a` = aromatic carbo",
+   "value": -5.9,
+   "reasoning_tokens": 664,
+   "completion": 4612,
+   "cost": 0.12694,
+   "finish": "stop",
+   "mol_id": "4-tert-butylphenol",
+   "truth": -5.91
+  },
+  {
+   "text": "Looking at the closest structural analogues in the training set:\n\n- `AAD{AA}ara{",
+   "value": -9.55,
+   "reasoning_tokens": 50,
+   "completion": 699,
+   "cost": 0.0293,
+   "finish": "stop",
+   "mol_id": "nitralin",
+   "truth": -7.98
+  },
+  {
+   "text": "**\u2248 -5.50**",
+   "value": -5.5,
+   "reasoning_tokens": 69,
+   "completion": 2021,
+   "cost": 0.062145,
+   "finish": "stop",
+   "mol_id": "2,6-dimethylphenol",
+   "truth": -5.26
+  },
+  {
+   "text": "**Prediction reasoning (brief):** The structure is composed of aromatic ring sys",
+   "value": -3.2,
+   "reasoning_tokens": 164,
+   "completion": 3005,
+   "cost": 0.08687,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(2,3,4-trichlorophenyl)benzene",
+   "truth": -4.4
+  },
+  {
+   "text": "**Prediction reasoning (brief):**\n\n- Very short strings with few groups tend tow",
+   "value": -1.5,
+   "reasoning_tokens": 295,
+   "completion": 2943,
+   "cost": 0.08515,
+   "finish": "stop",
+   "mol_id": "formaldehyde",
+   "truth": -2.75
+  },
+  {
+   "text": "**Predicted sample property: \u2248 -5.20**",
+   "value": -5.2,
+   "reasoning_tokens": 53,
+   "completion": 465,
+   "cost": 0.02337,
+   "finish": "stop",
+   "mol_id": "1,3-bis-(nitrooxy)butane",
+   "truth": -4.29
+  },
+  {
+   "text": "## Analysis\n\nDecoding the string grammar against known values reveals this is a ",
+   "value": -3.34,
+   "reasoning_tokens": 451,
+   "completion": 3839,
+   "cost": 0.10761,
+   "finish": "stop",
+   "mol_id": "1-nitropropane",
+   "truth": -3.34
+  },
+  {
+   "text": "**Prediction: \u2248 -2.85**",
+   "value": -2.85,
+   "reasoning_tokens": 265,
+   "completion": 2265,
+   "cost": 0.068235,
+   "finish": "stop",
+   "mol_id": "hexan-2-one",
+   "truth": -3.28
+  },
+  {
+   "text": "**Prediction: \u2248 -2.30**",
+   "value": -2.3,
+   "reasoning_tokens": 123,
+   "completion": 2405,
+   "cost": 0.07176,
+   "finish": "stop",
+   "mol_id": "methyl 2,2-dimethylpropanoate",
+   "truth": -2.4
+  },
+  {
+   "text": "**Predicted sample property: \u20116.50**",
+   "value": 6.5,
+   "reasoning_tokens": 44,
+   "completion": 498,
+   "cost": 0.024155,
+   "finish": "stop",
+   "mol_id": "1,2,4-trichlorodibenzo-p-dioxin",
+   "truth": -4.05
+  },
+  {
+   "text": "## Analysis\n\nDecoding the notation against the training data reveals this is a h",
+   "value": -3.9,
+   "reasoning_tokens": 931,
+   "completion": 6381,
+   "cost": 0.171115,
+   "finish": "stop",
+   "mol_id": "1-methylpyrrole",
+   "truth": -2.89
+  },
+  {
+   "text": "**Prediction reasoning (brief):** The string `Adraadar` describes a small hetero",
+   "value": -5.6,
+   "reasoning_tokens": 137,
+   "completion": 2825,
+   "cost": 0.08221,
+   "finish": "stop",
+   "mol_id": "1-methylimidazole",
+   "truth": -8.41
+  },
+  {
+   "text": "## Structure Interpretation\n\nDecoding the notation using the training set:\n- `A`",
+   "value": -1.1,
+   "reasoning_tokens": 1230,
+   "completion": 9327,
+   "cost": 0.24481,
+   "finish": "stop",
+   "mol_id": "methyl 2,2,2-trifluoroacetate",
+   "truth": -1.1
+  },
+  {
+   "text": "**Prediction: \u2248 -2.10**",
+   "value": -2.1,
+   "reasoning_tokens": 54,
+   "completion": 246,
+   "cost": 0.01774,
+   "finish": "stop",
+   "mol_id": "1,2-diethoxyethane",
+   "truth": -3.54
+  },
+  {
+   "text": "Looking at the closest analogues in the training set:\n\n- **AAABAAA** = \u22121.16 (li",
+   "value": -2.55,
+   "reasoning_tokens": 385,
+   "completion": 3811,
+   "cost": 0.106885,
+   "finish": "stop",
+   "mol_id": "propyl propanoate",
+   "truth": -2.44
+  }
+ ]
+}

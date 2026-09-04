@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "gem36flash",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:128",
+  "disjoint_from": "freesolv,ld50",
+  "cost": 0.7787347500000003,
+  "timestamp": "2026-07-28T17:48:20"
+ },
+ "calls": [
+  {
+   "text": "To predict the measured aqueous solubility of **Medrogestone**, we can analyze i",
+   "value": -5.12,
+   "reasoning_tokens": 560,
+   "completion": 855,
+   "cost": 0.00549675,
+   "finish": "stop",
+   "mol_id": "Medrogestone",
+   "truth": -5.27
+  },
+  {
+   "text": "To predict the aqueous solubility of Androsterone, we analyze its structural fea",
+   "value": -4.15,
+   "reasoning_tokens": 553,
+   "completion": 797,
+   "cost": 0.0052695,
+   "finish": "stop",
+   "mol_id": "Androsterone",
+   "truth": -4.402
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **N,N-Diethylaniline** (SMILES: `C",
+   "value": -2.27,
+   "reasoning_tokens": 865,
+   "completion": 1073,
+   "cost": 0.006294,
+   "finish": "stop",
+   "mol_id": "N,N-Diethylaniline",
+   "truth": -3.03
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 2-Bromotoluene, we analyze its str",
+   "value": -2.95,
+   "reasoning_tokens": 687,
+   "completion": 947,
+   "cost": 0.00581925,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 838,
+   "completion": 843,
+   "cost": 0.0054405,
+   "finish": "stop",
+   "mol_id": "Hexestrol",
+   "truth": -4.43
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Ethirimol**, we analyze its stru",
+   "value": -3.02,
+   "reasoning_tokens": 460,
+   "completion": 731,
+   "cost": 0.005016,
+   "finish": "stop",
+   "mol_id": "Ethirimol",
+   "truth": -3.028
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 2,3',5-PCB (a trichlorobiphenyl), ",
+   "value": -6.28,
+   "reasoning_tokens": 365,
+   "completion": 565,
+   "cost": 0.00439725,
+   "finish": "stop",
+   "mol_id": "2,3',5-PCB",
+   "truth": -6.01
+  },
+  {
+   "text": "To predict the aqueous solubility of **Triphenylene**, we analyze its molecular ",
+   "value": -6.72,
+   "reasoning_tokens": 613,
+   "completion": 909,
+   "cost": 0.00568425,
+   "finish": "stop",
+   "mol_id": "Triphenylene",
+   "truth": -6.726
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **chloropropylate**, we can compar",
+   "value": -4.45,
+   "reasoning_tokens": 420,
+   "completion": 568,
+   "cost": 0.0044145,
+   "finish": "stop",
+   "mol_id": "chloropropylate",
+   "truth": -4.53
+  },
+  {
+   "text": "To predict the measured aqueous solubility of acetazolamide, we consider its che",
+   "value": -2.5,
+   "reasoning_tokens": 477,
+   "completion": 681,
+   "cost": 0.00482925,
+   "finish": "stop",
+   "mol_id": "acetazolamide",
+   "truth": -2.36
+  },
+  {
+   "text": "To predict the measured aqueous solubility of triamcinolone diacetate, we consid",
+   "value": -4.25,
+   "reasoning_tokens": 523,
+   "completion": 629,
+   "cost": 0.004662,
+   "finish": "stop",
+   "mol_id": "triamcinolone diacetate",
+   "truth": -4.13
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Flumethasone**, we evaluate its ",
+   "value": -3.95,
+   "reasoning_tokens": 757,
+   "completion": 1017,
+   "cost": 0.0061125,
+   "finish": "stop",
+   "mol_id": "Flumethasone",
+   "truth": -5.613
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **d-inositol** ($\\text{C}_6\\text{H",
+   "value": -0.11,
+   "reasoning_tokens": 673,
+   "completion": 813,
+   "cost": 0.005328,
+   "finish": "stop",
+   "mol_id": "d-inositol",
+   "truth": 0.35
+  },
+  {
+   "text": "To predict the aqueous solubility of **triforine**, we consider its physicochemi",
+   "value": -4.19,
+   "reasoning_tokens": 650,
+   "completion": 844,
+   "cost": 0.00545475,
+   "finish": "stop",
+   "mol_id": "triforine",
+   "truth": -4.19
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 2,4-Dimethyl-2-pentanol, we consid",
+   "value": -1.08,
+   "reasoning_tokens": 716,
+   "completion": 867,
+   "cost": 0.0055275,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethyl-2-pentanol",
+   "truth": -0.92
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 2,2-dimethylpropanol, we analyze i",
+   "value": -0.389,
+   "reasoning_tokens": 419,
+   "completion": 589,
+   "cost": 0.00447975,
+   "finish": "stop",
+   "mol_id": "2,2-Dimethylpropanol",
+   "truth": -0.4
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Etofenprox**, we analyze its mol",
+   "value": -7.22,
+   "reasoning_tokens": 659,
+   "completion": 959,
+   "cost": 0.00587775,
+   "finish": "stop",
+   "mol_id": "Etofenprox",
+   "truth": -8.6
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 2,4'-PCB (2,4'-dichlorobiphenyl), ",
+   "value": -5.65,
+   "reasoning_tokens": 586,
+   "completion": 737,
+   "cost": 0.00503775,
+   "finish": "stop",
+   "mol_id": "2,4'-PCB",
+   "truth": -5.28
+  },
+  {
+   "text": "To predict the aqueous solubility ($\\log(mol/L)$) of Estrone, we consider its st",
+   "value": -4.32,
+   "reasoning_tokens": 557,
+   "completion": 779,
+   "cost": 0.00519975,
+   "finish": "stop",
+   "mol_id": "Estrone",
+   "truth": -3.955
+  },
+  {
+   "text": "To predict the aqueous solubility (log(mol/L)) of estriol, we evaluate its struc",
+   "value": -3.92,
+   "reasoning_tokens": 376,
+   "completion": 495,
+   "cost": 0.004137,
+   "finish": "stop",
+   "mol_id": "estriol",
+   "truth": -4.955
+  },
+  {
+   "text": "To predict the aqueous solubility of **Cyclopropyl-5-spirobarbituric acid**, we ",
+   "value": -1.15,
+   "reasoning_tokens": 695,
+   "completion": 1019,
+   "cost": 0.00610425,
+   "finish": "stop",
+   "mol_id": "Cyclopropyl-5-spirobarbituric acid",
+   "truth": -1.886
+  },
+  {
+   "text": "To predict the aqueous solubility of **RTI 15** (`CCN2c1nc(C)cc(C)c1NC(=O)c3cccn",
+   "value": -3.0,
+   "reasoning_tokens": 1168,
+   "completion": 1449,
+   "cost": 0.00771375,
+   "finish": "stop",
+   "mol_id": "RTI 15",
+   "truth": -4.553999999999999
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **2-Hexanol** (SMILES: `CCCCC(C)O`",
+   "value": -0.89,
+   "reasoning_tokens": 639,
+   "completion": 841,
+   "cost": 0.00542175,
+   "finish": "stop",
+   "mol_id": "2-Hexanol",
+   "truth": -0.89
+  },
+  {
+   "text": "To predict the aqueous solubility of **2,2,3-Trimethylbutane**, we analyze its m",
+   "value": -3.68,
+   "reasoning_tokens": 622,
+   "completion": 899,
+   "cost": 0.00564675,
+   "finish": "stop",
+   "mol_id": "2,2,3-Trimethylbutane",
+   "truth": -4.36
+  },
+  {
+   "text": "To predict the aqueous solubility of **3,3-Dimethyl-2-butanol**, we consider its",
+   "value": -0.629,
+   "reasoning_tokens": 444,
+   "completion": 606,
+   "cost": 0.004548,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanol",
+   "truth": -0.62
+  },
+  {
+   "text": "Based on the molecular structure (1-bromo-4-iodobenzene), its high hydrophobicit",
+   "value": -4.38,
+   "reasoning_tokens": 423,
+   "completion": 479,
+   "cost": 0.0040665,
+   "finish": "stop",
+   "mol_id": "p-Bromoiodobenzene",
+   "truth": -4.56
+  },
+  {
+   "text": "To predict the aqueous solubility of 2,3,4-Trichlorophenol, we analyze its chemi",
+   "value": -2.37,
+   "reasoning_tokens": 478,
+   "completion": 656,
+   "cost": 0.00473775,
+   "finish": "stop",
+   "mol_id": "2,3,4-Trichlorophenol",
+   "truth": -2.67
+  },
+  {
+   "text": "To predict the aqueous solubility of Mebendazole, we evaluate its key physicoche",
+   "value": -4.82,
+   "reasoning_tokens": 896,
+   "completion": 1111,
+   "cost": 0.00644775,
+   "finish": "stop",
+   "mol_id": "Mebendazole",
+   "truth": -3.88
+  },
+  {
+   "text": "Based on the structural features of 2,2',3,4,5,5',6-PCB (a heptachlorobiphenyl) ",
+   "value": -8.45,
+   "reasoning_tokens": 484,
+   "completion": 577,
+   "cost": 0.00446025,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,5,5',6-PCB",
+   "truth": -8.94
+  },
+  {
+   "text": "To predict the aqueous solubility of RTI 10, we examine its molecular structure ",
+   "value": -2.75,
+   "reasoning_tokens": 1113,
+   "completion": 1373,
+   "cost": 0.00742575,
+   "finish": "stop",
+   "mol_id": "RTI 10",
+   "truth": -3.672
+  },
+  {
+   "text": "To predict the aqueous solubility of **2,2',4,4',6,6'-PCB** (a hexachlorobipheny",
+   "value": -6.65,
+   "reasoning_tokens": 768,
+   "completion": 1041,
+   "cost": 0.00619575,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',6,6'-PCB",
+   "truth": -8.71
+  },
+  {
+   "text": "-1.44",
+   "value": -1.44,
+   "reasoning_tokens": 290,
+   "completion": 295,
+   "cost": 0.003378,
+   "finish": "stop",
+   "mol_id": "allantoin",
+   "truth": -1.6
+  },
+  {
+   "text": "To predict the aqueous solubility of 3,5-Dichlorophenol, we analyze its chemical",
+   "value": -1.48,
+   "reasoning_tokens": 486,
+   "completion": 630,
+   "cost": 0.004638,
+   "finish": "stop",
+   "mol_id": "3,5-Dichlorophenol",
+   "truth": -1.34
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Butamben (butyl 4-aminobenzoate), ",
+   "value": -3.05,
+   "reasoning_tokens": 622,
+   "completion": 821,
+   "cost": 0.0053505,
+   "finish": "stop",
+   "mol_id": "Butamben",
+   "truth": -3.082
+  },
+  {
+   "text": "To predict the aqueous solubility (log(mol/L)) of **Hydrocortisone 21-acetate**,",
+   "value": -4.45,
+   "reasoning_tokens": 548,
+   "completion": 781,
+   "cost": 0.00522375,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone 21-acetate",
+   "truth": -4.88
+  },
+  {
+   "text": "To predict the measured aqueous solubility (log(mol/L)) of **5-Ethyl-5-isopropyl",
+   "value": -2.21,
+   "reasoning_tokens": 546,
+   "completion": 648,
+   "cost": 0.00471525,
+   "finish": "stop",
+   "mol_id": "5-Ethyl-5-isopropylbarbituric acid",
+   "truth": -2.148
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **2-Methyl-3-pentanol** (SMILES: `",
+   "value": -0.88,
+   "reasoning_tokens": 731,
+   "completion": 996,
+   "cost": 0.00600825,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Equilenin**, we examine its stru",
+   "value": -4.32,
+   "reasoning_tokens": 695,
+   "completion": 947,
+   "cost": 0.0058305,
+   "finish": "stop",
+   "mol_id": "Equilenin",
+   "truth": -5.24
+  },
+  {
+   "text": "-5.14",
+   "value": -5.14,
+   "reasoning_tokens": 853,
+   "completion": 858,
+   "cost": 0.00549075,
+   "finish": "stop",
+   "mol_id": "Carbazole",
+   "truth": -5.27
+  },
+  {
+   "text": "To predict the aqueous solubility of **m-Chloroiodobenzene**, we consider its st",
+   "value": -3.78,
+   "reasoning_tokens": 479,
+   "completion": 651,
+   "cost": 0.0047115,
+   "finish": "stop",
+   "mol_id": "m-Chloroiodobenzene",
+   "truth": -3.55
+  },
+  {
+   "text": "Based on the relationship between molecular structure, chlorine substitution pat",
+   "value": -6.42,
+   "reasoning_tokens": 618,
+   "completion": 670,
+   "cost": 0.0047955,
+   "finish": "stop",
+   "mol_id": "2,2',3,5'-PCB",
+   "truth": -6.47
+  },
+  {
+   "text": "To predict the aqueous solubility of **Corticosterone**, we consider its structu",
+   "value": -3.25,
+   "reasoning_tokens": 393,
+   "completion": 568,
+   "cost": 0.004416,
+   "finish": "stop",
+   "mol_id": "Corticosterone",
+   "truth": -3.24
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Riboflavin, we analyze its chemica",
+   "value": -3.58,
+   "reasoning_tokens": 536,
+   "completion": 768,
+   "cost": 0.0051705,
+   "finish": "stop",
+   "mol_id": "Riboflavin",
+   "truth": -3.685
+  },
+  {
+   "text": "-4.08",
+   "value": -4.08,
+   "reasoning_tokens": 453,
+   "completion": 458,
+   "cost": 0.003996,
+   "finish": "stop",
+   "mol_id": "Stanolone",
+   "truth": -4.743
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **2,3',4,4'-PCB** (a pentachlorobi",
+   "value": -7.1,
+   "reasoning_tokens": 737,
+   "completion": 988,
+   "cost": 0.005991,
+   "finish": "stop",
+   "mol_id": "2,3',4,4'-PCB",
+   "truth": -7.8
+  },
+  {
+   "text": "Based on the molecular structure of parabanic acid (imidazolidinetrione), it is ",
+   "value": -0.41,
+   "reasoning_tokens": 456,
+   "completion": 531,
+   "cost": 0.0042645,
+   "finish": "stop",
+   "mol_id": "parabanic acid",
+   "truth": -0.4
+  },
+  {
+   "text": "To predict the measured aqueous solubility (log(mol/L)) of **RTI 22** (`CCN2c1cc",
+   "value": -2.8,
+   "reasoning_tokens": 892,
+   "completion": 1171,
+   "cost": 0.00667575,
+   "finish": "stop",
+   "mol_id": "RTI 22",
+   "truth": -4.871
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Tetradecane** ($\\text{C}_{14}\\te",
+   "value": -8.84,
+   "reasoning_tokens": 1106,
+   "completion": 1297,
+   "cost": 0.007128,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Picene**, we can analyze its str",
+   "value": -9.45,
+   "reasoning_tokens": 799,
+   "completion": 1095,
+   "cost": 0.006384,
+   "finish": "stop",
+   "mol_id": "Picene",
+   "truth": -7.87
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Menadione**, we consider its che",
+   "value": -3.03,
+   "reasoning_tokens": 465,
+   "completion": 587,
+   "cost": 0.0044745,
+   "finish": "stop",
+   "mol_id": "Menadione",
+   "truth": -3.03
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Diosgenin**, we consider its mol",
+   "value": -5.95,
+   "reasoning_tokens": 505,
+   "completion": 683,
+   "cost": 0.00485475,
+   "finish": "stop",
+   "mol_id": "Diosgenin",
+   "truth": -7.32
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **9-Methylanthracene**, we examine",
+   "value": -6.15,
+   "reasoning_tokens": 432,
+   "completion": 669,
+   "cost": 0.004782,
+   "finish": "stop",
+   "mol_id": "9-Methylanthracene",
+   "truth": -5.89
+  },
+  {
+   "text": "To predict the aqueous solubility of 3-Methyl-2-pentanol, we examine its molecul",
+   "value": -0.85,
+   "reasoning_tokens": 882,
+   "completion": 1107,
+   "cost": 0.0064215,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Benzo(a)fluorene, we can analyze i",
+   "value": -6.4,
+   "reasoning_tokens": 501,
+   "completion": 746,
+   "cost": 0.00507525,
+   "finish": "stop",
+   "mol_id": "Benzo(a)fluorene",
+   "truth": -6.68
+  },
+  {
+   "text": "-14.2",
+   "value": -14.2,
+   "reasoning_tokens": 950,
+   "completion": 955,
+   "cost": 0.005847,
+   "finish": "stop",
+   "mol_id": "hexacosane",
+   "truth": -8.334
+  },
+  {
+   "text": "To predict the aqueous solubility (log(mol/L)) of **pregnenolone**, we evaluate ",
+   "value": -4.66,
+   "reasoning_tokens": 360,
+   "completion": 524,
+   "cost": 0.00424875,
+   "finish": "stop",
+   "mol_id": "pregnenolone",
+   "truth": -4.65
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 2-Methyl-2-heptanol (SMILES: `CCCC",
+   "value": -1.88,
+   "reasoning_tokens": 733,
+   "completion": 988,
+   "cost": 0.0059775,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-heptanol",
+   "truth": -1.72
+  },
+  {
+   "text": "To predict the measured aqueous solubility of N-Ethylaniline, we consider its ch",
+   "value": -1.38,
+   "reasoning_tokens": 387,
+   "completion": 493,
+   "cost": 0.004116,
+   "finish": "stop",
+   "mol_id": "N-Ethylaniline",
+   "truth": -1.7
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Tricresyl phosphate**, we examin",
+   "value": -6.01,
+   "reasoning_tokens": 659,
+   "completion": 819,
+   "cost": 0.00535275,
+   "finish": "stop",
+   "mol_id": "Tricresyl phosphate",
+   "truth": -6.01
+  },
+  {
+   "text": "To predict the aqueous solubility of hematein, we consider its chemical structur",
+   "value": -2.58,
+   "reasoning_tokens": 796,
+   "completion": 941,
+   "cost": 0.005817,
+   "finish": "stop",
+   "mol_id": "hematein",
+   "truth": -2.7
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 5-Allyl-5-ethylbarbital, we can co",
+   "value": -2.0,
+   "reasoning_tokens": 646,
+   "completion": 918,
+   "cost": 0.00572625,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "To predict the aqueous solubility of 3-Chlorobiphenyl, we evaluate its physical ",
+   "value": -4.26,
+   "reasoning_tokens": 487,
+   "completion": 625,
+   "cost": 0.004617,
+   "finish": "stop",
+   "mol_id": "3-Chlorobiphenyl",
+   "truth": -4.88
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **RTI 6**, we analyze its structur",
+   "value": -1.78,
+   "reasoning_tokens": 766,
+   "completion": 965,
+   "cost": 0.005898,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Hydroxyprogesterone-17a, we analyz",
+   "value": -4.25,
+   "reasoning_tokens": 443,
+   "completion": 673,
+   "cost": 0.00481275,
+   "finish": "stop",
+   "mol_id": "Hydroxyprogesterone-17a",
+   "truth": -3.817
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **1-Bromonaphthalene**, we analyze",
+   "value": -4.12,
+   "reasoning_tokens": 480,
+   "completion": 687,
+   "cost": 0.004848,
+   "finish": "stop",
+   "mol_id": "1-Bromonapthalene",
+   "truth": -4.35
+  },
+  {
+   "text": "To predict the aqueous solubility of adenine, we analyze its chemical structure ",
+   "value": -2.12,
+   "reasoning_tokens": 564,
+   "completion": 673,
+   "cost": 0.0047925,
+   "finish": "stop",
+   "mol_id": "adenine",
+   "truth": -2.12
+  },
+  {
+   "text": "To predict the aqueous solubility of Fluoromethalone, we consider its chemical s",
+   "value": -4.18,
+   "reasoning_tokens": 575,
+   "completion": 810,
+   "cost": 0.005334,
+   "finish": "stop",
+   "mol_id": "Fluoromethalone",
+   "truth": -4.099
+  },
+  {
+   "text": "Based on the molecular structure of hypoxanthine (a purine derivative containing",
+   "value": -2.28,
+   "reasoning_tokens": 527,
+   "completion": 583,
+   "cost": 0.004461,
+   "finish": "stop",
+   "mol_id": "Hypoxanthine",
+   "truth": -2.296
+  },
+  {
+   "text": "To predict the aqueous solubility of **allicin** (SMILES: `C=CCS(=O)SCC=C`), we ",
+   "value": -1.02,
+   "reasoning_tokens": 586,
+   "completion": 822,
+   "cost": 0.0053505,
+   "finish": "stop",
+   "mol_id": "allicin",
+   "truth": -0.83
+  },
+  {
+   "text": "To predict the measured aqueous solubility ($\\log(\\text{mol/L})$) of 1,2-Dichlor",
+   "value": -3.12,
+   "reasoning_tokens": 475,
+   "completion": 696,
+   "cost": 0.00488775,
+   "finish": "stop",
+   "mol_id": "1,2-Dichlorotetrafluoroethane",
+   "truth": -2.74
+  },
+  {
+   "text": "To predict the aqueous solubility of **Secobarbital**, we can analyze its struct",
+   "value": -2.47,
+   "reasoning_tokens": 598,
+   "completion": 773,
+   "cost": 0.005178,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "To predict the measured aqueous solubility ($\\log(\\text{mol/L})$) of **RTI 19** ",
+   "value": -4.32,
+   "reasoning_tokens": 953,
+   "completion": 1277,
+   "cost": 0.00706575,
+   "finish": "stop",
+   "mol_id": "RTI 19",
+   "truth": -4.749
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **2,2',4,4',5,5'-PCB**, we analyze",
+   "value": -7.75,
+   "reasoning_tokens": 508,
+   "completion": 764,
+   "cost": 0.00515625,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',5,5'-PCB",
+   "truth": -8.56
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **1-Iodonaphthalene**, we consider",
+   "value": -4.85,
+   "reasoning_tokens": 484,
+   "completion": 600,
+   "cost": 0.004521,
+   "finish": "stop",
+   "mol_id": "1-Iodonapthalene",
+   "truth": -4.55
+  },
+  {
+   "text": "To predict the aqueous solubility of **3-Pentanoyloxymethylphenytoin**, we can a",
+   "value": -5.39,
+   "reasoning_tokens": 481,
+   "completion": 720,
+   "cost": 0.00498975,
+   "finish": "stop",
+   "mol_id": "3-Pentanoyloxymethylphenytoin",
+   "truth": -4.678
+  },
+  {
+   "text": "To predict the aqueous solubility of **Hexadecane** ($\\text{C}_{16}\\text{H}_{34}",
+   "value": -9.52,
+   "reasoning_tokens": 1159,
+   "completion": 1339,
+   "cost": 0.00728625,
+   "finish": "stop",
+   "mol_id": "Hexadecane",
+   "truth": -8.4
+  },
+  {
+   "text": "Based on the structural characteristics of 3-Methyl-2-butanol (a branched C5 sec",
+   "value": -0.2,
+   "reasoning_tokens": 621,
+   "completion": 710,
+   "cost": 0.004935,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Dyphylline, we analyze its chemica",
+   "value": 0.114,
+   "reasoning_tokens": 486,
+   "completion": 729,
+   "cost": 0.005016,
+   "finish": "stop",
+   "mol_id": "Dyphylline",
+   "truth": -0.17
+  },
+  {
+   "text": "-1.50",
+   "value": -1.5,
+   "reasoning_tokens": 426,
+   "completion": 431,
+   "cost": 0.00388875,
+   "finish": "stop",
+   "mol_id": "uracil",
+   "truth": -1.4880000000000002
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **1-methyluracil**, we analyze its",
+   "value": -0.95,
+   "reasoning_tokens": 514,
+   "completion": 746,
+   "cost": 0.00507075,
+   "finish": "stop",
+   "mol_id": "1-methyluracil",
+   "truth": -0.807
+  },
+  {
+   "text": "To predict the measured aqueous solubility ($\\log(\\text{mol/L})$) of **cis-1,2-D",
+   "value": -4.31,
+   "reasoning_tokens": 772,
+   "completion": 1023,
+   "cost": 0.00610875,
+   "finish": "stop",
+   "mol_id": "cis-1,2-Dimethylcyclohexane",
+   "truth": -4.3
+  },
+  {
+   "text": "To predict the aqueous solubility of furan ($\\text{C}_4\\text{H}_4\\text{O}$), we ",
+   "value": -0.833,
+   "reasoning_tokens": 565,
+   "completion": 755,
+   "cost": 0.00509625,
+   "finish": "stop",
+   "mol_id": "Furane",
+   "truth": -0.82
+  },
+  {
+   "text": "To predict the aqueous solubility of Spironolactone, we analyze its chemical str",
+   "value": -4.26,
+   "reasoning_tokens": 416,
+   "completion": 675,
+   "cost": 0.0048225,
+   "finish": "stop",
+   "mol_id": "Spironolactone",
+   "truth": -4.173
+  },
+  {
+   "text": "To predict the aqueous solubility of **3-Chloroanisole**, we can evaluate its st",
+   "value": -2.48,
+   "reasoning_tokens": 451,
+   "completion": 639,
+   "cost": 0.0046665,
+   "finish": "stop",
+   "mol_id": "3-Chloroanisole",
+   "truth": -2.78
+  },
+  {
+   "text": "To predict the aqueous solubility of **Cycloheptene**, we can analyze its physic",
+   "value": -3.05,
+   "reasoning_tokens": 624,
+   "completion": 826,
+   "cost": 0.00536475,
+   "finish": "stop",
+   "mol_id": "Cycloheptene",
+   "truth": -3.18
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Eicosane**, we consider the rela",
+   "value": -13.3,
+   "reasoning_tokens": 652,
+   "completion": 789,
+   "cost": 0.00522375,
+   "finish": "stop",
+   "mol_id": "Eicosane",
+   "truth": -8.172
+  },
+  {
+   "text": "-4.25",
+   "value": -4.25,
+   "reasoning_tokens": 434,
+   "completion": 439,
+   "cost": 0.00391125,
+   "finish": "stop",
+   "mol_id": "Ethylcyclohexane",
+   "truth": -4.25
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Trimazosin**, we evaluate its st",
+   "value": -2.52,
+   "reasoning_tokens": 748,
+   "completion": 1028,
+   "cost": 0.006147,
+   "finish": "stop",
+   "mol_id": "Trimazosin",
+   "truth": -3.638
+  },
+  {
+   "text": "To predict the measured aqueous solubility (log(mol/L)) of 5-Allyl-5-phenylbarbi",
+   "value": -2.55,
+   "reasoning_tokens": 704,
+   "completion": 914,
+   "cost": 0.0057135,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-phenylbarbital",
+   "truth": -2.369
+  },
+  {
+   "text": "-2.15",
+   "value": -2.15,
+   "reasoning_tokens": 479,
+   "completion": 484,
+   "cost": 0.004083,
+   "finish": "stop",
+   "mol_id": "2-Octanol",
+   "truth": -2.09
+  },
+  {
+   "text": "To predict the measured aqueous solubility (log(mol/L)) of **Cyclooctyl-5-spirob",
+   "value": -2.35,
+   "reasoning_tokens": 503,
+   "completion": 786,
+   "cost": 0.00523275,
+   "finish": "stop",
+   "mol_id": "Cyclooctyl-5-spirobarbituric acid",
+   "truth": -2.982
+  },
+  {
+   "text": "To predict the measured aqueous solubility of allopurinol, we analyze its struct",
+   "value": -2.44,
+   "reasoning_tokens": 511,
+   "completion": 770,
+   "cost": 0.0051615,
+   "finish": "stop",
+   "mol_id": "allopurinol",
+   "truth": -2.266
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 1,3-dibromobenzene, we analyze its",
+   "value": -3.05,
+   "reasoning_tokens": 497,
+   "completion": 683,
+   "cost": 0.00483525,
+   "finish": "stop",
+   "mol_id": "1,3-Dibromobenzene",
+   "truth": -3.54
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Perylene**, we analyze its struc",
+   "value": -8.78,
+   "reasoning_tokens": 432,
+   "completion": 711,
+   "cost": 0.00494625,
+   "finish": "stop",
+   "mol_id": "Perylene",
+   "truth": -8.804
+  },
+  {
+   "text": "To predict the aqueous solubility of Dibenzothiophene, we compare its structure ",
+   "value": -5.15,
+   "reasoning_tokens": 486,
+   "completion": 614,
+   "cost": 0.00457575,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **methyl laurate** (SMILES: `CCCCC",
+   "value": -5.05,
+   "reasoning_tokens": 497,
+   "completion": 670,
+   "cost": 0.00478125,
+   "finish": "stop",
+   "mol_id": "methyl laurate",
+   "truth": -4.69
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 3-Heptanoyloxymethylphenytoin, we ",
+   "value": -6.39,
+   "reasoning_tokens": 382,
+   "completion": 584,
+   "cost": 0.0044805,
+   "finish": "stop",
+   "mol_id": "3-Heptanoyloxymethylphenytoin",
+   "truth": -6.301
+  },
+  {
+   "text": "To predict the aqueous solubility of **thiopental**, we can analyze its chemical",
+   "value": -2.72,
+   "reasoning_tokens": 765,
+   "completion": 1059,
+   "cost": 0.006249,
+   "finish": "stop",
+   "mol_id": "thiopental",
+   "truth": -3.36
+  },
+  {
+   "text": "To predict the aqueous solubility of **Simetryn** (log(mol/L)), we analyze its c",
+   "value": -2.68,
+   "reasoning_tokens": 565,
+   "completion": 782,
+   "cost": 0.00521025,
+   "finish": "stop",
+   "mol_id": "Simetryn",
+   "truth": -2.676
+  },
+  {
+   "text": "To predict the aqueous solubility of Dibenzofurane, we consider its chemical str",
+   "value": -4.45,
+   "reasoning_tokens": 435,
+   "completion": 541,
+   "cost": 0.0043005,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Benznidazole (SMILES: `O=C(Cn1ccnc",
+   "value": -2.81,
+   "reasoning_tokens": 382,
+   "completion": 533,
+   "cost": 0.00427425,
+   "finish": "stop",
+   "mol_id": "Benznidazole",
+   "truth": -2.81
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Benzo(e)pyrene, we evaluate its st",
+   "value": -8.55,
+   "reasoning_tokens": 769,
+   "completion": 990,
+   "cost": 0.005994,
+   "finish": "stop",
+   "mol_id": "Benzo(e)pyrene",
+   "truth": -7.8
+  },
+  {
+   "text": "To predict the aqueous solubility of **prednisolone acetate**, we examine its st",
+   "value": -3.65,
+   "reasoning_tokens": 902,
+   "completion": 1134,
+   "cost": 0.00654525,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "Based on the structure of 2,4,6-trichlorobiphenyl (a tri-chlorinated biphenyl wi",
+   "value": -5.75,
+   "reasoning_tokens": 632,
+   "completion": 707,
+   "cost": 0.00492975,
+   "finish": "stop",
+   "mol_id": "2,4,6-PCB",
+   "truth": -6.14
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **m-Chlorobromobenzene**, we analy",
+   "value": -3.2,
+   "reasoning_tokens": 750,
+   "completion": 1007,
+   "cost": 0.00604725,
+   "finish": "stop",
+   "mol_id": "m-Chlorobromobenzene",
+   "truth": -3.21
+  },
+  {
+   "text": "To predict the aqueous solubility of **Coronene** ($\\text{C}_{24}\\text{H}_{12}$)",
+   "value": -9.4,
+   "reasoning_tokens": 379,
+   "completion": 642,
+   "cost": 0.004689,
+   "finish": "stop",
+   "mol_id": "Coronene",
+   "truth": -9.332
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **1,3,5-Tribromobenzene** (SMILES:",
+   "value": -4.91,
+   "reasoning_tokens": 625,
+   "completion": 837,
+   "cost": 0.00541575,
+   "finish": "stop",
+   "mol_id": "1,3,5-Tribromobenzene",
+   "truth": -5.6
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Ethyl heptanoate**, we can analy",
+   "value": -2.9,
+   "reasoning_tokens": 301,
+   "completion": 462,
+   "cost": 0.003999,
+   "finish": "stop",
+   "mol_id": "Ethyl heptanoate",
+   "truth": -2.74
+  },
+  {
+   "text": "To predict the aqueous solubility (log(mol/L)) of **5-Allyl-5-methylbarbital**, ",
+   "value": -1.42,
+   "reasoning_tokens": 969,
+   "completion": 1266,
+   "cost": 0.00703125,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-methylbarbital",
+   "truth": -1.16
+  },
+  {
+   "text": "To predict the aqueous solubility ($\\log S$, in $\\text{mol/L}$) of **5,6-Dimethy",
+   "value": -8.35,
+   "reasoning_tokens": 406,
+   "completion": 650,
+   "cost": 0.00471825,
+   "finish": "stop",
+   "mol_id": "5,6-Dimethylchrysene",
+   "truth": -7.01
+  },
+  {
+   "text": "To predict the aqueous solubility of 2-Undecanol, we analyze the structure-solub",
+   "value": -4.05,
+   "reasoning_tokens": 588,
+   "completion": 817,
+   "cost": 0.00533325,
+   "finish": "stop",
+   "mol_id": "2-Undecanol",
+   "truth": -2.94
+  },
+  {
+   "text": "-2.05",
+   "value": -2.05,
+   "reasoning_tokens": 741,
+   "completion": 746,
+   "cost": 0.005082,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "To predict the aqueous solubility of 5-(3-Methyl-2-butenyl)-5-isoPrbarbital, we ",
+   "value": -2.52,
+   "reasoning_tokens": 868,
+   "completion": 1169,
+   "cost": 0.00667875,
+   "finish": "stop",
+   "mol_id": "5-(3-Methyl-2-butenyl)-5-isoPrbarbital",
+   "truth": -2.593
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **methyltestosterone acetate**, we",
+   "value": -5.12,
+   "reasoning_tokens": 371,
+   "completion": 560,
+   "cost": 0.004386,
+   "finish": "stop",
+   "mol_id": "methyltestosterone acetate",
+   "truth": -5.284
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Napthacene (tetracene), we conside",
+   "value": -7.11,
+   "reasoning_tokens": 453,
+   "completion": 603,
+   "cost": 0.004536,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "To predict the aqueous solubility of **2-Methyl-1-Butene**, we can analyze its s",
+   "value": -2.55,
+   "reasoning_tokens": 448,
+   "completion": 685,
+   "cost": 0.004839,
+   "finish": "stop",
+   "mol_id": "2-Methyl-1-Butene",
+   "truth": -2.73
+  },
+  {
+   "text": "Based on the structural analysis and comparison with closely related molecules i",
+   "value": -3.22,
+   "reasoning_tokens": 572,
+   "completion": 639,
+   "cost": 0.00467625,
+   "finish": "stop",
+   "mol_id": "RTI 12",
+   "truth": -4.114
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **1,2-Dinitrobenzene**, we analyze",
+   "value": -2.22,
+   "reasoning_tokens": 622,
+   "completion": 786,
+   "cost": 0.0052245,
+   "finish": "stop",
+   "mol_id": "1,2-Dinitrobenzene",
+   "truth": -3.1
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Tetrabromomethane** ($\\text{CBr}",
+   "value": -3.14,
+   "reasoning_tokens": 521,
+   "completion": 686,
+   "cost": 0.00484125,
+   "finish": "stop",
+   "mol_id": "Tetrabromomethane",
+   "truth": -3.14
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Hydrocortisone, we analyze its mol",
+   "value": -3.08,
+   "reasoning_tokens": 544,
+   "completion": 768,
+   "cost": 0.00516825,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone",
+   "truth": -3.09
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Quinethazone**, we analyze its m",
+   "value": -3.21,
+   "reasoning_tokens": 409,
+   "completion": 664,
+   "cost": 0.0047715,
+   "finish": "stop",
+   "mol_id": "Quinethazone",
+   "truth": -3.29
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **2-Methylanthracene**, we analyze",
+   "value": -5.95,
+   "reasoning_tokens": 896,
+   "completion": 1174,
+   "cost": 0.0066765,
+   "finish": "stop",
+   "mol_id": "2-Methylanthracene",
+   "truth": -6.96
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Benzo(b)fluorene, we analyze its s",
+   "value": -6.72,
+   "reasoning_tokens": 498,
+   "completion": 698,
+   "cost": 0.00489375,
+   "finish": "stop",
+   "mol_id": "Benzo(b)fluorene",
+   "truth": -8.04
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 762,
+   "completion": 767,
+   "cost": 0.00515625,
+   "finish": "stop",
+   "mol_id": "diethylstilbestrol",
+   "truth": -4.07
+  },
+  {
+   "text": "To predict the measured aqueous solubility of trans-2-Pentene, we can compare it",
+   "value": -2.54,
+   "reasoning_tokens": 264,
+   "completion": 347,
+   "cost": 0.00357075,
+   "finish": "stop",
+   "mol_id": "trans-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **deoxycorticosterone acetate**, w",
+   "value": -4.45,
+   "reasoning_tokens": 385,
+   "completion": 584,
+   "cost": 0.0044775,
+   "finish": "stop",
+   "mol_id": "deoxycorticosterone acetate",
+   "truth": -4.63
+  },
+  {
+   "text": "Based on its chemical structure, molecular weight, lipophilicity (logP \u2248 1.8\u20132.5",
+   "value": -3.32,
+   "reasoning_tokens": 462,
+   "completion": 532,
+   "cost": 0.00427425,
+   "finish": "stop",
+   "mol_id": "nevirapine",
+   "truth": -3.19
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 2-methyltetrahydrofuran (SMILES: `",
+   "value": 0.211,
+   "reasoning_tokens": 425,
+   "completion": 528,
+   "cost": 0.004248,
+   "finish": "stop",
+   "mol_id": "2-Methyltetrahydrofurane",
+   "truth": 0.11
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Mefenacet, we analyze its chemical",
+   "value": -4.87,
+   "reasoning_tokens": 464,
+   "completion": 657,
+   "cost": 0.00474075,
+   "finish": "stop",
+   "mol_id": "Mefenacet",
+   "truth": -4.873
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **4-methylpteridine**, we compare ",
+   "value": -0.85,
+   "reasoning_tokens": 242,
+   "completion": 364,
+   "cost": 0.00363525,
+   "finish": "stop",
+   "mol_id": "4-methylpteridine",
+   "truth": -0.466
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Bendroflumethiazide**, we can ev",
+   "value": -3.35,
+   "reasoning_tokens": 519,
+   "completion": 783,
+   "cost": 0.0052275,
+   "finish": "stop",
+   "mol_id": "Bendroflumethiazide",
+   "truth": -3.59
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **2,2',3,5,5',6-PCB**, we compare ",
+   "value": -7.52,
+   "reasoning_tokens": 552,
+   "completion": 730,
+   "cost": 0.0050295,
+   "finish": "stop",
+   "mol_id": "2,2',3,5,5',6-PCB",
+   "truth": -7.42
+  },
+  {
+   "text": "Based on the structural characteristics of stadacaine (molecular weight, lipophi",
+   "value": -3.52,
+   "reasoning_tokens": 955,
+   "completion": 998,
+   "cost": 0.00602025,
+   "finish": "stop",
+   "mol_id": "stadacaine",
+   "truth": -3.84
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **Chlorthalidone**, we analyze its",
+   "value": -3.45,
+   "reasoning_tokens": 602,
+   "completion": 884,
+   "cost": 0.0055995,
+   "finish": "stop",
+   "mol_id": "Chlorthalidone",
+   "truth": -3.451
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **2-Methylheptane**, we analyze th",
+   "value": -5.11,
+   "reasoning_tokens": 466,
+   "completion": 686,
+   "cost": 0.00484125,
+   "finish": "stop",
+   "mol_id": "2-Methylheptane",
+   "truth": -5.08
+  },
+  {
+   "text": "To predict the aqueous solubility of **2,6-Dichlorophenol**, we consider its mol",
+   "value": -1.56,
+   "reasoning_tokens": 330,
+   "completion": 444,
+   "cost": 0.00393825,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "To predict the aqueous solubility (log(mol/L)) of Etomidate, we evaluate its str",
+   "value": -3.73,
+   "reasoning_tokens": 714,
+   "completion": 863,
+   "cost": 0.005511,
+   "finish": "stop",
+   "mol_id": "Etomidate",
+   "truth": -4.735
+  },
+  {
+   "text": "-3.95",
+   "value": -3.95,
+   "reasoning_tokens": 596,
+   "completion": 601,
+   "cost": 0.00452475,
+   "finish": "stop",
+   "mol_id": "t-Pentylbenzene",
+   "truth": -4.15
+  },
+  {
+   "text": "To predict the measured aqueous solubility of O,P'-DDD, we compare it with its i",
+   "value": -6.85,
+   "reasoning_tokens": 395,
+   "completion": 500,
+   "cost": 0.00415425,
+   "finish": "stop",
+   "mol_id": "O,P'-DDD",
+   "truth": -6.51
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Inosine, we consider its structure",
+   "value": -1.15,
+   "reasoning_tokens": 589,
+   "completion": 727,
+   "cost": 0.00500475,
+   "finish": "stop",
+   "mol_id": "Inosine",
+   "truth": -1.23
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 1-Hexene-3-ol, we analyze its chem",
+   "value": -0.78,
+   "reasoning_tokens": 719,
+   "completion": 943,
+   "cost": 0.005808,
+   "finish": "stop",
+   "mol_id": "1-Hexene-3-ol",
+   "truth": -0.59
+  },
+  {
+   "text": "Based on the structural properties of RTI 24 (a chloro-substituted pyridobenzodi",
+   "value": -3.32,
+   "reasoning_tokens": 1049,
+   "completion": 1176,
+   "cost": 0.006687,
+   "finish": "stop",
+   "mol_id": "RTI 24",
+   "truth": -5.36
+  },
+  {
+   "text": "To predict the aqueous solubility of **RTI 23** (SMILES: `CCN2c1cc(OC)cc(C)c1NC(",
+   "value": -3.15,
+   "reasoning_tokens": 1098,
+   "completion": 1391,
+   "cost": 0.00749625,
+   "finish": "stop",
+   "mol_id": "RTI 23",
+   "truth": -5.153
+  },
+  {
+   "text": "To predict the aqueous solubility of **Cyclooctanol**, we can analyze the struct",
+   "value": -2.0,
+   "reasoning_tokens": 644,
+   "completion": 864,
+   "cost": 0.0055065,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "To predict the aqueous solubility ($\\log(\\text{mol/L})$) of pyrimidine ($\\text{C",
+   "value": 0.82,
+   "reasoning_tokens": 618,
+   "completion": 878,
+   "cost": 0.0055575,
+   "finish": "stop",
+   "mol_id": "Pyrimidine",
+   "truth": 1.1
+  },
+  {
+   "text": "To predict the measured aqueous solubility of **2,2',3,3'-PCB**, we analyze its ",
+   "value": -6.65,
+   "reasoning_tokens": 578,
+   "completion": 794,
+   "cost": 0.00525825,
+   "finish": "stop",
+   "mol_id": "2,2',3,3'-PCB",
+   "truth": -7.28
+  },
+  {
+   "text": "To predict the measured aqueous solubility (log(mol/L)) of **2,7-dimethylquinoli",
+   "value": -2.45,
+   "reasoning_tokens": 373,
+   "completion": 562,
+   "cost": 0.0043845,
+   "finish": "stop",
+   "mol_id": "2,7-dimethylquinoline",
+   "truth": -1.94
+  },
+  {
+   "text": "-5.43",
+   "value": -5.43,
+   "reasoning_tokens": 264,
+   "completion": 269,
+   "cost": 0.00329325,
+   "finish": "stop",
+   "mol_id": "Danazol",
+   "truth": -5.507000000000001
+  },
+  {
+   "text": "To predict the measured aqueous solubility of 4,4'-PCB (4,4'-dichlorobiphenyl), ",
+   "value": -6.29,
+   "reasoning_tokens": 748,
+   "completion": 998,
+   "cost": 0.00601875,
+   "finish": "stop",
+   "mol_id": "4,4'-PCB",
+   "truth": -6.56
+  },
+  {
+   "text": "To predict the measured aqueous solubility of Cortisone, we analyze its chemical",
+   "value": -3.11,
+   "reasoning_tokens": 491,
+   "completion": 695,
+   "cost": 0.00489375,
+   "finish": "stop",
+   "mol_id": "Cortisone",
+   "truth": -3.11
+  }
+ ]
+}

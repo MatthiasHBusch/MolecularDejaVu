@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "kimik3",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 2.365151499999999,
+  "timestamp": "2026-08-10T16:30:40"
+ },
+ "calls": [
+  {
+   "text": "-3.04",
+   "value": -3.04,
+   "reasoning_tokens": 314,
+   "completion": 328,
+   "cost": 0.014028,
+   "finish": "stop",
+   "mol_id": "1,1,2-Trichlorotrifluoroethane",
+   "truth": -3.04
+  },
+  {
+   "text": "**Analysis:** 2,2',4,5'-PCB is a tetrachlorobiphenyl. Comparing to training data",
+   "value": -6.52,
+   "reasoning_tokens": 104,
+   "completion": 243,
+   "cost": 0.012759,
+   "finish": "stop",
+   "mol_id": "2,2',4,5'-PCB",
+   "truth": -6.57
+  },
+  {
+   "text": "-1.05",
+   "value": -1.05,
+   "reasoning_tokens": 168,
+   "completion": 182,
+   "cost": 0.011775,
+   "finish": "stop",
+   "mol_id": "Chloroethane",
+   "truth": -1.06
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 1222,
+   "completion": 1236,
+   "cost": 0.027666,
+   "finish": "stop",
+   "mol_id": "Deoxycorticosterone",
+   "truth": -3.45
+  },
+  {
+   "text": "1-Propanol is a short-chain primary alcohol (C3) with a terminal \u2013OH that hydrog",
+   "value": 0.3,
+   "reasoning_tokens": 659,
+   "completion": 756,
+   "cost": 0.020388,
+   "finish": "stop",
+   "mol_id": "1-Propanol",
+   "truth": 0.62
+  },
+  {
+   "text": "-2.55",
+   "value": -2.55,
+   "reasoning_tokens": 1530,
+   "completion": 1544,
+   "cost": 0.032226,
+   "finish": "stop",
+   "mol_id": "2-Chlorotoluene",
+   "truth": -3.52
+  },
+  {
+   "text": "2,2',3,3',4,4',5,5'-PCB is an octachlorobiphenyl\u2014extremely hydrophobic with high",
+   "value": -8.8,
+   "reasoning_tokens": 197,
+   "completion": 353,
+   "cost": 0.01446,
+   "finish": "stop",
+   "mol_id": "2,2',3,3',4,4',5,5'-PCB",
+   "truth": -9.16
+  },
+  {
+   "text": "Pyridine is a small, highly polar heteroaromatic that is miscible/very highly so",
+   "value": 1.1,
+   "reasoning_tokens": 340,
+   "completion": 393,
+   "cost": 0.014946,
+   "finish": "stop",
+   "mol_id": "Pyridine",
+   "truth": 0.76
+  },
+  {
+   "text": "Based on the training data, polychlorinated biphenyls show strong dependence on ",
+   "value": -6.95,
+   "reasoning_tokens": 383,
+   "completion": 559,
+   "cost": 0.0161316,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,6-PCB",
+   "truth": -7.43
+  },
+  {
+   "text": "Metolachlor is a moderately polar chloroacetanilide herbicide with an amide grou",
+   "value": -2.73,
+   "reasoning_tokens": 179,
+   "completion": 246,
+   "cost": 0.012792,
+   "finish": "stop",
+   "mol_id": "Metolachlor",
+   "truth": -2.73
+  },
+  {
+   "text": "Cyhalothrin is a large, highly halogenated pyrethroid ester with strong hydropho",
+   "value": -6.98,
+   "reasoning_tokens": 535,
+   "completion": 627,
+   "cost": 0.011649,
+   "finish": "stop",
+   "mol_id": "Cyhalothrin",
+   "truth": -8.176
+  },
+  {
+   "text": "2-Bromotoluene is a disubstituted aromatic hydrocarbon (ortho methyl + bromine).",
+   "value": -3.05,
+   "reasoning_tokens": 779,
+   "completion": 918,
+   "cost": 0.022722,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "2-Pentanol is a small secondary C5 alcohol, closely comparable to 3-pentanol and",
+   "value": -0.86,
+   "reasoning_tokens": 291,
+   "completion": 364,
+   "cost": 0.007605,
+   "finish": "stop",
+   "mol_id": "2-Pentanol",
+   "truth": -0.29
+  },
+  {
+   "text": "-3.75",
+   "value": -3.75,
+   "reasoning_tokens": 251,
+   "completion": 386,
+   "cost": 0.0138124,
+   "finish": "stop",
+   "mol_id": "Nitrazepam",
+   "truth": -3.796
+  },
+  {
+   "text": "**Analysis:**\n\nIodoethane (C\u2082H\u2085I, MW \u2248 156 g/mol) is a small, hydrophobic haloal",
+   "value": -1.86,
+   "reasoning_tokens": 152,
+   "completion": 382,
+   "cost": 0.00786,
+   "finish": "stop",
+   "mol_id": "Iodoethane",
+   "truth": -1.6
+  },
+  {
+   "text": "[{\"lens\":\"correctness\",\"file\":\"src/app/project-artifacts/facts.ts\",\"claim\":\"The ",
+   "value": null,
+   "reasoning_tokens": 281,
+   "completion": 433,
+   "cost": 0.008652,
+   "finish": "stop",
+   "mol_id": "2-Nonanone",
+   "truth": -2.58
+  },
+  {
+   "text": "2-Methyl-2-hexanol is a C7 tertiary alcohol; branching/tertiary character increa",
+   "value": -1.86,
+   "reasoning_tokens": 1236,
+   "completion": 1297,
+   "cost": 0.021618,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-hexanol",
+   "truth": -1.08
+  },
+  {
+   "text": "-5.00",
+   "value": -5.0,
+   "reasoning_tokens": 393,
+   "completion": 407,
+   "cost": 0.008283,
+   "finish": "stop",
+   "mol_id": "Ronnel",
+   "truth": -5.72
+  },
+  {
+   "text": "2,6-Dichlorophenol is a moderately polar aromatic compound with one hydroxyl H-b",
+   "value": -1.96,
+   "reasoning_tokens": 446,
+   "completion": 568,
+   "cost": 0.010692,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "1-Heptene is a nonpolar C7 terminal alkene. Comparing to the homologous series i",
+   "value": -4.1,
+   "reasoning_tokens": 211,
+   "completion": 500,
+   "cost": 0.0246735,
+   "finish": "stop",
+   "mol_id": "1-Heptene",
+   "truth": -3.73
+  },
+  {
+   "text": "Metoxuron is a chloro-methoxyphenyl dimethylurea herbicide. Compared with traini",
+   "value": -2.53,
+   "reasoning_tokens": 411,
+   "completion": 509,
+   "cost": 0.009813,
+   "finish": "stop",
+   "mol_id": "Metoxuron",
+   "truth": -2.564
+  },
+  {
+   "text": "1-Dodecanol is a long-chain primary alcohol; extending from 1-pentanol by seven ",
+   "value": -4.5,
+   "reasoning_tokens": 1987,
+   "completion": 2084,
+   "cost": 0.0346764,
+   "finish": "stop",
+   "mol_id": "1-Dodecanol",
+   "truth": -4.8
+  },
+  {
+   "text": "trans-1,4-Dimethylcyclohexane (C8H16) is a fully nonpolar saturated cycloalkane ",
+   "value": -3.45,
+   "reasoning_tokens": 557,
+   "completion": 699,
+   "cost": 0.012663,
+   "finish": "stop",
+   "mol_id": "trans-1,4-Dimethylcyclohexane",
+   "truth": -4.47
+  },
+  {
+   "text": "-2.90",
+   "value": -2.9,
+   "reasoning_tokens": 492,
+   "completion": 506,
+   "cost": 0.009771,
+   "finish": "stop",
+   "mol_id": "Glutethimide",
+   "truth": -2.337
+  },
+  {
+   "text": "Dibenzothiophene is a rigid, fused tricyclic aromatic sulfur heterocycle with no",
+   "value": -5.72,
+   "reasoning_tokens": 124,
+   "completion": 222,
+   "cost": 0.005502,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "-2.22",
+   "value": -2.22,
+   "reasoning_tokens": 1675,
+   "completion": 1689,
+   "cost": 0.027525,
+   "finish": "stop",
+   "mol_id": "nitroglycerin",
+   "truth": -2.22
+  },
+  {
+   "text": "-6.31",
+   "value": -6.31,
+   "reasoning_tokens": 1370,
+   "completion": 1384,
+   "cost": 0.022944,
+   "finish": "stop",
+   "mol_id": "2',3,4-PCB",
+   "truth": -6.29
+  },
+  {
+   "text": "5,5-Diallylbarbital (allobarbital) is a barbituric-acid core bearing two small h",
+   "value": -2.54,
+   "reasoning_tokens": 3426,
+   "completion": 3512,
+   "cost": 0.054888,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "-4.60",
+   "value": -4.6,
+   "reasoning_tokens": 141,
+   "completion": 155,
+   "cost": 0.004512,
+   "finish": "stop",
+   "mol_id": "Lindane",
+   "truth": -4.64
+  },
+  {
+   "text": "-0.89",
+   "value": -0.89,
+   "reasoning_tokens": 987,
+   "completion": 1001,
+   "cost": 0.017181,
+   "finish": "stop",
+   "mol_id": "2-methylpteridine",
+   "truth": -0.12
+  },
+  {
+   "text": "p-Xylene is a small hydrophobic aromatic hydrocarbon similar to toluene/xylenes,",
+   "value": -2.73,
+   "reasoning_tokens": 250,
+   "completion": 310,
+   "cost": 0.006795,
+   "finish": "stop",
+   "mol_id": "p-Xylene",
+   "truth": -2.77
+  },
+  {
+   "text": "-5.90",
+   "value": -5.9,
+   "reasoning_tokens": 149,
+   "completion": 163,
+   "cost": 0.004623,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "2-Hydroxypyridine (predominantly the 2-pyridone lactam tautomer) is a small, hig",
+   "value": 0.5,
+   "reasoning_tokens": 568,
+   "completion": 736,
+   "cost": 0.0144624,
+   "finish": "stop",
+   "mol_id": "2-Hydroxypyridine",
+   "truth": 1.02
+  },
+  {
+   "text": "2-Heptanol is a C7 secondary aliphatic alcohol with one hydroxyl group and a six",
+   "value": -1.59,
+   "reasoning_tokens": 223,
+   "completion": 390,
+   "cost": 0.007998,
+   "finish": "stop",
+   "mol_id": "2-Heptanol",
+   "truth": -1.55
+  },
+  {
+   "text": "3-Methyl-2-butanone (methyl isopropyl ketone, C5H10O) is a small, oxygenated ket",
+   "value": -0.95,
+   "reasoning_tokens": 276,
+   "completion": 456,
+   "cost": 0.009009,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanone",
+   "truth": -0.12
+  },
+  {
+   "text": "**Analysis:**\n\n1,2,4,5-Tetramethylbenzene (durene) is a hydrophobic aromatic hyd",
+   "value": -4.52,
+   "reasoning_tokens": 69,
+   "completion": 394,
+   "cost": 0.0093684,
+   "finish": "stop",
+   "mol_id": "1,2,4,5-Tetramethylbenzene",
+   "truth": -4.59
+  },
+  {
+   "text": "Fenpropathrin is a pyrethroid ester with high lipophilicity (cyclopropane acid +",
+   "value": -5.57,
+   "reasoning_tokens": 174,
+   "completion": 289,
+   "cost": 0.006555,
+   "finish": "stop",
+   "mol_id": "Fenpropathrin",
+   "truth": -6.025
+  },
+  {
+   "text": "-2.45",
+   "value": -2.45,
+   "reasoning_tokens": 1532,
+   "completion": 1546,
+   "cost": 0.025356,
+   "finish": "stop",
+   "mol_id": "3-methylindole",
+   "truth": -2.42
+  },
+  {
+   "text": "**Analysis of Triamterene:**\n\nTriamterene is a pteridine derivative (2,4,7-triam",
+   "value": -4.2,
+   "reasoning_tokens": 40,
+   "completion": 435,
+   "cost": 0.008712,
+   "finish": "stop",
+   "mol_id": "Triamterene",
+   "truth": -2.404
+  },
+  {
+   "text": "3-Methylpentane is a C6 branched alkane, with very low aqueous solubility simila",
+   "value": -3.83,
+   "reasoning_tokens": 513,
+   "completion": 564,
+   "cost": 0.010611,
+   "finish": "stop",
+   "mol_id": "3-Methylpentane",
+   "truth": -3.68
+  },
+  {
+   "text": "-3.52",
+   "value": -3.52,
+   "reasoning_tokens": 100,
+   "completion": 114,
+   "cost": 0.003885,
+   "finish": "stop",
+   "mol_id": "Linuron",
+   "truth": -3.592
+  },
+  {
+   "text": "-1.96",
+   "value": -1.96,
+   "reasoning_tokens": 894,
+   "completion": 908,
+   "cost": 0.015876,
+   "finish": "stop",
+   "mol_id": "Sparsomycin (3,8mg/ml)",
+   "truth": -1.981
+  },
+  {
+   "text": "-1.16",
+   "value": -1.16,
+   "reasoning_tokens": 874,
+   "completion": 888,
+   "cost": 0.015471,
+   "finish": "stop",
+   "mol_id": "p-Methylaniline",
+   "truth": -1.21
+  },
+  {
+   "text": "o-Chloronitrobenzene is the ortho positional isomer of p-Chloronitrobenzene (tra",
+   "value": -3.3,
+   "reasoning_tokens": 412,
+   "completion": 636,
+   "cost": 0.011718,
+   "finish": "stop",
+   "mol_id": "o-Chloronitrobenzene",
+   "truth": -2.55
+  },
+  {
+   "text": "-4.75",
+   "value": -4.75,
+   "reasoning_tokens": 206,
+   "completion": 220,
+   "cost": 0.005505,
+   "finish": "stop",
+   "mol_id": "Ethisterone",
+   "truth": -5.66
+  },
+  {
+   "text": "-2.41",
+   "value": -2.41,
+   "reasoning_tokens": 3906,
+   "completion": 3925,
+   "cost": 0.0623544,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "-2.80",
+   "value": -2.8,
+   "reasoning_tokens": 575,
+   "completion": 589,
+   "cost": 0.011028,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "-2.41",
+   "value": -2.41,
+   "reasoning_tokens": 465,
+   "completion": 479,
+   "cost": 0.009357,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethylphenol",
+   "truth": -1.19
+  },
+  {
+   "text": "**Analysis:**\n\n3-Methyl-3-hexanol (CCCC(C)(O)CC) is a C7 tertiary alcohol. Key c",
+   "value": -2.65,
+   "reasoning_tokens": 76,
+   "completion": 319,
+   "cost": 0.006948,
+   "finish": "stop",
+   "mol_id": "3-Methyl-3-hexanol",
+   "truth": -0.98
+  },
+  {
+   "text": "-3.12",
+   "value": -3.12,
+   "reasoning_tokens": 410,
+   "completion": 424,
+   "cost": 0.008529,
+   "finish": "stop",
+   "mol_id": "chlordimeform",
+   "truth": -2.86
+  },
+  {
+   "text": "Caffeine is a small, highly polar methylxanthine with multiple H-bond acceptors ",
+   "value": -0.63,
+   "reasoning_tokens": 352,
+   "completion": 555,
+   "cost": 0.010509,
+   "finish": "stop",
+   "mol_id": "Caffeine",
+   "truth": -0.8759999999999999
+  },
+  {
+   "text": "Based on its C6 ketone structure (moderate carbonyl polarity, no H-bond donation",
+   "value": -0.85,
+   "reasoning_tokens": 737,
+   "completion": 799,
+   "cost": 0.014139,
+   "finish": "stop",
+   "mol_id": "3-Hexanone",
+   "truth": -0.83
+  },
+  {
+   "text": "Cyclooctane is a compact, fully nonpolar C8 cyclic hydrocarbon with no H-bond do",
+   "value": -4.15,
+   "reasoning_tokens": 1160,
+   "completion": 1238,
+   "cost": 0.020712,
+   "finish": "stop",
+   "mol_id": "Cyclooctane",
+   "truth": -4.15
+  },
+  {
+   "text": "Cyclooctanol is a C8 cyclic secondary alcohol with one hydroxyl group and a comp",
+   "value": -2.18,
+   "reasoning_tokens": 1111,
+   "completion": 1174,
+   "cost": 0.019752,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "-5.48",
+   "value": -5.48,
+   "reasoning_tokens": 253,
+   "completion": 267,
+   "cost": 0.006177,
+   "finish": "stop",
+   "mol_id": "2,2'-PCB",
+   "truth": -5.27
+  },
+  {
+   "text": "3-Methyl-2-butanol is a small branched C5 secondary alcohol, comparable to 3-pen",
+   "value": -0.5,
+   "reasoning_tokens": 1127,
+   "completion": 1197,
+   "cost": 0.020115,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "Using the n-alcohol homolog trend and the known aqueous solubility of 1-hexanol ",
+   "value": -1.24,
+   "reasoning_tokens": 1167,
+   "completion": 1218,
+   "cost": 0.020409,
+   "finish": "stop",
+   "mol_id": "1-Hexanol",
+   "truth": -1.24
+  },
+  {
+   "text": "-2.63",
+   "value": -2.63,
+   "reasoning_tokens": 3208,
+   "completion": 3222,
+   "cost": 0.050475,
+   "finish": "stop",
+   "mol_id": "cis-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "Estragole (4-allylanisole) is a neutral, relatively hydrophobic aromatic ether w",
+   "value": -2.98,
+   "reasoning_tokens": 2028,
+   "completion": 2143,
+   "cost": 0.034308,
+   "finish": "stop",
+   "mol_id": "Estragole",
+   "truth": -2.92
+  },
+  {
+   "text": "1,4\u2011Pentadiene is a small, nonpolar C5 hydrocarbon with no H\u2011bond donors/accepto",
+   "value": 2.55,
+   "reasoning_tokens": 945,
+   "completion": 1059,
+   "cost": 0.018036,
+   "finish": "stop",
+   "mol_id": "1,4-Pentadiene",
+   "truth": -2.09
+  },
+  {
+   "text": "O-Ethyl carbamate (urethane, C\u2083H\u2087NO\u2082) is a small, polar molecule with both H-bon",
+   "value": -0.1,
+   "reasoning_tokens": 237,
+   "completion": 375,
+   "cost": 0.007782,
+   "finish": "stop",
+   "mol_id": "O-Ethyl carbamate",
+   "truth": 0.85
+  },
+  {
+   "text": "3,3-Dimethyl-2-butanone (pinacolone) is a compact C6 methyl ketone (CH\u2083\u2013CO\u2013C(CH\u2083",
+   "value": -1.61,
+   "reasoning_tokens": 650,
+   "completion": 1155,
+   "cost": 0.0311796,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanone",
+   "truth": -0.72
+  },
+  {
+   "text": "-4.16",
+   "value": -4.16,
+   "reasoning_tokens": 380,
+   "completion": 394,
+   "cost": 0.008058,
+   "finish": "stop",
+   "mol_id": "Indan",
+   "truth": -3.04
+  },
+  {
+   "text": "Dimetan is a moderately polar neutral carbamate/enone with a hydrophobic dimethy",
+   "value": -2.7,
+   "reasoning_tokens": 726,
+   "completion": 818,
+   "cost": 0.01446,
+   "finish": "stop",
+   "mol_id": "dimetan",
+   "truth": -0.85
+  },
+  {
+   "text": "Trietazine is a chloro-s-triazine herbicide with moderate hydrophobicity and a b",
+   "value": -4.1,
+   "reasoning_tokens": 1359,
+   "completion": 1426,
+   "cost": 0.023562,
+   "finish": "stop",
+   "mol_id": "Trietazine",
+   "truth": -4.06
+  },
+  {
+   "text": "Niclosamide is a rigid chlorinated nitrosalicylanilide with strong crystal latti",
+   "value": -6.01,
+   "reasoning_tokens": 1967,
+   "completion": 2027,
+   "cost": 0.032607,
+   "finish": "stop",
+   "mol_id": "Niclosamide",
+   "truth": -4.7
+  },
+  {
+   "text": "Meprobamate is a small, neutral dicarbamate with two H-bonding carbamate groups ",
+   "value": -2.17,
+   "reasoning_tokens": 612,
+   "completion": 715,
+   "cost": 0.012897,
+   "finish": "stop",
+   "mol_id": "Meprobamate",
+   "truth": -1.807
+  },
+  {
+   "text": "3-Methyl-2-pentanol is a branched C6 monohydric alcohol (C6H14O). Comparing with",
+   "value": -1.3,
+   "reasoning_tokens": 531,
+   "completion": 761,
+   "cost": 0.013572,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "1,4-Diethylbenzene is a nonpolar alkyl-aromatic hydrocarbon with moderate hydrop",
+   "value": -3.76,
+   "reasoning_tokens": 310,
+   "completion": 389,
+   "cost": 0.008007,
+   "finish": "stop",
+   "mol_id": "1,4-Diethylbenzene",
+   "truth": -3.75
+  },
+  {
+   "text": "-0.800",
+   "value": -0.8,
+   "reasoning_tokens": 771,
+   "completion": 785,
+   "cost": 0.013941,
+   "finish": "stop",
+   "mol_id": "3,4-Dimethylpyridine",
+   "truth": 0.36
+  },
+  {
+   "text": "-3.30",
+   "value": -3.3,
+   "reasoning_tokens": 1287,
+   "completion": 1301,
+   "cost": 0.021675,
+   "finish": "stop",
+   "mol_id": "Diphenylamine",
+   "truth": -3.504
+  },
+  {
+   "text": "-2.20",
+   "value": -2.2,
+   "reasoning_tokens": 635,
+   "completion": 649,
+   "cost": 0.011889,
+   "finish": "stop",
+   "mol_id": "indazole",
+   "truth": -2.16
+  },
+  {
+   "text": "Benfluralin is highly hydrophobic due to its dialkylated aniline, two nitro grou",
+   "value": -6.53,
+   "reasoning_tokens": 373,
+   "completion": 463,
+   "cost": 0.0104304,
+   "finish": "stop",
+   "mol_id": "Benfluralin",
+   "truth": -5.53
+  },
+  {
+   "text": "-5.30",
+   "value": -5.3,
+   "reasoning_tokens": 305,
+   "completion": 319,
+   "cost": 0.006975,
+   "finish": "stop",
+   "mol_id": "Methoprene",
+   "truth": -5.19
+  },
+  {
+   "text": "The molecule is a highly hydrophobic steroid ester, closely resembling methyltes",
+   "value": -5.28,
+   "reasoning_tokens": 126,
+   "completion": 204,
+   "cost": 0.0065574,
+   "finish": "stop",
+   "mol_id": "norethindrone acetate",
+   "truth": -4.8
+  },
+  {
+   "text": "Dibenzofuran is a rigid, fused tricyclic aromatic with one weakly hydrating ring",
+   "value": -4.55,
+   "reasoning_tokens": 1569,
+   "completion": 1636,
+   "cost": 0.026709,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "Prednisolone acetate is a relatively large, hydrophobic steroid, though its hydr",
+   "value": -4.2,
+   "reasoning_tokens": 154,
+   "completion": 225,
+   "cost": 0.0068994,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "Cyfluthrin is a highly lipophilic pyrethroid ester with multiple halogens and ar",
+   "value": -8.34,
+   "reasoning_tokens": 1854,
+   "completion": 1922,
+   "cost": 0.0323334,
+   "finish": "stop",
+   "mol_id": "Cyfluthrin",
+   "truth": -7.337000000000001
+  },
+  {
+   "text": "Estimated measured aqueous solubility (log mol/L): **-7.69**",
+   "value": -7.69,
+   "reasoning_tokens": 1736,
+   "completion": 1764,
+   "cost": 0.028704,
+   "finish": "stop",
+   "mol_id": "Tetrafluthrin",
+   "truth": -7.321000000000001
+  },
+  {
+   "text": "-2.83",
+   "value": -2.83,
+   "reasoning_tokens": 720,
+   "completion": 734,
+   "cost": 0.01317,
+   "finish": "stop",
+   "mol_id": "1-Napthylamine",
+   "truth": -1.92
+  },
+  {
+   "text": "Pentylcyclopentane is a nonpolar C10 saturated hydrocarbon with no H-bond donors",
+   "value": -5.5,
+   "reasoning_tokens": 161,
+   "completion": 243,
+   "cost": 0.0070614,
+   "finish": "stop",
+   "mol_id": "Pentylcyclopentane",
+   "truth": -6.08
+  },
+  {
+   "text": "Cycloheptane is a nonpolar, saturated hydrocarbon with low aqueous solubility. I",
+   "value": -3.52,
+   "reasoning_tokens": 171,
+   "completion": 249,
+   "cost": 0.0071484,
+   "finish": "stop",
+   "mol_id": "Cycloheptane",
+   "truth": -3.51
+  },
+  {
+   "text": "1-Bromoheptane is a hydrophobic C7 primary alkyl bromide; its terminal Br adds s",
+   "value": -4.1,
+   "reasoning_tokens": 3875,
+   "completion": 3949,
+   "cost": 0.0626544,
+   "finish": "stop",
+   "mol_id": "1-Bromoheptane",
+   "truth": -4.43
+  },
+  {
+   "text": "Acetamide is small, highly polar, and strongly H-bonding, comparable to urea in ",
+   "value": 0.5,
+   "reasoning_tokens": 738,
+   "completion": 784,
+   "cost": 0.013902,
+   "finish": "stop",
+   "mol_id": "Acetamide",
+   "truth": 1.58
+  },
+  {
+   "text": "Brompyrazone is a phenyl-pyrazolone bearing an amino donor, a lactam carbonyl/ri",
+   "value": -2.8,
+   "reasoning_tokens": 838,
+   "completion": 1004,
+   "cost": 0.017241,
+   "finish": "stop",
+   "mol_id": "brompyrazone",
+   "truth": -3.127
+  },
+  {
+   "text": "Based on chlorophenol analogs in the training data and the hydrophobic/ionizable",
+   "value": -2.39,
+   "reasoning_tokens": 1054,
+   "completion": 1102,
+   "cost": 0.01872,
+   "finish": "stop",
+   "mol_id": "2,3,6-Trichlorophenol",
+   "truth": -2.64
+  },
+  {
+   "text": "Propylcyclopentane is a saturated, purely hydrophobic C8H16 cycloalkane with no ",
+   "value": -3.85,
+   "reasoning_tokens": 865,
+   "completion": 1020,
+   "cost": 0.017448,
+   "finish": "stop",
+   "mol_id": "Propylcyclopentane",
+   "truth": -4.74
+  },
+  {
+   "text": "**Prediction: Guaiacol (COc1ccccc1O)**\n\nGuaiacol (2-methoxyphenol) is a small ar",
+   "value": -0.97,
+   "reasoning_tokens": 91,
+   "completion": 381,
+   "cost": 0.007863,
+   "finish": "stop",
+   "mol_id": "Guaiacol",
+   "truth": -1.96
+  },
+  {
+   "text": "Citral (3,7-dimethyl-2,6-octadienal) is a C10 monoterpenoid aldehyde: largely hy",
+   "value": -2.49,
+   "reasoning_tokens": 550,
+   "completion": 740,
+   "cost": 0.013251,
+   "finish": "stop",
+   "mol_id": "citral",
+   "truth": -2.06
+  },
+  {
+   "text": "-4.96",
+   "value": -4.96,
+   "reasoning_tokens": 640,
+   "completion": 654,
+   "cost": 0.012057,
+   "finish": "stop",
+   "mol_id": "3-Propanoyloxymethylphenytoin",
+   "truth": -4.907
+  },
+  {
+   "text": "Propyl formate is a small ester (C4H8O2) with moderate polarity and low hydropho",
+   "value": -0.65,
+   "reasoning_tokens": 511,
+   "completion": 607,
+   "cost": 0.011244,
+   "finish": "stop",
+   "mol_id": "Propyl formate",
+   "truth": -0.49
+  },
+  {
+   "text": "Ethylbenzene is a small nonpolar aromatic hydrocarbon, slightly less soluble tha",
+   "value": -2.87,
+   "reasoning_tokens": 1159,
+   "completion": 1264,
+   "cost": 0.021108,
+   "finish": "stop",
+   "mol_id": "Ethylbenzene",
+   "truth": -2.77
+  },
+  {
+   "text": "-4.29",
+   "value": -4.29,
+   "reasoning_tokens": 965,
+   "completion": 979,
+   "cost": 0.016875,
+   "finish": "stop",
+   "mol_id": "Diallate",
+   "truth": -4.2860000000000005
+  },
+  {
+   "text": "-2.75",
+   "value": -2.75,
+   "reasoning_tokens": 1350,
+   "completion": 1364,
+   "cost": 0.022656,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "-1.12",
+   "value": -1.12,
+   "reasoning_tokens": 436,
+   "completion": 450,
+   "cost": 0.008925,
+   "finish": "stop",
+   "mol_id": "Malonic acid diethylester",
+   "truth": -0.82
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 3146,
+   "completion": 3160,
+   "cost": 0.049638,
+   "finish": "stop",
+   "mol_id": "Fludrocortisone",
+   "truth": -3.43
+  },
+  {
+   "text": "Gentisin is a rigid polyphenolic xanthone derivative with moderate polarity but ",
+   "value": -4.46,
+   "reasoning_tokens": 1030,
+   "completion": 1081,
+   "cost": 0.018414,
+   "finish": "stop",
+   "mol_id": "gentisin",
+   "truth": -2.943
+  },
+  {
+   "text": "2-Methylpentanol is a branched C6 primary alcohol, closest in size/polarity to 4",
+   "value": -1.45,
+   "reasoning_tokens": 567,
+   "completion": 650,
+   "cost": 0.011904,
+   "finish": "stop",
+   "mol_id": "2-Methylpentanol",
+   "truth": -1.11
+  },
+  {
+   "text": "1,4-Dibromobenzene is a neutral, symmetric dihalogenated aromatic solid; relativ",
+   "value": -4.25,
+   "reasoning_tokens": 1218,
+   "completion": 1291,
+   "cost": 0.021537,
+   "finish": "stop",
+   "mol_id": "1,4-Dibromobenzene",
+   "truth": -4.07
+  },
+  {
+   "text": "1,3-Dinitrobenzene is close in structure to 1,4-dinitrobenzene but the meta isom",
+   "value": -3.1,
+   "reasoning_tokens": 626,
+   "completion": 720,
+   "cost": 0.0142644,
+   "finish": "stop",
+   "mol_id": "1,3-Dinitrobenzene",
+   "truth": -2.29
+  },
+  {
+   "text": "-2.48",
+   "value": -2.48,
+   "reasoning_tokens": 153,
+   "completion": 172,
+   "cost": 0.0060444,
+   "finish": "stop",
+   "mol_id": "Terbacil",
+   "truth": -2.484
+  },
+  {
+   "text": "3-Methylheptane is a branched C8 alkane (isooctane-type), a purely hydrophobic h",
+   "value": -4.8,
+   "reasoning_tokens": 376,
+   "completion": 510,
+   "cost": 0.0110694,
+   "finish": "stop",
+   "mol_id": "3-Methylheptane",
+   "truth": -5.16
+  },
+  {
+   "text": "-5.70",
+   "value": -5.7,
+   "reasoning_tokens": 228,
+   "completion": 247,
+   "cost": 0.0071034,
+   "finish": "stop",
+   "mol_id": "Nonane",
+   "truth": -5.88
+  },
+  {
+   "text": "-2.06",
+   "value": -2.06,
+   "reasoning_tokens": 86,
+   "completion": 100,
+   "cost": 0.003651,
+   "finish": "stop",
+   "mol_id": "Trichloroethylene",
+   "truth": -1.96
+  },
+  {
+   "text": "-2.94",
+   "value": -2.94,
+   "reasoning_tokens": 304,
+   "completion": 318,
+   "cost": 0.006933,
+   "finish": "stop",
+   "mol_id": "XMC",
+   "truth": -2.5810000000000004
+  },
+  {
+   "text": "-7.40",
+   "value": -7.4,
+   "reasoning_tokens": 295,
+   "completion": 314,
+   "cost": 0.0082404,
+   "finish": "stop",
+   "mol_id": "Kepone",
+   "truth": -5.259
+  },
+  {
+   "text": "Metronidazole is a small, highly polar molecule (MW \u2248 171 g/mol) containing a 2\u2011",
+   "value": 1.2,
+   "reasoning_tokens": 538,
+   "completion": 877,
+   "cost": 0.0165894,
+   "finish": "stop",
+   "mol_id": "Metronidazole",
+   "truth": -1.22
+  },
+  {
+   "text": "-8.80",
+   "value": -8.8,
+   "reasoning_tokens": 343,
+   "completion": 357,
+   "cost": 0.00756,
+   "finish": "stop",
+   "mol_id": "Benzo[ghi]perylene",
+   "truth": -9.018
+  },
+  {
+   "text": "1,2,3,5-Tetrachlorobenzene is a close positional isomer of 1,2,3,4-tetrachlorobe",
+   "value": -4.37,
+   "reasoning_tokens": 939,
+   "completion": 1036,
+   "cost": 0.017742,
+   "finish": "stop",
+   "mol_id": "1,2,3,5-Tetrachlorobenzene",
+   "truth": -4.63
+  },
+  {
+   "text": "p-Fluoroacetanilide contains a polar acetamide group that supports moderate aque",
+   "value": -1.95,
+   "reasoning_tokens": 287,
+   "completion": 363,
+   "cost": 0.007623,
+   "finish": "stop",
+   "mol_id": "p-Fluoroacetanilide",
+   "truth": -1.78
+  },
+  {
+   "text": "-0.740",
+   "value": -0.74,
+   "reasoning_tokens": 878,
+   "completion": 892,
+   "cost": 0.015534,
+   "finish": "stop",
+   "mol_id": "2-Phenoxyethanol",
+   "truth": -0.7
+  },
+  {
+   "text": "1-Nitronaphthalene is a hydrophobic fused aromatic system (naphthalene core) wit",
+   "value": -4.0,
+   "reasoning_tokens": 145,
+   "completion": 283,
+   "cost": 0.0076884,
+   "finish": "stop",
+   "mol_id": "1-Nitronapthalene",
+   "truth": -3.54
+  },
+  {
+   "text": "-6.10",
+   "value": -6.1,
+   "reasoning_tokens": 196,
+   "completion": 210,
+   "cost": 0.005355,
+   "finish": "stop",
+   "mol_id": "2,3',4',5-PCB",
+   "truth": -7.25
+  },
+  {
+   "text": "-8.00",
+   "value": -8.0,
+   "reasoning_tokens": 168,
+   "completion": 187,
+   "cost": 0.0063444,
+   "finish": "stop",
+   "mol_id": "Mirex",
+   "truth": -6.8
+  },
+  {
+   "text": "-3.61",
+   "value": -3.61,
+   "reasoning_tokens": 176,
+   "completion": 190,
+   "cost": 0.005013,
+   "finish": "stop",
+   "mol_id": "2,3-Dimethylbutane",
+   "truth": -3.65
+  },
+  {
+   "text": "**Analysis:**\n\nAzodrin (Monocrotophos) is a small, highly polar organophosphate ",
+   "value": -0.59,
+   "reasoning_tokens": 102,
+   "completion": 361,
+   "cost": 0.00759,
+   "finish": "stop",
+   "mol_id": "Azodrin",
+   "truth": 0.6509999999999999
+  },
+  {
+   "text": "Methyl propionate is a small, low-molecular-weight ester (C4H8O2), moderately po",
+   "value": -1.1,
+   "reasoning_tokens": 296,
+   "completion": 400,
+   "cost": 0.008148,
+   "finish": "stop",
+   "mol_id": "Methyl propionate",
+   "truth": -0.14
+  },
+  {
+   "text": "0.255",
+   "value": 0.255,
+   "reasoning_tokens": 812,
+   "completion": 830,
+   "cost": 0.0158604,
+   "finish": "stop",
+   "mol_id": "Thiourea",
+   "truth": 0.32
+  },
+  {
+   "text": "-1.55",
+   "value": -1.55,
+   "reasoning_tokens": 533,
+   "completion": 547,
+   "cost": 0.010365,
+   "finish": "stop",
+   "mol_id": "1-Chloro-2-bromoethane",
+   "truth": -1.32
+  },
+  {
+   "text": "2-Methyl-3-pentanol is a branched C6 secondary alcohol: more soluble than linear",
+   "value": -1.05,
+   "reasoning_tokens": 622,
+   "completion": 682,
+   "cost": 0.012393,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "Benzylurea consists of a hydrophilic urea moiety (like urea, logS = 0.96) attach",
+   "value": -1.92,
+   "reasoning_tokens": 362,
+   "completion": 522,
+   "cost": 0.00999,
+   "finish": "stop",
+   "mol_id": "benzylurea",
+   "truth": -0.95
+  },
+  {
+   "text": "Diphenylmethane is a nonpolar diaryl hydrocarbon, closest in character to 4-meth",
+   "value": -4.08,
+   "reasoning_tokens": 333,
+   "completion": 441,
+   "cost": 0.008778,
+   "finish": "stop",
+   "mol_id": "Diphenylmethane",
+   "truth": -4.08
+  },
+  {
+   "text": "Pyracarbolid is an anilide fungicide structurally close to fenfuram/carboxin-lik",
+   "value": -3.6,
+   "reasoning_tokens": 199,
+   "completion": 281,
+   "cost": 0.0076704,
+   "finish": "stop",
+   "mol_id": "pyracarbolid",
+   "truth": -2.56
+  },
+  {
+   "text": "Methyldymron is a hydrophobic phenylurea derivative with two aromatic rings and ",
+   "value": -4.63,
+   "reasoning_tokens": 459,
+   "completion": 584,
+   "cost": 0.0122184,
+   "finish": "stop",
+   "mol_id": "Methyldymron",
+   "truth": -3.35
+  },
+  {
+   "text": "Tubercidin is a 7-deazaadenosine nucleoside: a pyrrolopyrimidine base (NH\u2082, mult",
+   "value": -1.81,
+   "reasoning_tokens": 427,
+   "completion": 563,
+   "cost": 0.010641,
+   "finish": "stop",
+   "mol_id": "tubercidin",
+   "truth": -1.95
+  },
+  {
+   "text": "Isoquinoline is a bicyclic aromatic azaheterocycle with moderate polarity and lo",
+   "value": -1.46,
+   "reasoning_tokens": 423,
+   "completion": 486,
+   "cost": 0.0107094,
+   "finish": "stop",
+   "mol_id": "Isoquinoline",
+   "truth": -1.45
+  },
+  {
+   "text": "**Analysis:**\n\n2,4,6-Trichlorophenol consists of a phenolic \u2013OH (hydrophilic, H-",
+   "value": -2.62,
+   "reasoning_tokens": 758,
+   "completion": 1059,
+   "cost": 0.0193464,
+   "finish": "stop",
+   "mol_id": "2,4,6-Trichlorophenol",
+   "truth": -2.34
+  },
+  {
+   "text": "-2.32",
+   "value": -2.32,
+   "reasoning_tokens": 2099,
+   "completion": 2113,
+   "cost": 0.033861,
+   "finish": "stop",
+   "mol_id": "o-Nitrotoluene",
+   "truth": -2.33
+  },
+  {
+   "text": "Alloxan is a small, highly polar cyclic imide (pyrimidine-2,4,5,6-tetrone) with ",
+   "value": -0.15,
+   "reasoning_tokens": 777,
+   "completion": 905,
+   "cost": 0.0170274,
+   "finish": "stop",
+   "mol_id": "alloxan",
+   "truth": -1.25
+  },
+  {
+   "text": "Decachlorobiphenyl is fully chlorinated on both rings, making it substantially m",
+   "value": -8.65,
+   "reasoning_tokens": 209,
+   "completion": 299,
+   "cost": 0.006768,
+   "finish": "stop",
+   "mol_id": "2,2',3,3',4,4',5,5',6,6'-PCB",
+   "truth": -11.6
+  },
+  {
+   "text": "1-Heptanol is a straight-chain primary aliphatic alcohol (C7H16O). Its solubilit",
+   "value": -2.8,
+   "reasoning_tokens": 1228,
+   "completion": 1432,
+   "cost": 0.023625,
+   "finish": "stop",
+   "mol_id": "1-Heptanol",
+   "truth": -1.81
+  },
+  {
+   "text": "1-Heptyne is a linear terminal alkyne (C7). The closest analogues in the trainin",
+   "value": -3.04,
+   "reasoning_tokens": 560,
+   "completion": 694,
+   "cost": 0.0138234,
+   "finish": "stop",
+   "mol_id": "1-Heptyne",
+   "truth": -3.01
+  },
+  {
+   "text": "Talbutal is a 5,5-disubstituted barbituric acid derivative. Barbiturates in the ",
+   "value": -1.85,
+   "reasoning_tokens": 132,
+   "completion": 310,
+   "cost": 0.0081114,
+   "finish": "stop",
+   "mol_id": "Talbutal",
+   "truth": -2.016
+  },
+  {
+   "text": "Phoxim is a diethyl phosphorothioate oxime with a benzene ring and nitrile/oxime",
+   "value": -4.63,
+   "reasoning_tokens": 256,
+   "completion": 353,
+   "cost": 0.007476,
+   "finish": "stop",
+   "mol_id": "Phoxim",
+   "truth": -4.862
+  },
+  {
+   "text": "Tetradecane is a long-chain n-alkane with no polar groups, so its aqueous solubi",
+   "value": -7.74,
+   "reasoning_tokens": 496,
+   "completion": 599,
+   "cost": 0.0123954,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "-6.30",
+   "value": -6.3,
+   "reasoning_tokens": 1427,
+   "completion": 1441,
+   "cost": 0.023793,
+   "finish": "stop",
+   "mol_id": "p-terphenyl",
+   "truth": -7.11
+  },
+  {
+   "text": "I don\u2019t see the test molecule\u2019s Name/SMILES after \u201cPrediction Task.\u201d Please prov",
+   "value": null,
+   "reasoning_tokens": 1371,
+   "completion": 1419,
+   "cost": 0.023454,
+   "finish": "stop",
+   "mol_id": "ethiofencarb",
+   "truth": -2.09
+  },
+  {
+   "text": "Chloropham (isopropyl N-(3-chlorophenyl)carbamate) is a moderately hydrophobic a",
+   "value": -3.41,
+   "reasoning_tokens": 275,
+   "completion": 382,
+   "cost": 0.0091674,
+   "finish": "stop",
+   "mol_id": "Chloropham",
+   "truth": -3.38
+  },
+  {
+   "text": "Nitrobenzene is a small, monosubstituted aromatic with a polar nitro group. Comp",
+   "value": -1.81,
+   "reasoning_tokens": 191,
+   "completion": 333,
+   "cost": 0.0084234,
+   "finish": "stop",
+   "mol_id": "Nitrobenzene",
+   "truth": -1.8
+  },
+  {
+   "text": "Methyl acrylate is a small polar \u03b1,\u03b2-unsaturated ester, relatively water-soluble",
+   "value": -0.757,
+   "reasoning_tokens": 658,
+   "completion": 703,
+   "cost": 0.012699,
+   "finish": "stop",
+   "mol_id": "Methyl acrylate",
+   "truth": -0.22
+  },
+  {
+   "text": "Pirimicarb is a dimethylcarbamate\u2013pyrimidine insecticide (MW \u2248 238 g/mol) with m",
+   "value": -2.0,
+   "reasoning_tokens": 527,
+   "completion": 691,
+   "cost": 0.0138234,
+   "finish": "stop",
+   "mol_id": "Pirimicarb",
+   "truth": -1.95
+  },
+  {
+   "text": "-1.26",
+   "value": -1.26,
+   "reasoning_tokens": 304,
+   "completion": 323,
+   "cost": 0.0082794,
+   "finish": "stop",
+   "mol_id": "Metranidazole",
+   "truth": -1.26
+  },
+  {
+   "text": "Based on phenolic OH solubilization offset by two aromatic chlorines, the predic",
+   "value": -1.51,
+   "reasoning_tokens": 2463,
+   "completion": 2506,
+   "cost": 0.0410334,
+   "finish": "stop",
+   "mol_id": "3,4-Dichlorophenol",
+   "truth": -1.25
+  },
+  {
+   "text": "Ethyne (acetylene) is the smallest alkyne. Comparing with the training data:\n\n- ",
+   "value": 0.2,
+   "reasoning_tokens": 157,
+   "completion": 353,
+   "cost": 0.014223,
+   "finish": "stop",
+   "mol_id": "Ethyne",
+   "truth": 0.29
+  },
+  {
+   "text": "2-Pyrrolidone is a small, highly polar cyclic lactam with an H-bond donor/accept",
+   "value": 1.1,
+   "reasoning_tokens": 1655,
+   "completion": 1730,
+   "cost": 0.028104,
+   "finish": "stop",
+   "mol_id": "2-pyrrolidone",
+   "truth": 1.07
+  },
+  {
+   "text": "-5.70",
+   "value": -5.7,
+   "reasoning_tokens": 1108,
+   "completion": 1127,
+   "cost": 0.0203274,
+   "finish": "stop",
+   "mol_id": "DEF",
+   "truth": -5.14
+  },
+  {
+   "text": "-4.86",
+   "value": -4.86,
+   "reasoning_tokens": 3065,
+   "completion": 3084,
+   "cost": 0.0497184,
+   "finish": "stop",
+   "mol_id": "Benomyl",
+   "truth": -4.883
+  },
+  {
+   "text": "2,3-Dimethylpentane is a branched C7 alkane (heptane isomer). Alkanes are very h",
+   "value": -3.85,
+   "reasoning_tokens": 383,
+   "completion": 509,
+   "cost": 0.009804,
+   "finish": "stop",
+   "mol_id": "2,3-Dimethylpentane",
+   "truth": -4.28
+  },
+  {
+   "text": "p-t-Butylphenol is a para-substituted phenol bearing a bulky hydrophobic tert-bu",
+   "value": -2.37,
+   "reasoning_tokens": 582,
+   "completion": 743,
+   "cost": 0.013317,
+   "finish": "stop",
+   "mol_id": "p-t-Butylphenol",
+   "truth": -2.41
+  },
+  {
+   "text": "Cyclobarbital is a 5,5-disubstituted barbiturate closely related to 5-ethyl-5-ph",
+   "value": -2.55,
+   "reasoning_tokens": 402,
+   "completion": 527,
+   "cost": 0.0113694,
+   "finish": "stop",
+   "mol_id": "cyclobarbital",
+   "truth": -2.17
+  }
+ ]
+}

@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "opus5",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "none",
+  "disjoint_from": "freesolv,ld50",
+  "cost": 2.5995849999999967,
+  "timestamp": "2026-07-28T15:49:40"
+ },
+ "calls": [
+  {
+   "text": "-2.60",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014625,
+   "finish": "stop",
+   "mol_id": "Medrogestone",
+   "truth": -5.27
+  },
+  {
+   "text": "**Analysis**\n\nThe string is a large, all-\"A/B\"-type structure with multiple ring",
+   "value": -2.8,
+   "reasoning_tokens": 0,
+   "completion": 422,
+   "cost": 0.02495,
+   "finish": "stop",
+   "mol_id": "Androsterone",
+   "truth": -4.402
+  },
+  {
+   "text": "-2.60",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01445,
+   "finish": "stop",
+   "mol_id": "N,N-Diethylaniline",
+   "truth": -3.03
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures:\n- `Aaraaaa{A}dr` \u2192 -1.95\n- `Aaraaaaa",
+   "value": -2.1,
+   "reasoning_tokens": 0,
+   "completion": 245,
+   "cost": 0.020405,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "Looking at the training data, structures with ring systems (ar...ar, as...as) pl",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 232,
+   "cost": 0.020175,
+   "finish": "stop",
+   "mol_id": "Hexestrol",
+   "truth": -4.43
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.0145,
+   "finish": "stop",
+   "mol_id": "Ethirimol",
+   "truth": -3.028
+  },
+  {
+   "text": "-7.30",
+   "value": -7.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014505,
+   "finish": "stop",
+   "mol_id": "2,3',5-PCB",
+   "truth": -6.01
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the purely \"lowercase ring\" structure",
+   "value": -6.5,
+   "reasoning_tokens": 0,
+   "completion": 517,
+   "cost": 0.02727,
+   "finish": "stop",
+   "mol_id": "Triphenylene",
+   "truth": -6.726
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01457,
+   "finish": "stop",
+   "mol_id": "chloropropylate",
+   "truth": -4.53
+  },
+  {
+   "text": "-2.55",
+   "value": -2.55,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014505,
+   "finish": "stop",
+   "mol_id": "acetazolamide",
+   "truth": -2.36
+  },
+  {
+   "text": "-4.50",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01471,
+   "finish": "stop",
+   "mol_id": "triamcinolone diacetate",
+   "truth": -4.13
+  },
+  {
+   "text": "-4.50",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01467,
+   "finish": "stop",
+   "mol_id": "Flumethasone",
+   "truth": -5.613
+  },
+  {
+   "text": "-1.55",
+   "value": -1.55,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014495,
+   "finish": "stop",
+   "mol_id": "d-inositol",
+   "truth": 0.35
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014635,
+   "finish": "stop",
+   "mol_id": "triforine",
+   "truth": -4.19
+  },
+  {
+   "text": "Looking at similar branched alkyl-like structures: \"AAA{A}AB\" = -0.62, \"AA{A}AAA",
+   "value": -1.0,
+   "reasoning_tokens": 0,
+   "completion": 220,
+   "cost": 0.01981,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethyl-2-pentanol",
+   "truth": -0.92
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar short, branched all-A/B structures in the traini",
+   "value": -0.3,
+   "reasoning_tokens": 0,
+   "completion": 440,
+   "cost": 0.02529,
+   "finish": "stop",
+   "mol_id": "2,2-Dimethylpropanol",
+   "truth": -0.4
+  },
+  {
+   "text": "-5.60",
+   "value": -5.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01456,
+   "finish": "stop",
+   "mol_id": "Etofenprox",
+   "truth": -8.6
+  },
+  {
+   "text": "-7.30",
+   "value": -7.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01448,
+   "finish": "stop",
+   "mol_id": "2,4'-PCB",
+   "truth": -5.28
+  },
+  {
+   "text": "-4.80",
+   "value": -4.8,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01454,
+   "finish": "stop",
+   "mol_id": "Estrone",
+   "truth": -3.955
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014545,
+   "finish": "stop",
+   "mol_id": "estriol",
+   "truth": -4.955
+  },
+  {
+   "text": "-3.15",
+   "value": -3.15,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01452,
+   "finish": "stop",
+   "mol_id": "Cyclopropyl-5-spirobarbituric acid",
+   "truth": -1.886
+  },
+  {
+   "text": "-4.06",
+   "value": -4.06,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014515,
+   "finish": "stop",
+   "mol_id": "RTI 15",
+   "truth": -4.553999999999999
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar short, simple structures in the training set:\n\n-",
+   "value": -1.85,
+   "reasoning_tokens": 0,
+   "completion": 364,
+   "cost": 0.023385,
+   "finish": "stop",
+   "mol_id": "2-Hexanol",
+   "truth": -0.89
+  },
+  {
+   "text": "**Analysis**\n\nSimilar short branched \"A\"-only chains in training:\n- AA{A}AAA{A}{",
+   "value": -2.2,
+   "reasoning_tokens": 0,
+   "completion": 230,
+   "cost": 0.020055,
+   "finish": "stop",
+   "mol_id": "2,2,3-Trimethylbutane",
+   "truth": -4.36
+  },
+  {
+   "text": "-0.300",
+   "value": -0.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014455,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanol",
+   "truth": -0.62
+  },
+  {
+   "text": "**Analysis**\n\nThe string `Yaraaa{H}aar` represents a small ring-containing struc",
+   "value": -1.85,
+   "reasoning_tokens": 0,
+   "completion": 354,
+   "cost": 0.023145,
+   "finish": "stop",
+   "mol_id": "p-Bromoiodobenzene",
+   "truth": -4.56
+  },
+  {
+   "text": "-4.10",
+   "value": -4.1,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014475,
+   "finish": "stop",
+   "mol_id": "2,3,4-Trichlorophenol",
+   "truth": -2.67
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014565,
+   "finish": "stop",
+   "mol_id": "Mebendazole",
+   "truth": -3.88
+  },
+  {
+   "text": "**Reasoning:**\n\nComparable Z-rich ring structures in the training set:\n- `Zaraaa",
+   "value": -9.1,
+   "reasoning_tokens": 0,
+   "completion": 375,
+   "cost": 0.02381,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,5,5',6-PCB",
+   "truth": -8.94
+  },
+  {
+   "text": "-4.50",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.0145,
+   "finish": "stop",
+   "mol_id": "RTI 10",
+   "truth": -3.672
+  },
+  {
+   "text": "**Reasoning:**\n\nThe test string is a Z-containing branched ring system similar t",
+   "value": -7.8,
+   "reasoning_tokens": 0,
+   "completion": 375,
+   "cost": 0.02379,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',6,6'-PCB",
+   "truth": -8.71
+  },
+  {
+   "text": "-2.30",
+   "value": -2.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014485,
+   "finish": "stop",
+   "mol_id": "allantoin",
+   "truth": -1.6
+  },
+  {
+   "text": "-3.35",
+   "value": -3.35,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01447,
+   "finish": "stop",
+   "mol_id": "3,5-Dichlorophenol",
+   "truth": -1.34
+  },
+  {
+   "text": "-3.20",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014475,
+   "finish": "stop",
+   "mol_id": "Butamben",
+   "truth": -3.082
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01466,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone 21-acetate",
+   "truth": -4.88
+  },
+  {
+   "text": "-2.60",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01453,
+   "finish": "stop",
+   "mol_id": "5-Ethyl-5-isopropylbarbituric acid",
+   "truth": -2.148
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar small branched structures:\n- AAA{B}AA \u2192 -0.24\n-",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 342,
+   "cost": 0.022845,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "-5.24",
+   "value": -5.24,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01453,
+   "finish": "stop",
+   "mol_id": "Equilenin",
+   "truth": -5.24
+  },
+  {
+   "text": "<thinking>Let me look at similar strings: \"araaasa{ar}ataaaauaaaasatu\" = -6.0; \"",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 245,
+   "cost": 0.020455,
+   "finish": "stop",
+   "mol_id": "Carbazole",
+   "truth": -5.27
+  },
+  {
+   "text": "Looking at similar ring-containing structures with Z groups (e.g., \"Zaraaa{Z}a{a",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 164,
+   "cost": 0.0184,
+   "finish": "stop",
+   "mol_id": "m-Chloroiodobenzene",
+   "truth": -3.55
+  },
+  {
+   "text": "-8.20",
+   "value": -8.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014525,
+   "finish": "stop",
+   "mol_id": "2,2',3,5'-PCB",
+   "truth": -6.47
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.0146,
+   "finish": "stop",
+   "mol_id": "Corticosterone",
+   "truth": -3.24
+  },
+  {
+   "text": "-5.20",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.0146,
+   "finish": "stop",
+   "mol_id": "Riboflavin",
+   "truth": -3.685
+  },
+  {
+   "text": "-3.20",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01455,
+   "finish": "stop",
+   "mol_id": "Stanolone",
+   "truth": -4.743
+  },
+  {
+   "text": "Looking at similar structures:\n- `Zaraaa{a{Z}arZ}asa{Z}aa{Z}a{Z}asZ` \u2192 -7.66\n- `",
+   "value": -7.2,
+   "reasoning_tokens": 0,
+   "completion": 227,
+   "cost": 0.02007,
+   "finish": "stop",
+   "mol_id": "2,3',4,4'-PCB",
+   "truth": -7.8
+  },
+  {
+   "text": "-1.85",
+   "value": -1.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01448,
+   "finish": "stop",
+   "mol_id": "parabanic acid",
+   "truth": -0.4
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01454,
+   "finish": "stop",
+   "mol_id": "RTI 22",
+   "truth": -4.871
+  },
+  {
+   "text": "**Prediction reasoning:** The string is a simple linear chain of 14 \"A\" units, w",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 245,
+   "cost": 0.020435,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "<thinking>This looks like a large ring/chain structure with many \"a\" units. Simi",
+   "value": -8.5,
+   "reasoning_tokens": 0,
+   "completion": 288,
+   "cost": 0.021565,
+   "finish": "stop",
+   "mol_id": "Picene",
+   "truth": -7.87
+  },
+  {
+   "text": "-3.20",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014485,
+   "finish": "stop",
+   "mol_id": "Menadione",
+   "truth": -3.03
+  },
+  {
+   "text": "-8.20",
+   "value": -8.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014655,
+   "finish": "stop",
+   "mol_id": "Diosgenin",
+   "truth": -7.32
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014465,
+   "finish": "stop",
+   "mol_id": "9-Methylanthracene",
+   "truth": -5.89
+  },
+  {
+   "text": "Looking at similar structures:\n- AAA{B}AA: -0.24\n- AAA{A}AB: 0.45\n- AAAAA{B}AA: ",
+   "value": -0.1,
+   "reasoning_tokens": 0,
+   "completion": 215,
+   "cost": 0.01966,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "Looking at similar structures: \"Arasaaaaasataaaaart\" = -3.583, and larger ring s",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 112,
+   "cost": 0.017125,
+   "finish": "stop",
+   "mol_id": "Benzo(a)fluorene",
+   "truth": -6.68
+  },
+  {
+   "text": "-0.420",
+   "value": -0.42,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01452,
+   "finish": "stop",
+   "mol_id": "hexacosane",
+   "truth": -8.334
+  },
+  {
+   "text": "-3.09",
+   "value": -3.09,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014585,
+   "finish": "stop",
+   "mol_id": "pregnenolone",
+   "truth": -4.65
+  },
+  {
+   "text": "-0.300",
+   "value": -0.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014455,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-heptanol",
+   "truth": -1.72
+  },
+  {
+   "text": "-2.30",
+   "value": -2.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01443,
+   "finish": "stop",
+   "mol_id": "N-Ethylaniline",
+   "truth": -1.7
+  },
+  {
+   "text": "**-4.80**",
+   "value": -4.8,
+   "reasoning_tokens": 0,
+   "completion": 8,
+   "cost": 0.014615,
+   "finish": "stop",
+   "mol_id": "Tricresyl phosphate",
+   "truth": -6.01
+  },
+  {
+   "text": "-4.60",
+   "value": -4.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01459,
+   "finish": "stop",
+   "mol_id": "hematein",
+   "truth": -2.7
+  },
+  {
+   "text": "-2.35",
+   "value": -2.35,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014525,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "-4.60",
+   "value": -4.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01447,
+   "finish": "stop",
+   "mol_id": "3-Chlorobiphenyl",
+   "truth": -4.88
+  },
+  {
+   "text": "-4.35",
+   "value": -4.35,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01454,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "-2.60",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01461,
+   "finish": "stop",
+   "mol_id": "Hydroxyprogesterone-17a",
+   "truth": -3.817
+  },
+  {
+   "text": "Looking at similar ring structures: \"Baraaaasaaaaas\" type strings, \"Garaaaaar\" (",
+   "value": -2.8,
+   "reasoning_tokens": 0,
+   "completion": 193,
+   "cost": 0.019125,
+   "finish": "stop",
+   "mol_id": "1-Bromonapthalene",
+   "truth": -4.35
+  },
+  {
+   "text": "-3.60",
+   "value": -3.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01445,
+   "finish": "stop",
+   "mol_id": "adenine",
+   "truth": -2.12
+  },
+  {
+   "text": "-5.05",
+   "value": -5.05,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01465,
+   "finish": "stop",
+   "mol_id": "Fluoromethalone",
+   "truth": -4.099
+  },
+  {
+   "text": "**-3.60**",
+   "value": -3.6,
+   "reasoning_tokens": 0,
+   "completion": 8,
+   "cost": 0.014525,
+   "finish": "stop",
+   "mol_id": "Hypoxanthine",
+   "truth": -2.296
+  },
+  {
+   "text": "-1.85",
+   "value": -1.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01446,
+   "finish": "stop",
+   "mol_id": "allicin",
+   "truth": -0.83
+  },
+  {
+   "text": "-3.20",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01448,
+   "finish": "stop",
+   "mol_id": "1,2-Dichlorotetrafluoroethane",
+   "truth": -2.74
+  },
+  {
+   "text": "-2.60",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01455,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "-3.90",
+   "value": -3.9,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01451,
+   "finish": "stop",
+   "mol_id": "RTI 19",
+   "truth": -4.749
+  },
+  {
+   "text": "<thinking>\nSimilar samples: Zaraaa{a{Z}arZ}asa{Z}aa{Z}a{Z}asZ = -7.66, Zaraaa{a{",
+   "value": -7.5,
+   "reasoning_tokens": 0,
+   "completion": 208,
+   "cost": 0.0196,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',5,5'-PCB",
+   "truth": -8.56
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar ring-containing structures in the training data:",
+   "value": -2.75,
+   "reasoning_tokens": 0,
+   "completion": 375,
+   "cost": 0.02367,
+   "finish": "stop",
+   "mol_id": "1-Iodonapthalene",
+   "truth": -4.55
+  },
+  {
+   "text": "Looking at the training data, the closely analogous sample \"B~ArD{ABA{~B}AAAAA}A",
+   "value": -4.8,
+   "reasoning_tokens": 0,
+   "completion": 113,
+   "cost": 0.01728,
+   "finish": "stop",
+   "mol_id": "3-Pentanoyloxymethylphenytoin",
+   "truth": -4.678
+  },
+  {
+   "text": "Looking at similar all-\"A\" chain structures: \"AAA\" = -0.24, \"AAAAAAAA\" = -0.45, ",
+   "value": -0.7,
+   "reasoning_tokens": 0,
+   "completion": 172,
+   "cost": 0.01862,
+   "finish": "stop",
+   "mol_id": "Hexadecane",
+   "truth": -8.4
+  },
+  {
+   "text": "**Reasoning:**\n\nLooking at similar short branched structures:\n- AAA{A}AB \u2192 -2.35",
+   "value": -2.0,
+   "reasoning_tokens": 0,
+   "completion": 277,
+   "cost": 0.021215,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01453,
+   "finish": "stop",
+   "mol_id": "Dyphylline",
+   "truth": -0.17
+  },
+  {
+   "text": "-2.85",
+   "value": -2.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01448,
+   "finish": "stop",
+   "mol_id": "uracil",
+   "truth": -1.4880000000000002
+  },
+  {
+   "text": "-2.55",
+   "value": -2.55,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014475,
+   "finish": "stop",
+   "mol_id": "1-methyluracil",
+   "truth": -0.807
+  },
+  {
+   "text": "Looking at the training data, similar short chain-like strings with ring notatio",
+   "value": -1.5,
+   "reasoning_tokens": 0,
+   "completion": 152,
+   "cost": 0.0181,
+   "finish": "stop",
+   "mol_id": "cis-1,2-Dimethylcyclohexane",
+   "truth": -4.3
+  },
+  {
+   "text": "Looking at the training data, short ring-containing strings with few atoms tend ",
+   "value": -1.6,
+   "reasoning_tokens": 0,
+   "completion": 140,
+   "cost": 0.017755,
+   "finish": "stop",
+   "mol_id": "Furane",
+   "truth": -0.82
+  },
+  {
+   "text": "**Analysis**\n\nThe target string is a large, complex structure with many branches",
+   "value": -3.5,
+   "reasoning_tokens": 0,
+   "completion": 402,
+   "cost": 0.024565,
+   "finish": "stop",
+   "mol_id": "Spironolactone",
+   "truth": -4.173
+  },
+  {
+   "text": "-3.30",
+   "value": -3.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014455,
+   "finish": "stop",
+   "mol_id": "3-Chloroanisole",
+   "truth": -2.78
+  },
+  {
+   "text": "-1.20",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01444,
+   "finish": "stop",
+   "mol_id": "Cycloheptene",
+   "truth": -3.18
+  },
+  {
+   "text": "# Analysis\n\nLooking at the training data, the \"A\"-only chains show a pattern:\n- ",
+   "value": -0.7,
+   "reasoning_tokens": 0,
+   "completion": 526,
+   "cost": 0.02749,
+   "finish": "stop",
+   "mol_id": "Eicosane",
+   "truth": -8.172
+  },
+  {
+   "text": "-1.92",
+   "value": -1.92,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014435,
+   "finish": "stop",
+   "mol_id": "Ethylcyclohexane",
+   "truth": -4.25
+  },
+  {
+   "text": "-4.50",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014615,
+   "finish": "stop",
+   "mol_id": "Trimazosin",
+   "truth": -3.638
+  },
+  {
+   "text": "**Analysis**\n\nThe string contains multiple ring/branch fragments plus a long ali",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 362,
+   "cost": 0.02344,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-phenylbarbital",
+   "truth": -2.369
+  },
+  {
+   "text": "Looking at similar structures: \"AAAAAA{A}B\" = -0.47, \"AAA{A}AB\" = 0.45, \"AAAABAA",
+   "value": -0.75,
+   "reasoning_tokens": 0,
+   "completion": 146,
+   "cost": 0.017945,
+   "finish": "stop",
+   "mol_id": "2-Octanol",
+   "truth": -2.09
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014545,
+   "finish": "stop",
+   "mol_id": "Cyclooctyl-5-spirobarbituric acid",
+   "truth": -2.982
+  },
+  {
+   "text": "-3.65",
+   "value": -3.65,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01447,
+   "finish": "stop",
+   "mol_id": "allopurinol",
+   "truth": -2.266
+  },
+  {
+   "text": "Looking at the training data, similar small ring structures with heteroatom-like",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 242,
+   "cost": 0.020355,
+   "finish": "stop",
+   "mol_id": "1,3-Dibromobenzene",
+   "truth": -3.54
+  },
+  {
+   "text": "Looking at the training data, long macrocyclic/polyether-like strings composed m",
+   "value": -8.3,
+   "reasoning_tokens": 0,
+   "completion": 325,
+   "cost": 0.022495,
+   "finish": "stop",
+   "mol_id": "Perylene",
+   "truth": -8.804
+  },
+  {
+   "text": "-6.20",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01446,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "-1.20",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01448,
+   "finish": "stop",
+   "mol_id": "methyl laurate",
+   "truth": -4.69
+  },
+  {
+   "text": "-4.90",
+   "value": -4.9,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014615,
+   "finish": "stop",
+   "mol_id": "3-Heptanoyloxymethylphenytoin",
+   "truth": -6.301
+  },
+  {
+   "text": "-2.10",
+   "value": -2.1,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01454,
+   "finish": "stop",
+   "mol_id": "thiopental",
+   "truth": -3.36
+  },
+  {
+   "text": "-4.10",
+   "value": -4.1,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014495,
+   "finish": "stop",
+   "mol_id": "Simetryn",
+   "truth": -2.676
+  },
+  {
+   "text": "-5.10",
+   "value": -5.1,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01445,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "-4.50",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014515,
+   "finish": "stop",
+   "mol_id": "Benznidazole",
+   "truth": -2.81
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the long ring/chain-only strings comp",
+   "value": -8.2,
+   "reasoning_tokens": 0,
+   "completion": 520,
+   "cost": 0.027355,
+   "finish": "stop",
+   "mol_id": "Benzo(e)pyrene",
+   "truth": -7.8
+  },
+  {
+   "text": "-3.50",
+   "value": -3.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014655,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "Looking at similar Z-containing ring structures: \"Zaraaa{a{Z}arZ}asa{Z}aa{Z}a{Z}",
+   "value": -5.8,
+   "reasoning_tokens": 0,
+   "completion": 214,
+   "cost": 0.0197,
+   "finish": "stop",
+   "mol_id": "2,4,6-PCB",
+   "truth": -6.14
+  },
+  {
+   "text": "-3.50",
+   "value": -3.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014455,
+   "finish": "stop",
+   "mol_id": "m-Chlorobromobenzene",
+   "truth": -3.21
+  },
+  {
+   "text": "Looking at the training data, long macrocyclic/polyether-like \"araa...s...t...u.",
+   "value": -10.5,
+   "reasoning_tokens": 0,
+   "completion": 216,
+   "cost": 0.01976,
+   "finish": "stop",
+   "mol_id": "Coronene",
+   "truth": -9.332
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014475,
+   "finish": "stop",
+   "mol_id": "1,3,5-Tribromobenzene",
+   "truth": -5.6
+  },
+  {
+   "text": "-1.25",
+   "value": -1.25,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01446,
+   "finish": "stop",
+   "mol_id": "Ethyl heptanoate",
+   "truth": -2.74
+  },
+  {
+   "text": "-2.62",
+   "value": -2.62,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01452,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-methylbarbital",
+   "truth": -1.16
+  },
+  {
+   "text": "-6.20",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014495,
+   "finish": "stop",
+   "mol_id": "5,6-Dimethylchrysene",
+   "truth": -7.01
+  },
+  {
+   "text": "-0.500",
+   "value": -0.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01446,
+   "finish": "stop",
+   "mol_id": "2-Undecanol",
+   "truth": -2.94
+  },
+  {
+   "text": "-2.20",
+   "value": -2.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014535,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "-2.35",
+   "value": -2.35,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01456,
+   "finish": "stop",
+   "mol_id": "5-(3-Methyl-2-butenyl)-5-isoPrbarbital",
+   "truth": -2.593
+  },
+  {
+   "text": "-2.62",
+   "value": -2.62,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01461,
+   "finish": "stop",
+   "mol_id": "methyltestosterone acetate",
+   "truth": -5.284
+  },
+  {
+   "text": "<thinking>Looking at similar ring-like structures with many \"a\" units and s/t/u ",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 474,
+   "cost": 0.026165,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "-0.500",
+   "value": -0.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01443,
+   "finish": "stop",
+   "mol_id": "2-Methyl-1-Butene",
+   "truth": -2.73
+  },
+  {
+   "text": "Looking at similar structures: \"AADsardaaaarD{AA}A{~B}ataaadast\" = -4.8, \"AADsar",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 288,
+   "cost": 0.02157,
+   "finish": "stop",
+   "mol_id": "RTI 12",
+   "truth": -4.114
+  },
+  {
+   "text": "-3.35",
+   "value": -3.35,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014485,
+   "finish": "stop",
+   "mol_id": "1,2-Dinitrobenzene",
+   "truth": -3.1
+  },
+  {
+   "text": "Looking at the training data, short strings with few atoms and simple branching ",
+   "value": -2.1,
+   "reasoning_tokens": 0,
+   "completion": 244,
+   "cost": 0.0204,
+   "finish": "stop",
+   "mol_id": "Tetrabromomethane",
+   "truth": -3.14
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01462,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone",
+   "truth": -3.09
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014555,
+   "finish": "stop",
+   "mol_id": "Quinethazone",
+   "truth": -3.29
+  },
+  {
+   "text": "<thinking>The string is a ring-containing structure with many \"a\" segments. Simi",
+   "value": -6.35,
+   "reasoning_tokens": 0,
+   "completion": 4000,
+   "cost": 0.11431,
+   "finish": "length",
+   "mol_id": "2-Methylanthracene",
+   "truth": -6.96
+  },
+  {
+   "text": "-6.20",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014475,
+   "finish": "stop",
+   "mol_id": "Benzo(b)fluorene",
+   "truth": -8.04
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01453,
+   "finish": "stop",
+   "mol_id": "diethylstilbestrol",
+   "truth": -4.07
+  },
+  {
+   "text": "**Reasoning:**\n\nThe training set contains a similar short string: \"AA|A~A!A\" wit",
+   "value": 1.4,
+   "reasoning_tokens": 0,
+   "completion": 212,
+   "cost": 0.01958,
+   "finish": "stop",
+   "mol_id": "trans-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "**Analysis**\n\nThe test string is a long, purely \"A/B/~A/~B\"-type backbone with m",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 464,
+   "cost": 0.026075,
+   "finish": "stop",
+   "mol_id": "deoxycorticosterone acetate",
+   "truth": -4.63
+  },
+  {
+   "text": "-4.20",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01452,
+   "finish": "stop",
+   "mol_id": "nevirapine",
+   "truth": -3.19
+  },
+  {
+   "text": "-0.850",
+   "value": -0.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01442,
+   "finish": "stop",
+   "mol_id": "2-Methyltetrahydrofurane",
+   "truth": 0.11
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014515,
+   "finish": "stop",
+   "mol_id": "Mefenacet",
+   "truth": -4.873
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar training samples with ring structures containing",
+   "value": -4.3,
+   "reasoning_tokens": 0,
+   "completion": 418,
+   "cost": 0.024735,
+   "finish": "stop",
+   "mol_id": "4-methylpteridine",
+   "truth": -0.466
+  },
+  {
+   "text": "-4.50",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014625,
+   "finish": "stop",
+   "mol_id": "Bendroflumethiazide",
+   "truth": -3.59
+  },
+  {
+   "text": "Looking at similar Z-containing ring structures: \"Zaraaa{a{Z}arZ}asa{Z}aa{Z}a{Z}",
+   "value": -6.3,
+   "reasoning_tokens": 0,
+   "completion": 285,
+   "cost": 0.02154,
+   "finish": "stop",
+   "mol_id": "2,2',3,5,5',6-PCB",
+   "truth": -7.42
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01454,
+   "finish": "stop",
+   "mol_id": "stadacaine",
+   "truth": -3.84
+  },
+  {
+   "text": "-4.85",
+   "value": -4.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014565,
+   "finish": "stop",
+   "mol_id": "Chlorthalidone",
+   "truth": -3.451
+  },
+  {
+   "text": "Looking at similar short all-A strings: \"AAA\" = -0.47, \"AAAA{A}A\" = 0.45, \"AAAAA",
+   "value": -0.4,
+   "reasoning_tokens": 0,
+   "completion": 213,
+   "cost": 0.019615,
+   "finish": "stop",
+   "mol_id": "2-Methylheptane",
+   "truth": -5.08
+  },
+  {
+   "text": "-3.50",
+   "value": -3.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014455,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "-3.85",
+   "value": -3.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014495,
+   "finish": "stop",
+   "mol_id": "Etomidate",
+   "truth": -4.735
+  },
+  {
+   "text": "-2.35",
+   "value": -2.35,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01447,
+   "finish": "stop",
+   "mol_id": "t-Pentylbenzene",
+   "truth": -4.15
+  },
+  {
+   "text": "-6.90",
+   "value": -6.9,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014525,
+   "finish": "stop",
+   "mol_id": "O,P'-DDD",
+   "truth": -6.51
+  },
+  {
+   "text": "-3.85",
+   "value": -3.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01451,
+   "finish": "stop",
+   "mol_id": "Inosine",
+   "truth": -1.23
+  },
+  {
+   "text": "**-0.550**",
+   "value": -0.55,
+   "reasoning_tokens": 0,
+   "completion": 8,
+   "cost": 0.01449,
+   "finish": "stop",
+   "mol_id": "1-Hexene-3-ol",
+   "truth": -0.59
+  },
+  {
+   "text": "-4.60",
+   "value": -4.6,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01451,
+   "finish": "stop",
+   "mol_id": "RTI 24",
+   "truth": -5.36
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014525,
+   "finish": "stop",
+   "mol_id": "RTI 23",
+   "truth": -5.153
+  },
+  {
+   "text": "Looking at similar structures: \"B~ArAAAAAr\" = -0.6, \"AAAAAAAAAB\" = -3.01, \"AAAAA",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 165,
+   "cost": 0.018415,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "-2.30",
+   "value": -2.3,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01441,
+   "finish": "stop",
+   "mol_id": "Pyrimidine",
+   "truth": 1.1
+  },
+  {
+   "text": "Looking at similar Z-containing ring structures: \"Zaraaa{a{Z}arZ}asa{Z}aa{Z}a{Z}",
+   "value": -7.1,
+   "reasoning_tokens": 0,
+   "completion": 233,
+   "cost": 0.020185,
+   "finish": "stop",
+   "mol_id": "2,2',3,3'-PCB",
+   "truth": -7.28
+  },
+  {
+   "text": "-5.20",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014465,
+   "finish": "stop",
+   "mol_id": "2,7-dimethylquinoline",
+   "truth": -1.94
+  },
+  {
+   "text": "-5.20",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014575,
+   "finish": "stop",
+   "mol_id": "Danazol",
+   "truth": -5.507000000000001
+  },
+  {
+   "text": "-6.50",
+   "value": -6.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01449,
+   "finish": "stop",
+   "mol_id": "4,4'-PCB",
+   "truth": -6.56
+  },
+  {
+   "text": "-3.50",
+   "value": -3.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.014625,
+   "finish": "stop",
+   "mol_id": "Cortisone",
+   "truth": -3.11
+  }
+ ]
+}

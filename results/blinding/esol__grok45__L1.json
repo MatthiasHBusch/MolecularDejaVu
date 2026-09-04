@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "grok45",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "low",
+  "disjoint_from": "freesolv,ld50",
+  "cost": 1.2975051999999996,
+  "timestamp": "2026-07-28T15:53:01"
+ },
+ "calls": [
+  {
+   "text": "The molecule Medrogestone (C23H32O2) is a tetracyclic steroid derivative contain",
+   "value": -4.42,
+   "reasoning_tokens": 436,
+   "completion": 699,
+   "cost": 0.0104444,
+   "finish": "stop",
+   "mol_id": "Medrogestone",
+   "truth": -5.27
+  },
+  {
+   "text": "The molecule androsterone is a C19 steroid bearing one secondary alcohol and one",
+   "value": -4.1,
+   "reasoning_tokens": 518,
+   "completion": 768,
+   "cost": 0.0108304,
+   "finish": "stop",
+   "mol_id": "Androsterone",
+   "truth": -4.402
+  },
+  {
+   "text": "The molecule N,N-diethylaniline is a tertiary aromatic amine. Its structure is r",
+   "value": -3.03,
+   "reasoning_tokens": 479,
+   "completion": 693,
+   "cost": 0.0103644,
+   "finish": "stop",
+   "mol_id": "N,N-Diethylaniline",
+   "truth": -3.03
+  },
+  {
+   "text": "The molecule 2-bromotoluene (1-bromo-2-methylbenzene) is a disubstituted aromati",
+   "value": -3.05,
+   "reasoning_tokens": 627,
+   "completion": 876,
+   "cost": 0.0114544,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "The target molecule hexestrol (4,4'-(hexane-3,4-diyl)diphenol) contains two phen",
+   "value": -4.71,
+   "reasoning_tokens": 529,
+   "completion": 799,
+   "cost": 0.0110164,
+   "finish": "stop",
+   "mol_id": "Hexestrol",
+   "truth": -4.43
+  },
+  {
+   "text": "The molecule ethirimol (SMILES: CCCCc1c(C)nc(NCC)[nH]c1=O) is a substituted pyri",
+   "value": -3.4,
+   "reasoning_tokens": 428,
+   "completion": 687,
+   "cost": 0.0103384,
+   "finish": "stop",
+   "mol_id": "Ethirimol",
+   "truth": -3.028
+  },
+  {
+   "text": "The training data contain multiple PCB congeners whose measured log-solubilities",
+   "value": -6.3,
+   "reasoning_tokens": 507,
+   "completion": 714,
+   "cost": 0.0105044,
+   "finish": "stop",
+   "mol_id": "2,3',5-PCB",
+   "truth": -6.01
+  },
+  {
+   "text": "The training data contain multiple polycyclic aromatic hydrocarbons (PAHs) whose",
+   "value": -6.73,
+   "reasoning_tokens": 687,
+   "completion": 911,
+   "cost": 0.0116784,
+   "finish": "stop",
+   "mol_id": "Triphenylene",
+   "truth": -6.726
+  },
+  {
+   "text": "The target molecule chloropropylate is structurally nearly identical to the trai",
+   "value": -4.73,
+   "reasoning_tokens": 372,
+   "completion": 571,
+   "cost": 0.0096644,
+   "finish": "stop",
+   "mol_id": "chloropropylate",
+   "truth": -4.53
+  },
+  {
+   "text": "The target compound acetazolamide (CC(=O)Nc1nnc(s1)S(N)(=O)=O) contains multiple",
+   "value": -2.5,
+   "reasoning_tokens": 418,
+   "completion": 638,
+   "cost": 0.0100444,
+   "finish": "stop",
+   "mol_id": "acetazolamide",
+   "truth": -2.36
+  },
+  {
+   "text": "The target molecule is a fluorinated corticosteroid diester (steroidal core with",
+   "value": -4.52,
+   "reasoning_tokens": 436,
+   "completion": 714,
+   "cost": 0.0105684,
+   "finish": "stop",
+   "mol_id": "triamcinolone diacetate",
+   "truth": -4.13
+  },
+  {
+   "text": "The training set spans a wide range of aqueous solubilities (log \\(S\\) from appr",
+   "value": -4.17,
+   "reasoning_tokens": 362,
+   "completion": 601,
+   "cost": 0.0098804,
+   "finish": "stop",
+   "mol_id": "Flumethasone",
+   "truth": -5.613
+  },
+  {
+   "text": "The target molecule is d-inositol (cyclohexane-1,2,3,4,5,6-hexol). Its structure",
+   "value": -0.11,
+   "reasoning_tokens": 432,
+   "completion": 691,
+   "cost": 0.0103644,
+   "finish": "stop",
+   "mol_id": "d-inositol",
+   "truth": 0.35
+  },
+  {
+   "text": "The target compound triforine contains a central unsaturated piperazine core sub",
+   "value": -4.62,
+   "reasoning_tokens": 410,
+   "completion": 665,
+   "cost": 0.0052396,
+   "finish": "stop",
+   "mol_id": "triforine",
+   "truth": -4.19
+  },
+  {
+   "text": "The target molecule (2,4-dimethyl-2-pentanol) is a branched C7 tertiary aliphati",
+   "value": -1.4,
+   "reasoning_tokens": 720,
+   "completion": 990,
+   "cost": 0.0121584,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethyl-2-pentanol",
+   "truth": -0.92
+  },
+  {
+   "text": "The molecule 2,2-dimethylpropanol (neopentyl alcohol) is a monofunctional primar",
+   "value": -0.4,
+   "reasoning_tokens": 1040,
+   "completion": 1259,
+   "cost": 0.0137584,
+   "finish": "stop",
+   "mol_id": "2,2-Dimethylpropanol",
+   "truth": -0.4
+  },
+  {
+   "text": "The target molecule etofenprox (C25H28O3) is a large, flexible insecticide conta",
+   "value": -7.2,
+   "reasoning_tokens": 534,
+   "completion": 804,
+   "cost": 0.0110584,
+   "finish": "stop",
+   "mol_id": "Etofenprox",
+   "truth": -8.6
+  },
+  {
+   "text": "The training data include multiple PCB derivatives, which establish a clear inve",
+   "value": -5.95,
+   "reasoning_tokens": 822,
+   "completion": 1069,
+   "cost": 0.0126244,
+   "finish": "stop",
+   "mol_id": "2,4'-PCB",
+   "truth": -5.28
+  },
+  {
+   "text": "The molecule estrone is a tetracyclic steroidal compound containing one phenolic",
+   "value": -3.8,
+   "reasoning_tokens": 452,
+   "completion": 690,
+   "cost": 0.0103584,
+   "finish": "stop",
+   "mol_id": "Estrone",
+   "truth": -3.955
+  },
+  {
+   "text": "The target molecule estriol is a steroidal triol (MW \\(\\approx 288\\)) containing",
+   "value": -3.52,
+   "reasoning_tokens": 299,
+   "completion": 586,
+   "cost": 0.0097404,
+   "finish": "stop",
+   "mol_id": "estriol",
+   "truth": -4.955
+  },
+  {
+   "text": "The target molecule is a compact spirocyclic barbiturate (cyclopropyl fused at t",
+   "value": -1.72,
+   "reasoning_tokens": 635,
+   "completion": 943,
+   "cost": 0.0118904,
+   "finish": "stop",
+   "mol_id": "Cyclopropyl-5-spirobarbituric acid",
+   "truth": -1.886
+  },
+  {
+   "text": "The target molecule (RTI 15) belongs to the same structural series of reverse-tr",
+   "value": -2.7,
+   "reasoning_tokens": 597,
+   "completion": 770,
+   "cost": 0.0108484,
+   "finish": "stop",
+   "mol_id": "RTI 15",
+   "truth": -4.553999999999999
+  },
+  {
+   "text": "The training set contains multiple aliphatic alcohols that enable a direct struc",
+   "value": -0.9,
+   "reasoning_tokens": 810,
+   "completion": 1033,
+   "cost": 0.0073856,
+   "finish": "stop",
+   "mol_id": "2-Hexanol",
+   "truth": -0.89
+  },
+  {
+   "text": "The training set contains several saturated hydrocarbons that enable estimation ",
+   "value": -4.3,
+   "reasoning_tokens": 938,
+   "completion": 1275,
+   "cost": 0.0138664,
+   "finish": "stop",
+   "mol_id": "2,2,3-Trimethylbutane",
+   "truth": -4.36
+  },
+  {
+   "text": "The training set contains multiple aliphatic alcohols that establish a clear inv",
+   "value": -0.85,
+   "reasoning_tokens": 745,
+   "completion": 971,
+   "cost": 0.0120444,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanol",
+   "truth": -0.62
+  },
+  {
+   "text": "The target compound \\(p\\)-bromoiodobenzene is a non-polar, para-dihalogenated be",
+   "value": -4.14,
+   "reasoning_tokens": 1041,
+   "completion": 1374,
+   "cost": 0.0144444,
+   "finish": "stop",
+   "mol_id": "p-Bromoiodobenzene",
+   "truth": -4.56
+  },
+  {
+   "text": "The aqueous solubility of phenolic compounds is governed primarily by the hydrop",
+   "value": -2.55,
+   "reasoning_tokens": 657,
+   "completion": 924,
+   "cost": 0.0117624,
+   "finish": "stop",
+   "mol_id": "2,3,4-Trichlorophenol",
+   "truth": -2.67
+  },
+  {
+   "text": "The target molecule mebendazole is a benzimidazole carbamate containing an addit",
+   "value": -4.05,
+   "reasoning_tokens": 529,
+   "completion": 832,
+   "cost": 0.0112264,
+   "finish": "stop",
+   "mol_id": "Mebendazole",
+   "truth": -3.88
+  },
+  {
+   "text": "The training data contain multiple PCB congeners whose measured log-solubilities",
+   "value": -8.3,
+   "reasoning_tokens": 460,
+   "completion": 591,
+   "cost": 0.0048096,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,5,5',6-PCB",
+   "truth": -8.94
+  },
+  {
+   "text": "The target molecule (RTI 10) belongs to the same chemical series as two closely ",
+   "value": -2.55,
+   "reasoning_tokens": 635,
+   "completion": 893,
+   "cost": 0.0115784,
+   "finish": "stop",
+   "mol_id": "RTI 10",
+   "truth": -3.672
+  },
+  {
+   "text": "The training data include several PCB congeners whose measured log solubilities ",
+   "value": -7.8,
+   "reasoning_tokens": 356,
+   "completion": 554,
+   "cost": 0.0095804,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',6,6'-PCB",
+   "truth": -8.71
+  },
+  {
+   "text": "The molecule allantoin (SMILES: NC(=O)NC1NC(=O)NC1=O) is a small, highly polar h",
+   "value": -1.44,
+   "reasoning_tokens": 420,
+   "completion": 652,
+   "cost": 0.0051116,
+   "finish": "stop",
+   "mol_id": "allantoin",
+   "truth": -1.6
+  },
+  {
+   "text": "The molecule 3,5-dichlorophenol is a disubstituted aromatic alcohol. Aqueous sol",
+   "value": -2.0,
+   "reasoning_tokens": 658,
+   "completion": 901,
+   "cost": 0.0116184,
+   "finish": "stop",
+   "mol_id": "3,5-Dichlorophenol",
+   "truth": -1.34
+  },
+  {
+   "text": "The target compound (butyl 4-aminobenzoate) is a lipophilic aromatic ester-amine",
+   "value": -3.14,
+   "reasoning_tokens": 369,
+   "completion": 715,
+   "cost": 0.0104944,
+   "finish": "stop",
+   "mol_id": "Butamben",
+   "truth": -3.082
+  },
+  {
+   "text": "The target molecule (hydrocortisone 21-acetate) is a polycyclic steroid derivati",
+   "value": -3.79,
+   "reasoning_tokens": 427,
+   "completion": 645,
+   "cost": 0.0101304,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone 21-acetate",
+   "truth": -4.88
+  },
+  {
+   "text": "The test molecule 5-ethyl-5-isopropylbarbituric acid (SMILES: O=C1NC(=O)NC(=O)C1",
+   "value": -2.21,
+   "reasoning_tokens": 342,
+   "completion": 447,
+   "cost": 0.0089224,
+   "finish": "stop",
+   "mol_id": "5-Ethyl-5-isopropylbarbituric acid",
+   "truth": -2.148
+  },
+  {
+   "text": "The aqueous solubility of aliphatic alcohols is governed primarily by alkyl chai",
+   "value": -0.87,
+   "reasoning_tokens": 667,
+   "completion": 905,
+   "cost": 0.0116364,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "-3.97",
+   "value": -3.97,
+   "reasoning_tokens": 323,
+   "completion": 327,
+   "cost": 0.0081824,
+   "finish": "stop",
+   "mol_id": "Equilenin",
+   "truth": -5.24
+  },
+  {
+   "text": "The molecule carbazole consists of a rigid, planar tricyclic aromatic system (tw",
+   "value": -3.62,
+   "reasoning_tokens": 709,
+   "completion": 935,
+   "cost": 0.0068156,
+   "finish": "stop",
+   "mol_id": "Carbazole",
+   "truth": -5.27
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by molecular h",
+   "value": -3.52,
+   "reasoning_tokens": 480,
+   "completion": 679,
+   "cost": 0.0052696,
+   "finish": "stop",
+   "mol_id": "m-Chloroiodobenzene",
+   "truth": -3.55
+  },
+  {
+   "text": "The target compound is a tetrachlorobiphenyl (PCB Congener). PCBs exhibit charac",
+   "value": -7.2,
+   "reasoning_tokens": 475,
+   "completion": 701,
+   "cost": 0.0104384,
+   "finish": "stop",
+   "mol_id": "2,2',3,5'-PCB",
+   "truth": -6.47
+  },
+  {
+   "text": "The target compound corticosterone is a C21 steroid (MW \\(\\approx 346\\)) contain",
+   "value": -3.3,
+   "reasoning_tokens": 472,
+   "completion": 781,
+   "cost": 0.0059176,
+   "finish": "stop",
+   "mol_id": "Corticosterone",
+   "truth": -3.24
+  },
+  {
+   "text": "The target molecule (riboflavin) contains a tricyclic isoalloxazine core fused t",
+   "value": -3.65,
+   "reasoning_tokens": 524,
+   "completion": 785,
+   "cost": 0.0059656,
+   "finish": "stop",
+   "mol_id": "Riboflavin",
+   "truth": -3.685
+  },
+  {
+   "text": "The target molecule stanolone (17\\(\\beta\\)-hydroxy-5\\(\\alpha\\)-androstan-3-one) ",
+   "value": -4.18,
+   "reasoning_tokens": 444,
+   "completion": 696,
+   "cost": 0.0053896,
+   "finish": "stop",
+   "mol_id": "Stanolone",
+   "truth": -4.743
+  },
+  {
+   "text": "The training data contain multiple polychlorinated biphenyl (PCB) congeners whos",
+   "value": -7.53,
+   "reasoning_tokens": 707,
+   "completion": 944,
+   "cost": 0.0119044,
+   "finish": "stop",
+   "mol_id": "2,3',4,4'-PCB",
+   "truth": -7.8
+  },
+  {
+   "text": "The molecule parabanic acid (imidazolidine-2,4,5-trione) is a compact, highly po",
+   "value": 0.45,
+   "reasoning_tokens": 782,
+   "completion": 1002,
+   "cost": 0.0072136,
+   "finish": "stop",
+   "mol_id": "parabanic acid",
+   "truth": -0.4
+  },
+  {
+   "text": "The training set contains multiple reverse-transcriptase-inhibitor (RTI) analogu",
+   "value": -3.2,
+   "reasoning_tokens": 456,
+   "completion": 720,
+   "cost": 0.0105564,
+   "finish": "stop",
+   "mol_id": "RTI 22",
+   "truth": -4.871
+  },
+  {
+   "text": "The training data include several saturated hydrocarbons that establish a clear ",
+   "value": -9.2,
+   "reasoning_tokens": 1022,
+   "completion": 1328,
+   "cost": 0.0141524,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "The training data contain multiple polycyclic aromatic hydrocarbons (PAHs) whose",
+   "value": -8.15,
+   "reasoning_tokens": 397,
+   "completion": 554,
+   "cost": 0.0095424,
+   "finish": "stop",
+   "mol_id": "Picene",
+   "truth": -7.87
+  },
+  {
+   "text": "The target molecule (menadione) is 2-methyl-1,4-naphthoquinone. Its core is a co",
+   "value": -2.8,
+   "reasoning_tokens": 374,
+   "completion": 653,
+   "cost": 0.0051216,
+   "finish": "stop",
+   "mol_id": "Menadione",
+   "truth": -3.03
+  },
+  {
+   "text": "The molecule diosgenin (C27H42O3) is a large, rigid polycyclic steroidal sapogen",
+   "value": -5.5,
+   "reasoning_tokens": 344,
+   "completion": 604,
+   "cost": 0.0098824,
+   "finish": "stop",
+   "mol_id": "Diosgenin",
+   "truth": -7.32
+  },
+  {
+   "text": "The molecule 9-methylanthracene is a methyl-substituted polycyclic aromatic hydr",
+   "value": -5.74,
+   "reasoning_tokens": 498,
+   "completion": 753,
+   "cost": 0.0107244,
+   "finish": "stop",
+   "mol_id": "9-Methylanthracene",
+   "truth": -5.89
+  },
+  {
+   "text": "The training data include multiple aliphatic alcohols whose aqueous solubilities",
+   "value": -1.05,
+   "reasoning_tokens": 366,
+   "completion": 547,
+   "cost": 0.0094824,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "The training set contains multiple polycyclic aromatic hydrocarbons (PAHs) whose",
+   "value": -6.7,
+   "reasoning_tokens": 606,
+   "completion": 830,
+   "cost": 0.0111964,
+   "finish": "stop",
+   "mol_id": "Benzo(a)fluorene",
+   "truth": -6.68
+  },
+  {
+   "text": "The training data include several \\(n\\)-alkanes and lightly branched alkanes who",
+   "value": -16.9,
+   "reasoning_tokens": 603,
+   "completion": 782,
+   "cost": 0.0058736,
+   "finish": "stop",
+   "mol_id": "hexacosane",
+   "truth": -8.334
+  },
+  {
+   "text": "The training data indicate that aqueous solubility (as \\(\\log S\\), \\(S\\) in mol/",
+   "value": -4.4,
+   "reasoning_tokens": 370,
+   "completion": 633,
+   "cost": 0.0050256,
+   "finish": "stop",
+   "mol_id": "pregnenolone",
+   "truth": -4.65
+  },
+  {
+   "text": "The target molecule is a C8 tertiary aliphatic alcohol. Comparable training-set ",
+   "value": -1.95,
+   "reasoning_tokens": 584,
+   "completion": 781,
+   "cost": 0.0058896,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-heptanol",
+   "truth": -1.72
+  },
+  {
+   "text": "The training data include aniline (SMILES: Nc1ccccc1) with a measured logS of -0",
+   "value": -1.4,
+   "reasoning_tokens": 631,
+   "completion": 876,
+   "cost": 0.0064436,
+   "finish": "stop",
+   "mol_id": "N-Ethylaniline",
+   "truth": -1.7
+  },
+  {
+   "text": "The target molecule (tricresyl phosphate) is a neutral organophosphate ester bea",
+   "value": -6.01,
+   "reasoning_tokens": 526,
+   "completion": 794,
+   "cost": 0.0109984,
+   "finish": "stop",
+   "mol_id": "Tricresyl phosphate",
+   "truth": -6.01
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by the balance",
+   "value": -2.5,
+   "reasoning_tokens": 434,
+   "completion": 737,
+   "cost": 0.0106684,
+   "finish": "stop",
+   "mol_id": "hematein",
+   "truth": -2.7
+  },
+  {
+   "text": "The training set contains multiple barbiturate derivatives that share the same c",
+   "value": -2.15,
+   "reasoning_tokens": 603,
+   "completion": 876,
+   "cost": 0.0064836,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "The molecule 3-chlorobiphenyl is a mono-chlorinated biaryl. Its structure is mos",
+   "value": -5.15,
+   "reasoning_tokens": 620,
+   "completion": 830,
+   "cost": 0.0111904,
+   "finish": "stop",
+   "mol_id": "3-Chlorobiphenyl",
+   "truth": -4.88
+  },
+  {
+   "text": "The training set contains two closely related reverse-transcriptase-inhibitor (R",
+   "value": -2.24,
+   "reasoning_tokens": 514,
+   "completion": 758,
+   "cost": 0.0107804,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "The target molecule is a polycyclic steroidal ketone (C21H30O3) bearing one tert",
+   "value": -4.52,
+   "reasoning_tokens": 345,
+   "completion": 553,
+   "cost": 0.0045576,
+   "finish": "stop",
+   "mol_id": "Hydroxyprogesterone-17a",
+   "truth": -3.817
+  },
+  {
+   "text": "The target compound (1-bromonaphthalene) is a simple halogenated polycyclic arom",
+   "value": -4.15,
+   "reasoning_tokens": 472,
+   "completion": 753,
+   "cost": 0.0057156,
+   "finish": "stop",
+   "mol_id": "1-Bromonapthalene",
+   "truth": -4.35
+  },
+  {
+   "text": "The training set contains multiple related fused nitrogen heterocycles that prov",
+   "value": -2.14,
+   "reasoning_tokens": 413,
+   "completion": 658,
+   "cost": 0.0101464,
+   "finish": "stop",
+   "mol_id": "adenine",
+   "truth": -2.12
+  },
+  {
+   "text": "The target molecule fluoromethalone is a fluorinated steroidal ketone bearing tw",
+   "value": -4.15,
+   "reasoning_tokens": 398,
+   "completion": 640,
+   "cost": 0.0051036,
+   "finish": "stop",
+   "mol_id": "Fluoromethalone",
+   "truth": -4.099
+  },
+  {
+   "text": "The molecule hypoxanthine is a compact, polar purine derivative whose dominant t",
+   "value": -2.3,
+   "reasoning_tokens": 502,
+   "completion": 722,
+   "cost": 0.0105464,
+   "finish": "stop",
+   "mol_id": "Hypoxanthine",
+   "truth": -2.296
+  },
+  {
+   "text": "The molecule allicin (diallyl thiosulfinate) has the condensed formula \\(\\mathrm",
+   "value": -0.829,
+   "reasoning_tokens": 489,
+   "completion": 749,
+   "cost": 0.0106884,
+   "finish": "stop",
+   "mol_id": "allicin",
+   "truth": -0.83
+  },
+  {
+   "text": "The molecule 1,2-dichlorotetrafluoroethane is a small, fully halogenated ethane ",
+   "value": -2.76,
+   "reasoning_tokens": 496,
+   "completion": 817,
+   "cost": 0.0061196,
+   "finish": "stop",
+   "mol_id": "1,2-Dichlorotetrafluoroethane",
+   "truth": -2.74
+  },
+  {
+   "text": "The training data contain several barbiturate analogues that share the core pyri",
+   "value": -2.4,
+   "reasoning_tokens": 454,
+   "completion": 719,
+   "cost": 0.0105364,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "The target molecule RTI 19 (SMILES: CCN2c1ccccc1N(C)C(=O)c3ccccc23) is a close s",
+   "value": -3.7,
+   "reasoning_tokens": 349,
+   "completion": 674,
+   "cost": 0.0102644,
+   "finish": "stop",
+   "mol_id": "RTI 19",
+   "truth": -4.749
+  },
+  {
+   "text": "The training data contain multiple PCB congeners whose aqueous solubilities can ",
+   "value": -7.84,
+   "reasoning_tokens": 447,
+   "completion": 684,
+   "cost": 0.0053496,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',5,5'-PCB",
+   "truth": -8.56
+  },
+  {
+   "text": "The molecule 1-iodonaphthalene consists of a naphthalene core substituted with a",
+   "value": -4.15,
+   "reasoning_tokens": 808,
+   "completion": 1097,
+   "cost": 0.0077756,
+   "finish": "stop",
+   "mol_id": "1-Iodonapthalene",
+   "truth": -4.55
+  },
+  {
+   "text": "The training set contains the closely related analog 3-hexanoyloxymethylphenylto",
+   "value": -5.39,
+   "reasoning_tokens": 599,
+   "completion": 821,
+   "cost": 0.0061816,
+   "finish": "stop",
+   "mol_id": "3-Pentanoyloxymethylphenytoin",
+   "truth": -4.678
+  },
+  {
+   "text": "The training data include multiple saturated hydrocarbons that establish a clear",
+   "value": -8.4,
+   "reasoning_tokens": 669,
+   "completion": 875,
+   "cost": 0.0114344,
+   "finish": "stop",
+   "mol_id": "Hexadecane",
+   "truth": -8.4
+  },
+  {
+   "text": "The training data contain multiple aliphatic alcohols that enable a direct struc",
+   "value": -0.25,
+   "reasoning_tokens": 652,
+   "completion": 885,
+   "cost": 0.0065116,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "The target compound (dyphylline) is a close structural analogue of theophylline ",
+   "value": -0.85,
+   "reasoning_tokens": 431,
+   "completion": 620,
+   "cost": 0.0049476,
+   "finish": "stop",
+   "mol_id": "Dyphylline",
+   "truth": -0.17
+  },
+  {
+   "text": "The training data include several polar, hydrogen-bonding heterocyclic compounds",
+   "value": -1.5,
+   "reasoning_tokens": 522,
+   "completion": 758,
+   "cost": 0.0057536,
+   "finish": "stop",
+   "mol_id": "uracil",
+   "truth": -1.4880000000000002
+  },
+  {
+   "text": "The target compound 1-methyluracil is a small, polar N-methylated pyrimidine-dio",
+   "value": -1.1,
+   "reasoning_tokens": 688,
+   "completion": 898,
+   "cost": 0.0065936,
+   "finish": "stop",
+   "mol_id": "1-methyluracil",
+   "truth": -0.807
+  },
+  {
+   "text": "The molecule cis-1,2-dimethylcyclohexane (\\(\\mathrm{C_8H_{16}}\\)) is a non-polar",
+   "value": -4.3,
+   "reasoning_tokens": 603,
+   "completion": 925,
+   "cost": 0.0067536,
+   "finish": "stop",
+   "mol_id": "cis-1,2-Dimethylcyclohexane",
+   "truth": -4.3
+  },
+  {
+   "text": "The target molecule is furan (a five-membered aromatic heterocycle). Its aqueous",
+   "value": -0.832,
+   "reasoning_tokens": 343,
+   "completion": 548,
+   "cost": 0.0044676,
+   "finish": "stop",
+   "mol_id": "Furane",
+   "truth": -0.82
+  },
+  {
+   "text": "The molecule of interest (spironolactone) is a polycyclic steroidal spirolactone",
+   "value": -4.85,
+   "reasoning_tokens": 541,
+   "completion": 826,
+   "cost": 0.0112104,
+   "finish": "stop",
+   "mol_id": "Spironolactone",
+   "truth": -4.173
+  },
+  {
+   "text": "The molecule 3-chloroanisole (COc1cccc(Cl)c1) is a 1,3-disubstituted benzene bea",
+   "value": -2.35,
+   "reasoning_tokens": 770,
+   "completion": 1068,
+   "cost": 0.0076056,
+   "finish": "stop",
+   "mol_id": "3-Chloroanisole",
+   "truth": -2.78
+  },
+  {
+   "text": "The training set contains several hydrocarbons and alkenes that enable a structu",
+   "value": -3.2,
+   "reasoning_tokens": 744,
+   "completion": 958,
+   "cost": 0.0069336,
+   "finish": "stop",
+   "mol_id": "Cycloheptene",
+   "truth": -3.18
+  },
+  {
+   "text": "The training data include several alkanes and alkane-like hydrocarbons whose mea",
+   "value": -8.23,
+   "reasoning_tokens": 1572,
+   "completion": 1874,
+   "cost": 0.0124236,
+   "finish": "stop",
+   "mol_id": "Eicosane",
+   "truth": -8.172
+  },
+  {
+   "text": "The molecule ethylcyclohexane (CCC1CCCCC1) is a nonpolar C8 cycloalkane. Aqueous",
+   "value": -4.75,
+   "reasoning_tokens": 758,
+   "completion": 987,
+   "cost": 0.0071056,
+   "finish": "stop",
+   "mol_id": "Ethylcyclohexane",
+   "truth": -4.25
+  },
+  {
+   "text": "The aqueous solubility of organic molecules is governed by a balance of hydropho",
+   "value": -3.5,
+   "reasoning_tokens": 354,
+   "completion": 653,
+   "cost": 0.0051716,
+   "finish": "stop",
+   "mol_id": "Trimazosin",
+   "truth": -3.638
+  },
+  {
+   "text": "The training set contains multiple barbiturate derivatives that share the core p",
+   "value": -2.7,
+   "reasoning_tokens": 513,
+   "completion": 773,
+   "cost": 0.0058736,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-phenylbarbital",
+   "truth": -2.369
+  },
+  {
+   "text": "The training data include multiple aliphatic alcohols that enable a direct struc",
+   "value": -2.11,
+   "reasoning_tokens": 435,
+   "completion": 712,
+   "cost": 0.0054616,
+   "finish": "stop",
+   "mol_id": "2-Octanol",
+   "truth": -2.09
+  },
+  {
+   "text": "The training set contains multiple 5,5-disubstituted barbituric-acid derivatives",
+   "value": -2.85,
+   "reasoning_tokens": 700,
+   "completion": 941,
+   "cost": 0.0068796,
+   "finish": "stop",
+   "mol_id": "Cyclooctyl-5-spirobarbituric acid",
+   "truth": -2.982
+  },
+  {
+   "text": "The molecule allopurinol (pyrazolo[3,4-d]pyrimidin-4-one) is a compact, polar he",
+   "value": -2.43,
+   "reasoning_tokens": 546,
+   "completion": 821,
+   "cost": 0.0111404,
+   "finish": "stop",
+   "mol_id": "allopurinol",
+   "truth": -2.266
+  },
+  {
+   "text": "The molecule 1,3-dibromobenzene is a dihalogenated aromatic whose aqueous solubi",
+   "value": -3.5,
+   "reasoning_tokens": 520,
+   "completion": 780,
+   "cost": 0.0058816,
+   "finish": "stop",
+   "mol_id": "1,3-Dibromobenzene",
+   "truth": -3.54
+  },
+  {
+   "text": "The training data contain multiple polycyclic aromatic hydrocarbons (PAHs) whose",
+   "value": -8.8,
+   "reasoning_tokens": 501,
+   "completion": 710,
+   "cost": 0.0104804,
+   "finish": "stop",
+   "mol_id": "Perylene",
+   "truth": -8.804
+  },
+  {
+   "text": "The target molecule dibenzothiophene is a tricyclic fused aromatic system (two b",
+   "value": -4.38,
+   "reasoning_tokens": 504,
+   "completion": 735,
+   "cost": 0.0106164,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "The training data include several esters and other oxygenated aliphatic compound",
+   "value": -5.1,
+   "reasoning_tokens": 811,
+   "completion": 1056,
+   "cost": 0.0125264,
+   "finish": "stop",
+   "mol_id": "methyl laurate",
+   "truth": -4.69
+  },
+  {
+   "text": "The training data contain a closely related structural analog (3-hexanoyloxymeth",
+   "value": -6.4,
+   "reasoning_tokens": 480,
+   "completion": 641,
+   "cost": 0.0051056,
+   "finish": "stop",
+   "mol_id": "3-Heptanoyloxymethylphenytoin",
+   "truth": -6.301
+  },
+  {
+   "text": "The molecule thiopental belongs to the barbiturate/thiobarbiturate structural cl",
+   "value": -2.52,
+   "reasoning_tokens": 471,
+   "completion": 659,
+   "cost": 0.0051696,
+   "finish": "stop",
+   "mol_id": "thiopental",
+   "truth": -3.36
+  },
+  {
+   "text": "The training data contain multiple closely related 1,3,5-triazine herbicides tha",
+   "value": -2.68,
+   "reasoning_tokens": 662,
+   "completion": 829,
+   "cost": 0.0061876,
+   "finish": "stop",
+   "mol_id": "Simetryn",
+   "truth": -2.676
+  },
+  {
+   "text": "The target molecule dibenzofuran consists of two fused benzene rings bridged by ",
+   "value": 4.64,
+   "reasoning_tokens": 284,
+   "completion": 489,
+   "cost": 0.0091384,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "The target molecule benznidazole contains a polar nitroimidazole ring system lin",
+   "value": -2.85,
+   "reasoning_tokens": 438,
+   "completion": 692,
+   "cost": 0.0103704,
+   "finish": "stop",
+   "mol_id": "Benznidazole",
+   "truth": -2.81
+  },
+  {
+   "text": "The training data contain multiple polycyclic aromatic hydrocarbons (PAHs) whose",
+   "value": -8.7,
+   "reasoning_tokens": 475,
+   "completion": 731,
+   "cost": 0.0056076,
+   "finish": "stop",
+   "mol_id": "Benzo(e)pyrene",
+   "truth": -7.8
+  },
+  {
+   "text": "The target molecule (prednisolone acetate) is a polyfunctionalized corticosteroi",
+   "value": -3.85,
+   "reasoning_tokens": 446,
+   "completion": 635,
+   "cost": 0.0100664,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "The training set contains multiple polychlorinated biphenyl (PCB) congeners whos",
+   "value": -6.5,
+   "reasoning_tokens": 572,
+   "completion": 794,
+   "cost": 0.0059796,
+   "finish": "stop",
+   "mol_id": "2,4,6-PCB",
+   "truth": -6.14
+  },
+  {
+   "text": "The molecule m-chlorobromobenzene is a simple dihalogenated aromatic whose solub",
+   "value": -3.3,
+   "reasoning_tokens": 357,
+   "completion": 578,
+   "cost": 0.0046636,
+   "finish": "stop",
+   "mol_id": "m-Chlorobromobenzene",
+   "truth": -3.21
+  },
+  {
+   "text": "The training data contain multiple large polycyclic aromatic hydrocarbons (PAHs)",
+   "value": -9.33,
+   "reasoning_tokens": 417,
+   "completion": 617,
+   "cost": 0.0049236,
+   "finish": "stop",
+   "mol_id": "Coronene",
+   "truth": -9.332
+  },
+  {
+   "text": "The molecule 1,3,5-tribromobenzene consists of a single benzene core substituted",
+   "value": -5.24,
+   "reasoning_tokens": 635,
+   "completion": 901,
+   "cost": 0.0066176,
+   "finish": "stop",
+   "mol_id": "1,3,5-Tribromobenzene",
+   "truth": -5.6
+  },
+  {
+   "text": "The training data include the close structural analogue ethyl hexanoate (CCCCCC(",
+   "value": -2.92,
+   "reasoning_tokens": 576,
+   "completion": 777,
+   "cost": 0.0058496,
+   "finish": "stop",
+   "mol_id": "Ethyl heptanoate",
+   "truth": -2.74
+  },
+  {
+   "text": "The training set contains multiple barbiturate derivatives whose aqueous solubil",
+   "value": -2.1,
+   "reasoning_tokens": 379,
+   "completion": 623,
+   "cost": 0.0049656,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-methylbarbital",
+   "truth": -1.16
+  },
+  {
+   "text": "The training data contain multiple polycyclic aromatic hydrocarbons (PAHs) whose",
+   "value": -8.4,
+   "reasoning_tokens": 451,
+   "completion": 671,
+   "cost": 0.0052496,
+   "finish": "stop",
+   "mol_id": "5,6-Dimethylchrysene",
+   "truth": -7.01
+  },
+  {
+   "text": "The training data contain multiple aliphatic alcohols that enable a direct struc",
+   "value": -4.05,
+   "reasoning_tokens": 868,
+   "completion": 1089,
+   "cost": 0.0127304,
+   "finish": "stop",
+   "mol_id": "2-Undecanol",
+   "truth": -2.94
+  },
+  {
+   "text": "The training set contains multiple barbiturate derivatives that share the same c",
+   "value": -1.98,
+   "reasoning_tokens": 655,
+   "completion": 870,
+   "cost": 0.0064496,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "The target molecule is a disubstituted barbituric acid derivative (5-isopropyl-5",
+   "value": -2.55,
+   "reasoning_tokens": 900,
+   "completion": 1090,
+   "cost": 0.0077976,
+   "finish": "stop",
+   "mol_id": "5-(3-Methyl-2-butenyl)-5-isoPrbarbital",
+   "truth": -2.593
+  },
+  {
+   "text": "The target molecule is a steroidal ester (17\\(\\alpha\\)-methyltestosterone 17-ace",
+   "value": -4.52,
+   "reasoning_tokens": 415,
+   "completion": 596,
+   "cost": 0.0048096,
+   "finish": "stop",
+   "mol_id": "methyltestosterone acetate",
+   "truth": -5.284
+  },
+  {
+   "text": "The test molecule napthacene (tetracene) is a linear tetra-cyclic fused aromatic",
+   "value": -7.2,
+   "reasoning_tokens": 539,
+   "completion": 809,
+   "cost": 0.0060616,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "The training set contains multiple C5 hydrocarbons that serve as close structura",
+   "value": -2.55,
+   "reasoning_tokens": 479,
+   "completion": 671,
+   "cost": 0.0052196,
+   "finish": "stop",
+   "mol_id": "2-Methyl-1-Butene",
+   "truth": -2.73
+  },
+  {
+   "text": "The target molecule (RTI 12) is a close structural analogue of two compounds alr",
+   "value": -3.15,
+   "reasoning_tokens": 362,
+   "completion": 624,
+   "cost": 0.0049676,
+   "finish": "stop",
+   "mol_id": "RTI 12",
+   "truth": -4.114
+  },
+  {
+   "text": "The training set contains multiple nitroaromatic reference compounds that can be",
+   "value": -2.53,
+   "reasoning_tokens": 702,
+   "completion": 1031,
+   "cost": 0.0124064,
+   "finish": "stop",
+   "mol_id": "1,2-Dinitrobenzene",
+   "truth": -3.1
+  },
+  {
+   "text": "The training data contain multiple halogenated and nonpolar organic compounds wh",
+   "value": -3.14,
+   "reasoning_tokens": 521,
+   "completion": 703,
+   "cost": 0.0104144,
+   "finish": "stop",
+   "mol_id": "Tetrabromomethane",
+   "truth": -3.14
+  },
+  {
+   "text": "The molecule hydrocortisone (a C21 corticosteroid) contains a rigid tetracyclic ",
+   "value": -3.08,
+   "reasoning_tokens": 349,
+   "completion": 670,
+   "cost": 0.0052576,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone",
+   "truth": -3.09
+  },
+  {
+   "text": "The target molecule (quinethazone) is a moderately polar, chlorinated quinazolin",
+   "value": -2.9,
+   "reasoning_tokens": 170,
+   "completion": 338,
+   "cost": 0.0032536,
+   "finish": "stop",
+   "mol_id": "Quinethazone",
+   "truth": -3.29
+  },
+  {
+   "text": "The molecule 2-methylanthracene is a methyl-substituted polycyclic aromatic hydr",
+   "value": -5.87,
+   "reasoning_tokens": 589,
+   "completion": 838,
+   "cost": 0.0062316,
+   "finish": "stop",
+   "mol_id": "2-Methylanthracene",
+   "truth": -6.96
+  },
+  {
+   "text": "The training data contain multiple polycyclic aromatic hydrocarbons (PAHs) whose",
+   "value": -6.7,
+   "reasoning_tokens": 925,
+   "completion": 1172,
+   "cost": 0.0082436,
+   "finish": "stop",
+   "mol_id": "Benzo(b)fluorene",
+   "truth": -8.04
+  },
+  {
+   "text": "The molecule diethylstilbestrol (DES) is a hydrophobic stilbene derivative beari",
+   "value": -4.5,
+   "reasoning_tokens": 432,
+   "completion": 694,
+   "cost": 0.0103884,
+   "finish": "stop",
+   "mol_id": "diethylstilbestrol",
+   "truth": -4.07
+  },
+  {
+   "text": "The training set contains the closely related geometric isomer cis-2-pentene (SM",
+   "value": -2.54,
+   "reasoning_tokens": 200,
+   "completion": 369,
+   "cost": 0.0034056,
+   "finish": "stop",
+   "mol_id": "trans-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "The target molecule (deoxycorticosterone acetate) is a C23 steroid ester contain",
+   "value": -4.72,
+   "reasoning_tokens": 469,
+   "completion": 684,
+   "cost": 0.0053416,
+   "finish": "stop",
+   "mol_id": "deoxycorticosterone acetate",
+   "truth": -4.63
+  },
+  {
+   "text": "The training set contains multiple structurally related reverse-transcriptase-in",
+   "value": -3.3,
+   "reasoning_tokens": 401,
+   "completion": 656,
+   "cost": 0.0101584,
+   "finish": "stop",
+   "mol_id": "nevirapine",
+   "truth": -3.19
+  },
+  {
+   "text": "The target compound 2-methyltetrahydrofuran (C5H10O) is a moderately polar cycli",
+   "value": 0.211,
+   "reasoning_tokens": 1024,
+   "completion": 1275,
+   "cost": 0.0138444,
+   "finish": "stop",
+   "mol_id": "2-Methyltetrahydrofurane",
+   "truth": 0.11
+  },
+  {
+   "text": "The target molecule mefenacet (SMILES: CN(C(=O)COc1nc2ccccc2s1)c3ccccc3) has mol",
+   "value": -4.87,
+   "reasoning_tokens": 278,
+   "completion": 567,
+   "cost": 0.0096244,
+   "finish": "stop",
+   "mol_id": "Mefenacet",
+   "truth": -4.873
+  },
+  {
+   "text": "The training set contains several closely related pteridine derivatives that pro",
+   "value": 0.89,
+   "reasoning_tokens": 476,
+   "completion": 693,
+   "cost": 0.0103604,
+   "finish": "stop",
+   "mol_id": "4-methylpteridine",
+   "truth": -0.466
+  },
+  {
+   "text": "The molecule bendroflumethiazide contains multiple polar sulfonamide groups capa",
+   "value": -4.43,
+   "reasoning_tokens": 413,
+   "completion": 622,
+   "cost": 0.0099924,
+   "finish": "stop",
+   "mol_id": "Bendroflumethiazide",
+   "truth": -3.59
+  },
+  {
+   "text": "The query molecule is a hexachlorinated biphenyl (PCB). Inspection of the traini",
+   "value": -7.83,
+   "reasoning_tokens": 514,
+   "completion": 768,
+   "cost": 0.0058596,
+   "finish": "stop",
+   "mol_id": "2,2',3,5,5',6-PCB",
+   "truth": -7.42
+  },
+  {
+   "text": "The target molecule (stadacaine) is a substituted benzoate ester containing a bu",
+   "value": -3.2,
+   "reasoning_tokens": 519,
+   "completion": 796,
+   "cost": 0.0059896,
+   "finish": "stop",
+   "mol_id": "stadacaine",
+   "truth": -3.84
+  },
+  {
+   "text": "The target molecule (chlorthalidone) contains a combination of polar moieties (p",
+   "value": -3.48,
+   "reasoning_tokens": 560,
+   "completion": 768,
+   "cost": 0.0058416,
+   "finish": "stop",
+   "mol_id": "Chlorthalidone",
+   "truth": -3.451
+  },
+  {
+   "text": "The training set contains multiple saturated hydrocarbons that enable a direct s",
+   "value": -5.1,
+   "reasoning_tokens": 610,
+   "completion": 882,
+   "cost": 0.0114884,
+   "finish": "stop",
+   "mol_id": "2-Methylheptane",
+   "truth": -5.08
+  },
+  {
+   "text": "The aqueous solubility of phenolic compounds is governed primarily by the hydrop",
+   "value": -1.8,
+   "reasoning_tokens": 676,
+   "completion": 974,
+   "cost": 0.0070456,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "The molecule etomidate (ethyl 1-(1-phenylethyl)-1H-imidazole-5-carboxylate) cont",
+   "value": -3.1,
+   "reasoning_tokens": 447,
+   "completion": 713,
+   "cost": 0.0104944,
+   "finish": "stop",
+   "mol_id": "Etomidate",
+   "truth": -4.735
+  },
+  {
+   "text": "The molecule of interest (neopentylbenzene) is a hydrophobic alkylaromatic hydro",
+   "value": -4.15,
+   "reasoning_tokens": 848,
+   "completion": 1150,
+   "cost": 0.0080996,
+   "finish": "stop",
+   "mol_id": "t-Pentylbenzene",
+   "truth": -4.15
+  },
+  {
+   "text": "The training set contains the closely related structural isomer \\(p,p'\\)-DDD (SM",
+   "value": -6.8,
+   "reasoning_tokens": 588,
+   "completion": 849,
+   "cost": 0.0063156,
+   "finish": "stop",
+   "mol_id": "O,P'-DDD",
+   "truth": -6.51
+  },
+  {
+   "text": "The training set contains several purine derivatives and close structural analog",
+   "value": -1.77,
+   "reasoning_tokens": 442,
+   "completion": 630,
+   "cost": 0.0049996,
+   "finish": "stop",
+   "mol_id": "Inosine",
+   "truth": -1.23
+  },
+  {
+   "text": "The training set contains multiple saturated alcohols that establish a clear inv",
+   "value": -0.85,
+   "reasoning_tokens": 853,
+   "completion": 1142,
+   "cost": 0.0080516,
+   "finish": "stop",
+   "mol_id": "1-Hexene-3-ol",
+   "truth": -0.59
+  },
+  {
+   "text": "The test compound (RTI 24) is a tricyclic reverse-transcriptase-inhibitor scaffo",
+   "value": -3.15,
+   "reasoning_tokens": 758,
+   "completion": 928,
+   "cost": 0.0067836,
+   "finish": "stop",
+   "mol_id": "RTI 24",
+   "truth": -5.36
+  },
+  {
+   "text": "The training data includes two closely related reverse-transcriptase-inhibitor a",
+   "value": -2.7,
+   "reasoning_tokens": 522,
+   "completion": 769,
+   "cost": 0.0108424,
+   "finish": "stop",
+   "mol_id": "RTI 23",
+   "truth": -5.153
+  },
+  {
+   "text": "The aqueous solubility of alcohols is governed primarily by the balance between ",
+   "value": -1.62,
+   "reasoning_tokens": 1229,
+   "completion": 1517,
+   "cost": 0.0152904,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "The training set contains multiple small polar nitrogen-containing heterocycles ",
+   "value": 1.1,
+   "reasoning_tokens": 1112,
+   "completion": 1380,
+   "cost": 0.0144684,
+   "finish": "stop",
+   "mol_id": "Pyrimidine",
+   "truth": 1.1
+  },
+  {
+   "text": "The training data includes several PCB derivatives whose measured log-solubiliti",
+   "value": -7.25,
+   "reasoning_tokens": 484,
+   "completion": 682,
+   "cost": 0.0103184,
+   "finish": "stop",
+   "mol_id": "2,2',3,3'-PCB",
+   "truth": -7.28
+  },
+  {
+   "text": "The training data include several structurally related nitrogen-containing aroma",
+   "value": -2.4,
+   "reasoning_tokens": 534,
+   "completion": 828,
+   "cost": 0.0111844,
+   "finish": "stop",
+   "mol_id": "2,7-dimethylquinoline",
+   "truth": -1.94
+  },
+  {
+   "text": "The training data contain multiple polycyclic and steroidal compounds (e.g., san",
+   "value": -5.52,
+   "reasoning_tokens": 427,
+   "completion": 711,
+   "cost": 0.0105004,
+   "finish": "stop",
+   "mol_id": "Danazol",
+   "truth": -5.507000000000001
+  },
+  {
+   "text": "The training data contain multiple polychlorinated biphenyl (PCB) congeners whos",
+   "value": -6.55,
+   "reasoning_tokens": 960,
+   "completion": 1229,
+   "cost": 0.0135884,
+   "finish": "stop",
+   "mol_id": "4,4'-PCB",
+   "truth": -6.56
+  },
+  {
+   "text": "The training data include multiple polycyclic and steroidal compounds (e.g., san",
+   "value": -3.11,
+   "reasoning_tokens": 311,
+   "completion": 491,
+   "cost": 0.0041816,
+   "finish": "stop",
+   "mol_id": "Cortisone",
+   "truth": -3.11
+  }
+ ]
+}

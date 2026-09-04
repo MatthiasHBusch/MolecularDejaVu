@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "grok45",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 11.953519599999998,
+  "timestamp": "2026-08-10T15:57:29"
+ },
+ "calls": [
+  {
+   "text": "The training structures are linear notations encoding branched molecular graphs ",
+   "value": -2.75,
+   "reasoning_tokens": 1061,
+   "completion": 1334,
+   "cost": 0.0122564,
+   "finish": "stop",
+   "mol_id": "1,1,2-Trichlorotrifluoroethane",
+   "truth": -3.04
+  },
+  {
+   "text": "The training samples were analyzed by extracting simple compositional features (",
+   "value": -6.48,
+   "reasoning_tokens": 11532,
+   "completion": 11821,
+   "cost": 0.0751844,
+   "finish": "stop",
+   "mol_id": "2,2',4,5'-PCB",
+   "truth": -6.57
+  },
+  {
+   "text": "The training data consist of string structure representations paired with scalar",
+   "value": -1.38,
+   "reasoning_tokens": 17937,
+   "completion": 18114,
+   "cost": 0.1129104,
+   "finish": "stop",
+   "mol_id": "Chloroethane",
+   "truth": -1.06
+  },
+  {
+   "text": "The training samples with the highest structural similarity to the query (based ",
+   "value": -5.27,
+   "reasoning_tokens": 7300,
+   "completion": 7545,
+   "cost": 0.0495464,
+   "finish": "stop",
+   "mol_id": "Deoxycorticosterone",
+   "truth": -3.45
+  },
+  {
+   "text": "The training samples were analyzed by string similarity (Levenshtein edit distan",
+   "value": -0.795,
+   "reasoning_tokens": 10055,
+   "completion": 10246,
+   "cost": 0.0622208,
+   "finish": "stop",
+   "mol_id": "1-Propanol",
+   "truth": 0.62
+  },
+  {
+   "text": "The training samples indicate that the target property depends strongly on the s",
+   "value": -2.39,
+   "reasoning_tokens": 10899,
+   "completion": 11066,
+   "cost": 0.0706284,
+   "finish": "stop",
+   "mol_id": "2-Chlorotoluene",
+   "truth": -3.52
+  },
+  {
+   "text": "The sample strings appear to encode branched molecular or polymer-like structure",
+   "value": -7.42,
+   "reasoning_tokens": 16661,
+   "completion": 16880,
+   "cost": 0.1055624,
+   "finish": "stop",
+   "mol_id": "2,2',3,3',4,4',5,5'-PCB",
+   "truth": -9.16
+  },
+  {
+   "text": "The training samples include multiple structures closely related to the query (e",
+   "value": -2.54,
+   "reasoning_tokens": 388,
+   "completion": 554,
+   "cost": 0.0075524,
+   "finish": "stop",
+   "mol_id": "Pyridine",
+   "truth": 0.76
+  },
+  {
+   "text": "The training structures appear to encode branched molecular graphs (brace-delimi",
+   "value": -2.41,
+   "reasoning_tokens": 5188,
+   "completion": 5389,
+   "cost": 0.0365964,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,6-PCB",
+   "truth": -7.43
+  },
+  {
+   "text": "The training data consist of string-based molecular structure encodings paired w",
+   "value": -3.41,
+   "reasoning_tokens": 19565,
+   "completion": 19771,
+   "cost": 0.1228904,
+   "finish": "stop",
+   "mol_id": "Metolachlor",
+   "truth": -2.73
+  },
+  {
+   "text": "The training data consist of string representations of structured samples (inter",
+   "value": -5.84,
+   "reasoning_tokens": 17477,
+   "completion": 17868,
+   "cost": 0.1115144,
+   "finish": "stop",
+   "mol_id": "Cyhalothrin",
+   "truth": -8.176
+  },
+  {
+   "text": "The training samples indicate that the target property is a real-valued molecula",
+   "value": -2.34,
+   "reasoning_tokens": 5089,
+   "completion": 5226,
+   "cost": 0.0355884,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "The string-based representations correspond to molecular graphs (branching notat",
+   "value": -0.24,
+   "reasoning_tokens": 24945,
+   "completion": 25157,
+   "cost": 0.1551764,
+   "finish": "stop",
+   "mol_id": "2-Pentanol",
+   "truth": -0.29
+  },
+  {
+   "text": "The training samples indicate that the target property is a continuous-valued mo",
+   "value": -3.15,
+   "reasoning_tokens": 9145,
+   "completion": 9365,
+   "cost": 0.0604604,
+   "finish": "stop",
+   "mol_id": "Nitrazepam",
+   "truth": -3.796
+  },
+  {
+   "text": "The training samples include multiple short string representations whose propert",
+   "value": -2.34,
+   "reasoning_tokens": 5678,
+   "completion": 5814,
+   "cost": 0.0391104,
+   "finish": "stop",
+   "mol_id": "Iodoethane",
+   "truth": -1.6
+  },
+  {
+   "text": "The training data consist of string-based structure representations paired with ",
+   "value": -2.75,
+   "reasoning_tokens": 522,
+   "completion": 798,
+   "cost": 0.0055428,
+   "finish": "stop",
+   "mol_id": "2-Nonanone",
+   "truth": -2.58
+  },
+  {
+   "text": "The training samples include multiple structure strings that parse (under standa",
+   "value": -1.52,
+   "reasoning_tokens": 14248,
+   "completion": 14408,
+   "cost": 0.0872068,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-hexanol",
+   "truth": -1.08
+  },
+  {
+   "text": "The training structures consist of tokens that encode molecular or polymeric fra",
+   "value": -4.35,
+   "reasoning_tokens": 17170,
+   "completion": 17526,
+   "cost": 0.1059368,
+   "finish": "stop",
+   "mol_id": "Ronnel",
+   "truth": -5.72
+  },
+  {
+   "text": "The training data consist of string encodings paired with regression targets. St",
+   "value": -2.92,
+   "reasoning_tokens": 20439,
+   "completion": 20754,
+   "cost": 0.1287624,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "The training samples indicate that the target property varies primarily as a fun",
+   "value": -4.16,
+   "reasoning_tokens": 6577,
+   "completion": 6767,
+   "cost": 0.0413528,
+   "finish": "stop",
+   "mol_id": "1-Heptene",
+   "truth": -3.73
+  },
+  {
+   "text": "The training samples indicate that the target property is a real-valued molecula",
+   "value": -4.43,
+   "reasoning_tokens": 28378,
+   "completion": 28571,
+   "cost": 0.1756824,
+   "finish": "stop",
+   "mol_id": "Metoxuron",
+   "truth": -2.564
+  },
+  {
+   "text": "The training data consist of string-based molecular structure representations pa",
+   "value": -4.69,
+   "reasoning_tokens": 17441,
+   "completion": 17710,
+   "cost": 0.1104904,
+   "finish": "stop",
+   "mol_id": "1-Dodecanol",
+   "truth": -4.8
+  },
+  {
+   "text": "The provided data consist of string representations of molecular (or polymer) st",
+   "value": -1.85,
+   "reasoning_tokens": 2495,
+   "completion": 2874,
+   "cost": 0.0214864,
+   "finish": "stop",
+   "mol_id": "trans-1,4-Dimethylcyclohexane",
+   "truth": -4.47
+  },
+  {
+   "text": "The string representations encode branched structural topologies (with `{}` deno",
+   "value": -3.21,
+   "reasoning_tokens": 14201,
+   "completion": 14450,
+   "cost": 0.0874708,
+   "finish": "stop",
+   "mol_id": "Glutethimide",
+   "truth": -2.337
+  },
+  {
+   "text": "The training data consist of string structure representations paired with scalar",
+   "value": -5.92,
+   "reasoning_tokens": 8233,
+   "completion": 8495,
+   "cost": 0.0517308,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "The training samples were analyzed by structural motif matching and fragment com",
+   "value": -3.39,
+   "reasoning_tokens": 15665,
+   "completion": 15855,
+   "cost": 0.0993984,
+   "finish": "stop",
+   "mol_id": "nitroglycerin",
+   "truth": -2.22
+  },
+  {
+   "text": "The sample strings represent structured objects (e.g., branched sequences or mol",
+   "value": -6.01,
+   "reasoning_tokens": 12044,
+   "completion": 12268,
+   "cost": 0.0778564,
+   "finish": "stop",
+   "mol_id": "2',3,4-PCB",
+   "truth": -6.29
+  },
+  {
+   "text": "The training samples were analyzed by structural similarity (common prefixes/suf",
+   "value": -2.32,
+   "reasoning_tokens": 6115,
+   "completion": 6292,
+   "cost": 0.0420144,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "The training samples were analyzed by direct structural comparison (string simil",
+   "value": -4.28,
+   "reasoning_tokens": 9795,
+   "completion": 9957,
+   "cost": 0.0605228,
+   "finish": "stop",
+   "mol_id": "Lindane",
+   "truth": -4.64
+  },
+  {
+   "text": "The training samples include two structures with a particularly close relationsh",
+   "value": -4.62,
+   "reasoning_tokens": 32842,
+   "completion": 33118,
+   "cost": 0.1994608,
+   "finish": "stop",
+   "mol_id": "2-methylpteridine",
+   "truth": -0.12
+  },
+  {
+   "text": "The training set samples include the structure string \\(\\mathrm{Aaraaa\\{Z\\}aar}\\",
+   "value": -3.71,
+   "reasoning_tokens": 12170,
+   "completion": 12461,
+   "cost": 0.0755208,
+   "finish": "stop",
+   "mol_id": "p-Xylene",
+   "truth": -2.77
+  },
+  {
+   "text": "The training set was analyzed by considering string edit distance (Levenshtein) ",
+   "value": -6.35,
+   "reasoning_tokens": 21070,
+   "completion": 21270,
+   "cost": 0.1283808,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "The training samples include the structure string Baraadaar with an associated p",
+   "value": 1.02,
+   "reasoning_tokens": 16925,
+   "completion": 17079,
+   "cost": 0.1032228,
+   "finish": "stop",
+   "mol_id": "2-Hydroxypyridine",
+   "truth": 1.02
+  },
+  {
+   "text": "The training samples indicate that the target property depends on both atomic co",
+   "value": -1.52,
+   "reasoning_tokens": 10327,
+   "completion": 10503,
+   "cost": 0.0672544,
+   "finish": "stop",
+   "mol_id": "2-Heptanol",
+   "truth": -1.55
+  },
+  {
+   "text": "The training samples indicate that the target property is a continuous molecular",
+   "value": -1.3,
+   "reasoning_tokens": 20373,
+   "completion": 20652,
+   "cost": 0.1281524,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanone",
+   "truth": -0.12
+  },
+  {
+   "text": "The training data consist of string representations that encode molecular or str",
+   "value": -3.3,
+   "reasoning_tokens": 16021,
+   "completion": 16311,
+   "cost": 0.0986308,
+   "finish": "stop",
+   "mol_id": "1,2,4,5-Tetramethylbenzene",
+   "truth": -4.59
+  },
+  {
+   "text": "The strings appear to encode molecular or polymeric structures in a linear notat",
+   "value": -5.6,
+   "reasoning_tokens": 14057,
+   "completion": 14496,
+   "cost": 0.0877808,
+   "finish": "stop",
+   "mol_id": "Fenpropathrin",
+   "truth": -6.025
+  },
+  {
+   "text": "The training data consist of string-encoded molecular structures (appearing to f",
+   "value": -2.22,
+   "reasoning_tokens": 11160,
+   "completion": 11373,
+   "cost": 0.0724784,
+   "finish": "stop",
+   "mol_id": "3-methylindole",
+   "truth": -2.42
+  },
+  {
+   "text": "The training structures are encoded in a bracketed string representation that ca",
+   "value": -2.7,
+   "reasoning_tokens": 12856,
+   "completion": 13162,
+   "cost": 0.0832304,
+   "finish": "stop",
+   "mol_id": "Triamterene",
+   "truth": -2.404
+  },
+  {
+   "text": "The sample structures can be featurized for regression using three simple counts",
+   "value": -4.09,
+   "reasoning_tokens": 24606,
+   "completion": 24905,
+   "cost": 0.1501808,
+   "finish": "stop",
+   "mol_id": "3-Methylpentane",
+   "truth": -3.68
+  },
+  {
+   "text": "The string representations encode branched structures (via matching \\( \\{\\ldots\\",
+   "value": -4.5,
+   "reasoning_tokens": 16566,
+   "completion": 16899,
+   "cost": 0.1021728,
+   "finish": "stop",
+   "mol_id": "Linuron",
+   "truth": -3.592
+  },
+  {
+   "text": "The training data consist of 100 structure strings paired with scalar properties",
+   "value": -4.25,
+   "reasoning_tokens": 18426,
+   "completion": 18808,
+   "cost": 0.1136588,
+   "finish": "stop",
+   "mol_id": "Sparsomycin (3,8mg/ml)",
+   "truth": -1.981
+  },
+  {
+   "text": "The training set consists of 100 string-structure/property pairs. To predict the",
+   "value": -3.08,
+   "reasoning_tokens": 13797,
+   "completion": 13991,
+   "cost": 0.0847008,
+   "finish": "stop",
+   "mol_id": "p-Methylaniline",
+   "truth": -1.21
+  },
+  {
+   "text": "The training data were analyzed by extracting relevant structural features from ",
+   "value": -3.76,
+   "reasoning_tokens": 4820,
+   "completion": 5040,
+   "cost": 0.0310008,
+   "finish": "stop",
+   "mol_id": "o-Chloronitrobenzene",
+   "truth": -2.55
+  },
+  {
+   "text": "The training samples were analyzed by extracting structural motifs (particularly",
+   "value": -5.28,
+   "reasoning_tokens": 10585,
+   "completion": 10879,
+   "cost": 0.0660688,
+   "finish": "stop",
+   "mol_id": "Ethisterone",
+   "truth": -5.66
+  },
+  {
+   "text": "The training samples were analyzed for structural patterns and similarities in t",
+   "value": -2.32,
+   "reasoning_tokens": 11905,
+   "completion": 12055,
+   "cost": 0.0731068,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "The sample structures are encoded as branched notations (with `~` denoting conne",
+   "value": -3.92,
+   "reasoning_tokens": 20121,
+   "completion": 20511,
+   "cost": 0.1273324,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "The training data consist of 100 string-structure/property pairs. To predict the",
+   "value": -3.08,
+   "reasoning_tokens": 17171,
+   "completion": 17393,
+   "cost": 0.1086024,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethylphenol",
+   "truth": -1.19
+  },
+  {
+   "text": "The training samples include multiple pure A/B structures (only symbols A/B toge",
+   "value": -2.82,
+   "reasoning_tokens": 18014,
+   "completion": 18294,
+   "cost": 0.1140044,
+   "finish": "stop",
+   "mol_id": "3-Methyl-3-hexanol",
+   "truth": -0.98
+  },
+  {
+   "text": "The training data consist of string encodings of structured samples (with motifs",
+   "value": -3.5,
+   "reasoning_tokens": 20462,
+   "completion": 20833,
+   "cost": 0.1292484,
+   "finish": "stop",
+   "mol_id": "chlordimeform",
+   "truth": -2.86
+  },
+  {
+   "text": "The provided structure strings appear to encode molecular or polymeric topologie",
+   "value": -2.85,
+   "reasoning_tokens": 5992,
+   "completion": 6232,
+   "cost": 0.0381728,
+   "finish": "stop",
+   "mol_id": "Caffeine",
+   "truth": -0.8759999999999999
+  },
+  {
+   "text": "The training samples include multiple structures that are minor variants of shor",
+   "value": -2.34,
+   "reasoning_tokens": 448,
+   "completion": 575,
+   "cost": 0.0042028,
+   "finish": "stop",
+   "mol_id": "3-Hexanone",
+   "truth": -0.83
+  },
+  {
+   "text": "The training samples indicate that structural similarity (particularly shared ch",
+   "value": -0.01,
+   "reasoning_tokens": 16226,
+   "completion": 16421,
+   "cost": 0.1027564,
+   "finish": "stop",
+   "mol_id": "Cyclooctane",
+   "truth": -4.15
+  },
+  {
+   "text": "The training samples were analyzed by extracting compositional features (atom-ty",
+   "value": -2.2,
+   "reasoning_tokens": 17192,
+   "completion": 17485,
+   "cost": 0.10936,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "The training structures consist of encoded representations (resembling branched ",
+   "value": -4.62,
+   "reasoning_tokens": 20353,
+   "completion": 20622,
+   "cost": 0.1279684,
+   "finish": "stop",
+   "mol_id": "2,2'-PCB",
+   "truth": -5.27
+  },
+  {
+   "text": "The training structures most similar to the query \\(\\mathrm{AA\\{A\\}A\\{A\\}B}\\) (a",
+   "value": -1.92,
+   "reasoning_tokens": 3843,
+   "completion": 4105,
+   "cost": 0.0253888,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "The training samples include multiple structures closely related to the query st",
+   "value": -1.52,
+   "reasoning_tokens": 10219,
+   "completion": 10360,
+   "cost": 0.0629068,
+   "finish": "stop",
+   "mol_id": "1-Hexanol",
+   "truth": -1.24
+  },
+  {
+   "text": "The training data consist of string representations paired with scalar propertie",
+   "value": -0.6,
+   "reasoning_tokens": 10553,
+   "completion": 10888,
+   "cost": 0.0660828,
+   "finish": "stop",
+   "mol_id": "cis-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "The training samples include multiple structures with highly similar composition",
+   "value": -2.22,
+   "reasoning_tokens": 21987,
+   "completion": 22181,
+   "cost": 0.1338488,
+   "finish": "stop",
+   "mol_id": "Estragole",
+   "truth": -2.92
+  },
+  {
+   "text": "The training data consist of string representations that encode structural featu",
+   "value": -2.68,
+   "reasoning_tokens": 11387,
+   "completion": 11639,
+   "cost": 0.0705848,
+   "finish": "stop",
+   "mol_id": "1,4-Pentadiene",
+   "truth": -2.09
+  },
+  {
+   "text": "The strings represent structured encodings of samples (comparable to a linear no",
+   "value": -0.48,
+   "reasoning_tokens": 29054,
+   "completion": 29354,
+   "cost": 0.1768768,
+   "finish": "stop",
+   "mol_id": "O-Ethyl carbamate",
+   "truth": 0.85
+  },
+  {
+   "text": "The training structures consist of linear and branched sequences drawn from a sm",
+   "value": -1.3,
+   "reasoning_tokens": 5132,
+   "completion": 5404,
+   "cost": 0.0331888,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanone",
+   "truth": -0.72
+  },
+  {
+   "text": "The training samples consist of string representations with a clear structural r",
+   "value": -4.37,
+   "reasoning_tokens": 8098,
+   "completion": 8342,
+   "cost": 0.0542864,
+   "finish": "stop",
+   "mol_id": "Indan",
+   "truth": -3.04
+  },
+  {
+   "text": "The training data consist of string representations paired with scalar propertie",
+   "value": -3.17,
+   "reasoning_tokens": 10409,
+   "completion": 10625,
+   "cost": 0.0645368,
+   "finish": "stop",
+   "mol_id": "dimetan",
+   "truth": -0.85
+  },
+  {
+   "text": "The training samples were analyzed by direct structural comparison (substring ma",
+   "value": -3.24,
+   "reasoning_tokens": 10442,
+   "completion": 10659,
+   "cost": 0.0647248,
+   "finish": "stop",
+   "mol_id": "Trietazine",
+   "truth": -4.06
+  },
+  {
+   "text": "The training data consist of string representations of chemical structures (cust",
+   "value": -4.54,
+   "reasoning_tokens": 16952,
+   "completion": 17393,
+   "cost": 0.1051448,
+   "finish": "stop",
+   "mol_id": "Niclosamide",
+   "truth": -4.7
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 4627,
+   "completion": 4628,
+   "cost": 0.0320284,
+   "finish": "stop",
+   "mol_id": "Meprobamate",
+   "truth": -1.807
+  },
+  {
+   "text": "The training samples are encoded as SELFIES-style molecular structure strings, w",
+   "value": -1.14,
+   "reasoning_tokens": 5898,
+   "completion": 6093,
+   "cost": 0.0373108,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 15875,
+   "completion": 15876,
+   "cost": 0.0960128,
+   "finish": "stop",
+   "mol_id": "1,4-Diethylbenzene",
+   "truth": -3.75
+  },
+  {
+   "text": "The property values for structures composed of the fragments \\(A\\), \\(B\\) and \\(",
+   "value": -1.76,
+   "reasoning_tokens": 16124,
+   "completion": 16532,
+   "cost": 0.1034244,
+   "finish": "stop",
+   "mol_id": "3,4-Dimethylpyridine",
+   "truth": 0.36
+  },
+  {
+   "text": "The training set contains an extremely close structural analog to the query stri",
+   "value": -3.96,
+   "reasoning_tokens": 6650,
+   "completion": 6850,
+   "cost": 0.0418588,
+   "finish": "stop",
+   "mol_id": "Diphenylamine",
+   "truth": -3.504
+  },
+  {
+   "text": "The training data consist of string representations paired with continuous targe",
+   "value": -1.85,
+   "reasoning_tokens": 616,
+   "completion": 849,
+   "cost": 0.0058528,
+   "finish": "stop",
+   "mol_id": "indazole",
+   "truth": -2.16
+  },
+  {
+   "text": "The training data consist of string representations of chemical structures (a hi",
+   "value": -3.5,
+   "reasoning_tokens": 19475,
+   "completion": 19862,
+   "cost": 0.1199768,
+   "finish": "stop",
+   "mol_id": "Benfluralin",
+   "truth": -5.53
+  },
+  {
+   "text": "The training data consist of string representations that encode molecular struct",
+   "value": -3.39,
+   "reasoning_tokens": 23355,
+   "completion": 23754,
+   "cost": 0.1433188,
+   "finish": "stop",
+   "mol_id": "Methoprene",
+   "truth": -5.19
+  },
+  {
+   "text": "The training samples include multiple structured strings containing shared motif",
+   "value": -5.28,
+   "reasoning_tokens": 10561,
+   "completion": 10814,
+   "cost": 0.0656808,
+   "finish": "stop",
+   "mol_id": "norethindrone acetate",
+   "truth": -4.8
+  },
+  {
+   "text": "The strings appear to encode structured entities (likely molecular or polymeric ",
+   "value": -3.55,
+   "reasoning_tokens": 401,
+   "completion": 674,
+   "cost": 0.0082784,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "The training samples include multiple complex structures containing distinctive ",
+   "value": -5.28,
+   "reasoning_tokens": 17510,
+   "completion": 17871,
+   "cost": 0.1115264,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "The strings represent specialized structural encodings (branching topology via \\",
+   "value": -5.43,
+   "reasoning_tokens": 6778,
+   "completion": 7200,
+   "cost": 0.0440188,
+   "finish": "stop",
+   "mol_id": "Cyfluthrin",
+   "truth": -7.337000000000001
+  },
+  {
+   "text": "The strings represent structured hierarchical compositions (branches via `{}`, c",
+   "value": -5.84,
+   "reasoning_tokens": 15281,
+   "completion": 15623,
+   "cost": 0.0980504,
+   "finish": "stop",
+   "mol_id": "Tetrafluthrin",
+   "truth": -7.321000000000001
+  },
+  {
+   "text": "The training samples were analyzed by structural similarity matching (edit dista",
+   "value": -2.22,
+   "reasoning_tokens": 5348,
+   "completion": 5441,
+   "cost": 0.0368804,
+   "finish": "stop",
+   "mol_id": "1-Napthylamine",
+   "truth": -1.92
+  },
+  {
+   "text": "The training samples indicate that the target property is a continuous-valued mo",
+   "value": -2.0,
+   "reasoning_tokens": 15396,
+   "completion": 15670,
+   "cost": 0.0947708,
+   "finish": "stop",
+   "mol_id": "Pentylcyclopentane",
+   "truth": -6.08
+  },
+  {
+   "text": "The training samples indicate that compact, low-complexity structures (especiall",
+   "value": -0.6,
+   "reasoning_tokens": 6220,
+   "completion": 6454,
+   "cost": 0.0394728,
+   "finish": "stop",
+   "mol_id": "Cycloheptane",
+   "truth": -3.51
+  },
+  {
+   "text": "The training samples indicate that the target property exhibits a rough dependen",
+   "value": -1.98,
+   "reasoning_tokens": 13106,
+   "completion": 13338,
+   "cost": 0.0842584,
+   "finish": "stop",
+   "mol_id": "1-Bromoheptane",
+   "truth": -4.43
+  },
+  {
+   "text": "The training data pair most structurally similar to the query AA{~B}D is the str",
+   "value": 0.29,
+   "reasoning_tokens": 13236,
+   "completion": 13460,
+   "cost": 0.0849924,
+   "finish": "stop",
+   "mol_id": "Acetamide",
+   "truth": 1.58
+  },
+  {
+   "text": "The training data consist of string representations that encode structural/topol",
+   "value": -2.67,
+   "reasoning_tokens": 16535,
+   "completion": 16792,
+   "cost": 0.1050044,
+   "finish": "stop",
+   "mol_id": "brompyrazone",
+   "truth": -3.127
+  },
+  {
+   "text": "The sample strings resemble a highly simplified chemical structure (or molecular",
+   "value": -4.57,
+   "reasoning_tokens": 24465,
+   "completion": 24738,
+   "cost": 0.1491908,
+   "finish": "stop",
+   "mol_id": "2,3,6-Trichlorophenol",
+   "truth": -2.64
+  },
+  {
+   "text": "The string-based structures encode chemical or materials entities in a linear no",
+   "value": -3.37,
+   "reasoning_tokens": 18930,
+   "completion": 19175,
+   "cost": 0.1157988,
+   "finish": "stop",
+   "mol_id": "Propylcyclopentane",
+   "truth": -4.74
+  },
+  {
+   "text": "The training structures and target properties were analyzed by identifying commo",
+   "value": -2.34,
+   "reasoning_tokens": 5195,
+   "completion": 5373,
+   "cost": 0.0329908,
+   "finish": "stop",
+   "mol_id": "Guaiacol",
+   "truth": -1.96
+  },
+  {
+   "text": "The string representations encode molecular structure (via atom identities, bond",
+   "value": -2.1,
+   "reasoning_tokens": 27966,
+   "completion": 28408,
+   "cost": 0.1746964,
+   "finish": "stop",
+   "mol_id": "citral",
+   "truth": -2.06
+  },
+  {
+   "text": "The training data were analyzed by atom-type composition counts (letters corresp",
+   "value": -5.35,
+   "reasoning_tokens": 32592,
+   "completion": 32927,
+   "cost": 0.1983568,
+   "finish": "stop",
+   "mol_id": "3-Propanoyloxymethylphenytoin",
+   "truth": -4.907
+  },
+  {
+   "text": "The training samples with exclusively linear uppercase structure strings compose",
+   "value": 1.68,
+   "reasoning_tokens": 26413,
+   "completion": 26829,
+   "cost": 0.1652044,
+   "finish": "stop",
+   "mol_id": "Propyl formate",
+   "truth": -0.49
+  },
+  {
+   "text": "The training samples were analyzed by structural similarity to the query string ",
+   "value": -2.39,
+   "reasoning_tokens": 6162,
+   "completion": 6331,
+   "cost": 0.0387368,
+   "finish": "stop",
+   "mol_id": "Ethylbenzene",
+   "truth": -2.77
+  },
+  {
+   "text": "The training data consist of string-based structure representations paired with ",
+   "value": -2.35,
+   "reasoning_tokens": 455,
+   "completion": 724,
+   "cost": 0.0051288,
+   "finish": "stop",
+   "mol_id": "Diallate",
+   "truth": -4.2860000000000005
+  },
+  {
+   "text": "The training samples were analyzed for structural patterns (shared motifs such a",
+   "value": -4.16,
+   "reasoning_tokens": 6720,
+   "completion": 6888,
+   "cost": 0.0421128,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "The training samples indicate that the string representations encode chemical st",
+   "value": -3.37,
+   "reasoning_tokens": 11312,
+   "completion": 11588,
+   "cost": 0.0702908,
+   "finish": "stop",
+   "mol_id": "Malonic acid diethylester",
+   "truth": -0.82
+  },
+  {
+   "text": "The training data consist of string representations with an associated scalar pr",
+   "value": -5.27,
+   "reasoning_tokens": 8269,
+   "completion": 8561,
+   "cost": 0.0556604,
+   "finish": "stop",
+   "mol_id": "Fludrocortisone",
+   "truth": -3.43
+  },
+  {
+   "text": "The strings appear to encode branched structures (via `{}`), with atomic/sequenc",
+   "value": -2.42,
+   "reasoning_tokens": 12400,
+   "completion": 12636,
+   "cost": 0.0800804,
+   "finish": "stop",
+   "mol_id": "gentisin",
+   "truth": -2.943
+  },
+  {
+   "text": "The training data include multiple pure \\(A\\)/\\(B\\) structure strings whose topo",
+   "value": -1.14,
+   "reasoning_tokens": 15256,
+   "completion": 15559,
+   "cost": 0.0941068,
+   "finish": "stop",
+   "mol_id": "2-Methylpentanol",
+   "truth": -1.11
+  },
+  {
+   "text": "The training data consist of string encodings (likely a domain-specific lineariz",
+   "value": -2.8,
+   "reasoning_tokens": 652,
+   "completion": 849,
+   "cost": 0.0058488,
+   "finish": "stop",
+   "mol_id": "1,4-Dibromobenzene",
+   "truth": -4.07
+  },
+  {
+   "text": "The training samples were analyzed by direct structural comparison (focusing on ",
+   "value": -3.39,
+   "reasoning_tokens": 7931,
+   "completion": 8160,
+   "cost": 0.0532164,
+   "finish": "stop",
+   "mol_id": "1,3-Dinitrobenzene",
+   "truth": -2.29
+  },
+  {
+   "text": "The strings represent structured molecular (or polymer) entities, and the sample",
+   "value": -3.68,
+   "reasoning_tokens": 19420,
+   "completion": 19712,
+   "cost": 0.1225464,
+   "finish": "stop",
+   "mol_id": "Terbacil",
+   "truth": -2.484
+  },
+  {
+   "text": "The sample structures are interpreted as molecular graphs (SMILES-like), with up",
+   "value": -5.65,
+   "reasoning_tokens": 31367,
+   "completion": 31658,
+   "cost": 0.1907008,
+   "finish": "stop",
+   "mol_id": "3-Methylheptane",
+   "truth": -5.16
+  },
+  {
+   "text": "The training structures are parsed by extracting categorical and numerical featu",
+   "value": -4.24,
+   "reasoning_tokens": 33855,
+   "completion": 34115,
+   "cost": 0.2054348,
+   "finish": "stop",
+   "mol_id": "Nonane",
+   "truth": -5.88
+  },
+  {
+   "text": "The string representations encode chemical structures (with uppercase letters as",
+   "value": -1.52,
+   "reasoning_tokens": 7847,
+   "completion": 8115,
+   "cost": 0.0494448,
+   "finish": "stop",
+   "mol_id": "Trichloroethylene",
+   "truth": -1.96
+  },
+  {
+   "text": "The training data consist of string encodings that represent structured samples ",
+   "value": -2.87,
+   "reasoning_tokens": 833,
+   "completion": 1042,
+   "cost": 0.0070228,
+   "finish": "stop",
+   "mol_id": "XMC",
+   "truth": -2.5810000000000004
+  },
+  {
+   "text": "The training samples consist of string representations whose structural features",
+   "value": 5.64,
+   "reasoning_tokens": 10709,
+   "completion": 11005,
+   "cost": 0.0668528,
+   "finish": "stop",
+   "mol_id": "Kepone",
+   "truth": -5.259
+  },
+  {
+   "text": "The training data consist of 100 paired examples of structure strings and corres",
+   "value": -2.24,
+   "reasoning_tokens": 10390,
+   "completion": 10612,
+   "cost": 0.0644408,
+   "finish": "stop",
+   "mol_id": "Metronidazole",
+   "truth": -1.22
+  },
+  {
+   "text": "The training data consist of string representations that encode structural featu",
+   "value": -3.76,
+   "reasoning_tokens": 6750,
+   "completion": 7038,
+   "cost": 0.0430028,
+   "finish": "stop",
+   "mol_id": "Benzo[ghi]perylene",
+   "truth": -9.018
+  },
+  {
+   "text": "The given strings appear to be a specialized linear notation for chemical (likel",
+   "value": -4.15,
+   "reasoning_tokens": 845,
+   "completion": 1168,
+   "cost": 0.0077788,
+   "finish": "stop",
+   "mol_id": "1,2,3,5-Tetrachlorobenzene",
+   "truth": -4.63
+  },
+  {
+   "text": "The training data consist of string representations that encode branched structu",
+   "value": -2.31,
+   "reasoning_tokens": 17628,
+   "completion": 17993,
+   "cost": 0.1087208,
+   "finish": "stop",
+   "mol_id": "p-Fluoroacetanilide",
+   "truth": -1.78
+  },
+  {
+   "text": "The string representations encode chemical structures whose sample properties ar",
+   "value": 0.3,
+   "reasoning_tokens": 19835,
+   "completion": 20297,
+   "cost": 0.1225348,
+   "finish": "stop",
+   "mol_id": "2-Phenoxyethanol",
+   "truth": -0.7
+  },
+  {
+   "text": "The training data consist of string representations that encode hierarchical/bra",
+   "value": -3.3,
+   "reasoning_tokens": 314,
+   "completion": 640,
+   "cost": 0.0080844,
+   "finish": "stop",
+   "mol_id": "1-Nitronapthalene",
+   "truth": -3.54
+  },
+  {
+   "text": "The given structures appear to encode branched molecular or polymeric topologies",
+   "value": -4.07,
+   "reasoning_tokens": 978,
+   "completion": 1319,
+   "cost": 0.0086948,
+   "finish": "stop",
+   "mol_id": "2,3',4',5-PCB",
+   "truth": -7.25
+  },
+  {
+   "text": "The provided structure strings consist of characters that commonly encode molecu",
+   "value": -5.63,
+   "reasoning_tokens": 333,
+   "completion": 762,
+   "cost": 0.0053988,
+   "finish": "stop",
+   "mol_id": "Mirex",
+   "truth": -6.8
+  },
+  {
+   "text": "The training samples establish a clear relationship between the string structure",
+   "value": -3.83,
+   "reasoning_tokens": 19744,
+   "completion": 19983,
+   "cost": 0.1241384,
+   "finish": "stop",
+   "mol_id": "2,3-Dimethylbutane",
+   "truth": -3.65
+  },
+  {
+   "text": "The training data consist of string representations of structured samples (likel",
+   "value": -3.41,
+   "reasoning_tokens": 12732,
+   "completion": 13166,
+   "cost": 0.0797728,
+   "finish": "stop",
+   "mol_id": "Azodrin",
+   "truth": 0.6509999999999999
+  },
+  {
+   "text": "The training set contains multiple string-property pairs that can be used for si",
+   "value": -1.92,
+   "reasoning_tokens": 13952,
+   "completion": 14120,
+   "cost": 0.0854708,
+   "finish": "stop",
+   "mol_id": "Methyl propionate",
+   "truth": -0.14
+  },
+  {
+   "text": "The training data pair consisting of the samples AADsardaaaarD{A}A{~E}ataaadast ",
+   "value": -0.814,
+   "reasoning_tokens": 17317,
+   "completion": 17561,
+   "cost": 0.1095984,
+   "finish": "stop",
+   "mol_id": "Thiourea",
+   "truth": 0.32
+  },
+  {
+   "text": "The strings appear to be a domain-specific linear notation (similar to a restric",
+   "value": -1.95,
+   "reasoning_tokens": 2538,
+   "completion": 2809,
+   "cost": 0.0210824,
+   "finish": "stop",
+   "mol_id": "1-Chloro-2-bromoethane",
+   "truth": -1.32
+  },
+  {
+   "text": "The training samples composed exclusively of the tokens \\(A\\), \\(B\\), \\(\\{ \\}\\) ",
+   "value": -0.5,
+   "reasoning_tokens": 20856,
+   "completion": 21229,
+   "cost": 0.1281328,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "The training data consist of string representations that encode molecular struct",
+   "value": -1.2,
+   "reasoning_tokens": 21335,
+   "completion": 21706,
+   "cost": 0.1309948,
+   "finish": "stop",
+   "mol_id": "benzylurea",
+   "truth": -0.95
+  },
+  {
+   "text": "The training data consist of string representations that encode structural motif",
+   "value": -4.26,
+   "reasoning_tokens": 511,
+   "completion": 792,
+   "cost": 0.0089924,
+   "finish": "stop",
+   "mol_id": "Diphenylmethane",
+   "truth": -4.08
+  },
+  {
+   "text": "The sample strings appear to encode branched structures (via nested braces) with",
+   "value": -3.23,
+   "reasoning_tokens": 7094,
+   "completion": 7302,
+   "cost": 0.0445828,
+   "finish": "stop",
+   "mol_id": "pyracarbolid",
+   "truth": -2.56
+  },
+  {
+   "text": "The given strings appear to encode tree-like or molecular graph structures (with",
+   "value": -6.1,
+   "reasoning_tokens": 473,
+   "completion": 934,
+   "cost": 0.0063848,
+   "finish": "stop",
+   "mol_id": "Methyldymron",
+   "truth": -3.35
+  },
+  {
+   "text": "The training data consist of string representations (compact molecular or polyme",
+   "value": -3.25,
+   "reasoning_tokens": 8592,
+   "completion": 8941,
+   "cost": 0.0544248,
+   "finish": "stop",
+   "mol_id": "tubercidin",
+   "truth": -1.95
+  },
+  {
+   "text": "The training samples include a close structural analog to the query string araaa",
+   "value": -3.37,
+   "reasoning_tokens": 10741,
+   "completion": 10920,
+   "cost": 0.0662708,
+   "finish": "stop",
+   "mol_id": "Isoquinoline",
+   "truth": -1.45
+  },
+  {
+   "text": "The sample strings resemble simplified molecular (SMILES-like) encodings in whic",
+   "value": -4.43,
+   "reasoning_tokens": 10694,
+   "completion": 10982,
+   "cost": 0.0666548,
+   "finish": "stop",
+   "mol_id": "2,4,6-Trichlorophenol",
+   "truth": -2.34
+  },
+  {
+   "text": "The training data consist of string representations of chemical structures (a co",
+   "value": -3.55,
+   "reasoning_tokens": 1879,
+   "completion": 2221,
+   "cost": 0.0140868,
+   "finish": "stop",
+   "mol_id": "o-Nitrotoluene",
+   "truth": -2.33
+  },
+  {
+   "text": "The training samples indicate that the target property is a continuous-valued mo",
+   "value": -2.32,
+   "reasoning_tokens": 10549,
+   "completion": 10765,
+   "cost": 0.0688444,
+   "finish": "stop",
+   "mol_id": "alloxan",
+   "truth": -1.25
+  },
+  {
+   "text": "The given strings appear to be a specialized linear notation for branched molecu",
+   "value": -4.57,
+   "reasoning_tokens": 2463,
+   "completion": 2957,
+   "cost": 0.0185548,
+   "finish": "stop",
+   "mol_id": "2,2',3,3',4,4',5,5',6,6'-PCB",
+   "truth": -11.6
+  },
+  {
+   "text": "The training data consist of string representations of chemical structures paire",
+   "value": -1.52,
+   "reasoning_tokens": 8986,
+   "completion": 9262,
+   "cost": 0.0563208,
+   "finish": "stop",
+   "mol_id": "1-Heptanol",
+   "truth": -1.81
+  },
+  {
+   "text": "The training samples were analyzed by extracting simple structural features from",
+   "value": -2.96,
+   "reasoning_tokens": 13318,
+   "completion": 13554,
+   "cost": 0.0820748,
+   "finish": "stop",
+   "mol_id": "1-Heptyne",
+   "truth": -3.01
+  },
+  {
+   "text": "The training samples were analyzed by extracting structural features from the st",
+   "value": -2.85,
+   "reasoning_tokens": 20523,
+   "completion": 20746,
+   "cost": 0.1287424,
+   "finish": "stop",
+   "mol_id": "Talbutal",
+   "truth": -2.016
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 12677,
+   "completion": 12678,
+   "cost": 0.0768508,
+   "finish": "stop",
+   "mol_id": "Phoxim",
+   "truth": -4.862
+  },
+  {
+   "text": "The training data include multiple samples whose structure strings are dominated",
+   "value": -4.69,
+   "reasoning_tokens": 17376,
+   "completion": 17510,
+   "cost": 0.1058088,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "The training data consist of string representations of chemical structures (in a",
+   "value": -5.23,
+   "reasoning_tokens": 16815,
+   "completion": 17151,
+   "cost": 0.1071544,
+   "finish": "stop",
+   "mol_id": "p-terphenyl",
+   "truth": -7.11
+  },
+  {
+   "text": "The training data consist of string representations paired with numerical proper",
+   "value": -3.5,
+   "reasoning_tokens": 17898,
+   "completion": 18279,
+   "cost": 0.1139184,
+   "finish": "stop",
+   "mol_id": "ethiofencarb",
+   "truth": -2.09
+  },
+  {
+   "text": "The training samples were analyzed by extracting structural features from the st",
+   "value": -3.59,
+   "reasoning_tokens": 23387,
+   "completion": 23848,
+   "cost": 0.1473404,
+   "finish": "stop",
+   "mol_id": "Chloropham",
+   "truth": -3.38
+  },
+  {
+   "text": "The given strings resemble encoded molecular graphs (e.g., a compact linear nota",
+   "value": -1.2,
+   "reasoning_tokens": 522,
+   "completion": 781,
+   "cost": 0.0054448,
+   "finish": "stop",
+   "mol_id": "Nitrobenzene",
+   "truth": -1.8
+  },
+  {
+   "text": "The training structures appear to encode compositional/topological features (via",
+   "value": -1.92,
+   "reasoning_tokens": 6241,
+   "completion": 6460,
+   "cost": 0.0395148,
+   "finish": "stop",
+   "mol_id": "Methyl acrylate",
+   "truth": -0.22
+  },
+  {
+   "text": "The training samples indicate that the target property is a real-valued molecula",
+   "value": -3.17,
+   "reasoning_tokens": 10021,
+   "completion": 10281,
+   "cost": 0.0624728,
+   "finish": "stop",
+   "mol_id": "Pirimicarb",
+   "truth": -1.95
+  },
+  {
+   "text": "The training structures and properties were analyzed by extracting compositional",
+   "value": -3.24,
+   "reasoning_tokens": 9830,
+   "completion": 10104,
+   "cost": 0.0613928,
+   "finish": "stop",
+   "mol_id": "Metranidazole",
+   "truth": -1.26
+  },
+  {
+   "text": "The training set was analyzed by computing string edit (Levenshtein) distances b",
+   "value": -3.83,
+   "reasoning_tokens": 17098,
+   "completion": 17265,
+   "cost": 0.1043528,
+   "finish": "stop",
+   "mol_id": "3,4-Dichlorophenol",
+   "truth": -1.25
+  },
+  {
+   "text": "The training data include two structures consisting solely of the tokens \\(\\math",
+   "value": 0.356,
+   "reasoning_tokens": 18590,
+   "completion": 18844,
+   "cost": 0.1138108,
+   "finish": "stop",
+   "mol_id": "Ethyne",
+   "truth": 0.29
+  },
+  {
+   "text": "The training samples indicate that the target property varies systematically wit",
+   "value": 0.8,
+   "reasoning_tokens": 10754,
+   "completion": 11006,
+   "cost": 0.0667868,
+   "finish": "stop",
+   "mol_id": "2-pyrrolidone",
+   "truth": 1.07
+  },
+  {
+   "text": "The training data consist of string representations that encode structural featu",
+   "value": -3.49,
+   "reasoning_tokens": 10065,
+   "completion": 10357,
+   "cost": 0.0663884,
+   "finish": "stop",
+   "mol_id": "DEF",
+   "truth": -5.14
+  },
+  {
+   "text": "The strings appear to encode molecular or polymeric structures (likely a nonstan",
+   "value": -3.35,
+   "reasoning_tokens": 407,
+   "completion": 811,
+   "cost": 0.0056388,
+   "finish": "stop",
+   "mol_id": "Benomyl",
+   "truth": -4.883
+  },
+  {
+   "text": "The string representations correspond to SMILES with the substitutions \\(C \\to A",
+   "value": -3.92,
+   "reasoning_tokens": 45328,
+   "completion": 45657,
+   "cost": 0.2747008,
+   "finish": "stop",
+   "mol_id": "2,3-Dimethylpentane",
+   "truth": -4.28
+  },
+  {
+   "text": "The string representations encode chemical structure (with uppercase letters as ",
+   "value": -2.22,
+   "reasoning_tokens": 8908,
+   "completion": 9205,
+   "cost": 0.0594784,
+   "finish": "stop",
+   "mol_id": "p-t-Butylphenol",
+   "truth": -2.41
+  },
+  {
+   "text": "The training samples consist of string encododings of structured chemical entiti",
+   "value": -3.15,
+   "reasoning_tokens": 10416,
+   "completion": 10815,
+   "cost": 0.0656708,
+   "finish": "stop",
+   "mol_id": "cyclobarbital",
+   "truth": -2.17
+  }
+ ]
+}

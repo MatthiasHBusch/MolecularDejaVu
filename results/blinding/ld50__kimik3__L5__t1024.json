@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "ld50",
+  "tag": "kimik3",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 7.605675600000007,
+  "timestamp": "2026-08-10T21:56:01"
+ },
+ "calls": [
+  {
+   "text": "2.62",
+   "value": 2.62,
+   "reasoning_tokens": 6354,
+   "completion": 6372,
+   "cost": 0.103302,
+   "finish": "stop",
+   "mol_id": "Propionic acid, 2-(p-chlorophenoxy)-2-methyl-, 1,3-propanediyl ester",
+   "truth": 1.808
+  },
+  {
+   "text": "4.98",
+   "value": 4.98,
+   "reasoning_tokens": 5836,
+   "completion": 5854,
+   "cost": 0.095493,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,6-dibromo-2-(trifluoromethyl)-",
+   "truth": 4.76
+  },
+  {
+   "text": "3.05",
+   "value": 3.05,
+   "reasoning_tokens": 10100,
+   "completion": 10118,
+   "cost": 0.159432,
+   "finish": "stop",
+   "mol_id": "Phosphonodithioic acid, methyl-, O-(benzo(b)thien-4-yl) S-propyl ester",
+   "truth": 3.782
+  },
+  {
+   "text": "2.37",
+   "value": 2.37,
+   "reasoning_tokens": 566,
+   "completion": 584,
+   "cost": 0.016431,
+   "finish": "stop",
+   "mol_id": "Phenol, 3-(diethylamino)-, methylcarbamate (ester) (9CI)",
+   "truth": 3.388
+  },
+  {
+   "text": "Based on the training data, the test string **ZAA{Z}A{Z}AZ** is highly similar t",
+   "value": 2.57,
+   "reasoning_tokens": 402,
+   "completion": 508,
+   "cost": 0.015267,
+   "finish": "stop",
+   "mol_id": "Butane, 1,2,3,4-tetrachloro-",
+   "truth": 2.94
+  },
+  {
+   "text": "1.81",
+   "value": 1.81,
+   "reasoning_tokens": 837,
+   "completion": 855,
+   "cost": 0.020496,
+   "finish": "stop",
+   "mol_id": "Benzaldehyde, 4-nitro-",
+   "truth": 1.507
+  },
+  {
+   "text": "Based on analysis of the training patterns, the test sample `B~A{Daraaa{Z}a{Z}ar",
+   "value": 2.42,
+   "reasoning_tokens": 676,
+   "completion": 823,
+   "cost": 0.020013,
+   "finish": "stop",
+   "mol_id": "Cyclopropanecarboxanilide, 3',4'-dichloro-",
+   "truth": 3.029
+  },
+  {
+   "text": "2.95",
+   "value": 2.95,
+   "reasoning_tokens": 5150,
+   "completion": 5168,
+   "cost": 0.085233,
+   "finish": "stop",
+   "mol_id": "3,5-Pyridinedicarboxylic acid, 4-(2,3-dichlorophenyl)-1,4-dihydro-2,6-dimethyl-, ethyl methyl ester, (+-)-",
+   "truth": 2.563
+  },
+  {
+   "text": "1.80",
+   "value": 1.8,
+   "reasoning_tokens": 627,
+   "completion": 645,
+   "cost": 0.017307,
+   "finish": "stop",
+   "mol_id": "Trimethylenediamine",
+   "truth": 2.326
+  },
+  {
+   "text": "Based on analysis of the training patterns, the test sample `AB{X}{AZ}{BA}BA` is",
+   "value": 2.05,
+   "reasoning_tokens": 675,
+   "completion": 812,
+   "cost": 0.019827,
+   "finish": "stop",
+   "mol_id": "Silane, chloromethyl-trimethoxy-",
+   "truth": 2.533
+  },
+  {
+   "text": "2.62",
+   "value": 2.62,
+   "reasoning_tokens": 215,
+   "completion": 228,
+   "cost": 0.011175,
+   "finish": "stop",
+   "mol_id": "Benzothiazole, 2-(butylthio)-",
+   "truth": 2.245
+  },
+  {
+   "text": "2.40",
+   "value": 2.4,
+   "reasoning_tokens": 689,
+   "completion": 707,
+   "cost": 0.0127554,
+   "finish": "stop",
+   "mol_id": "1,8-Naphthalenedicarboxylic acid, 4-chloro-",
+   "truth": 1.855
+  },
+  {
+   "text": "2.24",
+   "value": 2.24,
+   "reasoning_tokens": 1546,
+   "completion": 1564,
+   "cost": 0.0256344,
+   "finish": "stop",
+   "mol_id": "Maleic anhydride, dihydroxy-, dibutyrate",
+   "truth": 1.256
+  },
+  {
+   "text": "Analyzing the test string **B~ArAAAsAAAAAsBr**:\n\n- It has the `B~` prefix combin",
+   "value": 2.78,
+   "reasoning_tokens": 603,
+   "completion": 826,
+   "cost": 0.0145074,
+   "finish": "stop",
+   "mol_id": "2H-1-Benzopyran-2-one, octahydro-",
+   "truth": 1.597
+  },
+  {
+   "text": "3.10",
+   "value": 3.1,
+   "reasoning_tokens": 5703,
+   "completion": 5721,
+   "cost": 0.0879654,
+   "finish": "stop",
+   "mol_id": "Acetic acid, ((6-(4-methylphenoxy)-4-pyrimidinyl)thio)-, hydrazide",
+   "truth": 2.8
+  },
+  {
+   "text": "1.50",
+   "value": 1.5,
+   "reasoning_tokens": 4240,
+   "completion": 4258,
+   "cost": 0.0659934,
+   "finish": "stop",
+   "mol_id": "3-Buten-2-one, 3-methyl-",
+   "truth": 2.67
+  },
+  {
+   "text": "1.95",
+   "value": 1.95,
+   "reasoning_tokens": 292,
+   "completion": 310,
+   "cost": 0.0067794,
+   "finish": "stop",
+   "mol_id": "Benzeneacetic acid, 2-propenyl ester",
+   "truth": 2.4330000000000003
+  },
+  {
+   "text": "2.34",
+   "value": 2.34,
+   "reasoning_tokens": 3718,
+   "completion": 3736,
+   "cost": 0.0581754,
+   "finish": "stop",
+   "mol_id": "Benzoic acid, 3,6-dichloro-2-methoxy-",
+   "truth": 2.3280000000000003
+  },
+  {
+   "text": "2.59",
+   "value": 2.59,
+   "reasoning_tokens": 3354,
+   "completion": 3372,
+   "cost": 0.0527334,
+   "finish": "stop",
+   "mol_id": "2,4-Pyrimidinediamine, 5-((4-(dimethylamino)-3,5-dimethoxyphenyl)methyl)-",
+   "truth": 2.335
+  },
+  {
+   "text": "Looking at the test string **B~A{B}AG**, I note it shares the `B~A{B}` prefix wi",
+   "value": 2.1,
+   "reasoning_tokens": 830,
+   "completion": 960,
+   "cost": 0.0165114,
+   "finish": "stop",
+   "mol_id": "Acetic acid, fluoro-",
+   "truth": 4.222
+  },
+  {
+   "text": "Looking at the structure, the test string `Zaraasbata{Z}a{Z}a{Z}aatasaarZ` conta",
+   "value": 2.98,
+   "reasoning_tokens": 621,
+   "completion": 803,
+   "cost": 0.0141804,
+   "finish": "stop",
+   "mol_id": "Dibenzofuran, 2,3,4,7,8-pentachloro-",
+   "truth": 5.57
+  },
+  {
+   "text": "2.78",
+   "value": 2.78,
+   "reasoning_tokens": 8291,
+   "completion": 8309,
+   "cost": 0.1268184,
+   "finish": "stop",
+   "mol_id": "Succinanilic acid, 4'-sulfanilamido-",
+   "truth": 2.384
+  },
+  {
+   "text": "4.63",
+   "value": 4.63,
+   "reasoning_tokens": 294,
+   "completion": 312,
+   "cost": 0.0068304,
+   "finish": "stop",
+   "mol_id": "1H-Tetrazole, 5-(o-(alpha,alpha,alpha-trifluoro-m-toluidino)phenyl)-",
+   "truth": 2.827
+  },
+  {
+   "text": "Based on the structural similarity to the training sample `B~A{B}AA{B}{AA{~B}B}A",
+   "value": 2.78,
+   "reasoning_tokens": 581,
+   "completion": 688,
+   "cost": 0.0124974,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-Butanetetracarboxylic acid",
+   "truth": 2.134
+  },
+  {
+   "text": "Based on the training data patterns, the test sample `ABA{~B}BA` is a short, rel",
+   "value": 1.95,
+   "reasoning_tokens": 625,
+   "completion": 837,
+   "cost": 0.0146694,
+   "finish": "stop",
+   "mol_id": "Carbonic acid, dimethyl ester",
+   "truth": 0.841
+  },
+  {
+   "text": "1.95",
+   "value": 1.95,
+   "reasoning_tokens": 5171,
+   "completion": 5189,
+   "cost": 0.0799734,
+   "finish": "stop",
+   "mol_id": "Butanamide, N,N-diethyl-3-oxo-",
+   "truth": 1.521
+  },
+  {
+   "text": "2.12",
+   "value": 2.12,
+   "reasoning_tokens": 7160,
+   "completion": 7178,
+   "cost": 0.1098144,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-((5-methoxy-1,3,4-thiadiazol-2-yl)methyl) ester",
+   "truth": 3.966
+  },
+  {
+   "text": "2.70",
+   "value": 2.7,
+   "reasoning_tokens": 4983,
+   "completion": 5001,
+   "cost": 0.0771504,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-hydroxymethyl O,O-dimethyl ester, acetate",
+   "truth": 3.394
+  },
+  {
+   "text": "Based on analysis of the training data, the test sample `A~AABA{~B}A{~A}A` is a ",
+   "value": 2.05,
+   "reasoning_tokens": 524,
+   "completion": 670,
+   "cost": 0.0121854,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 2-methyl-, 2-propenyl ester",
+   "truth": 2.467
+  },
+  {
+   "text": "1.75",
+   "value": 1.75,
+   "reasoning_tokens": 3992,
+   "completion": 4010,
+   "cost": 0.0622524,
+   "finish": "stop",
+   "mol_id": "1-Hexanamine",
+   "truth": 2.1790000000000003
+  },
+  {
+   "text": "2.98",
+   "value": 2.98,
+   "reasoning_tokens": 5991,
+   "completion": 6009,
+   "cost": 0.0922764,
+   "finish": "stop",
+   "mol_id": "Cyclohexanol, 5-methyl-2-(1-methylethyl)-, acetate (8CI)",
+   "truth": 1.415
+  },
+  {
+   "text": "Based on the structural patterns in the training data\u2014particularly the prevalenc",
+   "value": 2.45,
+   "reasoning_tokens": 277,
+   "completion": 346,
+   "cost": 0.0073794,
+   "finish": "stop",
+   "mol_id": "4H-Pyrido(1,2-a)pyrimidine-3-acetic acid, 9-((4-acetyl-3-hydroxy-2-propylphenoxy)methyl)-4-oxo-",
+   "truth": 2.011
+  },
+  {
+   "text": "1.79",
+   "value": 1.79,
+   "reasoning_tokens": 4961,
+   "completion": 4979,
+   "cost": 0.0768054,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2-(2-(2-methoxyethoxy)ethoxy)ethyl ester",
+   "truth": 1.273
+  },
+  {
+   "text": "Based on the structural pattern, the test sample `ABF{~E}{D~ArEAAEr}BA` closely ",
+   "value": 2.1,
+   "reasoning_tokens": 447,
+   "completion": 567,
+   "cost": 0.0106404,
+   "finish": "stop",
+   "mol_id": "Imidocarbonic acid, (dimethoxyphosphinothioyl)dithio-, cyclic ethylene ester",
+   "truth": 4.386
+  },
+  {
+   "text": "2.18",
+   "value": 2.18,
+   "reasoning_tokens": 1743,
+   "completion": 1761,
+   "cost": 0.0285534,
+   "finish": "stop",
+   "mol_id": "Pteridine, 6-o-tolyl-2,4,7-triamino-",
+   "truth": 2.172
+  },
+  {
+   "text": "3.18",
+   "value": 3.18,
+   "reasoning_tokens": 8254,
+   "completion": 8272,
+   "cost": 0.1262394,
+   "finish": "stop",
+   "mol_id": "1,4-Benzenedicarboxylic acid, 2,3,5,6-tetrachloro-, dimethyl ester",
+   "truth": 2.044
+  },
+  {
+   "text": "The test string **BAABAABAABAABAABAAB** is a highly periodic sequence built from",
+   "value": 2.98,
+   "reasoning_tokens": 585,
+   "completion": 682,
+   "cost": 0.0123444,
+   "finish": "stop",
+   "mol_id": "3,6,9,12,15-Pentaoxaheptadecane-1,17-diol",
+   "truth": 0.946
+  },
+  {
+   "text": "2.07",
+   "value": 2.07,
+   "reasoning_tokens": 5190,
+   "completion": 5208,
+   "cost": 0.0802464,
+   "finish": "stop",
+   "mol_id": "Thiocyanic acid, 4-(dimethylamino)phenyl ester (9CI)",
+   "truth": 2.552
+  },
+  {
+   "text": "3.35",
+   "value": 3.35,
+   "reasoning_tokens": 5082,
+   "completion": 5100,
+   "cost": 0.0786234,
+   "finish": "stop",
+   "mol_id": "Ethane, 1,2-difluoro-1,1,2-trichloro-",
+   "truth": 1.337
+  },
+  {
+   "text": "1.95",
+   "value": 1.95,
+   "reasoning_tokens": 3002,
+   "completion": 3020,
+   "cost": 0.0474084,
+   "finish": "stop",
+   "mol_id": "1,3-Dioxolane, 2-methyl-",
+   "truth": 1.4680000000000002
+  },
+  {
+   "text": "2.19",
+   "value": 2.19,
+   "reasoning_tokens": 6541,
+   "completion": 6559,
+   "cost": 0.1004964,
+   "finish": "stop",
+   "mol_id": "2-Furancarboxaldehyde",
+   "truth": 3.17
+  },
+  {
+   "text": "1.83",
+   "value": 1.83,
+   "reasoning_tokens": 1514,
+   "completion": 1532,
+   "cost": 0.0251154,
+   "finish": "stop",
+   "mol_id": "Phosphinothioic acid, dimethyl-, O-(3-methyl-4-(methylthio)phenyl) ester",
+   "truth": 3.148
+  },
+  {
+   "text": "2.64",
+   "value": 2.64,
+   "reasoning_tokens": 3449,
+   "completion": 3467,
+   "cost": 0.0541254,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 1-butoxy-3-phenoxy-",
+   "truth": 1.976
+  },
+  {
+   "text": "2.89",
+   "value": 2.89,
+   "reasoning_tokens": 5396,
+   "completion": 5414,
+   "cost": 0.0833514,
+   "finish": "stop",
+   "mol_id": "Benzamide, 4-(decyloxy)-3,5-dimethoxy-",
+   "truth": 2.311
+  },
+  {
+   "text": "2.05",
+   "value": 2.05,
+   "reasoning_tokens": 401,
+   "completion": 419,
+   "cost": 0.0084534,
+   "finish": "stop",
+   "mol_id": "5,8-Epoxy-1,4-methanonaphthalene, 1,2,3,4,10,10-hexachloro-1,4,4a,5,8,8a-hexahydro- (9CI)",
+   "truth": 3.732
+  },
+  {
+   "text": "2.24",
+   "value": 2.24,
+   "reasoning_tokens": 4274,
+   "completion": 4292,
+   "cost": 0.0665184,
+   "finish": "stop",
+   "mol_id": "Methane, trichloronitro-",
+   "truth": 2.818
+  },
+  {
+   "text": "Based on structural similarity to training samples containing the AABF\u2026E motif a",
+   "value": 2.34,
+   "reasoning_tokens": 675,
+   "completion": 794,
+   "cost": 0.0140424,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, methyl-, S-(2-(dimethylamino)ethyl) O-ethyl ester",
+   "truth": 6.238
+  },
+  {
+   "text": "3.10",
+   "value": 3.1,
+   "reasoning_tokens": 5965,
+   "completion": 5983,
+   "cost": 0.0919134,
+   "finish": "stop",
+   "mol_id": "Caffeine, 8-(p-aminobenzyl)-",
+   "truth": 2.893
+  },
+  {
+   "text": "2.13",
+   "value": 2.13,
+   "reasoning_tokens": 453,
+   "completion": 471,
+   "cost": 0.0091944,
+   "finish": "stop",
+   "mol_id": "Acrylamide, N-(hydroxymethyl)-2-methyl- (6CI,8CI)",
+   "truth": 2.611
+  },
+  {
+   "text": "2.30",
+   "value": 2.3,
+   "reasoning_tokens": 549,
+   "completion": 567,
+   "cost": 0.0106434,
+   "finish": "stop",
+   "mol_id": "Phosphinothioic amide, N,N-dimethyl-P-imidazol-1-yl-P-phenyl-",
+   "truth": 2.224
+  },
+  {
+   "text": "2.43",
+   "value": 2.43,
+   "reasoning_tokens": 472,
+   "completion": 490,
+   "cost": 0.0094704,
+   "finish": "stop",
+   "mol_id": "7-Oxabicyclo(4.1.0)hepta-2,4,6-triene, 3-oxiranyl-",
+   "truth": 1.676
+  },
+  {
+   "text": "3.04",
+   "value": 3.04,
+   "reasoning_tokens": 4301,
+   "completion": 4319,
+   "cost": 0.0669444,
+   "finish": "stop",
+   "mol_id": "1-Piperidinepropanol, alpha,alpha-diphenyl-, methanesulfonate (ester)",
+   "truth": 2.479
+  },
+  {
+   "text": "2.55",
+   "value": 2.55,
+   "reasoning_tokens": 8948,
+   "completion": 8966,
+   "cost": 0.1366404,
+   "finish": "stop",
+   "mol_id": "1,4-Naphthalenedione, 2,3-dichloro-",
+   "truth": 3.152
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 839,
+   "completion": 857,
+   "cost": 0.0149934,
+   "finish": "stop",
+   "mol_id": "1,3,5-Triazine-2,4-diamine, 6-chloro-N,N'-bis(1-methylethyl)-",
+   "truth": 1.777
+  },
+  {
+   "text": "Based on analysis of the structural patterns in the training data \u2014 particularly",
+   "value": 2.13,
+   "reasoning_tokens": 617,
+   "completion": 731,
+   "cost": 0.0131064,
+   "finish": "stop",
+   "mol_id": "Phenol, 2-chloro-5-(1-methylethyl)-, methylcarbamate (9CI)",
+   "truth": 4.035
+  },
+  {
+   "text": "2.53",
+   "value": 2.53,
+   "reasoning_tokens": 521,
+   "completion": 539,
+   "cost": 0.0102114,
+   "finish": "stop",
+   "mol_id": "Benzenesulphonamide",
+   "truth": 2.2
+  },
+  {
+   "text": "Analyzing the test sample `Aara{B}a{~B}aadrA`:\n\nKey structural motifs:\n- Short/m",
+   "value": 2.05,
+   "reasoning_tokens": 701,
+   "completion": 946,
+   "cost": 0.0163134,
+   "finish": "stop",
+   "mol_id": "4(1H)-Pyridone, 3-hydroxy-1,2-dimethyl- (8CI)",
+   "truth": 1.842
+  },
+  {
+   "text": "2.93",
+   "value": 2.93,
+   "reasoning_tokens": 8154,
+   "completion": 8172,
+   "cost": 0.1247214,
+   "finish": "stop",
+   "mol_id": "1H-Isoindole-1,3(2H)-dione, 2-butyl-3a,4,7,7a-tetrahydro- (9CI)",
+   "truth": 1.934
+  },
+  {
+   "text": "1.72",
+   "value": 1.72,
+   "reasoning_tokens": 783,
+   "completion": 801,
+   "cost": 0.0141264,
+   "finish": "stop",
+   "mol_id": "Pyrazine, 2,5-dimethyl-",
+   "truth": 2.025
+  },
+  {
+   "text": "2.87",
+   "value": 2.87,
+   "reasoning_tokens": 6865,
+   "completion": 6883,
+   "cost": 0.1053924,
+   "finish": "stop",
+   "mol_id": "Phenethylamine, beta-(sec-butyl)-3-chloro-N,N-dimethyl-4-propoxy-",
+   "truth": 2.604
+  },
+  {
+   "text": "Looking at the training data, the test sample `AABA{Ar~DAA{A}{A}ADr}araaaa{Z}ar`",
+   "value": 3.4,
+   "reasoning_tokens": 507,
+   "completion": 716,
+   "cost": 0.0128904,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 3,4,5,6-tetrahydro-2-(3-chloro-alpha-ethoxybenzyl)-5,5-dimethyl-",
+   "truth": 3.471
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 201,
+   "completion": 219,
+   "cost": 0.0054474,
+   "finish": "stop",
+   "mol_id": "6-Quinolinemethanol, 1,2,3,4-tetrahydro-2-(((1-methylethyl)amino)methyl)-7-nitro-",
+   "truth": 3.969
+  },
+  {
+   "text": "Based on the structural motifs in the target \u2014 the `{{D%}{~B}{B_}}` group, the `",
+   "value": 3.1,
+   "reasoning_tokens": 1181,
+   "completion": 1331,
+   "cost": 0.0221604,
+   "finish": "stop",
+   "mol_id": "p-Toluidine, N-butyl-N-ethyl-alpha,alpha,alpha-trifluoro-2,6-dinitro-",
+   "truth": 1.525
+  },
+  {
+   "text": "2.68",
+   "value": 2.68,
+   "reasoning_tokens": 4456,
+   "completion": 4474,
+   "cost": 0.0692334,
+   "finish": "stop",
+   "mol_id": "Benzo(b)thiophene-2-carboximidic acid, 3-hydroxy-, ethyl ester",
+   "truth": 1.743
+  },
+  {
+   "text": "2.96",
+   "value": 2.96,
+   "reasoning_tokens": 3630,
+   "completion": 3648,
+   "cost": 0.0568284,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 1,3-dichloro-",
+   "truth": 3.069
+  },
+  {
+   "text": "3.33",
+   "value": 3.33,
+   "reasoning_tokens": 4742,
+   "completion": 4760,
+   "cost": 0.0735354,
+   "finish": "stop",
+   "mol_id": "Phosphonamidothioic acid, P-methyl-N-(1-naphthalenyloxy)-, O-ethyl ester",
+   "truth": 3.051
+  },
+  {
+   "text": "Based on analysis of the training data patterns, the test sample **AArDA{~E}DAr~",
+   "value": 2.2,
+   "reasoning_tokens": 763,
+   "completion": 924,
+   "cost": 0.0159864,
+   "finish": "stop",
+   "mol_id": "Hydantoin, 5-methyl-2-thio-",
+   "truth": 2.093
+  },
+  {
+   "text": "Based on structural pattern analysis, the test sample `B~{D%}{{B_}}BAArABr` shar",
+   "value": 2.11,
+   "reasoning_tokens": 740,
+   "completion": 893,
+   "cost": 0.0155274,
+   "finish": "stop",
+   "mol_id": "1-Propanol, 2,3-epoxy-, nitrate",
+   "truth": 2.4130000000000003
+  },
+  {
+   "text": "2.83",
+   "value": 2.83,
+   "reasoning_tokens": 4398,
+   "completion": 4416,
+   "cost": 0.0683484,
+   "finish": "stop",
+   "mol_id": "Benzene, (2-bromoethyl)-",
+   "truth": 2.358
+  },
+  {
+   "text": "1.72",
+   "value": 1.72,
+   "reasoning_tokens": 5991,
+   "completion": 6009,
+   "cost": 0.0922584,
+   "finish": "stop",
+   "mol_id": "Butanoic acid, 3-methoxy-",
+   "truth": 1.591
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 4301,
+   "completion": 4319,
+   "cost": 0.0669174,
+   "finish": "stop",
+   "mol_id": "Hexanedial, 2-hydroxy-2,5-dimethyl- (9CI)",
+   "truth": 1.429
+  },
+  {
+   "text": "2.17",
+   "value": 2.17,
+   "reasoning_tokens": 6313,
+   "completion": 6331,
+   "cost": 0.0970974,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (trimethylsilyl)-",
+   "truth": 1.644
+  },
+  {
+   "text": "2.47",
+   "value": 2.47,
+   "reasoning_tokens": 4847,
+   "completion": 4865,
+   "cost": 0.0751314,
+   "finish": "stop",
+   "mol_id": "1H-Imidazole-4-carboxamide, 5-hydroxy-1-beta-D-ribofuranosyl-",
+   "truth": 1.922
+  },
+  {
+   "text": "1.33",
+   "value": 1.33,
+   "reasoning_tokens": 591,
+   "completion": 609,
+   "cost": 0.0113214,
+   "finish": "stop",
+   "mol_id": "Glycine, N,N-diisobutyl-, 2-(5-nitrofurfurylidene)hydrazide",
+   "truth": 2.557
+  },
+  {
+   "text": "2.98",
+   "value": 2.98,
+   "reasoning_tokens": 4969,
+   "completion": 4987,
+   "cost": 0.0770244,
+   "finish": "stop",
+   "mol_id": "1H-Naphtho(2,1-b)pyran-1-one, dodecahydro-5-(acetyloxy)-3-ethenyl-3,4a,7,7,10a-pentamethyl-6,10,10b-trihydroxy-, (3R-(3-alpha,4a-beta,5-beta,6-beta,6a-alpha,10-alpha,10a-beta,10b-alpha))-",
+   "truth": 2.207
+  },
+  {
+   "text": "2.60",
+   "value": 2.6,
+   "reasoning_tokens": 7056,
+   "completion": 7074,
+   "cost": 0.1082394,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2,6-bis(1-methylethyl)-",
+   "truth": 1.743
+  },
+  {
+   "text": "2.98",
+   "value": 2.98,
+   "reasoning_tokens": 3962,
+   "completion": 3980,
+   "cost": 0.0618654,
+   "finish": "stop",
+   "mol_id": "Morpholine, 4-(3-(4-chlorophenyl)-3-(3,4-dimethoxyphenyl)-1-oxo-2-propenyl)-",
+   "truth": 1.998
+  },
+  {
+   "text": "2.76",
+   "value": 2.76,
+   "reasoning_tokens": 5611,
+   "completion": 5629,
+   "cost": 0.0865974,
+   "finish": "stop",
+   "mol_id": "3H-1,4-Benzodiazepine, 7-chloro-2-(methylamino)-5-phenyl-, 4-oxide",
+   "truth": 2.756
+  },
+  {
+   "text": "4.12",
+   "value": 4.12,
+   "reasoning_tokens": 4537,
+   "completion": 4555,
+   "cost": 0.0704604,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 2-((3,4,4-trifluoro-3-butenyl)thio)-",
+   "truth": 2.459
+  },
+  {
+   "text": "2.95",
+   "value": 2.95,
+   "reasoning_tokens": 7762,
+   "completion": 7780,
+   "cost": 0.1188474,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2,5-dichloro-4-iodophenyl) O,O-dimethyl ester",
+   "truth": 2.249
+  },
+  {
+   "text": "4.45",
+   "value": 4.45,
+   "reasoning_tokens": 1837,
+   "completion": 1855,
+   "cost": 0.0299814,
+   "finish": "stop",
+   "mol_id": "Benzimidazole-6-carbonitrile, 4-chloro-2-(trifluoromethyl)-",
+   "truth": 5.01
+  },
+  {
+   "text": "2.43",
+   "value": 2.43,
+   "reasoning_tokens": 3156,
+   "completion": 3174,
+   "cost": 0.0497964,
+   "finish": "stop",
+   "mol_id": "Cyclopropanecarboxylic acid, 3-(2,2-dichloroethenyl)-2,2-dimethyl-, cyano(6-phenoxy-2-pyridinyl)methyl ester",
+   "truth": 2.958
+  },
+  {
+   "text": "Analyzing the test structure `ADA{~B}BaraaaaarArEAAEr`:\n\nKey motifs:\n- Prefix `A",
+   "value": 3.86,
+   "reasoning_tokens": 576,
+   "completion": 760,
+   "cost": 0.0135324,
+   "finish": "stop",
+   "mol_id": "Carbamic acid, methyl-, o-(1,3-dithiolan-2-yl)phenyl ester",
+   "truth": 3.4530000000000003
+  },
+  {
+   "text": "3.55",
+   "value": 3.55,
+   "reasoning_tokens": 8308,
+   "completion": 8326,
+   "cost": 0.1270494,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O-ethyl O-methyl ester, S-ester with N-(mercaptomethyl)phthalimide",
+   "truth": 3.821
+  },
+  {
+   "text": "2.44",
+   "value": 2.44,
+   "reasoning_tokens": 7947,
+   "completion": 7965,
+   "cost": 0.1216164,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-amino-N-(1-methyl-1,2-diphenylethyl)-, (-)-",
+   "truth": 2.564
+  },
+  {
+   "text": "Based on analysis of the training patterns, the test sample contains the `BF{~B}",
+   "value": 2.13,
+   "reasoning_tokens": 798,
+   "completion": 942,
+   "cost": 0.0162714,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, mono(dichloropropyl) monooctyl ester",
+   "truth": 1.494
+  },
+  {
+   "text": "3.88",
+   "value": 3.88,
+   "reasoning_tokens": 5155,
+   "completion": 5173,
+   "cost": 0.0797034,
+   "finish": "stop",
+   "mol_id": "2-Propenenitrile",
+   "truth": 2.833
+  },
+  {
+   "text": "2.38",
+   "value": 2.38,
+   "reasoning_tokens": 8970,
+   "completion": 8988,
+   "cost": 0.1369344,
+   "finish": "stop",
+   "mol_id": "Phenol, 2-(1-methylpropyl)-",
+   "truth": 2.672
+  },
+  {
+   "text": "2.11",
+   "value": 2.11,
+   "reasoning_tokens": 5406,
+   "completion": 5424,
+   "cost": 0.0834924,
+   "finish": "stop",
+   "mol_id": "Cyclohexanone, 4-(1,1-dimethylpropyl)-",
+   "truth": 1.554
+  },
+  {
+   "text": "Based on analysis of the training data, the test sample \"AAAABAABAA\" is a simple",
+   "value": 2.34,
+   "reasoning_tokens": 665,
+   "completion": 835,
+   "cost": 0.0146304,
+   "finish": "stop",
+   "mol_id": "Ethane, 1-butoxy-2-ethoxy-",
+   "truth": 1.713
+  },
+  {
+   "text": "3.95",
+   "value": 3.95,
+   "reasoning_tokens": 369,
+   "completion": 387,
+   "cost": 0.0079374,
+   "finish": "stop",
+   "mol_id": "2(3H)-Benzoxazolone, 5-chloro-",
+   "truth": 2.347
+  },
+  {
+   "text": "Based on analysis of the training data, the test sample `Aaraaa{DA{~B}AG}aar` sh",
+   "value": 2.34,
+   "reasoning_tokens": 447,
+   "completion": 598,
+   "cost": 0.0110994,
+   "finish": "stop",
+   "mol_id": "p-Acetotoluidide, 2-fluoro-",
+   "truth": 4.378
+  },
+  {
+   "text": "Based on analysis of the structural motifs in the test sample \u2014 the `B~A{...}` p",
+   "value": 2.24,
+   "reasoning_tokens": 634,
+   "completion": 751,
+   "cost": 0.0134004,
+   "finish": "stop",
+   "mol_id": "Acetic acid, mercapto-, 1,4-butanediyl ester",
+   "truth": 2.77
+  },
+  {
+   "text": "2.34",
+   "value": 2.34,
+   "reasoning_tokens": 587,
+   "completion": 605,
+   "cost": 0.0112554,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-dimethyl ester, S-ester with 2-mercapto-N,N'-dimethoxy-N,N'-dimethylsuccinamide",
+   "truth": 4.4110000000000005
+  },
+  {
+   "text": "Based on structural similarity analysis, the test sample **AABF{~B}{B}Earaaa{A}a",
+   "value": 2.34,
+   "reasoning_tokens": 770,
+   "completion": 1006,
+   "cost": 0.0172284,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-ethyl S-(4-methylphenyl) ester (9CI)",
+   "truth": 3.667
+  },
+  {
+   "text": "3.86",
+   "value": 3.86,
+   "reasoning_tokens": 3072,
+   "completion": 3090,
+   "cost": 0.0485214,
+   "finish": "stop",
+   "mol_id": "2(1H)-Quinolinone, 3,4-dihydro-6-(1-oxo-3-(4-(phenylmethyl)-1-piperidinyl)propyl)-",
+   "truth": 2.877
+  },
+  {
+   "text": "3.10",
+   "value": 3.1,
+   "reasoning_tokens": 5487,
+   "completion": 5505,
+   "cost": 0.0846984,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, N-methyl-, O-isopropyl ester",
+   "truth": 2.325
+  },
+  {
+   "text": "1.95",
+   "value": 1.95,
+   "reasoning_tokens": 412,
+   "completion": 430,
+   "cost": 0.0085704,
+   "finish": "stop",
+   "mol_id": "Methanesulfonamide, 1-chloro-",
+   "truth": 1.331
+  },
+  {
+   "text": "Based on similarity to the closest training motifs, especially the `BF{...}{BAA}",
+   "value": 2.63,
+   "reasoning_tokens": 5596,
+   "completion": 5646,
+   "cost": 0.0868374,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-(4,6-dimethyl-2-pyrimidinyl) O-ethyl O-propyl ester",
+   "truth": 3.589
+  },
+  {
+   "text": "1.95",
+   "value": 1.95,
+   "reasoning_tokens": 1883,
+   "completion": 1901,
+   "cost": 0.0306534,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, (4-chlorobutyryl)-, O,S-dimethyl ester",
+   "truth": 4.913
+  },
+  {
+   "text": "Based on analysis of the training data, the target structure `ABAABA{D}~B` is a ",
+   "value": 1.5,
+   "reasoning_tokens": 617,
+   "completion": 803,
+   "cost": 0.0141594,
+   "finish": "stop",
+   "mol_id": "Ethanol, 2-methoxy-, carbamate",
+   "truth": 1.035
+  },
+  {
+   "text": "4.14",
+   "value": 4.14,
+   "reasoning_tokens": 4720,
+   "completion": 4738,
+   "cost": 0.0731964,
+   "finish": "stop",
+   "mol_id": "1,3-Dithiolan-4-one, O-((methylamino)carbonyl)oxime",
+   "truth": 4.17
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 548,
+   "completion": 566,
+   "cost": 0.0106584,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester, S-ester with N,N-diallyl-2-mercaptoacetamide",
+   "truth": 3.829
+  },
+  {
+   "text": "3.14",
+   "value": 3.14,
+   "reasoning_tokens": 4860,
+   "completion": 4878,
+   "cost": 0.0753144,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, ethyl-, O-2,5-dichlorophenyl O-ethyl ester",
+   "truth": 4.197
+  },
+  {
+   "text": "2.73",
+   "value": 2.73,
+   "reasoning_tokens": 6815,
+   "completion": 6833,
+   "cost": 0.1046514,
+   "finish": "stop",
+   "mol_id": "Isocyanic acid, methylene(3,5,5-trimethyl-3,1-cyclohexylene) ester",
+   "truth": 1.663
+  },
+  {
+   "text": "2.37",
+   "value": 2.37,
+   "reasoning_tokens": 292,
+   "completion": 310,
+   "cost": 0.0067914,
+   "finish": "stop",
+   "mol_id": "Acetamide, N,N'-m-phenylenebis- (6CI,7CI,8CI)",
+   "truth": 1.254
+  },
+  {
+   "text": "1.85",
+   "value": 1.85,
+   "reasoning_tokens": 1252,
+   "completion": 1270,
+   "cost": 0.0212034,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2-(diethylamino)-6-methyl-4-pyrimidinyl) O,O-dimethyl ester",
+   "truth": 2.388
+  },
+  {
+   "text": "2.28",
+   "value": 2.28,
+   "reasoning_tokens": 9201,
+   "completion": 9219,
+   "cost": 0.1403994,
+   "finish": "stop",
+   "mol_id": "Propanenitrile, 3,3'-oxybis-",
+   "truth": 1.642
+  },
+  {
+   "text": "3.11",
+   "value": 3.11,
+   "reasoning_tokens": 7306,
+   "completion": 7324,
+   "cost": 0.1120104,
+   "finish": "stop",
+   "mol_id": "2H-1,4-Benzodiazepin-2-one, 7-chloro-5-(2-chlorophenyl)-1,3-dihydro- (9CI)",
+   "truth": 2.1830000000000003
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 587,
+   "completion": 605,
+   "cost": 0.0111804,
+   "finish": "stop",
+   "mol_id": "Pyridine, 4-amino-",
+   "truth": 3.651
+  },
+  {
+   "text": "Based on the training data patterns, the test sample `AABF{~E}{E}BAA` is a relat",
+   "value": 2.5,
+   "reasoning_tokens": 653,
+   "completion": 788,
+   "cost": 0.0139464,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester",
+   "truth": 1.616
+  },
+  {
+   "text": "2.63",
+   "value": 2.63,
+   "reasoning_tokens": 699,
+   "completion": 717,
+   "cost": 0.0129204,
+   "finish": "stop",
+   "mol_id": "2-Furanpropanoic acid, tetrahydro-alpha-(1-naphthalenylmethyl)-, 2-(diethylamino)ethyl ester",
+   "truth": 2.307
+  },
+  {
+   "text": "Based on the training data patterns, the test sample **ABF{~E}{BA}BA** shares th",
+   "value": 1.81,
+   "reasoning_tokens": 998,
+   "completion": 1180,
+   "cost": 0.0198204,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O,O-trimethyl ester",
+   "truth": 2.444
+  },
+  {
+   "text": "2.61",
+   "value": 2.61,
+   "reasoning_tokens": 3501,
+   "completion": 3519,
+   "cost": 0.0549624,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl)- (8CI)",
+   "truth": 5.957000000000001
+  },
+  {
+   "text": "Based on the training data patterns, the test sample `AArAAABAr~B` is a short li",
+   "value": 2.11,
+   "reasoning_tokens": 750,
+   "completion": 890,
+   "cost": 0.0154644,
+   "finish": "stop",
+   "mol_id": "2H-Pyran-2-one, tetrahydro-3-methyl-",
+   "truth": 0.944
+  },
+  {
+   "text": "2.74",
+   "value": 2.74,
+   "reasoning_tokens": 326,
+   "completion": 344,
+   "cost": 0.0072744,
+   "finish": "stop",
+   "mol_id": "1-Butene, 3-bromo-1-chloro-",
+   "truth": 3.36
+  },
+  {
+   "text": "2.39",
+   "value": 2.39,
+   "reasoning_tokens": 11582,
+   "completion": 11600,
+   "cost": 0.1761384,
+   "finish": "stop",
+   "mol_id": "Benzenepropanoic acid, beta-(aminomethyl)-4-chloro-(9CI)",
+   "truth": 3.168
+  },
+  {
+   "text": "2.87",
+   "value": 2.87,
+   "reasoning_tokens": 5204,
+   "completion": 5222,
+   "cost": 0.0804834,
+   "finish": "stop",
+   "mol_id": "Benzene, 2,4-dichloro-1-(4-nitrophenoxy)-",
+   "truth": 2.584
+  },
+  {
+   "text": "Based on the structural similarity to training samples like \"AAAAD{AAB}AAB\" (1.9",
+   "value": 2.05,
+   "reasoning_tokens": 343,
+   "completion": 414,
+   "cost": 0.0083394,
+   "finish": "stop",
+   "mol_id": "Acetic acid, butylnitrosaminomethyl ester",
+   "truth": 2.065
+  },
+  {
+   "text": "3.05",
+   "value": 3.05,
+   "reasoning_tokens": 539,
+   "completion": 557,
+   "cost": 0.0104694,
+   "finish": "stop",
+   "mol_id": "Oxetane, 3-(chloromethyl)-3-ethyl-",
+   "truth": 2.373
+  },
+  {
+   "text": "2.83",
+   "value": 2.83,
+   "reasoning_tokens": 4615,
+   "completion": 4633,
+   "cost": 0.0716604,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-((6-chloro-2-oxo-3(2H)-benzoxazolyl)methyl) O,O-diethyl ester",
+   "truth": 3.636
+  },
+  {
+   "text": "2.25",
+   "value": 2.25,
+   "reasoning_tokens": 4628,
+   "completion": 4646,
+   "cost": 0.0718164,
+   "finish": "stop",
+   "mol_id": "3-Buten-2-one, 4-phenyl-",
+   "truth": 1.857
+  },
+  {
+   "text": "Based on analysis of the training data patterns, the test sample contains the `{",
+   "value": 2.44,
+   "reasoning_tokens": 833,
+   "completion": 963,
+   "cost": 0.0165894,
+   "finish": "stop",
+   "mol_id": "4(1H)-Pyrimidinone, 6-methyl-2-(1-methylethyl)-",
+   "truth": 1.751
+  },
+  {
+   "text": "2.21",
+   "value": 2.21,
+   "reasoning_tokens": 4284,
+   "completion": 4302,
+   "cost": 0.0666444,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazole, 4-methyl-",
+   "truth": 2.101
+  },
+  {
+   "text": "2.67",
+   "value": 2.67,
+   "reasoning_tokens": 4811,
+   "completion": 4829,
+   "cost": 0.0745704,
+   "finish": "stop",
+   "mol_id": "Ether, alpha-(bromomethyl)-p-cyclohexylbenzyl hexyl",
+   "truth": 3.167
+  },
+  {
+   "text": "3.10",
+   "value": 3.1,
+   "reasoning_tokens": 263,
+   "completion": 281,
+   "cost": 0.0065184,
+   "finish": "stop",
+   "mol_id": "Solanid-5-ene, 3-beta-((O-6-deoxy-alpha-L-mannopyranosyl-(1-2)-O-(beta-D-glucopyranosyl-(1-3))-beta-D-galactopyranosyl)oxy)-",
+   "truth": 3.168
+  },
+  {
+   "text": "2.05",
+   "value": 2.05,
+   "reasoning_tokens": 588,
+   "completion": 606,
+   "cost": 0.0112344,
+   "finish": "stop",
+   "mol_id": "Octadecanoic acid, 9,10-epoxy-, 2-ethylhexyl ester",
+   "truth": 1.125
+  },
+  {
+   "text": "2.93",
+   "value": 2.93,
+   "reasoning_tokens": 5724,
+   "completion": 5742,
+   "cost": 0.0882804,
+   "finish": "stop",
+   "mol_id": "1,2,4-Triazin-5(4H)-one, 4-amino-6-(2,2-dichloro-1-methylcyclopropyl)-3-(methylthio)-",
+   "truth": 2.365
+  },
+  {
+   "text": "2.82",
+   "value": 2.82,
+   "reasoning_tokens": 456,
+   "completion": 474,
+   "cost": 0.0092604,
+   "finish": "stop",
+   "mol_id": "2-Cyclopenten-1-one, 2,3,4,4,5,5-hexachloro-",
+   "truth": 3.21
+  },
+  {
+   "text": "Based on the training data, the test sample **AABA{~B}Z** shares the distinctive",
+   "value": 2.55,
+   "reasoning_tokens": 3155,
+   "completion": 3288,
+   "cost": 0.0514344,
+   "finish": "stop",
+   "mol_id": "Carbonochloridic acid, ethyl ester",
+   "truth": 2.604
+  },
+  {
+   "text": "2.63",
+   "value": 2.63,
+   "reasoning_tokens": 1585,
+   "completion": 1603,
+   "cost": 0.0262134,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-chloro-2,2-difluoro-N-(2-methyl-4-(((methylamino)carbonyl)oxy)phenyl)-",
+   "truth": 3.781
+  },
+  {
+   "text": "1.86",
+   "value": 1.86,
+   "reasoning_tokens": 5252,
+   "completion": 5270,
+   "cost": 0.0811854,
+   "finish": "stop",
+   "mol_id": "2,6-Octadienoic acid, 3,7-dimethyl-",
+   "truth": 1.658
+  },
+  {
+   "text": "Based on the training data patterns, the test sample `AaraaaaarZ` is a relativel",
+   "value": 2.1,
+   "reasoning_tokens": 505,
+   "completion": 633,
+   "cost": 0.0116034,
+   "finish": "stop",
+   "mol_id": "Benzene, 1-chloro-2-methyl-",
+   "truth": 1.511
+  },
+  {
+   "text": "2.13",
+   "value": 2.13,
+   "reasoning_tokens": 518,
+   "completion": 536,
+   "cost": 0.0101844,
+   "finish": "stop",
+   "mol_id": "6-Octen-1-yn-3-ol, 3,7-dimethyl-, acetate",
+   "truth": 1.305
+  },
+  {
+   "text": "4.25",
+   "value": 4.25,
+   "reasoning_tokens": 4978,
+   "completion": 4996,
+   "cost": 0.0770904,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2-((1H-benzimidazol-2-ylsulfinyl)methyl)-N,N-dimethyl-",
+   "truth": 2.362
+  },
+  {
+   "text": "Based on structural similarity to training samples sharing the `B~A{B}ABar...` p",
+   "value": 2.3,
+   "reasoning_tokens": 632,
+   "completion": 723,
+   "cost": 0.0129654,
+   "finish": "stop",
+   "mol_id": "Acetic acid, phenoxy-",
+   "truth": 1.614
+  },
+  {
+   "text": "2.30",
+   "value": 2.3,
+   "reasoning_tokens": 7955,
+   "completion": 7973,
+   "cost": 0.1217424,
+   "finish": "stop",
+   "mol_id": "2-Propene-1,1-diol, 2-methyl-, diacetate",
+   "truth": 2.593
+  },
+  {
+   "text": "Analyzing the test sample **ABaraaa{AAsADA{~B}Ds}aarBArAAAAr**:\n\n- It contains t",
+   "value": 2.6,
+   "reasoning_tokens": 1018,
+   "completion": 1224,
+   "cost": 0.0205044,
+   "finish": "stop",
+   "mol_id": "2-Imidazolidinone, 4-((3-(cyclopentyloxy)-4-methoxyphenyl)methyl)-",
+   "truth": 2.685
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 4715,
+   "completion": 4733,
+   "cost": 0.0731304,
+   "finish": "stop",
+   "mol_id": "Pyrrolidine, 1-butyl-2-((3,4-dichlorophenyl)imino)-",
+   "truth": 1.971
+  },
+  {
+   "text": "3.24",
+   "value": 3.24,
+   "reasoning_tokens": 3735,
+   "completion": 3753,
+   "cost": 0.0584574,
+   "finish": "stop",
+   "mol_id": "Phosphonodithioic acid, methyl-, O-isobutyl ester, S-ester with N-(mercaptomethyl)phthalimide",
+   "truth": 3.968
+  },
+  {
+   "text": "3.75",
+   "value": 3.75,
+   "reasoning_tokens": 3751,
+   "completion": 3769,
+   "cost": 0.0587274,
+   "finish": "stop",
+   "mol_id": "Ether, (p-nitrophenyl) (alpha,alpha,alpha-trifluoro-2-nitro-p-tolyl)",
+   "truth": 1.5619999999999998
+  },
+  {
+   "text": "Predicted sample property: 3.46",
+   "value": 3.46,
+   "reasoning_tokens": 5406,
+   "completion": 5430,
+   "cost": 0.0836184,
+   "finish": "stop",
+   "mol_id": "1-Piperazineethanol, 4-((5-chloro-2-oxo-3(2H)-benzothiazolyl)acetyl)- (9CI)",
+   "truth": 1.995
+  },
+  {
+   "text": "Analyzing the test sample `araaa{As~A{ataaaaat}EAABs}aar`, I note it shares the ",
+   "value": 2.83,
+   "reasoning_tokens": 522,
+   "completion": 674,
+   "cost": 0.0122514,
+   "finish": "stop",
+   "mol_id": "1,4-Oxathiin, 2,3-dihydro-5,6-diphenyl-",
+   "truth": 1.928
+  },
+  {
+   "text": "Based on analysis of the training data patterns, particularly the structural mot",
+   "value": 2.28,
+   "reasoning_tokens": 539,
+   "completion": 629,
+   "cost": 0.0115704,
+   "finish": "stop",
+   "mol_id": "Ethanol, 2,2,2-trichloro-, dihydrogen phosphate",
+   "truth": 2.212
+  },
+  {
+   "text": "3.37",
+   "value": 3.37,
+   "reasoning_tokens": 8526,
+   "completion": 8544,
+   "cost": 0.1303044,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-((ethylsulfinyl)methyl) ester",
+   "truth": 5.14
+  },
+  {
+   "text": "Based on structural similarity analysis, the test sample shares the distinctive ",
+   "value": 3.1,
+   "reasoning_tokens": 348,
+   "completion": 510,
+   "cost": 0.0098394,
+   "finish": "stop",
+   "mol_id": "20-Norcrotalanan-11,15-dione, 14,19-dihydro-12,13-dihydroxy-, (13-alpha,14-alpha)- (9CI)",
+   "truth": 3.693
+  },
+  {
+   "text": "3.32",
+   "value": 3.32,
+   "reasoning_tokens": 1847,
+   "completion": 1865,
+   "cost": 0.0301464,
+   "finish": "stop",
+   "mol_id": "Coumarin, 3-chloro-7-hydroxy-4-methyl-, bis(3-chloropropyl) phosphate",
+   "truth": 3.323
+  },
+  {
+   "text": "3.55",
+   "value": 3.55,
+   "reasoning_tokens": 5544,
+   "completion": 5562,
+   "cost": 0.0855774,
+   "finish": "stop",
+   "mol_id": "2-Aziridinecarboxamide, 1-(1-(2-cyano-1-aziridinyl)-1-methylethyl)-",
+   "truth": 1.797
+  },
+  {
+   "text": "3.27",
+   "value": 3.27,
+   "reasoning_tokens": 5235,
+   "completion": 5253,
+   "cost": 0.0809484,
+   "finish": "stop",
+   "mol_id": "1H-Isoindole-1,3(2H)-dione, 3a,4,7,7a-tetrahydro-2-((trichloromethyl)thio)-",
+   "truth": 1.524
+  },
+  {
+   "text": "Based on analysis of the training data, the test sample contains several high-va",
+   "value": 5.12,
+   "reasoning_tokens": 756,
+   "completion": 894,
+   "cost": 0.0155994,
+   "finish": "stop",
+   "mol_id": "4-Benzimidazolesulfonamide, N,N-dimethyl-5,6,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.92
+  }
+ ]
+}

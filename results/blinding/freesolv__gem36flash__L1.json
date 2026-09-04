@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "freesolv",
+  "tag": "gem36flash",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:128",
+  "disjoint_from": "esol,ld50",
+  "cost": 0.7773585000000007,
+  "timestamp": "2026-07-28T17:53:40"
+ },
+ "calls": [
+  {
+   "text": "To predict the experimental hydration free energy of 1,2,3-trichloro-5-(2,5-dich",
+   "value": -3.85,
+   "reasoning_tokens": 781,
+   "completion": 1034,
+   "cost": 0.005697,
+   "finish": "stop",
+   "mol_id": "1,2,3-trichloro-5-(2,5-dichlorophenyl)benzene",
+   "truth": -3.61
+  },
+  {
+   "text": "To predict the experimental hydration free energy for **isobutyl nitrate**, we a",
+   "value": -2.35,
+   "reasoning_tokens": 617,
+   "completion": 792,
+   "cost": 0.00476625,
+   "finish": "stop",
+   "mol_id": "isobutyl nitrate",
+   "truth": -1.88
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **5-bromouracil**, we analy",
+   "value": -14.8,
+   "reasoning_tokens": 546,
+   "completion": 728,
+   "cost": 0.00453225,
+   "finish": "stop",
+   "mol_id": "5-bromouracil",
+   "truth": -18.17
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,1,1-trifluoropropan-2-o",
+   "value": -5.2,
+   "reasoning_tokens": 905,
+   "completion": 1149,
+   "cost": 0.00611475,
+   "finish": "stop",
+   "mol_id": "1,1,1-trifluoropropan-2-ol",
+   "truth": -4.16
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,1,2,3,3,3-hexafluoropro",
+   "value": 2.25,
+   "reasoning_tokens": 582,
+   "completion": 745,
+   "cost": 0.004605,
+   "finish": "stop",
+   "mol_id": "1,1,2,3,3,3-hexafluoroprop-1-ene",
+   "truth": 2.93
+  },
+  {
+   "text": "To predict the experimental hydration free energy for **1,4-dimethylpiperazine**",
+   "value": -5.65,
+   "reasoning_tokens": 803,
+   "completion": 1089,
+   "cost": 0.00588075,
+   "finish": "stop",
+   "mol_id": "1,4-dimethylpiperazine",
+   "truth": -7.58
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **pyridine-4-carbonitrile**",
+   "value": -6.74,
+   "reasoning_tokens": 757,
+   "completion": 931,
+   "cost": 0.00528525,
+   "finish": "stop",
+   "mol_id": "pyridine-4-carbonitrile",
+   "truth": -6.02
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-chlorobutane, we can eval",
+   "value": -0.03,
+   "reasoning_tokens": 873,
+   "completion": 992,
+   "cost": 0.00551475,
+   "finish": "stop",
+   "mol_id": "2-chlorobutane",
+   "truth": 0.0
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **methyl 2-cyanoacetate** (",
+   "value": -6.4,
+   "reasoning_tokens": 653,
+   "completion": 883,
+   "cost": 0.0051045,
+   "finish": "stop",
+   "mol_id": "methyl 2-cyanoacetate",
+   "truth": -6.72
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-methylbenzaldehyde**, w",
+   "value": -4.1,
+   "reasoning_tokens": 503,
+   "completion": 656,
+   "cost": 0.00425475,
+   "finish": "stop",
+   "mol_id": "2-methylbenzaldehyde",
+   "truth": -3.93
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **N,N-dimethylbenzamide**, ",
+   "value": -7.42,
+   "reasoning_tokens": 330,
+   "completion": 533,
+   "cost": 0.003798,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylbenzamide",
+   "truth": -9.29
+  },
+  {
+   "text": "To predict the experimental hydration free energy of decane, we can evaluate the",
+   "value": 3.21,
+   "reasoning_tokens": 505,
+   "completion": 651,
+   "cost": 0.0042285,
+   "finish": "stop",
+   "mol_id": "decane",
+   "truth": 3.16
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **3,5-dichloro-2,6-dimethox",
+   "value": -6.3,
+   "reasoning_tokens": 1163,
+   "completion": 1489,
+   "cost": 0.007392,
+   "finish": "stop",
+   "mol_id": "3,5-dichloro-2,6-dimethoxyphenol",
+   "truth": -6.44
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1-(4-pyridyl)ethanone** (",
+   "value": -6.85,
+   "reasoning_tokens": 731,
+   "completion": 956,
+   "cost": 0.0053835,
+   "finish": "stop",
+   "mol_id": "1-(4-pyridyl)ethanone",
+   "truth": -7.62
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 4-ethylphenol, we analyze t",
+   "value": -6.08,
+   "reasoning_tokens": 684,
+   "completion": 896,
+   "cost": 0.00515325,
+   "finish": "stop",
+   "mol_id": "4-ethylphenol",
+   "truth": -6.13
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 3-methoxyaniline, we analyz",
+   "value": -6.45,
+   "reasoning_tokens": 767,
+   "completion": 918,
+   "cost": 0.00523725,
+   "finish": "stop",
+   "mol_id": "3-methoxyaniline",
+   "truth": -7.29
+  },
+  {
+   "text": "To predict the experimental hydration free energy of sec-butylbenzene, we analyz",
+   "value": -0.52,
+   "reasoning_tokens": 683,
+   "completion": 920,
+   "cost": 0.005247,
+   "finish": "stop",
+   "mol_id": "sec-butylbenzene",
+   "truth": -0.45
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1-cyclopropylethanone, we c",
+   "value": -3.66,
+   "reasoning_tokens": 913,
+   "completion": 1137,
+   "cost": 0.00605925,
+   "finish": "stop",
+   "mol_id": "1-cyclopropylethanone",
+   "truth": -4.61
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **methyl 4-nitrobenzoate**,",
+   "value": -6.6,
+   "reasoning_tokens": 500,
+   "completion": 703,
+   "cost": 0.00443775,
+   "finish": "stop",
+   "mol_id": "methyl 4-nitrobenzoate",
+   "truth": -6.88
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-[(1R)-1-methylpropyl]-4,6",
+   "value": -9.35,
+   "reasoning_tokens": 785,
+   "completion": 1010,
+   "cost": 0.00561,
+   "finish": "stop",
+   "mol_id": "2-[(1R)-1-methylpropyl]-4,6-dinitro-phenolate",
+   "truth": -6.23
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,2,3,7-tetrachlorodibenz",
+   "value": -3.8,
+   "reasoning_tokens": 726,
+   "completion": 895,
+   "cost": 0.00517575,
+   "finish": "stop",
+   "mol_id": "1,2,3,7-tetrachlorodibenzo-p-dioxin",
+   "truth": -3.84
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,2-dinitroxypropane** (p",
+   "value": -4.45,
+   "reasoning_tokens": 753,
+   "completion": 945,
+   "cost": 0.00534975,
+   "finish": "stop",
+   "mol_id": "1,2-dinitroxypropane",
+   "truth": -4.95
+  },
+  {
+   "text": "To predict the experimental hydration free energy of hexyl nitrate, we can analy",
+   "value": -0.75,
+   "reasoning_tokens": 766,
+   "completion": 998,
+   "cost": 0.00553575,
+   "finish": "stop",
+   "mol_id": "hexyl nitrate",
+   "truth": -1.66
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,3-bis-(nitrooxy)butane*",
+   "value": -4.45,
+   "reasoning_tokens": 549,
+   "completion": 741,
+   "cost": 0.00458775,
+   "finish": "stop",
+   "mol_id": "1,3-bis-(nitrooxy)butane",
+   "truth": -4.29
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **butyl nitrate** ($\\text{C",
+   "value": -2.57,
+   "reasoning_tokens": 589,
+   "completion": 748,
+   "cost": 0.00459675,
+   "finish": "stop",
+   "mol_id": "butyl nitrate",
+   "truth": -2.09
+  },
+  {
+   "text": "To predict the experimental hydration free energy of (1S,5R)-2-methyl-5-(1-methy",
+   "value": -4.5,
+   "reasoning_tokens": 713,
+   "completion": 921,
+   "cost": 0.0052755,
+   "finish": "stop",
+   "mol_id": "(1S,5R)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-ol",
+   "truth": -4.44
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **phenyl formate**, we anal",
+   "value": -4.1,
+   "reasoning_tokens": 712,
+   "completion": 935,
+   "cost": 0.00530025,
+   "finish": "stop",
+   "mol_id": "phenyl formate",
+   "truth": -3.82
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,1-diphenylethene, we anal",
+   "value": -2.31,
+   "reasoning_tokens": 631,
+   "completion": 786,
+   "cost": 0.004749,
+   "finish": "stop",
+   "mol_id": "1,1-diphenylethene",
+   "truth": -2.78
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **azetidine**, we can analy",
+   "value": -5.42,
+   "reasoning_tokens": 515,
+   "completion": 683,
+   "cost": 0.00435,
+   "finish": "stop",
+   "mol_id": "azetidine",
+   "truth": -5.56
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **3-ethylphenol**, we can a",
+   "value": -5.95,
+   "reasoning_tokens": 648,
+   "completion": 890,
+   "cost": 0.00513075,
+   "finish": "stop",
+   "mol_id": "3-ethylphenol",
+   "truth": -6.25
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **dialifor** (`CCOP(=S)(OCC",
+   "value": -9.8,
+   "reasoning_tokens": 621,
+   "completion": 890,
+   "cost": 0.005145,
+   "finish": "stop",
+   "mol_id": "dialifor",
+   "truth": -5.74
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1-iodopentane, we can analy",
+   "value": -0.29,
+   "reasoning_tokens": 660,
+   "completion": 931,
+   "cost": 0.0052815,
+   "finish": "stop",
+   "mol_id": "1-iodopentane",
+   "truth": -0.14
+  },
+  {
+   "text": "To predict the experimental hydration free energy of neopentane, we examine the ",
+   "value": 2.5,
+   "reasoning_tokens": 332,
+   "completion": 496,
+   "cost": 0.003651,
+   "finish": "stop",
+   "mol_id": "neopentane",
+   "truth": 2.51
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **trimethoxymethylbenzene**",
+   "value": -5.05,
+   "reasoning_tokens": 745,
+   "completion": 984,
+   "cost": 0.005484,
+   "finish": "stop",
+   "mol_id": "trimethoxymethylbenzene",
+   "truth": -4.04
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **butan-2-ol**, we analyze ",
+   "value": -4.56,
+   "reasoning_tokens": 439,
+   "completion": 614,
+   "cost": 0.00409875,
+   "finish": "stop",
+   "mol_id": "butan-2-ol",
+   "truth": -4.62
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-chloro-1-(2,4-dichlorophe",
+   "value": -7.02,
+   "reasoning_tokens": 756,
+   "completion": 977,
+   "cost": 0.00547875,
+   "finish": "stop",
+   "mol_id": "2-chloro-1-(2,4-dichlorophenyl)ethenyl diethyl phosphate",
+   "truth": -7.07
+  },
+  {
+   "text": "To determine the experimental hydration free energy of endrin, we consider its c",
+   "value": -3.85,
+   "reasoning_tokens": 677,
+   "completion": 811,
+   "cost": 0.00487575,
+   "finish": "stop",
+   "mol_id": "endrin",
+   "truth": -4.82
+  },
+  {
+   "text": "To estimate the experimental hydration free energy of **4-(1-methylethenyl)-1-cy",
+   "value": -3.71,
+   "reasoning_tokens": 557,
+   "completion": 742,
+   "cost": 0.004593,
+   "finish": "stop",
+   "mol_id": "4-(1-Methylethenyl)-1-cyclohexene-1-carboxaldehyde",
+   "truth": -4.09
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **[2-benzhydryloxyethyl]-di",
+   "value": -6.83,
+   "reasoning_tokens": 1101,
+   "completion": 1437,
+   "cost": 0.0071925,
+   "finish": "stop",
+   "mol_id": "[2-benzhydryloxyethyl]-dimethyl-amine",
+   "truth": -9.34
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **(2R,3R,4R,5R)-Hexan-1,2,3",
+   "value": -25.2,
+   "reasoning_tokens": 829,
+   "completion": 1077,
+   "cost": 0.00586875,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4R,5R)-Hexan-1,2,3,4,5,6-hexol",
+   "truth": -23.62
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 4-methylpentan-2-ol, we ana",
+   "value": -4.26,
+   "reasoning_tokens": 639,
+   "completion": 842,
+   "cost": 0.00495825,
+   "finish": "stop",
+   "mol_id": "4-methylpentan-2-ol",
+   "truth": -3.73
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-methyltetrahydrofuran**",
+   "value": -3.08,
+   "reasoning_tokens": 404,
+   "completion": 546,
+   "cost": 0.00384225,
+   "finish": "stop",
+   "mol_id": "2-methyltetrahydrofuran",
+   "truth": -3.3
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1-methylimidazole, we evalu",
+   "value": -6.04,
+   "reasoning_tokens": 555,
+   "completion": 734,
+   "cost": 0.00454275,
+   "finish": "stop",
+   "mol_id": "1-methylimidazole",
+   "truth": -8.41
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **4-hydroxybenzonitrile**, ",
+   "value": -10.4,
+   "reasoning_tokens": 860,
+   "completion": 1101,
+   "cost": 0.00592575,
+   "finish": "stop",
+   "mol_id": "4-hydroxybenzonitrile",
+   "truth": -10.17
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **(3R)-3,7-dimethylocta-1,6",
+   "value": -1.95,
+   "reasoning_tokens": 1052,
+   "completion": 1339,
+   "cost": 0.006837,
+   "finish": "stop",
+   "mol_id": "(3R)-3,7-Dimethylocta-1,6-dien-3-yl acetate",
+   "truth": -2.49
+  },
+  {
+   "text": "To predict the experimental hydration free energy of methoxyethane (SMILES: CCOC",
+   "value": -1.7,
+   "reasoning_tokens": 384,
+   "completion": 513,
+   "cost": 0.00371025,
+   "finish": "stop",
+   "mol_id": "methoxyethane",
+   "truth": -2.1
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **sulfolane** ($\\text{C}_4\\",
+   "value": -9.26,
+   "reasoning_tokens": 591,
+   "completion": 785,
+   "cost": 0.0047415,
+   "finish": "stop",
+   "mol_id": "sulfolane",
+   "truth": -8.61
+  },
+  {
+   "text": "To predict the experimental hydration free energy of octafluorocyclobutane, we a",
+   "value": 3.25,
+   "reasoning_tokens": 624,
+   "completion": 861,
+   "cost": 0.00503475,
+   "finish": "stop",
+   "mol_id": "octafluorocyclobutane",
+   "truth": 3.43
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 3-ethylpyridine, we can ana",
+   "value": -4.6,
+   "reasoning_tokens": 509,
+   "completion": 723,
+   "cost": 0.0045015,
+   "finish": "stop",
+   "mol_id": "3-ethylpyridine",
+   "truth": -4.59
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,4-dichlorobutane, we anal",
+   "value": -1.85,
+   "reasoning_tokens": 632,
+   "completion": 813,
+   "cost": 0.00484275,
+   "finish": "stop",
+   "mol_id": "1,4-dichlorobutane",
+   "truth": -2.32
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **methyl 2,2-dimethylpropan",
+   "value": -2.4,
+   "reasoning_tokens": 595,
+   "completion": 878,
+   "cost": 0.005091,
+   "finish": "stop",
+   "mol_id": "methyl 2,2-dimethylpropanoate",
+   "truth": -2.4
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-chloro-2-(difluorometho",
+   "value": -0.06,
+   "reasoning_tokens": 720,
+   "completion": 958,
+   "cost": 0.005409,
+   "finish": "stop",
+   "mol_id": "2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-ethane",
+   "truth": 0.1
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-methylpentan-3-ol**, we",
+   "value": -4.28,
+   "reasoning_tokens": 606,
+   "completion": 830,
+   "cost": 0.00491325,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-3-ol",
+   "truth": -3.88
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,2,3,4-tetrachloro-5-(2,3,",
+   "value": -4.26,
+   "reasoning_tokens": 823,
+   "completion": 1116,
+   "cost": 0.006018,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(2,3,4,6-tetrachlorophenyl)benzene",
+   "truth": -4.61
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,2,3,4,7-pentachlorodibenz",
+   "value": -3.41,
+   "reasoning_tokens": 698,
+   "completion": 934,
+   "cost": 0.00532575,
+   "finish": "stop",
+   "mol_id": "1,2,3,4,7-pentachlorodibenzo-p-dioxin",
+   "truth": -4.15
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,1,1-trifluoropropan-2-ol,",
+   "value": -4.95,
+   "reasoning_tokens": 790,
+   "completion": 948,
+   "cost": 0.0053595,
+   "finish": "stop",
+   "mol_id": "111-trifluoropropan-2-ol",
+   "truth": -4.2
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1-iodohexane, we analyze th",
+   "value": -0.1,
+   "reasoning_tokens": 760,
+   "completion": 1061,
+   "cost": 0.005769,
+   "finish": "stop",
+   "mol_id": "1-iodohexane",
+   "truth": 0.08
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-chloro-2-methylpropane (t",
+   "value": 0.24,
+   "reasoning_tokens": 650,
+   "completion": 909,
+   "cost": 0.005205,
+   "finish": "stop",
+   "mol_id": "2-chloro-2-methyl-propane",
+   "truth": 1.09
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **methyl 2-chloroacetate** ",
+   "value": -4.32,
+   "reasoning_tokens": 538,
+   "completion": 727,
+   "cost": 0.004518,
+   "finish": "stop",
+   "mol_id": "methyl 2-chloroacetate",
+   "truth": -4.0
+  },
+  {
+   "text": "To predict the experimental hydration free energy of pentan-2-ol, we consider th",
+   "value": -4.38,
+   "reasoning_tokens": 410,
+   "completion": 504,
+   "cost": 0.00368475,
+   "finish": "stop",
+   "mol_id": "pentan-2-ol",
+   "truth": -4.39
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,2-dimethylcyclohexane, we",
+   "value": 2.13,
+   "reasoning_tokens": 344,
+   "completion": 511,
+   "cost": 0.003717,
+   "finish": "stop",
+   "mol_id": "1,2-dimethylcyclohexane",
+   "truth": 1.58
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **6-chlorouracil**, we comp",
+   "value": -14.5,
+   "reasoning_tokens": 533,
+   "completion": 656,
+   "cost": 0.00426075,
+   "finish": "stop",
+   "mol_id": "6-chlorouracil",
+   "truth": -15.83
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,1,1-trifluoro-2,2,2-tri",
+   "value": -2.15,
+   "reasoning_tokens": 766,
+   "completion": 1002,
+   "cost": 0.005565,
+   "finish": "stop",
+   "mol_id": "1,1,1-trifluoro-2,2,2-trimethoxyethane",
+   "truth": -0.8
+  },
+  {
+   "text": "To predict the experimental hydration free energy of (2R,5R)-2-methyl-5-(1-methy",
+   "value": -3.45,
+   "reasoning_tokens": 652,
+   "completion": 855,
+   "cost": 0.0050235,
+   "finish": "stop",
+   "mol_id": "(2R,5R)-2-methyl-5-(1-methylethenyl)-cyclohexanone",
+   "truth": -3.75
+  },
+  {
+   "text": "To predict the experimental hydration free energy for **2-chloro-1,1,1-trimethox",
+   "value": -5.4,
+   "reasoning_tokens": 1022,
+   "completion": 1242,
+   "cost": 0.006459,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trimethoxy-ethane",
+   "truth": -4.59
+  },
+  {
+   "text": "To predict the experimental hydration free energy of N,N-dimethyl-4-nitro-benzam",
+   "value": -11.1,
+   "reasoning_tokens": 629,
+   "completion": 795,
+   "cost": 0.0047895,
+   "finish": "stop",
+   "mol_id": "N,N-dimethyl-4-nitro-benzamide",
+   "truth": -11.95
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-iodophenol**, we consid",
+   "value": -5.4,
+   "reasoning_tokens": 648,
+   "completion": 878,
+   "cost": 0.0050895,
+   "finish": "stop",
+   "mol_id": "2-iodophenol",
+   "truth": -6.2
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1-nitropentane, we can eval",
+   "value": -2.98,
+   "reasoning_tokens": 495,
+   "completion": 658,
+   "cost": 0.004263,
+   "finish": "stop",
+   "mol_id": "1-nitropentane",
+   "truth": -2.82
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **propyl paraben** (propyl ",
+   "value": -8.88,
+   "reasoning_tokens": 802,
+   "completion": 1026,
+   "cost": 0.005643,
+   "finish": "stop",
+   "mol_id": "propyl paraben",
+   "truth": -9.37
+  },
+  {
+   "text": "To determine the experimental hydration free energy of 4-methoxy-N,N-dimethyl-be",
+   "value": -8.15,
+   "reasoning_tokens": 458,
+   "completion": 652,
+   "cost": 0.00425025,
+   "finish": "stop",
+   "mol_id": "4-methoxy-N,N-dimethyl-benzamide",
+   "truth": -11.01
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **nitralin**, we can break ",
+   "value": -11.8,
+   "reasoning_tokens": 1908,
+   "completion": 2204,
+   "cost": 0.01007625,
+   "finish": "stop",
+   "mol_id": "nitralin",
+   "truth": -7.98
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **3-hydroxybenzaldehyde**, ",
+   "value": -9.65,
+   "reasoning_tokens": 914,
+   "completion": 1091,
+   "cost": 0.00588975,
+   "finish": "stop",
+   "mol_id": "3-hydroxybenzaldehyde",
+   "truth": -9.52
+  },
+  {
+   "text": "To predict the experimental hydration free energy for hydrogen sulfide ($\\text{H",
+   "value": -0.53,
+   "reasoning_tokens": 771,
+   "completion": 913,
+   "cost": 0.005211,
+   "finish": "stop",
+   "mol_id": "hydrogen sulfide",
+   "truth": -0.7
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-chloro-1,1,1-trifluoro-et",
+   "value": 0.36,
+   "reasoning_tokens": 981,
+   "completion": 1152,
+   "cost": 0.006123,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trifluoro-ethane",
+   "truth": 0.06
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,2,3,4-tetrachloro-5-(2,",
+   "value": -4.1,
+   "reasoning_tokens": 969,
+   "completion": 1260,
+   "cost": 0.00655275,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(2,3,4-trichlorophenyl)benzene",
+   "truth": -4.4
+  },
+  {
+   "text": "To predict the experimental hydration free energy of (E)-1,2-dichloroethylene, w",
+   "value": -0.41,
+   "reasoning_tokens": 672,
+   "completion": 808,
+   "cost": 0.0048255,
+   "finish": "stop",
+   "mol_id": "(E)-1,2-dichloroethylene",
+   "truth": -0.78
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **ketoprofen**, we analyze ",
+   "value": -10.1,
+   "reasoning_tokens": 627,
+   "completion": 864,
+   "cost": 0.005046,
+   "finish": "stop",
+   "mol_id": "ketoprofen",
+   "truth": -10.78
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **methyl 4-methoxybenzoate*",
+   "value": -5.12,
+   "reasoning_tokens": 521,
+   "completion": 724,
+   "cost": 0.00451275,
+   "finish": "stop",
+   "mol_id": "methyl 4-methoxybenzoate",
+   "truth": -5.33
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-amino-9,10-anthraquinone,",
+   "value": -9.1,
+   "reasoning_tokens": 1137,
+   "completion": 1442,
+   "cost": 0.00721875,
+   "finish": "stop",
+   "mol_id": "2-amino-9,10-anthraquinone",
+   "truth": -11.53
+  },
+  {
+   "text": "To predict the experimental hydration free energy of hydrazine ($\\text{N}_2\\text",
+   "value": -8.38,
+   "reasoning_tokens": 712,
+   "completion": 828,
+   "cost": 0.00489,
+   "finish": "stop",
+   "mol_id": "hydrazine",
+   "truth": -9.3
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-bromo-2-chloro-1,1,1-trif",
+   "value": -0.13,
+   "reasoning_tokens": 680,
+   "completion": 942,
+   "cost": 0.00534225,
+   "finish": "stop",
+   "mol_id": "2-bromo-2-chloro-1,1,1-trifluoro-ethane",
+   "truth": -0.11
+  },
+  {
+   "text": "Based on the structural features of 2,6-dichlorosyringaldehyde (3,5-dimethoxy-2,",
+   "value": -11.2,
+   "reasoning_tokens": 1113,
+   "completion": 1236,
+   "cost": 0.0064425,
+   "finish": "stop",
+   "mol_id": "2,6-dichlorosyringaldehyde",
+   "truth": -8.68
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **methyl cyclopropanecarbox",
+   "value": -3.1,
+   "reasoning_tokens": 353,
+   "completion": 545,
+   "cost": 0.0038385,
+   "finish": "stop",
+   "mol_id": "methyl cyclopropanecarboxylate",
+   "truth": -4.1
+  },
+  {
+   "text": "To predict the experimental hydration free energy of flurbiprofen, we can analyz",
+   "value": -7.65,
+   "reasoning_tokens": 878,
+   "completion": 1065,
+   "cost": 0.0058005,
+   "finish": "stop",
+   "mol_id": "flurbiprofen",
+   "truth": -8.42
+  },
+  {
+   "text": "To predict the experimental hydration free energy for 1,2,3,4-tetrachloro-5-(3,4",
+   "value": -4.1,
+   "reasoning_tokens": 754,
+   "completion": 979,
+   "cost": 0.005499,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(3,4,5-trichlorophenyl)benzene",
+   "truth": -3.17
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-methoxyethanamine, we can",
+   "value": -6.0,
+   "reasoning_tokens": 720,
+   "completion": 1034,
+   "cost": 0.00566775,
+   "finish": "stop",
+   "mol_id": "2-methoxyethanamine",
+   "truth": -6.55
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **pyridine-4-carbaldehyde**",
+   "value": -7.35,
+   "reasoning_tokens": 697,
+   "completion": 905,
+   "cost": 0.00519,
+   "finish": "stop",
+   "mol_id": "pyridine-4-carbaldehyde",
+   "truth": -7.0
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **3,3,3-trimethoxypropaneni",
+   "value": -5.85,
+   "reasoning_tokens": 765,
+   "completion": 968,
+   "cost": 0.00542925,
+   "finish": "stop",
+   "mol_id": "3,3,3-trimethoxypropanenitrile",
+   "truth": -6.4
+  },
+  {
+   "text": "To predict the experimental hydration free energy of captan, we consider its fun",
+   "value": -8.15,
+   "reasoning_tokens": 494,
+   "completion": 689,
+   "cost": 0.004395,
+   "finish": "stop",
+   "mol_id": "captan",
+   "truth": -9.01
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1-butoxy-2-propanol**, we",
+   "value": -5.35,
+   "reasoning_tokens": 823,
+   "completion": 1161,
+   "cost": 0.0061515,
+   "finish": "stop",
+   "mol_id": "1-butoxy-2-propanol",
+   "truth": -5.73
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2,3-dimethylphenol, we can ",
+   "value": -6.11,
+   "reasoning_tokens": 841,
+   "completion": 1046,
+   "cost": 0.005718,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylphenol",
+   "truth": -6.16
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1-nitrobutane**, we can c",
+   "value": -3.18,
+   "reasoning_tokens": 380,
+   "completion": 562,
+   "cost": 0.0039015,
+   "finish": "stop",
+   "mol_id": "1-nitrobutane",
+   "truth": -3.09
+  },
+  {
+   "text": "To predict the experimental hydration free energy of methylsulfanylethane, we ca",
+   "value": -1.53,
+   "reasoning_tokens": 311,
+   "completion": 468,
+   "cost": 0.00354375,
+   "finish": "stop",
+   "mol_id": "methylsulfanylethane",
+   "truth": -1.5
+  },
+  {
+   "text": "To predict the hydration free energy of oct-2-enal, we consider the functional g",
+   "value": -3.34,
+   "reasoning_tokens": 571,
+   "completion": 750,
+   "cost": 0.00460725,
+   "finish": "stop",
+   "mol_id": "oct-2-enal",
+   "truth": -3.43
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1-amino-4-hydroxy-9,10-an",
+   "value": -12.5,
+   "reasoning_tokens": 697,
+   "completion": 890,
+   "cost": 0.00515625,
+   "finish": "stop",
+   "mol_id": "1-amino-4-hydroxy-9,10-anthracenedione",
+   "truth": -9.53
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2,3-dimethylpentane**, we",
+   "value": 2.78,
+   "reasoning_tokens": 375,
+   "completion": 661,
+   "cost": 0.004278,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylpentane",
+   "truth": 2.52
+  },
+  {
+   "text": "Based on the molecular structure of (1R)-2,2,2-trichloro-1-dimethoxyphosphoryl-e",
+   "value": -11.8,
+   "reasoning_tokens": 1110,
+   "completion": 1216,
+   "cost": 0.0063735,
+   "finish": "stop",
+   "mol_id": "(1R)-2,2,2-trichloro-1-dimethoxyphosphoryl-ethanol",
+   "truth": -12.74
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-chlorosyringaldehyde**,",
+   "value": -12.2,
+   "reasoning_tokens": 808,
+   "completion": 1038,
+   "cost": 0.0056955,
+   "finish": "stop",
+   "mol_id": "2-chlorosyringaldehyde",
+   "truth": -7.78
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,1-difluoroethane (SMILES:",
+   "value": -0.19,
+   "reasoning_tokens": 519,
+   "completion": 665,
+   "cost": 0.004287,
+   "finish": "stop",
+   "mol_id": "1,1-difluoroethane",
+   "truth": -0.11
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **diethoxymethoxybenzene** ",
+   "value": -4.35,
+   "reasoning_tokens": 1148,
+   "completion": 1472,
+   "cost": 0.007314,
+   "finish": "stop",
+   "mol_id": "diethoxymethoxybenzene",
+   "truth": -5.23
+  },
+  {
+   "text": "To predict the experimental hydration free energy of heptan-1-amine, we can obse",
+   "value": -3.8,
+   "reasoning_tokens": 661,
+   "completion": 868,
+   "cost": 0.00504525,
+   "finish": "stop",
+   "mol_id": "heptan-1-amine",
+   "truth": -3.79
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-bromo-2-methylpropane (te",
+   "value": -0.12,
+   "reasoning_tokens": 920,
+   "completion": 1198,
+   "cost": 0.00628875,
+   "finish": "stop",
+   "mol_id": "2-bromo-2-methyl-propane",
+   "truth": 0.84
+  },
+  {
+   "text": "To predict the experimental hydration free energy of (2R,3R,4S,5S,6R)-6-(hydroxy",
+   "value": -15.8,
+   "reasoning_tokens": 656,
+   "completion": 840,
+   "cost": 0.0049905,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4S,5S,6R)-6-(hydroxymethyl)tetrahydropyran-2,3,4,5-tetrol",
+   "truth": -25.47
+  },
+  {
+   "text": "To predict the experimental hydration free energy for 6-isopropyl-3-methyl-1-cyc",
+   "value": -4.32,
+   "reasoning_tokens": 531,
+   "completion": 765,
+   "cost": 0.00467925,
+   "finish": "stop",
+   "mol_id": "6-isopropyl-3-methyl-1-cyclohex-2-enone",
+   "truth": -4.51
+  },
+  {
+   "text": "To predict the experimental hydration free energy for **bromo-trifluoro-methane*",
+   "value": 1.28,
+   "reasoning_tokens": 746,
+   "completion": 1009,
+   "cost": 0.00558,
+   "finish": "stop",
+   "mol_id": "bromo-trifluoro-methane",
+   "truth": 1.79
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-fluorophenol, we compare ",
+   "value": -5.73,
+   "reasoning_tokens": 386,
+   "completion": 567,
+   "cost": 0.00392325,
+   "finish": "stop",
+   "mol_id": "2-fluorophenol",
+   "truth": -5.29
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **(2E)-3,7-dimethylocta-2,6",
+   "value": -4.22,
+   "reasoning_tokens": 888,
+   "completion": 1159,
+   "cost": 0.006156,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-ol",
+   "truth": -4.45
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1-methylpyrrole**, we can",
+   "value": -2.61,
+   "reasoning_tokens": 1046,
+   "completion": 1367,
+   "cost": 0.00691725,
+   "finish": "stop",
+   "mol_id": "1-methylpyrrole",
+   "truth": -2.89
+  },
+  {
+   "text": "Based on the structural characteristics of heptachlor (a polycyclic chlorinated ",
+   "value": -2.13,
+   "reasoning_tokens": 729,
+   "completion": 776,
+   "cost": 0.0047325,
+   "finish": "stop",
+   "mol_id": "heptachlor",
+   "truth": -2.55
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **(2S,5R)-2-isopropyl-5-met",
+   "value": -2.82,
+   "reasoning_tokens": 804,
+   "completion": 1094,
+   "cost": 0.00591675,
+   "finish": "stop",
+   "mol_id": "(2S,5R)-2-isopropyl-5-methylcyclohexanone",
+   "truth": -2.53
+  },
+  {
+   "text": "Based on the structural features of 1-(2-hydroxyethylamino)-9,10-anthraquinone, ",
+   "value": -12.1,
+   "reasoning_tokens": 1069,
+   "completion": 1307,
+   "cost": 0.00671625,
+   "finish": "stop",
+   "mol_id": "1-(2-hydroxyethylamino)-9,10-anthraquinone",
+   "truth": -14.21
+  },
+  {
+   "text": "To predict the experimental hydration free energy of m-bis(trifluoromethyl)benze",
+   "value": 1.25,
+   "reasoning_tokens": 636,
+   "completion": 794,
+   "cost": 0.00478425,
+   "finish": "stop",
+   "mol_id": "m-bis(trifluoromethyl)benzene",
+   "truth": 1.07
+  },
+  {
+   "text": "Based on the structure of chloro-difluoro-methane and comparison with related ha",
+   "value": -0.07,
+   "reasoning_tokens": 1095,
+   "completion": 1171,
+   "cost": 0.00618675,
+   "finish": "stop",
+   "mol_id": "chloro-difluoro-methane",
+   "truth": -0.5
+  },
+  {
+   "text": "To predict the experimental hydration free energy of nonanal, we can analyze the",
+   "value": -2.35,
+   "reasoning_tokens": 686,
+   "completion": 926,
+   "cost": 0.0052605,
+   "finish": "stop",
+   "mol_id": "nonanal",
+   "truth": -2.07
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **trimethoxymethane** (trim",
+   "value": -3.85,
+   "reasoning_tokens": 670,
+   "completion": 875,
+   "cost": 0.00507225,
+   "finish": "stop",
+   "mol_id": "trimethoxymethane",
+   "truth": -4.42
+  },
+  {
+   "text": "To predict the experimental hydration free energy of naproxen, we analyze its st",
+   "value": -8.72,
+   "reasoning_tokens": 759,
+   "completion": 950,
+   "cost": 0.00536775,
+   "finish": "stop",
+   "mol_id": "naproxen",
+   "truth": -10.21
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,1,1-trimethoxyethane**,",
+   "value": -3.96,
+   "reasoning_tokens": 747,
+   "completion": 1011,
+   "cost": 0.0055875,
+   "finish": "stop",
+   "mol_id": "1,1,1-trimethoxyethane",
+   "truth": -4.42
+  },
+  {
+   "text": "To predict the experimental hydration free energy of pentanoic acid, we can anal",
+   "value": -6.13,
+   "reasoning_tokens": 425,
+   "completion": 674,
+   "cost": 0.00431775,
+   "finish": "stop",
+   "mol_id": "pentanoic acid",
+   "truth": -6.16
+  },
+  {
+   "text": "To predict the experimental hydration free energy of pyrrole, we consider its ch",
+   "value": -4.72,
+   "reasoning_tokens": 360,
+   "completion": 473,
+   "cost": 0.00356475,
+   "finish": "stop",
+   "mol_id": "pyrrole",
+   "truth": -4.78
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **pyridine-3-carbaldehyde**",
+   "value": -6.7,
+   "reasoning_tokens": 702,
+   "completion": 888,
+   "cost": 0.00512625,
+   "finish": "stop",
+   "mol_id": "pyridine-3-carbaldehyde",
+   "truth": -7.1
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **(2S,3R,4S,5R)-oxane-2,3,4",
+   "value": -15.8,
+   "reasoning_tokens": 856,
+   "completion": 1105,
+   "cost": 0.00597,
+   "finish": "stop",
+   "mol_id": "(2S,3R,4S,5R)-oxane-2,3,4,5-tetrol",
+   "truth": -20.52
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,2,2-trifluoroethoxybenzen",
+   "value": -1.6,
+   "reasoning_tokens": 959,
+   "completion": 1177,
+   "cost": 0.0062205,
+   "finish": "stop",
+   "mol_id": "1,2,2-trifluoroethoxybenzene",
+   "truth": -1.29
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1-cyclohexylethanone**, w",
+   "value": -3.32,
+   "reasoning_tokens": 783,
+   "completion": 938,
+   "cost": 0.00531225,
+   "finish": "stop",
+   "mol_id": "1-cyclohexylethanone",
+   "truth": -3.9
+  },
+  {
+   "text": "To determine the experimental hydration free energy of **bromacil**, we consider",
+   "value": -9.62,
+   "reasoning_tokens": 809,
+   "completion": 1098,
+   "cost": 0.0059235,
+   "finish": "stop",
+   "mol_id": "bromacil",
+   "truth": -9.73
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 4-fluorophenol, we can anal",
+   "value": -6.64,
+   "reasoning_tokens": 568,
+   "completion": 748,
+   "cost": 0.00459975,
+   "finish": "stop",
+   "mol_id": "4-fluorophenol",
+   "truth": -6.19
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **nitroxyacetone**, we cons",
+   "value": -6.35,
+   "reasoning_tokens": 725,
+   "completion": 910,
+   "cost": 0.00520725,
+   "finish": "stop",
+   "mol_id": "nitroxyacetone",
+   "truth": -5.99
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2,5-dimethyltetrahydrofur",
+   "value": -2.87,
+   "reasoning_tokens": 819,
+   "completion": 1024,
+   "cost": 0.00564225,
+   "finish": "stop",
+   "mol_id": "2,5-dimethyltetrahydrofuran",
+   "truth": -2.92
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **(1R,2S,5R)-2-isopropyl-5-",
+   "value": -4.48,
+   "reasoning_tokens": 582,
+   "completion": 763,
+   "cost": 0.00468,
+   "finish": "stop",
+   "mol_id": "(1R,2S,5R)-2-isopropyl-5-methylcyclohexanol",
+   "truth": -3.2
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1-chlorodibenzo-p-dioxin*",
+   "value": -4.45,
+   "reasoning_tokens": 595,
+   "completion": 787,
+   "cost": 0.004758,
+   "finish": "stop",
+   "mol_id": "1-chlorodibenzo-p-dioxin",
+   "truth": -3.52
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **methyl 2,2,2-trifluoroace",
+   "value": -2.35,
+   "reasoning_tokens": 840,
+   "completion": 1090,
+   "cost": 0.0058875,
+   "finish": "stop",
+   "mol_id": "methyl 2,2,2-trifluoroacetate",
+   "truth": -1.1
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **N,N-4-trimethylbenzamide*",
+   "value": -6.6,
+   "reasoning_tokens": 660,
+   "completion": 923,
+   "cost": 0.0052635,
+   "finish": "stop",
+   "mol_id": "N,N-4-trimethylbenzamide",
+   "truth": -9.76
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **tetrafluoromethane**, we ",
+   "value": 2.82,
+   "reasoning_tokens": 376,
+   "completion": 533,
+   "cost": 0.00379125,
+   "finish": "stop",
+   "mol_id": "tetrafluoromethane",
+   "truth": 3.12
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 1,1,1,2-tetramethoxyethane,",
+   "value": -5.12,
+   "reasoning_tokens": 954,
+   "completion": 1191,
+   "cost": 0.0062655,
+   "finish": "stop",
+   "mol_id": "1,1,1,2-tetramethoxyethane",
+   "truth": -5.73
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,3,5-trichloro-2-phenyl-",
+   "value": -2.85,
+   "reasoning_tokens": 921,
+   "completion": 1176,
+   "cost": 0.00621975,
+   "finish": "stop",
+   "mol_id": "1,3,5-trichloro-2-phenyl-benzene",
+   "truth": -2.16
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **butyl paraben** (SMILES: ",
+   "value": -8.85,
+   "reasoning_tokens": 654,
+   "completion": 887,
+   "cost": 0.00512175,
+   "finish": "stop",
+   "mol_id": "butyl paraben",
+   "truth": -8.72
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-ethylpyrazine**, we ana",
+   "value": -4.43,
+   "reasoning_tokens": 512,
+   "completion": 694,
+   "cost": 0.0043935,
+   "finish": "stop",
+   "mol_id": "2-ethylpyrazine",
+   "truth": -5.45
+  },
+  {
+   "text": "To predict the experimental hydration free energy of [(2S)-butan-2-yl] nitrate, ",
+   "value": -2.1,
+   "reasoning_tokens": 678,
+   "completion": 846,
+   "cost": 0.00497625,
+   "finish": "stop",
+   "mol_id": "[(2S)-butan-2-yl] nitrate",
+   "truth": -1.82
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1-benzylimidazole**, we a",
+   "value": -7.25,
+   "reasoning_tokens": 690,
+   "completion": 904,
+   "cost": 0.0051855,
+   "finish": "stop",
+   "mol_id": "1-benzylimidazole",
+   "truth": -7.63
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **1,2-bis(trifluoromethyl)b",
+   "value": 0.17,
+   "reasoning_tokens": 1051,
+   "completion": 1269,
+   "cost": 0.00656775,
+   "finish": "stop",
+   "mol_id": "1,2-bis(trifluoromethyl)benzene",
+   "truth": 1.07
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 3-methylheptane, we can ana",
+   "value": 2.9,
+   "reasoning_tokens": 456,
+   "completion": 712,
+   "cost": 0.00446475,
+   "finish": "stop",
+   "mol_id": "3-methylheptane",
+   "truth": 2.97
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-chlorodibenzo-p-dioxin*",
+   "value": -4.3,
+   "reasoning_tokens": 429,
+   "completion": 550,
+   "cost": 0.00386925,
+   "finish": "stop",
+   "mol_id": "2-chlorodibenzo-p-dioxin",
+   "truth": -3.1
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 4-ethylpyridine, we conside",
+   "value": -4.67,
+   "reasoning_tokens": 502,
+   "completion": 636,
+   "cost": 0.00417525,
+   "finish": "stop",
+   "mol_id": "4-ethylpyridine",
+   "truth": -4.73
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **3-methylhexane**, we anal",
+   "value": 2.75,
+   "reasoning_tokens": 528,
+   "completion": 721,
+   "cost": 0.00449775,
+   "finish": "stop",
+   "mol_id": "3-methylhexane",
+   "truth": 2.71
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **2-bromo-1,1,1,2-tetrafluo",
+   "value": 0.75,
+   "reasoning_tokens": 972,
+   "completion": 1221,
+   "cost": 0.006387,
+   "finish": "stop",
+   "mol_id": "2-bromo-1,1,1,2-tetrafluoro-ethane",
+   "truth": 0.5
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **5-iodouracil**, we compar",
+   "value": -14.6,
+   "reasoning_tokens": 396,
+   "completion": 531,
+   "cost": 0.0037935,
+   "finish": "stop",
+   "mol_id": "5-iodouracil",
+   "truth": -18.72
+  },
+  {
+   "text": "To predict the experimental hydration free energy of **5-chlorouracil**, we can ",
+   "value": -14.8,
+   "reasoning_tokens": 591,
+   "completion": 761,
+   "cost": 0.004656,
+   "finish": "stop",
+   "mol_id": "5-chlorouracil",
+   "truth": -17.74
+  },
+  {
+   "text": "To predict the experimental hydration free energy of cyclopentanol, we can analy",
+   "value": -5.37,
+   "reasoning_tokens": 404,
+   "completion": 680,
+   "cost": 0.004341,
+   "finish": "stop",
+   "mol_id": "cyclopentanol",
+   "truth": -5.49
+  },
+  {
+   "text": "To predict the experimental hydration free energy of (2E)-hex-2-enal, we conside",
+   "value": -3.34,
+   "reasoning_tokens": 526,
+   "completion": 718,
+   "cost": 0.0044895,
+   "finish": "stop",
+   "mol_id": "(2E)-hex-2-enal",
+   "truth": -3.68
+  },
+  {
+   "text": "To predict the experimental hydration free energy of chloro-fluoro-methane (CH\u2082C",
+   "value": -1.28,
+   "reasoning_tokens": 403,
+   "completion": 522,
+   "cost": 0.00374925,
+   "finish": "stop",
+   "mol_id": "chloro-fluoro-methane",
+   "truth": -0.77
+  },
+  {
+   "text": "To predict the experimental hydration free energy of 2-methylhexane, we analyze ",
+   "value": 2.58,
+   "reasoning_tokens": 515,
+   "completion": 708,
+   "cost": 0.00444675,
+   "finish": "stop",
+   "mol_id": "2-methylhexane",
+   "truth": 2.93
+  }
+ ]
+}

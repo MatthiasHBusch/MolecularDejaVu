@@ -1,0 +1,1635 @@
+{
+ "meta": {
+  "dataset": "qm7",
+  "tag": "gem35flash",
+  "endpoint": "google/gemini-3.5-flash",
+  "level": "high",
+  "n_mol": 60,
+  "iters": 3,
+  "max_tokens": 20000,
+  "cost": 13.133477250000007,
+  "timestamp": "2026-08-15T10:58:21"
+ },
+ "calls": [
+  {
+   "text": "-1204",
+   "value": -1204.0,
+   "reasoning_tokens": 7237,
+   "completion": 7242,
+   "cost": 0.032667,
+   "finish": "stop",
+   "mol_id": "COCCN"
+  },
+  {
+   "text": "- (-355.7) = -443.5$.\n                                                          ",
+   "value": -1198.0,
+   "reasoning_tokens": 19199,
+   "completion": 19996,
+   "cost": 0.09006,
+   "finish": "length",
+   "mol_id": "COCCN"
+  },
+  {
+   "text": "-1240",
+   "value": -1240.0,
+   "reasoning_tokens": 14379,
+   "completion": 14384,
+   "cost": 0.064806,
+   "finish": "stop",
+   "mol_id": "COCCN"
+  },
+  {
+   "text": "2.   Maybe the value is indeed around -1485 kcal/mol?\n                          ",
+   "value": 1.0,
+   "reasoning_tokens": 19199,
+   "completion": 19996,
+   "cost": 0.090066,
+   "finish": "length",
+   "mol_id": "C=C1CN2CC1C2"
+  },
+  {
+   "text": "-1521.1",
+   "value": -1521.1,
+   "reasoning_tokens": 19197,
+   "completion": 19204,
+   "cost": 0.086502,
+   "finish": "stop",
+   "mol_id": "C=C1CN2CC1C2"
+  },
+  {
+   "text": "-1590.2",
+   "value": -1590.2,
+   "reasoning_tokens": 19197,
+   "completion": 19204,
+   "cost": 0.086502,
+   "finish": "stop",
+   "mol_id": "C=C1CN2CC1C2"
+  },
+  {
+   "text": "70 = -560$ kcal/mol.\n                                                           ",
+   "value": -1506.0,
+   "reasoning_tokens": 19201,
+   "completion": 19812,
+   "cost": 0.089235,
+   "finish": "stop",
+   "mol_id": "CNCC(=O)OC"
+  },
+  {
+   "text": "-1605",
+   "value": -1605.0,
+   "reasoning_tokens": 17706,
+   "completion": 17711,
+   "cost": 0.0797805,
+   "finish": "stop",
+   "mol_id": "CNCC(=O)OC"
+  },
+  {
+   "text": "-1000\" in QM7.\n                                                                 ",
+   "value": 980.0,
+   "reasoning_tokens": 19197,
+   "completion": 19996,
+   "cost": 0.090063,
+   "finish": "length",
+   "mol_id": "CNCC(=O)OC"
+  },
+  {
+   "text": "-1839.3",
+   "value": -1839.3,
+   "reasoning_tokens": 11367,
+   "completion": 11374,
+   "cost": 0.05126775,
+   "finish": "stop",
+   "mol_id": "C#CC(C)C(C)C"
+  },
+  {
+   "text": "-1876.2",
+   "value": -1876.2,
+   "reasoning_tokens": 17584,
+   "completion": 17591,
+   "cost": 0.07924425,
+   "finish": "stop",
+   "mol_id": "C#CC(C)C(C)C"
+  },
+  {
+   "text": "-1830",
+   "value": -1830.0,
+   "reasoning_tokens": 18833,
+   "completion": 18838,
+   "cost": 0.08485575,
+   "finish": "stop",
+   "mol_id": "C#CC(C)C(C)C"
+  },
+  {
+   "text": "-1599",
+   "value": -1599.0,
+   "reasoning_tokens": 13672,
+   "completion": 13677,
+   "cost": 0.06162825,
+   "finish": "stop",
+   "mol_id": "CCC(O)CC#N"
+  },
+  {
+   "text": "-1635.0",
+   "value": -1635.0,
+   "reasoning_tokens": 16908,
+   "completion": 16915,
+   "cost": 0.07619925,
+   "finish": "stop",
+   "mol_id": "CCC(O)CC#N"
+  },
+  {
+   "text": "Wait, why is my additive estimate 1568 then?\n                                   ",
+   "value": 103.0,
+   "reasoning_tokens": 19199,
+   "completion": 19996,
+   "cost": 0.09006375,
+   "finish": "length",
+   "mol_id": "CCC(O)CC#N"
+  },
+  {
+   "text": "-1438.3",
+   "value": -1438.3,
+   "reasoning_tokens": 19197,
+   "completion": 19204,
+   "cost": 0.086499,
+   "finish": "stop",
+   "mol_id": "ON=C1CCCN1"
+  },
+  {
+   "text": "-1422",
+   "value": -1422.0,
+   "reasoning_tokens": 18539,
+   "completion": 18544,
+   "cost": 0.083529,
+   "finish": "stop",
+   "mol_id": "ON=C1CCCN1"
+  },
+  {
+   "text": "-1485.4",
+   "value": -1485.4,
+   "reasoning_tokens": 17986,
+   "completion": 17993,
+   "cost": 0.0810495,
+   "finish": "stop",
+   "mol_id": "ON=C1CCCN1"
+  },
+  {
+   "text": "-1811.4",
+   "value": -1811.4,
+   "reasoning_tokens": 15881,
+   "completion": 15888,
+   "cost": 0.07157625,
+   "finish": "stop",
+   "mol_id": "CC1NC1CCN"
+  },
+  {
+   "text": "1681.3",
+   "value": 1681.3,
+   "reasoning_tokens": 14673,
+   "completion": 14679,
+   "cost": 0.06613575,
+   "finish": "stop",
+   "mol_id": "CC1NC1CCN"
+  },
+  {
+   "text": "1792",
+   "value": 1792.0,
+   "reasoning_tokens": 16625,
+   "completion": 16629,
+   "cost": 0.07491075,
+   "finish": "stop",
+   "mol_id": "CC1NC1CCN"
+  },
+  {
+   "text": "-1585",
+   "value": -1585.0,
+   "reasoning_tokens": 17626,
+   "completion": 17631,
+   "cost": 0.07942125,
+   "finish": "stop",
+   "mol_id": "CC1CC1NC=N"
+  },
+  {
+   "text": "1683",
+   "value": 1683.0,
+   "reasoning_tokens": 19198,
+   "completion": 19202,
+   "cost": 0.08649075,
+   "finish": "stop",
+   "mol_id": "CC1CC1NC=N"
+  },
+  {
+   "text": "-1563.85",
+   "value": -1563.85,
+   "reasoning_tokens": 19196,
+   "completion": 19204,
+   "cost": 0.08649975,
+   "finish": "stop",
+   "mol_id": "CC1CC1NC=N"
+  },
+  {
+   "text": "1102",
+   "value": 1102.0,
+   "reasoning_tokens": 10897,
+   "completion": 10901,
+   "cost": 0.04913925,
+   "finish": "stop",
+   "mol_id": "CC1=NN=C(C)C1"
+  },
+  {
+   "text": "1537",
+   "value": 1537.0,
+   "reasoning_tokens": 16788,
+   "completion": 16792,
+   "cost": 0.07564875,
+   "finish": "stop",
+   "mol_id": "CC1=NN=C(C)C1"
+  },
+  {
+   "text": "-1464",
+   "value": -1464.0,
+   "reasoning_tokens": 13841,
+   "completion": 13846,
+   "cost": 0.06239175,
+   "finish": "stop",
+   "mol_id": "CC1=NN=C(C)C1"
+  },
+  {
+   "text": "1385",
+   "value": 1385.0,
+   "reasoning_tokens": 17739,
+   "completion": 17743,
+   "cost": 0.07992525,
+   "finish": "stop",
+   "mol_id": "CC1NN=CC1O"
+  },
+  {
+   "text": "1485",
+   "value": 1485.0,
+   "reasoning_tokens": 17943,
+   "completion": 17947,
+   "cost": 0.08084325,
+   "finish": "stop",
+   "mol_id": "CC1NN=CC1O"
+  },
+  {
+   "text": "-1459",
+   "value": -1459.0,
+   "reasoning_tokens": 19196,
+   "completion": 19201,
+   "cost": 0.08648625,
+   "finish": "stop",
+   "mol_id": "CC1NN=CC1O"
+  },
+  {
+   "text": "1375",
+   "value": 1375.0,
+   "reasoning_tokens": 18375,
+   "completion": 18379,
+   "cost": 0.0827895,
+   "finish": "stop",
+   "mol_id": "CC1C=CC(=O)O1"
+  },
+  {
+   "text": "-1258",
+   "value": -1258.0,
+   "reasoning_tokens": 17614,
+   "completion": 17619,
+   "cost": 0.0793695,
+   "finish": "stop",
+   "mol_id": "CC1C=CC(=O)O1"
+  },
+  {
+   "text": "1409.8",
+   "value": 1409.8,
+   "reasoning_tokens": 17724,
+   "completion": 17730,
+   "cost": 0.079869,
+   "finish": "stop",
+   "mol_id": "CC1C=CC(=O)O1"
+  },
+  {
+   "text": "-1580",
+   "value": -1580.0,
+   "reasoning_tokens": 17430,
+   "completion": 17435,
+   "cost": 0.07854,
+   "finish": "stop",
+   "mol_id": "NC1CC1C1CO1"
+  },
+  {
+   "text": "-1580",
+   "value": -1580.0,
+   "reasoning_tokens": 16643,
+   "completion": 16648,
+   "cost": 0.0749985,
+   "finish": "stop",
+   "mol_id": "NC1CC1C1CO1"
+  },
+  {
+   "text": "*   Usually, dehydrogenative coupling of two alkanes (e.g., 2 CH4 -> C2H6 + H2) ",
+   "value": 7.0,
+   "reasoning_tokens": 19201,
+   "completion": 19996,
+   "cost": 0.0900645,
+   "finish": "length",
+   "mol_id": "NC1CC1C1CO1"
+  },
+  {
+   "text": "-1537.8",
+   "value": -1537.8,
+   "reasoning_tokens": 19196,
+   "completion": 19203,
+   "cost": 0.086496,
+   "finish": "stop",
+   "mol_id": "COC(=O)C1CC1"
+  },
+  {
+   "text": "538?\n        *   Let's think of another C5H8O2 isomer:\n            *   Ismer 1: ",
+   "value": -1537.9,
+   "reasoning_tokens": 19199,
+   "completion": 19789,
+   "cost": 0.089133,
+   "finish": "stop",
+   "mol_id": "COC(=O)C1CC1"
+  },
+  {
+   "text": "-1361.1",
+   "value": -1361.1,
+   "reasoning_tokens": 15420,
+   "completion": 15427,
+   "cost": 0.069504,
+   "finish": "stop",
+   "mol_id": "COC(=O)C1CC1"
+  },
+  {
+   "text": "-1275",
+   "value": -1275.0,
+   "reasoning_tokens": 19020,
+   "completion": 19025,
+   "cost": 0.0856965,
+   "finish": "stop",
+   "mol_id": "C#CCN(C)[N][CH2]"
+  },
+  {
+   "text": "1414",
+   "value": 1414.0,
+   "reasoning_tokens": 13371,
+   "completion": 13375,
+   "cost": 0.0602715,
+   "finish": "stop",
+   "mol_id": "C#CCN(C)[N][CH2]"
+  },
+  {
+   "text": "1427.8",
+   "value": 1427.8,
+   "reasoning_tokens": 19196,
+   "completion": 19202,
+   "cost": 0.086493,
+   "finish": "stop",
+   "mol_id": "C#CCN(C)[N][CH2]"
+  },
+  {
+   "text": "-1864",
+   "value": -1864.0,
+   "reasoning_tokens": 19200,
+   "completion": 19205,
+   "cost": 0.08650125,
+   "finish": "stop",
+   "mol_id": "CCC=CCOC"
+  },
+  {
+   "text": "1833",
+   "value": 1833.0,
+   "reasoning_tokens": 11332,
+   "completion": 11336,
+   "cost": 0.05109075,
+   "finish": "stop",
+   "mol_id": "CCC=CCOC"
+  },
+  {
+   "text": "1764.5",
+   "value": 1764.5,
+   "reasoning_tokens": 7881,
+   "completion": 7887,
+   "cost": 0.03557025,
+   "finish": "stop",
+   "mol_id": "CCC=CCOC"
+  },
+  {
+   "text": "-1875",
+   "value": -1875.0,
+   "reasoning_tokens": 19197,
+   "completion": 19202,
+   "cost": 0.08648925,
+   "finish": "stop",
+   "mol_id": "CNC1CCC1O"
+  },
+  {
+   "text": "1591.2",
+   "value": 1591.2,
+   "reasoning_tokens": 15130,
+   "completion": 15136,
+   "cost": 0.06819225,
+   "finish": "stop",
+   "mol_id": "CNC1CCC1O"
+  },
+  {
+   "text": "2 Carbons (ethylamine): +11.6 kcal/mol.\nFor 3 Carbons (propylamine): +23.5 kcal/",
+   "value": 1.0,
+   "reasoning_tokens": 19199,
+   "completion": 19996,
+   "cost": 0.09006225,
+   "finish": "length",
+   "mol_id": "CNC1CCC1O"
+  },
+  {
+   "text": "8$ kcal/mol?\nActually, the atomization energy is about 750 kcal/mol.\nOur simple ",
+   "value": 7.0,
+   "reasoning_tokens": 19198,
+   "completion": 19996,
+   "cost": 0.09006375,
+   "finish": "length",
+   "mol_id": "OCC1C=NOC1"
+  },
+  {
+   "text": "-1011.8",
+   "value": -1011.8,
+   "reasoning_tokens": 8198,
+   "completion": 8205,
+   "cost": 0.03700425,
+   "finish": "stop",
+   "mol_id": "OCC1C=NOC1"
+  },
+  {
+   "text": "-1324.2",
+   "value": -1324.2,
+   "reasoning_tokens": 13252,
+   "completion": 13259,
+   "cost": 0.05974725,
+   "finish": "stop",
+   "mol_id": "OCC1C=NOC1"
+  },
+  {
+   "text": "1461.4",
+   "value": 1461.4,
+   "reasoning_tokens": 9671,
+   "completion": 9677,
+   "cost": 0.04362975,
+   "finish": "stop",
+   "mol_id": "CCC(O)[CH][N]O"
+  },
+  {
+   "text": "1505",
+   "value": 1505.0,
+   "reasoning_tokens": 15883,
+   "completion": 15887,
+   "cost": 0.07157475,
+   "finish": "stop",
+   "mol_id": "CCC(O)[CH][N]O"
+  },
+  {
+   "text": "-1535",
+   "value": -1535.0,
+   "reasoning_tokens": 17000,
+   "completion": 17005,
+   "cost": 0.07660575,
+   "finish": "stop",
+   "mol_id": "CCC(O)[CH][N]O"
+  },
+  {
+   "text": "-1765.3",
+   "value": -1765.3,
+   "reasoning_tokens": 18834,
+   "completion": 18841,
+   "cost": 0.08486475,
+   "finish": "stop",
+   "mol_id": "CC1CN1CCN"
+  },
+  {
+   "text": "*   Is there any chance Aziridine is higher?\n                *   Let's check Azi",
+   "value": 0.0,
+   "reasoning_tokens": 19197,
+   "completion": 19996,
+   "cost": 0.09006225,
+   "finish": "length",
+   "mol_id": "CC1CN1CCN"
+  },
+  {
+   "text": "-1690",
+   "value": -1690.0,
+   "reasoning_tokens": 10924,
+   "completion": 10929,
+   "cost": 0.04926075,
+   "finish": "stop",
+   "mol_id": "CC1CN1CCN"
+  },
+  {
+   "text": "-1633",
+   "value": -1633.0,
+   "reasoning_tokens": 18479,
+   "completion": 18484,
+   "cost": 0.083259,
+   "finish": "stop",
+   "mol_id": "C#CC1CCNC1"
+  },
+  {
+   "text": "-1638.2",
+   "value": -1638.2,
+   "reasoning_tokens": 19200,
+   "completion": 19207,
+   "cost": 0.0865125,
+   "finish": "stop",
+   "mol_id": "C#CC1CCNC1"
+  },
+  {
+   "text": "-1287.0",
+   "value": -1287.0,
+   "reasoning_tokens": 17697,
+   "completion": 17704,
+   "cost": 0.079749,
+   "finish": "stop",
+   "mol_id": "C#CC1CCNC1"
+  },
+  {
+   "text": "-1680.2",
+   "value": -1680.2,
+   "reasoning_tokens": 7460,
+   "completion": 7467,
+   "cost": 0.03368175,
+   "finish": "stop",
+   "mol_id": "CCCC(C)=NN"
+  },
+  {
+   "text": "-1778",
+   "value": -1778.0,
+   "reasoning_tokens": 11684,
+   "completion": 11689,
+   "cost": 0.05268075,
+   "finish": "stop",
+   "mol_id": "CCCC(C)=NN"
+  },
+  {
+   "text": "-1714",
+   "value": -1714.0,
+   "reasoning_tokens": 15588,
+   "completion": 15593,
+   "cost": 0.07024875,
+   "finish": "stop",
+   "mol_id": "CCCC(C)=NN"
+  },
+  {
+   "text": "-1611.5",
+   "value": -1611.5,
+   "reasoning_tokens": 7992,
+   "completion": 7999,
+   "cost": 0.036078,
+   "finish": "stop",
+   "mol_id": "CNC(=O)C1CC1"
+  },
+  {
+   "text": "-1542",
+   "value": -1542.0,
+   "reasoning_tokens": 10500,
+   "completion": 10505,
+   "cost": 0.047355,
+   "finish": "stop",
+   "mol_id": "CNC(=O)C1CC1"
+  },
+  {
+   "text": "-1600",
+   "value": -1600.0,
+   "reasoning_tokens": 18979,
+   "completion": 18984,
+   "cost": 0.0855105,
+   "finish": "stop",
+   "mol_id": "CNC(=O)C1CC1"
+  },
+  {
+   "text": "-1701",
+   "value": -1701.0,
+   "reasoning_tokens": 19199,
+   "completion": 19204,
+   "cost": 0.08649975,
+   "finish": "stop",
+   "mol_id": "C#CC(CC)CO"
+  },
+  {
+   "text": "-1709.8",
+   "value": -1709.8,
+   "reasoning_tokens": 16195,
+   "completion": 16202,
+   "cost": 0.07299075,
+   "finish": "stop",
+   "mol_id": "C#CC(CC)CO"
+  },
+  {
+   "text": "-1592",
+   "value": -1592.0,
+   "reasoning_tokens": 17515,
+   "completion": 17520,
+   "cost": 0.07892175,
+   "finish": "stop",
+   "mol_id": "C#CC(CC)CO"
+  },
+  {
+   "text": "-1485.8",
+   "value": -1485.8,
+   "reasoning_tokens": 17227,
+   "completion": 17234,
+   "cost": 0.07763325,
+   "finish": "stop",
+   "mol_id": "CCC(CO)=NN"
+  },
+  {
+   "text": "-1607.5",
+   "value": -1607.5,
+   "reasoning_tokens": 12484,
+   "completion": 12491,
+   "cost": 0.05628975,
+   "finish": "stop",
+   "mol_id": "CCC(CO)=NN"
+  },
+  {
+   "text": "-1554",
+   "value": -1554.0,
+   "reasoning_tokens": 14822,
+   "completion": 14827,
+   "cost": 0.06680175,
+   "finish": "stop",
+   "mol_id": "CCC(CO)=NN"
+  },
+  {
+   "text": "-1133",
+   "value": -1133.0,
+   "reasoning_tokens": 17505,
+   "completion": 17510,
+   "cost": 0.078876,
+   "finish": "stop",
+   "mol_id": "C=CC1CC1"
+  },
+  {
+   "text": "-1341.6",
+   "value": -1341.6,
+   "reasoning_tokens": 13962,
+   "completion": 13969,
+   "cost": 0.0629415,
+   "finish": "stop",
+   "mol_id": "C=CC1CC1"
+  },
+  {
+   "text": "-1281",
+   "value": -1281.0,
+   "reasoning_tokens": 13520,
+   "completion": 13525,
+   "cost": 0.0609435,
+   "finish": "stop",
+   "mol_id": "C=CC1CC1"
+  },
+  {
+   "text": "2 C-O (energy $2 \\times -93 = -186$).\n                                          ",
+   "value": -59.0,
+   "reasoning_tokens": 19200,
+   "completion": 19996,
+   "cost": 0.09006375,
+   "finish": "length",
+   "mol_id": "C=C(CC)OC"
+  },
+  {
+   "text": "-1412.4",
+   "value": -1412.4,
+   "reasoning_tokens": 13969,
+   "completion": 13976,
+   "cost": 0.06297375,
+   "finish": "stop",
+   "mol_id": "C=C(CC)OC"
+  },
+  {
+   "text": "-1531.5",
+   "value": -1531.5,
+   "reasoning_tokens": 6433,
+   "completion": 6440,
+   "cost": 0.02906175,
+   "finish": "stop",
+   "mol_id": "C=C(CC)OC"
+  },
+  {
+   "text": "QM7}(\\text{Ethane})$\n                *   $AE_{QM7}(\\text{Product}) \\approx 1135 ",
+   "value": 418.0,
+   "reasoning_tokens": 19198,
+   "completion": 19996,
+   "cost": 0.09006525,
+   "finish": "length",
+   "mol_id": "C#CCC(=C)C=O"
+  },
+  {
+   "text": "1360",
+   "value": 1360.0,
+   "reasoning_tokens": 12960,
+   "completion": 12964,
+   "cost": 0.05842125,
+   "finish": "stop",
+   "mol_id": "C#CCC(=C)C=O"
+  },
+  {
+   "text": ")$.\n                                                                            ",
+   "value": 2.0,
+   "reasoning_tokens": 19197,
+   "completion": 19996,
+   "cost": 0.09006525,
+   "finish": "length",
+   "mol_id": "C#CCC(=C)C=O"
+  },
+  {
+   "text": "78.6 - (-1070) = -108.6 kcal/mol.\n                                              ",
+   "value": 0.1,
+   "reasoning_tokens": 19197,
+   "completion": 19996,
+   "cost": 0.0900645,
+   "finish": "length",
+   "mol_id": "C1NC2CC1C2"
+  },
+  {
+   "text": "+ 2 C-N. Wait, piperidine is a ring of 6 atoms, so it has 6 bonds. Yes, 4 C-C, 2",
+   "value": 1562.6,
+   "reasoning_tokens": 19197,
+   "completion": 19996,
+   "cost": 0.0900645,
+   "finish": "length",
+   "mol_id": "C1NC2CC1C2"
+  },
+  {
+   "text": "times (-56.2) = -1304.8 - 674.4 = -1979.2$ kcal/mol.\n            *   Norbornane ",
+   "value": 32.5,
+   "reasoning_tokens": 19196,
+   "completion": 19996,
+   "cost": 0.0900645,
+   "finish": "length",
+   "mol_id": "C1NC2CC1C2"
+  },
+  {
+   "text": "1318",
+   "value": 1318.0,
+   "reasoning_tokens": 19200,
+   "completion": 19205,
+   "cost": 0.08650725,
+   "finish": "stop",
+   "mol_id": "C1=COC2(CC2)O1"
+  },
+  {
+   "text": "-1307.38",
+   "value": -1307.38,
+   "reasoning_tokens": 19200,
+   "completion": 19208,
+   "cost": 0.08652075,
+   "finish": "stop",
+   "mol_id": "C1=COC2(CC2)O1"
+  },
+  {
+   "text": "1366",
+   "value": 1366.0,
+   "reasoning_tokens": 18122,
+   "completion": 18126,
+   "cost": 0.08165175,
+   "finish": "stop",
+   "mol_id": "C1=COC2(CC2)O1"
+  },
+  {
+   "text": "-1393",
+   "value": -1393.0,
+   "reasoning_tokens": 18727,
+   "completion": 18732,
+   "cost": 0.08437425,
+   "finish": "stop",
+   "mol_id": "C=CCOC=C"
+  },
+  {
+   "text": "-1421",
+   "value": -1421.0,
+   "reasoning_tokens": 15316,
+   "completion": 15321,
+   "cost": 0.06902475,
+   "finish": "stop",
+   "mol_id": "C=CCOC=C"
+  },
+  {
+   "text": "-1411",
+   "value": -1411.0,
+   "reasoning_tokens": 19200,
+   "completion": 19205,
+   "cost": 0.08650275,
+   "finish": "stop",
+   "mol_id": "C=CCOC=C"
+  },
+  {
+   "text": "-1114.7of",
+   "value": -1114.7,
+   "reasoning_tokens": 19197,
+   "completion": 19205,
+   "cost": 0.086505,
+   "finish": "stop",
+   "mol_id": "ON=C1C=CCN1"
+  },
+  {
+   "text": "1268.0",
+   "value": 1268.0,
+   "reasoning_tokens": 17170,
+   "completion": 17176,
+   "cost": 0.0773745,
+   "finish": "stop",
+   "mol_id": "ON=C1C=CCN1"
+  },
+  {
+   "text": "-1365",
+   "value": -1365.0,
+   "reasoning_tokens": 15152,
+   "completion": 15157,
+   "cost": 0.068289,
+   "finish": "stop",
+   "mol_id": "ON=C1C=CCN1"
+  },
+  {
+   "text": "1494",
+   "value": 1494.0,
+   "reasoning_tokens": 19199,
+   "completion": 19203,
+   "cost": 0.08649825,
+   "finish": "stop",
+   "mol_id": "C#CC(O)C(=C)C"
+  },
+  {
+   "text": "-1580",
+   "value": -1580.0,
+   "reasoning_tokens": 11548,
+   "completion": 11553,
+   "cost": 0.05207325,
+   "finish": "stop",
+   "mol_id": "C#CC(O)C(=C)C"
+  },
+  {
+   "text": "1486.6",
+   "value": 1486.6,
+   "reasoning_tokens": 19197,
+   "completion": 19203,
+   "cost": 0.08649825,
+   "finish": "stop",
+   "mol_id": "C#CC(O)C(=C)C"
+  },
+  {
+   "text": "1733",
+   "value": 1733.0,
+   "reasoning_tokens": 14985,
+   "completion": 14989,
+   "cost": 0.06753225,
+   "finish": "stop",
+   "mol_id": "NCC1(N)CCC1"
+  },
+  {
+   "text": "-1718.6",
+   "value": -1718.6,
+   "reasoning_tokens": 19198,
+   "completion": 19205,
+   "cost": 0.08650425,
+   "finish": "stop",
+   "mol_id": "NCC1(N)CCC1"
+  },
+  {
+   "text": "-1685",
+   "value": -1685.0,
+   "reasoning_tokens": 16299,
+   "completion": 16304,
+   "cost": 0.07344975,
+   "finish": "stop",
+   "mol_id": "NCC1(N)CCC1"
+  },
+  {
+   "text": "1. Replace CH2 at position 2 of the 5-ring with N:\n                             ",
+   "value": -214.6,
+   "reasoning_tokens": 19201,
+   "completion": 19996,
+   "cost": 0.09006525,
+   "finish": "length",
+   "mol_id": "CN1N=CC2CC21"
+  },
+  {
+   "text": "1413.5",
+   "value": 1413.5,
+   "reasoning_tokens": 8210,
+   "completion": 8216,
+   "cost": 0.03705525,
+   "finish": "stop",
+   "mol_id": "CN1N=CC2CC21"
+  },
+  {
+   "text": "-1406.878",
+   "value": -1406.878,
+   "reasoning_tokens": 19196,
+   "completion": 19205,
+   "cost": 0.08650575,
+   "finish": "stop",
+   "mol_id": "CN1N=CC2CC21"
+  },
+  {
+   "text": "-1685",
+   "value": -1685.0,
+   "reasoning_tokens": 13276,
+   "completion": 13281,
+   "cost": 0.05984625,
+   "finish": "stop",
+   "mol_id": "CC1CCC2NC12"
+  },
+  {
+   "text": "-1791",
+   "value": -1791.0,
+   "reasoning_tokens": 15236,
+   "completion": 15241,
+   "cost": 0.06866625,
+   "finish": "stop",
+   "mol_id": "CC1CCC2NC12"
+  },
+  {
+   "text": "-1681.3",
+   "value": -1681.3,
+   "reasoning_tokens": 17729,
+   "completion": 17736,
+   "cost": 0.07989375,
+   "finish": "stop",
+   "mol_id": "CC1CCC2NC12"
+  },
+  {
+   "text": "-1592",
+   "value": -1592.0,
+   "reasoning_tokens": 8852,
+   "completion": 8857,
+   "cost": 0.03993675,
+   "finish": "stop",
+   "mol_id": "C=CCCC=C"
+  },
+  {
+   "text": "-1435.03",
+   "value": -1435.03,
+   "reasoning_tokens": 19198,
+   "completion": 19206,
+   "cost": 0.08650725,
+   "finish": "stop",
+   "mol_id": "C=CCCC=C"
+  },
+  {
+   "text": "-1573",
+   "value": -1573.0,
+   "reasoning_tokens": 18939,
+   "completion": 18944,
+   "cost": 0.08532825,
+   "finish": "stop",
+   "mol_id": "C=CCCC=C"
+  },
+  {
+   "text": "this was -910 kcal/mol.\n                                            *   In PBE0 ",
+   "value": -1599.0,
+   "reasoning_tokens": 19198,
+   "completion": 19996,
+   "cost": 0.09006225,
+   "finish": "length",
+   "mol_id": "C#CC#CCCC"
+  },
+  {
+   "text": "-1585",
+   "value": -1585.0,
+   "reasoning_tokens": 15472,
+   "completion": 15477,
+   "cost": 0.06972675,
+   "finish": "stop",
+   "mol_id": "C#CC#CCCC"
+  },
+  {
+   "text": "-1595",
+   "value": -1595.0,
+   "reasoning_tokens": 18637,
+   "completion": 18642,
+   "cost": 0.08396925,
+   "finish": "stop",
+   "mol_id": "C#CC#CCCC"
+  },
+  {
+   "text": "-1517",
+   "value": -1517.0,
+   "reasoning_tokens": 19198,
+   "completion": 19203,
+   "cost": 0.086496,
+   "finish": "stop",
+   "mol_id": "C=CN1C=NCC1"
+  },
+  {
+   "text": "-1300.2_",
+   "value": -1300.2,
+   "reasoning_tokens": 19196,
+   "completion": 19205,
+   "cost": 0.086505,
+   "finish": "stop",
+   "mol_id": "C=CN1C=NCC1"
+  },
+  {
+   "text": "1412",
+   "value": 1412.0,
+   "reasoning_tokens": 9045,
+   "completion": 9049,
+   "cost": 0.040803,
+   "finish": "stop",
+   "mol_id": "C=CN1C=NCC1"
+  },
+  {
+   "text": "1311.6",
+   "value": 1311.6,
+   "reasoning_tokens": 8585,
+   "completion": 8591,
+   "cost": 0.0387405,
+   "finish": "stop",
+   "mol_id": "Cc1occc1O"
+  },
+  {
+   "text": "1373.0",
+   "value": 1373.0,
+   "reasoning_tokens": 9290,
+   "completion": 9296,
+   "cost": 0.041913,
+   "finish": "stop",
+   "mol_id": "Cc1occc1O"
+  },
+  {
+   "text": "-1416",
+   "value": -1416.0,
+   "reasoning_tokens": 10075,
+   "completion": 10080,
+   "cost": 0.045441,
+   "finish": "stop",
+   "mol_id": "Cc1occc1O"
+  },
+  {
+   "text": "1661.27",
+   "value": 1661.27,
+   "reasoning_tokens": 19198,
+   "completion": 19205,
+   "cost": 0.086505,
+   "finish": "stop",
+   "mol_id": "NC1CC2CC1N2"
+  },
+  {
+   "text": "1540",
+   "value": 1540.0,
+   "reasoning_tokens": 18162,
+   "completion": 18166,
+   "cost": 0.0818295,
+   "finish": "stop",
+   "mol_id": "NC1CC2CC1N2"
+  },
+  {
+   "text": "-1280",
+   "value": -1280.0,
+   "reasoning_tokens": 17994,
+   "completion": 17999,
+   "cost": 0.081078,
+   "finish": "stop",
+   "mol_id": "NC1CC2CC1N2"
+  },
+  {
+   "text": "-1696",
+   "value": -1696.0,
+   "reasoning_tokens": 19201,
+   "completion": 19206,
+   "cost": 0.086508,
+   "finish": "stop",
+   "mol_id": "CC=CC1CNC1"
+  },
+  {
+   "text": "-245 - 145 = -850.\n                            *   (Actual ethylamine is ~ -855)",
+   "value": -518.0,
+   "reasoning_tokens": 19196,
+   "completion": 19996,
+   "cost": 0.090063,
+   "finish": "length",
+   "mol_id": "CC=CC1CNC1"
+  },
+  {
+   "text": "$\\Delta H_f(NH_3) = -11.0$ kcal/mol.\n      $\\sum E_{atoms} = 113.0 + 3 \\times 52",
+   "value": 0.0,
+   "reasoning_tokens": 19197,
+   "completion": 19996,
+   "cost": 0.090063,
+   "finish": "length",
+   "mol_id": "CC=CC1CNC1"
+  },
+  {
+   "text": "-1545",
+   "value": -1545.0,
+   "reasoning_tokens": 17805,
+   "completion": 17810,
+   "cost": 0.080226,
+   "finish": "stop",
+   "mol_id": "CC#CC1CCO1"
+  },
+  {
+   "text": "289.8 kcal/mol!\n                        *   Wait! The difference in QM7 is small",
+   "value": -1.0,
+   "reasoning_tokens": 19199,
+   "completion": 19996,
+   "cost": 0.090063,
+   "finish": "length",
+   "mol_id": "CC#CC1CCO1"
+  },
+  {
+   "text": "-1497.6",
+   "value": -1497.6,
+   "reasoning_tokens": 19197,
+   "completion": 19204,
+   "cost": 0.086499,
+   "finish": "stop",
+   "mol_id": "CC#CC1CCO1"
+  },
+  {
+   "text": "-1381.2",
+   "value": -1381.2,
+   "reasoning_tokens": 12452,
+   "completion": 12459,
+   "cost": 0.056145,
+   "finish": "stop",
+   "mol_id": "Cn1cccc1"
+  },
+  {
+   "text": "-1386.8",
+   "value": -1386.8,
+   "reasoning_tokens": 16034,
+   "completion": 16041,
+   "cost": 0.072264,
+   "finish": "stop",
+   "mol_id": "Cn1cccc1"
+  },
+  {
+   "text": "1380",
+   "value": 1380.0,
+   "reasoning_tokens": 10772,
+   "completion": 10776,
+   "cost": 0.0485715,
+   "finish": "stop",
+   "mol_id": "Cn1cccc1"
+  },
+  {
+   "text": "thought\n                                                                        ",
+   "value": -14.0,
+   "reasoning_tokens": 19197,
+   "completion": 19996,
+   "cost": 0.09006675,
+   "finish": "length",
+   "mol_id": "C#CC=C(C)C#C"
+  },
+  {
+   "text": "No, wait. Let's do:\n4 * 171.29 + 4 * 52.1 = 685.16 + 208.4 = 893.56.\n893.56 - 70",
+   "value": 3.0,
+   "reasoning_tokens": 19196,
+   "completion": 19996,
+   "cost": 0.09006675,
+   "finish": "length",
+   "mol_id": "C#CC=C(C)C#C"
+  },
+  {
+   "text": "mol.\n        *   If we subtract 1.5 kcal/mol for cross-conjugation / steric effe",
+   "value": 1438.1438,
+   "reasoning_tokens": 19198,
+   "completion": 19995,
+   "cost": 0.09006225,
+   "finish": "length",
+   "mol_id": "C#CC=C(C)C#C"
+  },
+  {
+   "text": "-1415.2",
+   "value": -1415.2,
+   "reasoning_tokens": 6615,
+   "completion": 6622,
+   "cost": 0.02988075,
+   "finish": "stop",
+   "mol_id": "CCC(C#N)=CN"
+  },
+  {
+   "text": "-1485",
+   "value": -1485.0,
+   "reasoning_tokens": 16925,
+   "completion": 16930,
+   "cost": 0.07626675,
+   "finish": "stop",
+   "mol_id": "CCC(C#N)=CN"
+  },
+  {
+   "text": "-1546.2",
+   "value": -1546.2,
+   "reasoning_tokens": 17522,
+   "completion": 17529,
+   "cost": 0.07896225,
+   "finish": "stop",
+   "mol_id": "CCC(C#N)=CN"
+  },
+  {
+   "text": "-2045.5",
+   "value": -2045.5,
+   "reasoning_tokens": 15980,
+   "completion": 15987,
+   "cost": 0.07202475,
+   "finish": "stop",
+   "mol_id": "CCC(C)N(C)C"
+  },
+  {
+   "text": "-2053.4",
+   "value": -2053.4,
+   "reasoning_tokens": 9115,
+   "completion": 9122,
+   "cost": 0.04113225,
+   "finish": "stop",
+   "mol_id": "CCC(C)N(C)C"
+  },
+  {
+   "text": "- Pentane: -1429.81 (diff -252.7)\n            - Hexane: -1682.44 (diff -252.6)\n ",
+   "value": 2.0,
+   "reasoning_tokens": 19197,
+   "completion": 19996,
+   "cost": 0.09006525,
+   "finish": "length",
+   "mol_id": "CCC(C)N(C)C"
+  },
+  {
+   "text": "-1685",
+   "value": -1685.0,
+   "reasoning_tokens": 14973,
+   "completion": 14978,
+   "cost": 0.06748125,
+   "finish": "stop",
+   "mol_id": "CC=CC=COC"
+  },
+  {
+   "text": "-1708",
+   "value": -1708.0,
+   "reasoning_tokens": 10496,
+   "completion": 10501,
+   "cost": 0.04733475,
+   "finish": "stop",
+   "mol_id": "CC=CC=COC"
+  },
+  {
+   "text": "-1716.48",
+   "value": -1716.48,
+   "reasoning_tokens": 9195,
+   "completion": 9203,
+   "cost": 0.04149375,
+   "finish": "stop",
+   "mol_id": "CC=CC=COC"
+  },
+  {
+   "text": "}(electronic, exp) \\approx -1750.1$ kcal/mol.\n    What is $\\Delta$ for $C_7H_{10",
+   "value": 1.0,
+   "reasoning_tokens": 19199,
+   "completion": 19996,
+   "cost": 0.09006375,
+   "finish": "length",
+   "mol_id": "CC#CC(C)=CC"
+  },
+  {
+   "text": "1689",
+   "value": 1689.0,
+   "reasoning_tokens": 10872,
+   "completion": 10876,
+   "cost": 0.04902375,
+   "finish": "stop",
+   "mol_id": "CC#CC(C)=CC"
+  },
+  {
+   "text": "-1708.6",
+   "value": -1708.6,
+   "reasoning_tokens": 18308,
+   "completion": 18315,
+   "cost": 0.08249925,
+   "finish": "stop",
+   "mol_id": "CC#CC(C)=CC"
+  },
+  {
+   "text": "-> 2 H.\n                                                                        ",
+   "value": 7.0,
+   "reasoning_tokens": 19200,
+   "completion": 19996,
+   "cost": 0.09006375,
+   "finish": "length",
+   "mol_id": "C=C1CCNC1C"
+  },
+  {
+   "text": "-1718.5",
+   "value": -1718.5,
+   "reasoning_tokens": 19201,
+   "completion": 19208,
+   "cost": 0.08651775,
+   "finish": "stop",
+   "mol_id": "C=C1CCNC1C"
+  },
+  {
+   "text": "C_7H_{13}N$) is primarily:\n                                        *   One doubl",
+   "value": 2.0,
+   "reasoning_tokens": 19200,
+   "completion": 19996,
+   "cost": 0.09006375,
+   "finish": "length",
+   "mol_id": "C=C1CCNC1C"
+  },
+  {
+   "text": "Actually, $E_{at}(\\text{methyl ethyl ether}) = E_{at}(\\text{dimethyl ether}) + C",
+   "value": 5.0,
+   "reasoning_tokens": 19198,
+   "completion": 19996,
+   "cost": 0.09006225,
+   "finish": "length",
+   "mol_id": "CCC(CC)OC"
+  },
+  {
+   "text": "-1981",
+   "value": -1981.0,
+   "reasoning_tokens": 14967,
+   "completion": 14972,
+   "cost": 0.06745425,
+   "finish": "stop",
+   "mol_id": "CCC(CC)OC"
+  },
+  {
+   "text": "-1893",
+   "value": -1893.0,
+   "reasoning_tokens": 19196,
+   "completion": 19201,
+   "cost": 0.08648475,
+   "finish": "stop",
+   "mol_id": "CCC(CC)OC"
+  },
+  {
+   "text": "1346.3",
+   "value": 1346.3,
+   "reasoning_tokens": 10919,
+   "completion": 10925,
+   "cost": 0.04924425,
+   "finish": "stop",
+   "mol_id": "CCC[CH][N]O"
+  },
+  {
+   "text": "-1361.3",
+   "value": -1361.3,
+   "reasoning_tokens": 15098,
+   "completion": 15105,
+   "cost": 0.06805425,
+   "finish": "stop",
+   "mol_id": "CCC[CH][N]O"
+  },
+  {
+   "text": "1341.5",
+   "value": 1341.5,
+   "reasoning_tokens": 15407,
+   "completion": 15413,
+   "cost": 0.06944025,
+   "finish": "stop",
+   "mol_id": "CCC[CH][N]O"
+  },
+  {
+   "text": "-1533.4",
+   "value": -1533.4,
+   "reasoning_tokens": 15980,
+   "completion": 15987,
+   "cost": 0.07202175,
+   "finish": "stop",
+   "mol_id": "CCOC=CC=O"
+  },
+  {
+   "text": "-1411.4",
+   "value": -1411.4,
+   "reasoning_tokens": 16937,
+   "completion": 16944,
+   "cost": 0.07632825,
+   "finish": "stop",
+   "mol_id": "CCOC=CC=O"
+  },
+  {
+   "text": "1463",
+   "value": 1463.0,
+   "reasoning_tokens": 8519,
+   "completion": 8523,
+   "cost": 0.03843375,
+   "finish": "stop",
+   "mol_id": "CCOC=CC=O"
+  },
+  {
+   "text": "-1480",
+   "value": -1480.0,
+   "reasoning_tokens": 13619,
+   "completion": 13624,
+   "cost": 0.06138825,
+   "finish": "stop",
+   "mol_id": "CCN(C)C"
+  },
+  {
+   "text": "-1414.9",
+   "value": -1414.9,
+   "reasoning_tokens": 7415,
+   "completion": 7422,
+   "cost": 0.03347925,
+   "finish": "stop",
+   "mol_id": "CCN(C)C"
+  },
+  {
+   "text": "-1337",
+   "value": -1337.0,
+   "reasoning_tokens": 16402,
+   "completion": 16407,
+   "cost": 0.07391175,
+   "finish": "stop",
+   "mol_id": "CCN(C)C"
+  },
+  {
+   "text": "1725.5",
+   "value": 1725.5,
+   "reasoning_tokens": 19196,
+   "completion": 19202,
+   "cost": 0.08649225,
+   "finish": "stop",
+   "mol_id": "C=CC1(N)CCC1"
+  },
+  {
+   "text": "-1805",
+   "value": -1805.0,
+   "reasoning_tokens": 15201,
+   "completion": 15206,
+   "cost": 0.06851025,
+   "finish": "stop",
+   "mol_id": "C=CC1(N)CCC1"
+  },
+  {
+   "text": "-1748.1",
+   "value": -1748.1,
+   "reasoning_tokens": 17937,
+   "completion": 17944,
+   "cost": 0.08083125,
+   "finish": "stop",
+   "mol_id": "C=CC1(N)CCC1"
+  },
+  {
+   "text": "Electronic AE of C6H8 (cyclohexadiene) is ~1508 kcal/mol.\n                      ",
+   "value": 1508.0,
+   "reasoning_tokens": 19200,
+   "completion": 19996,
+   "cost": 0.09006375,
+   "finish": "length",
+   "mol_id": "CC1=CCC=CO1"
+  },
+  {
+   "text": "C5H8O -> +CH2 - 2H -> C6H8O.\n                                        *   Actuall",
+   "value": -1720.0,
+   "reasoning_tokens": 19196,
+   "completion": 19996,
+   "cost": 0.09006375,
+   "finish": "length",
+   "mol_id": "CC1=CCC=CO1"
+  },
+  {
+   "text": "To find the atomization energy of the molecule `CC1=CCC=CO1` (which is 6-methyl-",
+   "value": -1511.4,
+   "reasoning_tokens": 19198,
+   "completion": 19309,
+   "cost": 0.08697225,
+   "finish": "stop",
+   "mol_id": "CC1=CCC=CO1"
+  },
+  {
+   "text": "-1138",
+   "value": -1138.0,
+   "reasoning_tokens": 14100,
+   "completion": 14105,
+   "cost": 0.063552,
+   "finish": "stop",
+   "mol_id": "CCNC=O"
+  },
+  {
+   "text": "-1124.5",
+   "value": -1124.5,
+   "reasoning_tokens": 4594,
+   "completion": 4601,
+   "cost": 0.020784,
+   "finish": "stop",
+   "mol_id": "CCNC=O"
+  },
+  {
+   "text": "/ Carbonyl contribution?\n                                                *   Whe",
+   "value": 7.0,
+   "reasoning_tokens": 19200,
+   "completion": 19996,
+   "cost": 0.0900615,
+   "finish": "length",
+   "mol_id": "CCNC=O"
+  },
+  {
+   "text": "-1481",
+   "value": -1481.0,
+   "reasoning_tokens": 13170,
+   "completion": 13175,
+   "cost": 0.0593685,
+   "finish": "stop",
+   "mol_id": "CCNCC(=O)O"
+  },
+  {
+   "text": "-1535",
+   "value": -1535.0,
+   "reasoning_tokens": 9813,
+   "completion": 9818,
+   "cost": 0.044262,
+   "finish": "stop",
+   "mol_id": "CCNCC(=O)O"
+  },
+  {
+   "text": "-1511.4",
+   "value": -1511.4,
+   "reasoning_tokens": 16358,
+   "completion": 16365,
+   "cost": 0.0737235,
+   "finish": "stop",
+   "mol_id": "CCNCC(=O)O"
+  },
+  {
+   "text": "-1465",
+   "value": -1465.0,
+   "reasoning_tokens": 15498,
+   "completion": 15503,
+   "cost": 0.0698445,
+   "finish": "stop",
+   "mol_id": "NC1COCC1O"
+  },
+  {
+   "text": "-1528",
+   "value": -1528.0,
+   "reasoning_tokens": 16513,
+   "completion": 16518,
+   "cost": 0.074412,
+   "finish": "stop",
+   "mol_id": "NC1COCC1O"
+  },
+  {
+   "text": "-1461.3",
+   "value": -1461.3,
+   "reasoning_tokens": 19197,
+   "completion": 19204,
+   "cost": 0.086499,
+   "finish": "stop",
+   "mol_id": "NC1COCC1O"
+  },
+  {
+   "text": "-1245",
+   "value": -1245.0,
+   "reasoning_tokens": 12967,
+   "completion": 12972,
+   "cost": 0.05845275,
+   "finish": "stop",
+   "mol_id": "C=CCCN"
+  },
+  {
+   "text": "-1292",
+   "value": -1292.0,
+   "reasoning_tokens": 15742,
+   "completion": 15747,
+   "cost": 0.07094025,
+   "finish": "stop",
+   "mol_id": "C=CCCN"
+  },
+  {
+   "text": "-1313.8",
+   "value": -1313.8,
+   "reasoning_tokens": 9120,
+   "completion": 9127,
+   "cost": 0.04115025,
+   "finish": "stop",
+   "mol_id": "C=CCCN"
+  },
+  {
+   "text": "-1641.5",
+   "value": -1641.5,
+   "reasoning_tokens": 19199,
+   "completion": 19206,
+   "cost": 0.086511,
+   "finish": "stop",
+   "mol_id": "O=C1C2CCC1C2"
+  },
+  {
+   "text": "-1525",
+   "value": -1525.0,
+   "reasoning_tokens": 18544,
+   "completion": 18549,
+   "cost": 0.0835545,
+   "finish": "stop",
+   "mol_id": "O=C1C2CCC1C2"
+  },
+  {
+   "text": "-1503",
+   "value": -1503.0,
+   "reasoning_tokens": 16915,
+   "completion": 16920,
+   "cost": 0.076224,
+   "finish": "stop",
+   "mol_id": "O=C1C2CCC1C2"
+  }
+ ]
+}

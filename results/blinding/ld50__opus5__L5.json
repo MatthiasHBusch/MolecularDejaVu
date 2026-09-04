@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "ld50",
+  "tag": "opus5",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "none",
+  "disjoint_from": "esol,freesolv",
+  "cost": 3.067414999999996,
+  "timestamp": "2026-07-28T17:10:25"
+ },
+ "calls": [
+  {
+   "text": "2.05",
+   "value": 2.05,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01728,
+   "finish": "stop",
+   "mol_id": "2(3H)-Furanone, dihydro-5-pentyl-",
+   "truth": 1.374
+  },
+  {
+   "text": "2.15",
+   "value": 2.15,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01728,
+   "finish": "stop",
+   "mol_id": "Pyridine, 3-(3,4-dihydro-2H-pyrrol-5-yl)- (9CI)",
+   "truth": 1.892
+  },
+  {
+   "text": "**Analysis**\n\nThe test string is long and contains multiple nested rings/branche",
+   "value": 3.62,
+   "reasoning_tokens": 0,
+   "completion": 543,
+   "cost": 0.03093,
+   "finish": "stop",
+   "mol_id": "Piperazine, 1-acetyl-4-(4-((2-(2,4-dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)-, cis-",
+   "truth": 3.505
+  },
+  {
+   "text": "Looking at similar structures: \"AABF{~E}{BAA}Baraa{A}{dH}dr\" = 4.319, \"AABF{~E}{",
+   "value": 2.75,
+   "reasoning_tokens": 0,
+   "completion": 276,
+   "cost": 0.02412,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-(4,6-dimethyl-2-pyrimidinyl) O-ethyl O-(1-methylethyl) ester (9CI)",
+   "truth": 3.654
+  },
+  {
+   "text": "2.13",
+   "value": 2.13,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017285,
+   "finish": "stop",
+   "mol_id": "1,2-Ethanediamine, N,N'-dimethyl-N,N'-dinitroso- (9CI)",
+   "truth": 2.989
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017315,
+   "finish": "stop",
+   "mol_id": "Propanenitrile, 3-((2-(acetyloxy)ethyl)phenylamino)-",
+   "truth": 2.05
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures:\n- `AAaraaaaarA~AA{B}~E` \u2192 1.817\n- `",
+   "value": 1.9,
+   "reasoning_tokens": 0,
+   "completion": 292,
+   "cost": 0.02446,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 3-phenyl-",
+   "truth": 1.773
+  },
+  {
+   "text": "2.20",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01729,
+   "finish": "stop",
+   "mol_id": "Benzamide, N,N-diethyl-",
+   "truth": 1.948
+  },
+  {
+   "text": "2.60",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017315,
+   "finish": "stop",
+   "mol_id": "Cyclohexanecarboxylic acid, 2-hydroxy-2-phenyl-, cis-",
+   "truth": 2.147
+  },
+  {
+   "text": "**Analysis**\n\nThe property appears to correlate with molecular size/complexity (",
+   "value": 2.72,
+   "reasoning_tokens": 0,
+   "completion": 417,
+   "cost": 0.02769,
+   "finish": "stop",
+   "mol_id": "Propionic acid, 2-(N-(3-chloro-4-fluorophenyl)benzamido)-, methyl ester",
+   "truth": 2.447
+  },
+  {
+   "text": "2.05",
+   "value": 2.05,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01726,
+   "finish": "stop",
+   "mol_id": "Benzene, propenyl- (VAN) (8CI)",
+   "truth": 1.516
+  },
+  {
+   "text": "3.45",
+   "value": 3.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017445,
+   "finish": "stop",
+   "mol_id": "Benzeneacetonitrile, alpha-(3-((2-(3,4-dimethoxyphenyl)ethyl)methylamino)propyl)-3,4-dimethoxy-alpha-(1-methylethyl)-",
+   "truth": 3.445
+  },
+  {
+   "text": "2.75",
+   "value": 2.75,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01737,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2,4,5-trichlorophenoxy-, 2-butoxypropyl ester",
+   "truth": 2.869
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01733,
+   "finish": "stop",
+   "mol_id": "Cychohexanecarbonitrile, 1,3,3-trimethyl-5-oxo-",
+   "truth": 3.429
+  },
+  {
+   "text": "3.45",
+   "value": 3.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01737,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,5,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.66
+  },
+  {
+   "text": "2.62",
+   "value": 2.62,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01733,
+   "finish": "stop",
+   "mol_id": "4-Biphenylacetic acid, 2'-fluoro-alpha-methyl-",
+   "truth": 2.86
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017375,
+   "finish": "stop",
+   "mol_id": "1,4-Naphthalenedione, 2-(3,3-dichloro-2-propenyl)-3-hydroxy-",
+   "truth": 3.003
+  },
+  {
+   "text": "Looking at similar linear/short chain structures with branches (e.g., \"AAABAA{A}",
+   "value": 1.85,
+   "reasoning_tokens": 0,
+   "completion": 113,
+   "cost": 0.01999,
+   "finish": "stop",
+   "mol_id": "Propanoic acid, 3,3'-thiobis-",
+   "truth": 1.774
+  },
+  {
+   "text": "2.28",
+   "value": 2.28,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017325,
+   "finish": "stop",
+   "mol_id": "2,5-Cyclohexadiene-1,4-dione, 2,3,5-trimethyl-",
+   "truth": 2.8760000000000003
+  },
+  {
+   "text": "Looking at similar structures, e.g. \"AAEarda{DA{A}A}da{DA{A}A}dr\" \u2192 2.394, and \"",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 146,
+   "cost": 0.020825,
+   "finish": "stop",
+   "mol_id": "1,3,5-Triazine-2,4-diamine, 6-methoxy-N-methyl-N'-(1-methylethyl)- (9CI)",
+   "truth": 1.915
+  },
+  {
+   "text": "2.60",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01729,
+   "finish": "stop",
+   "mol_id": "Benzopyran-2-one, 6,7-dimethoxy- (9CI)",
+   "truth": 2.849
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to correlate wit",
+   "value": 2.79,
+   "reasoning_tokens": 0,
+   "completion": 673,
+   "cost": 0.03402,
+   "finish": "stop",
+   "mol_id": "Indazole, 3-((3-morpholinopropyl)amino)-",
+   "truth": 2.456
+  },
+  {
+   "text": "Looking at similar short simple strings: \"AAABAA{A}B\" ~1.374, \"AAAAAAA{~B}B\" 2.0",
+   "value": 1.55,
+   "reasoning_tokens": 0,
+   "completion": 174,
+   "cost": 0.02149,
+   "finish": "stop",
+   "mol_id": "Propanoic acid, 2-methyl-, methyl ester",
+   "truth": 0.805
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01727,
+   "finish": "stop",
+   "mol_id": "4H-Pyran-4-one, 3-hydroxy-2-methyl-",
+   "truth": 1.952
+  },
+  {
+   "text": "Looking at similar structures: \"AABara{BF{~E}{BAA}BA{A}A}add{A}ar~B\" (2.978), \"A",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 249,
+   "cost": 0.023395,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-diethyl O-(1-methylethyl) ester",
+   "truth": 2.327
+  },
+  {
+   "text": "2.31",
+   "value": 2.31,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017325,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-(diethylamino)-N-(2,6-dimethylphenyl)-",
+   "truth": 2.869
+  },
+  {
+   "text": "3.05",
+   "value": 3.05,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01735,
+   "finish": "stop",
+   "mol_id": "5H-(1)Benzopyrano(3,4-c)pyridin-5-one, 1,2,3,4-tetrahydro-3-(2-(ethylamino)propyl)-",
+   "truth": 2.98
+  },
+  {
+   "text": "<sub>Looking at similar short strings: \"BAA~AZ\" = 1.362, \"AAAAY\" = 4.329? That s",
+   "value": 1.3,
+   "reasoning_tokens": 0,
+   "completion": 171,
+   "cost": 0.021385,
+   "finish": "stop",
+   "mol_id": "1-Propene, 1-chloro-",
+   "truth": 1.594
+  },
+  {
+   "text": "<answer>2.35</answer>",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 13,
+   "cost": 0.01749,
+   "finish": "stop",
+   "mol_id": "N-Nitroso(2,2,2-trifluoroethyl)ethylamine",
+   "truth": 2.211
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01748,
+   "finish": "stop",
+   "mol_id": "Phosphonic acid, (1-(((2-chloroethoxy)(2-chloroethyl)phosphinyl)oxy)ethyl)-, 1-(bis(2-chloroethoxy)phosphinyl)ethyl 2-chloroethyl ester",
+   "truth": 2.3480000000000003
+  },
+  {
+   "text": "**2.65**",
+   "value": 2.65,
+   "reasoning_tokens": 0,
+   "completion": 7,
+   "cost": 0.017365,
+   "finish": "stop",
+   "mol_id": "5H-Dibenzo(a,d)cyclohepten-10-amine, 10,11-dihydro-N-isopropyl-",
+   "truth": 2.701
+  },
+  {
+   "text": "2.38",
+   "value": 2.38,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017305,
+   "finish": "stop",
+   "mol_id": "2-Thiazoline, 2-((p-methylbenzyl)amino)-",
+   "truth": 3.013
+  },
+  {
+   "text": "## Analysis\n\nThe string is relatively short with a single \"araaaaar\" ring segmen",
+   "value": 2.05,
+   "reasoning_tokens": 0,
+   "completion": 326,
+   "cost": 0.025295,
+   "finish": "stop",
+   "mol_id": "Ethanethioamide, N-phenyl-",
+   "truth": 1.759
+  },
+  {
+   "text": "3.29",
+   "value": 3.29,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017365,
+   "finish": "stop",
+   "mol_id": "Pyrazole-4-carboxylic acid, 5-(3,4-dihydro-2-ethyl-4-oxoquinazolin-3-yl)-1-methyl-, ethyl ester",
+   "truth": 2.252
+  },
+  {
+   "text": "2.24",
+   "value": 2.24,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01731,
+   "finish": "stop",
+   "mol_id": "2-Butanone, 3,3-dimethyl-1-(methylsulfinyl)-, oxime",
+   "truth": 1.948
+  },
+  {
+   "text": "3.20",
+   "value": 3.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017425,
+   "finish": "stop",
+   "mol_id": "4-Thiazolidinecarboxylic acid, 3-(1-(p-chlorophenoxy)cyclohexylcarbonyl)-5,5-dimethyl-",
+   "truth": 1.961
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017305,
+   "finish": "stop",
+   "mol_id": "Benzenemethanol, 2,3,4,5,6-pentafluoro- (9CI)",
+   "truth": 2.343
+  },
+  {
+   "text": "Looking at short, simple strings in the training data (e.g., \"AB\" \u2192 0.755, \"AAAA",
+   "value": 1.35,
+   "reasoning_tokens": 0,
+   "completion": 205,
+   "cost": 0.022245,
+   "finish": "stop",
+   "mol_id": "Ethanedial, dioxime",
+   "truth": 2.869
+  },
+  {
+   "text": "<thinking>\nThis looks like polymer/molecule string representations. Need to pred",
+   "value": 2.9,
+   "reasoning_tokens": 0,
+   "completion": 406,
+   "cost": 0.027415,
+   "finish": "stop",
+   "mol_id": "2,4,6-Quinazolinetriamine, N(sup 6)-((3,4-dichlorophenyl)methyl)-N(sup 6)-nitroso- (9CI)",
+   "truth": 3.059
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01734,
+   "finish": "stop",
+   "mol_id": "Butyric acid, 4-(2,4-dichlorophenoxy)-, isobutyl ester",
+   "truth": 3.007
+  },
+  {
+   "text": "3.20",
+   "value": 3.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.0174,
+   "finish": "stop",
+   "mol_id": "1-Butanone, 1-(10-(3-(4-methyl-1-piperazinyl)propyl)-10H-phenothiazin-2-yl)-",
+   "truth": 2.834
+  },
+  {
+   "text": "2.05",
+   "value": 2.05,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01728,
+   "finish": "stop",
+   "mol_id": "Ethene, 1,1'-sulfonylbis-",
+   "truth": 3.567
+  },
+  {
+   "text": "**2.45**",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 7,
+   "cost": 0.017355,
+   "finish": "stop",
+   "mol_id": "3-Isoxazolecarboxylic acid, 4-acetyl-5-methyl-, ethyl ester",
+   "truth": 2.295
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01732,
+   "finish": "stop",
+   "mol_id": "2,4-Imidazolidinedione, 3-ethyl-5-phenyl-",
+   "truth": 2.134
+  },
+  {
+   "text": "Looking at similar short structures (e.g., \"AABAA{A}B\" = 1.374, \"AA{A}{A}A{~B}A^",
+   "value": 1.55,
+   "reasoning_tokens": 0,
+   "completion": 127,
+   "cost": 0.02032,
+   "finish": "stop",
+   "mol_id": "Ethene, (methylsulfonyl)- (9CI)",
+   "truth": 2.27
+  },
+  {
+   "text": "<thinking>Need to estimate. The string is fairly long with branches. Property se",
+   "value": 3.0,
+   "reasoning_tokens": 0,
+   "completion": 238,
+   "cost": 0.02326,
+   "finish": "stop",
+   "mol_id": "1-Piperazinemethanamine, N-(2-(((5-((dimethylamino)methyl)-2-furanyl)methyl)thio)ethyl)-4-methyl-alpha-(nitromethylene)-",
+   "truth": 1.843
+  },
+  {
+   "text": "3.05",
+   "value": 3.05,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01736,
+   "finish": "stop",
+   "mol_id": "5-Pyrimidinemethanol, alpha-(1-methylethyl)-alpha-(4-(trifluoromethoxy)phenyl)-",
+   "truth": 2.644
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01734,
+   "finish": "stop",
+   "mol_id": "Succinimide, N-(3,5-dichlorophenyl)-",
+   "truth": 2.438
+  },
+  {
+   "text": "Looking at similar short structures like \"AABAA{A}B\" (1.374), \"AAAAAAA{~B}B\" (2.",
+   "value": 1.65,
+   "reasoning_tokens": 0,
+   "completion": 174,
+   "cost": 0.021465,
+   "finish": "stop",
+   "mol_id": "1,2-Diethyldiaziridine",
+   "truth": 1.399
+  },
+  {
+   "text": "## Analysis\n\nThe string contains a fairly long backbone with a branch containing",
+   "value": 2.62,
+   "reasoning_tokens": 0,
+   "completion": 369,
+   "cost": 0.02649,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(1-butyl-1,6-dihydro-5-methoxy-6-oxo-4-pyridazinyl) O-ethyl O-(1-methylethyl) ester",
+   "truth": 4.218999999999999
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017285,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, ethyl-, O,S-dipropyl ester",
+   "truth": 5.0680000000000005
+  },
+  {
+   "text": "3.20",
+   "value": 3.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01739,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-diethyl S-pentachlorophenyl ester",
+   "truth": 2.656
+  },
+  {
+   "text": "3.55",
+   "value": 3.55,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017475,
+   "finish": "stop",
+   "mol_id": "Tricyclo(3.3.1.1(sup 3,7))decane-1-carboxylic acid, 2,5-dihydro-4-butyl-1,2-diphenyl-5-oxo-1H-pyrazol-3-yl ester",
+   "truth": 2.443
+  },
+  {
+   "text": "3.42",
+   "value": 3.42,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017435,
+   "finish": "stop",
+   "mol_id": "Carbamic acid, (3-benzoylphenyl)((trifluoromethyl)sulfonyl)-, ethyl ester",
+   "truth": 1.931
+  },
+  {
+   "text": "Looking at similar structures with \"ar...s...r\" ring segments and comparable len",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 51,
+   "cost": 0.01845,
+   "finish": "stop",
+   "mol_id": "1,4-Benzodioxin-2-carboxylic acid, 2,3-dihydro-, propyl ester (9CI)",
+   "truth": 1.475
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01732,
+   "finish": "stop",
+   "mol_id": "Benzamide, 5-amino-N-butyl-2-(2-propynyloxy)-",
+   "truth": 2.455
+  },
+  {
+   "text": "2.05",
+   "value": 2.05,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017265,
+   "finish": "stop",
+   "mol_id": "Phosphorotrithious acid, triethyl ester",
+   "truth": 2.781
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017315,
+   "finish": "stop",
+   "mol_id": "Cyclohexanamine, N-cyclohexyl-N-nitroso- (9CI)",
+   "truth": 1.624
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017295,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,S,S-tripropyl ester",
+   "truth": 3.298
+  },
+  {
+   "text": "<thinking>Let me estimate based on similar structures. The string is long with n",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 356,
+   "cost": 0.026225,
+   "finish": "stop",
+   "mol_id": "2-Naphthalenesulfonic acid, 5,6'-iminobis(1-hydroxy-",
+   "truth": 1.6230000000000002
+  },
+  {
+   "text": "<thinking>\nLet me estimate based on similar structures.\n\nSimilar: \"AA{~B}Baraaa{",
+   "value": 2.7,
+   "reasoning_tokens": 0,
+   "completion": 230,
+   "cost": 0.023,
+   "finish": "stop",
+   "mol_id": "1,3-Benzenedicarboxamide, N,N'-bis(3-pyridinylmethyl)-4-methoxy-",
+   "truth": 2.099
+  },
+  {
+   "text": "<sample_property>2.44</sample_property>\n\nLooking at similar structures with ring",
+   "value": 2.44,
+   "reasoning_tokens": 0,
+   "completion": 51,
+   "cost": 0.018505,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (4-chloro-2-methylphenoxy)-, isooctyl ester (9CI)",
+   "truth": 2.65
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017305,
+   "finish": "stop",
+   "mol_id": "1H-Imidazol-2-amine, N-(2,6-dichlorophenyl)-4,5-dihydro-",
+   "truth": 3.1660000000000004
+  },
+  {
+   "text": "2.62",
+   "value": 2.62,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01738,
+   "finish": "stop",
+   "mol_id": "1-(2-Benzyloxyethyl)-4-phenylpiperidine-4-carboxylic acid ethyl ester",
+   "truth": 3.112
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01731,
+   "finish": "stop",
+   "mol_id": "Cyclohexanemethylamine, alpha-methyl-4-phenyl-, (E)-",
+   "truth": 2.469
+  },
+  {
+   "text": "Looking at similar structures: \"AABF{~E}{BAA}Baraa{A}{dH}dr\" = 4.319, \"AABF{~E}{",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 266,
+   "cost": 0.023905,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-m-nitrobenzyl ester",
+   "truth": 3.109
+  },
+  {
+   "text": "<thinking>Let me look at similar structures.\n\n\"B~{D%}{{B_}}araaa{B}aar\" \u2192 2.745\n",
+   "value": 4.2,
+   "reasoning_tokens": 0,
+   "completion": 3465,
+   "cost": 0.10381,
+   "finish": "stop",
+   "mol_id": "Benzene, 2,4-difluoro-1-nitro-",
+   "truth": 2.901
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01729,
+   "finish": "stop",
+   "mol_id": "Isopentyl alcohol, benzoate (6CI,8CI)",
+   "truth": 1.482
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017275,
+   "finish": "stop",
+   "mol_id": "2H-1-Benzopyran-2-one, 3,4-dihydro-",
+   "truth": 2.006
+  },
+  {
+   "text": "**Analysis**\n\nLooking at the training data, simple short strings composed mainly",
+   "value": 1.75,
+   "reasoning_tokens": 0,
+   "completion": 388,
+   "cost": 0.026835,
+   "finish": "stop",
+   "mol_id": "Propanol, 1(or 2)-(2-methoxymethylethoxy)-",
+   "truth": 1.46
+  },
+  {
+   "text": "Looking at the training data, shorter strings with mostly A/B/D units and branch",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 222,
+   "cost": 0.022725,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 2-((1-dimethylethyl)azo)-",
+   "truth": 2.642
+  },
+  {
+   "text": "2.15",
+   "value": 2.15,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01729,
+   "finish": "stop",
+   "mol_id": "1,2-Propanedione, 1-phenyl-, 2-oxime",
+   "truth": 1.585
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017275,
+   "finish": "stop",
+   "mol_id": "Pyridazine, 3-(2-methylphenoxy)-",
+   "truth": 1.78
+  },
+  {
+   "text": "2.15",
+   "value": 2.15,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017285,
+   "finish": "stop",
+   "mol_id": "Benzene, methyl(1-phenylethyl)-",
+   "truth": 2.05
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01738,
+   "finish": "stop",
+   "mol_id": "1,2,4-Benzenetricarboxylic acid, 1-(2-((1-oxo-2-propenyl)oxy)ethyl) ester",
+   "truth": 1.985
+  },
+  {
+   "text": "Looking at similar short ring-containing structures: \"Daraaa{G}a{{D%}{~B}{B_}}ar",
+   "value": 1.7,
+   "reasoning_tokens": 0,
+   "completion": 294,
+   "cost": 0.02448,
+   "finish": "stop",
+   "mol_id": "Aniline, p-fluoro- (8CI)",
+   "truth": 2.426
+  },
+  {
+   "text": "Looking at similar structures: \"Zaraaa{Aasaaa{Z}aas}aar\" = 2.583, \"Aaraaa{BF{~B}",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 184,
+   "cost": 0.021785,
+   "finish": "stop",
+   "mol_id": "Benzene, 1,1'-methylenebis(methyl- (9CI)",
+   "truth": 1.713
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017315,
+   "finish": "stop",
+   "mol_id": "Benzophenone, 4-amino-3-methyl-",
+   "truth": 2.48
+  },
+  {
+   "text": "2.98",
+   "value": 2.98,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017345,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, diethyl 3,5,6-trichloro-2-pyridinyl ester (9CI)",
+   "truth": 3.394
+  },
+  {
+   "text": "2.87",
+   "value": 2.87,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017335,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(3-(4-morpholinyl)propyl)-",
+   "truth": 2.514
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures in the training data:\n\n- `ABF{~B}{BA}",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 533,
+   "cost": 0.03058,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, (4-chlorophenyl)(dimethoxyphosphinyl)methyl dimethyl ester",
+   "truth": 2.05
+  },
+  {
+   "text": "<thinking>Similar short strings: AABAA{A}B \u2192 1.374; A~AA{~B}BAA{~B}BAA \u2192 2.152; ",
+   "value": 1.5,
+   "reasoning_tokens": 0,
+   "completion": 152,
+   "cost": 0.02093,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2-propenyl ester",
+   "truth": 2.887
+  },
+  {
+   "text": "3.05",
+   "value": 3.05,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017385,
+   "finish": "stop",
+   "mol_id": "1-Piperazineethanol, 4-((5-chloro-2-oxo-3(2H)-benzothiazolyl)acetyl)- (9CI)",
+   "truth": 1.995
+  },
+  {
+   "text": "4.28",
+   "value": 4.28,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017515,
+   "finish": "stop",
+   "mol_id": "Nicotinic acid, 1,1,3,3-tetraester with 2-hydroxy-1,1,3,3-cyclohexanetetramethanol",
+   "truth": 1.807
+  },
+  {
+   "text": "2.62",
+   "value": 2.62,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017365,
+   "finish": "stop",
+   "mol_id": "2,4(1H,3H)-Pyridinedione, 3,3-diethyl-1-(4-morpholinylmethyl)- (9CI)",
+   "truth": 2.135
+  },
+  {
+   "text": "3.35",
+   "value": 3.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017415,
+   "finish": "stop",
+   "mol_id": "2H-Benzo(a)quinolizine-3-carboxamide, 2-(acetyloxy)-N,N-diethyl-1,3,4,6,7,11b-hexahydro-9,10-dimethoxy-, (2alpha,3beta,11balpha)- (9CI)",
+   "truth": 2.5860000000000003
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures with a ring (araa...ar) and a branch",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 295,
+   "cost": 0.02457,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazole-1-carboxamide, N-(6-chlorohexyl)-3-methyl-",
+   "truth": 1.6669999999999998
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017325,
+   "finish": "stop",
+   "mol_id": "1,4-Benzenediamine, N,N'-diphenyl-",
+   "truth": 2.041
+  },
+  {
+   "text": "2.75",
+   "value": 2.75,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01731,
+   "finish": "stop",
+   "mol_id": "2-Benzoxazoleacetamide, 5-chloro- (9CI)",
+   "truth": 2.448
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017335,
+   "finish": "stop",
+   "mol_id": "1-Piperidinecarbothioic acid, S-(1-methyl-1-phenylethyl) ester",
+   "truth": 2.445
+  },
+  {
+   "text": "Looking at similar structures: \"ADA{~B}BD~ArEA{A}{A}EArA\" = 1.673, \"ADA{~B}BD~Ar",
+   "value": 2.3,
+   "reasoning_tokens": 0,
+   "completion": 176,
+   "cost": 0.02159,
+   "finish": "stop",
+   "mol_id": "Ethanimidothioic acid, N-(((methylamino)carbonyl)oxy)-, 2-amino-2-oxoethyl ester",
+   "truth": 3.559
+  },
+  {
+   "text": "# Analysis\n\nLooking at similar training samples with ring structures (araaaa...a",
+   "value": 1.85,
+   "reasoning_tokens": 0,
+   "completion": 453,
+   "cost": 0.028465,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2-ethyl-6-methyl-",
+   "truth": 2.184
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017305,
+   "finish": "stop",
+   "mol_id": "Silane, trimethoxy(3-(oxiranylmethoxy)propyl)-",
+   "truth": 1.012
+  },
+  {
+   "text": "**2.98**",
+   "value": 2.98,
+   "reasoning_tokens": 0,
+   "completion": 7,
+   "cost": 0.017525,
+   "finish": "stop",
+   "mol_id": "6,11-Dioxa-3-thia-2,4,7,10-tetraazadodeca-7,9-dienoic acid, 8-((dimethylamino)carbonyl)-5-oxo-2,4,9-trimethyl-, 1-naphthalenyl ester",
+   "truth": 3.4730000000000003
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures in the training data:\n- `B~A{B}araaa",
+   "value": 2.15,
+   "reasoning_tokens": 0,
+   "completion": 520,
+   "cost": 0.03016,
+   "finish": "stop",
+   "mol_id": "Nonanoic acid, 9-chloro-",
+   "truth": 1.808
+  },
+  {
+   "text": "3.42",
+   "value": 3.42,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.0175,
+   "finish": "stop",
+   "mol_id": "1-Piperidinebutanamide, 4-(4-chlorophenyl)-4-hydroxy-N,N-dimethyl-alpha,alpha-diphenyl-, 1-oxide, (E)-",
+   "truth": 3.457
+  },
+  {
+   "text": "Looking at similar structures, particularly \"ABAABA{~B}Ar~A{A}DA{A}~A{A{~B}BAA~A",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 129,
+   "cost": 0.02051,
+   "finish": "stop",
+   "mol_id": "3,5-Pyridinedicarboxylic acid, 1,4-dihydro-4-(1,3-benzodioxol-4-yl)-2,6-dimethyl-, ethyl methyl ester",
+   "truth": 2.514
+  },
+  {
+   "text": "3.05",
+   "value": 3.05,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017355,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(2-(1-methyl-2-piperidinyl)ethyl)-2-(methylthio)-",
+   "truth": 2.571
+  },
+  {
+   "text": "2.20",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01728,
+   "finish": "stop",
+   "mol_id": "Isocyanic acid, p-tolyl ester (7CI,8CI)",
+   "truth": 1.92
+  },
+  {
+   "text": "Looking at similar structures with \"araa...aar\" ring patterns with branched subs",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 50,
+   "cost": 0.01844,
+   "finish": "stop",
+   "mol_id": "3,4-Xylenol, 6-tert-butyl-",
+   "truth": 2.238
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01732,
+   "finish": "stop",
+   "mol_id": "Benzamide, 5-acetyl-2-hydroxy-",
+   "truth": 2.023
+  },
+  {
+   "text": "Looking at similar structures with a ring segment \"araaa{...}aar\" containing a b",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 82,
+   "cost": 0.01922,
+   "finish": "stop",
+   "mol_id": "Benzenemethanol, 4-(2-(1H-imidazol-1-yl)ethoxy)-",
+   "truth": 1.652
+  },
+  {
+   "text": "**Analysis of the training data:**\n\nThe property appears to correlate with molec",
+   "value": 3.05,
+   "reasoning_tokens": 0,
+   "completion": 481,
+   "cost": 0.0293,
+   "finish": "stop",
+   "mol_id": "Ethanimidothioic acid, N-((5-ethoxy-2-methyl-4-(1-methylethyl)-1-oxo-6-oxa-3-thia-2,4-diaza-5-phosphaoct-1-yl)oxy)-, methyl ester, P-oxide",
+   "truth": 3.588
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to correlate wit",
+   "value": 2.96,
+   "reasoning_tokens": 0,
+   "completion": 507,
+   "cost": 0.02995,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4-(dimethylamino)-5,6,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.178999999999999
+  },
+  {
+   "text": "2.60",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01734,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2,4-dichlorophenyl) O-ethyl S-propyl ester",
+   "truth": 3.012
+  },
+  {
+   "text": "2.31",
+   "value": 2.31,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017325,
+   "finish": "stop",
+   "mol_id": "2-Propanone, 1,1,3-trichloro-1,3,3-trifluoro-",
+   "truth": 2.891
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017345,
+   "finish": "stop",
+   "mol_id": "9-Octadecenoic acid (Z)-, oxiranylmethyl ester (9CI)",
+   "truth": 1.983
+  },
+  {
+   "text": "Looking at similar structures with Z-terminated branches: \"B~E{A{Z}~AZ}A{Z}~AZ\" ",
+   "value": 2.05,
+   "reasoning_tokens": 0,
+   "completion": 235,
+   "cost": 0.02309,
+   "finish": "stop",
+   "mol_id": "2-Propanone, 1,1,1,3,3,3-hexachloro-",
+   "truth": 3.043
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017295,
+   "finish": "stop",
+   "mol_id": "Benzoxazoline, 5-chloro-2-imino-3-methyl-",
+   "truth": 2.262
+  },
+  {
+   "text": "Looking at the training data, similar linear/branched all-A/B structures with mo",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 123,
+   "cost": 0.02028,
+   "finish": "stop",
+   "mol_id": "Butane, 1,1',1'',1'''-(1,2-ethanediylidenetetrakis(oxy))tetrakis- (9CI)",
+   "truth": 1.554
+  },
+  {
+   "text": "Looking at similar short ring-containing structures with terminal ~B (e.g., \"ADr",
+   "value": 1.95,
+   "reasoning_tokens": 0,
+   "completion": 133,
+   "cost": 0.020455,
+   "finish": "stop",
+   "mol_id": "Cyclohexanone, 2-methyl-",
+   "truth": 1.719
+  },
+  {
+   "text": "2.98",
+   "value": 2.98,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01752,
+   "finish": "stop",
+   "mol_id": "21,23-Dioxa(13)cytochalasa-13,19-diene-1,17,22-trione, 6,7-epoxy-18-hydroxy-16,18-dimethyl-10-phenyl-, (7S,13E,16S,18R,19E)-",
+   "truth": 4.736000000000001
+  },
+  {
+   "text": "1.98",
+   "value": 1.98,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017275,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 2-chloro-, methyl ester (9CI)",
+   "truth": 3.249
+  },
+  {
+   "text": "Looking at the training data, longer and more complex structures with branching,",
+   "value": 3.6,
+   "reasoning_tokens": 0,
+   "completion": 188,
+   "cost": 0.021985,
+   "finish": "stop",
+   "mol_id": "(alpha-RS)-alpha-Cyano-6-methylergoline-8beta-propionamide",
+   "truth": 2.508
+  },
+  {
+   "text": "**Analysis**\n\nThe string is fairly long with multiple ring closures (r...r, s...",
+   "value": 3.3,
+   "reasoning_tokens": 0,
+   "completion": 227,
+   "cost": 0.02292,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(2-(1-methyl-2-piperidinyl)ethyl)-2-(methylsulfinyl)-",
+   "truth": 2.778
+  },
+  {
+   "text": "Looking at similar short structures: \"AA{A}{A}A{~B}A^D\" = 2.295, \"AA{A}{D%}{~B}{",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 246,
+   "cost": 0.023285,
+   "finish": "stop",
+   "mol_id": "2-Propynylamine, 1,1-dimethyl- (6CI,7CI,8CI)",
+   "truth": 1.7519999999999998
+  },
+  {
+   "text": "Looking at similar structures with branched aromatic/ring segments and comparabl",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 54,
+   "cost": 0.018575,
+   "finish": "stop",
+   "mol_id": "Benzenepropanamine, N-methyl-gamma-(4-(trifluoromethyl)phenoxy)-, (+-)-",
+   "truth": 2.574
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01744,
+   "finish": "stop",
+   "mol_id": "4,7-Methano-1H-indene, 1,2,3,4,5,6,7,8,8-nonachlor-2,3,3a,4,7,7a-hexahydro-, (1-alpha,2-beta,3-alpha,3a-alpha,4-beta,7-beta,7a-alpha)-",
+   "truth": 2.949
+  },
+  {
+   "text": "Looking at similar structures: \"AABF{~E}{BAA}EAdra{~B}basaaaaasr\" \u2192 2.2840, and ",
+   "value": 2.3,
+   "reasoning_tokens": 0,
+   "completion": 112,
+   "cost": 0.020015,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester, S-ester with 3-(mercaptomethyl)-2-benzothiazolinone",
+   "truth": 3.543
+  },
+  {
+   "text": "2.20",
+   "value": 2.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01729,
+   "finish": "stop",
+   "mol_id": "2-Propenamide, N-hydroxy-3-phenyl- (9CI)",
+   "truth": 1.882
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017255,
+   "finish": "stop",
+   "mol_id": "Piperidine, 2-methyl-N-nitroso-, R(-)-",
+   "truth": 2.33
+  },
+  {
+   "text": "1.65",
+   "value": 1.65,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01728,
+   "finish": "stop",
+   "mol_id": "Diacetamide, 2,2'-diiodo-",
+   "truth": 2.735
+  },
+  {
+   "text": "**Reasoning:**\n\nLooking at the training data, short strings with few branches te",
+   "value": 1.75,
+   "reasoning_tokens": 0,
+   "completion": 290,
+   "cost": 0.0244,
+   "finish": "stop",
+   "mol_id": "Silane, methyltrimethoxy-",
+   "truth": 1.037
+  },
+  {
+   "text": "<thinking>\nLet me look at similar structures. Strings with {D%}{{B_}}ar... tend ",
+   "value": 4.6,
+   "reasoning_tokens": 0,
+   "completion": 340,
+   "cost": 0.02586,
+   "finish": "stop",
+   "mol_id": "Thiomorpholine, 4-(4-((2,6-dichloro-4-nitrophenyl)azo)phenyl)-, 1,1-dioxide",
+   "truth": 2.128
+  },
+  {
+   "text": "**Analysis**\n\nThe test string `B~ABAABA~B` is a short, simple linear structure w",
+   "value": 1.72,
+   "reasoning_tokens": 0,
+   "completion": 463,
+   "cost": 0.0287,
+   "finish": "stop",
+   "mol_id": "Ethylene glycol, diformate",
+   "truth": 1.893
+  },
+  {
+   "text": "3.29",
+   "value": 3.29,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01737,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O-ethyl, O-isopropyl ester, S-ester N-(mercaptomethyl)phthalimide",
+   "truth": 3.857
+  },
+  {
+   "text": "Looking at similar structures with branched rings, {dH}, {A{G}{G}G} groups \u2014 e.g",
+   "value": 3.3,
+   "reasoning_tokens": 0,
+   "completion": 250,
+   "cost": 0.023465,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 5-chloro-4-fluoro-2-(trifluoromethyl)-",
+   "truth": 4.62
+  },
+  {
+   "text": "## Analysis\n\nShort, linear structures without branches or rings tend to have low",
+   "value": 1.55,
+   "reasoning_tokens": 0,
+   "completion": 341,
+   "cost": 0.025665,
+   "finish": "stop",
+   "mol_id": "Ethane, 1,2-diisothiocyanato- (9CI)",
+   "truth": 3.11
+  },
+  {
+   "text": "Looking at the training data, longer and more branched structures tend to have h",
+   "value": 2.85,
+   "reasoning_tokens": 0,
+   "completion": 68,
+   "cost": 0.019045,
+   "finish": "stop",
+   "mol_id": "Hexanoic acid, 2-ethyl-, methylsilylidyne ester",
+   "truth": 2.317
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017315,
+   "finish": "stop",
+   "mol_id": "Glycine, N-(4-chlorobenzoyl)- (9CI)",
+   "truth": 1.981
+  },
+  {
+   "text": "<thinking>Look at similar structures: \"ADrAAD{A}Ar~B\" = 1.958. \"AA{araaaaar}D{A}",
+   "value": 2.3,
+   "reasoning_tokens": 0,
+   "completion": 189,
+   "cost": 0.02189,
+   "finish": "stop",
+   "mol_id": "Urea, 1,1,3-trimethyl-3-nitroso-",
+   "truth": 2.738
+  },
+  {
+   "text": "Looking at similar short branched structures (e.g., \"AA{A}{A}A{~B}A^D\" \u2192 2.295, ",
+   "value": 2.45,
+   "reasoning_tokens": 0,
+   "completion": 158,
+   "cost": 0.021125,
+   "finish": "stop",
+   "mol_id": "Propanamide, 2-methyl-2-(methylsulfinyl)- (9CI)",
+   "truth": 0.97
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017335,
+   "finish": "stop",
+   "mol_id": "Methacrylic acid, 2-butyloctyl ester",
+   "truth": 0.991
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures in the training data:\n\n- `ABF{~B}{BA}",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 563,
+   "cost": 0.03141,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-bis(p-nitrophenyl) O-methyl ester",
+   "truth": 3.074
+  },
+  {
+   "text": "2.60",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01734,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, O-methyl O-(2,4,5-trichlorophenyl) ester",
+   "truth": 2.641
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to correlate wit",
+   "value": 2.75,
+   "reasoning_tokens": 0,
+   "completion": 616,
+   "cost": 0.032655,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, 2,2-dichloro-1-(2,4-dichlorophenyl)ethenyl diethyl ester (9CI)",
+   "truth": 4.1160000000000005
+  },
+  {
+   "text": "3.20",
+   "value": 3.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01726,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazolo(3,4-d)pyrimidine, 4-amino-",
+   "truth": 2.982
+  },
+  {
+   "text": "Looking at similar structures: \"AAD{AA}A{~B}araaaaarB\" \u2192 2.523, \"AAAD{AAA}A{~B}E",
+   "value": 2.15,
+   "reasoning_tokens": 0,
+   "completion": 155,
+   "cost": 0.02103,
+   "finish": "stop",
+   "mol_id": "Acetamide, N-ethyl-2-phenyl- (7CI)",
+   "truth": 2.334
+  },
+  {
+   "text": "3.20",
+   "value": 3.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017395,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, 3-chloro-4-nitrophenyl diethyl ester",
+   "truth": 4.792
+  },
+  {
+   "text": "Looking at similar short structures with \"araaaaar\" rings and terminal Z/B group",
+   "value": 1.8,
+   "reasoning_tokens": 0,
+   "completion": 177,
+   "cost": 0.02156,
+   "finish": "stop",
+   "mol_id": "Benzaldehyde, 2-chloro-",
+   "truth": 1.813
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01732,
+   "finish": "stop",
+   "mol_id": "Dodecanoic acid, 2-thiocyanatoethyl ester (9CI)",
+   "truth": 2.757
+  },
+  {
+   "text": "3.51",
+   "value": 3.51,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017415,
+   "finish": "stop",
+   "mol_id": "Benzoic acid, 2-hydroxy-5-((4-((2-pyridinylamino)sulfonyl)phenyl)azo)-",
+   "truth": 1.4069999999999998
+  },
+  {
+   "text": "2.55",
+   "value": 2.55,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.017395,
+   "finish": "stop",
+   "mol_id": "5-Heptenoic acid, 7-(3-hydroxy-2-(3-hydroxy-1-octenyl)-5-oxocyclopentyl)- (8CI)",
+   "truth": 2.8480000000000003
+  },
+  {
+   "text": "4.20",
+   "value": 4.2,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01738,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 6-bromo-5,7-dichloro-4-methyl-2-(trifluoromethyl)-",
+   "truth": 4.28
+  },
+  {
+   "text": "3.45",
+   "value": 3.45,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01747,
+   "finish": "stop",
+   "mol_id": "Indole-3-acetic acid, 1-(p-chlorobenzoyl)-5-methoxy-2-methyl-, ester with salicylic acid",
+   "truth": 3.905
+  },
+  {
+   "text": "1.98",
+   "value": 1.98,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01731,
+   "finish": "stop",
+   "mol_id": "Benzoyl chloride, 3,5-dichloro-",
+   "truth": 2.421
+  },
+  {
+   "text": "2.44",
+   "value": 2.44,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.01734,
+   "finish": "stop",
+   "mol_id": "Benzeneacetamide, N-ethyl-alpha-(hydroxymethyl)-N-(4-pyridinylmethyl)-",
+   "truth": 2.517
+  },
+  {
+   "text": "**4.20**",
+   "value": 4.2,
+   "reasoning_tokens": 0,
+   "completion": 7,
+   "cost": 0.017485,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,6-dinitro-2-(trifluoromethyl)-",
+   "truth": 4.38
+  },
+  {
+   "text": "<reasoning>This string has multiple ring/branch structures. Let me estimate base",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 200,
+   "cost": 0.02221,
+   "finish": "stop",
+   "mol_id": "5-Pyrimidinemethanol, alpha-(2,4-dichlorophenyl)-alpha-phenyl-",
+   "truth": 2.742
+  },
+  {
+   "text": "Looking at similar structures with ring segments and branched substituents, this",
+   "value": 3.2,
+   "reasoning_tokens": 0,
+   "completion": 45,
+   "cost": 0.018325,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 4-methoxy-2-(5-methoxy-3-methyl-1H-pyrazol-1-yl)-6-methyl-",
+   "truth": 2.721
+  }
+ ]
+}

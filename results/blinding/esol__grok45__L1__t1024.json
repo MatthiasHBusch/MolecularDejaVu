@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "grok45",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 3.0774044000000007,
+  "timestamp": "2026-08-10T14:47:30"
+ },
+ "calls": [
+  {
+   "text": "The aqueous solubility of halogenated ethanes is governed primarily by molecular",
+   "value": -3.04,
+   "reasoning_tokens": 1699,
+   "completion": 2027,
+   "cost": 0.0181144,
+   "finish": "stop",
+   "mol_id": "1,1,2-Trichlorotrifluoroethane",
+   "truth": -3.04
+  },
+  {
+   "text": "The molecule of interest (2,2',4,5'-PCB) is a tetrachlorinated biphenyl.  Its st",
+   "value": -6.48,
+   "reasoning_tokens": 1213,
+   "completion": 1464,
+   "cost": 0.0097376,
+   "finish": "stop",
+   "mol_id": "2,2',4,5'-PCB",
+   "truth": -6.57
+  },
+  {
+   "text": "The training data include multiple short-chain halogenated alkanes whose measure",
+   "value": -1.05,
+   "reasoning_tokens": 1304,
+   "completion": 1534,
+   "cost": 0.0103232,
+   "finish": "stop",
+   "mol_id": "Chloroethane",
+   "truth": -1.06
+  },
+  {
+   "text": "The molecule deoxycorticosterone is a C21 steroid bearing two ketone groups and ",
+   "value": -3.7,
+   "reasoning_tokens": 1612,
+   "completion": 1825,
+   "cost": 0.0121192,
+   "finish": "stop",
+   "mol_id": "Deoxycorticosterone",
+   "truth": -3.45
+  },
+  {
+   "text": "The training data include multiple aliphatic alcohols that establish a clear str",
+   "value": 0.62,
+   "reasoning_tokens": 2655,
+   "completion": 2975,
+   "cost": 0.0189752,
+   "finish": "stop",
+   "mol_id": "1-Propanol",
+   "truth": 0.62
+  },
+  {
+   "text": "The molecule 2-chlorotoluene is a disubstituted benzene bearing adjacent methyl ",
+   "value": -3.21,
+   "reasoning_tokens": 989,
+   "completion": 1255,
+   "cost": 0.0086652,
+   "finish": "stop",
+   "mol_id": "2-Chlorotoluene",
+   "truth": -3.52
+  },
+  {
+   "text": "The aqueous solubility of PCB derivatives is governed primarily by hydrophobicit",
+   "value": -9.2,
+   "reasoning_tokens": 3568,
+   "completion": 3989,
+   "cost": 0.0249296,
+   "finish": "stop",
+   "mol_id": "2,2',3,3',4,4',5,5'-PCB",
+   "truth": -9.16
+  },
+  {
+   "text": "The training data contain a number of small polar heterocycles and related aroma",
+   "value": 0.76,
+   "reasoning_tokens": 1505,
+   "completion": 1744,
+   "cost": 0.0163764,
+   "finish": "stop",
+   "mol_id": "Pyridine",
+   "truth": 0.76
+  },
+  {
+   "text": "The training data include multiple polychlorinated biphenyl (PCB) congeners whos",
+   "value": -6.95,
+   "reasoning_tokens": 807,
+   "completion": 1088,
+   "cost": 0.0074936,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,6-PCB",
+   "truth": -7.43
+  },
+  {
+   "text": "The molecule Metolachlor is a chloroacetamide herbicide whose structure consists",
+   "value": -2.75,
+   "reasoning_tokens": 1276,
+   "completion": 1651,
+   "cost": 0.0108536,
+   "finish": "stop",
+   "mol_id": "Metolachlor",
+   "truth": -2.73
+  },
+  {
+   "text": "The aqueous solubility of organic compounds (expressed as \\(\\log S\\), with \\(S\\)",
+   "value": -7.4,
+   "reasoning_tokens": 7349,
+   "completion": 7749,
+   "cost": 0.0524904,
+   "finish": "stop",
+   "mol_id": "Cyhalothrin",
+   "truth": -8.176
+  },
+  {
+   "text": "The aqueous solubility of aromatic molecules can be estimated via group-contribu",
+   "value": -3.2,
+   "reasoning_tokens": 3900,
+   "completion": 4171,
+   "cost": 0.0309504,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "The training data include multiple C5 aliphatic alcohols that enable a direct st",
+   "value": -0.3,
+   "reasoning_tokens": 1454,
+   "completion": 1684,
+   "cost": 0.0112352,
+   "finish": "stop",
+   "mol_id": "2-Pentanol",
+   "truth": -0.29
+  },
+  {
+   "text": "The aqueous solubility of organic molecules is governed by the balance between s",
+   "value": -3.98,
+   "reasoning_tokens": 1529,
+   "completion": 1906,
+   "cost": 0.0173944,
+   "finish": "stop",
+   "mol_id": "Nitrazepam",
+   "truth": -3.796
+  },
+  {
+   "text": "The training set contains multiple halogenated alkanes and related low-molecular",
+   "value": -1.59,
+   "reasoning_tokens": 1144,
+   "completion": 1458,
+   "cost": 0.0146524,
+   "finish": "stop",
+   "mol_id": "Iodoethane",
+   "truth": -1.6
+  },
+  {
+   "text": "The training data include a closely related structural analogue, 5-nonanone (als",
+   "value": -2.5,
+   "reasoning_tokens": 2205,
+   "completion": 2438,
+   "cost": 0.0205484,
+   "finish": "stop",
+   "mol_id": "2-Nonanone",
+   "truth": -2.58
+  },
+  {
+   "text": "The target molecule 2-methyl-2-hexanol (CCCCC(C)(C)O) is a branched tertiary ali",
+   "value": -1.01,
+   "reasoning_tokens": 3046,
+   "completion": 3360,
+   "cost": 0.0210876,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-hexanol",
+   "truth": -1.08
+  },
+  {
+   "text": "The molecule Ronnel (fenchlorphos) is a phosphorothionate ester containing a tri",
+   "value": -5.05,
+   "reasoning_tokens": 5630,
+   "completion": 5975,
+   "cost": 0.0367856,
+   "finish": "stop",
+   "mol_id": "Ronnel",
+   "truth": -5.72
+  },
+  {
+   "text": "The aqueous solubility of aromatic compounds can be rationalized by starting fro",
+   "value": -1.93,
+   "reasoning_tokens": 5487,
+   "completion": 5766,
+   "cost": 0.0355236,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "The training set contains measured solubilities for the closely related terminal",
+   "value": -4.16,
+   "reasoning_tokens": 2480,
+   "completion": 2697,
+   "cost": 0.0173132,
+   "finish": "stop",
+   "mol_id": "1-Heptene",
+   "truth": -3.73
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by the balance",
+   "value": -2.53,
+   "reasoning_tokens": 2988,
+   "completion": 3305,
+   "cost": 0.0257684,
+   "finish": "stop",
+   "mol_id": "Metoxuron",
+   "truth": -2.564
+  },
+  {
+   "text": "The molecule 1-dodecanol (SMILES: CCCCCCCCCCCCO) is a long-chain primary aliphat",
+   "value": -4.67,
+   "reasoning_tokens": 2996,
+   "completion": 3388,
+   "cost": 0.0214572,
+   "finish": "stop",
+   "mol_id": "1-Dodecanol",
+   "truth": -4.8
+  },
+  {
+   "text": "The molecule of interest (trans-1,4-dimethylcyclohexane) is a compact, fully sat",
+   "value": -4.25,
+   "reasoning_tokens": 4497,
+   "completion": 4882,
+   "cost": 0.0304412,
+   "finish": "stop",
+   "mol_id": "trans-1,4-Dimethylcyclohexane",
+   "truth": -4.47
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by the balance",
+   "value": -2.37,
+   "reasoning_tokens": 3123,
+   "completion": 3563,
+   "cost": 0.0223096,
+   "finish": "stop",
+   "mol_id": "Glutethimide",
+   "truth": -2.337
+  },
+  {
+   "text": "The target compound dibenzothiophene is a rigid, planar tricyclic heteroaromatic",
+   "value": -5.1,
+   "reasoning_tokens": 2239,
+   "completion": 2522,
+   "cost": 0.0160596,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "The molecule nitroglycerin (propane-1,2,3-triyl trinitrate) contains three highl",
+   "value": -2.22,
+   "reasoning_tokens": 1068,
+   "completion": 1365,
+   "cost": 0.0091256,
+   "finish": "stop",
+   "mol_id": "nitroglycerin",
+   "truth": -2.22
+  },
+  {
+   "text": "The training data include multiple polychlorinated biphenyls (PCBs) as well as s",
+   "value": -6.05,
+   "reasoning_tokens": 1438,
+   "completion": 1750,
+   "cost": 0.0114416,
+   "finish": "stop",
+   "mol_id": "2',3,4-PCB",
+   "truth": -6.29
+  },
+  {
+   "text": "The aqueous solubility of organic compounds can be estimated using the ESOL mono",
+   "value": -1.5,
+   "reasoning_tokens": 12360,
+   "completion": 12708,
+   "cost": 0.0822084,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "The molecule Lindane (hexachlorocyclohexane) is a polychlorinated aliphatic cycl",
+   "value": -4.6,
+   "reasoning_tokens": 820,
+   "completion": 1181,
+   "cost": 0.0080256,
+   "finish": "stop",
+   "mol_id": "Lindane",
+   "truth": -4.64
+  },
+  {
+   "text": "The molecule 2-methylpteridine (C7H6N4) is a close structural analogue (position",
+   "value": -0.9,
+   "reasoning_tokens": 2909,
+   "completion": 3126,
+   "cost": 0.0196816,
+   "finish": "stop",
+   "mol_id": "2-methylpteridine",
+   "truth": -0.12
+  },
+  {
+   "text": "The aqueous solubility (as \\(\\log S\\), \\(S\\) in mol/L) of aromatic hydrocarbons ",
+   "value": -2.77,
+   "reasoning_tokens": 733,
+   "completion": 971,
+   "cost": 0.0069592,
+   "finish": "stop",
+   "mol_id": "p-Xylene",
+   "truth": -2.77
+  },
+  {
+   "text": "The test compound naphthacene (tetracene) is a linear tetra-cyclic aromatic hydr",
+   "value": -8.6,
+   "reasoning_tokens": 4020,
+   "completion": 4323,
+   "cost": 0.0270892,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "The training data include the closely related positional isomer 4-hydroxypyridin",
+   "value": 0.98,
+   "reasoning_tokens": 1877,
+   "completion": 2121,
+   "cost": 0.0138612,
+   "finish": "stop",
+   "mol_id": "2-Hydroxypyridine",
+   "truth": 1.02
+  },
+  {
+   "text": "The training data include multiple aliphatic alcohols that enable a direct struc",
+   "value": -1.4,
+   "reasoning_tokens": 1585,
+   "completion": 1883,
+   "cost": 0.0172204,
+   "finish": "stop",
+   "mol_id": "2-Heptanol",
+   "truth": -1.55
+  },
+  {
+   "text": "The target compound 3-methyl-2-butanone (SMILES \\(\\mathrm{CC(C)C(=O)C}\\)) is a b",
+   "value": -0.55,
+   "reasoning_tokens": 2491,
+   "completion": 2801,
+   "cost": 0.0227384,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanone",
+   "truth": -0.12
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by molecular s",
+   "value": -4.3,
+   "reasoning_tokens": 4736,
+   "completion": 5096,
+   "cost": 0.0315176,
+   "finish": "stop",
+   "mol_id": "1,2,4,5-Tetramethylbenzene",
+   "truth": -4.59
+  },
+  {
+   "text": "The molecule Fenpropathrin (a pyrethroid ester containing a tetramethylcycloprop",
+   "value": -6.03,
+   "reasoning_tokens": 1882,
+   "completion": 2227,
+   "cost": 0.0143336,
+   "finish": "stop",
+   "mol_id": "Fenpropathrin",
+   "truth": -6.025
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed by the balance between h",
+   "value": -2.42,
+   "reasoning_tokens": 2207,
+   "completion": 2514,
+   "cost": 0.0160116,
+   "finish": "stop",
+   "mol_id": "3-methylindole",
+   "truth": -2.42
+  },
+  {
+   "text": "The molecule triamterene (2,4,7-triamino-6-phenylpteridine) is a fused, fully ar",
+   "value": -3.92,
+   "reasoning_tokens": 1565,
+   "completion": 1918,
+   "cost": 0.0124556,
+   "finish": "stop",
+   "mol_id": "Triamterene",
+   "truth": -2.404
+  },
+  {
+   "text": "The molecule 3-methylpentane is a branched C6 alkane. Its aqueous solubility is ",
+   "value": -3.74,
+   "reasoning_tokens": 2126,
+   "completion": 2502,
+   "cost": 0.0161432,
+   "finish": "stop",
+   "mol_id": "3-Methylpentane",
+   "truth": -3.68
+  },
+  {
+   "text": "The molecule Linuron (3-(3,4-dichlorophenyl)-1-methoxy-1-methylurea) is a substi",
+   "value": -3.52,
+   "reasoning_tokens": 860,
+   "completion": 1262,
+   "cost": 0.0135124,
+   "finish": "stop",
+   "mol_id": "Linuron",
+   "truth": -3.592
+  },
+  {
+   "text": "The aqueous solubility of sparsomycin is provided directly in the query annotati",
+   "value": -1.98,
+   "reasoning_tokens": 1938,
+   "completion": 2205,
+   "cost": 0.0142156,
+   "finish": "stop",
+   "mol_id": "Sparsomycin (3,8mg/ml)",
+   "truth": -1.981
+  },
+  {
+   "text": "The molecule p-methylaniline (p-toluidine) consists of an aniline core substitut",
+   "value": -1.4,
+   "reasoning_tokens": 1911,
+   "completion": 2287,
+   "cost": 0.0148572,
+   "finish": "stop",
+   "mol_id": "p-Methylaniline",
+   "truth": -1.21
+  },
+  {
+   "text": "The training data include the closely related para isomer (p-chloronitrobenzene,",
+   "value": -2.55,
+   "reasoning_tokens": 713,
+   "completion": 989,
+   "cost": 0.0068596,
+   "finish": "stop",
+   "mol_id": "o-Chloronitrobenzene",
+   "truth": -2.55
+  },
+  {
+   "text": "The training set contains two molecules that are close structural analogs of the",
+   "value": -5.15,
+   "reasoning_tokens": 2440,
+   "completion": 2705,
+   "cost": 0.0171876,
+   "finish": "stop",
+   "mol_id": "Ethisterone",
+   "truth": -5.66
+  },
+  {
+   "text": "The training data contain two 5,5-disubstituted barbituric-acid analogues whose ",
+   "value": -1.64,
+   "reasoning_tokens": 11920,
+   "completion": 12201,
+   "cost": 0.0791644,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "The aqueous solubility of organic compounds such as secobarbital can be rational",
+   "value": -2.35,
+   "reasoning_tokens": 3486,
+   "completion": 3837,
+   "cost": 0.0239656,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "The aqueous solubility of phenolic compounds decreases systematically with the a",
+   "value": -1.21,
+   "reasoning_tokens": 959,
+   "completion": 1155,
+   "cost": 0.0128664,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethylphenol",
+   "truth": -1.19
+  },
+  {
+   "text": "The training data contain multiple aliphatic alcohols that enable a direct struc",
+   "value": -1.01,
+   "reasoning_tokens": 3751,
+   "completion": 3995,
+   "cost": 0.0248976,
+   "finish": "stop",
+   "mol_id": "3-Methyl-3-hexanol",
+   "truth": -0.98
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed by a balance between hyd",
+   "value": -2.9,
+   "reasoning_tokens": 1479,
+   "completion": 1741,
+   "cost": 0.0113756,
+   "finish": "stop",
+   "mol_id": "chlordimeform",
+   "truth": -2.86
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed by a balance of hydropho",
+   "value": -1.08,
+   "reasoning_tokens": 1323,
+   "completion": 1688,
+   "cost": 0.0110716,
+   "finish": "stop",
+   "mol_id": "Caffeine",
+   "truth": -0.8759999999999999
+  },
+  {
+   "text": "The training data include multiple aliphatic carbonyl compounds that enable a st",
+   "value": -0.85,
+   "reasoning_tokens": 2032,
+   "completion": 2323,
+   "cost": 0.0150692,
+   "finish": "stop",
+   "mol_id": "3-Hexanone",
+   "truth": -0.83
+  },
+  {
+   "text": "The molecule of interest (cyclooctane) is a fully saturated, non-polar cycloalka",
+   "value": -4.15,
+   "reasoning_tokens": 2433,
+   "completion": 2817,
+   "cost": 0.0228164,
+   "finish": "stop",
+   "mol_id": "Cyclooctane",
+   "truth": -4.15
+  },
+  {
+   "text": "The training set contains multiple aliphatic alcohols that establish a clear inv",
+   "value": -1.7,
+   "reasoning_tokens": 2374,
+   "completion": 2531,
+   "cost": 0.0211004,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "The molecule 2,2'-PCB (2,2'-dichlorobiphenyl) is a sparsely chlorinated congener",
+   "value": -5.28,
+   "reasoning_tokens": 1979,
+   "completion": 2341,
+   "cost": 0.0199784,
+   "finish": "stop",
+   "mol_id": "2,2'-PCB",
+   "truth": -5.27
+  },
+  {
+   "text": "The aqueous solubility of monofunctional aliphatic alcohols is governed primaril",
+   "value": -0.39,
+   "reasoning_tokens": 7511,
+   "completion": 7897,
+   "cost": 0.0485272,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "The training data includes multiple aliphatic alcohols that establish a clear st",
+   "value": -1.24,
+   "reasoning_tokens": 1681,
+   "completion": 1900,
+   "cost": 0.0125252,
+   "finish": "stop",
+   "mol_id": "1-Hexanol",
+   "truth": -1.24
+  },
+  {
+   "text": "The training set contains multiple low-molecular-weight unsaturated hydrocarbons",
+   "value": -2.54,
+   "reasoning_tokens": 1550,
+   "completion": 1791,
+   "cost": 0.0118812,
+   "finish": "stop",
+   "mol_id": "cis-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "The aqueous solubility of organic molecules is governed primarily by the opposin",
+   "value": -2.92,
+   "reasoning_tokens": 1754,
+   "completion": 2178,
+   "cost": 0.0142092,
+   "finish": "stop",
+   "mol_id": "Estragole",
+   "truth": -2.92
+  },
+  {
+   "text": "The aqueous solubility of organic molecules is governed primarily by the balance",
+   "value": -2.6,
+   "reasoning_tokens": 2895,
+   "completion": 3189,
+   "cost": 0.0202672,
+   "finish": "stop",
+   "mol_id": "1,4-Pentadiene",
+   "truth": -2.09
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by molecular s",
+   "value": 0.731,
+   "reasoning_tokens": 2493,
+   "completion": 2799,
+   "cost": 0.0179292,
+   "finish": "stop",
+   "mol_id": "O-Ethyl carbamate",
+   "truth": 0.85
+  },
+  {
+   "text": "The target molecule (3,3-dimethyl-2-butanone) is a monofunctional aliphatic keto",
+   "value": -1.08,
+   "reasoning_tokens": 4748,
+   "completion": 5132,
+   "cost": 0.0317316,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanone",
+   "truth": -0.72
+  },
+  {
+   "text": "The training data contain multiple nonpolar aromatic and hydroaromatic compounds",
+   "value": -3.14,
+   "reasoning_tokens": 2870,
+   "completion": 3225,
+   "cost": 0.0204812,
+   "finish": "stop",
+   "mol_id": "Indan",
+   "truth": -3.04
+  },
+  {
+   "text": "The target molecule (dimetan) is a moderately polar, non-aromatic carbamate cont",
+   "value": -1.79,
+   "reasoning_tokens": 1393,
+   "completion": 1761,
+   "cost": 0.0115096,
+   "finish": "stop",
+   "mol_id": "dimetan",
+   "truth": -0.85
+  },
+  {
+   "text": "The target molecule trietazine (2-chloro-4-(diethylamino)-6-(ethylamino)-1,3,5-t",
+   "value": -4.15,
+   "reasoning_tokens": 1490,
+   "completion": 1776,
+   "cost": 0.0115876,
+   "finish": "stop",
+   "mol_id": "Trietazine",
+   "truth": -4.06
+  },
+  {
+   "text": "The target molecule niclosamide (5-chloro-\\(N\\)-(2-chloro-4-nitrophenyl)-2-hydro",
+   "value": -5.31,
+   "reasoning_tokens": 1932,
+   "completion": 2284,
+   "cost": 0.0148692,
+   "finish": "stop",
+   "mol_id": "Niclosamide",
+   "truth": -4.7
+  },
+  {
+   "text": "The molecule meprobamate (2-methyl-2-propylpropane-1,3-diyl dicarbamate) contain",
+   "value": -1.77,
+   "reasoning_tokens": 1189,
+   "completion": 1527,
+   "cost": 0.0151024,
+   "finish": "stop",
+   "mol_id": "Meprobamate",
+   "truth": -1.807
+  },
+  {
+   "text": "The target molecule (SMILES: CCC(C)CCO) is a branched C6 aliphatic primary alcoh",
+   "value": -1.2,
+   "reasoning_tokens": 1839,
+   "completion": 2084,
+   "cost": 0.0136432,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "The aqueous solubility of organic molecules (as \\(\\log S\\), \\(S\\) in mol/L) is g",
+   "value": -3.75,
+   "reasoning_tokens": 2720,
+   "completion": 3115,
+   "cost": 0.0198332,
+   "finish": "stop",
+   "mol_id": "1,4-Diethylbenzene",
+   "truth": -3.75
+  },
+  {
+   "text": "The aqueous solubility of heterocyclic aromatic compounds is governed primarily ",
+   "value": -0.45,
+   "reasoning_tokens": 3100,
+   "completion": 3381,
+   "cost": 0.0214252,
+   "finish": "stop",
+   "mol_id": "3,4-Dimethylpyridine",
+   "truth": 0.36
+  },
+  {
+   "text": "The target molecule is diphenylamine, an aromatic secondary amine consisting of ",
+   "value": -3.5,
+   "reasoning_tokens": 694,
+   "completion": 1065,
+   "cost": 0.0073136,
+   "finish": "stop",
+   "mol_id": "Diphenylamine",
+   "truth": -3.504
+  },
+  {
+   "text": "The training molecules include multiple aromatic and heteroaromatic species whos",
+   "value": -2.14,
+   "reasoning_tokens": 990,
+   "completion": 1321,
+   "cost": 0.0090652,
+   "finish": "stop",
+   "mol_id": "indazole",
+   "truth": -2.16
+  },
+  {
+   "text": "The molecule of interest (benfluralin) is a hydrophobic N,N-dialkyl-2,6-dinitro-",
+   "value": -6.53,
+   "reasoning_tokens": 3612,
+   "completion": 4000,
+   "cost": 0.0249656,
+   "finish": "stop",
+   "mol_id": "Benfluralin",
+   "truth": -5.53
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by the balance",
+   "value": -5.35,
+   "reasoning_tokens": 1445,
+   "completion": 1839,
+   "cost": 0.0119856,
+   "finish": "stop",
+   "mol_id": "Methoprene",
+   "truth": -5.19
+  },
+  {
+   "text": "The training data multiparametric analysis reveals that aqueous solubility in th",
+   "value": -5.18,
+   "reasoning_tokens": 1603,
+   "completion": 1898,
+   "cost": 0.0123476,
+   "finish": "stop",
+   "mol_id": "norethindrone acetate",
+   "truth": -4.8
+  },
+  {
+   "text": "The test compound dibenzofuran (C12H8O) is a rigid, planar tricyclic aromatic et",
+   "value": -4.6,
+   "reasoning_tokens": 1680,
+   "completion": 1897,
+   "cost": 0.0173124,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "The training data include multiple steroid derivatives with related polycyclic f",
+   "value": -4.2,
+   "reasoning_tokens": 1842,
+   "completion": 2046,
+   "cost": 0.0132536,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by molecular s",
+   "value": -8.34,
+   "reasoning_tokens": 1644,
+   "completion": 1977,
+   "cost": 0.0128496,
+   "finish": "stop",
+   "mol_id": "Cyfluthrin",
+   "truth": -7.337000000000001
+  },
+  {
+   "text": "The molecule tetrafluthrin (also known as tefluthrin) is a polyhalogenated pyret",
+   "value": -7.32,
+   "reasoning_tokens": 3759,
+   "completion": 4085,
+   "cost": 0.0255116,
+   "finish": "stop",
+   "mol_id": "Tetrafluthrin",
+   "truth": -7.321000000000001
+  },
+  {
+   "text": "The training data contain multiple fused-ring aromatics that permit a direct ana",
+   "value": -1.93,
+   "reasoning_tokens": 3494,
+   "completion": 3807,
+   "cost": 0.0239772,
+   "finish": "stop",
+   "mol_id": "1-Napthylamine",
+   "truth": -1.92
+  },
+  {
+   "text": "The molecule of interest (pentylcyclopentane) is a hydrophobic, non-functionaliz",
+   "value": -5.15,
+   "reasoning_tokens": 4632,
+   "completion": 4999,
+   "cost": 0.0311252,
+   "finish": "stop",
+   "mol_id": "Pentylcyclopentane",
+   "truth": -6.08
+  },
+  {
+   "text": "The aqueous solubility of nonpolar hydrocarbons is governed primarily by molecul",
+   "value": -3.51,
+   "reasoning_tokens": 1641,
+   "completion": 1978,
+   "cost": 0.0129952,
+   "finish": "stop",
+   "mol_id": "Cycloheptane",
+   "truth": -3.51
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by molecular s",
+   "value": -3.87,
+   "reasoning_tokens": 5342,
+   "completion": 5626,
+   "cost": 0.0348872,
+   "finish": "stop",
+   "mol_id": "1-Bromoheptane",
+   "truth": -4.43
+  },
+  {
+   "text": "The training data contain multiple small, polar, hydrogen-bonding molecules that",
+   "value": 1.58,
+   "reasoning_tokens": 1019,
+   "completion": 1268,
+   "cost": 0.0135184,
+   "finish": "stop",
+   "mol_id": "Acetamide",
+   "truth": 1.58
+  },
+  {
+   "text": "The aqueous solubility of organic compounds can be estimated using quantitative ",
+   "value": -3.02,
+   "reasoning_tokens": 6191,
+   "completion": 6552,
+   "cost": 0.0402516,
+   "finish": "stop",
+   "mol_id": "brompyrazone",
+   "truth": -3.127
+  },
+  {
+   "text": "The training data include phenol (logS = 0.0) and pentachlorophenol (logS = -4.2",
+   "value": -2.65,
+   "reasoning_tokens": 3136,
+   "completion": 3340,
+   "cost": 0.0209796,
+   "finish": "stop",
+   "mol_id": "2,3,6-Trichlorophenol",
+   "truth": -2.64
+  },
+  {
+   "text": "The molecule propylcyclopentane (C8H16) is a nonpolar, saturated cycloalkane. Aq",
+   "value": -4.8,
+   "reasoning_tokens": 6013,
+   "completion": 6348,
+   "cost": 0.0392172,
+   "finish": "stop",
+   "mol_id": "Propylcyclopentane",
+   "truth": -4.74
+  },
+  {
+   "text": "The aqueous solubility of organic molecules is governed primarily by the balance",
+   "value": -0.86,
+   "reasoning_tokens": 2083,
+   "completion": 2449,
+   "cost": 0.0158232,
+   "finish": "stop",
+   "mol_id": "Guaiacol",
+   "truth": -1.96
+  },
+  {
+   "text": "The molecule citral (3,7-dimethylocta-2,6-dienal) is a monoterpenoid enal of for",
+   "value": -2.41,
+   "reasoning_tokens": 1262,
+   "completion": 1589,
+   "cost": 0.0106692,
+   "finish": "stop",
+   "mol_id": "citral",
+   "truth": -2.06
+  },
+  {
+   "text": "The target molecule is an \\(N\\)-acyloxymethyl prodrug derivative of phenytoin (5",
+   "value": -3.9,
+   "reasoning_tokens": 3081,
+   "completion": 3443,
+   "cost": 0.0216396,
+   "finish": "stop",
+   "mol_id": "3-Propanoyloxymethylphenytoin",
+   "truth": -4.907
+  },
+  {
+   "text": "The training data include a closely related formate ester, isopentyl formate (CC",
+   "value": -0.65,
+   "reasoning_tokens": 6319,
+   "completion": 6615,
+   "cost": 0.0408152,
+   "finish": "stop",
+   "mol_id": "Propyl formate",
+   "truth": -0.49
+  },
+  {
+   "text": "The training set contains multiple alkyl- and aryl-substituted aromatic hydrocar",
+   "value": -2.77,
+   "reasoning_tokens": 1159,
+   "completion": 1449,
+   "cost": 0.0098212,
+   "finish": "stop",
+   "mol_id": "Ethylbenzene",
+   "truth": -2.77
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by the balance",
+   "value": -4.28,
+   "reasoning_tokens": 1629,
+   "completion": 2074,
+   "cost": 0.0133836,
+   "finish": "stop",
+   "mol_id": "Diallate",
+   "truth": -4.2860000000000005
+  },
+  {
+   "text": "The training set contains several closely related RTI-series compounds that shar",
+   "value": -1.52,
+   "reasoning_tokens": 9607,
+   "completion": 10045,
+   "cost": 0.0612236,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "The molecule of interest (diethyl malonate) is a compact, moderately polar diest",
+   "value": -0.9,
+   "reasoning_tokens": 1327,
+   "completion": 1605,
+   "cost": 0.0105576,
+   "finish": "stop",
+   "mol_id": "Malonic acid diethylester",
+   "truth": -0.82
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed by the balance between h",
+   "value": -3.68,
+   "reasoning_tokens": 2849,
+   "completion": 3201,
+   "cost": 0.0251844,
+   "finish": "stop",
+   "mol_id": "Fludrocortisone",
+   "truth": -3.43
+  },
+  {
+   "text": "The aqueous solubility of organic compounds can be reliably anticipated from add",
+   "value": -3.49,
+   "reasoning_tokens": 3783,
+   "completion": 4037,
+   "cost": 0.0251716,
+   "finish": "stop",
+   "mol_id": "gentisin",
+   "truth": -2.943
+  },
+  {
+   "text": "The training data contain multiple aliphatic alcohols that enable a direct struc",
+   "value": -1.14,
+   "reasoning_tokens": 3696,
+   "completion": 3996,
+   "cost": 0.0251092,
+   "finish": "stop",
+   "mol_id": "2-Methylpentanol",
+   "truth": -1.11
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by the balance",
+   "value": -4.07,
+   "reasoning_tokens": 996,
+   "completion": 1353,
+   "cost": 0.0090456,
+   "finish": "stop",
+   "mol_id": "1,4-Dibromobenzene",
+   "truth": -4.07
+  },
+  {
+   "text": "The training data include the closely related isomer 1,4-dinitrobenzene (SMILES ",
+   "value": -2.53,
+   "reasoning_tokens": 1997,
+   "completion": 2285,
+   "cost": 0.0196604,
+   "finish": "stop",
+   "mol_id": "1,3-Dinitrobenzene",
+   "truth": -2.29
+  },
+  {
+   "text": "The target molecule terbacil (3-tert-butyl-5-chloro-6-methyluracil) is a substit",
+   "value": -2.48,
+   "reasoning_tokens": 1682,
+   "completion": 1968,
+   "cost": 0.0177664,
+   "finish": "stop",
+   "mol_id": "Terbacil",
+   "truth": -2.484
+  },
+  {
+   "text": "The molecule 3-methylheptane (SMILES: CCCCC(C)CC) is a saturated, branched C8 al",
+   "value": -5.05,
+   "reasoning_tokens": 2128,
+   "completion": 2400,
+   "cost": 0.0155332,
+   "finish": "stop",
+   "mol_id": "3-Methylheptane",
+   "truth": -5.16
+  },
+  {
+   "text": "The aqueous solubility of linear alkanes declines steadily with increasing chain",
+   "value": -5.77,
+   "reasoning_tokens": 4288,
+   "completion": 4645,
+   "cost": 0.0289872,
+   "finish": "stop",
+   "mol_id": "Nonane",
+   "truth": -5.88
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by solute hydr",
+   "value": -2.04,
+   "reasoning_tokens": 1055,
+   "completion": 1386,
+   "cost": 0.0142344,
+   "finish": "stop",
+   "mol_id": "Trichloroethylene",
+   "truth": -1.96
+  },
+  {
+   "text": "The molecule XMC (3,5-dimethylphenyl methylcarbamate) is a moderately polar mono",
+   "value": -2.54,
+   "reasoning_tokens": 4012,
+   "completion": 4370,
+   "cost": 0.0271476,
+   "finish": "stop",
+   "mol_id": "XMC",
+   "truth": -2.5810000000000004
+  },
+  {
+   "text": "The query molecule Kepone (chlordecone) is a perchlorinated polycyclic cage keto",
+   "value": -5.26,
+   "reasoning_tokens": 1530,
+   "completion": 1791,
+   "cost": 0.0117356,
+   "finish": "stop",
+   "mol_id": "Kepone",
+   "truth": -5.259
+  },
+  {
+   "text": "The target compound metronidazole (2-methyl-5-nitro-1H-imidazole-1-ethanol) cont",
+   "value": -1.23,
+   "reasoning_tokens": 652,
+   "completion": 884,
+   "cost": 0.0112364,
+   "finish": "stop",
+   "mol_id": "Metronidazole",
+   "truth": -1.22
+  },
+  {
+   "text": "The training data contain multiple polycyclic aromatic hydrocarbons (PAHs) whose",
+   "value": -8.8,
+   "reasoning_tokens": 1173,
+   "completion": 1352,
+   "cost": 0.0090696,
+   "finish": "stop",
+   "mol_id": "Benzo[ghi]perylene",
+   "truth": -9.018
+  },
+  {
+   "text": "The training data include multiple chlorinated aromatic compounds that can be us",
+   "value": -4.6,
+   "reasoning_tokens": 1479,
+   "completion": 1754,
+   "cost": 0.0164804,
+   "finish": "stop",
+   "mol_id": "1,2,3,5-Tetrachlorobenzene",
+   "truth": -4.63
+  },
+  {
+   "text": "The molecule p-fluoroacetanilide (CC(=O)Nc1ccc(F)cc1) is a monosubstituted aroma",
+   "value": -1.92,
+   "reasoning_tokens": 2152,
+   "completion": 2466,
+   "cost": 0.0157256,
+   "finish": "stop",
+   "mol_id": "p-Fluoroacetanilide",
+   "truth": -1.78
+  },
+  {
+   "text": "The target compound 2-phenoxyethanol (Ph-O-CH2CH2OH) contains a polar primary-al",
+   "value": -0.72,
+   "reasoning_tokens": 1519,
+   "completion": 1820,
+   "cost": 0.0120532,
+   "finish": "stop",
+   "mol_id": "2-Phenoxyethanol",
+   "truth": -0.7
+  },
+  {
+   "text": "The aqueous solubility of organic molecules is governed by the balance between h",
+   "value": -3.6,
+   "reasoning_tokens": 2693,
+   "completion": 3075,
+   "cost": 0.0243864,
+   "finish": "stop",
+   "mol_id": "1-Nitronapthalene",
+   "truth": -3.54
+  },
+  {
+   "text": "The training set contains multiple chlorinated aromatic and biphenyl compounds t",
+   "value": -6.48,
+   "reasoning_tokens": 3203,
+   "completion": 3477,
+   "cost": 0.0218216,
+   "finish": "stop",
+   "mol_id": "2,3',4',5-PCB",
+   "truth": -7.25
+  },
+  {
+   "text": "The training data include multiple polychlorinated compounds (e.g., Chlordene, D",
+   "value": -6.8,
+   "reasoning_tokens": 1077,
+   "completion": 1348,
+   "cost": 0.0090876,
+   "finish": "stop",
+   "mol_id": "Mirex",
+   "truth": -6.8
+  },
+  {
+   "text": "The aqueous solubility of saturated hydrocarbons is governed primarily by molecu",
+   "value": -3.65,
+   "reasoning_tokens": 3468,
+   "completion": 3705,
+   "cost": 0.0231576,
+   "finish": "stop",
+   "mol_id": "2,3-Dimethylbutane",
+   "truth": -3.65
+  },
+  {
+   "text": "The target molecule Azodrin (monocrotophos) is a compact organophosphorus compou",
+   "value": 0.65,
+   "reasoning_tokens": 3107,
+   "completion": 3476,
+   "cost": 0.0217896,
+   "finish": "stop",
+   "mol_id": "Azodrin",
+   "truth": 0.6509999999999999
+  },
+  {
+   "text": "The target compound methyl propionate (SMILES: CCC(=O)OC) is a low-molecular-wei",
+   "value": -0.214,
+   "reasoning_tokens": 2819,
+   "completion": 3206,
+   "cost": 0.0203612,
+   "finish": "stop",
+   "mol_id": "Methyl propionate",
+   "truth": -0.14
+  },
+  {
+   "text": "The training set contains urea (SMILES NC(=O)N) with a measured aqueous solubili",
+   "value": 0.27,
+   "reasoning_tokens": 1196,
+   "completion": 1410,
+   "cost": 0.0143724,
+   "finish": "stop",
+   "mol_id": "Thiourea",
+   "truth": 0.32
+  },
+  {
+   "text": "The aqueous solubility of liquid haloalkanes can be estimated reliably via the g",
+   "value": -1.31,
+   "reasoning_tokens": 3301,
+   "completion": 3656,
+   "cost": 0.0278584,
+   "finish": "stop",
+   "mol_id": "1-Chloro-2-bromoethane",
+   "truth": -1.32
+  },
+  {
+   "text": "The training data contain multiple aliphatic alcohols that enable a direct struc",
+   "value": -0.7,
+   "reasoning_tokens": 3341,
+   "completion": 3647,
+   "cost": 0.0278144,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed principally by the oppos",
+   "value": -1.21,
+   "reasoning_tokens": 6029,
+   "completion": 6414,
+   "cost": 0.0396172,
+   "finish": "stop",
+   "mol_id": "benzylurea",
+   "truth": -0.95
+  },
+  {
+   "text": "The molecule of interest (diphenylmethane) consists of two phenyl rings linked b",
+   "value": -4.08,
+   "reasoning_tokens": 1671,
+   "completion": 2098,
+   "cost": 0.0185184,
+   "finish": "stop",
+   "mol_id": "Diphenylmethane",
+   "truth": -4.08
+  },
+  {
+   "text": "The target molecule pyracarbolid (CC1=C(CCCO1)C(=O)Nc2ccccc2) is a substituted c",
+   "value": -3.4,
+   "reasoning_tokens": 2015,
+   "completion": 2293,
+   "cost": 0.0146936,
+   "finish": "stop",
+   "mol_id": "pyracarbolid",
+   "truth": -2.56
+  },
+  {
+   "text": "The aqueous solubility of organic compounds can be estimated using a combination",
+   "value": -3.85,
+   "reasoning_tokens": 12313,
+   "completion": 12685,
+   "cost": 0.0770576,
+   "finish": "stop",
+   "mol_id": "Methyldymron",
+   "truth": -3.35
+  },
+  {
+   "text": "The molecule tubercidin (7-deazaadenosine) consists of a hydrated, hydrogen-bond",
+   "value": -1.15,
+   "reasoning_tokens": 2222,
+   "completion": 2585,
+   "cost": 0.0164556,
+   "finish": "stop",
+   "mol_id": "tubercidin",
+   "truth": -1.95
+  },
+  {
+   "text": "The training data are drawn from standard aqueous solubility compilations (e.g.,",
+   "value": -1.45,
+   "reasoning_tokens": 997,
+   "completion": 1343,
+   "cost": 0.0139764,
+   "finish": "stop",
+   "mol_id": "Isoquinoline",
+   "truth": -1.45
+  },
+  {
+   "text": "The aqueous solubility of aromatic compounds is governed primarily by the balanc",
+   "value": -2.58,
+   "reasoning_tokens": 3025,
+   "completion": 3382,
+   "cost": 0.0212316,
+   "finish": "stop",
+   "mol_id": "2,4,6-Trichlorophenol",
+   "truth": -2.34
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed by the opposing contribu",
+   "value": -2.35,
+   "reasoning_tokens": 9035,
+   "completion": 9375,
+   "cost": 0.0571756,
+   "finish": "stop",
+   "mol_id": "o-Nitrotoluene",
+   "truth": -2.33
+  },
+  {
+   "text": "The molecule alloxan (pyrimidine-2,4,5,6-tetrone) is a compact, highly polar het",
+   "value": 0.15,
+   "reasoning_tokens": 2363,
+   "completion": 2659,
+   "cost": 0.0168876,
+   "finish": "stop",
+   "mol_id": "alloxan",
+   "truth": -1.25
+  },
+  {
+   "text": "The target molecule is decachlorobiphenyl (PCB-209), a fully chlorinated derivat",
+   "value": -11.6,
+   "reasoning_tokens": 2742,
+   "completion": 3085,
+   "cost": 0.0245344,
+   "finish": "stop",
+   "mol_id": "2,2',3,3',4,4',5,5',6,6'-PCB",
+   "truth": -11.6
+  },
+  {
+   "text": "The training data include multiple aliphatic alcohols that establish a clear str",
+   "value": -1.81,
+   "reasoning_tokens": 1175,
+   "completion": 1471,
+   "cost": 0.0099552,
+   "finish": "stop",
+   "mol_id": "1-Heptanol",
+   "truth": -1.81
+  },
+  {
+   "text": "The training set contains two terminal alkynes that enable a direct structure\u2013so",
+   "value": -2.96,
+   "reasoning_tokens": 1559,
+   "completion": 1809,
+   "cost": 0.0119852,
+   "finish": "stop",
+   "mol_id": "1-Heptyne",
+   "truth": -3.01
+  },
+  {
+   "text": "The molecule Talbutal (5-allyl-5-(sec-butyl)barbituric acid) contains the polar,",
+   "value": -2.35,
+   "reasoning_tokens": 1752,
+   "completion": 2142,
+   "cost": 0.0137956,
+   "finish": "stop",
+   "mol_id": "Talbutal",
+   "truth": -2.016
+  },
+  {
+   "text": "The molecule Phoxim (SMILES: CCOP(=S)(OCC)ON=C(C#N)c1ccccc1) is an organothiopho",
+   "value": -5.3,
+   "reasoning_tokens": 1323,
+   "completion": 1585,
+   "cost": 0.0104496,
+   "finish": "stop",
+   "mol_id": "Phoxim",
+   "truth": -4.862
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by the balance",
+   "value": -7.82,
+   "reasoning_tokens": 1364,
+   "completion": 1707,
+   "cost": 0.0113652,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "The aqueous solubility of rigid, non-hydrogen-bonding organic solids is well des",
+   "value": -7.9,
+   "reasoning_tokens": 7876,
+   "completion": 8181,
+   "cost": 0.0550284,
+   "finish": "stop",
+   "mol_id": "p-terphenyl",
+   "truth": -7.11
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed by the balance between h",
+   "value": -2.09,
+   "reasoning_tokens": 2774,
+   "completion": 3151,
+   "cost": 0.0198296,
+   "finish": "stop",
+   "mol_id": "ethiofencarb",
+   "truth": -2.09
+  },
+  {
+   "text": "The target molecule (chlorpropham) is a moderately lipophilic monochlorinated ar",
+   "value": -3.38,
+   "reasoning_tokens": 1369,
+   "completion": 1722,
+   "cost": 0.0162664,
+   "finish": "stop",
+   "mol_id": "Chloropham",
+   "truth": -3.38
+  },
+  {
+   "text": "The aqueous solubility of nitrobenzene can be estimated by direct comparison to ",
+   "value": -1.8,
+   "reasoning_tokens": 487,
+   "completion": 751,
+   "cost": 0.0056412,
+   "finish": "stop",
+   "mol_id": "Nitrobenzene",
+   "truth": -1.8
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed by the balance between h",
+   "value": -0.24,
+   "reasoning_tokens": 2342,
+   "completion": 2744,
+   "cost": 0.0175932,
+   "finish": "stop",
+   "mol_id": "Methyl acrylate",
+   "truth": -0.22
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by the balance",
+   "value": -1.95,
+   "reasoning_tokens": 1394,
+   "completion": 1794,
+   "cost": 0.0117136,
+   "finish": "stop",
+   "mol_id": "Pirimicarb",
+   "truth": -1.95
+  },
+  {
+   "text": "The target molecule (metronidazole) is a compact, polar heterocyclic compound co",
+   "value": -1.23,
+   "reasoning_tokens": 687,
+   "completion": 1077,
+   "cost": 0.0123964,
+   "finish": "stop",
+   "mol_id": "Metranidazole",
+   "truth": -1.26
+  },
+  {
+   "text": "The training data include phenol (logS = 0.0) and the heavily chlorinated analog",
+   "value": -1.71,
+   "reasoning_tokens": 2447,
+   "completion": 2667,
+   "cost": 0.0169356,
+   "finish": "stop",
+   "mol_id": "3,4-Dichlorophenol",
+   "truth": -1.25
+  },
+  {
+   "text": "The training data include two terminal alkynes that establish a clear dependence",
+   "value": 0.228,
+   "reasoning_tokens": 1992,
+   "completion": 2236,
+   "cost": 0.0193224,
+   "finish": "stop",
+   "mol_id": "Ethyne",
+   "truth": 0.29
+  },
+  {
+   "text": "The target compound 2-pyrrolidone (a five-membered lactam) is a small, highly po",
+   "value": 1.07,
+   "reasoning_tokens": 1484,
+   "completion": 1740,
+   "cost": 0.0115732,
+   "finish": "stop",
+   "mol_id": "2-pyrrolidone",
+   "truth": 1.07
+  },
+  {
+   "text": "The target molecule (DEF; S,S,S-tributyl phosphorotrithioate) is a neutral organ",
+   "value": -5.14,
+   "reasoning_tokens": 1840,
+   "completion": 2246,
+   "cost": 0.0193984,
+   "finish": "stop",
+   "mol_id": "DEF",
+   "truth": -5.14
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed by the balance of hydrop",
+   "value": -4.88,
+   "reasoning_tokens": 2723,
+   "completion": 3096,
+   "cost": 0.0197312,
+   "finish": "stop",
+   "mol_id": "Benomyl",
+   "truth": -4.883
+  },
+  {
+   "text": "The aqueous solubility of organic compounds is governed primarily by molecular s",
+   "value": -4.3,
+   "reasoning_tokens": 2739,
+   "completion": 3062,
+   "cost": 0.0195172,
+   "finish": "stop",
+   "mol_id": "2,3-Dimethylpentane",
+   "truth": -4.28
+  },
+  {
+   "text": "The training data include multiple alkyl-substituted phenols that furnish direct",
+   "value": -2.22,
+   "reasoning_tokens": 2553,
+   "completion": 2823,
+   "cost": 0.0228784,
+   "finish": "stop",
+   "mol_id": "p-t-Butylphenol",
+   "truth": -2.41
+  },
+  {
+   "text": "The training data contain multiple barbituric acid derivatives that share the sa",
+   "value": -2.75,
+   "reasoning_tokens": 3158,
+   "completion": 3463,
+   "cost": 0.0267224,
+   "finish": "stop",
+   "mol_id": "cyclobarbital",
+   "truth": -2.17
+  }
+ ]
+}

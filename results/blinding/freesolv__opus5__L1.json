@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "freesolv",
+  "tag": "opus5",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "none",
+  "disjoint_from": "esol,ld50",
+  "cost": 3.840195000000001,
+  "timestamp": "2026-07-28T16:25:11"
+ },
+ "calls": [
+  {
+   "text": "# Analysis\n\nThis is a pentachlorobiphenyl (PCB). Looking at related training dat",
+   "value": -3.7,
+   "reasoning_tokens": 0,
+   "completion": 428,
+   "cost": 0.02759,
+   "finish": "stop",
+   "mol_id": "1,2,3-trichloro-5-(2,5-dichlorophenyl)benzene",
+   "truth": -3.61
+  },
+  {
+   "text": "Nitrate esters: 1-nitropropane is a nitro compound (-3.34), but nitrate esters l",
+   "value": -1.7,
+   "reasoning_tokens": 0,
+   "completion": 194,
+   "cost": 0.021515,
+   "finish": "stop",
+   "mol_id": "isobutyl nitrate",
+   "truth": -1.88
+  },
+  {
+   "text": "# Analysis\n\n5-Bromouracil is a substituted uracil. Uracil itself has a very favo",
+   "value": -18.2,
+   "reasoning_tokens": 0,
+   "completion": 366,
+   "cost": 0.02585,
+   "finish": "stop",
+   "mol_id": "5-bromouracil",
+   "truth": -18.17
+  },
+  {
+   "text": "# Analysis\n\n**Target:** 1,1,1-trifluoropropan-2-ol \u2014 a secondary alcohol with a ",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 412,
+   "cost": 0.02701,
+   "finish": "stop",
+   "mol_id": "1,1,1-trifluoropropan-2-ol",
+   "truth": -4.16
+  },
+  {
+   "text": "Hexafluoropropene is a highly fluorinated, very hydrophobic gas. Perfluorinated ",
+   "value": 1.9,
+   "reasoning_tokens": 0,
+   "completion": 117,
+   "cost": 0.019685,
+   "finish": "stop",
+   "mol_id": "1,1,2,3,3,3-hexafluoroprop-1-ene",
+   "truth": 2.93
+  },
+  {
+   "text": "# Analysis\n\n**1,4-Dimethylpiperazine** is a cyclic diamine with two tertiary ami",
+   "value": -7.58,
+   "reasoning_tokens": 0,
+   "completion": 457,
+   "cost": 0.028085,
+   "finish": "stop",
+   "mol_id": "1,4-dimethylpiperazine",
+   "truth": -7.58
+  },
+  {
+   "text": "# Analysis\n\nPyridine has \u0394G_hyd = -4.70 (experimental ~-4.7; training pyridine =",
+   "value": -6.0,
+   "reasoning_tokens": 0,
+   "completion": 283,
+   "cost": 0.02372,
+   "finish": "stop",
+   "mol_id": "pyridine-4-carbonitrile",
+   "truth": -6.02
+  },
+  {
+   "text": "## Analysis\n\n**Reference points from training data:**\n- 1-chlorobutane (CCCCCl):",
+   "value": -0.14,
+   "reasoning_tokens": 0,
+   "completion": 332,
+   "cost": 0.024935,
+   "finish": "stop",
+   "mol_id": "2-chlorobutane",
+   "truth": 0.0
+  },
+  {
+   "text": "# Analysis\n\n**Structure:** methyl cyanoacetate \u2014 an ester group plus a nitrile g",
+   "value": -5.5,
+   "reasoning_tokens": 0,
+   "completion": 422,
+   "cost": 0.027195,
+   "finish": "stop",
+   "mol_id": "methyl 2-cyanoacetate",
+   "truth": -6.72
+  },
+  {
+   "text": "4-methylbenzaldehyde is -4.27; the ortho isomer is typically very similar, perha",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 52,
+   "cost": 0.017955,
+   "finish": "stop",
+   "mol_id": "2-methylbenzaldehyde",
+   "truth": -3.93
+  },
+  {
+   "text": "# Analysis\n\n**Structure:** N,N-dimethylbenzamide \u2014 a tertiary aromatic amide.\n\n*",
+   "value": -11.0,
+   "reasoning_tokens": 0,
+   "completion": 571,
+   "cost": 0.030955,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylbenzamide",
+   "truth": -9.29
+  },
+  {
+   "text": "Heptane is +2.67; each CH2 adds ~+0.15\u20130.2 kcal/mol. Octane ~2.89, nonane ~3.1, ",
+   "value": 3.2,
+   "reasoning_tokens": 0,
+   "completion": 73,
+   "cost": 0.018415,
+   "finish": "stop",
+   "mol_id": "decane",
+   "truth": 3.16
+  },
+  {
+   "text": "# Analysis\n\n**Structure:** A phenol with two ortho-methoxy groups and two chlori",
+   "value": -6.1,
+   "reasoning_tokens": 0,
+   "completion": 655,
+   "cost": 0.03314,
+   "finish": "stop",
+   "mol_id": "3,5-dichloro-2,6-dimethoxyphenol",
+   "truth": -6.44
+  },
+  {
+   "text": "# Analysis\n\n**Target:** 4-acetylpyridine, CC(=O)c1ccncc1\n\n**Reference points:**\n",
+   "value": -7.6,
+   "reasoning_tokens": 0,
+   "completion": 407,
+   "cost": 0.02685,
+   "finish": "stop",
+   "mol_id": "1-(4-pyridyl)ethanone",
+   "truth": -7.62
+  },
+  {
+   "text": "2-ethylphenol is -5.66; 4-methylphenol ~ -6.1; para-substitution slightly more h",
+   "value": -6.25,
+   "reasoning_tokens": 0,
+   "completion": 85,
+   "cost": 0.018765,
+   "finish": "stop",
+   "mol_id": "4-ethylphenol",
+   "truth": -6.13
+  },
+  {
+   "text": "# Analysis\n\n**Reference points:**\n- Aniline: ~ -5.49 kcal/mol; 2-methylaniline: ",
+   "value": -7.0,
+   "reasoning_tokens": 0,
+   "completion": 449,
+   "cost": 0.02786,
+   "finish": "stop",
+   "mol_id": "3-methoxyaniline",
+   "truth": -7.29
+  },
+  {
+   "text": "## Analysis\n\nAlkylbenzenes in training data:\n- ethylbenzene: -0.79\n- butylbenzen",
+   "value": -0.4,
+   "reasoning_tokens": 0,
+   "completion": 240,
+   "cost": 0.022655,
+   "finish": "stop",
+   "mol_id": "sec-butylbenzene",
+   "truth": -0.45
+  },
+  {
+   "text": "## Analysis\n\n**Target:** Methyl cyclopropyl ketone, CC(=O)C1CC1 (C5H8O)\n\n**Refer",
+   "value": -3.9,
+   "reasoning_tokens": 0,
+   "completion": 418,
+   "cost": 0.027095,
+   "finish": "stop",
+   "mol_id": "1-cyclopropylethanone",
+   "truth": -4.61
+  },
+  {
+   "text": "# Analysis\n\nMethyl benzoate: \u22123.92 kcal/mol. Adding a para-nitro group typically",
+   "value": -7.0,
+   "reasoning_tokens": 0,
+   "completion": 212,
+   "cost": 0.022035,
+   "finish": "stop",
+   "mol_id": "methyl 4-nitrobenzoate",
+   "truth": -6.88
+  },
+  {
+   "text": "# Analysis\n\nThis is dinoseb (2-sec-butyl-4,6-dinitrophenol). Key considerations:",
+   "value": -4.8,
+   "reasoning_tokens": 0,
+   "completion": 599,
+   "cost": 0.031885,
+   "finish": "stop",
+   "mol_id": "2-[(1R)-1-methylpropyl]-4,6-dinitro-phenolate",
+   "truth": -6.23
+  },
+  {
+   "text": "Given 1,2,4-trichlorodibenzo-p-dioxin is -4.80, adding another chlorine typicall",
+   "value": -5.0,
+   "reasoning_tokens": 0,
+   "completion": 142,
+   "cost": 0.02042,
+   "finish": "stop",
+   "mol_id": "1,2,3,7-tetrachlorodibenzo-p-dioxin",
+   "truth": -3.84
+  },
+  {
+   "text": "Looking at the analogous compound 3-nitrooxypropyl nitrate (1,3-propanediol dini",
+   "value": -4.0,
+   "reasoning_tokens": 0,
+   "completion": 233,
+   "cost": 0.02258,
+   "finish": "stop",
+   "mol_id": "1,2-dinitroxypropane",
+   "truth": -4.95
+  },
+  {
+   "text": "## Reasoning\n\nAlkyl nitrates: nitrate esters are weakly hydrated. Known experime",
+   "value": -1.1,
+   "reasoning_tokens": 0,
+   "completion": 265,
+   "cost": 0.023285,
+   "finish": "stop",
+   "mol_id": "hexyl nitrate",
+   "truth": -1.66
+  },
+  {
+   "text": "<answer>-4.53</answer>",
+   "value": -4.53,
+   "reasoning_tokens": 0,
+   "completion": 14,
+   "cost": 0.017135,
+   "finish": "stop",
+   "mol_id": "1,3-bis-(nitrooxy)butane",
+   "truth": -4.29
+  },
+  {
+   "text": "# Analysis\n\n**Target:** butyl nitrate, CCCCO[N+](=O)[O-]\n\n**Reference points:**\n",
+   "value": -1.3,
+   "reasoning_tokens": 0,
+   "completion": 523,
+   "cost": 0.02972,
+   "finish": "stop",
+   "mol_id": "butyl nitrate",
+   "truth": -2.09
+  },
+  {
+   "text": "## Analysis\n\nThis is carveol, a monoterpene alcohol (C10H16O). \n\n**Reference poi",
+   "value": -3.9,
+   "reasoning_tokens": 0,
+   "completion": 415,
+   "cost": 0.02724,
+   "finish": "stop",
+   "mol_id": "(1S,5R)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-ol",
+   "truth": -4.44
+  },
+  {
+   "text": "# Analysis\n\n**Phenyl formate** (C\u2086H\u2085\u2013O\u2013CHO) is an aryl ester. Key considerations",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 468,
+   "cost": 0.02833,
+   "finish": "stop",
+   "mol_id": "phenyl formate",
+   "truth": -3.82
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** 1,1-diphenylethene \u2014 two phenyl rings on a vinyliden",
+   "value": -2.75,
+   "reasoning_tokens": 0,
+   "completion": 497,
+   "cost": 0.029105,
+   "finish": "stop",
+   "mol_id": "1,1-diphenylethene",
+   "truth": -2.78
+  },
+  {
+   "text": "## Analysis\n\nAzetidine is a 4-membered cyclic secondary amine. Comparing homolog",
+   "value": -5.6,
+   "reasoning_tokens": 0,
+   "completion": 403,
+   "cost": 0.026655,
+   "finish": "stop",
+   "mol_id": "azetidine",
+   "truth": -5.56
+  },
+  {
+   "text": "## Analysis\n\nPhenol: \u22126.60. Adding an alkyl group in meta position typically sli",
+   "value": -6.25,
+   "reasoning_tokens": 0,
+   "completion": 230,
+   "cost": 0.022385,
+   "finish": "stop",
+   "mol_id": "3-ethylphenol",
+   "truth": -6.25
+  },
+  {
+   "text": "# Analysis\n\n**Dialifor** is an organophosphorus insecticide combining a phosphor",
+   "value": -9.5,
+   "reasoning_tokens": 0,
+   "completion": 760,
+   "cost": 0.03576,
+   "finish": "stop",
+   "mol_id": "dialifor",
+   "truth": -5.74
+  },
+  {
+   "text": "# Reasoning\n\nIodoalkanes: iodomethane -0.89, iodoethane -0.74, 2-iodopropane -0.",
+   "value": -0.15,
+   "reasoning_tokens": 0,
+   "completion": 242,
+   "cost": 0.02265,
+   "finish": "stop",
+   "mol_id": "1-iodopentane",
+   "truth": -0.14
+  },
+  {
+   "text": "Isobutane is 2.30; neopentane is slightly more hydrophobic, around 2.5.\n\n**2.50*",
+   "value": 2.5,
+   "reasoning_tokens": 0,
+   "completion": 41,
+   "cost": 0.01762,
+   "finish": "stop",
+   "mol_id": "neopentane",
+   "truth": 2.51
+  },
+  {
+   "text": "## Analysis\n\n**Structure**: Trimethyl orthobenzoate \u2014 a benzene ring attached to",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 618,
+   "cost": 0.032125,
+   "finish": "stop",
+   "mol_id": "trimethoxymethylbenzene",
+   "truth": -4.04
+  },
+  {
+   "text": "2-Butanol: experimental \u0394Ghyd \u2248 -4.6 kcal/mol (isobutanol -4.50, cyclohexanol -5",
+   "value": -4.62,
+   "reasoning_tokens": 0,
+   "completion": 97,
+   "cost": 0.01904,
+   "finish": "stop",
+   "mol_id": "butan-2-ol",
+   "truth": -4.62
+  },
+  {
+   "text": "This is chlorfenvinphos, an organophosphate insecticide. Comparing to trimethyl ",
+   "value": -5.6,
+   "reasoning_tokens": 0,
+   "completion": 256,
+   "cost": 0.023315,
+   "finish": "stop",
+   "mol_id": "2-chloro-1-(2,4-dichlorophenyl)ethenyl diethyl phosphate",
+   "truth": -7.07
+  },
+  {
+   "text": "## Analysis\n\nEndrin is a polychlorinated cyclodiene insecticide (stereoisomer of",
+   "value": -3.55,
+   "reasoning_tokens": 0,
+   "completion": 591,
+   "cost": 0.03175,
+   "finish": "stop",
+   "mol_id": "endrin",
+   "truth": -4.82
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** A cyclohexene ring bearing an \u03b1,\u03b2-unsaturated aldehy",
+   "value": -2.9,
+   "reasoning_tokens": 0,
+   "completion": 703,
+   "cost": 0.034395,
+   "finish": "stop",
+   "mol_id": "4-(1-Methylethenyl)-1-cyclohexene-1-carboxaldehyde",
+   "truth": -4.09
+  },
+  {
+   "text": "# Analysis\n\nThis is diphenhydramine, a tertiary amine ether with two phenyl ring",
+   "value": -9.3,
+   "reasoning_tokens": 0,
+   "completion": 519,
+   "cost": 0.02975,
+   "finish": "stop",
+   "mol_id": "[2-benzhydryloxyethyl]-dimethyl-amine",
+   "truth": -9.34
+  },
+  {
+   "text": "**Analysis**\n\nThis is a hexitol (mannitol/allitol-type sugar alcohol) with six h",
+   "value": -23.6,
+   "reasoning_tokens": 0,
+   "completion": 334,
+   "cost": 0.025225,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4R,5R)-Hexan-1,2,3,4,5,6-hexol",
+   "truth": -23.62
+  },
+  {
+   "text": "# Analysis\n\nSecondary alcohols: cyclohexanol \u22125.46; 2-methylpropan-1-ol \u22124.50. A",
+   "value": -3.73,
+   "reasoning_tokens": 0,
+   "completion": 155,
+   "cost": 0.02054,
+   "finish": "stop",
+   "mol_id": "4-methylpentan-2-ol",
+   "truth": -3.73
+  },
+  {
+   "text": "THF is -3.47. Adding a methyl group typically makes hydration slightly less favo",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 95,
+   "cost": 0.019035,
+   "finish": "stop",
+   "mol_id": "2-methyltetrahydrofuran",
+   "truth": -3.3
+  },
+  {
+   "text": "# Analysis\n\n1-Methylimidazole is a highly polar, basic heteroaromatic with a str",
+   "value": -8.41,
+   "reasoning_tokens": 0,
+   "completion": 296,
+   "cost": 0.02402,
+   "finish": "stop",
+   "mol_id": "1-methylimidazole",
+   "truth": -8.41
+  },
+  {
+   "text": "## Analysis\n\n**Reference points:**\n- Phenol: \u22126.60 kcal/mol\n- Benzonitrile: ~\u22124.",
+   "value": -9.65,
+   "reasoning_tokens": 0,
+   "completion": 464,
+   "cost": 0.02827,
+   "finish": "stop",
+   "mol_id": "4-hydroxybenzonitrile",
+   "truth": -10.17
+  },
+  {
+   "text": "Linalyl acetate: an ester with two alkene units and a large hydrophobic skeleton",
+   "value": -2.3,
+   "reasoning_tokens": 0,
+   "completion": 126,
+   "cost": 0.01997,
+   "finish": "stop",
+   "mol_id": "(3R)-3,7-Dimethylocta-1,6-dien-3-yl acetate",
+   "truth": -2.49
+  },
+  {
+   "text": "# Analysis\n\nMethyl ethyl ether (methoxyethane) is a small aliphatic ether. Ether",
+   "value": -2.1,
+   "reasoning_tokens": 0,
+   "completion": 231,
+   "cost": 0.022355,
+   "finish": "stop",
+   "mol_id": "methoxyethane",
+   "truth": -2.1
+  },
+  {
+   "text": "# Analysis\n\nSulfolane (tetramethylene sulfone) is a cyclic sulfone with a very h",
+   "value": -8.6,
+   "reasoning_tokens": 0,
+   "completion": 469,
+   "cost": 0.02838,
+   "finish": "stop",
+   "mol_id": "sulfolane",
+   "truth": -8.61
+  },
+  {
+   "text": "Perfluorinated compounds are highly hydrophobic with positive hydration free ene",
+   "value": 3.43,
+   "reasoning_tokens": 0,
+   "completion": 74,
+   "cost": 0.01857,
+   "finish": "stop",
+   "mol_id": "octafluorocyclobutane",
+   "truth": 3.43
+  },
+  {
+   "text": "## Analysis\n\nPyridine: -4.70. Methylpyridines (dimethyl ~-4.8 to -4.9) suggest a",
+   "value": -4.6,
+   "reasoning_tokens": 0,
+   "completion": 268,
+   "cost": 0.023325,
+   "finish": "stop",
+   "mol_id": "3-ethylpyridine",
+   "truth": -4.59
+  },
+  {
+   "text": "<answer>-1.99</answer>",
+   "value": -1.99,
+   "reasoning_tokens": 0,
+   "completion": 14,
+   "cost": 0.01699,
+   "finish": "stop",
+   "mol_id": "1,4-dichlorobutane",
+   "truth": -2.32
+  },
+  {
+   "text": "# Analysis\n\nMethyl esters of small acids: methyl formate \u22122.78, methyl benzoate ",
+   "value": -2.0,
+   "reasoning_tokens": 0,
+   "completion": 238,
+   "cost": 0.02264,
+   "finish": "stop",
+   "mol_id": "methyl 2,2-dimethylpropanoate",
+   "truth": -2.4
+  },
+  {
+   "text": "This is isoflurane, a volatile anesthetic with very low water solubility and low",
+   "value": 0.75,
+   "reasoning_tokens": 0,
+   "completion": 147,
+   "cost": 0.02051,
+   "finish": "stop",
+   "mol_id": "2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-ethane",
+   "truth": 0.1
+  },
+  {
+   "text": "# Analysis\n\n2-Methylpentan-3-ol is a branched secondary C6 alcohol.\n\nReference p",
+   "value": -3.9,
+   "reasoning_tokens": 0,
+   "completion": 324,
+   "cost": 0.024765,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-3-ol",
+   "truth": -3.88
+  },
+  {
+   "text": "**Reasoning**\n\nBiphenyl: \u22122.70. Adding chlorines to biphenyl typically changes \u0394",
+   "value": -4.0,
+   "reasoning_tokens": 0,
+   "completion": 292,
+   "cost": 0.024305,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(2,3,4,6-tetrachlorophenyl)benzene",
+   "truth": -4.61
+  },
+  {
+   "text": "## Analysis\n\n**Reference points from training data:**\n- 1,2,4-trichlorodibenzo-p",
+   "value": -4.55,
+   "reasoning_tokens": 0,
+   "completion": 572,
+   "cost": 0.0312,
+   "finish": "stop",
+   "mol_id": "1,2,3,4,7-pentachlorodibenzo-p-dioxin",
+   "truth": -4.15
+  },
+  {
+   "text": "# Analysis\n\n1,1,1-Trifluoropropan-2-ol: a secondary alcohol with a CF3 group. Fl",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 266,
+   "cost": 0.023335,
+   "finish": "stop",
+   "mol_id": "111-trifluoropropan-2-ol",
+   "truth": -4.2
+  },
+  {
+   "text": "## Reasoning\n\nAlkyl iodides: iodomethane \u22120.89, iodoethane \u22120.74, 2-iodopropane ",
+   "value": -0.1,
+   "reasoning_tokens": 0,
+   "completion": 225,
+   "cost": 0.02223,
+   "finish": "stop",
+   "mol_id": "1-iodohexane",
+   "truth": 0.08
+  },
+  {
+   "text": "# Analysis\n\ntert-Butyl chloride is a small, branched, weakly polar halide. Compa",
+   "value": -0.48,
+   "reasoning_tokens": 0,
+   "completion": 230,
+   "cost": 0.02241,
+   "finish": "stop",
+   "mol_id": "2-chloro-2-methyl-propane",
+   "truth": 1.09
+  },
+  {
+   "text": "Methyl acetate ~ -3.3; adding \u03b1-chloro increases polarity somewhat but also adds",
+   "value": -4.0,
+   "reasoning_tokens": 0,
+   "completion": 85,
+   "cost": 0.01876,
+   "finish": "stop",
+   "mol_id": "methyl 2-chloroacetate",
+   "truth": -4.0
+  },
+  {
+   "text": "## Analysis\n\nSecondary alcohols and short-chain alcohols in general have hydrati",
+   "value": -4.4,
+   "reasoning_tokens": 0,
+   "completion": 284,
+   "cost": 0.02373,
+   "finish": "stop",
+   "mol_id": "pentan-2-ol",
+   "truth": -4.39
+  },
+  {
+   "text": "# Analysis\n\n1,2-Dimethylcyclohexane is a saturated hydrocarbon (C8H16). Alkanes ",
+   "value": 2.0,
+   "reasoning_tokens": 0,
+   "completion": 386,
+   "cost": 0.026355,
+   "finish": "stop",
+   "mol_id": "1,2-dimethylcyclohexane",
+   "truth": 1.58
+  },
+  {
+   "text": "# Analysis\n\nUracil derivatives are highly hydrated due to two amide N-H donors a",
+   "value": -15.8,
+   "reasoning_tokens": 0,
+   "completion": 343,
+   "cost": 0.025275,
+   "finish": "stop",
+   "mol_id": "6-chlorouracil",
+   "truth": -15.83
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** A trimethyl orthoester of trifluoroacetic acid \u2014 thr",
+   "value": -1.6,
+   "reasoning_tokens": 0,
+   "completion": 604,
+   "cost": 0.031855,
+   "finish": "stop",
+   "mol_id": "1,1,1-trifluoro-2,2,2-trimethoxyethane",
+   "truth": -0.8
+  },
+  {
+   "text": "## Analysis\n\nThis is dihydrocarvone, a cyclic ketone (C10H16O) with an isopropen",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 520,
+   "cost": 0.029835,
+   "finish": "stop",
+   "mol_id": "(2R,5R)-2-methyl-5-(1-methylethenyl)-cyclohexanone",
+   "truth": -3.75
+  },
+  {
+   "text": "<thinking>\n2-chloro-1,1,1-trimethoxyethane: an orthoester. Three methoxy groups ",
+   "value": -4.1,
+   "reasoning_tokens": 0,
+   "completion": 594,
+   "cost": 0.03156,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trimethoxy-ethane",
+   "truth": -4.59
+  },
+  {
+   "text": "## Analysis\n\n**Structural features:**\n- N,N-dimethylbenzamide core: tertiary aro",
+   "value": -10.8,
+   "reasoning_tokens": 0,
+   "completion": 365,
+   "cost": 0.02591,
+   "finish": "stop",
+   "mol_id": "N,N-dimethyl-4-nitro-benzamide",
+   "truth": -11.95
+  },
+  {
+   "text": "## Analysis\n\n**Reference points:**\n- Phenol: \u22126.60\n- 2-chlorophenol experimental",
+   "value": -4.7,
+   "reasoning_tokens": 0,
+   "completion": 508,
+   "cost": 0.02934,
+   "finish": "stop",
+   "mol_id": "2-iodophenol",
+   "truth": -6.2
+  },
+  {
+   "text": "1-nitropropane is -3.34. Each added CH2 typically adds ~+0.15\u20130.25 for nitroalka",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 71,
+   "cost": 0.018425,
+   "finish": "stop",
+   "mol_id": "1-nitropentane",
+   "truth": -2.82
+  },
+  {
+   "text": "# Analysis\n\nPropyl paraben = propyl 4-hydroxybenzoate. Compare with methyl benzo",
+   "value": -8.3,
+   "reasoning_tokens": 0,
+   "completion": 309,
+   "cost": 0.024385,
+   "finish": "stop",
+   "mol_id": "propyl paraben",
+   "truth": -9.37
+  },
+  {
+   "text": "## Analysis\n\n**Structural features:**\n- Tertiary amide (N,N-dimethylbenzamide co",
+   "value": -11.0,
+   "reasoning_tokens": 0,
+   "completion": 400,
+   "cost": 0.02675,
+   "finish": "stop",
+   "mol_id": "4-methoxy-N,N-dimethyl-benzamide",
+   "truth": -11.01
+  },
+  {
+   "text": "# Analysis\n\nNitralin is a dinitroaniline herbicide with a methylsulfonyl group. ",
+   "value": -11.9,
+   "reasoning_tokens": 0,
+   "completion": 713,
+   "cost": 0.034635,
+   "finish": "stop",
+   "mol_id": "nitralin",
+   "truth": -7.98
+  },
+  {
+   "text": "# Analysis\n\n**Structure:** 3-hydroxybenzaldehyde \u2014 benzene ring with both a phen",
+   "value": -9.5,
+   "reasoning_tokens": 0,
+   "completion": 506,
+   "cost": 0.029335,
+   "finish": "stop",
+   "mol_id": "3-hydroxybenzaldehyde",
+   "truth": -9.52
+  },
+  {
+   "text": "H2S is a small, weakly interacting molecule with low water solubility. Its exper",
+   "value": -0.7,
+   "reasoning_tokens": 0,
+   "completion": 153,
+   "cost": 0.020405,
+   "finish": "stop",
+   "mol_id": "hydrogen sulfide",
+   "truth": -0.7
+  },
+  {
+   "text": "# Analysis\n\n**Molecule:** 2-chloro-1,1,1-trifluoroethane (CF\u2083CH\u2082Cl, HCFC-133a)\n\n",
+   "value": 0.05,
+   "reasoning_tokens": 0,
+   "completion": 647,
+   "cost": 0.032885,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trifluoro-ethane",
+   "truth": 0.06
+  },
+  {
+   "text": "**Reasoning:**\n\nBiphenyl: -2.70. Tetrachlorobiphenyl (1,2,3,4-tetrachloro-5-phen",
+   "value": -4.0,
+   "reasoning_tokens": 0,
+   "completion": 305,
+   "cost": 0.024585,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(2,3,4-trichlorophenyl)benzene",
+   "truth": -4.4
+  },
+  {
+   "text": "## Analysis\n\ntrans-1,2-Dichloroethylene is a small, nonpolar (zero net dipole fo",
+   "value": -0.76,
+   "reasoning_tokens": 0,
+   "completion": 357,
+   "cost": 0.025595,
+   "finish": "stop",
+   "mol_id": "(E)-1,2-dichloroethylene",
+   "truth": -0.78
+  },
+  {
+   "text": "**Analysis**\n\nKetoprofen contains a carboxylic acid group, an aryl ketone (benzo",
+   "value": -10.2,
+   "reasoning_tokens": 0,
+   "completion": 345,
+   "cost": 0.02536,
+   "finish": "stop",
+   "mol_id": "ketoprofen",
+   "truth": -10.78
+  },
+  {
+   "text": "Methyl benzoate is -3.92. Adding a para-methoxy group to an aromatic ring typica",
+   "value": -5.3,
+   "reasoning_tokens": 0,
+   "completion": 188,
+   "cost": 0.02139,
+   "finish": "stop",
+   "mol_id": "methyl 4-methoxybenzoate",
+   "truth": -5.33
+  },
+  {
+   "text": "# Analysis\n\n**Target:** 2-aminoanthraquinone \u2014 anthraquinone core with one aroma",
+   "value": -10.9,
+   "reasoning_tokens": 0,
+   "completion": 634,
+   "cost": 0.032615,
+   "finish": "stop",
+   "mol_id": "2-amino-9,10-anthraquinone",
+   "truth": -11.53
+  },
+  {
+   "text": "# Analysis\n\nHydrazine (N\u2082H\u2084) is a very small, highly polar molecule with two ami",
+   "value": -9.3,
+   "reasoning_tokens": 0,
+   "completion": 358,
+   "cost": 0.025515,
+   "finish": "stop",
+   "mol_id": "hydrazine",
+   "truth": -9.3
+  },
+  {
+   "text": "Halothane is a well-known volatile anesthetic with a small hydration free energy",
+   "value": -0.5,
+   "reasoning_tokens": 0,
+   "completion": 219,
+   "cost": 0.022255,
+   "finish": "stop",
+   "mol_id": "2-bromo-2-chloro-1,1,1-trifluoro-ethane",
+   "truth": -0.11
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** A benzaldehyde bearing two methoxy groups, a phenol ",
+   "value": -9.4,
+   "reasoning_tokens": 0,
+   "completion": 810,
+   "cost": 0.03701,
+   "finish": "stop",
+   "mol_id": "2,6-dichlorosyringaldehyde",
+   "truth": -8.68
+  },
+  {
+   "text": "## Analysis\n\nMethyl cyclopropanecarboxylate is a small ester. Comparable esters:",
+   "value": -3.1,
+   "reasoning_tokens": 0,
+   "completion": 379,
+   "cost": 0.026135,
+   "finish": "stop",
+   "mol_id": "methyl cyclopropanecarboxylate",
+   "truth": -4.1
+  },
+  {
+   "text": "## Analysis\n\n**Structure**: Flurbiprofen is a biphenyl with a fluorine substitue",
+   "value": -8.42,
+   "reasoning_tokens": 0,
+   "completion": 714,
+   "cost": 0.034585,
+   "finish": "stop",
+   "mol_id": "flurbiprofen",
+   "truth": -8.42
+  },
+  {
+   "text": "**Reasoning:**\n\nBiphenyl: -2.70. Adding chlorines to biphenyl typically changes ",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 354,
+   "cost": 0.02581,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(3,4,5-trichlorophenyl)benzene",
+   "truth": -3.17
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** 2-methoxyethanamine (CH\u2083OCH\u2082CH\u2082NH\u2082) \u2014 a bifunctional",
+   "value": -5.7,
+   "reasoning_tokens": 0,
+   "completion": 519,
+   "cost": 0.02958,
+   "finish": "stop",
+   "mol_id": "2-methoxyethanamine",
+   "truth": -6.55
+  },
+  {
+   "text": "# Analysis\n\n**Target:** pyridine-4-carbaldehyde (4-formylpyridine), SMILES `c1cn",
+   "value": -7.5,
+   "reasoning_tokens": 0,
+   "completion": 767,
+   "cost": 0.03583,
+   "finish": "stop",
+   "mol_id": "pyridine-4-carbaldehyde",
+   "truth": -7.0
+  },
+  {
+   "text": "## Analysis\n\nThe molecule is a trimethyl orthoester bearing a nitrile group: (Me",
+   "value": -6.5,
+   "reasoning_tokens": 0,
+   "completion": 662,
+   "cost": 0.033245,
+   "finish": "stop",
+   "mol_id": "3,3,3-trimethoxypropanenitrile",
+   "truth": -6.4
+  },
+  {
+   "text": "## Analysis\n\n**Captan** is a cyclic imide (tetrahydrophthalimide) N-substituted ",
+   "value": -3.99,
+   "reasoning_tokens": 0,
+   "completion": 594,
+   "cost": 0.031625,
+   "finish": "stop",
+   "mol_id": "captan",
+   "truth": -9.01
+  },
+  {
+   "text": "## Analysis\n\n**Molecule:** 1-butoxybutan... actually 1-butoxy-2-propanol, CCCCOC",
+   "value": -5.7,
+   "reasoning_tokens": 0,
+   "completion": 420,
+   "cost": 0.027165,
+   "finish": "stop",
+   "mol_id": "1-butoxy-2-propanol",
+   "truth": -5.73
+  },
+  {
+   "text": "3,4-dimethylphenol is -7.17, and 2-ethylphenol is -5.66. For 2,3-dimethylphenol,",
+   "value": -6.3,
+   "reasoning_tokens": 0,
+   "completion": 129,
+   "cost": 0.01988,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylphenol",
+   "truth": -6.16
+  },
+  {
+   "text": "1-nitropropane is -3.34; adding a CH2 typically adds ~+0.2 kcal/mol for nitroalk",
+   "value": -3.1,
+   "reasoning_tokens": 0,
+   "completion": 62,
+   "cost": 0.0182,
+   "finish": "stop",
+   "mol_id": "1-nitrobutane",
+   "truth": -3.09
+  },
+  {
+   "text": "## Analysis\n\nMethylsulfanylethane (ethyl methyl sulfide) sits between dimethyl s",
+   "value": -1.5,
+   "reasoning_tokens": 0,
+   "completion": 184,
+   "cost": 0.021195,
+   "finish": "stop",
+   "mol_id": "methylsulfanylethane",
+   "truth": -1.5
+  },
+  {
+   "text": "# Analysis\n\n**Target:** oct-2-enal (trans-2-octenal), an \u03b1,\u03b2-unsaturated aldehyd",
+   "value": -3.44,
+   "reasoning_tokens": 0,
+   "completion": 423,
+   "cost": 0.027205,
+   "finish": "stop",
+   "mol_id": "oct-2-enal",
+   "truth": -3.43
+  },
+  {
+   "text": "**Analysis**\n\nThe reference compound 1,4-diamino-9,10-anthracenedione has \u0394G_hyd",
+   "value": -10.8,
+   "reasoning_tokens": 0,
+   "completion": 286,
+   "cost": 0.02397,
+   "finish": "stop",
+   "mol_id": "1-amino-4-hydroxy-9,10-anthracenedione",
+   "truth": -9.53
+  },
+  {
+   "text": "Looking at branched alkanes: 2,2-dimethylpentane is +2.88, heptane is +2.67, iso",
+   "value": 2.7,
+   "reasoning_tokens": 0,
+   "completion": 121,
+   "cost": 0.01969,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylpentane",
+   "truth": 2.52
+  },
+  {
+   "text": "**Analysis**\n\nThis is trichlorfon (metrifonate). It contains a dimethoxyphosphor",
+   "value": -10.6,
+   "reasoning_tokens": 0,
+   "completion": 406,
+   "cost": 0.027005,
+   "finish": "stop",
+   "mol_id": "(1R)-2,2,2-trichloro-1-dimethoxyphosphoryl-ethanol",
+   "truth": -12.74
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a highly functionalized aromatic: phenol (\u2013OH), two ",
+   "value": -9.2,
+   "reasoning_tokens": 0,
+   "completion": 640,
+   "cost": 0.03272,
+   "finish": "stop",
+   "mol_id": "2-chlorosyringaldehyde",
+   "truth": -7.78
+  },
+  {
+   "text": "## Analysis\n\n1,1-Difluoroethane is a small, volatile, weakly polar fluorocarbon.",
+   "value": 0.11,
+   "reasoning_tokens": 0,
+   "completion": 311,
+   "cost": 0.02439,
+   "finish": "stop",
+   "mol_id": "1,1-difluoroethane",
+   "truth": -0.11
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a mixed acetal: phenyl diethyl orthoformate-type (be",
+   "value": -3.4,
+   "reasoning_tokens": 0,
+   "completion": 372,
+   "cost": 0.02598,
+   "finish": "stop",
+   "mol_id": "diethoxymethoxybenzene",
+   "truth": -5.23
+  },
+  {
+   "text": "# Analysis\n\nOctan-1-amine has \u0394G_hyd = \u22123.65 kcal/mol. Primary amines show a sli",
+   "value": -3.75,
+   "reasoning_tokens": 0,
+   "completion": 248,
+   "cost": 0.02281,
+   "finish": "stop",
+   "mol_id": "heptan-1-amine",
+   "truth": -3.79
+  },
+  {
+   "text": "# Analysis\n\n**Reference points:**\n- 1-bromobutane: -0.40\n- 2-iodopropane: -0.46 ",
+   "value": -0.1,
+   "reasoning_tokens": 0,
+   "completion": 253,
+   "cost": 0.02298,
+   "finish": "stop",
+   "mol_id": "2-bromo-2-methyl-propane",
+   "truth": 0.84
+  },
+  {
+   "text": "Glucose \u2014 highly hydroxylated sugar. Glycerol (3 OH) is -13.43. Glucose has 5 OH",
+   "value": -25.5,
+   "reasoning_tokens": 0,
+   "completion": 78,
+   "cost": 0.01894,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4S,5S,6R)-6-(hydroxymethyl)tetrahydropyran-2,3,4,5-tetrol",
+   "truth": -25.47
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a cyclic enone (isophorone-like structure), specific",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 498,
+   "cost": 0.02924,
+   "finish": "stop",
+   "mol_id": "6-isopropyl-3-methyl-1-cyclohex-2-enone",
+   "truth": -4.51
+  },
+  {
+   "text": "## Analysis\n\nBromotrifluoromethane (Halon 1301) is a highly fluorinated, very hy",
+   "value": 1.8,
+   "reasoning_tokens": 0,
+   "completion": 230,
+   "cost": 0.0224,
+   "finish": "stop",
+   "mol_id": "bromo-trifluoro-methane",
+   "truth": 1.79
+  },
+  {
+   "text": "Phenol is -6.60; fluorine substitution ortho typically reduces hydration slightl",
+   "value": -5.3,
+   "reasoning_tokens": 0,
+   "completion": 134,
+   "cost": 0.019995,
+   "finish": "stop",
+   "mol_id": "2-fluorophenol",
+   "truth": -5.29
+  },
+  {
+   "text": "# Analysis\n\n**Geraniol** \u2014 a C10 acyclic terpene alcohol with two trisubstituted",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 407,
+   "cost": 0.02694,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-ol",
+   "truth": -4.45
+  },
+  {
+   "text": "## Analysis\n\n1-Methylpyrrole is an aromatic N-heterocycle with the nitrogen lone",
+   "value": -2.9,
+   "reasoning_tokens": 0,
+   "completion": 329,
+   "cost": 0.024845,
+   "finish": "stop",
+   "mol_id": "1-methylpyrrole",
+   "truth": -2.89
+  },
+  {
+   "text": "Heptachlor is a highly chlorinated, bulky polycyclic compound with no hydrogen-b",
+   "value": -2.75,
+   "reasoning_tokens": 0,
+   "completion": 190,
+   "cost": 0.021655,
+   "finish": "stop",
+   "mol_id": "heptachlor",
+   "truth": -2.55
+  },
+  {
+   "text": "## Analysis\n\n**Menthone** \u2014 a cyclohexanone with methyl and isopropyl substituen",
+   "value": -3.3,
+   "reasoning_tokens": 0,
+   "completion": 411,
+   "cost": 0.02708,
+   "finish": "stop",
+   "mol_id": "(2S,5R)-2-isopropyl-5-methylcyclohexanone",
+   "truth": -2.53
+  },
+  {
+   "text": "**Analysis**\n\nThe reference point is 1,4-diamino-9,10-anthraquinone at \u221211.85 kc",
+   "value": -11.5,
+   "reasoning_tokens": 0,
+   "completion": 500,
+   "cost": 0.02933,
+   "finish": "stop",
+   "mol_id": "1-(2-hydroxyethylamino)-9,10-anthraquinone",
+   "truth": -14.21
+  },
+  {
+   "text": "## Analysis\n\n**Structural considerations:**\nm-Bis(trifluoromethyl)benzene is a h",
+   "value": 1.07,
+   "reasoning_tokens": 0,
+   "completion": 634,
+   "cost": 0.032605,
+   "finish": "stop",
+   "mol_id": "m-bis(trifluoromethyl)benzene",
+   "truth": 1.07
+  },
+  {
+   "text": "## Analysis\n\nChlorodifluoromethane (HCFC-22, CHClF\u2082) is a small halogenated meth",
+   "value": 0.5,
+   "reasoning_tokens": 0,
+   "completion": 383,
+   "cost": 0.02621,
+   "finish": "stop",
+   "mol_id": "chloro-difluoro-methane",
+   "truth": -0.5
+  },
+  {
+   "text": "# Analysis\n\nAldehyde series hydration free energies:\n- acetaldehyde (C2): \u22123.50\n",
+   "value": -2.2,
+   "reasoning_tokens": 0,
+   "completion": 375,
+   "cost": 0.02598,
+   "finish": "stop",
+   "mol_id": "nonanal",
+   "truth": -2.07
+  },
+  {
+   "text": "# Analysis\n\nTrimethoxymethane (methyl orthoformate) is a triether. Comparison po",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 416,
+   "cost": 0.02701,
+   "finish": "stop",
+   "mol_id": "trimethoxymethane",
+   "truth": -4.42
+  },
+  {
+   "text": "# Analysis\n\nNaproxen combines:\n- A **naphthalene** aromatic core (aromatic hydro",
+   "value": -8.5,
+   "reasoning_tokens": 0,
+   "completion": 468,
+   "cost": 0.02841,
+   "finish": "stop",
+   "mol_id": "naproxen",
+   "truth": -10.21
+  },
+  {
+   "text": "## Analysis\n\n**1,1,1-Trimethoxyethane (methyl orthoacetate)** contains three eth",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 468,
+   "cost": 0.028365,
+   "finish": "stop",
+   "mol_id": "1,1,1-trimethoxyethane",
+   "truth": -4.42
+  },
+  {
+   "text": "Propionic acid: -6.46; 3-methylbutanoic acid: -6.09. Pentanoic acid (n-valeric) ",
+   "value": -6.16,
+   "reasoning_tokens": 0,
+   "completion": 70,
+   "cost": 0.018365,
+   "finish": "stop",
+   "mol_id": "pentanoic acid",
+   "truth": -6.16
+  },
+  {
+   "text": "## Analysis\n\nPyrrole is an aromatic five-membered heterocycle with an N\u2013H that a",
+   "value": -4.8,
+   "reasoning_tokens": 0,
+   "completion": 288,
+   "cost": 0.023805,
+   "finish": "stop",
+   "mol_id": "pyrrole",
+   "truth": -4.78
+  },
+  {
+   "text": "# Analysis\n\nPyridine has \u0394G_hyd = \u22124.70 kcal/mol. Adding a formyl group typicall",
+   "value": -7.8,
+   "reasoning_tokens": 0,
+   "completion": 275,
+   "cost": 0.02354,
+   "finish": "stop",
+   "mol_id": "pyridine-3-carbaldehyde",
+   "truth": -7.1
+  },
+  {
+   "text": "**Analysis**\n\nThis is a pyranose sugar (2-deoxyribose-type / xylose-like tetrahy",
+   "value": -20.5,
+   "reasoning_tokens": 0,
+   "completion": 410,
+   "cost": 0.027095,
+   "finish": "stop",
+   "mol_id": "(2S,3R,4S,5R)-oxane-2,3,4,5-tetrol",
+   "truth": -20.52
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** Phenyl ether with a 1,2,2-trifluoroethyl group (PhO\u2013",
+   "value": -1.3,
+   "reasoning_tokens": 0,
+   "completion": 534,
+   "cost": 0.030095,
+   "finish": "stop",
+   "mol_id": "1,2,2-trifluoroethoxybenzene",
+   "truth": -1.29
+  },
+  {
+   "text": "Looking at ketones: pentan-3-one -2.78, 4-methylpentan-2-one -3.05, 3-methylbuta",
+   "value": -3.1,
+   "reasoning_tokens": 0,
+   "completion": 138,
+   "cost": 0.02011,
+   "finish": "stop",
+   "mol_id": "1-cyclohexylethanone",
+   "truth": -3.9
+  },
+  {
+   "text": "# Analysis\n\nBromacil is a substituted uracil (5-bromo-3-sec-butyl-6-methyluracil",
+   "value": -10.8,
+   "reasoning_tokens": 0,
+   "completion": 372,
+   "cost": 0.02601,
+   "finish": "stop",
+   "mol_id": "bromacil",
+   "truth": -9.73
+  },
+  {
+   "text": "Phenol is -6.60; adding a para-fluorine slightly changes solvation. Fluorobenzen",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 102,
+   "cost": 0.019185,
+   "finish": "stop",
+   "mol_id": "4-fluorophenol",
+   "truth": -6.19
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** Nitroxyacetone, CH\u2083C(=O)CH\u2082ONO\u2082 \u2014 a ketone plus an o",
+   "value": -6.0,
+   "reasoning_tokens": 0,
+   "completion": 575,
+   "cost": 0.03104,
+   "finish": "stop",
+   "mol_id": "nitroxyacetone",
+   "truth": -5.99
+  },
+  {
+   "text": "THF is -3.47. Adding two methyl groups typically makes it slightly less hydrophi",
+   "value": -2.9,
+   "reasoning_tokens": 0,
+   "completion": 120,
+   "cost": 0.019715,
+   "finish": "stop",
+   "mol_id": "2,5-dimethyltetrahydrofuran",
+   "truth": -2.92
+  },
+  {
+   "text": "Menthol: cyclohexanol is -5.46; adding alkyl groups (isopropyl + methyl) makes i",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 168,
+   "cost": 0.021035,
+   "finish": "stop",
+   "mol_id": "(1R,2S,5R)-2-isopropyl-5-methylcyclohexanol",
+   "truth": -3.2
+  },
+  {
+   "text": "## Analysis\n\n**Reference point from training data:**\n1,2,4-trichlorodibenzo-p-di",
+   "value": -4.6,
+   "reasoning_tokens": 0,
+   "completion": 559,
+   "cost": 0.03073,
+   "finish": "stop",
+   "mol_id": "1-chlorodibenzo-p-dioxin",
+   "truth": -3.52
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** methyl trifluoroacetate, CF\u2083C(=O)OCH\u2083 \u2014 a methyl est",
+   "value": -0.9,
+   "reasoning_tokens": 0,
+   "completion": 462,
+   "cost": 0.02824,
+   "finish": "stop",
+   "mol_id": "methyl 2,2,2-trifluoroacetate",
+   "truth": -1.1
+  },
+  {
+   "text": "## Analysis\n\n**Structure**: A tertiary benzamide \u2014 N,N-dimethyl-p-toluamide. Ter",
+   "value": -7.9,
+   "reasoning_tokens": 0,
+   "completion": 667,
+   "cost": 0.03339,
+   "finish": "stop",
+   "mol_id": "N,N-4-trimethylbenzamide",
+   "truth": -9.76
+  },
+  {
+   "text": "CF4 is extremely hydrophobic \u2014 a small, nonpolar, highly fluorinated molecule wi",
+   "value": 3.1,
+   "reasoning_tokens": 0,
+   "completion": 131,
+   "cost": 0.019905,
+   "finish": "stop",
+   "mol_id": "tetrafluoromethane",
+   "truth": 3.12
+  },
+  {
+   "text": "# Analysis\n\n**1,1,1,2-tetramethoxyethane** \u2014 an orthoester-type structure with f",
+   "value": -4.8,
+   "reasoning_tokens": 0,
+   "completion": 525,
+   "cost": 0.02981,
+   "finish": "stop",
+   "mol_id": "1,1,1,2-tetramethoxyethane",
+   "truth": -5.73
+  },
+  {
+   "text": "# Analysis\n\nBiphenyl: -2.70 kcal/mol. Chlorinated biphenyls show reduced solvati",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 422,
+   "cost": 0.027345,
+   "finish": "stop",
+   "mol_id": "1,3,5-trichloro-2-phenyl-benzene",
+   "truth": -2.16
+  },
+  {
+   "text": "## Analysis\n\n**Butyl paraben** = butyl 4-hydroxybenzoate. Key contributions:\n\n1.",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 567,
+   "cost": 0.03084,
+   "finish": "stop",
+   "mol_id": "butyl paraben",
+   "truth": -8.72
+  },
+  {
+   "text": "## Analysis\n\nPyrazine has two ring nitrogens, making it considerably more hydrop",
+   "value": -4.7,
+   "reasoning_tokens": 0,
+   "completion": 303,
+   "cost": 0.024205,
+   "finish": "stop",
+   "mol_id": "2-ethylpyrazine",
+   "truth": -5.45
+  },
+  {
+   "text": "## Analysis\n\nAlkyl nitrates are weakly hydrated. Reference points:\n- 1,3-propane",
+   "value": -1.3,
+   "reasoning_tokens": 0,
+   "completion": 360,
+   "cost": 0.025725,
+   "finish": "stop",
+   "mol_id": "[(2S)-butan-2-yl] nitrate",
+   "truth": -1.82
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** A benzyl group attached to the N1 of imidazole.\n\n**R",
+   "value": -8.0,
+   "reasoning_tokens": 0,
+   "completion": 583,
+   "cost": 0.03125,
+   "finish": "stop",
+   "mol_id": "1-benzylimidazole",
+   "truth": -7.63
+  },
+  {
+   "text": "## Analysis\n\n**Structural considerations:**\n1,2-bis(trifluoromethyl)benzene is a",
+   "value": 2.0,
+   "reasoning_tokens": 0,
+   "completion": 738,
+   "cost": 0.03522,
+   "finish": "stop",
+   "mol_id": "1,2-bis(trifluoromethyl)benzene",
+   "truth": 1.07
+  },
+  {
+   "text": "## Analysis\n\nBranched alkanes have positive (unfavorable) hydration free energie",
+   "value": 2.9,
+   "reasoning_tokens": 0,
+   "completion": 224,
+   "cost": 0.02224,
+   "finish": "stop",
+   "mol_id": "3-methylheptane",
+   "truth": 2.97
+  },
+  {
+   "text": "## Analysis\n\nDibenzo-p-dioxin core: aromatic ethers with fused rings. Reference ",
+   "value": -4.63,
+   "reasoning_tokens": 0,
+   "completion": 317,
+   "cost": 0.024685,
+   "finish": "stop",
+   "mol_id": "2-chlorodibenzo-p-dioxin",
+   "truth": -3.1
+  },
+  {
+   "text": "**Analysis:**\n\nPyridine: \u22124.70. Methylpyridines (picolines) \u2248 \u22124.6 to \u22124.8; dime",
+   "value": -4.6,
+   "reasoning_tokens": 0,
+   "completion": 180,
+   "cost": 0.021125,
+   "finish": "stop",
+   "mol_id": "4-ethylpyridine",
+   "truth": -4.73
+  },
+  {
+   "text": "Heptane is 2.67; branched heptanes slightly higher. 2,2-dimethylpentane is 2.88.",
+   "value": 2.75,
+   "reasoning_tokens": 0,
+   "completion": 68,
+   "cost": 0.01833,
+   "finish": "stop",
+   "mol_id": "3-methylhexane",
+   "truth": 2.71
+  },
+  {
+   "text": "## Analysis\n\nThis is a halogenated ethane (halothane-like fragment). Small polyh",
+   "value": -0.25,
+   "reasoning_tokens": 0,
+   "completion": 381,
+   "cost": 0.026285,
+   "finish": "stop",
+   "mol_id": "2-bromo-1,1,1,2-tetrafluoro-ethane",
+   "truth": 0.5
+  },
+  {
+   "text": "## Analysis\n\n**Reference point:** 5-trifluoromethyluracil has \u0394G_hyd = **-15.46 ",
+   "value": -16.8,
+   "reasoning_tokens": 0,
+   "completion": 573,
+   "cost": 0.03102,
+   "finish": "stop",
+   "mol_id": "5-iodouracil",
+   "truth": -18.72
+  },
+  {
+   "text": "## Analysis\n\nUracil derivatives are highly hydrophilic due to two amide N\u2013H dono",
+   "value": -15.8,
+   "reasoning_tokens": 0,
+   "completion": 454,
+   "cost": 0.02806,
+   "finish": "stop",
+   "mol_id": "5-chlorouracil",
+   "truth": -17.74
+  },
+  {
+   "text": "Cyclohexanol is -5.46; cyclopentanol is slightly less hydrophobic (one fewer CH2",
+   "value": -5.5,
+   "reasoning_tokens": 0,
+   "completion": 64,
+   "cost": 0.018215,
+   "finish": "stop",
+   "mol_id": "cyclopentanol",
+   "truth": -5.49
+  },
+  {
+   "text": "# Analysis\n\n**Structure:** trans-2-hexenal, an \u03b1,\u03b2-unsaturated aldehyde (C6).\n\n*",
+   "value": -3.68,
+   "reasoning_tokens": 0,
+   "completion": 534,
+   "cost": 0.029995,
+   "finish": "stop",
+   "mol_id": "(2E)-hex-2-enal",
+   "truth": -3.68
+  },
+  {
+   "text": "# Analysis\n\nChlorofluoromethane (CH\u2082ClF) is a small halomethane. Comparing to re",
+   "value": -0.77,
+   "reasoning_tokens": 0,
+   "completion": 338,
+   "cost": 0.02507,
+   "finish": "stop",
+   "mol_id": "chloro-fluoro-methane",
+   "truth": -0.77
+  },
+  {
+   "text": "# Analysis\n\nBranched alkanes have slightly less favorable (more positive) hydrat",
+   "value": 2.75,
+   "reasoning_tokens": 0,
+   "completion": 184,
+   "cost": 0.021215,
+   "finish": "stop",
+   "mol_id": "2-methylhexane",
+   "truth": 2.93
+  }
+ ]
+}

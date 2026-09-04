@@ -1,0 +1,1635 @@
+{
+ "meta": {
+  "dataset": "lipophilicity",
+  "tag": "opus5",
+  "endpoint": "anthropic/claude-opus-5",
+  "level": "medium",
+  "n_mol": 60,
+  "iters": 3,
+  "max_tokens": 8000,
+  "cost": 0.40666999999998943,
+  "timestamp": "2026-08-15T00:44:18"
+ },
+ "calls": [
+  {
+   "text": "3.30",
+   "value": 3.3,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001665,
+   "finish": "stop",
+   "mol_id": "CHEMBL596271"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001665,
+   "finish": "stop",
+   "mol_id": "CHEMBL596271"
+  },
+  {
+   "text": "3.3",
+   "value": 3.3,
+   "reasoning_tokens": 33,
+   "completion": 38,
+   "cost": 0.002215,
+   "finish": "stop",
+   "mol_id": "CHEMBL596271"
+  },
+  {
+   "text": "1.0",
+   "value": 1.0,
+   "reasoning_tokens": 52,
+   "completion": 57,
+   "cost": 0.002765,
+   "finish": "stop",
+   "mol_id": "CHEMBL1951080"
+  },
+  {
+   "text": "1.3",
+   "value": 1.3,
+   "reasoning_tokens": 33,
+   "completion": 38,
+   "cost": 0.00229,
+   "finish": "stop",
+   "mol_id": "CHEMBL1951080"
+  },
+  {
+   "text": "1.5",
+   "value": 1.5,
+   "reasoning_tokens": 29,
+   "completion": 34,
+   "cost": 0.00219,
+   "finish": "stop",
+   "mol_id": "CHEMBL1951080"
+  },
+  {
+   "text": "3.9",
+   "value": 3.9,
+   "reasoning_tokens": 100,
+   "completion": 105,
+   "cost": 0.00387,
+   "finish": "stop",
+   "mol_id": "CHEMBL1771"
+  },
+  {
+   "text": "3.9",
+   "value": 3.9,
+   "reasoning_tokens": 64,
+   "completion": 69,
+   "cost": 0.00297,
+   "finish": "stop",
+   "mol_id": "CHEMBL1771"
+  },
+  {
+   "text": "3.9",
+   "value": 3.9,
+   "reasoning_tokens": 108,
+   "completion": 113,
+   "cost": 0.00407,
+   "finish": "stop",
+   "mol_id": "CHEMBL1771"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 27,
+   "completion": 32,
+   "cost": 0.002145,
+   "finish": "stop",
+   "mol_id": "CHEMBL234951"
+  },
+  {
+   "text": "2.8",
+   "value": 2.8,
+   "reasoning_tokens": 39,
+   "completion": 44,
+   "cost": 0.002445,
+   "finish": "stop",
+   "mol_id": "CHEMBL234951"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 27,
+   "completion": 32,
+   "cost": 0.002145,
+   "finish": "stop",
+   "mol_id": "CHEMBL234951"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 34,
+   "completion": 39,
+   "cost": 0.002305,
+   "finish": "stop",
+   "mol_id": "CHEMBL565079"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 40,
+   "completion": 45,
+   "cost": 0.002455,
+   "finish": "stop",
+   "mol_id": "CHEMBL565079"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 43,
+   "completion": 48,
+   "cost": 0.00253,
+   "finish": "stop",
+   "mol_id": "CHEMBL565079"
+  },
+  {
+   "text": "2.1",
+   "value": 2.1,
+   "reasoning_tokens": 47,
+   "completion": 52,
+   "cost": 0.00255,
+   "finish": "stop",
+   "mol_id": "CHEMBL317462"
+  },
+  {
+   "text": "2.1",
+   "value": 2.1,
+   "reasoning_tokens": 43,
+   "completion": 48,
+   "cost": 0.00245,
+   "finish": "stop",
+   "mol_id": "CHEMBL317462"
+  },
+  {
+   "text": "2.3",
+   "value": 2.3,
+   "reasoning_tokens": 42,
+   "completion": 47,
+   "cost": 0.002425,
+   "finish": "stop",
+   "mol_id": "CHEMBL317462"
+  },
+  {
+   "text": "1.4",
+   "value": 1.4,
+   "reasoning_tokens": 48,
+   "completion": 53,
+   "cost": 0.00267,
+   "finish": "stop",
+   "mol_id": "CHEMBL1951182"
+  },
+  {
+   "text": "1.3",
+   "value": 1.3,
+   "reasoning_tokens": 45,
+   "completion": 50,
+   "cost": 0.002595,
+   "finish": "stop",
+   "mol_id": "CHEMBL1951182"
+  },
+  {
+   "text": "1.3",
+   "value": 1.3,
+   "reasoning_tokens": 45,
+   "completion": 50,
+   "cost": 0.002595,
+   "finish": "stop",
+   "mol_id": "CHEMBL1951182"
+  },
+  {
+   "text": "1.4",
+   "value": 1.4,
+   "reasoning_tokens": 60,
+   "completion": 65,
+   "cost": 0.00299,
+   "finish": "stop",
+   "mol_id": "CHEMBL2030960"
+  },
+  {
+   "text": "1.85",
+   "value": 1.85,
+   "reasoning_tokens": 60,
+   "completion": 65,
+   "cost": 0.00299,
+   "finish": "stop",
+   "mol_id": "CHEMBL2030960"
+  },
+  {
+   "text": "1.6",
+   "value": 1.6,
+   "reasoning_tokens": 81,
+   "completion": 86,
+   "cost": 0.003515,
+   "finish": "stop",
+   "mol_id": "CHEMBL2030960"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 66,
+   "completion": 71,
+   "cost": 0.00302,
+   "finish": "stop",
+   "mol_id": "CHEMBL13097"
+  },
+  {
+   "text": "3.5",
+   "value": 3.5,
+   "reasoning_tokens": 83,
+   "completion": 88,
+   "cost": 0.003445,
+   "finish": "stop",
+   "mol_id": "CHEMBL13097"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00137,
+   "finish": "stop",
+   "mol_id": "CHEMBL13097"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 31,
+   "completion": 36,
+   "cost": 0.00208,
+   "finish": "stop",
+   "mol_id": "CHEMBL1527751"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 40,
+   "completion": 45,
+   "cost": 0.002305,
+   "finish": "stop",
+   "mol_id": "CHEMBL1527751"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 29,
+   "completion": 34,
+   "cost": 0.00203,
+   "finish": "stop",
+   "mol_id": "CHEMBL1527751"
+  },
+  {
+   "text": "1.9",
+   "value": 1.9,
+   "reasoning_tokens": 32,
+   "completion": 37,
+   "cost": 0.00226,
+   "finish": "stop",
+   "mol_id": "CHEMBL1940306"
+  },
+  {
+   "text": "2.1",
+   "value": 2.1,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001735,
+   "finish": "stop",
+   "mol_id": "CHEMBL1940306"
+  },
+  {
+   "text": "2.0",
+   "value": 2.0,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00146,
+   "finish": "stop",
+   "mol_id": "CHEMBL1940306"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 31,
+   "completion": 36,
+   "cost": 0.002225,
+   "finish": "stop",
+   "mol_id": "CHEMBL578201"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 41,
+   "completion": 46,
+   "cost": 0.002475,
+   "finish": "stop",
+   "mol_id": "CHEMBL578201"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00145,
+   "finish": "stop",
+   "mol_id": "CHEMBL578201"
+  },
+  {
+   "text": "-0.20",
+   "value": -0.2,
+   "reasoning_tokens": 51,
+   "completion": 57,
+   "cost": 0.00255,
+   "finish": "stop",
+   "mol_id": "CHEMBL276218"
+  },
+  {
+   "text": "-0.2",
+   "value": -0.2,
+   "reasoning_tokens": 70,
+   "completion": 76,
+   "cost": 0.003025,
+   "finish": "stop",
+   "mol_id": "CHEMBL276218"
+  },
+  {
+   "text": "-0.20",
+   "value": -0.2,
+   "reasoning_tokens": 55,
+   "completion": 61,
+   "cost": 0.00265,
+   "finish": "stop",
+   "mol_id": "CHEMBL276218"
+  },
+  {
+   "text": "3.2",
+   "value": 3.2,
+   "reasoning_tokens": 19,
+   "completion": 24,
+   "cost": 0.00182,
+   "finish": "stop",
+   "mol_id": "CHEMBL2153181"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 27,
+   "completion": 32,
+   "cost": 0.00202,
+   "finish": "stop",
+   "mol_id": "CHEMBL2153181"
+  },
+  {
+   "text": "3.2",
+   "value": 3.2,
+   "reasoning_tokens": 19,
+   "completion": 24,
+   "cost": 0.00182,
+   "finish": "stop",
+   "mol_id": "CHEMBL2153181"
+  },
+  {
+   "text": "3.7",
+   "value": 3.7,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.00173,
+   "finish": "stop",
+   "mol_id": "CHEMBL1916276"
+  },
+  {
+   "text": "3.7",
+   "value": 3.7,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.00173,
+   "finish": "stop",
+   "mol_id": "CHEMBL1916276"
+  },
+  {
+   "text": "3.85",
+   "value": 3.85,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.00173,
+   "finish": "stop",
+   "mol_id": "CHEMBL1916276"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 37,
+   "completion": 42,
+   "cost": 0.00226,
+   "finish": "stop",
+   "mol_id": "CHEMBL93884"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 47,
+   "completion": 52,
+   "cost": 0.00251,
+   "finish": "stop",
+   "mol_id": "CHEMBL93884"
+  },
+  {
+   "text": "2.8",
+   "value": 2.8,
+   "reasoning_tokens": 47,
+   "completion": 52,
+   "cost": 0.00251,
+   "finish": "stop",
+   "mol_id": "CHEMBL93884"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001735,
+   "finish": "stop",
+   "mol_id": "CHEMBL2171986"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001735,
+   "finish": "stop",
+   "mol_id": "CHEMBL2171986"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001735,
+   "finish": "stop",
+   "mol_id": "CHEMBL2171986"
+  },
+  {
+   "text": "2.5",
+   "value": 2.5,
+   "reasoning_tokens": 61,
+   "completion": 66,
+   "cost": 0.002945,
+   "finish": "stop",
+   "mol_id": "CHEMBL190044"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 62,
+   "completion": 67,
+   "cost": 0.00297,
+   "finish": "stop",
+   "mol_id": "CHEMBL190044"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 75,
+   "completion": 80,
+   "cost": 0.003295,
+   "finish": "stop",
+   "mol_id": "CHEMBL190044"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001755,
+   "finish": "stop",
+   "mol_id": "CHEMBL469790"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001755,
+   "finish": "stop",
+   "mol_id": "CHEMBL469790"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 25,
+   "completion": 30,
+   "cost": 0.002105,
+   "finish": "stop",
+   "mol_id": "CHEMBL469790"
+  },
+  {
+   "text": "1.6",
+   "value": 1.6,
+   "reasoning_tokens": 74,
+   "completion": 79,
+   "cost": 0.00338,
+   "finish": "stop",
+   "mol_id": "CHEMBL2165055"
+  },
+  {
+   "text": "1.6",
+   "value": 1.6,
+   "reasoning_tokens": 72,
+   "completion": 77,
+   "cost": 0.00333,
+   "finish": "stop",
+   "mol_id": "CHEMBL2165055"
+  },
+  {
+   "text": "1.7",
+   "value": 1.7,
+   "reasoning_tokens": 66,
+   "completion": 71,
+   "cost": 0.00318,
+   "finish": "stop",
+   "mol_id": "CHEMBL2165055"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 82,
+   "completion": 87,
+   "cost": 0.00346,
+   "finish": "stop",
+   "mol_id": "CHEMBL322479"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 52,
+   "completion": 57,
+   "cost": 0.00271,
+   "finish": "stop",
+   "mol_id": "CHEMBL322479"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 62,
+   "completion": 67,
+   "cost": 0.00296,
+   "finish": "stop",
+   "mol_id": "CHEMBL322479"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00146,
+   "finish": "stop",
+   "mol_id": "CHEMBL2036736"
+  },
+  {
+   "text": "3.0",
+   "value": 3.0,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00146,
+   "finish": "stop",
+   "mol_id": "CHEMBL2036736"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00146,
+   "finish": "stop",
+   "mol_id": "CHEMBL2036736"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.00175,
+   "finish": "stop",
+   "mol_id": "CHEMBL2179291"
+  },
+  {
+   "text": "3.2",
+   "value": 3.2,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.00175,
+   "finish": "stop",
+   "mol_id": "CHEMBL2179291"
+  },
+  {
+   "text": "3.2",
+   "value": 3.2,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.00175,
+   "finish": "stop",
+   "mol_id": "CHEMBL2179291"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 41,
+   "completion": 46,
+   "cost": 0.0025,
+   "finish": "stop",
+   "mol_id": "CHEMBL2158823"
+  },
+  {
+   "text": "2.1",
+   "value": 2.1,
+   "reasoning_tokens": 32,
+   "completion": 37,
+   "cost": 0.002275,
+   "finish": "stop",
+   "mol_id": "CHEMBL2158823"
+  },
+  {
+   "text": "2.2",
+   "value": 2.2,
+   "reasoning_tokens": 32,
+   "completion": 37,
+   "cost": 0.002275,
+   "finish": "stop",
+   "mol_id": "CHEMBL2158823"
+  },
+  {
+   "text": "2.5",
+   "value": 2.5,
+   "reasoning_tokens": 76,
+   "completion": 81,
+   "cost": 0.003235,
+   "finish": "stop",
+   "mol_id": "CHEMBL641"
+  },
+  {
+   "text": "2.70",
+   "value": 2.7,
+   "reasoning_tokens": 70,
+   "completion": 75,
+   "cost": 0.003085,
+   "finish": "stop",
+   "mol_id": "CHEMBL641"
+  },
+  {
+   "text": "2.5",
+   "value": 2.5,
+   "reasoning_tokens": 78,
+   "completion": 83,
+   "cost": 0.003285,
+   "finish": "stop",
+   "mol_id": "CHEMBL641"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.00168,
+   "finish": "stop",
+   "mol_id": "CHEMBL1289785"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001705,
+   "finish": "stop",
+   "mol_id": "CHEMBL1289785"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001705,
+   "finish": "stop",
+   "mol_id": "CHEMBL1289785"
+  },
+  {
+   "text": "1.7",
+   "value": 1.7,
+   "reasoning_tokens": 26,
+   "completion": 31,
+   "cost": 0.00196,
+   "finish": "stop",
+   "mol_id": "CHEMBL1381135"
+  },
+  {
+   "text": "1.75",
+   "value": 1.75,
+   "reasoning_tokens": 34,
+   "completion": 39,
+   "cost": 0.00216,
+   "finish": "stop",
+   "mol_id": "CHEMBL1381135"
+  },
+  {
+   "text": "1.8",
+   "value": 1.8,
+   "reasoning_tokens": 21,
+   "completion": 26,
+   "cost": 0.001835,
+   "finish": "stop",
+   "mol_id": "CHEMBL1381135"
+  },
+  {
+   "text": "3.9",
+   "value": 3.9,
+   "reasoning_tokens": 45,
+   "completion": 50,
+   "cost": 0.00259,
+   "finish": "stop",
+   "mol_id": "CHEMBL528217"
+  },
+  {
+   "text": "3.8",
+   "value": 3.8,
+   "reasoning_tokens": 95,
+   "completion": 100,
+   "cost": 0.00384,
+   "finish": "stop",
+   "mol_id": "CHEMBL528217"
+  },
+  {
+   "text": "4.2",
+   "value": 4.2,
+   "reasoning_tokens": 73,
+   "completion": 78,
+   "cost": 0.00329,
+   "finish": "stop",
+   "mol_id": "CHEMBL528217"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 62,
+   "completion": 67,
+   "cost": 0.003,
+   "finish": "stop",
+   "mol_id": "CHEMBL2177621"
+  },
+  {
+   "text": "2.1",
+   "value": 2.1,
+   "reasoning_tokens": 42,
+   "completion": 47,
+   "cost": 0.0025,
+   "finish": "stop",
+   "mol_id": "CHEMBL2177621"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 41,
+   "completion": 46,
+   "cost": 0.002475,
+   "finish": "stop",
+   "mol_id": "CHEMBL2177621"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.001355,
+   "finish": "stop",
+   "mol_id": "CHEMBL475386"
+  },
+  {
+   "text": "2.5",
+   "value": 2.5,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.00163,
+   "finish": "stop",
+   "mol_id": "CHEMBL475386"
+  },
+  {
+   "text": "2.5",
+   "value": 2.5,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001655,
+   "finish": "stop",
+   "mol_id": "CHEMBL475386"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00148,
+   "finish": "stop",
+   "mol_id": "CHEMBL2325699"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00148,
+   "finish": "stop",
+   "mol_id": "CHEMBL2325699"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.00178,
+   "finish": "stop",
+   "mol_id": "CHEMBL2325699"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001835,
+   "finish": "stop",
+   "mol_id": "CHEMBL2010845"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001835,
+   "finish": "stop",
+   "mol_id": "CHEMBL2010845"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001835,
+   "finish": "stop",
+   "mol_id": "CHEMBL2010845"
+  },
+  {
+   "text": "3.8",
+   "value": 3.8,
+   "reasoning_tokens": 36,
+   "completion": 41,
+   "cost": 0.002405,
+   "finish": "stop",
+   "mol_id": "CHEMBL103"
+  },
+  {
+   "text": "3.87",
+   "value": 3.87,
+   "reasoning_tokens": 41,
+   "completion": 46,
+   "cost": 0.00253,
+   "finish": "stop",
+   "mol_id": "CHEMBL103"
+  },
+  {
+   "text": "3.8",
+   "value": 3.8,
+   "reasoning_tokens": 44,
+   "completion": 49,
+   "cost": 0.002605,
+   "finish": "stop",
+   "mol_id": "CHEMBL103"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00151,
+   "finish": "stop",
+   "mol_id": "CHEMBL2208428"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 15,
+   "completion": 20,
+   "cost": 0.001885,
+   "finish": "stop",
+   "mol_id": "CHEMBL2208428"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001785,
+   "finish": "stop",
+   "mol_id": "CHEMBL2208428"
+  },
+  {
+   "text": "2.8",
+   "value": 2.8,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001675,
+   "finish": "stop",
+   "mol_id": "CHEMBL1796293"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001675,
+   "finish": "stop",
+   "mol_id": "CHEMBL1796293"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001675,
+   "finish": "stop",
+   "mol_id": "CHEMBL1796293"
+  },
+  {
+   "text": "3.2",
+   "value": 3.2,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.00165,
+   "finish": "stop",
+   "mol_id": "CHEMBL1557436"
+  },
+  {
+   "text": "3.2",
+   "value": 3.2,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.00165,
+   "finish": "stop",
+   "mol_id": "CHEMBL1557436"
+  },
+  {
+   "text": "3.3",
+   "value": 3.3,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.00165,
+   "finish": "stop",
+   "mol_id": "CHEMBL1557436"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 43,
+   "completion": 48,
+   "cost": 0.002545,
+   "finish": "stop",
+   "mol_id": "CHEMBL2031236"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 30,
+   "completion": 35,
+   "cost": 0.00222,
+   "finish": "stop",
+   "mol_id": "CHEMBL2031236"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 34,
+   "completion": 39,
+   "cost": 0.00232,
+   "finish": "stop",
+   "mol_id": "CHEMBL2031236"
+  },
+  {
+   "text": "3.6",
+   "value": 3.6,
+   "reasoning_tokens": 19,
+   "completion": 24,
+   "cost": 0.001995,
+   "finish": "stop",
+   "mol_id": "CHEMBL2087849"
+  },
+  {
+   "text": "3.6",
+   "value": 3.6,
+   "reasoning_tokens": 28,
+   "completion": 33,
+   "cost": 0.00222,
+   "finish": "stop",
+   "mol_id": "CHEMBL2087849"
+  },
+  {
+   "text": "3.6",
+   "value": 3.6,
+   "reasoning_tokens": 24,
+   "completion": 29,
+   "cost": 0.00212,
+   "finish": "stop",
+   "mol_id": "CHEMBL2087849"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 52,
+   "completion": 57,
+   "cost": 0.00274,
+   "finish": "stop",
+   "mol_id": "CHEMBL1235773"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 67,
+   "completion": 72,
+   "cost": 0.003115,
+   "finish": "stop",
+   "mol_id": "CHEMBL1235773"
+  },
+  {
+   "text": "2.7",
+   "value": 2.7,
+   "reasoning_tokens": 26,
+   "completion": 31,
+   "cost": 0.00209,
+   "finish": "stop",
+   "mol_id": "CHEMBL1235773"
+  },
+  {
+   "text": "3.2",
+   "value": 3.2,
+   "reasoning_tokens": 30,
+   "completion": 35,
+   "cost": 0.002375,
+   "finish": "stop",
+   "mol_id": "CHEMBL339051"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 40,
+   "completion": 45,
+   "cost": 0.002625,
+   "finish": "stop",
+   "mol_id": "CHEMBL339051"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 40,
+   "completion": 45,
+   "cost": 0.002625,
+   "finish": "stop",
+   "mol_id": "CHEMBL339051"
+  },
+  {
+   "text": "2.5",
+   "value": 2.5,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.00133,
+   "finish": "stop",
+   "mol_id": "CHEMBL168899"
+  },
+  {
+   "text": "2.35",
+   "value": 2.35,
+   "reasoning_tokens": 23,
+   "completion": 28,
+   "cost": 0.001905,
+   "finish": "stop",
+   "mol_id": "CHEMBL168899"
+  },
+  {
+   "text": "2.3",
+   "value": 2.3,
+   "reasoning_tokens": 44,
+   "completion": 49,
+   "cost": 0.00243,
+   "finish": "stop",
+   "mol_id": "CHEMBL168899"
+  },
+  {
+   "text": "0.95",
+   "value": 0.95,
+   "reasoning_tokens": 81,
+   "completion": 86,
+   "cost": 0.00342,
+   "finish": "stop",
+   "mol_id": "CHEMBL517"
+  },
+  {
+   "text": "0.7",
+   "value": 0.7,
+   "reasoning_tokens": 105,
+   "completion": 110,
+   "cost": 0.00402,
+   "finish": "stop",
+   "mol_id": "CHEMBL517"
+  },
+  {
+   "text": "1.0",
+   "value": 1.0,
+   "reasoning_tokens": 84,
+   "completion": 89,
+   "cost": 0.003495,
+   "finish": "stop",
+   "mol_id": "CHEMBL517"
+  },
+  {
+   "text": "1.8",
+   "value": 1.8,
+   "reasoning_tokens": 36,
+   "completion": 41,
+   "cost": 0.002235,
+   "finish": "stop",
+   "mol_id": "CHEMBL578288"
+  },
+  {
+   "text": "1.55",
+   "value": 1.55,
+   "reasoning_tokens": 10,
+   "completion": 15,
+   "cost": 0.001585,
+   "finish": "stop",
+   "mol_id": "CHEMBL578288"
+  },
+  {
+   "text": "1.85",
+   "value": 1.85,
+   "reasoning_tokens": 10,
+   "completion": 15,
+   "cost": 0.001585,
+   "finish": "stop",
+   "mol_id": "CHEMBL578288"
+  },
+  {
+   "text": "1.6",
+   "value": 1.6,
+   "reasoning_tokens": 30,
+   "completion": 35,
+   "cost": 0.002225,
+   "finish": "stop",
+   "mol_id": "CHEMBL1778648"
+  },
+  {
+   "text": "1.6",
+   "value": 1.6,
+   "reasoning_tokens": 31,
+   "completion": 36,
+   "cost": 0.00225,
+   "finish": "stop",
+   "mol_id": "CHEMBL1778648"
+  },
+  {
+   "text": "1.6",
+   "value": 1.6,
+   "reasoning_tokens": 30,
+   "completion": 35,
+   "cost": 0.002225,
+   "finish": "stop",
+   "mol_id": "CHEMBL1778648"
+  },
+  {
+   "text": "1.5",
+   "value": 1.5,
+   "reasoning_tokens": 27,
+   "completion": 32,
+   "cost": 0.002065,
+   "finish": "stop",
+   "mol_id": "CHEMBL1778635"
+  },
+  {
+   "text": "1.1",
+   "value": 1.1,
+   "reasoning_tokens": 33,
+   "completion": 38,
+   "cost": 0.002215,
+   "finish": "stop",
+   "mol_id": "CHEMBL1778635"
+  },
+  {
+   "text": "1.4",
+   "value": 1.4,
+   "reasoning_tokens": 45,
+   "completion": 50,
+   "cost": 0.002515,
+   "finish": "stop",
+   "mol_id": "CHEMBL1778635"
+  },
+  {
+   "text": "2.3",
+   "value": 2.3,
+   "reasoning_tokens": 31,
+   "completion": 36,
+   "cost": 0.00226,
+   "finish": "stop",
+   "mol_id": "CHEMBL1234354"
+  },
+  {
+   "text": "2.3",
+   "value": 2.3,
+   "reasoning_tokens": 56,
+   "completion": 61,
+   "cost": 0.002885,
+   "finish": "stop",
+   "mol_id": "CHEMBL1234354"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.001485,
+   "finish": "stop",
+   "mol_id": "CHEMBL1234354"
+  },
+  {
+   "text": "3.6",
+   "value": 3.6,
+   "reasoning_tokens": 33,
+   "completion": 38,
+   "cost": 0.002145,
+   "finish": "stop",
+   "mol_id": "CHEMBL1550278"
+  },
+  {
+   "text": "3.6",
+   "value": 3.6,
+   "reasoning_tokens": 35,
+   "completion": 40,
+   "cost": 0.002195,
+   "finish": "stop",
+   "mol_id": "CHEMBL1550278"
+  },
+  {
+   "text": "3.7",
+   "value": 3.7,
+   "reasoning_tokens": 33,
+   "completion": 38,
+   "cost": 0.002145,
+   "finish": "stop",
+   "mol_id": "CHEMBL1550278"
+  },
+  {
+   "text": "1.0",
+   "value": 1.0,
+   "reasoning_tokens": 22,
+   "completion": 27,
+   "cost": 0.00195,
+   "finish": "stop",
+   "mol_id": "CHEMBL1096"
+  },
+  {
+   "text": "1.0",
+   "value": 1.0,
+   "reasoning_tokens": 35,
+   "completion": 40,
+   "cost": 0.002275,
+   "finish": "stop",
+   "mol_id": "CHEMBL1096"
+  },
+  {
+   "text": "1.15",
+   "value": 1.15,
+   "reasoning_tokens": 60,
+   "completion": 65,
+   "cost": 0.0029,
+   "finish": "stop",
+   "mol_id": "CHEMBL1096"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 40,
+   "completion": 45,
+   "cost": 0.002445,
+   "finish": "stop",
+   "mol_id": "CHEMBL1807822"
+  },
+  {
+   "text": "2.5",
+   "value": 2.5,
+   "reasoning_tokens": 44,
+   "completion": 49,
+   "cost": 0.002545,
+   "finish": "stop",
+   "mol_id": "CHEMBL1807822"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 43,
+   "completion": 48,
+   "cost": 0.00252,
+   "finish": "stop",
+   "mol_id": "CHEMBL1807822"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.001315,
+   "finish": "stop",
+   "mol_id": "CHEMBL1310086"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.001315,
+   "finish": "stop",
+   "mol_id": "CHEMBL1310086"
+  },
+  {
+   "text": "3.5",
+   "value": 3.5,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.001315,
+   "finish": "stop",
+   "mol_id": "CHEMBL1310086"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 43,
+   "completion": 48,
+   "cost": 0.00254,
+   "finish": "stop",
+   "mol_id": "CHEMBL373364"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 50,
+   "completion": 55,
+   "cost": 0.002715,
+   "finish": "stop",
+   "mol_id": "CHEMBL373364"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 41,
+   "completion": 46,
+   "cost": 0.00249,
+   "finish": "stop",
+   "mol_id": "CHEMBL373364"
+  },
+  {
+   "text": "-1.1",
+   "value": -1.1,
+   "reasoning_tokens": 18,
+   "completion": 24,
+   "cost": 0.0018,
+   "finish": "stop",
+   "mol_id": "CHEMBL484901"
+  },
+  {
+   "text": "-1.06",
+   "value": -1.06,
+   "reasoning_tokens": 33,
+   "completion": 39,
+   "cost": 0.002175,
+   "finish": "stop",
+   "mol_id": "CHEMBL484901"
+  },
+  {
+   "text": "-1.06",
+   "value": -1.06,
+   "reasoning_tokens": 34,
+   "completion": 40,
+   "cost": 0.0022,
+   "finish": "stop",
+   "mol_id": "CHEMBL484901"
+  },
+  {
+   "text": "2.1",
+   "value": 2.1,
+   "reasoning_tokens": 27,
+   "completion": 32,
+   "cost": 0.00215,
+   "finish": "stop",
+   "mol_id": "CHEMBL1233652"
+  },
+  {
+   "text": "1.7",
+   "value": 1.7,
+   "reasoning_tokens": 40,
+   "completion": 45,
+   "cost": 0.002475,
+   "finish": "stop",
+   "mol_id": "CHEMBL1233652"
+  },
+  {
+   "text": "1.8",
+   "value": 1.8,
+   "reasoning_tokens": 53,
+   "completion": 58,
+   "cost": 0.0028,
+   "finish": "stop",
+   "mol_id": "CHEMBL1233652"
+  },
+  {
+   "text": "0.7",
+   "value": 0.7,
+   "reasoning_tokens": 22,
+   "completion": 27,
+   "cost": 0.002045,
+   "finish": "stop",
+   "mol_id": "CHEMBL2059196"
+  },
+  {
+   "text": "0.85",
+   "value": 0.85,
+   "reasoning_tokens": 26,
+   "completion": 31,
+   "cost": 0.002145,
+   "finish": "stop",
+   "mol_id": "CHEMBL2059196"
+  },
+  {
+   "text": "0.6",
+   "value": 0.6,
+   "reasoning_tokens": 22,
+   "completion": 27,
+   "cost": 0.002045,
+   "finish": "stop",
+   "mol_id": "CHEMBL2059196"
+  },
+  {
+   "text": "3.7",
+   "value": 3.7,
+   "reasoning_tokens": 41,
+   "completion": 46,
+   "cost": 0.002525,
+   "finish": "stop",
+   "mol_id": "CHEMBL1934414"
+  },
+  {
+   "text": "4.0",
+   "value": 4.0,
+   "reasoning_tokens": 0,
+   "completion": 5,
+   "cost": 0.0015,
+   "finish": "stop",
+   "mol_id": "CHEMBL1934414"
+  },
+  {
+   "text": "3.8",
+   "value": 3.8,
+   "reasoning_tokens": 13,
+   "completion": 18,
+   "cost": 0.001825,
+   "finish": "stop",
+   "mol_id": "CHEMBL1934414"
+  },
+  {
+   "text": "3.2",
+   "value": 3.2,
+   "reasoning_tokens": 28,
+   "completion": 33,
+   "cost": 0.00205,
+   "finish": "stop",
+   "mol_id": "CHEMBL1415894"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 33,
+   "completion": 38,
+   "cost": 0.002175,
+   "finish": "stop",
+   "mol_id": "CHEMBL1415894"
+  },
+  {
+   "text": "3.4",
+   "value": 3.4,
+   "reasoning_tokens": 28,
+   "completion": 33,
+   "cost": 0.00205,
+   "finish": "stop",
+   "mol_id": "CHEMBL1415894"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 11,
+   "completion": 16,
+   "cost": 0.001685,
+   "finish": "stop",
+   "mol_id": "CHEMBL2335875"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.00171,
+   "finish": "stop",
+   "mol_id": "CHEMBL2335875"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.00171,
+   "finish": "stop",
+   "mol_id": "CHEMBL2335875"
+  },
+  {
+   "text": "2.9",
+   "value": 2.9,
+   "reasoning_tokens": 36,
+   "completion": 41,
+   "cost": 0.002315,
+   "finish": "stop",
+   "mol_id": "CHEMBL1916269"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 34,
+   "completion": 39,
+   "cost": 0.002265,
+   "finish": "stop",
+   "mol_id": "CHEMBL1916269"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 36,
+   "completion": 41,
+   "cost": 0.002315,
+   "finish": "stop",
+   "mol_id": "CHEMBL1916269"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 43,
+   "completion": 48,
+   "cost": 0.002545,
+   "finish": "stop",
+   "mol_id": "CHEMBL1224139"
+  },
+  {
+   "text": "2.6",
+   "value": 2.6,
+   "reasoning_tokens": 37,
+   "completion": 42,
+   "cost": 0.002395,
+   "finish": "stop",
+   "mol_id": "CHEMBL1224139"
+  },
+  {
+   "text": "2.4",
+   "value": 2.4,
+   "reasoning_tokens": 41,
+   "completion": 46,
+   "cost": 0.002495,
+   "finish": "stop",
+   "mol_id": "CHEMBL1224139"
+  },
+  {
+   "text": "3.6",
+   "value": 3.6,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001675,
+   "finish": "stop",
+   "mol_id": "CHEMBL1082812"
+  },
+  {
+   "text": "3.1",
+   "value": 3.1,
+   "reasoning_tokens": 10,
+   "completion": 15,
+   "cost": 0.001625,
+   "finish": "stop",
+   "mol_id": "CHEMBL1082812"
+  },
+  {
+   "text": "3.6",
+   "value": 3.6,
+   "reasoning_tokens": 12,
+   "completion": 17,
+   "cost": 0.001675,
+   "finish": "stop",
+   "mol_id": "CHEMBL1082812"
+  }
+ ]
+}

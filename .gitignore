@@ -1,0 +1,37 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Credentials -- never commit. src/lib/LLMs.jl in this repo reads the key from
+# OPENROUTER_API_KEY and contains none; this line guards a local edit that adds one.
+*.env
+.env
+src/lib/LLMs.local.jl
+
+# Machine-local spend counter written by the Julia runners
+src/lib/LLMUtilsData/
+
+# Run transcripts from the query sweeps (up to 21 MB each, and they reproduce nothing).
+# results/meta/reasoning_calibration.log is kept deliberately -- it is the record behind the
+# per-model reasoning setting in src/registry/models.json.
+results/*.log
+
+# Generated figures and tables. The analysis scripts write into paper/figures and paper/tables
+# by convention; the manuscript itself is not part of this repository, so the whole directory is
+# generated output and none of it is tracked.
+paper/
+figures/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz

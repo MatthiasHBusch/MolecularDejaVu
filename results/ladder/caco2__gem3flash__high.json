@@ -1,0 +1,1635 @@
+{
+ "meta": {
+  "dataset": "caco2",
+  "tag": "gem3flash",
+  "endpoint": "google/gemini-3-flash-preview",
+  "level": "high",
+  "n_mol": 60,
+  "iters": 3,
+  "max_tokens": 20000,
+  "cost": 2.0482357500000012,
+  "timestamp": "2026-08-15T11:42:57"
+ },
+ "calls": [
+  {
+   "text": "-4.95",
+   "value": -4.95,
+   "reasoning_tokens": 11398,
+   "completion": 11403,
+   "cost": 0.0171465,
+   "finish": "stop",
+   "mol_id": "(-)-epicatechin"
+  },
+  {
+   "text": "-6.11",
+   "value": -6.11,
+   "reasoning_tokens": 6270,
+   "completion": 6275,
+   "cost": 0.0094545,
+   "finish": "stop",
+   "mol_id": "(-)-epicatechin"
+  },
+  {
+   "text": "-6.04",
+   "value": -6.04,
+   "reasoning_tokens": 4984,
+   "completion": 4989,
+   "cost": 0.0075255,
+   "finish": "stop",
+   "mol_id": "(-)-epicatechin"
+  },
+  {
+   "text": "-4.84",
+   "value": -4.84,
+   "reasoning_tokens": 8340,
+   "completion": 8345,
+   "cost": 0.01255775,
+   "finish": "stop",
+   "mol_id": "(2E,4Z,8Z)-N-isobutyldodeca-2,4,10-triene-8 -ynamide"
+  },
+  {
+   "text": "-4.538253131",
+   "value": -4.538253131,
+   "reasoning_tokens": 11394,
+   "completion": 11406,
+   "cost": 0.01714925,
+   "finish": "stop",
+   "mol_id": "(2E,4Z,8Z)-N-isobutyldodeca-2,4,10-triene-8 -ynamide"
+  },
+  {
+   "text": "-4.67",
+   "value": -4.67,
+   "reasoning_tokens": 3876,
+   "completion": 3881,
+   "cost": 0.00586175,
+   "finish": "stop",
+   "mol_id": "(2E,4Z,8Z)-N-isobutyldodeca-2,4,10-triene-8 -ynamide"
+  },
+  {
+   "text": "-4.7",
+   "value": -4.7,
+   "reasoning_tokens": 5526,
+   "completion": 5530,
+   "cost": 0.008341,
+   "finish": "stop",
+   "mol_id": "codeine"
+  },
+  {
+   "text": "-4.62",
+   "value": -4.62,
+   "reasoning_tokens": 11860,
+   "completion": 11865,
+   "cost": 0.0178435,
+   "finish": "stop",
+   "mol_id": "codeine"
+  },
+  {
+   "text": "-4.708",
+   "value": -4.708,
+   "reasoning_tokens": 9488,
+   "completion": 9494,
+   "cost": 0.014287,
+   "finish": "stop",
+   "mol_id": "codeine"
+  },
+  {
+   "text": "-5.54",
+   "value": -5.54,
+   "reasoning_tokens": 3476,
+   "completion": 3481,
+   "cost": 0.0052575,
+   "finish": "stop",
+   "mol_id": "creatinine"
+  },
+  {
+   "text": "-6.04",
+   "value": -6.04,
+   "reasoning_tokens": 4167,
+   "completion": 4172,
+   "cost": 0.006294,
+   "finish": "stop",
+   "mol_id": "creatinine"
+  },
+  {
+   "text": "-5.7",
+   "value": -5.7,
+   "reasoning_tokens": 5184,
+   "completion": 5188,
+   "cost": 0.007818,
+   "finish": "stop",
+   "mol_id": "creatinine"
+  },
+  {
+   "text": "-4.72",
+   "value": -4.72,
+   "reasoning_tokens": 6929,
+   "completion": 6934,
+   "cost": 0.01044725,
+   "finish": "stop",
+   "mol_id": "danazol"
+  },
+  {
+   "text": "-4.37",
+   "value": -4.37,
+   "reasoning_tokens": 5589,
+   "completion": 5594,
+   "cost": 0.00843725,
+   "finish": "stop",
+   "mol_id": "danazol"
+  },
+  {
+   "text": "-4.416828338279998",
+   "value": -4.416828338279998,
+   "reasoning_tokens": 11346,
+   "completion": 11364,
+   "cost": 0.01709225,
+   "finish": "stop",
+   "mol_id": "danazol"
+  },
+  {
+   "text": "-6.283996656",
+   "value": -6.283996656,
+   "reasoning_tokens": 8142,
+   "completion": 8154,
+   "cost": 0.0122895,
+   "finish": "stop",
+   "mol_id": "dexamethasone b D glucoside"
+  },
+  {
+   "text": "-6.22",
+   "value": -6.22,
+   "reasoning_tokens": 3468,
+   "completion": 3473,
+   "cost": 0.005268,
+   "finish": "stop",
+   "mol_id": "dexamethasone b D glucoside"
+  },
+  {
+   "text": "-6.376750710152594",
+   "value": -6.376750710152594,
+   "reasoning_tokens": 7661,
+   "completion": 7679,
+   "cost": 0.011577,
+   "finish": "stop",
+   "mol_id": "dexamethasone b D glucoside"
+  },
+  {
+   "text": "-6.44369747714",
+   "value": -6.44369747714,
+   "reasoning_tokens": 7083,
+   "completion": 7097,
+   "cost": 0.010705,
+   "finish": "stop",
+   "mol_id": "dexamethasone b D glucuronide"
+  },
+  {
+   "text": "-6.044082161",
+   "value": -6.044082161,
+   "reasoning_tokens": 6168,
+   "completion": 6180,
+   "cost": 0.0093295,
+   "finish": "stop",
+   "mol_id": "dexamethasone b D glucuronide"
+  },
+  {
+   "text": "-7.026821102",
+   "value": -7.026821102,
+   "reasoning_tokens": 6608,
+   "completion": 6620,
+   "cost": 0.0099895,
+   "finish": "stop",
+   "mol_id": "dexamethasone b D glucuronide"
+  },
+  {
+   "text": "-6.13",
+   "value": -6.13,
+   "reasoning_tokens": 9419,
+   "completion": 9424,
+   "cost": 0.0141825,
+   "finish": "stop",
+   "mol_id": "DMXAA-G"
+  },
+  {
+   "text": "-5.465",
+   "value": -5.465,
+   "reasoning_tokens": 8061,
+   "completion": 8067,
+   "cost": 0.012147,
+   "finish": "stop",
+   "mol_id": "DMXAA-G"
+  },
+  {
+   "text": "-6.22",
+   "value": -6.22,
+   "reasoning_tokens": 12904,
+   "completion": 12909,
+   "cost": 0.01941,
+   "finish": "stop",
+   "mol_id": "DMXAA-G"
+  },
+  {
+   "text": "-4.67",
+   "value": -4.67,
+   "reasoning_tokens": 3930,
+   "completion": 3935,
+   "cost": 0.0059485,
+   "finish": "stop",
+   "mol_id": "d-praeruptorin"
+  },
+  {
+   "text": "-5.04",
+   "value": -5.04,
+   "reasoning_tokens": 7294,
+   "completion": 7299,
+   "cost": 0.0109945,
+   "finish": "stop",
+   "mol_id": "d-praeruptorin"
+  },
+  {
+   "text": "-4.84",
+   "value": -4.84,
+   "reasoning_tokens": 6283,
+   "completion": 6288,
+   "cost": 0.009478,
+   "finish": "stop",
+   "mol_id": "d-praeruptorin"
+  },
+  {
+   "text": "-7.78",
+   "value": -7.78,
+   "reasoning_tokens": 3137,
+   "completion": 3142,
+   "cost": 0.00477875,
+   "finish": "stop",
+   "mol_id": "echinacoside"
+  },
+  {
+   "text": "-7.74",
+   "value": -7.74,
+   "reasoning_tokens": 6956,
+   "completion": 6961,
+   "cost": 0.01050725,
+   "finish": "stop",
+   "mol_id": "echinacoside"
+  },
+  {
+   "text": "-7.42",
+   "value": -7.42,
+   "reasoning_tokens": 4770,
+   "completion": 4775,
+   "cost": 0.00722825,
+   "finish": "stop",
+   "mol_id": "echinacoside"
+  },
+  {
+   "text": "-6.08",
+   "value": -6.08,
+   "reasoning_tokens": 4223,
+   "completion": 4228,
+   "cost": 0.00638325,
+   "finish": "stop",
+   "mol_id": "EF5154"
+  },
+  {
+   "text": "-6.52",
+   "value": -6.52,
+   "reasoning_tokens": 7445,
+   "completion": 7450,
+   "cost": 0.01121625,
+   "finish": "stop",
+   "mol_id": "EF5154"
+  },
+  {
+   "text": "-6.05",
+   "value": -6.05,
+   "reasoning_tokens": 9700,
+   "completion": 9705,
+   "cost": 0.01459875,
+   "finish": "stop",
+   "mol_id": "EF5154"
+  },
+  {
+   "text": "-5.09",
+   "value": -5.09,
+   "reasoning_tokens": 13517,
+   "completion": 13522,
+   "cost": 0.020324,
+   "finish": "stop",
+   "mol_id": "EF5170"
+  },
+  {
+   "text": "-5.22",
+   "value": -5.22,
+   "reasoning_tokens": 2655,
+   "completion": 2660,
+   "cost": 0.004031,
+   "finish": "stop",
+   "mol_id": "EF5170"
+  },
+  {
+   "text": "-5.3",
+   "value": -5.3,
+   "reasoning_tokens": 6145,
+   "completion": 6149,
+   "cost": 0.0092645,
+   "finish": "stop",
+   "mol_id": "EF5170"
+  },
+  {
+   "text": "-5.74",
+   "value": -5.74,
+   "reasoning_tokens": 4761,
+   "completion": 4766,
+   "cost": 0.007191,
+   "finish": "stop",
+   "mol_id": "EF5232"
+  },
+  {
+   "text": "-5.11",
+   "value": -5.11,
+   "reasoning_tokens": 9046,
+   "completion": 9051,
+   "cost": 0.0136185,
+   "finish": "stop",
+   "mol_id": "EF5232"
+  },
+  {
+   "text": "-4.95",
+   "value": -4.95,
+   "reasoning_tokens": 6688,
+   "completion": 6693,
+   "cost": 0.0100815,
+   "finish": "stop",
+   "mol_id": "EF5232"
+  },
+  {
+   "text": "-5.58",
+   "value": -5.58,
+   "reasoning_tokens": 4113,
+   "completion": 4118,
+   "cost": 0.006219,
+   "finish": "stop",
+   "mol_id": "EF5242"
+  },
+  {
+   "text": "-4.83",
+   "value": -4.83,
+   "reasoning_tokens": 3292,
+   "completion": 3297,
+   "cost": 0.0049875,
+   "finish": "stop",
+   "mol_id": "EF5242"
+  },
+  {
+   "text": "-4.84",
+   "value": -4.84,
+   "reasoning_tokens": 5827,
+   "completion": 5832,
+   "cost": 0.00879,
+   "finish": "stop",
+   "mol_id": "EF5242"
+  },
+  {
+   "text": "-5.48",
+   "value": -5.48,
+   "reasoning_tokens": 5780,
+   "completion": 5785,
+   "cost": 0.00872225,
+   "finish": "stop",
+   "mol_id": "EF5248"
+  },
+  {
+   "text": "-5.11",
+   "value": -5.11,
+   "reasoning_tokens": 4025,
+   "completion": 4030,
+   "cost": 0.00608975,
+   "finish": "stop",
+   "mol_id": "EF5248"
+  },
+  {
+   "text": "-6.00882064047",
+   "value": -6.00882064047,
+   "reasoning_tokens": 9765,
+   "completion": 9779,
+   "cost": 0.01471325,
+   "finish": "stop",
+   "mol_id": "EF5248"
+  },
+  {
+   "text": "-5.16315180608",
+   "value": -5.16315180608,
+   "reasoning_tokens": 7123,
+   "completion": 7137,
+   "cost": 0.01075125,
+   "finish": "stop",
+   "mol_id": "EF5249"
+  },
+  {
+   "text": "-5.35",
+   "value": -5.35,
+   "reasoning_tokens": 9385,
+   "completion": 9390,
+   "cost": 0.01413075,
+   "finish": "stop",
+   "mol_id": "EF5249"
+  },
+  {
+   "text": "-4.68112521013",
+   "value": -4.68112521013,
+   "reasoning_tokens": 7288,
+   "completion": 7301,
+   "cost": 0.01099725,
+   "finish": "stop",
+   "mol_id": "EF5249"
+  },
+  {
+   "text": "-5.31062086438",
+   "value": -5.31062086438,
+   "reasoning_tokens": 8002,
+   "completion": 8016,
+   "cost": 0.0120685,
+   "finish": "stop",
+   "mol_id": "EF5251"
+  },
+  {
+   "text": "-4.7",
+   "value": -4.7,
+   "reasoning_tokens": 7091,
+   "completion": 7095,
+   "cost": 0.010687,
+   "finish": "stop",
+   "mol_id": "EF5251"
+  },
+  {
+   "text": "-5.73678310376",
+   "value": -5.73678310376,
+   "reasoning_tokens": 5534,
+   "completion": 5548,
+   "cost": 0.0083665,
+   "finish": "stop",
+   "mol_id": "EF5251"
+  },
+  {
+   "text": "-5.918230588",
+   "value": -5.918230588,
+   "reasoning_tokens": 5374,
+   "completion": 5386,
+   "cost": 0.0081265,
+   "finish": "stop",
+   "mol_id": "EF5261"
+  },
+  {
+   "text": "-5.11",
+   "value": -5.11,
+   "reasoning_tokens": 2849,
+   "completion": 2854,
+   "cost": 0.0043285,
+   "finish": "stop",
+   "mol_id": "EF5261"
+  },
+  {
+   "text": "-5.64",
+   "value": -5.64,
+   "reasoning_tokens": 5308,
+   "completion": 5313,
+   "cost": 0.008017,
+   "finish": "stop",
+   "mol_id": "EF5261"
+  },
+  {
+   "text": "-5.016325175",
+   "value": -5.016325175,
+   "reasoning_tokens": 6681,
+   "completion": 6693,
+   "cost": 0.01008525,
+   "finish": "stop",
+   "mol_id": "EF5264"
+  },
+  {
+   "text": "-5.02287813123",
+   "value": -5.02287813123,
+   "reasoning_tokens": 11783,
+   "completion": 11797,
+   "cost": 0.01774125,
+   "finish": "stop",
+   "mol_id": "EF5264"
+  },
+  {
+   "text": "-5.73",
+   "value": -5.73,
+   "reasoning_tokens": 5633,
+   "completion": 5638,
+   "cost": 0.00850275,
+   "finish": "stop",
+   "mol_id": "EF5264"
+  },
+  {
+   "text": "-5.58",
+   "value": -5.58,
+   "reasoning_tokens": 4074,
+   "completion": 4079,
+   "cost": 0.00616475,
+   "finish": "stop",
+   "mol_id": "EF5265"
+  },
+  {
+   "text": "-4.801252702737632 model-4.801252702737632",
+   "value": -4.801252702737632,
+   "reasoning_tokens": 4191,
+   "completion": 4228,
+   "cost": 0.00638825,
+   "finish": "stop",
+   "mol_id": "EF5265"
+  },
+  {
+   "text": "-6.12",
+   "value": -6.12,
+   "reasoning_tokens": 10688,
+   "completion": 10693,
+   "cost": 0.01608575,
+   "finish": "stop",
+   "mol_id": "EF5265"
+  },
+  {
+   "text": "-4.9",
+   "value": -4.9,
+   "reasoning_tokens": 5429,
+   "completion": 5433,
+   "cost": 0.0081955,
+   "finish": "stop",
+   "mol_id": "EF5270"
+  },
+  {
+   "text": "-5.46",
+   "value": -5.46,
+   "reasoning_tokens": 3013,
+   "completion": 3018,
+   "cost": 0.004573,
+   "finish": "stop",
+   "mol_id": "EF5270"
+  },
+  {
+   "text": "-5.6",
+   "value": -5.6,
+   "reasoning_tokens": 5310,
+   "completion": 5314,
+   "cost": 0.008017,
+   "finish": "stop",
+   "mol_id": "EF5270"
+  },
+  {
+   "text": "-5.09",
+   "value": -5.09,
+   "reasoning_tokens": 5002,
+   "completion": 5007,
+   "cost": 0.007558,
+   "finish": "stop",
+   "mol_id": "EF5278"
+  },
+  {
+   "text": "-6.18",
+   "value": -6.18,
+   "reasoning_tokens": 5149,
+   "completion": 5154,
+   "cost": 0.0077785,
+   "finish": "stop",
+   "mol_id": "EF5278"
+  },
+  {
+   "text": "-4.876061327141315",
+   "value": -4.876061327141315,
+   "reasoning_tokens": 11620,
+   "completion": 11638,
+   "cost": 0.0175045,
+   "finish": "stop",
+   "mol_id": "EF5278"
+  },
+  {
+   "text": "-4.71424783321",
+   "value": -4.71424783321,
+   "reasoning_tokens": 7346,
+   "completion": 7359,
+   "cost": 0.0110845,
+   "finish": "stop",
+   "mol_id": "EF5283"
+  },
+  {
+   "text": "-5.11477721528",
+   "value": -5.11477721528,
+   "reasoning_tokens": 7396,
+   "completion": 7410,
+   "cost": 0.011161,
+   "finish": "stop",
+   "mol_id": "EF5283"
+  },
+  {
+   "text": "-5.18661603487",
+   "value": -5.18661603487,
+   "reasoning_tokens": 3828,
+   "completion": 3842,
+   "cost": 0.005809,
+   "finish": "stop",
+   "mol_id": "EF5283"
+  },
+  {
+   "text": "-4.93",
+   "value": -4.93,
+   "reasoning_tokens": 2883,
+   "completion": 2888,
+   "cost": 0.0043785,
+   "finish": "stop",
+   "mol_id": "EF5292"
+  },
+  {
+   "text": "-4.819128359",
+   "value": -4.819128359,
+   "reasoning_tokens": 6422,
+   "completion": 6434,
+   "cost": 0.0096975,
+   "finish": "stop",
+   "mol_id": "EF5292"
+  },
+  {
+   "text": "-5.63",
+   "value": -5.63,
+   "reasoning_tokens": 3263,
+   "completion": 3268,
+   "cost": 0.0049485,
+   "finish": "stop",
+   "mol_id": "EF5292"
+  },
+  {
+   "text": "-6.11351147477",
+   "value": -6.11351147477,
+   "reasoning_tokens": 8621,
+   "completion": 8635,
+   "cost": 0.012996,
+   "finish": "stop",
+   "mol_id": "elarofiban"
+  },
+  {
+   "text": "-6.03714243685",
+   "value": -6.03714243685,
+   "reasoning_tokens": 9831,
+   "completion": 9845,
+   "cost": 0.014811,
+   "finish": "stop",
+   "mol_id": "elarofiban"
+  },
+  {
+   "text": "-6.14",
+   "value": -6.14,
+   "reasoning_tokens": 5160,
+   "completion": 5165,
+   "cost": 0.007791,
+   "finish": "stop",
+   "mol_id": "elarofiban"
+  },
+  {
+   "text": "-4.68",
+   "value": -4.68,
+   "reasoning_tokens": 9530,
+   "completion": 9535,
+   "cost": 0.01433975,
+   "finish": "stop",
+   "mol_id": "5-chlorosalicylic acid"
+  },
+  {
+   "text": "-4.78",
+   "value": -4.78,
+   "reasoning_tokens": 3513,
+   "completion": 3518,
+   "cost": 0.00531425,
+   "finish": "stop",
+   "mol_id": "5-chlorosalicylic acid"
+  },
+  {
+   "text": "-4.67",
+   "value": -4.67,
+   "reasoning_tokens": 6024,
+   "completion": 6029,
+   "cost": 0.00908075,
+   "finish": "stop",
+   "mol_id": "5-chlorosalicylic acid"
+  },
+  {
+   "text": "-6.44",
+   "value": -6.44,
+   "reasoning_tokens": 4562,
+   "completion": 4567,
+   "cost": 0.006889,
+   "finish": "stop",
+   "mol_id": "epinephrine"
+  },
+  {
+   "text": "-6.11",
+   "value": -6.11,
+   "reasoning_tokens": 3435,
+   "completion": 3440,
+   "cost": 0.0051985,
+   "finish": "stop",
+   "mol_id": "epinephrine"
+  },
+  {
+   "text": "-6.11",
+   "value": -6.11,
+   "reasoning_tokens": 2078,
+   "completion": 2083,
+   "cost": 0.003163,
+   "finish": "stop",
+   "mol_id": "epinephrine"
+  },
+  {
+   "text": "-6.18",
+   "value": -6.18,
+   "reasoning_tokens": 3444,
+   "completion": 3449,
+   "cost": 0.005216,
+   "finish": "stop",
+   "mol_id": "eriodictyol"
+  },
+  {
+   "text": "-6.036211886",
+   "value": -6.036211886,
+   "reasoning_tokens": 13738,
+   "completion": 13750,
+   "cost": 0.0206675,
+   "finish": "stop",
+   "mol_id": "eriodictyol"
+  },
+  {
+   "text": "-5.81",
+   "value": -5.81,
+   "reasoning_tokens": 5809,
+   "completion": 5814,
+   "cost": 0.0087635,
+   "finish": "stop",
+   "mol_id": "eriodictyol"
+  },
+  {
+   "text": "-6.21618837128",
+   "value": -6.21618837128,
+   "reasoning_tokens": 9620,
+   "completion": 9634,
+   "cost": 0.014518,
+   "finish": "stop",
+   "mol_id": "erythromycin"
+  },
+  {
+   "text": "-6.221848745342416",
+   "value": -6.221848745342416,
+   "reasoning_tokens": 6389,
+   "completion": 6407,
+   "cost": 0.0096775,
+   "finish": "stop",
+   "mol_id": "erythromycin"
+  },
+  {
+   "text": "-6.037197123916298",
+   "value": -6.037197123916298,
+   "reasoning_tokens": 11968,
+   "completion": 11986,
+   "cost": 0.018046,
+   "finish": "stop",
+   "mol_id": "erythromycin"
+  },
+  {
+   "text": "-6.11703046274",
+   "value": -6.11703046274,
+   "reasoning_tokens": 9167,
+   "completion": 9180,
+   "cost": 0.01380925,
+   "finish": "stop",
+   "mol_id": "famotidine"
+  },
+  {
+   "text": "-6.137",
+   "value": -6.137,
+   "reasoning_tokens": 10835,
+   "completion": 10841,
+   "cost": 0.01630075,
+   "finish": "stop",
+   "mol_id": "famotidine"
+  },
+  {
+   "text": "-6.041392685",
+   "value": -6.041392685,
+   "reasoning_tokens": 6856,
+   "completion": 6868,
+   "cost": 0.01034125,
+   "finish": "stop",
+   "mol_id": "famotidine"
+  },
+  {
+   "text": "-6.087",
+   "value": -6.087,
+   "reasoning_tokens": 5221,
+   "completion": 5227,
+   "cost": 0.00788425,
+   "finish": "stop",
+   "mol_id": "fexofenadine"
+  },
+  {
+   "text": "-5.53",
+   "value": -5.53,
+   "reasoning_tokens": 2288,
+   "completion": 2293,
+   "cost": 0.00348325,
+   "finish": "stop",
+   "mol_id": "fexofenadine"
+  },
+  {
+   "text": "-5.55",
+   "value": -5.55,
+   "reasoning_tokens": 2776,
+   "completion": 2781,
+   "cost": 0.00421525,
+   "finish": "stop",
+   "mol_id": "fexofenadine"
+  },
+  {
+   "text": "-5.57",
+   "value": -5.57,
+   "reasoning_tokens": 6259,
+   "completion": 6264,
+   "cost": 0.00944025,
+   "finish": "stop",
+   "mol_id": "fexofenadine hydrochloride"
+  },
+  {
+   "text": "-5.57",
+   "value": -5.57,
+   "reasoning_tokens": 2826,
+   "completion": 2831,
+   "cost": 0.00429075,
+   "finish": "stop",
+   "mol_id": "fexofenadine hydrochloride"
+  },
+  {
+   "text": "-5.58",
+   "value": -5.58,
+   "reasoning_tokens": 5816,
+   "completion": 5821,
+   "cost": 0.00877575,
+   "finish": "stop",
+   "mol_id": "fexofenadine hydrochloride"
+  },
+  {
+   "text": "-4.67",
+   "value": -4.67,
+   "reasoning_tokens": 3941,
+   "completion": 3946,
+   "cost": 0.005958,
+   "finish": "stop",
+   "mol_id": "fluparoxan"
+  },
+  {
+   "text": "-4.84",
+   "value": -4.84,
+   "reasoning_tokens": 5754,
+   "completion": 5759,
+   "cost": 0.0086775,
+   "finish": "stop",
+   "mol_id": "fluparoxan"
+  },
+  {
+   "text": "-4.73",
+   "value": -4.73,
+   "reasoning_tokens": 5437,
+   "completion": 5442,
+   "cost": 0.008202,
+   "finish": "stop",
+   "mol_id": "fluparoxan"
+  },
+  {
+   "text": "-5.19382002604",
+   "value": -5.19382002604,
+   "reasoning_tokens": 10881,
+   "completion": 10895,
+   "cost": 0.01638275,
+   "finish": "stop",
+   "mol_id": "AACV"
+  },
+  {
+   "text": "-5.14",
+   "value": -5.14,
+   "reasoning_tokens": 7273,
+   "completion": 7278,
+   "cost": 0.01095725,
+   "finish": "stop",
+   "mol_id": "AACV"
+  },
+  {
+   "text": "-5.73",
+   "value": -5.73,
+   "reasoning_tokens": 7342,
+   "completion": 7347,
+   "cost": 0.01106075,
+   "finish": "stop",
+   "mol_id": "AACV"
+  },
+  {
+   "text": "-5.941",
+   "value": -5.941,
+   "reasoning_tokens": 4195,
+   "completion": 4201,
+   "cost": 0.00633625,
+   "finish": "stop",
+   "mol_id": "glycerol"
+  },
+  {
+   "text": "-5.61",
+   "value": -5.61,
+   "reasoning_tokens": 3110,
+   "completion": 3115,
+   "cost": 0.00470725,
+   "finish": "stop",
+   "mol_id": "glycerol"
+  },
+  {
+   "text": "-5.58",
+   "value": -5.58,
+   "reasoning_tokens": 4176,
+   "completion": 4181,
+   "cost": 0.00630625,
+   "finish": "stop",
+   "mol_id": "glycerol"
+  },
+  {
+   "text": "-6.10850024222",
+   "value": -6.10850024222,
+   "reasoning_tokens": 11041,
+   "completion": 11055,
+   "cost": 0.016621,
+   "finish": "stop",
+   "mol_id": "glycine-valine acyclovir"
+  },
+  {
+   "text": "-5.87",
+   "value": -5.87,
+   "reasoning_tokens": 3188,
+   "completion": 3193,
+   "cost": 0.004828,
+   "finish": "stop",
+   "mol_id": "glycine-valine acyclovir"
+  },
+  {
+   "text": "-5.459",
+   "value": -5.459,
+   "reasoning_tokens": 4766,
+   "completion": 4772,
+   "cost": 0.0071965,
+   "finish": "stop",
+   "mol_id": "glycine-valine acyclovir"
+  },
+  {
+   "text": "-5.126",
+   "value": -5.126,
+   "reasoning_tokens": 7956,
+   "completion": 7962,
+   "cost": 0.01198125,
+   "finish": "stop",
+   "mol_id": "guanabenz"
+  },
+  {
+   "text": "-5.137",
+   "value": -5.137,
+   "reasoning_tokens": 4189,
+   "completion": 4195,
+   "cost": 0.00633075,
+   "finish": "stop",
+   "mol_id": "guanabenz"
+  },
+  {
+   "text": "-5.18",
+   "value": -5.18,
+   "reasoning_tokens": 2167,
+   "completion": 2172,
+   "cost": 0.00329625,
+   "finish": "stop",
+   "mol_id": "guanabenz"
+  },
+  {
+   "text": "-4.88879155745",
+   "value": -4.88879155745,
+   "reasoning_tokens": 10042,
+   "completion": 10056,
+   "cost": 0.01512525,
+   "finish": "stop",
+   "mol_id": "hesperetin"
+  },
+  {
+   "text": "-4.96",
+   "value": -4.96,
+   "reasoning_tokens": 8676,
+   "completion": 8681,
+   "cost": 0.01306275,
+   "finish": "stop",
+   "mol_id": "hesperetin"
+  },
+  {
+   "text": "-5.11",
+   "value": -5.11,
+   "reasoning_tokens": 6217,
+   "completion": 6222,
+   "cost": 0.00937425,
+   "finish": "stop",
+   "mol_id": "hesperetin"
+  },
+  {
+   "text": "-5.0",
+   "value": -5.0,
+   "reasoning_tokens": 11053,
+   "completion": 11057,
+   "cost": 0.01663525,
+   "finish": "stop",
+   "mol_id": "hexapeptide 01"
+  },
+  {
+   "text": "-6.04",
+   "value": -6.04,
+   "reasoning_tokens": 6491,
+   "completion": 6496,
+   "cost": 0.00979375,
+   "finish": "stop",
+   "mol_id": "hexapeptide 01"
+  },
+  {
+   "text": "-5.98",
+   "value": -5.98,
+   "reasoning_tokens": 5164,
+   "completion": 5169,
+   "cost": 0.00780325,
+   "finish": "stop",
+   "mol_id": "hexapeptide 01"
+  },
+  {
+   "text": "-6.115",
+   "value": -6.115,
+   "reasoning_tokens": 8973,
+   "completion": 8979,
+   "cost": 0.01351825,
+   "finish": "stop",
+   "mol_id": "hexapeptide 03"
+  },
+  {
+   "text": "-6.22",
+   "value": -6.22,
+   "reasoning_tokens": 6059,
+   "completion": 6064,
+   "cost": 0.00914575,
+   "finish": "stop",
+   "mol_id": "hexapeptide 03"
+  },
+  {
+   "text": "-6.18",
+   "value": -6.18,
+   "reasoning_tokens": 16837,
+   "completion": 16842,
+   "cost": 0.02531275,
+   "finish": "stop",
+   "mol_id": "hexapeptide 03"
+  },
+  {
+   "text": "-6.11",
+   "value": -6.11,
+   "reasoning_tokens": 6004,
+   "completion": 6009,
+   "cost": 0.00906325,
+   "finish": "stop",
+   "mol_id": "hexapeptide 05"
+  },
+  {
+   "text": "-6.426",
+   "value": -6.426,
+   "reasoning_tokens": 10312,
+   "completion": 10318,
+   "cost": 0.01552675,
+   "finish": "stop",
+   "mol_id": "hexapeptide 05"
+  },
+  {
+   "text": "-5.82",
+   "value": -5.82,
+   "reasoning_tokens": 8422,
+   "completion": 8427,
+   "cost": 0.01269025,
+   "finish": "stop",
+   "mol_id": "hexapeptide 05"
+  },
+  {
+   "text": "-6.208",
+   "value": -6.208,
+   "reasoning_tokens": 8290,
+   "completion": 8296,
+   "cost": 0.01249375,
+   "finish": "stop",
+   "mol_id": "hexapeptide 06"
+  },
+  {
+   "text": "-6.04",
+   "value": -6.04,
+   "reasoning_tokens": 8345,
+   "completion": 8350,
+   "cost": 0.01257475,
+   "finish": "stop",
+   "mol_id": "hexapeptide 06"
+  },
+  {
+   "text": "-5.83",
+   "value": -5.83,
+   "reasoning_tokens": 11750,
+   "completion": 11755,
+   "cost": 0.01768225,
+   "finish": "stop",
+   "mol_id": "hexapeptide 06"
+  },
+  {
+   "text": "-6.036212173",
+   "value": -6.036212173,
+   "reasoning_tokens": 18627,
+   "completion": 18639,
+   "cost": 0.02800925,
+   "finish": "stop",
+   "mol_id": "hexapeptide 07"
+  },
+  {
+   "text": "-6.21",
+   "value": -6.21,
+   "reasoning_tokens": 12560,
+   "completion": 12565,
+   "cost": 0.01889825,
+   "finish": "stop",
+   "mol_id": "hexapeptide 07"
+  },
+  {
+   "text": "The Caco-2 cell effective permeability of the molecule with the SMILES string **",
+   "value": -4.84,
+   "reasoning_tokens": 19198,
+   "completion": 19398,
+   "cost": 0.02914775,
+   "finish": "stop",
+   "mol_id": "hexapeptide 07"
+  },
+  {
+   "text": "-5.14",
+   "value": -5.14,
+   "reasoning_tokens": 9439,
+   "completion": 9444,
+   "cost": 0.01421675,
+   "finish": "stop",
+   "mol_id": "hexapeptide 08"
+  },
+  {
+   "text": "-6.443697472",
+   "value": -6.443697472,
+   "reasoning_tokens": 14157,
+   "completion": 14169,
+   "cost": 0.02130425,
+   "finish": "stop",
+   "mol_id": "hexapeptide 08"
+  },
+  {
+   "text": "-5.142",
+   "value": -5.142,
+   "reasoning_tokens": 14938,
+   "completion": 14944,
+   "cost": 0.02246675,
+   "finish": "stop",
+   "mol_id": "hexapeptide 08"
+  },
+  {
+   "text": "-6.04",
+   "value": -6.04,
+   "reasoning_tokens": 9254,
+   "completion": 9259,
+   "cost": 0.01393925,
+   "finish": "stop",
+   "mol_id": "hexapeptide 09"
+  },
+  {
+   "text": "-6.22",
+   "value": -6.22,
+   "reasoning_tokens": 9839,
+   "completion": 9844,
+   "cost": 0.01481675,
+   "finish": "stop",
+   "mol_id": "hexapeptide 09"
+  },
+  {
+   "text": "-5.173925197",
+   "value": -5.173925197,
+   "reasoning_tokens": 13652,
+   "completion": 13664,
+   "cost": 0.02054675,
+   "finish": "stop",
+   "mol_id": "hexapeptide 09"
+  },
+  {
+   "text": "-4.72682181464",
+   "value": -4.72682181464,
+   "reasoning_tokens": 8469,
+   "completion": 8482,
+   "cost": 0.01276225,
+   "finish": "stop",
+   "mol_id": "aceclofenac"
+  },
+  {
+   "text": "-4.417",
+   "value": -4.417,
+   "reasoning_tokens": 8889,
+   "completion": 8895,
+   "cost": 0.01338175,
+   "finish": "stop",
+   "mol_id": "aceclofenac"
+  },
+  {
+   "text": "-4.54",
+   "value": -4.54,
+   "reasoning_tokens": 2857,
+   "completion": 2862,
+   "cost": 0.00433225,
+   "finish": "stop",
+   "mol_id": "aceclofenac"
+  },
+  {
+   "text": "-5.161150536",
+   "value": -5.161150536,
+   "reasoning_tokens": 11767,
+   "completion": 11779,
+   "cost": 0.01771925,
+   "finish": "stop",
+   "mol_id": "hexapeptide 12"
+  },
+  {
+   "text": "-6.22",
+   "value": -6.22,
+   "reasoning_tokens": 9483,
+   "completion": 9488,
+   "cost": 0.01428275,
+   "finish": "stop",
+   "mol_id": "hexapeptide 12"
+  },
+  {
+   "text": "-5.18708664337",
+   "value": -5.18708664337,
+   "reasoning_tokens": 11173,
+   "completion": 11187,
+   "cost": 0.01683125,
+   "finish": "stop",
+   "mol_id": "hexapeptide 12"
+  },
+  {
+   "text": "-4.98",
+   "value": -4.98,
+   "reasoning_tokens": 4409,
+   "completion": 4414,
+   "cost": 0.00667175,
+   "finish": "stop",
+   "mol_id": "hexapeptide 13"
+  },
+  {
+   "text": "-6.06",
+   "value": -6.06,
+   "reasoning_tokens": 9086,
+   "completion": 9091,
+   "cost": 0.01368725,
+   "finish": "stop",
+   "mol_id": "hexapeptide 13"
+  },
+  {
+   "text": "-6.21",
+   "value": -6.21,
+   "reasoning_tokens": 4907,
+   "completion": 4912,
+   "cost": 0.00741875,
+   "finish": "stop",
+   "mol_id": "hexapeptide 13"
+  },
+  {
+   "text": "-6.12",
+   "value": -6.12,
+   "reasoning_tokens": 10445,
+   "completion": 10450,
+   "cost": 0.01572575,
+   "finish": "stop",
+   "mol_id": "hexapeptide 14"
+  },
+  {
+   "text": "-5.137",
+   "value": -5.137,
+   "reasoning_tokens": 8693,
+   "completion": 8699,
+   "cost": 0.01309925,
+   "finish": "stop",
+   "mol_id": "hexapeptide 14"
+  },
+  {
+   "text": "-6.04",
+   "value": -6.04,
+   "reasoning_tokens": 6244,
+   "completion": 6249,
+   "cost": 0.00942425,
+   "finish": "stop",
+   "mol_id": "hexapeptide 14"
+  },
+  {
+   "text": "-6.22",
+   "value": -6.22,
+   "reasoning_tokens": 8236,
+   "completion": 8241,
+   "cost": 0.01241225,
+   "finish": "stop",
+   "mol_id": "hexapeptide 18"
+  },
+  {
+   "text": "-6.15",
+   "value": -6.15,
+   "reasoning_tokens": 8236,
+   "completion": 8241,
+   "cost": 0.01241225,
+   "finish": "stop",
+   "mol_id": "hexapeptide 18"
+  },
+  {
+   "text": "-6.0",
+   "value": -6.0,
+   "reasoning_tokens": 6585,
+   "completion": 6589,
+   "cost": 0.00993425,
+   "finish": "stop",
+   "mol_id": "hexapeptide 18"
+  },
+  {
+   "text": "-5.61",
+   "value": -5.61,
+   "reasoning_tokens": 11781,
+   "completion": 11786,
+   "cost": 0.01772975,
+   "finish": "stop",
+   "mol_id": "hexapeptide 20"
+  },
+  {
+   "text": "-5.92",
+   "value": -5.92,
+   "reasoning_tokens": 9161,
+   "completion": 9166,
+   "cost": 0.01379975,
+   "finish": "stop",
+   "mol_id": "hexapeptide 20"
+  },
+  {
+   "text": "-5.6",
+   "value": -5.6,
+   "reasoning_tokens": 7236,
+   "completion": 7240,
+   "cost": 0.01091075,
+   "finish": "stop",
+   "mol_id": "hexapeptide 20"
+  },
+  {
+   "text": "-5.11",
+   "value": -5.11,
+   "reasoning_tokens": 1236,
+   "completion": 1241,
+   "cost": 0.001898,
+   "finish": "stop",
+   "mol_id": "acetaminophen"
+  },
+  {
+   "text": "-5.14",
+   "value": -5.14,
+   "reasoning_tokens": 1744,
+   "completion": 1749,
+   "cost": 0.00266,
+   "finish": "stop",
+   "mol_id": "acetaminophen"
+  },
+  {
+   "text": "-5.16",
+   "value": -5.16,
+   "reasoning_tokens": 2516,
+   "completion": 2521,
+   "cost": 0.003818,
+   "finish": "stop",
+   "mol_id": "acetaminophen"
+  },
+  {
+   "text": "-5.95860731484",
+   "value": -5.95860731484,
+   "reasoning_tokens": 18679,
+   "completion": 18693,
+   "cost": 0.02809125,
+   "finish": "stop",
+   "mol_id": "hexapeptide 22"
+  },
+  {
+   "text": "-5.12",
+   "value": -5.12,
+   "reasoning_tokens": 4217,
+   "completion": 4222,
+   "cost": 0.00638475,
+   "finish": "stop",
+   "mol_id": "hexapeptide 22"
+  },
+  {
+   "text": "-4.721",
+   "value": -4.721,
+   "reasoning_tokens": 8874,
+   "completion": 8880,
+   "cost": 0.01337175,
+   "finish": "stop",
+   "mol_id": "hexapeptide 22"
+  },
+  {
+   "text": "Wait, SMILES can be written in many ways. I'll use the canonical form and search",
+   "value": -5.638,
+   "reasoning_tokens": 19196,
+   "completion": 19996,
+   "cost": 0.03004575,
+   "finish": "length",
+   "mol_id": "hexapeptide 23"
+  },
+  {
+   "text": "-6.08",
+   "value": -6.08,
+   "reasoning_tokens": 9511,
+   "completion": 9516,
+   "cost": 0.01432575,
+   "finish": "stop",
+   "mol_id": "hexapeptide 23"
+  },
+  {
+   "text": "-5.69",
+   "value": -5.69,
+   "reasoning_tokens": 14734,
+   "completion": 14739,
+   "cost": 0.02216025,
+   "finish": "stop",
+   "mol_id": "hexapeptide 23"
+  },
+  {
+   "text": "-4.82390874094",
+   "value": -4.82390874094,
+   "reasoning_tokens": 9518,
+   "completion": 9532,
+   "cost": 0.01434975,
+   "finish": "stop",
+   "mol_id": "hexapeptide 24"
+  },
+  {
+   "text": "-5.17",
+   "value": -5.17,
+   "reasoning_tokens": 5756,
+   "completion": 5761,
+   "cost": 0.00869325,
+   "finish": "stop",
+   "mol_id": "hexapeptide 24"
+  },
+  {
+   "text": "-4.83",
+   "value": -4.83,
+   "reasoning_tokens": 6361,
+   "completion": 6366,
+   "cost": 0.00960075,
+   "finish": "stop",
+   "mol_id": "hexapeptide 24"
+  },
+  {
+   "text": "-5.0",
+   "value": -5.0,
+   "reasoning_tokens": 6224,
+   "completion": 6228,
+   "cost": 0.00939375,
+   "finish": "stop",
+   "mol_id": "hexapeptide 25"
+  },
+  {
+   "text": "-4.95",
+   "value": -4.95,
+   "reasoning_tokens": 5561,
+   "completion": 5566,
+   "cost": 0.00840075,
+   "finish": "stop",
+   "mol_id": "hexapeptide 25"
+  },
+  {
+   "text": "-5.35682053912",
+   "value": -5.35682053912,
+   "reasoning_tokens": 8924,
+   "completion": 8938,
+   "cost": 0.01345875,
+   "finish": "stop",
+   "mol_id": "hexapeptide 25"
+  },
+  {
+   "text": "-6.11",
+   "value": -6.11,
+   "reasoning_tokens": 10509,
+   "completion": 10514,
+   "cost": 0.01582275,
+   "finish": "stop",
+   "mol_id": "hexapeptide 26"
+  },
+  {
+   "text": "-5.02",
+   "value": -5.02,
+   "reasoning_tokens": 4707,
+   "completion": 4712,
+   "cost": 0.00711975,
+   "finish": "stop",
+   "mol_id": "hexapeptide 26"
+  },
+  {
+   "text": "-5.39",
+   "value": -5.39,
+   "reasoning_tokens": 12266,
+   "completion": 12271,
+   "cost": 0.01845825,
+   "finish": "stop",
+   "mol_id": "hexapeptide 26"
+  },
+  {
+   "text": "-4.751351351",
+   "value": -4.751351351,
+   "reasoning_tokens": 8750,
+   "completion": 8762,
+   "cost": 0.01319475,
+   "finish": "stop",
+   "mol_id": "hexapeptide 27"
+  },
+  {
+   "text": "-5.727",
+   "value": -5.727,
+   "reasoning_tokens": 7688,
+   "completion": 7694,
+   "cost": 0.01159275,
+   "finish": "stop",
+   "mol_id": "hexapeptide 27"
+  },
+  {
+   "text": "-5.0",
+   "value": -5.0,
+   "reasoning_tokens": 8889,
+   "completion": 8893,
+   "cost": 0.01339125,
+   "finish": "stop",
+   "mol_id": "hexapeptide 27"
+  },
+  {
+   "text": "-5.11863264024",
+   "value": -5.11863264024,
+   "reasoning_tokens": 16110,
+   "completion": 16124,
+   "cost": 0.02423775,
+   "finish": "stop",
+   "mol_id": "hexapeptide 28"
+  },
+  {
+   "text": "-4.82",
+   "value": -4.82,
+   "reasoning_tokens": 8812,
+   "completion": 8817,
+   "cost": 0.01327725,
+   "finish": "stop",
+   "mol_id": "hexapeptide 28"
+  },
+  {
+   "text": "-6.21",
+   "value": -6.21,
+   "reasoning_tokens": 8895,
+   "completion": 8900,
+   "cost": 0.01340175,
+   "finish": "stop",
+   "mol_id": "hexapeptide 28"
+  },
+  {
+   "text": "-6.04",
+   "value": -6.04,
+   "reasoning_tokens": 5882,
+   "completion": 5887,
+   "cost": 0.00888225,
+   "finish": "stop",
+   "mol_id": "hexapeptide 29"
+  },
+  {
+   "text": "-5.585",
+   "value": -5.585,
+   "reasoning_tokens": 8170,
+   "completion": 8176,
+   "cost": 0.01231575,
+   "finish": "stop",
+   "mol_id": "hexapeptide 29"
+  },
+  {
+   "text": "-5.3",
+   "value": -5.3,
+   "reasoning_tokens": 14380,
+   "completion": 14384,
+   "cost": 0.02162775,
+   "finish": "stop",
+   "mol_id": "hexapeptide 29"
+  }
+ ]
+}

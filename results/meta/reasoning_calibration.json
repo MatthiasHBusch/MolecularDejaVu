@@ -1,0 +1,1124 @@
+{
+ "opus5": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.001125,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.001125,
+    "answered": true,
+    "text": "-3.34",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 60,
+    "completion": 81,
+    "cost": 0.003,
+    "answered": true,
+    "text": "-3.30",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 70,
+    "completion": 84,
+    "cost": 0.003075,
+    "answered": true,
+    "text": "-3.30",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 77,
+    "completion": 108,
+    "cost": 0.003675,
+    "answered": true,
+    "text": "-3.30",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "opus48": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.001125,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.001125,
+    "answered": true,
+    "text": "-3.28",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.001125,
+    "answered": true,
+    "text": "-3.31",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.001125,
+    "answered": true,
+    "text": "-3.24",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.001125,
+    "answered": true,
+    "text": "-3.36",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "opus45": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.00095,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 7,
+    "cost": 0.00095,
+    "answered": true,
+    "text": "-3.27",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 7,
+    "cost": 0.00095,
+    "answered": true,
+    "text": "-3.03",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 7,
+    "cost": 0.00095,
+    "answered": true,
+    "text": "-3.15",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 247,
+    "completion": 293,
+    "cost": 0.00825,
+    "answered": true,
+    "text": "-3.26",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "sonnet5": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.00045,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.00045,
+    "answered": true,
+    "text": "-2.83",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.00045,
+    "answered": true,
+    "text": "-2.90",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.00045,
+    "answered": true,
+    "text": "-2.94",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.00045,
+    "answered": true,
+    "text": "-2.83",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "haiku45": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.00019,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 7,
+    "cost": 0.00019,
+    "answered": true,
+    "text": "-2.24",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 7,
+    "cost": 0.00019,
+    "answered": true,
+    "text": "-3.03",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 7,
+    "cost": 0.00019,
+    "answered": true,
+    "text": "-3.51",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 509,
+    "completion": 714,
+    "cost": 0.003755,
+    "answered": true,
+    "text": "I don't have access to a real-time datab",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gem36flash": {
+  "chosen": "minimal",
+  "reasoning_tokens": 0,
+  "cost": 0.00011325,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 0.00011325,
+    "answered": true,
+    "text": "-2.73",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 764,
+    "completion": 769,
+    "cost": 0.00297825,
+    "answered": true,
+    "text": "-3.30",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 489,
+    "completion": 494,
+    "cost": 0.0019455,
+    "answered": true,
+    "text": "-3.08",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gem35flash": {
+  "chosen": "minimal",
+  "reasoning_tokens": 0,
+  "cost": 0.0001215,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 0.0001215,
+    "answered": true,
+    "text": "-2.903",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 643,
+    "completion": 648,
+    "cost": 0.0030105,
+    "answered": true,
+    "text": "-2.85",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 513,
+    "completion": 518,
+    "cost": 0.0024255,
+    "answered": true,
+    "text": "-3.09",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gem31pro": {
+  "chosen": "max_tokens:128",
+  "reasoning_tokens": 236,
+  "cost": 0.001572,
+  "rows": [
+   {
+    "reasoning_tokens": 252,
+    "completion": 257,
+    "cost": 0.001668,
+    "answered": true,
+    "text": "-3.26",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 340,
+    "completion": 345,
+    "cost": 0.002196,
+    "answered": true,
+    "text": "-3.41",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 236,
+    "completion": 241,
+    "cost": 0.001572,
+    "answered": true,
+    "text": "-3.50",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gem31flashlite": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 1.95e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 1.95e-05,
+    "answered": true,
+    "text": "-3.03",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 1.95e-05,
+    "answered": true,
+    "text": "-3.48",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 141,
+    "completion": 146,
+    "cost": 0.00012525,
+    "answered": true,
+    "text": "-3.34",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 130,
+    "completion": 135,
+    "cost": 0.000117,
+    "answered": true,
+    "text": "-2.58",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gem3flash": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 4.05e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 4.05e-05,
+    "answered": true,
+    "text": "-2.731",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 4.05e-05,
+    "answered": true,
+    "text": "-2.831",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 253,
+    "completion": 259,
+    "cost": 0.00042,
+    "answered": true,
+    "text": "-2.834",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 470,
+    "completion": 476,
+    "cost": 0.0007455,
+    "answered": true,
+    "text": "-2.910",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gem25pro": {
+  "chosen": "minimal",
+  "reasoning_tokens": 62,
+  "cost": 0.00041375,
+  "rows": [
+   {
+    "reasoning_tokens": 62,
+    "completion": 67,
+    "cost": 0.00041375,
+    "answered": true,
+    "text": "-2.311",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 144,
+    "completion": 147,
+    "cost": 0.00081375,
+    "answered": true,
+    "text": "-2.32",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 92,
+    "completion": 95,
+    "cost": 0.00055375,
+    "answered": true,
+    "text": "-3.18",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "terra": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.0002375,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 8,
+    "cost": 0.0002375,
+    "answered": true,
+    "text": "-2.62",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.0061775,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.0061775,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 363,
+    "completion": 373,
+    "cost": 0.002975,
+    "answered": true,
+    "text": "-3.30",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "luna": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 9.5e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 8,
+    "cost": 9.5e-05,
+    "answered": true,
+    "text": "-2.58",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.002471,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.002471,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.002471,
+    "answered": false,
+    "text": "",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "sol": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.000475,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 8,
+    "cost": 0.000475,
+    "answered": true,
+    "text": "-2.68",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 610,
+    "completion": 620,
+    "cost": 0.009655,
+    "answered": true,
+    "text": "-3.30",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 782,
+    "completion": 792,
+    "cost": 0.012235,
+    "answered": true,
+    "text": "-3.30",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.012355,
+    "answered": false,
+    "text": "",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gpt55": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.000475,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 8,
+    "cost": 0.000475,
+    "answered": true,
+    "text": "-3.08",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 516,
+    "completion": 526,
+    "cost": 0.008245,
+    "answered": true,
+    "text": "-3.3",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.012355,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.012355,
+    "answered": false,
+    "text": "",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gpt5": {
+  "chosen": "minimal",
+  "reasoning_tokens": 0,
+  "cost": 0.0003975,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 22,
+    "cost": 0.0003975,
+    "answered": true,
+    "text": "-2.11",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 768,
+    "completion": 768,
+    "cost": 0.0078575,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 768,
+    "completion": 768,
+    "cost": 0.0078575,
+    "answered": false,
+    "text": "",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "gpt41": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.000326,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 0.000326,
+    "answered": true,
+    "text": "-2.14",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 0.000326,
+    "answered": true,
+    "text": "-2.96",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 0.000326,
+    "answered": true,
+    "text": "-2.26",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 0.000326,
+    "answered": true,
+    "text": "-2.41",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "grok45": {
+  "chosen": "low",
+  "reasoning_tokens": 198,
+  "cost": 0.0014488,
+  "rows": [
+   {
+    "reasoning_tokens": 279,
+    "completion": 283,
+    "cost": 0.0019348,
+    "answered": true,
+    "text": "-3.37",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 198,
+    "completion": 202,
+    "cost": 0.0014488,
+    "answered": true,
+    "text": "-3.24",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 709,
+    "completion": 713,
+    "cost": 0.0045148,
+    "answered": true,
+    "text": "-3.33",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "grok43": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.0002631,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 4,
+    "cost": 0.0002631,
+    "answered": true,
+    "text": "-2.04",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 786,
+    "completion": 886,
+    "cost": 0.0023437,
+    "answered": true,
+    "text": "-2.85\n\nThe SMILES string Cc1occc1C(=O)Nc",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 443,
+    "completion": 537,
+    "cost": 0.0015384,
+    "answered": true,
+    "text": "-3.14\n\nThe query specifies the exact SMI",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 2609,
+    "completion": 2720,
+    "cost": 0.0069287,
+    "answered": true,
+    "text": "-2.51\n\n\nThe SMILES string Cc1occc1C(=O)N",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "kimik3": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.000258,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 14,
+    "cost": 0.000258,
+    "answered": true,
+    "text": "-3.24",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 797,
+    "completion": 800,
+    "cost": 0.0120684,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 797,
+    "completion": 800,
+    "cost": 0.0120684,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 467,
+    "completion": 486,
+    "cost": 0.0073584,
+    "answered": true,
+    "text": "-3.3",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "kimik26": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.0001568,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 0.0001568,
+    "answered": true,
+    "text": "-3.04",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.0022194928,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.002217344,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.0022211044,
+    "answered": false,
+    "text": "",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "dsv4pro": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 8.7542e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 8.7542e-05,
+    "answered": true,
+    "text": "-2.76",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.0010943556,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.0010943556,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 800,
+    "completion": 800,
+    "cost": 0.0010943556,
+    "answered": false,
+    "text": "",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "glm52": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.00012002,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 0.00012002,
+    "answered": true,
+    "text": "-2.39",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 538,
+    "completion": 800,
+    "cost": 0.0037272,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 578,
+    "completion": 800,
+    "cost": 0.00204848,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 128,
+    "completion": 132,
+    "cost": 0.00073284,
+    "answered": true,
+    "text": "-3.24",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "glm5": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 0.0001538,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 4,
+    "cost": 0.0001538,
+    "answered": true,
+    "text": "-3.61",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 800,
+    "cost": 0.00156336,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 800,
+    "cost": 0.00156336,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 800,
+    "cost": 0.00156336,
+    "answered": false,
+    "text": "",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "qwen35": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 8.64e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 8.64e-05,
+    "answered": true,
+    "text": "-2.98",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 678,
+    "completion": 800,
+    "cost": 0.0028825,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 628,
+    "completion": 800,
+    "cost": 0.002955,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 128,
+    "completion": 138,
+    "cost": 0.00038142,
+    "answered": true,
+    "text": "-2.63",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "qwen3": {
+  "chosen": "max_tokens:128",
+  "reasoning_tokens": 0,
+  "cost": 2.552e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 3.488e-05,
+    "answered": true,
+    "text": "-4.264",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 2,
+    "cost": 3.575e-05,
+    "answered": true,
+    "text": "-3.95",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 3.32e-05,
+    "answered": true,
+    "text": "-4.87",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 2.552e-05,
+    "answered": true,
+    "text": "-3.46",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "llama4mav": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 3.2e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 3.2e-05,
+    "answered": true,
+    "text": "-4.03",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 3.935e-05,
+    "answered": true,
+    "text": "-3.66",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 5.4e-05,
+    "answered": true,
+    "text": "-4.03",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 3.2e-05,
+    "answered": true,
+    "text": "-3.65",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "nemotron3u": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 6.06e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 6.06e-05,
+    "answered": true,
+    "text": "-3.79",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 800,
+    "cost": 0.0018109,
+    "answered": true,
+    "text": "We need to find the measured aqueous sol",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 667,
+    "completion": 717,
+    "cost": 0.0016283,
+    "answered": true,
+    "text": "-3.53",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 800,
+    "cost": 0.0018109,
+    "answered": true,
+    "text": "We need to answer: \"What is the measured",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "mistrall": {
+  "chosen": "minimal",
+  "reasoning_tokens": 0,
+  "cost": 2.61e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 7.65e-05,
+    "answered": true,
+    "text": "-3.85",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 2.61e-05,
+    "answered": true,
+    "text": "-3.85",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 2.61e-05,
+    "answered": true,
+    "text": "-3.85",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 0,
+    "completion": 6,
+    "cost": 2.61e-05,
+    "answered": true,
+    "text": "-3.85",
+    "setting": "max_tokens:128"
+   }
+  ]
+ },
+ "minimaxm3": {
+  "chosen": "none",
+  "reasoning_tokens": 0,
+  "cost": 4.7904e-05,
+  "rows": [
+   {
+    "reasoning_tokens": 0,
+    "completion": 5,
+    "cost": 4.7904e-05,
+    "answered": true,
+    "text": "-3.36",
+    "setting": "none"
+   },
+   {
+    "reasoning_tokens": 746,
+    "completion": 799,
+    "cost": 0.000788688,
+    "answered": false,
+    "text": "",
+    "setting": "minimal"
+   },
+   {
+    "reasoning_tokens": 734,
+    "completion": 799,
+    "cost": 0.000788688,
+    "answered": false,
+    "text": "",
+    "setting": "low"
+   },
+   {
+    "reasoning_tokens": 735,
+    "completion": 800,
+    "cost": 0.000814224,
+    "answered": false,
+    "text": "",
+    "setting": "max_tokens:128"
+   }
+  ]
+ }
+}

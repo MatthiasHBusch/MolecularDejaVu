@@ -1,0 +1,126 @@
+{
+  "_comment": [
+    "Dataset panel for the expanded memorization screening.",
+    "prepare_datasets.py downloads each source and writes data/screening/<key>.csv with the",
+    "canonical schema: mol_id, smiles, value  (+ smiles_random, smiles_blind, value_blind).",
+    "",
+    "class: 'measured'  = experimental values, the contamination-prone kind (one iconic file on the web)",
+    "       'computed'  = values produced by a calculation, typically distributed as an archive not a lookup table",
+    "       'neg_control' = published after every audited model's training cutoff",
+    "       'pos_control' = values the models demonstrably know (calibrates the detector's ceiling)",
+    "",
+    "prompt_property / prompt_unit / prompt_dsname are interpolated into the zero-shot prompt by",
+    "Run_ZeroShot.jl. Keeping them here (not in code) is what makes adding a dataset a data-only change.",
+    "",
+    "decimals_hint: typical number of significant figures in the published values. Datasets whose",
+    "values carry <3 significant figures cannot support the 3-sig test and are scored at 2-sig only."
+  ],
+  "datasets": [
+    {
+      "key": "esol", "name": "ESOL / Delaney", "class": "measured", "n": 1128,
+      "source": {"kind": "local", "path": "data/delaney-processed.csv"},
+      "random_override": {"path": "data/delaney-randomized.csv", "id_col": "Compound ID", "smiles_col": "smiles"},
+      "id_col": "Compound ID", "smiles_col": "smiles", "value_col": "measured log solubility in mols per litre",
+      "prompt_dsname": "Delaney (ESOL)", "prompt_property": "measured aqueous solubility",
+      "prompt_unit": "log(mol/L)", "prompt_expert": "expert chemist",
+      "citation": "Delaney2004", "in_prior_study": true, "decimals_hint": 3
+    },
+    {
+      "key": "freesolv", "name": "FreeSolv / SAMPL", "class": "measured", "n": 642,
+      "source": {"kind": "url", "url": "https://deepchemdata.s3.us-west-1.amazonaws.com/datasets/SAMPL.csv"},
+      "id_col": "iupac", "smiles_col": "smiles", "value_col": "expt",
+      "prompt_dsname": "FreeSolv (SAMPL)", "prompt_property": "experimental hydration free energy",
+      "prompt_unit": "kcal/mol", "prompt_expert": "expert physical chemist",
+      "citation": "Mobley2014", "in_prior_study": false, "decimals_hint": 4
+    },
+    {
+      "key": "lipophilicity", "name": "Lipophilicity", "class": "measured", "n": 4200,
+      "source": {"kind": "local", "path": "data/Lipophilicity.csv"},
+      "id_col": "CMPD_CHEMBLID", "smiles_col": "smiles", "value_col": "exp",
+      "prompt_dsname": "Lipophilicity (MoleculeNet)", "prompt_property": "experimental octanol/water distribution coefficient logD at pH 7.4",
+      "prompt_unit": "logD units", "prompt_expert": "expert medicinal chemist",
+      "citation": "MoleculeNet", "in_prior_study": true, "decimals_hint": 3
+    },
+    {
+      "key": "bace", "name": "BACE", "class": "measured", "n": 1513,
+      "source": {"kind": "url", "url": "https://deepchemdata.s3.us-west-1.amazonaws.com/datasets/bace.csv"},
+      "id_col": "CID", "smiles_col": "mol", "value_col": "pIC50",
+      "prompt_dsname": "BACE (MoleculeNet)", "prompt_property": "BACE-1 inhibitory potency pIC50",
+      "prompt_unit": "pIC50 units", "prompt_expert": "expert medicinal chemist",
+      "citation": "Subramanian2016", "in_prior_study": false, "decimals_hint": 4
+    },
+    {
+      "key": "aqsoldb", "name": "AqSolDB", "class": "measured", "n": 9982,
+      "source": {"kind": "url", "url": "https://dataverse.harvard.edu/api/access/datafile/3407241", "sep": "\t"},
+      "id_col": "Name", "smiles_col": "SMILES", "value_col": "Solubility",
+      "prompt_dsname": "AqSolDB", "prompt_property": "aqueous solubility logS",
+      "prompt_unit": "log(mol/L)", "prompt_expert": "expert chemist",
+      "citation": "Sorkun2019", "in_prior_study": false, "decimals_hint": 6
+    },
+    {
+      "key": "caco2", "name": "Caco-2 (Wang)", "class": "measured", "n": 910,
+      "source": {"kind": "url", "url": "https://dataverse.harvard.edu/api/access/datafile/4259569", "sep": "\t"},
+      "id_col": "Drug_ID", "smiles_col": "Drug", "value_col": "Y",
+      "prompt_dsname": "Caco2_Wang (Therapeutics Data Commons)", "prompt_property": "Caco-2 cell effective permeability",
+      "prompt_unit": "log(cm/s)", "prompt_expert": "expert pharmaceutical scientist",
+      "citation": "Wang2016", "in_prior_study": false, "decimals_hint": 6
+    },
+    {
+      "key": "ld50", "name": "LD50 (Zhu)", "class": "measured", "n": 7385,
+      "source": {"kind": "url", "url": "https://dataverse.harvard.edu/api/access/datafile/4267146", "sep": "\t"},
+      "id_col": "ID", "smiles_col": "X", "value_col": "Y",
+      "prompt_dsname": "LD50_Zhu (Therapeutics Data Commons)", "prompt_property": "acute oral toxicity LD50 in rats",
+      "prompt_unit": "-log10(mol/kg)", "prompt_expert": "expert toxicologist",
+      "citation": "Zhu2009", "in_prior_study": false, "decimals_hint": 4
+    },
+    {
+      "key": "ppbr", "name": "PPBR (AZ)", "class": "measured", "n": 1614,
+      "source": {"kind": "url", "url": "https://dataverse.harvard.edu/api/access/datafile/6413140", "sep": "\t",
+                 "filter_col": "Species", "filter_val": "Homo sapiens"},
+      "id_col": "Drug_ID", "smiles_col": "Drug", "value_col": "Y",
+      "prompt_dsname": "PPBR_AZ (Therapeutics Data Commons)", "prompt_property": "human plasma protein binding rate",
+      "prompt_unit": "percent", "prompt_expert": "expert pharmaceutical scientist",
+      "citation": "TDC2021", "in_prior_study": false, "decimals_hint": 4
+    },
+    {
+      "key": "qm7", "name": "QM7", "class": "computed", "n": 6834,
+      "source": {"kind": "local", "path": "data/qm7.csv"},
+      "id_col": "smiles", "smiles_col": "smiles", "value_col": "u0_atom",
+      "prompt_dsname": "QM7", "prompt_property": "atomization energy",
+      "prompt_unit": "kcal/mol", "prompt_expert": "expert quantum chemist",
+      "citation": "Rupp2012", "in_prior_study": true, "decimals_hint": 6
+    },
+    {
+      "key": "qm8", "name": "QM8", "class": "computed", "n": 21786,
+      "source": {"kind": "url", "url": "https://deepchemdata.s3.us-west-1.amazonaws.com/datasets/qm8.csv"},
+      "id_col": "smiles", "smiles_col": "smiles", "value_col": "E1-CC2",
+      "prompt_dsname": "QM8", "prompt_property": "first singlet excitation energy E1 computed at the CC2 level",
+      "prompt_unit": "Hartree", "prompt_expert": "expert quantum chemist",
+      "citation": "Ramakrishnan2015", "in_prior_study": false, "decimals_hint": 6
+    },
+    {
+      "key": "qm9", "name": "QM9", "class": "computed", "n": 133885,
+      "source": {"kind": "url", "url": "https://deepchemdata.s3.us-west-1.amazonaws.com/datasets/qm9.csv"},
+      "id_col": "mol_id", "smiles_col": "smiles", "value_col": "u0_atom",
+      "prompt_dsname": "QM9", "prompt_property": "atomization energy at 0 K",
+      "prompt_unit": "eV", "prompt_expert": "expert quantum chemist",
+      "citation": "Ramakrishnan2014", "in_prior_study": false, "decimals_hint": 6
+    },
+    {
+      "key": "antiviral", "name": "Antiviral potency (ASAP/Polaris 2025)", "class": "neg_control", "n": 1006,
+      "source": {"kind": "local", "path": "data/antiviral_potency.csv"},
+      "id_col": "smiles", "smiles_col": "smiles", "value_col": "pic50",
+      "prompt_dsname": "ASAP Discovery antiviral potency benchmark", "prompt_property": "antiviral potency pIC50",
+      "prompt_unit": "pIC50 units", "prompt_expert": "expert medicinal chemist",
+      "citation": "asap_polaris_openadmet_2025", "in_prior_study": true, "decimals_hint": 3
+    },
+    {
+      "key": "boilingpoint", "name": "Wikipedia boiling points", "class": "pos_control", "n": 45,
+      "source": {"kind": "local", "path": "data/known_boiling_points.csv"},
+      "id_col": "name", "smiles_col": "smiles", "value_col": "bp_celsius",
+      "prompt_dsname": "standard reference tables", "prompt_property": "normal boiling point",
+      "prompt_unit": "degrees Celsius", "prompt_expert": "expert chemist",
+      "citation": null, "in_prior_study": true, "decimals_hint": 4
+    }
+  ]
+}

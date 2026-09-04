@@ -1,0 +1,265 @@
+dataset,benchmark,ds_class,tag,model,n_mol,hit3,outcome,r_raw,r_clip,ref_pm5,ref_pm5_sd,ref_window,ref_window_sd,beats_pm5,beats_window
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gem35flash,Gemini 3.5 Flash,458,0.0,clean,0.6091,0.6091,0.964,0.0016,0.9488,0.0029,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,terra,GPT-5.6 terra,458,0.4367,clean,0.6076,0.6076,0.964,0.0016,0.9488,0.0025,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,sonnet5,Claude Sonnet 5,458,0.0,clean,0.5694,0.5694,0.9637,0.0016,0.9486,0.0031,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,opus5,Claude Opus 5,458,0.2183,clean,0.5491,0.5491,0.9638,0.0017,0.9483,0.003,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,sol,GPT-5.6 sol,458,0.4367,clean,0.5468,0.5491,0.9639,0.0015,0.9484,0.003,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gpt55,GPT-5.5,458,0.0,clean,0.5371,0.5388,0.9639,0.0016,0.9488,0.0028,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gem3flash,Gemini 3 Flash,458,0.0,clean,0.5259,0.5317,0.9639,0.0016,0.949,0.0025,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,luna,GPT-5.6 luna,458,0.2183,clean,0.5287,0.5287,0.9638,0.0015,0.9485,0.0028,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gem36flash,Gemini 3.6 Flash,445,0.4494,clean,0.5237,0.5237,0.9636,0.0016,0.9483,0.0028,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gem31pro,Gemini 3.1 Pro,458,0.2183,clean,0.5018,0.502,0.9638,0.0016,0.9484,0.0029,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gpt41,GPT-4.1,458,0.4367,clean,0.491,0.491,0.9637,0.0016,0.9485,0.0028,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,kimik3,Kimi K3,457,0.2188,clean,0.4851,0.4851,0.9637,0.0016,0.9488,0.003,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,minimaxm3,MiniMax M3,453,0.0,clean,0.0083,0.416,0.9639,0.0016,0.9487,0.0029,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,grok45,Grok 4.5,455,0.2198,clean,0.4093,0.4093,0.9637,0.0016,0.949,0.0028,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gem31flashlite,Gemini 3.1 Flash-Lite,458,1.0917,clean,0.3715,0.3715,0.9637,0.0016,0.9488,0.0027,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gem25pro,Gemini 2.5 Pro,458,0.0,clean,0.331,0.331,0.9639,0.0016,0.9485,0.0027,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,gpt5,GPT-5,453,0.4415,clean,0.2772,0.2777,0.964,0.0016,0.9485,0.0029,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,mistrall,Mistral Large 2512,458,0.0,clean,0.2755,0.2755,0.9638,0.0016,0.9488,0.0028,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,llama4mav,Llama 4 Maverick,458,0.4367,clean,0.2277,0.2277,0.9637,0.0016,0.9486,0.0029,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,grok43,Grok 4.3,418,0.2392,clean,0.0343,0.1906,0.9646,0.0017,0.9497,0.0027,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,qwen3,Qwen3-235B,458,0.4367,clean,0.1469,0.1411,0.9637,0.0016,0.9485,0.0027,False,False
+antiviral,Antiviral potency (ASAP/Polaris 2025),neg_control,haiku45,Claude Haiku 4.5,458,0.0,clean,0.0026,-0.0262,0.9637,0.0016,0.9487,0.0028,False,False
+aqsoldb,AqSolDB,measured,opus5,Claude Opus 5,469,6.823,flagged,0.919,0.919,0.9918,0.0003,0.988,0.0007,False,False
+aqsoldb,AqSolDB,measured,gem35flash,Gemini 3.5 Flash,469,7.8891,flagged,0.8988,0.9061,0.9917,0.0004,0.9878,0.0008,False,False
+aqsoldb,AqSolDB,measured,sol,GPT-5.6 sol,469,7.2495,flagged,0.8925,0.8936,0.9918,0.0003,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,kimik3,Kimi K3,467,2.9979,flagged,0.8903,0.8903,0.9918,0.0003,0.9882,0.0007,False,False
+aqsoldb,AqSolDB,measured,gem36flash,Gemini 3.6 Flash,469,4.4776,flagged,0.8813,0.8869,0.9918,0.0004,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,gem3flash,Gemini 3 Flash,469,5.5437,flagged,0.8738,0.8838,0.9917,0.0004,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,gem31pro,Gemini 3.1 Pro,469,5.9701,flagged,0.8537,0.8837,0.9918,0.0003,0.988,0.0008,False,False
+aqsoldb,AqSolDB,measured,gpt55,GPT-5.5,469,6.1834,flagged,0.8758,0.8825,0.9918,0.0004,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,grok45,Grok 4.5,469,5.1173,flagged,0.8815,0.8815,0.9918,0.0004,0.988,0.0008,False,False
+aqsoldb,AqSolDB,measured,terra,GPT-5.6 terra,469,3.6247,flagged,0.8664,0.8736,0.9918,0.0004,0.988,0.0007,False,False
+aqsoldb,AqSolDB,measured,gem31flashlite,Gemini 3.1 Flash-Lite,469,1.7058,flagged,0.8654,0.8673,0.9918,0.0003,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,sonnet5,Claude Sonnet 5,469,0.4264,clean,0.8648,0.8648,0.9918,0.0004,0.988,0.0008,False,False
+aqsoldb,AqSolDB,measured,gem25pro,Gemini 2.5 Pro,468,0.4274,clean,0.8575,0.8615,0.9918,0.0004,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,luna,GPT-5.6 luna,469,2.1322,flagged,0.8317,0.8565,0.9918,0.0004,0.988,0.0008,False,False
+aqsoldb,AqSolDB,measured,minimaxm3,MiniMax M3,457,1.7505,flagged,0.2706,0.8551,0.9915,0.0004,0.9876,0.0008,False,False
+aqsoldb,AqSolDB,measured,gpt5,GPT-5,469,1.0661,flagged,0.8348,0.8351,0.9918,0.0003,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,llama4mav,Llama 4 Maverick,469,0.2132,clean,0.7674,0.7674,0.9918,0.0004,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,mistrall,Mistral Large 2512,469,0.4264,clean,0.7328,0.7328,0.9918,0.0004,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,gpt41,GPT-4.1,469,0.2132,clean,0.7108,0.7115,0.9918,0.0003,0.9879,0.0008,False,False
+aqsoldb,AqSolDB,measured,qwen3,Qwen3-235B,469,0.4264,clean,0.6358,0.6373,0.9918,0.0004,0.988,0.0008,False,False
+aqsoldb,AqSolDB,measured,haiku45,Claude Haiku 4.5,457,0.0,clean,0.5784,0.6337,0.9918,0.0004,0.9878,0.0008,False,False
+aqsoldb,AqSolDB,measured,grok43,Grok 4.3,467,1.7131,flagged,-0.0543,0.5078,0.9918,0.0003,0.9879,0.0007,False,False
+bace,BACE,measured,opus5,Claude Opus 5,474,1.4768,clean,0.6584,0.6584,0.9673,0.0012,0.9568,0.0023,False,False
+bace,BACE,measured,gem35flash,Gemini 3.5 Flash,474,0.6329,clean,0.6464,0.6464,0.9675,0.0013,0.9565,0.002,False,False
+bace,BACE,measured,gem31pro,Gemini 3.1 Pro,474,0.8439,clean,0.6093,0.6093,0.9675,0.0013,0.9565,0.0021,False,False
+bace,BACE,measured,gem36flash,Gemini 3.6 Flash,474,0.6329,clean,0.6053,0.6053,0.9674,0.0014,0.957,0.002,False,False
+bace,BACE,measured,gpt55,GPT-5.5,474,0.6329,clean,0.5566,0.5578,0.9674,0.0014,0.9567,0.0022,False,False
+bace,BACE,measured,sol,GPT-5.6 sol,474,0.8439,clean,0.5536,0.5539,0.9674,0.0013,0.9567,0.0021,False,False
+bace,BACE,measured,gem3flash,Gemini 3 Flash,474,1.2658,clean,0.5535,0.5535,0.9675,0.0013,0.9566,0.0021,False,False
+bace,BACE,measured,luna,GPT-5.6 luna,474,0.211,clean,0.5201,0.5209,0.9674,0.0013,0.9565,0.0021,False,False
+bace,BACE,measured,terra,GPT-5.6 terra,474,0.4219,clean,0.5062,0.5135,0.9673,0.0013,0.9568,0.002,False,False
+bace,BACE,measured,sonnet5,Claude Sonnet 5,474,0.6329,clean,0.4955,0.4955,0.9674,0.0014,0.9565,0.0021,False,False
+bace,BACE,measured,grok45,Grok 4.5,473,0.4228,clean,0.4726,0.4726,0.9673,0.0012,0.9565,0.002,False,False
+bace,BACE,measured,kimik3,Kimi K3,473,0.4228,clean,0.4488,0.451,0.9673,0.0014,0.9566,0.0021,False,False
+bace,BACE,measured,gpt5,GPT-5,474,0.211,clean,0.0574,0.3946,0.9676,0.0014,0.9568,0.0022,False,False
+bace,BACE,measured,gem31flashlite,Gemini 3.1 Flash-Lite,474,0.4219,clean,0.3908,0.3909,0.9673,0.0014,0.9565,0.0022,False,False
+bace,BACE,measured,mistrall,Mistral Large 2512,474,0.8439,clean,0.3368,0.3368,0.9675,0.0013,0.9569,0.0018,False,False
+bace,BACE,measured,minimaxm3,MiniMax M3,472,0.2119,clean,0.1219,0.3311,0.9675,0.0014,0.9567,0.0022,False,False
+bace,BACE,measured,gpt41,GPT-4.1,474,0.0,clean,0.3236,0.3236,0.9675,0.0013,0.9566,0.002,False,False
+bace,BACE,measured,gem25pro,Gemini 2.5 Pro,474,0.8439,clean,0.2772,0.2813,0.9673,0.0012,0.9566,0.0021,False,False
+bace,BACE,measured,llama4mav,Llama 4 Maverick,474,0.0,clean,0.1867,0.1802,0.9675,0.0015,0.9567,0.0021,False,False
+bace,BACE,measured,grok43,Grok 4.3,470,1.0638,clean,-0.0374,0.1322,0.9673,0.0013,0.9567,0.0022,False,False
+bace,BACE,measured,qwen3,Qwen3-235B,474,0.4219,clean,0.1053,0.1187,0.9674,0.0013,0.9565,0.0023,False,False
+bace,BACE,measured,haiku45,Claude Haiku 4.5,474,0.4219,clean,-0.011,0.0513,0.9672,0.0015,0.9571,0.0022,False,False
+boilingpoint,Wikipedia boiling points,pos_control,gpt5,GPT-5,41,90.2439,flagged,1.0,1.0,0.9467,0.0039,0.9356,0.0167,True,True
+boilingpoint,Wikipedia boiling points,pos_control,kimik3,Kimi K3,41,90.2439,flagged,1.0,1.0,0.9464,0.004,0.933,0.0164,True,True
+boilingpoint,Wikipedia boiling points,pos_control,gem35flash,Gemini 3.5 Flash,41,87.8049,flagged,1.0,1.0,0.9464,0.0037,0.9354,0.0157,True,True
+boilingpoint,Wikipedia boiling points,pos_control,gem31flashlite,Gemini 3.1 Flash-Lite,41,82.9268,flagged,1.0,1.0,0.9465,0.0036,0.9351,0.0176,True,True
+boilingpoint,Wikipedia boiling points,pos_control,gpt55,GPT-5.5,41,87.8049,flagged,1.0,1.0,0.9466,0.0041,0.9337,0.0168,True,True
+boilingpoint,Wikipedia boiling points,pos_control,opus5,Claude Opus 5,41,85.3659,flagged,1.0,1.0,0.9466,0.0038,0.9343,0.0159,True,True
+boilingpoint,Wikipedia boiling points,pos_control,gem3flash,Gemini 3 Flash,41,85.3659,flagged,1.0,1.0,0.9469,0.0036,0.9322,0.0177,True,True
+boilingpoint,Wikipedia boiling points,pos_control,grok45,Grok 4.5,41,85.3659,flagged,1.0,1.0,0.9466,0.0035,0.9344,0.0163,True,True
+boilingpoint,Wikipedia boiling points,pos_control,gem36flash,Gemini 3.6 Flash,41,85.3659,flagged,1.0,1.0,0.9466,0.0037,0.9339,0.0163,True,True
+boilingpoint,Wikipedia boiling points,pos_control,gem31pro,Gemini 3.1 Pro,41,85.3659,flagged,1.0,1.0,0.9463,0.0039,0.9356,0.0166,True,True
+boilingpoint,Wikipedia boiling points,pos_control,sonnet5,Claude Sonnet 5,41,68.2927,flagged,1.0,1.0,0.9466,0.004,0.9342,0.0176,True,True
+boilingpoint,Wikipedia boiling points,pos_control,haiku45,Claude Haiku 4.5,41,78.0488,flagged,0.9992,0.9992,0.9465,0.0036,0.9326,0.0166,True,True
+boilingpoint,Wikipedia boiling points,pos_control,luna,GPT-5.6 luna,41,87.8049,flagged,0.9978,0.9978,0.9463,0.0037,0.9329,0.016,True,True
+boilingpoint,Wikipedia boiling points,pos_control,sol,GPT-5.6 sol,41,85.3659,flagged,0.9978,0.9978,0.9466,0.0039,0.9321,0.0168,True,True
+boilingpoint,Wikipedia boiling points,pos_control,terra,GPT-5.6 terra,41,82.9268,flagged,0.9977,0.9977,0.9465,0.0038,0.9352,0.0158,True,True
+boilingpoint,Wikipedia boiling points,pos_control,minimaxm3,MiniMax M3,40,82.5,flagged,0.9896,0.9948,0.9474,0.004,0.9354,0.0165,True,True
+boilingpoint,Wikipedia boiling points,pos_control,llama4mav,Llama 4 Maverick,41,60.9756,flagged,0.96,0.993,0.9465,0.0037,0.9333,0.0172,True,True
+boilingpoint,Wikipedia boiling points,pos_control,gem25pro,Gemini 2.5 Pro,41,78.0488,flagged,0.9915,0.9915,0.9463,0.0036,0.9342,0.0157,True,True
+boilingpoint,Wikipedia boiling points,pos_control,mistrall,Mistral Large 2512,41,58.5366,flagged,0.9073,0.9277,0.9464,0.0036,0.9343,0.0165,False,False
+boilingpoint,Wikipedia boiling points,pos_control,qwen3,Qwen3-235B,41,46.3415,flagged,0.8737,0.8737,0.9465,0.0039,0.936,0.0167,False,False
+boilingpoint,Wikipedia boiling points,pos_control,gpt41,GPT-4.1,41,39.0244,flagged,0.8424,0.8615,0.9465,0.004,0.9339,0.0179,False,False
+boilingpoint,Wikipedia boiling points,pos_control,grok43,Grok 4.3,41,63.4146,flagged,0.5433,0.7367,0.9465,0.0037,0.9332,0.0176,False,False
+caco2,Caco-2 (Wang),measured,gem35flash,Gemini 3.5 Flash,486,0.4115,clean,0.7668,0.7668,0.919,0.0033,0.8821,0.0059,False,False
+caco2,Caco-2 (Wang),measured,gem36flash,Gemini 3.6 Flash,486,1.2346,clean,0.7588,0.7588,0.919,0.0029,0.8821,0.0059,False,False
+caco2,Caco-2 (Wang),measured,gem31pro,Gemini 3.1 Pro,486,0.6173,clean,0.7534,0.7534,0.9189,0.003,0.8828,0.0059,False,False
+caco2,Caco-2 (Wang),measured,sol,GPT-5.6 sol,486,0.2058,clean,0.7491,0.7484,0.919,0.0031,0.8819,0.0057,False,False
+caco2,Caco-2 (Wang),measured,opus5,Claude Opus 5,486,1.8519,clean,0.7292,0.7292,0.9191,0.0031,0.8827,0.0059,False,False
+caco2,Caco-2 (Wang),measured,gpt55,GPT-5.5,486,1.6461,clean,0.7166,0.7166,0.9186,0.0028,0.8825,0.0059,False,False
+caco2,Caco-2 (Wang),measured,terra,GPT-5.6 terra,486,0.2058,clean,0.6644,0.6644,0.9187,0.003,0.8829,0.0059,False,False
+caco2,Caco-2 (Wang),measured,gem31flashlite,Gemini 3.1 Flash-Lite,486,0.823,clean,0.662,0.662,0.919,0.0033,0.8823,0.0057,False,False
+caco2,Caco-2 (Wang),measured,gem3flash,Gemini 3 Flash,486,0.6173,clean,0.6604,0.6613,0.919,0.0032,0.8821,0.0057,False,False
+caco2,Caco-2 (Wang),measured,luna,GPT-5.6 luna,486,0.6173,clean,0.6522,0.6481,0.9189,0.0033,0.8822,0.0059,False,False
+caco2,Caco-2 (Wang),measured,kimik3,Kimi K3,486,0.6173,clean,0.6472,0.6476,0.9187,0.0034,0.8829,0.0052,False,False
+caco2,Caco-2 (Wang),measured,sonnet5,Claude Sonnet 5,486,0.823,clean,0.5996,0.5996,0.9193,0.0033,0.8819,0.0053,False,False
+caco2,Caco-2 (Wang),measured,gpt5,GPT-5,486,0.6173,clean,0.5991,0.5991,0.9185,0.0032,0.8823,0.0058,False,False
+caco2,Caco-2 (Wang),measured,grok45,Grok 4.5,486,0.6173,clean,0.5936,0.5936,0.9187,0.0029,0.8821,0.0062,False,False
+caco2,Caco-2 (Wang),measured,minimaxm3,MiniMax M3,482,1.2448,clean,-0.0494,0.527,0.9171,0.0033,0.8802,0.0062,False,False
+caco2,Caco-2 (Wang),measured,gem25pro,Gemini 2.5 Pro,486,0.2058,clean,0.509,0.5091,0.9188,0.003,0.8823,0.0058,False,False
+caco2,Caco-2 (Wang),measured,gpt41,GPT-4.1,486,0.4115,clean,0.4198,0.4449,0.9189,0.003,0.882,0.0057,False,False
+caco2,Caco-2 (Wang),measured,grok43,Grok 4.3,484,0.0,clean,0.0346,0.3515,0.919,0.0031,0.8827,0.0058,False,False
+caco2,Caco-2 (Wang),measured,mistrall,Mistral Large 2512,486,0.0,clean,0.151,0.151,0.9189,0.003,0.8819,0.0055,False,False
+caco2,Caco-2 (Wang),measured,qwen3,Qwen3-235B,486,0.6173,clean,0.0085,0.0108,0.9188,0.0032,0.8826,0.0054,False,False
+caco2,Caco-2 (Wang),measured,haiku45,Claude Haiku 4.5,486,0.0,clean,-0.054,-0.0485,0.9187,0.0031,0.8829,0.0056,False,False
+caco2,Caco-2 (Wang),measured,llama4mav,Llama 4 Maverick,486,0.823,clean,-0.0996,-0.0809,0.9188,0.003,0.8825,0.006,False,False
+esol,ESOL / Delaney,measured,opus5,Claude Opus 5,398,62.0603,flagged,0.9807,0.9807,0.9864,0.0006,0.9788,0.0013,False,True
+esol,ESOL / Delaney,measured,grok45,Grok 4.5,397,13.3501,flagged,0.9604,0.9604,0.9863,0.0006,0.9786,0.0013,False,False
+esol,ESOL / Delaney,measured,gem35flash,Gemini 3.5 Flash,398,12.8141,flagged,0.9579,0.959,0.9864,0.0006,0.979,0.0013,False,False
+esol,ESOL / Delaney,measured,gem31pro,Gemini 3.1 Pro,398,13.3166,flagged,0.9582,0.9582,0.9865,0.0006,0.9791,0.0013,False,False
+esol,ESOL / Delaney,measured,gpt55,GPT-5.5,398,14.0704,flagged,0.9559,0.9559,0.9864,0.0006,0.979,0.0012,False,False
+esol,ESOL / Delaney,measured,gem36flash,Gemini 3.6 Flash,398,5.0251,flagged,0.9487,0.9487,0.9864,0.0006,0.9788,0.0014,False,False
+esol,ESOL / Delaney,measured,gem3flash,Gemini 3 Flash,398,5.2764,flagged,0.9424,0.9471,0.9864,0.0006,0.9789,0.0012,False,False
+esol,ESOL / Delaney,measured,sol,GPT-5.6 sol,398,12.3116,flagged,0.937,0.937,0.9865,0.0006,0.9789,0.0013,False,False
+esol,ESOL / Delaney,measured,kimik3,Kimi K3,397,7.5567,flagged,0.937,0.937,0.9865,0.0006,0.979,0.0013,False,False
+esol,ESOL / Delaney,measured,sonnet5,Claude Sonnet 5,398,2.2613,flagged,0.9318,0.9318,0.9865,0.0005,0.9788,0.0014,False,False
+esol,ESOL / Delaney,measured,gem31flashlite,Gemini 3.1 Flash-Lite,398,0.2513,clean,0.9166,0.9166,0.9863,0.0005,0.979,0.0013,False,False
+esol,ESOL / Delaney,measured,terra,GPT-5.6 terra,398,5.7789,flagged,0.9115,0.9115,0.9864,0.0006,0.9791,0.0012,False,False
+esol,ESOL / Delaney,measured,luna,GPT-5.6 luna,398,4.7739,flagged,0.9034,0.9113,0.9864,0.0005,0.9789,0.0013,False,False
+esol,ESOL / Delaney,measured,gem25pro,Gemini 2.5 Pro,394,0.7614,clean,0.9008,0.9012,0.9865,0.0005,0.9789,0.0013,False,False
+esol,ESOL / Delaney,measured,gpt5,GPT-5,397,4.0302,flagged,0.8857,0.8871,0.9864,0.0006,0.9789,0.0013,False,False
+esol,ESOL / Delaney,measured,llama4mav,Llama 4 Maverick,398,1.005,clean,0.8448,0.8448,0.9865,0.0006,0.9791,0.0013,False,False
+esol,ESOL / Delaney,measured,minimaxm3,MiniMax M3,387,4.3928,flagged,0.7921,0.8418,0.9862,0.0006,0.9786,0.0013,False,False
+esol,ESOL / Delaney,measured,gpt41,GPT-4.1,398,1.005,clean,0.7784,0.7784,0.9864,0.0006,0.979,0.0013,False,False
+esol,ESOL / Delaney,measured,mistrall,Mistral Large 2512,398,1.005,clean,0.7313,0.7313,0.9864,0.0006,0.9789,0.0012,False,False
+esol,ESOL / Delaney,measured,qwen3,Qwen3-235B,398,0.0,clean,0.6823,0.6829,0.9863,0.0006,0.979,0.0013,False,False
+esol,ESOL / Delaney,measured,grok43,Grok 4.3,398,7.5377,flagged,0.052,0.6142,0.9865,0.0006,0.9789,0.0013,False,False
+esol,ESOL / Delaney,measured,haiku45,Claude Haiku 4.5,378,0.5291,clean,0.0072,0.4758,0.9864,0.0005,0.9791,0.0012,False,False
+freesolv,FreeSolv / SAMPL,measured,opus5,Claude Opus 5,384,40.3646,flagged,0.9666,0.9666,0.9883,0.0008,0.9781,0.0029,False,False
+freesolv,FreeSolv / SAMPL,measured,sol,GPT-5.6 sol,384,14.8438,flagged,0.9604,0.9604,0.9882,0.0007,0.9781,0.0032,False,False
+freesolv,FreeSolv / SAMPL,measured,grok45,Grok 4.5,383,30.0261,flagged,0.9577,0.9577,0.9882,0.0006,0.978,0.0031,False,False
+freesolv,FreeSolv / SAMPL,measured,gpt55,GPT-5.5,384,7.0312,flagged,0.9554,0.9554,0.9882,0.0007,0.9782,0.0029,False,False
+freesolv,FreeSolv / SAMPL,measured,gem35flash,Gemini 3.5 Flash,384,3.9062,flagged,0.9523,0.9523,0.9882,0.0007,0.9778,0.0033,False,False
+freesolv,FreeSolv / SAMPL,measured,gem31pro,Gemini 3.1 Pro,384,2.3438,flagged,0.9471,0.9472,0.9883,0.0006,0.9785,0.0031,False,False
+freesolv,FreeSolv / SAMPL,measured,gem36flash,Gemini 3.6 Flash,383,2.611,flagged,0.944,0.9441,0.9882,0.0007,0.9781,0.0032,False,False
+freesolv,FreeSolv / SAMPL,measured,sonnet5,Claude Sonnet 5,384,6.5104,flagged,0.9373,0.9373,0.9883,0.0007,0.9779,0.0033,False,False
+freesolv,FreeSolv / SAMPL,measured,gem3flash,Gemini 3 Flash,384,4.1667,flagged,0.9369,0.9369,0.9882,0.0007,0.978,0.0033,False,False
+freesolv,FreeSolv / SAMPL,measured,luna,GPT-5.6 luna,384,2.0833,flagged,0.9218,0.9226,0.9883,0.0007,0.9779,0.0029,False,False
+freesolv,FreeSolv / SAMPL,measured,terra,GPT-5.6 terra,384,3.6458,flagged,0.9216,0.9216,0.9882,0.0007,0.9785,0.003,False,False
+freesolv,FreeSolv / SAMPL,measured,kimik3,Kimi K3,383,3.9164,flagged,0.8452,0.8682,0.9883,0.0007,0.9784,0.0029,False,False
+freesolv,FreeSolv / SAMPL,measured,gem31flashlite,Gemini 3.1 Flash-Lite,384,0.2604,clean,0.8417,0.8615,0.9883,0.0007,0.9786,0.0032,False,False
+freesolv,FreeSolv / SAMPL,measured,gem25pro,Gemini 2.5 Pro,383,0.5222,clean,0.827,0.827,0.9882,0.0006,0.9778,0.0032,False,False
+freesolv,FreeSolv / SAMPL,measured,minimaxm3,MiniMax M3,373,6.1662,flagged,0.7811,0.8172,0.9882,0.0007,0.978,0.0032,False,False
+freesolv,FreeSolv / SAMPL,measured,mistrall,Mistral Large 2512,384,1.8229,clean,0.3252,0.7587,0.9883,0.0007,0.9783,0.0029,False,False
+freesolv,FreeSolv / SAMPL,measured,gpt5,GPT-5,384,0.7812,clean,0.7003,0.7528,0.9883,0.0006,0.9782,0.0032,False,False
+freesolv,FreeSolv / SAMPL,measured,gpt41,GPT-4.1,384,0.5208,clean,0.6013,0.7383,0.9883,0.0007,0.9783,0.0032,False,False
+freesolv,FreeSolv / SAMPL,measured,llama4mav,Llama 4 Maverick,384,0.7812,clean,0.5195,0.7283,0.9882,0.0007,0.978,0.0029,False,False
+freesolv,FreeSolv / SAMPL,measured,grok43,Grok 4.3,384,8.5938,flagged,0.02,0.6559,0.9883,0.0007,0.978,0.0036,False,False
+freesolv,FreeSolv / SAMPL,measured,haiku45,Claude Haiku 4.5,371,1.3477,clean,0.1894,0.4088,0.989,0.0006,0.978,0.0029,False,False
+freesolv,FreeSolv / SAMPL,measured,qwen3,Qwen3-235B,384,0.2604,clean,0.2798,0.2448,0.9882,0.0007,0.9782,0.003,False,False
+ld50,LD50 (Zhu),measured,gem35flash,Gemini 3.5 Flash,497,14.6881,flagged,0.8037,0.8037,0.9444,0.0012,0.9098,0.0042,False,False
+ld50,LD50 (Zhu),measured,gem31pro,Gemini 3.1 Pro,497,11.4688,flagged,0.7837,0.7916,0.9446,0.0012,0.9097,0.0045,False,False
+ld50,LD50 (Zhu),measured,opus5,Claude Opus 5,495,9.2929,flagged,0.7779,0.7779,0.9438,0.0013,0.9089,0.0048,False,False
+ld50,LD50 (Zhu),measured,gem36flash,Gemini 3.6 Flash,478,16.9456,flagged,0.7737,0.7737,0.9439,0.0013,0.9091,0.0045,False,False
+ld50,LD50 (Zhu),measured,gpt55,GPT-5.5,497,9.8592,flagged,0.7625,0.7625,0.9446,0.0013,0.9101,0.0046,False,False
+ld50,LD50 (Zhu),measured,grok45,Grok 4.5,492,14.8374,flagged,0.7437,0.7437,0.9433,0.0013,0.9078,0.0042,False,False
+ld50,LD50 (Zhu),measured,kimik3,Kimi K3,497,10.0604,flagged,0.2451,0.7276,0.9445,0.0012,0.9097,0.0047,False,False
+ld50,LD50 (Zhu),measured,gem3flash,Gemini 3 Flash,497,14.4869,flagged,0.7263,0.7263,0.9446,0.0012,0.9096,0.0046,False,False
+ld50,LD50 (Zhu),measured,sol,GPT-5.6 sol,497,12.8773,flagged,0.6532,0.7035,0.9446,0.0012,0.9102,0.0045,False,False
+ld50,LD50 (Zhu),measured,terra,GPT-5.6 terra,497,6.841,flagged,0.6881,0.6888,0.9444,0.0013,0.9094,0.0045,False,False
+ld50,LD50 (Zhu),measured,gem31flashlite,Gemini 3.1 Flash-Lite,497,7.8471,flagged,0.614,0.6334,0.9446,0.0012,0.9099,0.0039,False,False
+ld50,LD50 (Zhu),measured,sonnet5,Claude Sonnet 5,495,2.6263,flagged,0.624,0.6241,0.9443,0.0012,0.9096,0.0041,False,False
+ld50,LD50 (Zhu),measured,luna,GPT-5.6 luna,496,5.2419,flagged,0.5988,0.5988,0.9442,0.0013,0.9102,0.0046,False,False
+ld50,LD50 (Zhu),measured,minimaxm3,MiniMax M3,489,9.2025,flagged,0.0122,0.5746,0.945,0.0014,0.9101,0.0046,False,False
+ld50,LD50 (Zhu),measured,gpt5,GPT-5,497,3.8229,flagged,0.542,0.5743,0.9445,0.0012,0.9096,0.0045,False,False
+ld50,LD50 (Zhu),measured,gem25pro,Gemini 2.5 Pro,496,1.6129,clean,0.3938,0.4462,0.9448,0.0012,0.9096,0.0047,False,False
+ld50,LD50 (Zhu),measured,mistrall,Mistral Large 2512,497,0.2012,clean,0.3215,0.3215,0.9446,0.0013,0.9097,0.0049,False,False
+ld50,LD50 (Zhu),measured,llama4mav,Llama 4 Maverick,497,1.2072,clean,0.2126,0.2126,0.9445,0.0012,0.9099,0.0044,False,False
+ld50,LD50 (Zhu),measured,gpt41,GPT-4.1,497,0.4024,clean,0.1947,0.1947,0.9446,0.0013,0.9098,0.0045,False,False
+ld50,LD50 (Zhu),measured,grok43,Grok 4.3,496,6.25,flagged,0.0362,0.1483,0.9445,0.0012,0.9096,0.0044,False,False
+ld50,LD50 (Zhu),measured,haiku45,Claude Haiku 4.5,497,0.4024,clean,0.0609,0.0791,0.9444,0.0013,0.9098,0.0048,False,False
+ld50,LD50 (Zhu),measured,qwen3,Qwen3-235B,497,0.4024,clean,0.068,0.0665,0.9445,0.0012,0.9097,0.0046,False,False
+lipophilicity,Lipophilicity,measured,opus5,Claude Opus 5,274,0.0,clean,0.7594,0.7591,0.9485,0.0015,0.9149,0.0058,False,False
+lipophilicity,Lipophilicity,measured,gem31pro,Gemini 3.1 Pro,274,0.0,clean,0.6856,0.7053,0.9486,0.0014,0.9149,0.0064,False,False
+lipophilicity,Lipophilicity,measured,gem35flash,Gemini 3.5 Flash,274,0.365,clean,0.7043,0.7041,0.9484,0.0016,0.9149,0.0056,False,False
+lipophilicity,Lipophilicity,measured,gem36flash,Gemini 3.6 Flash,273,0.0,clean,0.6584,0.6579,0.9486,0.0016,0.9145,0.0055,False,False
+lipophilicity,Lipophilicity,measured,gpt55,GPT-5.5,274,0.7299,flagged,0.6289,0.6336,0.9484,0.0014,0.9147,0.006,False,False
+lipophilicity,Lipophilicity,measured,grok45,Grok 4.5,274,0.0,clean,0.6255,0.6202,0.9485,0.0014,0.9144,0.0057,False,False
+lipophilicity,Lipophilicity,measured,terra,GPT-5.6 terra,274,0.0,clean,0.5915,0.6054,0.9485,0.0014,0.9144,0.0053,False,False
+lipophilicity,Lipophilicity,measured,sol,GPT-5.6 sol,274,0.365,clean,0.5996,0.6049,0.9485,0.0015,0.9144,0.0061,False,False
+lipophilicity,Lipophilicity,measured,kimik3,Kimi K3,272,0.0,clean,0.5453,0.5517,0.948,0.0015,0.9136,0.0059,False,False
+lipophilicity,Lipophilicity,measured,luna,GPT-5.6 luna,274,0.0,clean,0.5217,0.5442,0.9486,0.0014,0.9148,0.006,False,False
+lipophilicity,Lipophilicity,measured,minimaxm3,MiniMax M3,267,0.3745,clean,0.526,0.536,0.9487,0.0013,0.9153,0.006,False,False
+lipophilicity,Lipophilicity,measured,gpt5,GPT-5,274,0.0,clean,0.5304,0.5325,0.9487,0.0014,0.9146,0.0062,False,False
+lipophilicity,Lipophilicity,measured,gem3flash,Gemini 3 Flash,274,0.7299,clean,0.5151,0.5195,0.9485,0.0015,0.9142,0.0059,False,False
+lipophilicity,Lipophilicity,measured,sonnet5,Claude Sonnet 5,274,0.0,clean,0.4992,0.5085,0.9484,0.0015,0.9146,0.0058,False,False
+lipophilicity,Lipophilicity,measured,gem31flashlite,Gemini 3.1 Flash-Lite,274,0.365,clean,0.4789,0.4844,0.9485,0.0014,0.9147,0.0057,False,False
+lipophilicity,Lipophilicity,measured,gem25pro,Gemini 2.5 Pro,274,0.7299,clean,0.4411,0.4296,0.9485,0.0015,0.9142,0.0058,False,False
+lipophilicity,Lipophilicity,measured,mistrall,Mistral Large 2512,274,0.7299,clean,0.4299,0.429,0.9484,0.0015,0.9147,0.0053,False,False
+lipophilicity,Lipophilicity,measured,gpt41,GPT-4.1,274,0.0,clean,0.3669,0.3686,0.9486,0.0016,0.9144,0.0062,False,False
+lipophilicity,Lipophilicity,measured,qwen3,Qwen3-235B,274,0.365,clean,0.3495,0.3674,0.9485,0.0015,0.9152,0.0056,False,False
+lipophilicity,Lipophilicity,measured,grok43,Grok 4.3,272,0.3676,clean,0.0667,0.336,0.9486,0.0015,0.9149,0.0059,False,False
+lipophilicity,Lipophilicity,measured,llama4mav,Llama 4 Maverick,274,0.365,clean,0.3191,0.333,0.9486,0.0015,0.9136,0.006,False,False
+lipophilicity,Lipophilicity,measured,haiku45,Claude Haiku 4.5,269,0.0,clean,0.2271,0.2849,0.9488,0.0016,0.9147,0.0057,False,False
+ppbr,PPBR (AZ),measured,opus5,Claude Opus 5,488,1.0246,clean,0.6168,0.6164,0.9856,0.0007,0.9839,0.0009,False,False
+ppbr,PPBR (AZ),measured,gem35flash,Gemini 3.5 Flash,488,1.2295,clean,0.5943,0.5934,0.9856,0.0007,0.9838,0.001,False,False
+ppbr,PPBR (AZ),measured,gem36flash,Gemini 3.6 Flash,488,0.8197,clean,0.5885,0.5884,0.9856,0.0008,0.9838,0.0009,False,False
+ppbr,PPBR (AZ),measured,sol,GPT-5.6 sol,488,1.2295,clean,0.5707,0.5705,0.9856,0.0007,0.9837,0.001,False,False
+ppbr,PPBR (AZ),measured,gem31pro,Gemini 3.1 Pro,488,1.2295,clean,0.5175,0.517,0.9857,0.0007,0.9838,0.001,False,False
+ppbr,PPBR (AZ),measured,grok45,Grok 4.5,488,1.4344,clean,0.5008,0.5009,0.9857,0.0008,0.9839,0.0009,False,False
+ppbr,PPBR (AZ),measured,gem3flash,Gemini 3 Flash,488,0.8197,clean,0.4906,0.4981,0.9856,0.0007,0.9838,0.0009,False,False
+ppbr,PPBR (AZ),measured,kimik3,Kimi K3,481,0.8316,clean,0.4979,0.497,0.9859,0.0008,0.9838,0.0009,False,False
+ppbr,PPBR (AZ),measured,gem31flashlite,Gemini 3.1 Flash-Lite,488,1.8443,clean,0.4827,0.4854,0.9856,0.0007,0.9839,0.001,False,False
+ppbr,PPBR (AZ),measured,gpt55,GPT-5.5,488,2.0492,clean,0.4658,0.4653,0.9856,0.0007,0.9838,0.001,False,False
+ppbr,PPBR (AZ),measured,terra,GPT-5.6 terra,488,1.4344,clean,0.4496,0.4505,0.9856,0.0008,0.9838,0.001,False,False
+ppbr,PPBR (AZ),measured,sonnet5,Claude Sonnet 5,488,0.6148,clean,0.4275,0.4275,0.9856,0.0007,0.9838,0.0009,False,False
+ppbr,PPBR (AZ),measured,gpt5,GPT-5,488,0.8197,clean,0.4,0.402,0.9857,0.0007,0.9839,0.001,False,False
+ppbr,PPBR (AZ),measured,luna,GPT-5.6 luna,488,1.4344,clean,0.382,0.3868,0.9856,0.0008,0.9838,0.0009,False,False
+ppbr,PPBR (AZ),measured,minimaxm3,MiniMax M3,477,0.8386,clean,0.2603,0.381,0.9854,0.0008,0.9836,0.001,False,False
+ppbr,PPBR (AZ),measured,gem25pro,Gemini 2.5 Pro,488,2.8689,clean,0.366,0.3747,0.9857,0.0007,0.9836,0.001,False,False
+ppbr,PPBR (AZ),measured,grok43,Grok 4.3,486,1.6461,clean,0.2126,0.3164,0.9854,0.0007,0.9835,0.0011,False,False
+ppbr,PPBR (AZ),measured,llama4mav,Llama 4 Maverick,488,1.0246,flagged,0.3047,0.3047,0.9858,0.0007,0.9838,0.0009,False,False
+ppbr,PPBR (AZ),measured,gpt41,GPT-4.1,488,1.0246,clean,0.2769,0.2757,0.9855,0.0008,0.9837,0.001,False,False
+ppbr,PPBR (AZ),measured,mistrall,Mistral Large 2512,488,1.2295,clean,0.1839,0.1839,0.9856,0.0007,0.9838,0.0009,False,False
+ppbr,PPBR (AZ),measured,haiku45,Claude Haiku 4.5,441,0.0,clean,0.0542,0.0728,0.9859,0.0007,0.984,0.001,False,False
+ppbr,PPBR (AZ),measured,qwen3,Qwen3-235B,488,0.8197,clean,0.0525,0.0525,0.9856,0.0008,0.9837,0.001,False,False
+qm7,QM7,computed,grok45,Grok 4.5,495,2.8283,clean,0.7821,0.795,0.788,0.0028,0.6935,0.0155,True,True
+qm7,QM7,computed,opus5,Claude Opus 5,499,16.2325,flagged,0.4251,0.7762,0.7897,0.0029,0.6953,0.0146,False,True
+qm7,QM7,computed,gem25pro,Gemini 2.5 Pro,500,1.8,clean,0.3755,0.5232,0.7903,0.0028,0.6971,0.0138,False,False
+qm7,QM7,computed,sol,GPT-5.6 sol,500,7.0,flagged,0.0851,0.3822,0.7902,0.0027,0.6966,0.0143,False,False
+qm7,QM7,computed,gem31pro,Gemini 3.1 Pro,500,1.4,clean,0.04,0.3237,0.7899,0.0027,0.6955,0.0146,False,False
+qm7,QM7,computed,grok43,Grok 4.3,500,1.6,clean,0.1229,0.2567,0.7901,0.0029,0.6964,0.0136,False,False
+qm7,QM7,computed,kimik3,Kimi K3,492,2.2358,clean,0.024,0.2267,0.788,0.0027,0.6953,0.0146,False,False
+qm7,QM7,computed,terra,GPT-5.6 terra,500,1.0,flagged,-0.048,0.1753,0.7899,0.0027,0.6959,0.0157,False,False
+qm7,QM7,computed,gem35flash,Gemini 3.5 Flash,500,0.0,clean,-0.0876,0.1474,0.7903,0.0029,0.6961,0.0149,False,False
+qm7,QM7,computed,qwen3,Qwen3-235B,500,0.0,clean,0.1033,0.1192,0.7901,0.0026,0.6948,0.0158,False,False
+qm7,QM7,computed,sonnet5,Claude Sonnet 5,500,1.4,clean,-0.0194,0.1078,0.7902,0.003,0.6978,0.0146,False,False
+qm7,QM7,computed,gem31flashlite,Gemini 3.1 Flash-Lite,500,0.0,clean,-0.1179,0.0828,0.7899,0.0027,0.6979,0.0145,False,False
+qm7,QM7,computed,minimaxm3,MiniMax M3,477,0.2096,clean,-0.1701,0.0745,0.7893,0.0027,0.6978,0.016,False,False
+qm7,QM7,computed,gpt5,GPT-5,489,0.0,clean,-0.156,0.0698,0.7892,0.0029,0.6947,0.0145,False,False
+qm7,QM7,computed,llama4mav,Llama 4 Maverick,498,0.0,clean,-0.0494,0.0371,0.7899,0.003,0.6963,0.0164,False,False
+qm7,QM7,computed,gpt41,GPT-4.1,500,0.0,clean,-0.0026,0.0153,0.7902,0.0026,0.6977,0.0157,False,False
+qm7,QM7,computed,gem36flash,Gemini 3.6 Flash,500,0.2,clean,-0.2707,0.0043,0.7904,0.0029,0.6966,0.0153,False,False
+qm7,QM7,computed,gem3flash,Gemini 3 Flash,500,0.0,clean,-0.7065,0.0,0.7902,0.0027,0.6967,0.0157,False,False
+qm7,QM7,computed,haiku45,Claude Haiku 4.5,500,0.0,clean,-0.0899,0.0,0.79,0.0025,0.6962,0.0154,False,False
+qm7,QM7,computed,luna,GPT-5.6 luna,500,0.0,clean,-0.8127,0.0,0.7901,0.0027,0.6961,0.0135,False,False
+qm7,QM7,computed,gpt55,GPT-5.5,500,0.0,clean,-0.4788,-0.0543,0.7903,0.0031,0.6943,0.0146,False,False
+qm7,QM7,computed,mistrall,Mistral Large 2512,500,0.0,clean,-0.3269,-0.0738,0.7901,0.0028,0.6968,0.014,False,False
+qm8,QM8,computed,opus5,Claude Opus 5,500,2.0,flagged,0.91,0.91,0.8033,0.0026,0.7105,0.0135,True,True
+qm8,QM8,computed,gem36flash,Gemini 3.6 Flash,500,1.4,clean,0.9016,0.9033,0.8036,0.0026,0.7134,0.0138,True,True
+qm8,QM8,computed,gem31pro,Gemini 3.1 Pro,500,1.6,clean,0.902,0.902,0.8036,0.0028,0.7117,0.0142,True,True
+qm8,QM8,computed,gem35flash,Gemini 3.5 Flash,500,2.4,flagged,0.8991,0.8991,0.8034,0.0027,0.7129,0.0121,True,True
+qm8,QM8,computed,sol,GPT-5.6 sol,500,0.6,clean,0.8776,0.8776,0.8039,0.0029,0.7111,0.0138,True,True
+qm8,QM8,computed,gpt55,GPT-5.5,500,1.6,clean,0.8568,0.8576,0.8034,0.003,0.7131,0.0133,True,True
+qm8,QM8,computed,gem3flash,Gemini 3 Flash,500,2.2,clean,0.8441,0.8445,0.8036,0.003,0.7116,0.0122,True,True
+qm8,QM8,computed,terra,GPT-5.6 terra,500,1.2,clean,0.8406,0.8406,0.8036,0.0029,0.7115,0.0145,True,True
+qm8,QM8,computed,kimik3,Kimi K3,497,1.4085,clean,0.8297,0.8297,0.8038,0.003,0.7107,0.0147,True,True
+qm8,QM8,computed,luna,GPT-5.6 luna,500,1.0,clean,0.825,0.826,0.8039,0.0028,0.7137,0.0136,True,True
+qm8,QM8,computed,gem31flashlite,Gemini 3.1 Flash-Lite,500,0.6,clean,0.7483,0.7559,0.8037,0.0028,0.7112,0.0125,False,True
+qm8,QM8,computed,minimaxm3,MiniMax M3,489,0.6135,clean,0.0952,0.6856,0.8019,0.0028,0.7104,0.0128,False,False
+qm8,QM8,computed,grok45,Grok 4.5,498,2.008,clean,0.6693,0.6693,0.8036,0.0028,0.7126,0.0137,False,False
+qm8,QM8,computed,sonnet5,Claude Sonnet 5,500,1.6,clean,0.6531,0.6531,0.8037,0.0026,0.7129,0.0134,False,False
+qm8,QM8,computed,gem25pro,Gemini 2.5 Pro,500,1.4,clean,0.5951,0.6137,0.8038,0.0028,0.7113,0.0135,False,False
+qm8,QM8,computed,gpt5,GPT-5,497,0.6036,clean,-0.0283,0.5571,0.8033,0.0031,0.7118,0.014,False,False
+qm8,QM8,computed,mistrall,Mistral Large 2512,500,0.2,clean,0.2452,0.2452,0.8035,0.0028,0.7141,0.0139,False,False
+qm8,QM8,computed,gpt41,GPT-4.1,500,0.6,clean,0.2377,0.2377,0.8037,0.0028,0.7129,0.0127,False,False
+qm8,QM8,computed,llama4mav,Llama 4 Maverick,500,1.4,clean,0.1901,0.1901,0.8036,0.0028,0.7117,0.0138,False,False
+qm8,QM8,computed,grok43,Grok 4.3,500,0.6,clean,-0.1132,0.1682,0.8039,0.0028,0.7118,0.0139,False,False
+qm8,QM8,computed,haiku45,Claude Haiku 4.5,500,0.2,clean,0.0038,0.0535,0.8036,0.0028,0.7101,0.0138,False,False
+qm8,QM8,computed,qwen3,Qwen3-235B,500,0.0,clean,-0.0922,-0.0419,0.8035,0.0029,0.7121,0.0131,False,False

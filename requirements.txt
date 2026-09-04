@@ -1,0 +1,9 @@
+# Everything the analysis and the figures need.
+numpy
+pandas
+scipy
+matplotlib
+
+# Only for src/prepare_datasets.py (canonical + randomised SMILES generation).
+# Not needed to reproduce any figure or table from the shipped results/.
+rdkit

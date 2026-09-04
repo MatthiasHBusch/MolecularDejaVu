@@ -1,0 +1,1635 @@
+{
+ "meta": {
+  "dataset": "qm8",
+  "tag": "gem3flash",
+  "endpoint": "google/gemini-3-flash-preview",
+  "level": "medium",
+  "n_mol": 60,
+  "iters": 3,
+  "max_tokens": 8000,
+  "cost": 0.7146224999999999,
+  "timestamp": "2026-07-28T11:33:08"
+ },
+ "calls": [
+  {
+   "text": "0.410191",
+   "value": 0.410191,
+   "reasoning_tokens": 1522,
+   "completion": 1530,
+   "cost": 0.00232675,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])[H]"
+  },
+  {
+   "text": "0.433839",
+   "value": 0.433839,
+   "reasoning_tokens": 1347,
+   "completion": 1355,
+   "cost": 0.00206425,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])[H]"
+  },
+  {
+   "text": "0.405777",
+   "value": 0.405777,
+   "reasoning_tokens": 1802,
+   "completion": 1810,
+   "cost": 0.00274675,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])[H]"
+  },
+  {
+   "text": "0.247600",
+   "value": 0.2476,
+   "reasoning_tokens": 1010,
+   "completion": 1018,
+   "cost": 0.001558,
+   "finish": "stop",
+   "mol_id": "[H]N([H])[H]"
+  },
+  {
+   "text": "0.231924",
+   "value": 0.231924,
+   "reasoning_tokens": 2608,
+   "completion": 2616,
+   "cost": 0.003955,
+   "finish": "stop",
+   "mol_id": "[H]N([H])[H]"
+  },
+  {
+   "text": "0.246476",
+   "value": 0.246476,
+   "reasoning_tokens": 2707,
+   "completion": 2715,
+   "cost": 0.0041035,
+   "finish": "stop",
+   "mol_id": "[H]N([H])[H]"
+  },
+  {
+   "text": "0.271868",
+   "value": 0.271868,
+   "reasoning_tokens": 2599,
+   "completion": 2607,
+   "cost": 0.003941,
+   "finish": "stop",
+   "mol_id": "[H]O[H]"
+  },
+  {
+   "text": "0.3013065",
+   "value": 0.3013065,
+   "reasoning_tokens": 2841,
+   "completion": 2850,
+   "cost": 0.0043055,
+   "finish": "stop",
+   "mol_id": "[H]O[H]"
+  },
+  {
+   "text": "0.3051",
+   "value": 0.3051,
+   "reasoning_tokens": 978,
+   "completion": 984,
+   "cost": 0.0015065,
+   "finish": "stop",
+   "mol_id": "[H]O[H]"
+  },
+  {
+   "text": "0.301331",
+   "value": 0.301331,
+   "reasoning_tokens": 1936,
+   "completion": 1944,
+   "cost": 0.002947,
+   "finish": "stop",
+   "mol_id": "[H]C#C[H]"
+  },
+  {
+   "text": "0.316812",
+   "value": 0.316812,
+   "reasoning_tokens": 2491,
+   "completion": 2499,
+   "cost": 0.0037795,
+   "finish": "stop",
+   "mol_id": "[H]C#C[H]"
+  },
+  {
+   "text": "0.303830",
+   "value": 0.30383,
+   "reasoning_tokens": 2282,
+   "completion": 2290,
+   "cost": 0.003466,
+   "finish": "stop",
+   "mol_id": "[H]C#C[H]"
+  },
+  {
+   "text": "0.334421",
+   "value": 0.334421,
+   "reasoning_tokens": 1672,
+   "completion": 1680,
+   "cost": 0.0025505,
+   "finish": "stop",
+   "mol_id": "[H]C#N"
+  },
+  {
+   "text": "0.345589",
+   "value": 0.345589,
+   "reasoning_tokens": 2598,
+   "completion": 2606,
+   "cost": 0.0039395,
+   "finish": "stop",
+   "mol_id": "[H]C#N"
+  },
+  {
+   "text": "0.334015",
+   "value": 0.334015,
+   "reasoning_tokens": 2729,
+   "completion": 2737,
+   "cost": 0.004136,
+   "finish": "stop",
+   "mol_id": "[H]C#N"
+  },
+  {
+   "text": "0.142211",
+   "value": 0.142211,
+   "reasoning_tokens": 2401,
+   "completion": 2409,
+   "cost": 0.00364475,
+   "finish": "stop",
+   "mol_id": "[H]C([H])=O"
+  },
+  {
+   "text": "0.147103",
+   "value": 0.147103,
+   "reasoning_tokens": 2399,
+   "completion": 2407,
+   "cost": 0.00364175,
+   "finish": "stop",
+   "mol_id": "[H]C([H])=O"
+  },
+  {
+   "text": "0.146914",
+   "value": 0.146914,
+   "reasoning_tokens": 2190,
+   "completion": 2198,
+   "cost": 0.00332825,
+   "finish": "stop",
+   "mol_id": "[H]C([H])=O"
+  },
+  {
+   "text": "0.354728",
+   "value": 0.354728,
+   "reasoning_tokens": 2432,
+   "completion": 2440,
+   "cost": 0.0036935,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.406639",
+   "value": 0.406639,
+   "reasoning_tokens": 2433,
+   "completion": 2441,
+   "cost": 0.003695,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.353308",
+   "value": 0.353308,
+   "reasoning_tokens": 2325,
+   "completion": 2333,
+   "cost": 0.003533,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.31680535",
+   "value": 0.31680535,
+   "reasoning_tokens": 3637,
+   "completion": 3647,
+   "cost": 0.00550225,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])[H]"
+  },
+  {
+   "text": "0.291739",
+   "value": 0.291739,
+   "reasoning_tokens": 4179,
+   "completion": 4187,
+   "cost": 0.00631225,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])[H]"
+  },
+  {
+   "text": "0.306714",
+   "value": 0.306714,
+   "reasoning_tokens": 2011,
+   "completion": 2019,
+   "cost": 0.00306025,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])[H]"
+  },
+  {
+   "text": "0.297412",
+   "value": 0.297412,
+   "reasoning_tokens": 2483,
+   "completion": 2491,
+   "cost": 0.00376875,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])[H]"
+  },
+  {
+   "text": "0.311756",
+   "value": 0.311756,
+   "reasoning_tokens": 3760,
+   "completion": 3768,
+   "cost": 0.00568425,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])[H]"
+  },
+  {
+   "text": "0.291771",
+   "value": 0.291771,
+   "reasoning_tokens": 2565,
+   "completion": 2573,
+   "cost": 0.00389175,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])[H]"
+  },
+  {
+   "text": "0.3223073",
+   "value": 0.3223073,
+   "reasoning_tokens": 2934,
+   "completion": 2943,
+   "cost": 0.00444675,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C#N"
+  },
+  {
+   "text": "0.305646",
+   "value": 0.305646,
+   "reasoning_tokens": 2992,
+   "completion": 3000,
+   "cost": 0.00453225,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C#N"
+  },
+  {
+   "text": "0.342918",
+   "value": 0.342918,
+   "reasoning_tokens": 3616,
+   "completion": 3624,
+   "cost": 0.00546825,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C#N"
+  },
+  {
+   "text": "0.149156",
+   "value": 0.149156,
+   "reasoning_tokens": 2132,
+   "completion": 2140,
+   "cost": 0.00324275,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.147526",
+   "value": 0.147526,
+   "reasoning_tokens": 3442,
+   "completion": 3450,
+   "cost": 0.00520775,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.154939",
+   "value": 0.154939,
+   "reasoning_tokens": 1822,
+   "completion": 1830,
+   "cost": 0.00277775,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.209187",
+   "value": 0.209187,
+   "reasoning_tokens": 2735,
+   "completion": 2743,
+   "cost": 0.0041465,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)N([H])[H]"
+  },
+  {
+   "text": "0.209141",
+   "value": 0.209141,
+   "reasoning_tokens": 1912,
+   "completion": 1920,
+   "cost": 0.002912,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)N([H])[H]"
+  },
+  {
+   "text": "0.207905",
+   "value": 0.207905,
+   "reasoning_tokens": 2403,
+   "completion": 2411,
+   "cost": 0.0036485,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)N([H])[H]"
+  },
+  {
+   "text": "0.336423",
+   "value": 0.336423,
+   "reasoning_tokens": 3315,
+   "completion": 3323,
+   "cost": 0.00501975,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.40663701",
+   "value": 0.40663701,
+   "reasoning_tokens": 3535,
+   "completion": 3545,
+   "cost": 0.00535275,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.38063",
+   "value": 0.38063,
+   "reasoning_tokens": 1800,
+   "completion": 1807,
+   "cost": 0.00274575,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.291515",
+   "value": 0.291515,
+   "reasoning_tokens": 1899,
+   "completion": 1907,
+   "cost": 0.002894,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.274838",
+   "value": 0.274838,
+   "reasoning_tokens": 2217,
+   "completion": 2225,
+   "cost": 0.003371,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.279904",
+   "value": 0.279904,
+   "reasoning_tokens": 2673,
+   "completion": 2681,
+   "cost": 0.004055,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.295171",
+   "value": 0.295171,
+   "reasoning_tokens": 3273,
+   "completion": 3281,
+   "cost": 0.004955,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])OC([H])([H])[H]"
+  },
+  {
+   "text": "0.294236",
+   "value": 0.294236,
+   "reasoning_tokens": 2966,
+   "completion": 2974,
+   "cost": 0.0044945,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])OC([H])([H])[H]"
+  },
+  {
+   "text": "0.292418",
+   "value": 0.292418,
+   "reasoning_tokens": 2999,
+   "completion": 3007,
+   "cost": 0.004544,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])OC([H])([H])[H]"
+  },
+  {
+   "text": "0.380641",
+   "value": 0.380641,
+   "reasoning_tokens": 1632,
+   "completion": 1640,
+   "cost": 0.00249425,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.380629443",
+   "value": 0.380629443,
+   "reasoning_tokens": 2028,
+   "completion": 2039,
+   "cost": 0.00309275,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.412431",
+   "value": 0.412431,
+   "reasoning_tokens": 2314,
+   "completion": 2322,
+   "cost": 0.00351725,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.292102",
+   "value": 0.292102,
+   "reasoning_tokens": 2340,
+   "completion": 2348,
+   "cost": 0.0035545,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])OC1([H])[H]"
+  },
+  {
+   "text": "0.292164",
+   "value": 0.292164,
+   "reasoning_tokens": 1768,
+   "completion": 1776,
+   "cost": 0.0026965,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])OC1([H])[H]"
+  },
+  {
+   "text": "0.285810",
+   "value": 0.28581,
+   "reasoning_tokens": 2225,
+   "completion": 2233,
+   "cost": 0.003382,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])OC1([H])[H]"
+  },
+  {
+   "text": "0.162799",
+   "value": 0.162799,
+   "reasoning_tokens": 2355,
+   "completion": 2363,
+   "cost": 0.003579,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.162402",
+   "value": 0.162402,
+   "reasoning_tokens": 2083,
+   "completion": 2091,
+   "cost": 0.003171,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.160395",
+   "value": 0.160395,
+   "reasoning_tokens": 2072,
+   "completion": 2080,
+   "cost": 0.0031545,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.231948",
+   "value": 0.231948,
+   "reasoning_tokens": 1709,
+   "completion": 1717,
+   "cost": 0.00260925,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.231878",
+   "value": 0.231878,
+   "reasoning_tokens": 1974,
+   "completion": 1982,
+   "cost": 0.00300675,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.224856",
+   "value": 0.224856,
+   "reasoning_tokens": 2069,
+   "completion": 2077,
+   "cost": 0.00314925,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.252033",
+   "value": 0.252033,
+   "reasoning_tokens": 2528,
+   "completion": 2536,
+   "cost": 0.003837,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C(=O)N([H])[H]"
+  },
+  {
+   "text": "0.252033",
+   "value": 0.252033,
+   "reasoning_tokens": 3020,
+   "completion": 3028,
+   "cost": 0.004575,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C(=O)N([H])[H]"
+  },
+  {
+   "text": "0.230777",
+   "value": 0.230777,
+   "reasoning_tokens": 2153,
+   "completion": 2161,
+   "cost": 0.0032745,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C(=O)N([H])[H]"
+  },
+  {
+   "text": "0.354673",
+   "value": 0.354673,
+   "reasoning_tokens": 2064,
+   "completion": 2072,
+   "cost": 0.003145,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.353621",
+   "value": 0.353621,
+   "reasoning_tokens": 2669,
+   "completion": 2677,
+   "cost": 0.0040525,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.339115",
+   "value": 0.339115,
+   "reasoning_tokens": 3649,
+   "completion": 3657,
+   "cost": 0.0055225,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.288219",
+   "value": 0.288219,
+   "reasoning_tokens": 2343,
+   "completion": 2351,
+   "cost": 0.00356175,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.255569",
+   "value": 0.255569,
+   "reasoning_tokens": 2743,
+   "completion": 2751,
+   "cost": 0.00416175,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.282855",
+   "value": 0.282855,
+   "reasoning_tokens": 2484,
+   "completion": 2492,
+   "cost": 0.00377325,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.228189",
+   "value": 0.228189,
+   "reasoning_tokens": 2577,
+   "completion": 2585,
+   "cost": 0.003909,
+   "finish": "stop",
+   "mol_id": "[H]C#CC#C[H]"
+  },
+  {
+   "text": "0.230752",
+   "value": 0.230752,
+   "reasoning_tokens": 1941,
+   "completion": 1949,
+   "cost": 0.002955,
+   "finish": "stop",
+   "mol_id": "[H]C#CC#C[H]"
+  },
+  {
+   "text": "0.252061",
+   "value": 0.252061,
+   "reasoning_tokens": 1926,
+   "completion": 1934,
+   "cost": 0.0029325,
+   "finish": "stop",
+   "mol_id": "[H]C#CC#C[H]"
+  },
+  {
+   "text": "0.23194",
+   "value": 0.23194,
+   "reasoning_tokens": 2524,
+   "completion": 2531,
+   "cost": 0.0038275,
+   "finish": "stop",
+   "mol_id": "[H]C#CC#N"
+  },
+  {
+   "text": "0.231206584",
+   "value": 0.231206584,
+   "reasoning_tokens": 2688,
+   "completion": 2699,
+   "cost": 0.0040795,
+   "finish": "stop",
+   "mol_id": "[H]C#CC#N"
+  },
+  {
+   "text": "0.320409",
+   "value": 0.320409,
+   "reasoning_tokens": 2080,
+   "completion": 2088,
+   "cost": 0.003163,
+   "finish": "stop",
+   "mol_id": "[H]C#CC#N"
+  },
+  {
+   "text": "0.235919",
+   "value": 0.235919,
+   "reasoning_tokens": 1679,
+   "completion": 1687,
+   "cost": 0.00256075,
+   "finish": "stop",
+   "mol_id": "N#CC#N"
+  },
+  {
+   "text": "0.230748",
+   "value": 0.230748,
+   "reasoning_tokens": 2346,
+   "completion": 2354,
+   "cost": 0.00356125,
+   "finish": "stop",
+   "mol_id": "N#CC#N"
+  },
+  {
+   "text": "0.233496",
+   "value": 0.233496,
+   "reasoning_tokens": 2933,
+   "completion": 2941,
+   "cost": 0.00444175,
+   "finish": "stop",
+   "mol_id": "N#CC#N"
+  },
+  {
+   "text": "0.14583101",
+   "value": 0.14583101,
+   "reasoning_tokens": 2864,
+   "completion": 2874,
+   "cost": 0.00434275,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])=O"
+  },
+  {
+   "text": "0.141731",
+   "value": 0.141731,
+   "reasoning_tokens": 3351,
+   "completion": 3359,
+   "cost": 0.00507025,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])=O"
+  },
+  {
+   "text": "0.144426",
+   "value": 0.144426,
+   "reasoning_tokens": 1724,
+   "completion": 1732,
+   "cost": 0.00262975,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])=O"
+  },
+  {
+   "text": "0.138830",
+   "value": 0.13883,
+   "reasoning_tokens": 3773,
+   "completion": 3781,
+   "cost": 0.005703,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C#N"
+  },
+  {
+   "text": "0.136829",
+   "value": 0.136829,
+   "reasoning_tokens": 2488,
+   "completion": 2496,
+   "cost": 0.0037755,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C#N"
+  },
+  {
+   "text": "0.188417",
+   "value": 0.188417,
+   "reasoning_tokens": 1152,
+   "completion": 1160,
+   "cost": 0.0017715,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C#N"
+  },
+  {
+   "text": "0.113881",
+   "value": 0.113881,
+   "reasoning_tokens": 870,
+   "completion": 878,
+   "cost": 0.00134925,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])=O"
+  },
+  {
+   "text": "0.114704",
+   "value": 0.114704,
+   "reasoning_tokens": 2160,
+   "completion": 2168,
+   "cost": 0.00328425,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])=O"
+  },
+  {
+   "text": "0.106509",
+   "value": 0.106509,
+   "reasoning_tokens": 1828,
+   "completion": 1836,
+   "cost": 0.00278625,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])=O"
+  },
+  {
+   "text": "0.274801",
+   "value": 0.274801,
+   "reasoning_tokens": 2824,
+   "completion": 2832,
+   "cost": 0.004282,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C#CC([H])([H])[H]"
+  },
+  {
+   "text": "0.294541",
+   "value": 0.294541,
+   "reasoning_tokens": 3260,
+   "completion": 3268,
+   "cost": 0.004936,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C#CC([H])([H])[H]"
+  },
+  {
+   "text": "0.25685981",
+   "value": 0.25685981,
+   "reasoning_tokens": 3241,
+   "completion": 3251,
+   "cost": 0.0049105,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C#CC([H])([H])[H]"
+  },
+  {
+   "text": "0.297427",
+   "value": 0.297427,
+   "reasoning_tokens": 2927,
+   "completion": 2935,
+   "cost": 0.0044365,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.25851406",
+   "value": 0.25851406,
+   "reasoning_tokens": 3538,
+   "completion": 3548,
+   "cost": 0.005356,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.244793",
+   "value": 0.244793,
+   "reasoning_tokens": 2692,
+   "completion": 2700,
+   "cost": 0.004084,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.33388720",
+   "value": 0.3338872,
+   "reasoning_tokens": 1782,
+   "completion": 1792,
+   "cost": 0.002722,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C#N"
+  },
+  {
+   "text": "0.33534538",
+   "value": 0.33534538,
+   "reasoning_tokens": 2272,
+   "completion": 2282,
+   "cost": 0.003457,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C#N"
+  },
+  {
+   "text": "0.316744",
+   "value": 0.316744,
+   "reasoning_tokens": 1432,
+   "completion": 1440,
+   "cost": 0.002194,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C#N"
+  },
+  {
+   "text": "0.237583",
+   "value": 0.237583,
+   "reasoning_tokens": 2316,
+   "completion": 2324,
+   "cost": 0.00351925,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C([H])([H])C#N"
+  },
+  {
+   "text": "0.222719",
+   "value": 0.222719,
+   "reasoning_tokens": 1925,
+   "completion": 1933,
+   "cost": 0.00293275,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C([H])([H])C#N"
+  },
+  {
+   "text": "0.245237",
+   "value": 0.245237,
+   "reasoning_tokens": 2448,
+   "completion": 2456,
+   "cost": 0.00371725,
+   "finish": "stop",
+   "mol_id": "[H]N([H])C([H])([H])C#N"
+  },
+  {
+   "text": "0.258452",
+   "value": 0.258452,
+   "reasoning_tokens": 2054,
+   "completion": 2062,
+   "cost": 0.00312575,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])O[H]"
+  },
+  {
+   "text": "0.268755",
+   "value": 0.268755,
+   "reasoning_tokens": 2009,
+   "completion": 2017,
+   "cost": 0.00305825,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])O[H]"
+  },
+  {
+   "text": "0.247167",
+   "value": 0.247167,
+   "reasoning_tokens": 2050,
+   "completion": 2058,
+   "cost": 0.00311975,
+   "finish": "stop",
+   "mol_id": "[H]C#CC([H])([H])O[H]"
+  },
+  {
+   "text": "0.32049187158498836",
+   "value": 0.3204918715849884,
+   "reasoning_tokens": 1169,
+   "completion": 1188,
+   "cost": 0.00181425,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C#N"
+  },
+  {
+   "text": "0.31175628",
+   "value": 0.31175628,
+   "reasoning_tokens": 2976,
+   "completion": 2986,
+   "cost": 0.00451125,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C#N"
+  },
+  {
+   "text": "0.306617",
+   "value": 0.306617,
+   "reasoning_tokens": 3125,
+   "completion": 3133,
+   "cost": 0.00473175,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C#N"
+  },
+  {
+   "text": "0.158102",
+   "value": 0.158102,
+   "reasoning_tokens": 2139,
+   "completion": 2147,
+   "cost": 0.003255,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.149176",
+   "value": 0.149176,
+   "reasoning_tokens": 1876,
+   "completion": 1884,
+   "cost": 0.0028605,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.14810036",
+   "value": 0.14810036,
+   "reasoning_tokens": 2315,
+   "completion": 2325,
+   "cost": 0.003522,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.222262",
+   "value": 0.222262,
+   "reasoning_tokens": 2638,
+   "completion": 2646,
+   "cost": 0.00400275,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)N([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.211584",
+   "value": 0.211584,
+   "reasoning_tokens": 2884,
+   "completion": 2892,
+   "cost": 0.00437175,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)N([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.218511",
+   "value": 0.218511,
+   "reasoning_tokens": 3177,
+   "completion": 3185,
+   "cost": 0.00481125,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)N([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.22512625",
+   "value": 0.22512625,
+   "reasoning_tokens": 2263,
+   "completion": 2273,
+   "cost": 0.00344225,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)OC([H])([H])[H]"
+  },
+  {
+   "text": "0.222941",
+   "value": 0.222941,
+   "reasoning_tokens": 2040,
+   "completion": 2048,
+   "cost": 0.00310475,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)OC([H])([H])[H]"
+  },
+  {
+   "text": "0.21568205",
+   "value": 0.21568205,
+   "reasoning_tokens": 2498,
+   "completion": 2508,
+   "cost": 0.00379475,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)OC([H])([H])[H]"
+  },
+  {
+   "text": "0.151739",
+   "value": 0.151739,
+   "reasoning_tokens": 1850,
+   "completion": 1858,
+   "cost": 0.00282,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])=O"
+  },
+  {
+   "text": "0.156557",
+   "value": 0.156557,
+   "reasoning_tokens": 3552,
+   "completion": 3560,
+   "cost": 0.005373,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])=O"
+  },
+  {
+   "text": "0.153416",
+   "value": 0.153416,
+   "reasoning_tokens": 2486,
+   "completion": 2494,
+   "cost": 0.003774,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])=O"
+  },
+  {
+   "text": "0.331185",
+   "value": 0.331185,
+   "reasoning_tokens": 2489,
+   "completion": 2497,
+   "cost": 0.0037825,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.311751",
+   "value": 0.311751,
+   "reasoning_tokens": 2179,
+   "completion": 2187,
+   "cost": 0.0033175,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.321852",
+   "value": 0.321852,
+   "reasoning_tokens": 2336,
+   "completion": 2344,
+   "cost": 0.003553,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.264155",
+   "value": 0.264155,
+   "reasoning_tokens": 2428,
+   "completion": 2436,
+   "cost": 0.00368925,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.276435",
+   "value": 0.276435,
+   "reasoning_tokens": 2014,
+   "completion": 2022,
+   "cost": 0.00306825,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.254848",
+   "value": 0.254848,
+   "reasoning_tokens": 2525,
+   "completion": 2533,
+   "cost": 0.00383475,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.278486",
+   "value": 0.278486,
+   "reasoning_tokens": 3947,
+   "completion": 3955,
+   "cost": 0.00596775,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])OC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.28178619",
+   "value": 0.28178619,
+   "reasoning_tokens": 3035,
+   "completion": 3045,
+   "cost": 0.00460275,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])OC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.286904",
+   "value": 0.286904,
+   "reasoning_tokens": 3821,
+   "completion": 3829,
+   "cost": 0.00577875,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])OC([H])([H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.296541",
+   "value": 0.296541,
+   "reasoning_tokens": 3846,
+   "completion": 3854,
+   "cost": 0.005815,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])O[H]"
+  },
+  {
+   "text": "0.3177",
+   "value": 0.3177,
+   "reasoning_tokens": 2233,
+   "completion": 2239,
+   "cost": 0.0033925,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])O[H]"
+  },
+  {
+   "text": "0.30661405",
+   "value": 0.30661405,
+   "reasoning_tokens": 2632,
+   "completion": 2642,
+   "cost": 0.003997,
+   "finish": "stop",
+   "mol_id": "[H]OC([H])([H])C([H])([H])O[H]"
+  },
+  {
+   "text": "0.318115",
+   "value": 0.318115,
+   "reasoning_tokens": 1914,
+   "completion": 1922,
+   "cost": 0.002919,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.316839",
+   "value": 0.316839,
+   "reasoning_tokens": 2489,
+   "completion": 2497,
+   "cost": 0.0037815,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.286953",
+   "value": 0.286953,
+   "reasoning_tokens": 4369,
+   "completion": 4377,
+   "cost": 0.0066015,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.27892288",
+   "value": 0.27892288,
+   "reasoning_tokens": 2933,
+   "completion": 2943,
+   "cost": 0.00444875,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C1([H])OC1([H])[H]"
+  },
+  {
+   "text": "0.264581",
+   "value": 0.264581,
+   "reasoning_tokens": 2231,
+   "completion": 2239,
+   "cost": 0.00339275,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C1([H])OC1([H])[H]"
+  },
+  {
+   "text": "0.281789",
+   "value": 0.281789,
+   "reasoning_tokens": 2201,
+   "completion": 2209,
+   "cost": 0.00334775,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C1([H])OC1([H])[H]"
+  },
+  {
+   "text": "0.252062",
+   "value": 0.252062,
+   "reasoning_tokens": 2992,
+   "completion": 3000,
+   "cost": 0.00453525,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])N1C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.253303",
+   "value": 0.253303,
+   "reasoning_tokens": 2723,
+   "completion": 2731,
+   "cost": 0.00413175,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])N1C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.281846",
+   "value": 0.281846,
+   "reasoning_tokens": 2315,
+   "completion": 2323,
+   "cost": 0.00351975,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])N1C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.28575128",
+   "value": 0.28575128,
+   "reasoning_tokens": 5224,
+   "completion": 5234,
+   "cost": 0.00788525,
+   "finish": "stop",
+   "mol_id": "[H]OC1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.294247",
+   "value": 0.294247,
+   "reasoning_tokens": 3726,
+   "completion": 3734,
+   "cost": 0.00563525,
+   "finish": "stop",
+   "mol_id": "[H]OC1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.281144",
+   "value": 0.281144,
+   "reasoning_tokens": 4207,
+   "completion": 4215,
+   "cost": 0.00635675,
+   "finish": "stop",
+   "mol_id": "[H]OC1([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.28113702",
+   "value": 0.28113702,
+   "reasoning_tokens": 2436,
+   "completion": 2446,
+   "cost": 0.003705,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])C([H])([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.316413",
+   "value": 0.316413,
+   "reasoning_tokens": 3730,
+   "completion": 3738,
+   "cost": 0.005643,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])C([H])([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.323607",
+   "value": 0.323607,
+   "reasoning_tokens": 4670,
+   "completion": 4678,
+   "cost": 0.007053,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])C([H])([H])C([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.280108",
+   "value": 0.280108,
+   "reasoning_tokens": 1739,
+   "completion": 1747,
+   "cost": 0.00265475,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])OC([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.273038",
+   "value": 0.273038,
+   "reasoning_tokens": 3064,
+   "completion": 3072,
+   "cost": 0.00464225,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])OC([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.264213",
+   "value": 0.264213,
+   "reasoning_tokens": 2562,
+   "completion": 2570,
+   "cost": 0.00388925,
+   "finish": "stop",
+   "mol_id": "[H]C1([H])OC([H])([H])C1([H])[H]"
+  },
+  {
+   "text": "0.227702",
+   "value": 0.227702,
+   "reasoning_tokens": 2646,
+   "completion": 2654,
+   "cost": 0.004016,
+   "finish": "stop",
+   "mol_id": "[H]ON=C(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.230722",
+   "value": 0.230722,
+   "reasoning_tokens": 3534,
+   "completion": 3542,
+   "cost": 0.005348,
+   "finish": "stop",
+   "mol_id": "[H]ON=C(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.231221",
+   "value": 0.231221,
+   "reasoning_tokens": 1898,
+   "completion": 1906,
+   "cost": 0.002894,
+   "finish": "stop",
+   "mol_id": "[H]ON=C(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.221711",
+   "value": 0.221711,
+   "reasoning_tokens": 3054,
+   "completion": 3062,
+   "cost": 0.00462725,
+   "finish": "stop",
+   "mol_id": "[H]c1c([H])c([H])n([H])c1[H]"
+  },
+  {
+   "text": "0.21138321",
+   "value": 0.21138321,
+   "reasoning_tokens": 3236,
+   "completion": 3246,
+   "cost": 0.00490325,
+   "finish": "stop",
+   "mol_id": "[H]c1c([H])c([H])n([H])c1[H]"
+  },
+  {
+   "text": "0.219803",
+   "value": 0.219803,
+   "reasoning_tokens": 2359,
+   "completion": 2367,
+   "cost": 0.00358475,
+   "finish": "stop",
+   "mol_id": "[H]c1c([H])c([H])n([H])c1[H]"
+  },
+  {
+   "text": "0.231993",
+   "value": 0.231993,
+   "reasoning_tokens": 5211,
+   "completion": 5219,
+   "cost": 0.00786175,
+   "finish": "stop",
+   "mol_id": "[H]c1nc([H])n([H])c1[H]"
+  },
+  {
+   "text": "0.222384",
+   "value": 0.222384,
+   "reasoning_tokens": 6787,
+   "completion": 6795,
+   "cost": 0.01022575,
+   "finish": "stop",
+   "mol_id": "[H]c1nc([H])n([H])c1[H]"
+  },
+  {
+   "text": "0.226622",
+   "value": 0.226622,
+   "reasoning_tokens": 3202,
+   "completion": 3210,
+   "cost": 0.00484825,
+   "finish": "stop",
+   "mol_id": "[H]c1nc([H])n([H])c1[H]"
+  },
+  {
+   "text": "0.225573",
+   "value": 0.225573,
+   "reasoning_tokens": 1737,
+   "completion": 1745,
+   "cost": 0.00265075,
+   "finish": "stop",
+   "mol_id": "[H]c1oc([H])c([H])c1[H]"
+  },
+  {
+   "text": "0.222328",
+   "value": 0.222328,
+   "reasoning_tokens": 1792,
+   "completion": 1800,
+   "cost": 0.00273325,
+   "finish": "stop",
+   "mol_id": "[H]c1oc([H])c([H])c1[H]"
+  },
+  {
+   "text": "0.225014",
+   "value": 0.225014,
+   "reasoning_tokens": 3242,
+   "completion": 3250,
+   "cost": 0.00490825,
+   "finish": "stop",
+   "mol_id": "[H]c1oc([H])c([H])c1[H]"
+  },
+  {
+   "text": "0.224147",
+   "value": 0.224147,
+   "reasoning_tokens": 2683,
+   "completion": 2691,
+   "cost": 0.00406925,
+   "finish": "stop",
+   "mol_id": "[H]c1nc([H])c([H])o1"
+  },
+  {
+   "text": "0.224691",
+   "value": 0.224691,
+   "reasoning_tokens": 3325,
+   "completion": 3333,
+   "cost": 0.00503225,
+   "finish": "stop",
+   "mol_id": "[H]c1nc([H])c([H])o1"
+  },
+  {
+   "text": "0.232367",
+   "value": 0.232367,
+   "reasoning_tokens": 3425,
+   "completion": 3433,
+   "cost": 0.00518225,
+   "finish": "stop",
+   "mol_id": "[H]c1nc([H])c([H])o1"
+  },
+  {
+   "text": "0.400516",
+   "value": 0.400516,
+   "reasoning_tokens": 3164,
+   "completion": 3172,
+   "cost": 0.00479675,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.406591",
+   "value": 0.406591,
+   "reasoning_tokens": 3284,
+   "completion": 3292,
+   "cost": 0.00497675,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.371607",
+   "value": 0.371607,
+   "reasoning_tokens": 3331,
+   "completion": 3339,
+   "cost": 0.00504725,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.269022",
+   "value": 0.269022,
+   "reasoning_tokens": 3114,
+   "completion": 3122,
+   "cost": 0.00472,
+   "finish": "stop",
+   "mol_id": "[H]OC(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.283181",
+   "value": 0.283181,
+   "reasoning_tokens": 1878,
+   "completion": 1886,
+   "cost": 0.002866,
+   "finish": "stop",
+   "mol_id": "[H]OC(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.251978",
+   "value": 0.251978,
+   "reasoning_tokens": 1676,
+   "completion": 1684,
+   "cost": 0.002563,
+   "finish": "stop",
+   "mol_id": "[H]OC(C([H])([H])[H])(C([H])([H])[H])C([H])([H])[H]"
+  },
+  {
+   "text": "0.156637",
+   "value": 0.156637,
+   "reasoning_tokens": 2558,
+   "completion": 2566,
+   "cost": 0.00388225,
+   "finish": "stop",
+   "mol_id": "[H]C#CC(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.134316",
+   "value": 0.134316,
+   "reasoning_tokens": 2156,
+   "completion": 2164,
+   "cost": 0.00327925,
+   "finish": "stop",
+   "mol_id": "[H]C#CC(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.139634",
+   "value": 0.139634,
+   "reasoning_tokens": 4387,
+   "completion": 4395,
+   "cost": 0.00662575,
+   "finish": "stop",
+   "mol_id": "[H]C#CC(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.143849",
+   "value": 0.143849,
+   "reasoning_tokens": 1877,
+   "completion": 1885,
+   "cost": 0.00286075,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(=O)C#N"
+  },
+  {
+   "text": "0.154519",
+   "value": 0.154519,
+   "reasoning_tokens": 3678,
+   "completion": 3686,
+   "cost": 0.00556225,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(=O)C#N"
+  },
+  {
+   "text": "0.14720138",
+   "value": 0.14720138,
+   "reasoning_tokens": 2540,
+   "completion": 2550,
+   "cost": 0.00385825,
+   "finish": "stop",
+   "mol_id": "[H]C([H])([H])C(=O)C#N"
+  },
+  {
+   "text": "0.208173",
+   "value": 0.208173,
+   "reasoning_tokens": 2298,
+   "completion": 2306,
+   "cost": 0.0034915,
+   "finish": "stop",
+   "mol_id": "[H]C#CC(=O)N([H])[H]"
+  },
+  {
+   "text": "0.210744",
+   "value": 0.210744,
+   "reasoning_tokens": 1254,
+   "completion": 1262,
+   "cost": 0.0019255,
+   "finish": "stop",
+   "mol_id": "[H]C#CC(=O)N([H])[H]"
+  },
+  {
+   "text": "0.219833",
+   "value": 0.219833,
+   "reasoning_tokens": 3157,
+   "completion": 3165,
+   "cost": 0.00478,
+   "finish": "stop",
+   "mol_id": "[H]C#CC(=O)N([H])[H]"
+  },
+  {
+   "text": "0.118503",
+   "value": 0.118503,
+   "reasoning_tokens": 2793,
+   "completion": 2801,
+   "cost": 0.00423525,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.112999",
+   "value": 0.112999,
+   "reasoning_tokens": 4167,
+   "completion": 4175,
+   "cost": 0.00629625,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.102722",
+   "value": 0.102722,
+   "reasoning_tokens": 3446,
+   "completion": 3454,
+   "cost": 0.00521475,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C(=O)C([H])([H])[H]"
+  },
+  {
+   "text": "0.135398",
+   "value": 0.135398,
+   "reasoning_tokens": 1532,
+   "completion": 1540,
+   "cost": 0.002343,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C(=O)N([H])[H]"
+  },
+  {
+   "text": "0.155389",
+   "value": 0.155389,
+   "reasoning_tokens": 3088,
+   "completion": 3096,
+   "cost": 0.004677,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C(=O)N([H])[H]"
+  },
+  {
+   "text": "0.141753",
+   "value": 0.141753,
+   "reasoning_tokens": 2907,
+   "completion": 2915,
+   "cost": 0.0044055,
+   "finish": "stop",
+   "mol_id": "[H]C(=O)C(=O)N([H])[H]"
+  }
+ ]
+}

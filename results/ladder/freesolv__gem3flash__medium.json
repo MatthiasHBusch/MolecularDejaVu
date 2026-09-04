@@ -1,0 +1,1635 @@
+{
+ "meta": {
+  "dataset": "freesolv",
+  "tag": "gem3flash",
+  "endpoint": "google/gemini-3-flash-preview",
+  "level": "medium",
+  "n_mol": 60,
+  "iters": 3,
+  "max_tokens": 8000,
+  "cost": 0.42723749999999927,
+  "timestamp": "2026-07-28T11:24:11"
+ },
+ "calls": [
+  {
+   "text": "-11.08",
+   "value": -11.08,
+   "reasoning_tokens": 1524,
+   "completion": 1530,
+   "cost": 0.0023275,
+   "finish": "stop",
+   "mol_id": "4-methoxy-N,N-dimethyl-benzamide"
+  },
+  {
+   "text": "-11.05",
+   "value": -11.05,
+   "reasoning_tokens": 1494,
+   "completion": 1500,
+   "cost": 0.0022825,
+   "finish": "stop",
+   "mol_id": "4-methoxy-N,N-dimethyl-benzamide"
+  },
+  {
+   "text": "-11.02",
+   "value": -11.02,
+   "reasoning_tokens": 1991,
+   "completion": 1997,
+   "cost": 0.003028,
+   "finish": "stop",
+   "mol_id": "4-methoxy-N,N-dimethyl-benzamide"
+  },
+  {
+   "text": "-3.98",
+   "value": -3.98,
+   "reasoning_tokens": 564,
+   "completion": 569,
+   "cost": 0.00088375,
+   "finish": "stop",
+   "mol_id": "methanesulfonyl chloride"
+  },
+  {
+   "text": "-4.89",
+   "value": -4.89,
+   "reasoning_tokens": 995,
+   "completion": 1000,
+   "cost": 0.00153025,
+   "finish": "stop",
+   "mol_id": "methanesulfonyl chloride"
+  },
+  {
+   "text": "-3.42",
+   "value": -3.42,
+   "reasoning_tokens": 521,
+   "completion": 526,
+   "cost": 0.00081925,
+   "finish": "stop",
+   "mol_id": "methanesulfonyl chloride"
+  },
+  {
+   "text": "1.25",
+   "value": 1.25,
+   "reasoning_tokens": 1047,
+   "completion": 1051,
+   "cost": 0.00160675,
+   "finish": "stop",
+   "mol_id": "3-methylbut-1-ene"
+  },
+  {
+   "text": "1.15",
+   "value": 1.15,
+   "reasoning_tokens": 1205,
+   "completion": 1209,
+   "cost": 0.00184375,
+   "finish": "stop",
+   "mol_id": "3-methylbut-1-ene"
+  },
+  {
+   "text": "1.12",
+   "value": 1.12,
+   "reasoning_tokens": 1581,
+   "completion": 1585,
+   "cost": 0.00240775,
+   "finish": "stop",
+   "mol_id": "3-methylbut-1-ene"
+  },
+  {
+   "text": "-4.26",
+   "value": -4.26,
+   "reasoning_tokens": 1294,
+   "completion": 1299,
+   "cost": 0.00197825,
+   "finish": "stop",
+   "mol_id": "2-ethylpyrazine"
+  },
+  {
+   "text": "-4.13",
+   "value": -4.13,
+   "reasoning_tokens": 2133,
+   "completion": 2138,
+   "cost": 0.00323675,
+   "finish": "stop",
+   "mol_id": "2-ethylpyrazine"
+  },
+  {
+   "text": "-4.51",
+   "value": -4.51,
+   "reasoning_tokens": 2419,
+   "completion": 2424,
+   "cost": 0.00366575,
+   "finish": "stop",
+   "mol_id": "2-ethylpyrazine"
+  },
+  {
+   "text": "-4.39",
+   "value": -4.39,
+   "reasoning_tokens": 1321,
+   "completion": 1326,
+   "cost": 0.00201825,
+   "finish": "stop",
+   "mol_id": "heptan-1-ol"
+  },
+  {
+   "text": "-4.11",
+   "value": -4.11,
+   "reasoning_tokens": 1569,
+   "completion": 1574,
+   "cost": 0.00239025,
+   "finish": "stop",
+   "mol_id": "heptan-1-ol"
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 1340,
+   "completion": 1345,
+   "cost": 0.00204675,
+   "finish": "stop",
+   "mol_id": "heptan-1-ol"
+  },
+  {
+   "text": "-6.11",
+   "value": -6.11,
+   "reasoning_tokens": 1186,
+   "completion": 1191,
+   "cost": 0.001818,
+   "finish": "stop",
+   "mol_id": "3,5-dimethylphenol"
+  },
+  {
+   "text": "-6.13",
+   "value": -6.13,
+   "reasoning_tokens": 5558,
+   "completion": 5563,
+   "cost": 0.008376,
+   "finish": "stop",
+   "mol_id": "3,5-dimethylphenol"
+  },
+  {
+   "text": "-6.09",
+   "value": -6.09,
+   "reasoning_tokens": 2313,
+   "completion": 2318,
+   "cost": 0.0035085,
+   "finish": "stop",
+   "mol_id": "3,5-dimethylphenol"
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 2080,
+   "completion": 2084,
+   "cost": 0.00315675,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylbutane"
+  },
+  {
+   "text": "1.10",
+   "value": 1.1,
+   "reasoning_tokens": 6067,
+   "completion": 6071,
+   "cost": 0.00913725,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylbutane"
+  },
+  {
+   "text": "2.37",
+   "value": 2.37,
+   "reasoning_tokens": 1382,
+   "completion": 1386,
+   "cost": 0.00210975,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylbutane"
+  },
+  {
+   "text": "-4.41",
+   "value": -4.41,
+   "reasoning_tokens": 2677,
+   "completion": 2682,
+   "cost": 0.00405325,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-2-ol"
+  },
+  {
+   "text": "-4.41",
+   "value": -4.41,
+   "reasoning_tokens": 1518,
+   "completion": 1523,
+   "cost": 0.00231475,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-2-ol"
+  },
+  {
+   "text": "-4.26",
+   "value": -4.26,
+   "reasoning_tokens": 1846,
+   "completion": 1851,
+   "cost": 0.00280675,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-2-ol"
+  },
+  {
+   "text": "1.05",
+   "value": 1.05,
+   "reasoning_tokens": 2430,
+   "completion": 2434,
+   "cost": 0.00368325,
+   "finish": "stop",
+   "mol_id": "1,2-dimethylcyclohexane"
+  },
+  {
+   "text": "1.32",
+   "value": 1.32,
+   "reasoning_tokens": 2308,
+   "completion": 2312,
+   "cost": 0.00350025,
+   "finish": "stop",
+   "mol_id": "1,2-dimethylcyclohexane"
+  },
+  {
+   "text": "1.71",
+   "value": 1.71,
+   "reasoning_tokens": 2136,
+   "completion": 2140,
+   "cost": 0.00324225,
+   "finish": "stop",
+   "mol_id": "1,2-dimethylcyclohexane"
+  },
+  {
+   "text": "-4.61",
+   "value": -4.61,
+   "reasoning_tokens": 1331,
+   "completion": 1336,
+   "cost": 0.00203475,
+   "finish": "stop",
+   "mol_id": "butan-2-ol"
+  },
+  {
+   "text": "-4.61",
+   "value": -4.61,
+   "reasoning_tokens": 968,
+   "completion": 973,
+   "cost": 0.00149025,
+   "finish": "stop",
+   "mol_id": "butan-2-ol"
+  },
+  {
+   "text": "-4.73",
+   "value": -4.73,
+   "reasoning_tokens": 1257,
+   "completion": 1262,
+   "cost": 0.00192375,
+   "finish": "stop",
+   "mol_id": "butan-2-ol"
+  },
+  {
+   "text": "-1.33",
+   "value": -1.33,
+   "reasoning_tokens": 935,
+   "completion": 940,
+   "cost": 0.00143975,
+   "finish": "stop",
+   "mol_id": "dibromomethane"
+  },
+  {
+   "text": "-1.82",
+   "value": -1.82,
+   "reasoning_tokens": 816,
+   "completion": 821,
+   "cost": 0.00126125,
+   "finish": "stop",
+   "mol_id": "dibromomethane"
+  },
+  {
+   "text": "-2.00",
+   "value": -2.0,
+   "reasoning_tokens": 475,
+   "completion": 480,
+   "cost": 0.00074975,
+   "finish": "stop",
+   "mol_id": "dibromomethane"
+  },
+  {
+   "text": "-4.76",
+   "value": -4.76,
+   "reasoning_tokens": 1765,
+   "completion": 1770,
+   "cost": 0.00268675,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-3-ol"
+  },
+  {
+   "text": "-4.01",
+   "value": -4.01,
+   "reasoning_tokens": 2781,
+   "completion": 2786,
+   "cost": 0.00421075,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-3-ol"
+  },
+  {
+   "text": "-3.96",
+   "value": -3.96,
+   "reasoning_tokens": 1449,
+   "completion": 1454,
+   "cost": 0.00221275,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-3-ol"
+  },
+  {
+   "text": "-4.30",
+   "value": -4.3,
+   "reasoning_tokens": 938,
+   "completion": 943,
+   "cost": 0.001444,
+   "finish": "stop",
+   "mol_id": "2-ethylpyridine"
+  },
+  {
+   "text": "-4.68",
+   "value": -4.68,
+   "reasoning_tokens": 1472,
+   "completion": 1477,
+   "cost": 0.002245,
+   "finish": "stop",
+   "mol_id": "2-ethylpyridine"
+  },
+  {
+   "text": "-4.54",
+   "value": -4.54,
+   "reasoning_tokens": 1479,
+   "completion": 1484,
+   "cost": 0.0022555,
+   "finish": "stop",
+   "mol_id": "2-ethylpyridine"
+  },
+  {
+   "text": "-2.76",
+   "value": -2.76,
+   "reasoning_tokens": 1026,
+   "completion": 1031,
+   "cost": 0.0015765,
+   "finish": "stop",
+   "mol_id": "ethyl pentanoate"
+  },
+  {
+   "text": "-2.17",
+   "value": -2.17,
+   "reasoning_tokens": 3218,
+   "completion": 3223,
+   "cost": 0.0048645,
+   "finish": "stop",
+   "mol_id": "ethyl pentanoate"
+  },
+  {
+   "text": "-3.15",
+   "value": -3.15,
+   "reasoning_tokens": 1502,
+   "completion": 1507,
+   "cost": 0.0022905,
+   "finish": "stop",
+   "mol_id": "ethyl pentanoate"
+  },
+  {
+   "text": "-1.38",
+   "value": -1.38,
+   "reasoning_tokens": 1070,
+   "completion": 1075,
+   "cost": 0.001643,
+   "finish": "stop",
+   "mol_id": "benzenethiol"
+  },
+  {
+   "text": "-1.41",
+   "value": -1.41,
+   "reasoning_tokens": 987,
+   "completion": 992,
+   "cost": 0.0015185,
+   "finish": "stop",
+   "mol_id": "benzenethiol"
+  },
+  {
+   "text": "-1.14",
+   "value": -1.14,
+   "reasoning_tokens": 912,
+   "completion": 917,
+   "cost": 0.001406,
+   "finish": "stop",
+   "mol_id": "benzenethiol"
+  },
+  {
+   "text": "-4.68",
+   "value": -4.68,
+   "reasoning_tokens": 1521,
+   "completion": 1526,
+   "cost": 0.00232075,
+   "finish": "stop",
+   "mol_id": "(2Z)-3,7-dimethylocta-2,6-dien-1-ol"
+  },
+  {
+   "text": "-4.01",
+   "value": -4.01,
+   "reasoning_tokens": 1800,
+   "completion": 1805,
+   "cost": 0.00273925,
+   "finish": "stop",
+   "mol_id": "(2Z)-3,7-dimethylocta-2,6-dien-1-ol"
+  },
+  {
+   "text": "-4.03",
+   "value": -4.03,
+   "reasoning_tokens": 5136,
+   "completion": 5141,
+   "cost": 0.00774325,
+   "finish": "stop",
+   "mol_id": "(2Z)-3,7-dimethylocta-2,6-dien-1-ol"
+  },
+  {
+   "text": "-0.49",
+   "value": -0.49,
+   "reasoning_tokens": 1294,
+   "completion": 1299,
+   "cost": 0.00197975,
+   "finish": "stop",
+   "mol_id": "indane"
+  },
+  {
+   "text": "-0.68",
+   "value": -0.68,
+   "reasoning_tokens": 1003,
+   "completion": 1008,
+   "cost": 0.00154325,
+   "finish": "stop",
+   "mol_id": "indane"
+  },
+  {
+   "text": "-1.72",
+   "value": -1.72,
+   "reasoning_tokens": 893,
+   "completion": 898,
+   "cost": 0.00137825,
+   "finish": "stop",
+   "mol_id": "indane"
+  },
+  {
+   "text": "-2.35",
+   "value": -2.35,
+   "reasoning_tokens": 903,
+   "completion": 908,
+   "cost": 0.0013915,
+   "finish": "stop",
+   "mol_id": "ethoxybenzene"
+  },
+  {
+   "text": "-1.25",
+   "value": -1.25,
+   "reasoning_tokens": 980,
+   "completion": 985,
+   "cost": 0.001507,
+   "finish": "stop",
+   "mol_id": "ethoxybenzene"
+  },
+  {
+   "text": "-1.56",
+   "value": -1.56,
+   "reasoning_tokens": 678,
+   "completion": 683,
+   "cost": 0.001054,
+   "finish": "stop",
+   "mol_id": "ethoxybenzene"
+  },
+  {
+   "text": "-6.14",
+   "value": -6.14,
+   "reasoning_tokens": 1087,
+   "completion": 1092,
+   "cost": 0.00166875,
+   "finish": "stop",
+   "mol_id": "4-bromophenol"
+  },
+  {
+   "text": "-6.35",
+   "value": -6.35,
+   "reasoning_tokens": 2093,
+   "completion": 2098,
+   "cost": 0.00317775,
+   "finish": "stop",
+   "mol_id": "4-bromophenol"
+  },
+  {
+   "text": "-6.14",
+   "value": -6.14,
+   "reasoning_tokens": 1176,
+   "completion": 1181,
+   "cost": 0.00180225,
+   "finish": "stop",
+   "mol_id": "4-bromophenol"
+  },
+  {
+   "text": "2.56",
+   "value": 2.56,
+   "reasoning_tokens": 1889,
+   "completion": 1893,
+   "cost": 0.00286975,
+   "finish": "stop",
+   "mol_id": "2,2-dimethylpentane"
+  },
+  {
+   "text": "2.55",
+   "value": 2.55,
+   "reasoning_tokens": 3439,
+   "completion": 3443,
+   "cost": 0.00519475,
+   "finish": "stop",
+   "mol_id": "2,2-dimethylpentane"
+  },
+  {
+   "text": "2.50",
+   "value": 2.5,
+   "reasoning_tokens": 1587,
+   "completion": 1591,
+   "cost": 0.00241675,
+   "finish": "stop",
+   "mol_id": "2,2-dimethylpentane"
+  },
+  {
+   "text": "-6.36",
+   "value": -6.36,
+   "reasoning_tokens": 794,
+   "completion": 799,
+   "cost": 0.0012295,
+   "finish": "stop",
+   "mol_id": "2-acetoxyethyl acetate"
+  },
+  {
+   "text": "-6.44",
+   "value": -6.44,
+   "reasoning_tokens": 1709,
+   "completion": 1714,
+   "cost": 0.002602,
+   "finish": "stop",
+   "mol_id": "2-acetoxyethyl acetate"
+  },
+  {
+   "text": "-6.44",
+   "value": -6.44,
+   "reasoning_tokens": 1809,
+   "completion": 1814,
+   "cost": 0.002752,
+   "finish": "stop",
+   "mol_id": "2-acetoxyethyl acetate"
+  },
+  {
+   "text": "-7.19",
+   "value": -7.19,
+   "reasoning_tokens": 1862,
+   "completion": 1867,
+   "cost": 0.00283275,
+   "finish": "stop",
+   "mol_id": "ethion"
+  },
+  {
+   "text": "-10.98",
+   "value": -10.98,
+   "reasoning_tokens": 1085,
+   "completion": 1091,
+   "cost": 0.00166875,
+   "finish": "stop",
+   "mol_id": "ethion"
+  },
+  {
+   "text": "-3.88",
+   "value": -3.88,
+   "reasoning_tokens": 1511,
+   "completion": 1516,
+   "cost": 0.00230625,
+   "finish": "stop",
+   "mol_id": "ethion"
+  },
+  {
+   "text": "-6.83",
+   "value": -6.83,
+   "reasoning_tokens": 1141,
+   "completion": 1146,
+   "cost": 0.0017495,
+   "finish": "stop",
+   "mol_id": "cycloheptanol"
+  },
+  {
+   "text": "-5.91",
+   "value": -5.91,
+   "reasoning_tokens": 1235,
+   "completion": 1240,
+   "cost": 0.0018905,
+   "finish": "stop",
+   "mol_id": "cycloheptanol"
+  },
+  {
+   "text": "-4.89",
+   "value": -4.89,
+   "reasoning_tokens": 1347,
+   "completion": 1352,
+   "cost": 0.0020585,
+   "finish": "stop",
+   "mol_id": "cycloheptanol"
+  },
+  {
+   "text": "-3.42",
+   "value": -3.42,
+   "reasoning_tokens": 1172,
+   "completion": 1177,
+   "cost": 0.001796,
+   "finish": "stop",
+   "mol_id": "methyl cyclopropanecarboxylate"
+  },
+  {
+   "text": "-3.35",
+   "value": -3.35,
+   "reasoning_tokens": 1218,
+   "completion": 1223,
+   "cost": 0.001865,
+   "finish": "stop",
+   "mol_id": "methyl cyclopropanecarboxylate"
+  },
+  {
+   "text": "-3.61",
+   "value": -3.61,
+   "reasoning_tokens": 1088,
+   "completion": 1093,
+   "cost": 0.00167,
+   "finish": "stop",
+   "mol_id": "methyl cyclopropanecarboxylate"
+  },
+  {
+   "text": "-4.68",
+   "value": -4.68,
+   "reasoning_tokens": 345,
+   "completion": 350,
+   "cost": 0.000556,
+   "finish": "stop",
+   "mol_id": "benzonitrile"
+  },
+  {
+   "text": "-4.13",
+   "value": -4.13,
+   "reasoning_tokens": 888,
+   "completion": 893,
+   "cost": 0.0013705,
+   "finish": "stop",
+   "mol_id": "benzonitrile"
+  },
+  {
+   "text": "-4.01",
+   "value": -4.01,
+   "reasoning_tokens": 519,
+   "completion": 524,
+   "cost": 0.000817,
+   "finish": "stop",
+   "mol_id": "benzonitrile"
+  },
+  {
+   "text": "-3.93",
+   "value": -3.93,
+   "reasoning_tokens": 745,
+   "completion": 750,
+   "cost": 0.0011545,
+   "finish": "stop",
+   "mol_id": "pentanenitrile"
+  },
+  {
+   "text": "-3.95",
+   "value": -3.95,
+   "reasoning_tokens": 843,
+   "completion": 848,
+   "cost": 0.0013015,
+   "finish": "stop",
+   "mol_id": "pentanenitrile"
+  },
+  {
+   "text": "-3.61",
+   "value": -3.61,
+   "reasoning_tokens": 1626,
+   "completion": 1631,
+   "cost": 0.002476,
+   "finish": "stop",
+   "mol_id": "pentanenitrile"
+  },
+  {
+   "text": "-4.37",
+   "value": -4.37,
+   "reasoning_tokens": 944,
+   "completion": 949,
+   "cost": 0.00145375,
+   "finish": "stop",
+   "mol_id": "2-methylpropan-2-ol"
+  },
+  {
+   "text": "-4.38",
+   "value": -4.38,
+   "reasoning_tokens": 672,
+   "completion": 677,
+   "cost": 0.00104575,
+   "finish": "stop",
+   "mol_id": "2-methylpropan-2-ol"
+  },
+  {
+   "text": "-4.38",
+   "value": -4.38,
+   "reasoning_tokens": 745,
+   "completion": 750,
+   "cost": 0.00115525,
+   "finish": "stop",
+   "mol_id": "2-methylpropan-2-ol"
+  },
+  {
+   "text": "-2.85",
+   "value": -2.85,
+   "reasoning_tokens": 662,
+   "completion": 667,
+   "cost": 0.00103225,
+   "finish": "stop",
+   "mol_id": "2,4-dimethylpentan-3-one"
+  },
+  {
+   "text": "-3.06",
+   "value": -3.06,
+   "reasoning_tokens": 908,
+   "completion": 913,
+   "cost": 0.00140125,
+   "finish": "stop",
+   "mol_id": "2,4-dimethylpentan-3-one"
+  },
+  {
+   "text": "-2.93",
+   "value": -2.93,
+   "reasoning_tokens": 1911,
+   "completion": 1916,
+   "cost": 0.00290575,
+   "finish": "stop",
+   "mol_id": "2,4-dimethylpentan-3-one"
+  },
+  {
+   "text": "-3.53",
+   "value": -3.53,
+   "reasoning_tokens": 732,
+   "completion": 737,
+   "cost": 0.00113475,
+   "finish": "stop",
+   "mol_id": "propanal"
+  },
+  {
+   "text": "-3.53",
+   "value": -3.53,
+   "reasoning_tokens": 1122,
+   "completion": 1127,
+   "cost": 0.00171975,
+   "finish": "stop",
+   "mol_id": "propanal"
+  },
+  {
+   "text": "-3.53",
+   "value": -3.53,
+   "reasoning_tokens": 561,
+   "completion": 566,
+   "cost": 0.00087825,
+   "finish": "stop",
+   "mol_id": "propanal"
+  },
+  {
+   "text": "-7.75",
+   "value": -7.75,
+   "reasoning_tokens": 411,
+   "completion": 416,
+   "cost": 0.00065425,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylformamide"
+  },
+  {
+   "text": "-7.75",
+   "value": -7.75,
+   "reasoning_tokens": 754,
+   "completion": 759,
+   "cost": 0.00116875,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylformamide"
+  },
+  {
+   "text": "-7.75",
+   "value": -7.75,
+   "reasoning_tokens": 420,
+   "completion": 425,
+   "cost": 0.00066775,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylformamide"
+  },
+  {
+   "text": "-0.80",
+   "value": -0.8,
+   "reasoning_tokens": 1359,
+   "completion": 1364,
+   "cost": 0.0020765,
+   "finish": "stop",
+   "mol_id": "p-xylene"
+  },
+  {
+   "text": "-0.80",
+   "value": -0.8,
+   "reasoning_tokens": 1072,
+   "completion": 1077,
+   "cost": 0.001646,
+   "finish": "stop",
+   "mol_id": "p-xylene"
+  },
+  {
+   "text": "-0.80",
+   "value": -0.8,
+   "reasoning_tokens": 1378,
+   "completion": 1383,
+   "cost": 0.002105,
+   "finish": "stop",
+   "mol_id": "p-xylene"
+  },
+  {
+   "text": "1.54",
+   "value": 1.54,
+   "reasoning_tokens": 1359,
+   "completion": 1363,
+   "cost": 0.00207425,
+   "finish": "stop",
+   "mol_id": "penta-1,4-diene"
+  },
+  {
+   "text": "1.54",
+   "value": 1.54,
+   "reasoning_tokens": 1214,
+   "completion": 1218,
+   "cost": 0.00185675,
+   "finish": "stop",
+   "mol_id": "penta-1,4-diene"
+  },
+  {
+   "text": "1.12",
+   "value": 1.12,
+   "reasoning_tokens": 740,
+   "completion": 744,
+   "cost": 0.00114575,
+   "finish": "stop",
+   "mol_id": "penta-1,4-diene"
+  },
+  {
+   "text": "-13.68",
+   "value": -13.68,
+   "reasoning_tokens": 1715,
+   "completion": 1721,
+   "cost": 0.00261425,
+   "finish": "stop",
+   "mol_id": "2-(2,3-dimethylphenyl)aminobenzoic acid"
+  },
+  {
+   "text": "-11.90",
+   "value": -11.9,
+   "reasoning_tokens": 2771,
+   "completion": 2777,
+   "cost": 0.00419825,
+   "finish": "stop",
+   "mol_id": "2-(2,3-dimethylphenyl)aminobenzoic acid"
+  },
+  {
+   "text": "-10.74",
+   "value": -10.74,
+   "reasoning_tokens": 4044,
+   "completion": 4050,
+   "cost": 0.00610775,
+   "finish": "stop",
+   "mol_id": "2-(2,3-dimethylphenyl)aminobenzoic acid"
+  },
+  {
+   "text": "-9.54",
+   "value": -9.54,
+   "reasoning_tokens": 1025,
+   "completion": 1030,
+   "cost": 0.0015765,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylbenzamide"
+  },
+  {
+   "text": "-10.04",
+   "value": -10.04,
+   "reasoning_tokens": 1369,
+   "completion": 1375,
+   "cost": 0.002094,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylbenzamide"
+  },
+  {
+   "text": "-9.18",
+   "value": -9.18,
+   "reasoning_tokens": 1491,
+   "completion": 1496,
+   "cost": 0.0022755,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylbenzamide"
+  },
+  {
+   "text": "-4.33",
+   "value": -4.33,
+   "reasoning_tokens": 799,
+   "completion": 804,
+   "cost": 0.001235,
+   "finish": "stop",
+   "mol_id": "N-ethylethanamine"
+  },
+  {
+   "text": "-4.26",
+   "value": -4.26,
+   "reasoning_tokens": 658,
+   "completion": 663,
+   "cost": 0.0010235,
+   "finish": "stop",
+   "mol_id": "N-ethylethanamine"
+  },
+  {
+   "text": "-4.32",
+   "value": -4.32,
+   "reasoning_tokens": 1556,
+   "completion": 1561,
+   "cost": 0.0023705,
+   "finish": "stop",
+   "mol_id": "N-ethylethanamine"
+  },
+  {
+   "text": "-5.39",
+   "value": -5.39,
+   "reasoning_tokens": 1902,
+   "completion": 1907,
+   "cost": 0.0028925,
+   "finish": "stop",
+   "mol_id": "4-tert-butylphenol"
+  },
+  {
+   "text": "-5.39",
+   "value": -5.39,
+   "reasoning_tokens": 1620,
+   "completion": 1625,
+   "cost": 0.0024695,
+   "finish": "stop",
+   "mol_id": "4-tert-butylphenol"
+  },
+  {
+   "text": "-5.51",
+   "value": -5.51,
+   "reasoning_tokens": 1366,
+   "completion": 1371,
+   "cost": 0.0020885,
+   "finish": "stop",
+   "mol_id": "4-tert-butylphenol"
+  },
+  {
+   "text": "-2.25",
+   "value": -2.25,
+   "reasoning_tokens": 2786,
+   "completion": 2791,
+   "cost": 0.00421675,
+   "finish": "stop",
+   "mol_id": "isopentyl formate"
+  },
+  {
+   "text": "-2.59",
+   "value": -2.59,
+   "reasoning_tokens": 710,
+   "completion": 715,
+   "cost": 0.00110275,
+   "finish": "stop",
+   "mol_id": "isopentyl formate"
+  },
+  {
+   "text": "-2.13",
+   "value": -2.13,
+   "reasoning_tokens": 1799,
+   "completion": 1804,
+   "cost": 0.00273625,
+   "finish": "stop",
+   "mol_id": "isopentyl formate"
+  },
+  {
+   "text": "-3.76",
+   "value": -3.76,
+   "reasoning_tokens": 2125,
+   "completion": 2130,
+   "cost": 0.00322425,
+   "finish": "stop",
+   "mol_id": "decan-1-ol"
+  },
+  {
+   "text": "-3.76",
+   "value": -3.76,
+   "reasoning_tokens": 1280,
+   "completion": 1285,
+   "cost": 0.00195675,
+   "finish": "stop",
+   "mol_id": "decan-1-ol"
+  },
+  {
+   "text": "-3.83",
+   "value": -3.83,
+   "reasoning_tokens": 2185,
+   "completion": 2190,
+   "cost": 0.00331425,
+   "finish": "stop",
+   "mol_id": "decan-1-ol"
+  },
+  {
+   "text": "-3.23",
+   "value": -3.23,
+   "reasoning_tokens": 785,
+   "completion": 790,
+   "cost": 0.00121475,
+   "finish": "stop",
+   "mol_id": "ethyl propanoate"
+  },
+  {
+   "text": "-3.33",
+   "value": -3.33,
+   "reasoning_tokens": 1300,
+   "completion": 1305,
+   "cost": 0.00198725,
+   "finish": "stop",
+   "mol_id": "ethyl propanoate"
+  },
+  {
+   "text": "-2.71",
+   "value": -2.71,
+   "reasoning_tokens": 1324,
+   "completion": 1329,
+   "cost": 0.00202325,
+   "finish": "stop",
+   "mol_id": "ethyl propanoate"
+  },
+  {
+   "text": "2.94",
+   "value": 2.94,
+   "reasoning_tokens": 2152,
+   "completion": 2156,
+   "cost": 0.003263,
+   "finish": "stop",
+   "mol_id": "nonane"
+  },
+  {
+   "text": "3.14",
+   "value": 3.14,
+   "reasoning_tokens": 1177,
+   "completion": 1181,
+   "cost": 0.0018005,
+   "finish": "stop",
+   "mol_id": "nonane"
+  },
+  {
+   "text": "3.01",
+   "value": 3.01,
+   "reasoning_tokens": 1247,
+   "completion": 1251,
+   "cost": 0.0019055,
+   "finish": "stop",
+   "mol_id": "nonane"
+  },
+  {
+   "text": "-10.00",
+   "value": -10.0,
+   "reasoning_tokens": 1115,
+   "completion": 1121,
+   "cost": 0.00171125,
+   "finish": "stop",
+   "mol_id": "N-methylacetamide"
+  },
+  {
+   "text": "-10.00",
+   "value": -10.0,
+   "reasoning_tokens": 760,
+   "completion": 766,
+   "cost": 0.00117875,
+   "finish": "stop",
+   "mol_id": "N-methylacetamide"
+  },
+  {
+   "text": "-10.02",
+   "value": -10.02,
+   "reasoning_tokens": 678,
+   "completion": 684,
+   "cost": 0.00105575,
+   "finish": "stop",
+   "mol_id": "N-methylacetamide"
+  },
+  {
+   "text": "2.81",
+   "value": 2.81,
+   "reasoning_tokens": 2830,
+   "completion": 2834,
+   "cost": 0.00428075,
+   "finish": "stop",
+   "mol_id": "non-1-ene"
+  },
+  {
+   "text": "1.87",
+   "value": 1.87,
+   "reasoning_tokens": 3064,
+   "completion": 3068,
+   "cost": 0.00463175,
+   "finish": "stop",
+   "mol_id": "non-1-ene"
+  },
+  {
+   "text": "1.76",
+   "value": 1.76,
+   "reasoning_tokens": 1442,
+   "completion": 1446,
+   "cost": 0.00219875,
+   "finish": "stop",
+   "mol_id": "non-1-ene"
+  },
+  {
+   "text": "-6.11",
+   "value": -6.11,
+   "reasoning_tokens": 2032,
+   "completion": 2037,
+   "cost": 0.003087,
+   "finish": "stop",
+   "mol_id": "naphthalen-2-ol"
+  },
+  {
+   "text": "-6.14",
+   "value": -6.14,
+   "reasoning_tokens": 1495,
+   "completion": 1500,
+   "cost": 0.0022815,
+   "finish": "stop",
+   "mol_id": "naphthalen-2-ol"
+  },
+  {
+   "text": "-5.99",
+   "value": -5.99,
+   "reasoning_tokens": 2340,
+   "completion": 2345,
+   "cost": 0.003549,
+   "finish": "stop",
+   "mol_id": "naphthalen-2-ol"
+  },
+  {
+   "text": "-2.31",
+   "value": -2.31,
+   "reasoning_tokens": 1879,
+   "completion": 1884,
+   "cost": 0.00285775,
+   "finish": "stop",
+   "mol_id": "1,2,4-trichlorobenzene"
+  },
+  {
+   "text": "-2.03",
+   "value": -2.03,
+   "reasoning_tokens": 2411,
+   "completion": 2416,
+   "cost": 0.00365575,
+   "finish": "stop",
+   "mol_id": "1,2,4-trichlorobenzene"
+  },
+  {
+   "text": "-2.14",
+   "value": -2.14,
+   "reasoning_tokens": 2416,
+   "completion": 2421,
+   "cost": 0.00366325,
+   "finish": "stop",
+   "mol_id": "1,2,4-trichlorobenzene"
+  },
+  {
+   "text": "-26.46",
+   "value": -26.46,
+   "reasoning_tokens": 1785,
+   "completion": 1791,
+   "cost": 0.002723,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4R,5R)-Hexan-1,2,3,4,5,6-hexol"
+  },
+  {
+   "text": "-26.90",
+   "value": -26.9,
+   "reasoning_tokens": 5230,
+   "completion": 5236,
+   "cost": 0.0078905,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4R,5R)-Hexan-1,2,3,4,5,6-hexol"
+  },
+  {
+   "text": "-26.41",
+   "value": -26.41,
+   "reasoning_tokens": 4842,
+   "completion": 4848,
+   "cost": 0.0073085,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4R,5R)-Hexan-1,2,3,4,5,6-hexol"
+  },
+  {
+   "text": "-2.99",
+   "value": -2.99,
+   "reasoning_tokens": 567,
+   "completion": 572,
+   "cost": 0.00088775,
+   "finish": "stop",
+   "mol_id": "methyl butanoate"
+  },
+  {
+   "text": "-3.02",
+   "value": -3.02,
+   "reasoning_tokens": 1981,
+   "completion": 1986,
+   "cost": 0.00300875,
+   "finish": "stop",
+   "mol_id": "methyl butanoate"
+  },
+  {
+   "text": "-3.22",
+   "value": -3.22,
+   "reasoning_tokens": 866,
+   "completion": 871,
+   "cost": 0.00133625,
+   "finish": "stop",
+   "mol_id": "methyl butanoate"
+  },
+  {
+   "text": "-6.74",
+   "value": -6.74,
+   "reasoning_tokens": 1786,
+   "completion": 1791,
+   "cost": 0.0027185,
+   "finish": "stop",
+   "mol_id": "2-hydroxybenzaldehyde"
+  },
+  {
+   "text": "-6.11",
+   "value": -6.11,
+   "reasoning_tokens": 505,
+   "completion": 510,
+   "cost": 0.000797,
+   "finish": "stop",
+   "mol_id": "2-hydroxybenzaldehyde"
+  },
+  {
+   "text": "-5.73",
+   "value": -5.73,
+   "reasoning_tokens": 1490,
+   "completion": 1495,
+   "cost": 0.0022745,
+   "finish": "stop",
+   "mol_id": "2-hydroxybenzaldehyde"
+  },
+  {
+   "text": "-4.40",
+   "value": -4.4,
+   "reasoning_tokens": 2285,
+   "completion": 2290,
+   "cost": 0.0034645,
+   "finish": "stop",
+   "mol_id": "azetidine"
+  },
+  {
+   "text": "-4.36",
+   "value": -4.36,
+   "reasoning_tokens": 876,
+   "completion": 881,
+   "cost": 0.001351,
+   "finish": "stop",
+   "mol_id": "azetidine"
+  },
+  {
+   "text": "-4.40",
+   "value": -4.4,
+   "reasoning_tokens": 969,
+   "completion": 974,
+   "cost": 0.0014905,
+   "finish": "stop",
+   "mol_id": "azetidine"
+  },
+  {
+   "text": "-4.11",
+   "value": -4.11,
+   "reasoning_tokens": 1379,
+   "completion": 1384,
+   "cost": 0.00210525,
+   "finish": "stop",
+   "mol_id": "N-propylpropan-1-amine"
+  },
+  {
+   "text": "-4.33",
+   "value": -4.33,
+   "reasoning_tokens": 723,
+   "completion": 728,
+   "cost": 0.00112125,
+   "finish": "stop",
+   "mol_id": "N-propylpropan-1-amine"
+  },
+  {
+   "text": "-4.01",
+   "value": -4.01,
+   "reasoning_tokens": 1057,
+   "completion": 1062,
+   "cost": 0.00162225,
+   "finish": "stop",
+   "mol_id": "N-propylpropan-1-amine"
+  },
+  {
+   "text": "-5.49",
+   "value": -5.49,
+   "reasoning_tokens": 880,
+   "completion": 885,
+   "cost": 0.001358,
+   "finish": "stop",
+   "mol_id": "aniline"
+  },
+  {
+   "text": "-5.49",
+   "value": -5.49,
+   "reasoning_tokens": 538,
+   "completion": 543,
+   "cost": 0.000845,
+   "finish": "stop",
+   "mol_id": "aniline"
+  },
+  {
+   "text": "-5.49",
+   "value": -5.49,
+   "reasoning_tokens": 461,
+   "completion": 466,
+   "cost": 0.0007295,
+   "finish": "stop",
+   "mol_id": "aniline"
+  },
+  {
+   "text": "1.91",
+   "value": 1.91,
+   "reasoning_tokens": 1198,
+   "completion": 1202,
+   "cost": 0.00183375,
+   "finish": "stop",
+   "mol_id": "tetrafluoromethane"
+  },
+  {
+   "text": "2.44",
+   "value": 2.44,
+   "reasoning_tokens": 610,
+   "completion": 614,
+   "cost": 0.00095175,
+   "finish": "stop",
+   "mol_id": "tetrafluoromethane"
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 590,
+   "completion": 594,
+   "cost": 0.00092175,
+   "finish": "stop",
+   "mol_id": "tetrafluoromethane"
+  },
+  {
+   "text": "-4.48",
+   "value": -4.48,
+   "reasoning_tokens": 1801,
+   "completion": 1806,
+   "cost": 0.00273975,
+   "finish": "stop",
+   "mol_id": "2-methylbutan-1-ol"
+  },
+  {
+   "text": "-4.46",
+   "value": -4.46,
+   "reasoning_tokens": 2525,
+   "completion": 2530,
+   "cost": 0.00382575,
+   "finish": "stop",
+   "mol_id": "2-methylbutan-1-ol"
+  },
+  {
+   "text": "-4.61",
+   "value": -4.61,
+   "reasoning_tokens": 1518,
+   "completion": 1523,
+   "cost": 0.00231525,
+   "finish": "stop",
+   "mol_id": "2-methylbutan-1-ol"
+  },
+  {
+   "text": "-4.72",
+   "value": -4.72,
+   "reasoning_tokens": 871,
+   "completion": 876,
+   "cost": 0.0013455,
+   "finish": "stop",
+   "mol_id": "2-iodophenol"
+  },
+  {
+   "text": "-4.48",
+   "value": -4.48,
+   "reasoning_tokens": 829,
+   "completion": 834,
+   "cost": 0.0012825,
+   "finish": "stop",
+   "mol_id": "2-iodophenol"
+  },
+  {
+   "text": "-4.43",
+   "value": -4.43,
+   "reasoning_tokens": 1767,
+   "completion": 1772,
+   "cost": 0.0026895,
+   "finish": "stop",
+   "mol_id": "2-iodophenol"
+  },
+  {
+   "text": "-8.84",
+   "value": -8.84,
+   "reasoning_tokens": 1982,
+   "completion": 1987,
+   "cost": 0.00301125,
+   "finish": "stop",
+   "mol_id": "2,6-dimethoxyphenol"
+  },
+  {
+   "text": "-11.45",
+   "value": -11.45,
+   "reasoning_tokens": 4459,
+   "completion": 4465,
+   "cost": 0.00672825,
+   "finish": "stop",
+   "mol_id": "2,6-dimethoxyphenol"
+  },
+  {
+   "text": "-11.45",
+   "value": -11.45,
+   "reasoning_tokens": 2766,
+   "completion": 2772,
+   "cost": 0.00418875,
+   "finish": "stop",
+   "mol_id": "2,6-dimethoxyphenol"
+  },
+  {
+   "text": "-1.13",
+   "value": -1.13,
+   "reasoning_tokens": 970,
+   "completion": 975,
+   "cost": 0.00149175,
+   "finish": "stop",
+   "mol_id": "but-1-yne"
+  },
+  {
+   "text": "-0.40",
+   "value": -0.4,
+   "reasoning_tokens": 813,
+   "completion": 818,
+   "cost": 0.00125625,
+   "finish": "stop",
+   "mol_id": "but-1-yne"
+  },
+  {
+   "text": "-0.82",
+   "value": -0.82,
+   "reasoning_tokens": 1839,
+   "completion": 1844,
+   "cost": 0.00279525,
+   "finish": "stop",
+   "mol_id": "but-1-yne"
+  },
+  {
+   "text": "-0.82",
+   "value": -0.82,
+   "reasoning_tokens": 709,
+   "completion": 714,
+   "cost": 0.001103,
+   "finish": "stop",
+   "mol_id": "trifluoromethylbenzene"
+  },
+  {
+   "text": "-0.34",
+   "value": -0.34,
+   "reasoning_tokens": 1195,
+   "completion": 1200,
+   "cost": 0.001832,
+   "finish": "stop",
+   "mol_id": "trifluoromethylbenzene"
+  },
+  {
+   "text": "-0.84",
+   "value": -0.84,
+   "reasoning_tokens": 537,
+   "completion": 542,
+   "cost": 0.000845,
+   "finish": "stop",
+   "mol_id": "trifluoromethylbenzene"
+  },
+  {
+   "text": "-9.40",
+   "value": -9.4,
+   "reasoning_tokens": 900,
+   "completion": 905,
+   "cost": 0.00138625,
+   "finish": "stop",
+   "mol_id": "hydrazine"
+  },
+  {
+   "text": "-10.40",
+   "value": -10.4,
+   "reasoning_tokens": 772,
+   "completion": 778,
+   "cost": 0.00119575,
+   "finish": "stop",
+   "mol_id": "hydrazine"
+  },
+  {
+   "text": "-9.38",
+   "value": -9.38,
+   "reasoning_tokens": 868,
+   "completion": 873,
+   "cost": 0.00133825,
+   "finish": "stop",
+   "mol_id": "hydrazine"
+  },
+  {
+   "text": "-4.38",
+   "value": -4.38,
+   "reasoning_tokens": 461,
+   "completion": 466,
+   "cost": 0.0007285,
+   "finish": "stop",
+   "mol_id": "2-methylpyridine"
+  },
+  {
+   "text": "-4.68",
+   "value": -4.68,
+   "reasoning_tokens": 581,
+   "completion": 586,
+   "cost": 0.0009085,
+   "finish": "stop",
+   "mol_id": "2-methylpyridine"
+  },
+  {
+   "text": "-4.51",
+   "value": -4.51,
+   "reasoning_tokens": 1198,
+   "completion": 1203,
+   "cost": 0.001834,
+   "finish": "stop",
+   "mol_id": "2-methylpyridine"
+  },
+  {
+   "text": "-14.37",
+   "value": -14.37,
+   "reasoning_tokens": 1339,
+   "completion": 1345,
+   "cost": 0.00204925,
+   "finish": "stop",
+   "mol_id": "simazine"
+  },
+  {
+   "text": "-16.48",
+   "value": -16.48,
+   "reasoning_tokens": 3932,
+   "completion": 3938,
+   "cost": 0.00593875,
+   "finish": "stop",
+   "mol_id": "simazine"
+  },
+  {
+   "text": "-12.27",
+   "value": -12.27,
+   "reasoning_tokens": 1608,
+   "completion": 1614,
+   "cost": 0.00245275,
+   "finish": "stop",
+   "mol_id": "simazine"
+  },
+  {
+   "text": "-4.86",
+   "value": -4.86,
+   "reasoning_tokens": 2481,
+   "completion": 2486,
+   "cost": 0.00376325,
+   "finish": "stop",
+   "mol_id": "2,3-dichlorodibenzo-p-dioxin"
+  },
+  {
+   "text": "-3.37",
+   "value": -3.37,
+   "reasoning_tokens": 3291,
+   "completion": 3296,
+   "cost": 0.00497825,
+   "finish": "stop",
+   "mol_id": "2,3-dichlorodibenzo-p-dioxin"
+  },
+  {
+   "text": "-5.02",
+   "value": -5.02,
+   "reasoning_tokens": 5707,
+   "completion": 5712,
+   "cost": 0.00860225,
+   "finish": "stop",
+   "mol_id": "2,3-dichlorodibenzo-p-dioxin"
+  }
+ ]
+}

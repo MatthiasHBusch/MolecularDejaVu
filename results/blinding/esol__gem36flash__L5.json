@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "gem36flash",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:128",
+  "disjoint_from": "freesolv,ld50",
+  "cost": 0.7854015000000013,
+  "timestamp": "2026-07-28T17:51:01"
+ },
+ "calls": [
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -3.12,
+   "reasoning_tokens": 644,
+   "completion": 819,
+   "cost": 0.00479925,
+   "finish": "stop",
+   "mol_id": "Medrogestone",
+   "truth": -5.27
+  },
+  {
+   "text": "To predict the sample property for the given sample structure, we analyze the st",
+   "value": -3.15,
+   "reasoning_tokens": 447,
+   "completion": 512,
+   "cost": 0.00364125,
+   "finish": "stop",
+   "mol_id": "Androsterone",
+   "truth": -4.402
+  },
+  {
+   "text": "To predict the sample property for the structure string **AAD{AA}araaaaar**, we ",
+   "value": -1.85,
+   "reasoning_tokens": 633,
+   "completion": 824,
+   "cost": 0.00480075,
+   "finish": "stop",
+   "mol_id": "N,N-Diethylaniline",
+   "truth": -3.03
+  },
+  {
+   "text": "To predict the sample property for the provided structure **AaraaaaarY**, we ana",
+   "value": -2.12,
+   "reasoning_tokens": 533,
+   "completion": 663,
+   "cost": 0.00419325,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "To predict the sample property for the structure **AAA{A{AA}araaa{B}aar}asaaa{B}",
+   "value": -5.15,
+   "reasoning_tokens": 1069,
+   "completion": 1371,
+   "cost": 0.00685875,
+   "finish": "stop",
+   "mol_id": "Hexestrol",
+   "truth": -4.43
+  },
+  {
+   "text": "Based on the structural patterns and relationships identified in the training da",
+   "value": -2.45,
+   "reasoning_tokens": 866,
+   "completion": 895,
+   "cost": 0.0050715,
+   "finish": "stop",
+   "mol_id": "Ethirimol",
+   "truth": -3.028
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string, we analyze",
+   "value": -7.1,
+   "reasoning_tokens": 696,
+   "completion": 911,
+   "cost": 0.00512925,
+   "finish": "stop",
+   "mol_id": "2,3',5-PCB",
+   "truth": -6.01
+  },
+  {
+   "text": "To predict the property for the given structure `araaasa{ar}ataaaaatauaaaaasu`, ",
+   "value": -8.15,
+   "reasoning_tokens": 1679,
+   "completion": 1867,
+   "cost": 0.0087135,
+   "finish": "stop",
+   "mol_id": "Triphenylene",
+   "truth": -6.726
+  },
+  {
+   "text": "To predict the sample property for the target sequence, we analyze the structura",
+   "value": -4.25,
+   "reasoning_tokens": 668,
+   "completion": 900,
+   "cost": 0.00509775,
+   "finish": "stop",
+   "mol_id": "chloropropylate",
+   "truth": -4.53
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string (`AA{~B}Dar",
+   "value": -3.95,
+   "reasoning_tokens": 613,
+   "completion": 741,
+   "cost": 0.0044955,
+   "finish": "stop",
+   "mol_id": "acetazolamide",
+   "truth": -2.36
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -3.12,
+   "reasoning_tokens": 683,
+   "completion": 803,
+   "cost": 0.004752,
+   "finish": "stop",
+   "mol_id": "triamcinolone diacetate",
+   "truth": -4.13
+  },
+  {
+   "text": "To predict the sample property for the target sample, we analyze the structural ",
+   "value": -3.12,
+   "reasoning_tokens": 541,
+   "completion": 637,
+   "cost": 0.004125,
+   "finish": "stop",
+   "mol_id": "Flumethasone",
+   "truth": -5.613
+  },
+  {
+   "text": "Based on the structure-property relationships observed in the training dataset, ",
+   "value": -1.25,
+   "reasoning_tokens": 1077,
+   "completion": 1106,
+   "cost": 0.00586575,
+   "finish": "stop",
+   "mol_id": "d-inositol",
+   "truth": 0.35
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -4.65,
+   "reasoning_tokens": 957,
+   "completion": 1092,
+   "cost": 0.00582375,
+   "finish": "stop",
+   "mol_id": "triforine",
+   "truth": -4.19
+  },
+  {
+   "text": "To predict the sample property for the given structure string **AA{A}AA{A}{A}B**",
+   "value": -3.75,
+   "reasoning_tokens": 872,
+   "completion": 1070,
+   "cost": 0.005724,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethyl-2-pentanol",
+   "truth": -0.92
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string **AA{A}{A}A",
+   "value": -0.47,
+   "reasoning_tokens": 350,
+   "completion": 574,
+   "cost": 0.003861,
+   "finish": "stop",
+   "mol_id": "2,2-Dimethylpropanol",
+   "truth": -0.4
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -4.15,
+   "reasoning_tokens": 1000,
+   "completion": 1108,
+   "cost": 0.0058755,
+   "finish": "stop",
+   "mol_id": "Etofenprox",
+   "truth": -8.6
+  },
+  {
+   "text": "To predict the sample property for the given structure `Zaraaa{aar}asaaaaasZ`, w",
+   "value": -4.35,
+   "reasoning_tokens": 551,
+   "completion": 746,
+   "cost": 0.0045075,
+   "finish": "stop",
+   "mol_id": "2,4'-PCB",
+   "truth": -5.28
+  },
+  {
+   "text": "To predict the sample property for the given sample structure representation, we",
+   "value": -3.55,
+   "reasoning_tokens": 901,
+   "completion": 1048,
+   "cost": 0.005649,
+   "finish": "stop",
+   "mol_id": "Estrone",
+   "truth": -3.955
+  },
+  {
+   "text": "To predict the sample property for the given structure representation, we analyz",
+   "value": -3.45,
+   "reasoning_tokens": 751,
+   "completion": 819,
+   "cost": 0.00479175,
+   "finish": "stop",
+   "mol_id": "estriol",
+   "truth": -4.955
+  },
+  {
+   "text": "Based on the structural features and patterns observed in the training dataset f",
+   "value": -2.35,
+   "reasoning_tokens": 897,
+   "completion": 934,
+   "cost": 0.0052185,
+   "finish": "stop",
+   "mol_id": "Cyclopropyl-5-spirobarbituric acid",
+   "truth": -1.886
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -2.68,
+   "reasoning_tokens": 693,
+   "completion": 861,
+   "cost": 0.00494625,
+   "finish": "stop",
+   "mol_id": "RTI 15",
+   "truth": -4.553999999999999
+  },
+  {
+   "text": "To predict the sample property for the structure **AAAAA{A}B**, we analyze the r",
+   "value": -0.535,
+   "reasoning_tokens": 519,
+   "completion": 682,
+   "cost": 0.00426525,
+   "finish": "stop",
+   "mol_id": "2-Hexanol",
+   "truth": -0.89
+  },
+  {
+   "text": "To predict the property for the given sample structure representation, we analyz",
+   "value": -1.35,
+   "reasoning_tokens": 715,
+   "completion": 879,
+   "cost": 0.00500775,
+   "finish": "stop",
+   "mol_id": "2,2,3-Trimethylbutane",
+   "truth": -4.36
+  },
+  {
+   "text": "To predict the property for the sample structure string **AA{B}A{A}{A}A**, we an",
+   "value": -2.15,
+   "reasoning_tokens": 870,
+   "completion": 1038,
+   "cost": 0.005604,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanol",
+   "truth": -0.62
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string **Yaraaa{H}",
+   "value": -2.12,
+   "reasoning_tokens": 701,
+   "completion": 834,
+   "cost": 0.00483525,
+   "finish": "stop",
+   "mol_id": "p-Bromoiodobenzene",
+   "truth": -4.56
+  },
+  {
+   "text": "Based on the structural properties and patterns observed in the training dataset",
+   "value": -2.58,
+   "reasoning_tokens": 1149,
+   "completion": 1209,
+   "cost": 0.00624675,
+   "finish": "stop",
+   "mol_id": "2,3,4-Trichlorophenol",
+   "truth": -2.67
+  },
+  {
+   "text": "To predict the sample property for the given sample structure representation, we",
+   "value": -2.85,
+   "reasoning_tokens": 933,
+   "completion": 1192,
+   "cost": 0.00618975,
+   "finish": "stop",
+   "mol_id": "Mebendazole",
+   "truth": -3.88
+  },
+  {
+   "text": "-7.65",
+   "value": -7.65,
+   "reasoning_tokens": 676,
+   "completion": 681,
+   "cost": 0.00427725,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,5,5',6-PCB",
+   "truth": -8.94
+  },
+  {
+   "text": "To predict the property of the given sample structure string, we analyze the str",
+   "value": -2.5,
+   "reasoning_tokens": 820,
+   "completion": 1003,
+   "cost": 0.00547575,
+   "finish": "stop",
+   "mol_id": "RTI 10",
+   "truth": -3.672
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string, we analyze",
+   "value": -7.45,
+   "reasoning_tokens": 633,
+   "completion": 887,
+   "cost": 0.00504675,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',6,6'-PCB",
+   "truth": -8.71
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string `DA{~B}DArD",
+   "value": -2.15,
+   "reasoning_tokens": 721,
+   "completion": 911,
+   "cost": 0.00513,
+   "finish": "stop",
+   "mol_id": "allantoin",
+   "truth": -1.6
+  },
+  {
+   "text": "To predict the sample property for the given sample structure representation, we",
+   "value": -2.23,
+   "reasoning_tokens": 753,
+   "completion": 889,
+   "cost": 0.0050445,
+   "finish": "stop",
+   "mol_id": "3,5-Dichlorophenol",
+   "truth": -1.34
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string **AAAABA{~B",
+   "value": -2.38,
+   "reasoning_tokens": 700,
+   "completion": 957,
+   "cost": 0.00530025,
+   "finish": "stop",
+   "mol_id": "Butamben",
+   "truth": -3.082
+  },
+  {
+   "text": "To predict the sample property for the given sample structure representation, we",
+   "value": -3.15,
+   "reasoning_tokens": 246,
+   "completion": 292,
+   "cost": 0.002826,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone 21-acetate",
+   "truth": -4.88
+  },
+  {
+   "text": "To predict the sample property for the given structure string `B~ArDA{~B}DA{~B}A",
+   "value": -2.35,
+   "reasoning_tokens": 710,
+   "completion": 1012,
+   "cost": 0.00551325,
+   "finish": "stop",
+   "mol_id": "5-Ethyl-5-isopropylbarbituric acid",
+   "truth": -2.148
+  },
+  {
+   "text": "To predict the sample property for the given sample structure **AAA{B}A{A}A**, w",
+   "value": -0.65,
+   "reasoning_tokens": 739,
+   "completion": 907,
+   "cost": 0.00511125,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "To predict the sample property for the provided structure, we analyze the struct",
+   "value": -3.85,
+   "reasoning_tokens": 810,
+   "completion": 885,
+   "cost": 0.005037,
+   "finish": "stop",
+   "mol_id": "Equilenin",
+   "truth": -5.24
+  },
+  {
+   "text": "Based on the patterns observed in similar structural representations from the tr",
+   "value": -5.47,
+   "reasoning_tokens": 347,
+   "completion": 413,
+   "cost": 0.00326025,
+   "finish": "stop",
+   "mol_id": "Carbazole",
+   "truth": -5.27
+  },
+  {
+   "text": "To predict the property of the given sample structure string **Zaraaaa{H}ar**, w",
+   "value": -2.15,
+   "reasoning_tokens": 797,
+   "completion": 964,
+   "cost": 0.00532425,
+   "finish": "stop",
+   "mol_id": "m-Chloroiodobenzene",
+   "truth": -3.55
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string, we analyze",
+   "value": -7.35,
+   "reasoning_tokens": 667,
+   "completion": 900,
+   "cost": 0.00509025,
+   "finish": "stop",
+   "mol_id": "2,2',3,5'-PCB",
+   "truth": -6.47
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -3.52,
+   "reasoning_tokens": 713,
+   "completion": 789,
+   "cost": 0.0046845,
+   "finish": "stop",
+   "mol_id": "Corticosterone",
+   "truth": -3.24
+  },
+  {
+   "text": "Based on the analysis of the structural patterns, functional groups, and molecul",
+   "value": -3.15,
+   "reasoning_tokens": 1024,
+   "completion": 1061,
+   "cost": 0.005706,
+   "finish": "stop",
+   "mol_id": "Riboflavin",
+   "truth": -3.685
+  },
+  {
+   "text": "Based on the structure-property relationships observed in the training dataset, ",
+   "value": -3.42,
+   "reasoning_tokens": 533,
+   "completion": 562,
+   "cost": 0.00382725,
+   "finish": "stop",
+   "mol_id": "Stanolone",
+   "truth": -4.743
+  },
+  {
+   "text": "To predict the property for the given sample structure representation, we analyz",
+   "value": -7.85,
+   "reasoning_tokens": 651,
+   "completion": 849,
+   "cost": 0.004902,
+   "finish": "stop",
+   "mol_id": "2,3',4,4'-PCB",
+   "truth": -7.8
+  },
+  {
+   "text": "Based on the structural patterns and property correlations present in the traini",
+   "value": -1.48,
+   "reasoning_tokens": 819,
+   "completion": 850,
+   "cost": 0.00489975,
+   "finish": "stop",
+   "mol_id": "parabanic acid",
+   "truth": -0.4
+  },
+  {
+   "text": "To predict the sample property for the target structure **AADsaraa{D{A}A}aa{A}ar",
+   "value": -2.62,
+   "reasoning_tokens": 657,
+   "completion": 811,
+   "cost": 0.0047625,
+   "finish": "stop",
+   "mol_id": "RTI 22",
+   "truth": -4.871
+  },
+  {
+   "text": "Based on the structure-property relationship observed in the training data for p",
+   "value": -8.85,
+   "reasoning_tokens": 1597,
+   "completion": 1668,
+   "cost": 0.00796275,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "To predict the sample property for the target structure string `araaasa{ar}aaata",
+   "value": -8.52,
+   "reasoning_tokens": 886,
+   "completion": 1143,
+   "cost": 0.00600075,
+   "finish": "stop",
+   "mol_id": "Picene",
+   "truth": -7.87
+  },
+  {
+   "text": "To predict the sample property for the given structure string **AAs~AA{~B}araaaa",
+   "value": -3.15,
+   "reasoning_tokens": 907,
+   "completion": 1081,
+   "cost": 0.00576675,
+   "finish": "stop",
+   "mol_id": "Menadione",
+   "truth": -3.03
+  },
+  {
+   "text": "-9.20",
+   "value": -9.2,
+   "reasoning_tokens": 804,
+   "completion": 809,
+   "cost": 0.00476625,
+   "finish": "stop",
+   "mol_id": "Diosgenin",
+   "truth": -7.32
+  },
+  {
+   "text": "To predict the sample property for the given structure string **Aarasaaaaasaataa",
+   "value": -5.25,
+   "reasoning_tokens": 1179,
+   "completion": 1341,
+   "cost": 0.00673875,
+   "finish": "stop",
+   "mol_id": "9-Methylanthracene",
+   "truth": -5.89
+  },
+  {
+   "text": "To predict the sample property for the structure **AAA{A}AAB**, we analyze the r",
+   "value": -0.67,
+   "reasoning_tokens": 956,
+   "completion": 1143,
+   "cost": 0.005994,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "To predict the sample property for the given sequence **Arasaaaaasataaauaaaaauar",
+   "value": -5.62,
+   "reasoning_tokens": 695,
+   "completion": 898,
+   "cost": 0.005079,
+   "finish": "stop",
+   "mol_id": "Benzo(a)fluorene",
+   "truth": -6.68
+  },
+  {
+   "text": "Based on the relationships observed in the training data for homopolymer sequenc",
+   "value": -7.41,
+   "reasoning_tokens": 2010,
+   "completion": 2042,
+   "cost": 0.00936375,
+   "finish": "stop",
+   "mol_id": "hexacosane",
+   "truth": -8.334
+  },
+  {
+   "text": "Based on the analysis of structural patterns and property correlations in the tr",
+   "value": -3.21,
+   "reasoning_tokens": 892,
+   "completion": 923,
+   "cost": 0.00518325,
+   "finish": "stop",
+   "mol_id": "pregnenolone",
+   "truth": -4.65
+  },
+  {
+   "text": "To predict the property for the given sample structure string `AAAAAA{A}{A}B`, w",
+   "value": -3.35,
+   "reasoning_tokens": 719,
+   "completion": 950,
+   "cost": 0.005274,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-heptanol",
+   "truth": -1.72
+  },
+  {
+   "text": "-2.15",
+   "value": -2.15,
+   "reasoning_tokens": 639,
+   "completion": 644,
+   "cost": 0.004122,
+   "finish": "stop",
+   "mol_id": "N-Ethylaniline",
+   "truth": -1.7
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -5.15,
+   "reasoning_tokens": 876,
+   "completion": 1010,
+   "cost": 0.005508,
+   "finish": "stop",
+   "mol_id": "Tricresyl phosphate",
+   "truth": -6.01
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -6.15,
+   "reasoning_tokens": 674,
+   "completion": 805,
+   "cost": 0.00474525,
+   "finish": "stop",
+   "mol_id": "hematein",
+   "truth": -2.7
+  },
+  {
+   "text": "To predict the sample property for the given structure representation **B~ArDA{~",
+   "value": -2.15,
+   "reasoning_tokens": 808,
+   "completion": 1077,
+   "cost": 0.0057555,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "To predict the sample property for the given structure string `ara{Z}aaaarasaaaa",
+   "value": -4.1,
+   "reasoning_tokens": 870,
+   "completion": 1125,
+   "cost": 0.00592875,
+   "finish": "stop",
+   "mol_id": "3-Chlorobiphenyl",
+   "truth": -4.88
+  },
+  {
+   "text": "To predict the sample property for the given sample structure representation, we",
+   "value": -2.72,
+   "reasoning_tokens": 712,
+   "completion": 901,
+   "cost": 0.00509775,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "To predict the sample property for the given structure, we analyze the structura",
+   "value": -3.12,
+   "reasoning_tokens": 797,
+   "completion": 899,
+   "cost": 0.0050955,
+   "finish": "stop",
+   "mol_id": "Hydroxyprogesterone-17a",
+   "truth": -3.817
+  },
+  {
+   "text": "To predict the sample property for the given structure string **Yaraaaasaaaaars*",
+   "value": -1.95,
+   "reasoning_tokens": 712,
+   "completion": 858,
+   "cost": 0.0049245,
+   "finish": "stop",
+   "mol_id": "1-Bromonapthalene",
+   "truth": -4.35
+  },
+  {
+   "text": "To predict the sample property for the given structure string **Dardadasda{dH}ar",
+   "value": -2.15,
+   "reasoning_tokens": 1158,
+   "completion": 1369,
+   "cost": 0.00684225,
+   "finish": "stop",
+   "mol_id": "adenine",
+   "truth": -2.12
+  },
+  {
+   "text": "Based on the structure-property relationships observed in the training dataset, ",
+   "value": -3.95,
+   "reasoning_tokens": 1128,
+   "completion": 1157,
+   "cost": 0.00607275,
+   "finish": "stop",
+   "mol_id": "Fluoromethalone",
+   "truth": -4.099
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string, we analyze",
+   "value": -1.65,
+   "reasoning_tokens": 527,
+   "completion": 595,
+   "cost": 0.0039435,
+   "finish": "stop",
+   "mol_id": "Hypoxanthine",
+   "truth": -2.296
+  },
+  {
+   "text": "To predict the sample property for the structure **A~AAE{~B}EAA~A**, we analyze ",
+   "value": -3.15,
+   "reasoning_tokens": 535,
+   "completion": 719,
+   "cost": 0.004407,
+   "finish": "stop",
+   "mol_id": "allicin",
+   "truth": -0.83
+  },
+  {
+   "text": "Based on the analysis of the structure-property relationships in the provided tr",
+   "value": -1.65,
+   "reasoning_tokens": 585,
+   "completion": 617,
+   "cost": 0.00402675,
+   "finish": "stop",
+   "mol_id": "1,2-Dichlorotetrafluoroethane",
+   "truth": -2.74
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string `B~ArDA{~B}",
+   "value": -2.15,
+   "reasoning_tokens": 796,
+   "completion": 1099,
+   "cost": 0.005841,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string, we analyze",
+   "value": -2.65,
+   "reasoning_tokens": 537,
+   "completion": 687,
+   "cost": 0.00429225,
+   "finish": "stop",
+   "mol_id": "RTI 19",
+   "truth": -4.749
+  },
+  {
+   "text": "To predict the sample property for the given structure representation (`Zaraa{Z}",
+   "value": -7.45,
+   "reasoning_tokens": 772,
+   "completion": 891,
+   "cost": 0.00506025,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',5,5'-PCB",
+   "truth": -8.56
+  },
+  {
+   "text": "Based on the structural similarities in the dataset (such as comparing `Daraaaas",
+   "value": -1.85,
+   "reasoning_tokens": 866,
+   "completion": 953,
+   "cost": 0.00528075,
+   "finish": "stop",
+   "mol_id": "1-Iodonapthalene",
+   "truth": -4.55
+  },
+  {
+   "text": "To predict the sample property for the target sample, we compare its structural ",
+   "value": -2.12,
+   "reasoning_tokens": 581,
+   "completion": 732,
+   "cost": 0.00446775,
+   "finish": "stop",
+   "mol_id": "3-Pentanoyloxymethylphenytoin",
+   "truth": -4.678
+  },
+  {
+   "text": "To predict the property for the given polymer structure representation (`AAAAAAA",
+   "value": -0.88,
+   "reasoning_tokens": 545,
+   "completion": 696,
+   "cost": 0.00431625,
+   "finish": "stop",
+   "mol_id": "Hexadecane",
+   "truth": -8.4
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the re",
+   "value": -0.43,
+   "reasoning_tokens": 701,
+   "completion": 901,
+   "cost": 0.00508875,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "To predict the property for the given sample structure representation, we analyz",
+   "value": -2.15,
+   "reasoning_tokens": 605,
+   "completion": 816,
+   "cost": 0.004779,
+   "finish": "stop",
+   "mol_id": "Dyphylline",
+   "truth": -0.17
+  },
+  {
+   "text": "To predict the property of the given sample structure representation, we analyze",
+   "value": -2.15,
+   "reasoning_tokens": 832,
+   "completion": 944,
+   "cost": 0.00525375,
+   "finish": "stop",
+   "mol_id": "uracil",
+   "truth": -1.4880000000000002
+  },
+  {
+   "text": "To predict the sample property for the given structure string **Adraaa{~B}{dH}ar",
+   "value": -2.05,
+   "reasoning_tokens": 427,
+   "completion": 591,
+   "cost": 0.00392775,
+   "finish": "stop",
+   "mol_id": "1-methyluracil",
+   "truth": -0.807
+  },
+  {
+   "text": "To predict the property for the given sample structure string (`A|ArAAAAAr!A`), ",
+   "value": -1.85,
+   "reasoning_tokens": 725,
+   "completion": 928,
+   "cost": 0.0051885,
+   "finish": "stop",
+   "mol_id": "cis-1,2-Dimethylcyclohexane",
+   "truth": -4.3
+  },
+  {
+   "text": "Based on the structural patterns and property relationships in the provided data",
+   "value": -1.5,
+   "reasoning_tokens": 678,
+   "completion": 710,
+   "cost": 0.00436725,
+   "finish": "stop",
+   "mol_id": "Furane",
+   "truth": -0.82
+  },
+  {
+   "text": "Based on the structural patterns and functional group/branching density relation",
+   "value": -8.25,
+   "reasoning_tokens": 937,
+   "completion": 1053,
+   "cost": 0.005679,
+   "finish": "stop",
+   "mol_id": "Spironolactone",
+   "truth": -4.173
+  },
+  {
+   "text": "To predict the sample property for the given sample structure **ABaraaaa{Z}ar**,",
+   "value": -2.23,
+   "reasoning_tokens": 650,
+   "completion": 797,
+   "cost": 0.00469725,
+   "finish": "stop",
+   "mol_id": "3-Chloroanisole",
+   "truth": -2.78
+  },
+  {
+   "text": "To predict the property for the given sample structure representation, we analyz",
+   "value": -1.35,
+   "reasoning_tokens": 987,
+   "completion": 1071,
+   "cost": 0.00572325,
+   "finish": "stop",
+   "mol_id": "Cycloheptene",
+   "truth": -3.18
+  },
+  {
+   "text": "To predict the sample property for the structure **AAAAAAAAAAAAAAAAAAAA**, we an",
+   "value": -5.85,
+   "reasoning_tokens": 1013,
+   "completion": 1183,
+   "cost": 0.00614175,
+   "finish": "stop",
+   "mol_id": "Eicosane",
+   "truth": -8.172
+  },
+  {
+   "text": "To predict the sample property for the provided structure representation, we ana",
+   "value": -0.72,
+   "reasoning_tokens": 552,
+   "completion": 733,
+   "cost": 0.004455,
+   "finish": "stop",
+   "mol_id": "Ethylcyclohexane",
+   "truth": -4.25
+  },
+  {
+   "text": "To predict the sample property for the provided structure, we analyze the functi",
+   "value": -4.62,
+   "reasoning_tokens": 780,
+   "completion": 905,
+   "cost": 0.0051225,
+   "finish": "stop",
+   "mol_id": "Trimazosin",
+   "truth": -3.638
+  },
+  {
+   "text": "To predict the sample property for the given structure string **B~ArDA{~B}DA{~B}",
+   "value": -2.18,
+   "reasoning_tokens": 886,
+   "completion": 1125,
+   "cost": 0.005937,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-phenylbarbital",
+   "truth": -2.369
+  },
+  {
+   "text": "To predict the property for the given structure string **AAAAAAA{A}B**, we analy",
+   "value": -2.28,
+   "reasoning_tokens": 616,
+   "completion": 801,
+   "cost": 0.00471225,
+   "finish": "stop",
+   "mol_id": "2-Octanol",
+   "truth": -2.09
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -2.35,
+   "reasoning_tokens": 844,
+   "completion": 1046,
+   "cost": 0.00563925,
+   "finish": "stop",
+   "mol_id": "Cyclooctyl-5-spirobarbituric acid",
+   "truth": -2.982
+  },
+  {
+   "text": "To predict the sample property for the target sequence `B~ar{dH}adas{dH}daars`, ",
+   "value": -2.75,
+   "reasoning_tokens": 953,
+   "completion": 1053,
+   "cost": 0.005661,
+   "finish": "stop",
+   "mol_id": "allopurinol",
+   "truth": -2.266
+  },
+  {
+   "text": "To predict the sample property for the given structure representation **Yaraaaa{",
+   "value": -2.65,
+   "reasoning_tokens": 518,
+   "completion": 646,
+   "cost": 0.00413025,
+   "finish": "stop",
+   "mol_id": "1,3-Dibromobenzene",
+   "truth": -3.54
+  },
+  {
+   "text": "To predict the sample property for the given structure string `araasaaaatauaaaav",
+   "value": -8.35,
+   "reasoning_tokens": 637,
+   "completion": 867,
+   "cost": 0.0049665,
+   "finish": "stop",
+   "mol_id": "Perylene",
+   "truth": -8.804
+  },
+  {
+   "text": "To predict the sample property for the target sample, we analyze the structural ",
+   "value": -2.75,
+   "reasoning_tokens": 594,
+   "completion": 727,
+   "cost": 0.004437,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "To predict the property of the sample structure **AAAAAAAAAAAA{~B}BA**, we analy",
+   "value": -3.65,
+   "reasoning_tokens": 710,
+   "completion": 905,
+   "cost": 0.00510225,
+   "finish": "stop",
+   "mol_id": "methyl laurate",
+   "truth": -4.69
+  },
+  {
+   "text": "To predict the sample property for the given structure representation, we compar",
+   "value": -2.26,
+   "reasoning_tokens": 619,
+   "completion": 787,
+   "cost": 0.00467475,
+   "finish": "stop",
+   "mol_id": "3-Heptanoyloxymethylphenytoin",
+   "truth": -6.301
+  },
+  {
+   "text": "To predict the sample property for the given structure, we can analyze the struc",
+   "value": -2.18,
+   "reasoning_tokens": 504,
+   "completion": 696,
+   "cost": 0.004329,
+   "finish": "stop",
+   "mol_id": "thiopental",
+   "truth": -3.36
+  },
+  {
+   "text": "To predict the property of the sample `AEarda{da{dr}D{A}A}D{A}A`, we analyze the",
+   "value": -4.2,
+   "reasoning_tokens": 812,
+   "completion": 1057,
+   "cost": 0.0056805,
+   "finish": "stop",
+   "mol_id": "Simetryn",
+   "truth": -2.676
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we can analyze th",
+   "value": -2.33,
+   "reasoning_tokens": 313,
+   "completion": 418,
+   "cost": 0.003276,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -2.65,
+   "reasoning_tokens": 828,
+   "completion": 907,
+   "cost": 0.00511875,
+   "finish": "stop",
+   "mol_id": "Benznidazole",
+   "truth": -2.81
+  },
+  {
+   "text": "To predict the property for the given sample structure string, we analyze the pa",
+   "value": -8.7,
+   "reasoning_tokens": 1068,
+   "completion": 1261,
+   "cost": 0.00644475,
+   "finish": "stop",
+   "mol_id": "Benzo(e)pyrene",
+   "truth": -7.8
+  },
+  {
+   "text": "To predict the property of the given sample structure representation, we analyze",
+   "value": -3.21,
+   "reasoning_tokens": 668,
+   "completion": 775,
+   "cost": 0.00464025,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "-6.40",
+   "value": -6.4,
+   "reasoning_tokens": 806,
+   "completion": 811,
+   "cost": 0.0047535,
+   "finish": "stop",
+   "mol_id": "2,4,6-PCB",
+   "truth": -6.14
+  },
+  {
+   "text": "To predict the sample property for the given structure representation, we analyz",
+   "value": -2.55,
+   "reasoning_tokens": 602,
+   "completion": 756,
+   "cost": 0.00454275,
+   "finish": "stop",
+   "mol_id": "m-Chlorobromobenzene",
+   "truth": -3.21
+  },
+  {
+   "text": "To predict the sample property for the structure **araasaaataaauaaavaaawaaaraxas",
+   "value": -10.2,
+   "reasoning_tokens": 775,
+   "completion": 955,
+   "cost": 0.00529575,
+   "finish": "stop",
+   "mol_id": "Coronene",
+   "truth": -9.332
+  },
+  {
+   "text": "Based on the structural similarity to related sequence representations in the tr",
+   "value": -3.65,
+   "reasoning_tokens": 1373,
+   "completion": 1442,
+   "cost": 0.00711975,
+   "finish": "stop",
+   "mol_id": "1,3,5-Tribromobenzene",
+   "truth": -5.6
+  },
+  {
+   "text": "To predict the sample property for the structure **AAAAAAA{~B}BAA**, we examine ",
+   "value": -2.35,
+   "reasoning_tokens": 627,
+   "completion": 750,
+   "cost": 0.00452325,
+   "finish": "stop",
+   "mol_id": "Ethyl heptanoate",
+   "truth": -2.74
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -2.25,
+   "reasoning_tokens": 585,
+   "completion": 862,
+   "cost": 0.00494925,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-methylbarbital",
+   "truth": -1.16
+  },
+  {
+   "text": "To predict the sample property of the given structure string, we analyze the str",
+   "value": -6.85,
+   "reasoning_tokens": 1299,
+   "completion": 1591,
+   "cost": 0.00767925,
+   "finish": "stop",
+   "mol_id": "5,6-Dimethylchrysene",
+   "truth": -7.01
+  },
+  {
+   "text": "To predict the sample property for the given structure representation `AAAAAAAAA",
+   "value": -4.85,
+   "reasoning_tokens": 1720,
+   "completion": 1934,
+   "cost": 0.008961,
+   "finish": "stop",
+   "mol_id": "2-Undecanol",
+   "truth": -2.94
+  },
+  {
+   "text": "To predict the sample property for the given structure string `B~ArDA{~B}DA{~B}A",
+   "value": -2.15,
+   "reasoning_tokens": 591,
+   "completion": 808,
+   "cost": 0.00474825,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "To predict the sample property for the target sample, we analyze the structural ",
+   "value": -2.85,
+   "reasoning_tokens": 700,
+   "completion": 935,
+   "cost": 0.005229,
+   "finish": "stop",
+   "mol_id": "5-(3-Methyl-2-butenyl)-5-isoPrbarbital",
+   "truth": -2.593
+  },
+  {
+   "text": "To predict the sample property for the target sequence, we analyze the structura",
+   "value": -3.12,
+   "reasoning_tokens": 247,
+   "completion": 292,
+   "cost": 0.00282,
+   "finish": "stop",
+   "mol_id": "methyltestosterone acetate",
+   "truth": -5.284
+  },
+  {
+   "text": "Based on the structural patterns and sequence length correlations observed in th",
+   "value": -6.34,
+   "reasoning_tokens": 2011,
+   "completion": 2042,
+   "cost": 0.009369,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "To predict the sample property for the given sample structure string **AAA{~A}A*",
+   "value": -0.782,
+   "reasoning_tokens": 838,
+   "completion": 961,
+   "cost": 0.00531225,
+   "finish": "stop",
+   "mol_id": "2-Methyl-1-Butene",
+   "truth": -2.73
+  },
+  {
+   "text": "To predict the sample property for the given structure string **AADsarda{Z}aaarD",
+   "value": -2.9,
+   "reasoning_tokens": 943,
+   "completion": 1163,
+   "cost": 0.0060795,
+   "finish": "stop",
+   "mol_id": "RTI 12",
+   "truth": -4.114
+  },
+  {
+   "text": "To predict the sample property of the target structure string `B~D{~B}araaaaarD{",
+   "value": -2.32,
+   "reasoning_tokens": 557,
+   "completion": 766,
+   "cost": 0.00458625,
+   "finish": "stop",
+   "mol_id": "1,2-Dinitrobenzene",
+   "truth": -3.1
+  },
+  {
+   "text": "Based on the structural patterns and relationships in the dataset, the predicted",
+   "value": -2.1,
+   "reasoning_tokens": 896,
+   "completion": 922,
+   "cost": 0.005166,
+   "finish": "stop",
+   "mol_id": "Tetrabromomethane",
+   "truth": -3.14
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -3.25,
+   "reasoning_tokens": 494,
+   "completion": 587,
+   "cost": 0.00392925,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone",
+   "truth": -3.09
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -4.85,
+   "reasoning_tokens": 915,
+   "completion": 992,
+   "cost": 0.00544125,
+   "finish": "stop",
+   "mol_id": "Quinethazone",
+   "truth": -3.29
+  },
+  {
+   "text": "To predict the sample property for the given structure representation, we analyz",
+   "value": -2.35,
+   "reasoning_tokens": 733,
+   "completion": 867,
+   "cost": 0.0049605,
+   "finish": "stop",
+   "mol_id": "2-Methylanthracene",
+   "truth": -6.96
+  },
+  {
+   "text": "Based on the structural patterns and sequence analysis of the provided dataset, ",
+   "value": -5.61,
+   "reasoning_tokens": 2467,
+   "completion": 2551,
+   "cost": 0.01127625,
+   "finish": "stop",
+   "mol_id": "Benzo(b)fluorene",
+   "truth": -8.04
+  },
+  {
+   "text": "Based on the structural patterns and relationships identified in the training da",
+   "value": -4.85,
+   "reasoning_tokens": 3787,
+   "completion": 3816,
+   "cost": 0.0160275,
+   "finish": "stop",
+   "mol_id": "diethylstilbestrol",
+   "truth": -4.07
+  },
+  {
+   "text": "To predict the sample property for the given structure representation (`AA|A~A|A",
+   "value": -2.54,
+   "reasoning_tokens": 428,
+   "completion": 540,
+   "cost": 0.0037335,
+   "finish": "stop",
+   "mol_id": "trans-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "To predict the sample property for the provided structure, we analyze the archit",
+   "value": -3.25,
+   "reasoning_tokens": 574,
+   "completion": 656,
+   "cost": 0.00418575,
+   "finish": "stop",
+   "mol_id": "deoxycorticosterone acetate",
+   "truth": -4.63
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -3.15,
+   "reasoning_tokens": 794,
+   "completion": 886,
+   "cost": 0.00504,
+   "finish": "stop",
+   "mol_id": "nevirapine",
+   "truth": -3.19
+  },
+  {
+   "text": "To predict the sample property for the given structure representation **AArAAABr",
+   "value": -1.25,
+   "reasoning_tokens": 574,
+   "completion": 658,
+   "cost": 0.0041745,
+   "finish": "stop",
+   "mol_id": "2-Methyltetrahydrofurane",
+   "truth": 0.11
+  },
+  {
+   "text": "To predict the property value for the given sample structure **AD{A{~B}ABardasaa",
+   "value": -2.52,
+   "reasoning_tokens": 721,
+   "completion": 999,
+   "cost": 0.00546075,
+   "finish": "stop",
+   "mol_id": "Mefenacet",
+   "truth": -4.873
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -3.86,
+   "reasoning_tokens": 602,
+   "completion": 735,
+   "cost": 0.00446325,
+   "finish": "stop",
+   "mol_id": "4-methylpteridine",
+   "truth": -0.466
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -6.28,
+   "reasoning_tokens": 818,
+   "completion": 929,
+   "cost": 0.005211,
+   "finish": "stop",
+   "mol_id": "Bendroflumethiazide",
+   "truth": -3.59
+  },
+  {
+   "text": "To predict the sample property for the structure **Zaraaa{Z}a{ar}asa{Z}a{Z}aa{Z}",
+   "value": -7.3,
+   "reasoning_tokens": 789,
+   "completion": 980,
+   "cost": 0.0053955,
+   "finish": "stop",
+   "mol_id": "2,2',3,5,5',6-PCB",
+   "truth": -7.42
+  },
+  {
+   "text": "To predict the sample property for the target structure string **AAAABaraaa{A{~B",
+   "value": -2.85,
+   "reasoning_tokens": 746,
+   "completion": 948,
+   "cost": 0.005274,
+   "finish": "stop",
+   "mol_id": "stadacaine",
+   "truth": -3.84
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -3.85,
+   "reasoning_tokens": 756,
+   "completion": 838,
+   "cost": 0.0048645,
+   "finish": "stop",
+   "mol_id": "Chlorthalidone",
+   "truth": -3.451
+  },
+  {
+   "text": "-1.12",
+   "value": -1.12,
+   "reasoning_tokens": 662,
+   "completion": 667,
+   "cost": 0.00420975,
+   "finish": "stop",
+   "mol_id": "2-Methylheptane",
+   "truth": -5.08
+  },
+  {
+   "text": "To predict the property for the sample structure string **Bara{Z}aaaarZ**, we ca",
+   "value": -2.25,
+   "reasoning_tokens": 703,
+   "completion": 905,
+   "cost": 0.00510375,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "To predict the property for the given sample structure string (`AABA{~B}aradadrA",
+   "value": -3.12,
+   "reasoning_tokens": 497,
+   "completion": 664,
+   "cost": 0.00420375,
+   "finish": "stop",
+   "mol_id": "Etomidate",
+   "truth": -4.735
+  },
+  {
+   "text": "To predict the sample property for the given sample structure **AA{A}{A}Aaraaaaa",
+   "value": -2.55,
+   "reasoning_tokens": 766,
+   "completion": 910,
+   "cost": 0.00512325,
+   "finish": "stop",
+   "mol_id": "t-Pentylbenzene",
+   "truth": -4.15
+  },
+  {
+   "text": "To predict the property of the given sample structure string, we analyze the str",
+   "value": -6.95,
+   "reasoning_tokens": 878,
+   "completion": 1030,
+   "cost": 0.0055785,
+   "finish": "stop",
+   "mol_id": "O,P'-DDD",
+   "truth": -6.51
+  },
+  {
+   "text": "To predict the sample property for the given structure string **BAArBA{A{B}ArB}d",
+   "value": -2.85,
+   "reasoning_tokens": 388,
+   "completion": 445,
+   "cost": 0.0033855,
+   "finish": "stop",
+   "mol_id": "Inosine",
+   "truth": -1.23
+  },
+  {
+   "text": "0.120",
+   "value": 0.12,
+   "reasoning_tokens": 509,
+   "completion": 514,
+   "cost": 0.00363675,
+   "finish": "stop",
+   "mol_id": "1-Hexene-3-ol",
+   "truth": -0.59
+  },
+  {
+   "text": "To predict the sample property for the target structure string, we analyze the s",
+   "value": -2.72,
+   "reasoning_tokens": 788,
+   "completion": 1010,
+   "cost": 0.0055035,
+   "finish": "stop",
+   "mol_id": "RTI 24",
+   "truth": -5.36
+  },
+  {
+   "text": "To predict the sample property for the given structure string, we analyze the st",
+   "value": -2.75,
+   "reasoning_tokens": 583,
+   "completion": 731,
+   "cost": 0.0044595,
+   "finish": "stop",
+   "mol_id": "RTI 23",
+   "truth": -5.153
+  },
+  {
+   "text": "To predict the sample property for the given structure string `BArAAAAAAAr`, we ",
+   "value": -0.65,
+   "reasoning_tokens": 512,
+   "completion": 595,
+   "cost": 0.00393825,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "To predict the sample property for the provided structure, we analyze the struct",
+   "value": -2.15,
+   "reasoning_tokens": 333,
+   "completion": 388,
+   "cost": 0.0031605,
+   "finish": "stop",
+   "mol_id": "Pyrimidine",
+   "truth": 1.1
+  },
+  {
+   "text": "To predict the property for the given sample structure string, we analyze the st",
+   "value": -7.52,
+   "reasoning_tokens": 661,
+   "completion": 916,
+   "cost": 0.0051495,
+   "finish": "stop",
+   "mol_id": "2,2',3,3'-PCB",
+   "truth": -7.28
+  },
+  {
+   "text": "-2.25",
+   "value": -2.25,
+   "reasoning_tokens": 1285,
+   "completion": 1290,
+   "cost": 0.006549,
+   "finish": "stop",
+   "mol_id": "2,7-dimethylquinoline",
+   "truth": -1.94
+  },
+  {
+   "text": "Based on the analysis of the structure-property relationships in the provided da",
+   "value": -3.32,
+   "reasoning_tokens": 0,
+   "completion": 33,
+   "cost": 0.00184725,
+   "finish": "stop",
+   "mol_id": "Danazol",
+   "truth": -5.507000000000001
+  },
+  {
+   "text": "To predict the sample property for the given structure representation **Zaraaa{a",
+   "value": -6.6,
+   "reasoning_tokens": 1055,
+   "completion": 1413,
+   "cost": 0.00701025,
+   "finish": "stop",
+   "mol_id": "4,4'-PCB",
+   "truth": -6.56
+  },
+  {
+   "text": "Based on the structural features and patterns present in the training dataset fo",
+   "value": -3.82,
+   "reasoning_tokens": 1002,
+   "completion": 1041,
+   "cost": 0.00563175,
+   "finish": "stop",
+   "mol_id": "Cortisone",
+   "truth": -3.11
+  }
+ ]
+}

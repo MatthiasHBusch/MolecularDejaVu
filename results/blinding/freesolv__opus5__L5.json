@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "freesolv",
+  "tag": "opus5",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "none",
+  "disjoint_from": "esol,ld50",
+  "cost": 3.0369450000000007,
+  "timestamp": "2026-07-28T16:27:15"
+ },
+ "calls": [
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to decrease (bec",
+   "value": -9.9,
+   "reasoning_tokens": 0,
+   "completion": 604,
+   "cost": 0.02507,
+   "finish": "stop",
+   "mol_id": "1,2,3-trichloro-5-(2,5-dichlorophenyl)benzene",
+   "truth": -3.61
+  },
+  {
+   "text": "**Analysis of related training samples:**\n\n- `AAA{D%}{~B}{B_}` \u2192 -3.92 (three A'",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 386,
+   "cost": 0.01956,
+   "finish": "stop",
+   "mol_id": "isobutyl nitrate",
+   "truth": -1.88
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, similar structures:\n\n- `ara{a{~B}{dH}",
+   "value": -8.5,
+   "reasoning_tokens": 0,
+   "completion": 501,
+   "cost": 0.022465,
+   "finish": "stop",
+   "mol_id": "5-bromouracil",
+   "truth": -18.17
+  },
+  {
+   "text": "**Analysis**\n\nLooking at the training data, branched structures with multiple su",
+   "value": -6.3,
+   "reasoning_tokens": 0,
+   "completion": 466,
+   "cost": 0.02155,
+   "finish": "stop",
+   "mol_id": "1,1,1-trifluoropropan-2-ol",
+   "truth": -4.16
+  },
+  {
+   "text": "Looking at similar branched structures with G groups: \"ara{a{~B}{dH}a{~B}{dH}r}A",
+   "value": -1.5,
+   "reasoning_tokens": 0,
+   "completion": 292,
+   "cost": 0.017215,
+   "finish": "stop",
+   "mol_id": "1,1,2,3,3,3-hexafluoroprop-1-ene",
+   "truth": 2.93
+  },
+  {
+   "text": "## Analyzing the structure\n\nThe string `ADrAAD{AAr}A` contains:\n- Multiple \"D\" g",
+   "value": -7.1,
+   "reasoning_tokens": 0,
+   "completion": 489,
+   "cost": 0.0221,
+   "finish": "stop",
+   "mol_id": "1,4-dimethylpiperazine",
+   "truth": -7.58
+  },
+  {
+   "text": "**Reasoning:**\n\nLooking at the training data, strings containing \"ar...ar\" ring/",
+   "value": -5.02,
+   "reasoning_tokens": 0,
+   "completion": 311,
+   "cost": 0.01763,
+   "finish": "stop",
+   "mol_id": "pyridine-4-carbonitrile",
+   "truth": -6.02
+  },
+  {
+   "text": "# Analysis\n\nLooking at the training data, I need to identify patterns relating s",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 850,
+   "cost": 0.031125,
+   "finish": "stop",
+   "mol_id": "2-chlorobutane",
+   "truth": 0.0
+  },
+  {
+   "text": "-3.00",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01002,
+   "finish": "stop",
+   "mol_id": "methyl 2-cyanoacetate",
+   "truth": -6.72
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures:\n- `AaraaaaarD` \u2192 -5.53\n- `AaraaaaarZ",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 332,
+   "cost": 0.018165,
+   "finish": "stop",
+   "mol_id": "2-methylbenzaldehyde",
+   "truth": -3.93
+  },
+  {
+   "text": "## Analyzing the structure\n\nThe test string `AD{A}A{~B}araaaaar` is closely rela",
+   "value": -5.0,
+   "reasoning_tokens": 0,
+   "completion": 562,
+   "cost": 0.02394,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylbenzamide",
+   "truth": -9.29
+  },
+  {
+   "text": "# Reasoning\n\nLooking at similar all-A chains in training data:\n- AAAAAAA \u2192 -0.74",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 376,
+   "cost": 0.019265,
+   "finish": "stop",
+   "mol_id": "decane",
+   "truth": 3.16
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to decrease (bec",
+   "value": -8.45,
+   "reasoning_tokens": 0,
+   "completion": 617,
+   "cost": 0.02534,
+   "finish": "stop",
+   "mol_id": "3,5-dichloro-2,6-dimethoxyphenol",
+   "truth": -6.44
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures:\n- `araadaar` \u2192 -2.23\n- `AABA{~B}ara",
+   "value": -3.4,
+   "reasoning_tokens": 0,
+   "completion": 335,
+   "cost": 0.01824,
+   "finish": "stop",
+   "mol_id": "1-(4-pyridyl)ethanone",
+   "truth": -7.62
+  },
+  {
+   "text": "<thinking>Let me find similar samples.\n\n\"Aaraaa{aar}A{A}A\" = -3.24? Let me map c",
+   "value": -5.8,
+   "reasoning_tokens": 0,
+   "completion": 2034,
+   "cost": 0.06072,
+   "finish": "stop",
+   "mol_id": "4-ethylphenol",
+   "truth": -6.13
+  },
+  {
+   "text": "-6.10",
+   "value": -6.1,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010025,
+   "finish": "stop",
+   "mol_id": "3-methoxyaniline",
+   "truth": -7.29
+  },
+  {
+   "text": "**Reasoning:**\n\nLooking at similar structures:\n- `AA{A}{A}araaa{aar}B` \u2192 -5.91\n-",
+   "value": -5.1,
+   "reasoning_tokens": 0,
+   "completion": 475,
+   "cost": 0.021765,
+   "finish": "stop",
+   "mol_id": "sec-butylbenzene",
+   "truth": -0.45
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar training samples:\n\n- `ArAADAAr` \u2192 -5.11\n- `ArAAD",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 436,
+   "cost": 0.02077,
+   "finish": "stop",
+   "mol_id": "1-cyclopropylethanone",
+   "truth": -4.61
+  },
+  {
+   "text": "Looking at similar structures:\n- ABA{~B}araaaaar: -3.65 (or -4.59)\n- AAA{D%}{~B}",
+   "value": -7.2,
+   "reasoning_tokens": 0,
+   "completion": 205,
+   "cost": 0.01507,
+   "finish": "stop",
+   "mol_id": "methyl 4-nitrobenzoate",
+   "truth": -6.88
+  },
+  {
+   "text": "-11.9",
+   "value": -11.9,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010185,
+   "finish": "stop",
+   "mol_id": "2-[(1R)-1-methylpropyl]-4,6-dinitro-phenolate",
+   "truth": -6.23
+  },
+  {
+   "text": "-11.9",
+   "value": -11.9,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010115,
+   "finish": "stop",
+   "mol_id": "1,2,3,7-tetrachlorodibenzo-p-dioxin",
+   "truth": -3.84
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, structures with branching and multipl",
+   "value": -6.83,
+   "reasoning_tokens": 0,
+   "completion": 610,
+   "cost": 0.02524,
+   "finish": "stop",
+   "mol_id": "1,2-dinitroxypropane",
+   "truth": -4.95
+  },
+  {
+   "text": "**Analysis**\n\nLooking at related training examples:\n- `AAA{D%}{~B}{B_}` \u2192 -1.10\n",
+   "value": -2.5,
+   "reasoning_tokens": 0,
+   "completion": 451,
+   "cost": 0.021185,
+   "finish": "stop",
+   "mol_id": "hexyl nitrate",
+   "truth": -1.66
+  },
+  {
+   "text": "Looking at the training data, complex branched structures with multiple substitu",
+   "value": 1.5,
+   "reasoning_tokens": 0,
+   "completion": 364,
+   "cost": 0.019095,
+   "finish": "stop",
+   "mol_id": "1,3-bis-(nitrooxy)butane",
+   "truth": -4.29
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures containing the `{D%}{~B}{B_}` motif:",
+   "value": -2.5,
+   "reasoning_tokens": 0,
+   "completion": 367,
+   "cost": 0.019075,
+   "finish": "stop",
+   "mol_id": "butyl nitrate",
+   "truth": -2.09
+  },
+  {
+   "text": "**-9.20**",
+   "value": -9.2,
+   "reasoning_tokens": 0,
+   "completion": 8,
+   "cost": 0.01015,
+   "finish": "stop",
+   "mol_id": "(1S,5R)-2-methyl-5-(1-methylethenyl)-2-cyclohexen-1-ol",
+   "truth": -4.44
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures containing the \"araaa{aar}\" motif:\n\n-",
+   "value": -5.85,
+   "reasoning_tokens": 0,
+   "completion": 469,
+   "cost": 0.021595,
+   "finish": "stop",
+   "mol_id": "phenyl formate",
+   "truth": -3.82
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to decrease (bec",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 567,
+   "cost": 0.02407,
+   "finish": "stop",
+   "mol_id": "1,1-diphenylethene",
+   "truth": -2.78
+  },
+  {
+   "text": "**Analysis:**\n\nComparing similar ring-containing structures:\n- ArAADAAr: -5.11\n-",
+   "value": -0.9,
+   "reasoning_tokens": 0,
+   "completion": 245,
+   "cost": 0.015965,
+   "finish": "stop",
+   "mol_id": "azetidine",
+   "truth": -5.56
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures in the training set:\n\n- `AAaraaaaarB`",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 367,
+   "cost": 0.01905,
+   "finish": "stop",
+   "mol_id": "3-ethylphenol",
+   "truth": -6.25
+  },
+  {
+   "text": "## Analyzing the Structure\n\nThis test string is exceptionally long and complex, ",
+   "value": -13.5,
+   "reasoning_tokens": 0,
+   "completion": 698,
+   "cost": 0.027465,
+   "finish": "stop",
+   "mol_id": "dialifor",
+   "truth": -5.74
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar patterns with terminal \"H\":\n- `AH` \u2192 -1.14\n- `AA",
+   "value": -0.25,
+   "reasoning_tokens": 0,
+   "completion": 331,
+   "cost": 0.01812,
+   "finish": "stop",
+   "mol_id": "1-iodopentane",
+   "truth": -0.14
+  },
+  {
+   "text": "**Reasoning**\n\nLooking at similar structures:\n- AA{A}A \u2192 -1.14\n- AAAA{A}{A}A \u2192 -",
+   "value": -1.5,
+   "reasoning_tokens": 0,
+   "completion": 234,
+   "cost": 0.01571,
+   "finish": "stop",
+   "mol_id": "neopentane",
+   "truth": 2.51
+  },
+  {
+   "text": "-6.85",
+   "value": -6.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010045,
+   "finish": "stop",
+   "mol_id": "trimethoxymethylbenzene",
+   "truth": -4.04
+  },
+  {
+   "text": "<thinking>\nLet me look at similar patterns. \"AA{A}AB\" = ? Let's find: \"AA{A}AB\" ",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 2159,
+   "cost": 0.063845,
+   "finish": "stop",
+   "mol_id": "butan-2-ol",
+   "truth": -4.62
+  },
+  {
+   "text": "Looking at the training data, longer/more complex strings with branches and mult",
+   "value": -10.5,
+   "reasoning_tokens": 0,
+   "completion": 238,
+   "cost": 0.015935,
+   "finish": "stop",
+   "mol_id": "2-chloro-1-(2,4-dichlorophenyl)ethenyl diethyl phosphate",
+   "truth": -7.07
+  },
+  {
+   "text": "-14.8",
+   "value": -14.8,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01036,
+   "finish": "stop",
+   "mol_id": "endrin",
+   "truth": -4.82
+  },
+  {
+   "text": "-9.20",
+   "value": -9.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010085,
+   "finish": "stop",
+   "mol_id": "4-(1-Methylethenyl)-1-cyclohexene-1-carboxaldehyde",
+   "truth": -4.09
+  },
+  {
+   "text": "<reasoning>Long chain with branches; similar samples: \"AD{A}araaaaar\" = -3.24; \"",
+   "value": -5.5,
+   "reasoning_tokens": 0,
+   "completion": 984,
+   "cost": 0.03452,
+   "finish": "stop",
+   "mol_id": "[2-benzhydryloxyethyl]-dimethyl-amine",
+   "truth": -9.34
+  },
+  {
+   "text": "Looking at the training data, deeply nested branched structures with many nested",
+   "value": -15.5,
+   "reasoning_tokens": 0,
+   "completion": 172,
+   "cost": 0.014305,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4R,5R)-Hexan-1,2,3,4,5,6-hexol",
+   "truth": -23.62
+  },
+  {
+   "text": "**Analysis**\n\nLooking at the training data, branched structures with `{...}` gro",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 370,
+   "cost": 0.01914,
+   "finish": "stop",
+   "mol_id": "4-methylpentan-2-ol",
+   "truth": -3.73
+  },
+  {
+   "text": "**Answer: -5.30**",
+   "value": -5.3,
+   "reasoning_tokens": 0,
+   "completion": 12,
+   "cost": 0.01017,
+   "finish": "stop",
+   "mol_id": "2-methyltetrahydrofuran",
+   "truth": -3.3
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures in the training data:\n\n- `araadaar` \u2192",
+   "value": -4.35,
+   "reasoning_tokens": 0,
+   "completion": 319,
+   "cost": 0.017815,
+   "finish": "stop",
+   "mol_id": "1-methylimidazole",
+   "truth": -8.41
+  },
+  {
+   "text": "-6.70",
+   "value": -6.7,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01002,
+   "finish": "stop",
+   "mol_id": "4-hydroxybenzonitrile",
+   "truth": -10.17
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to correlate wit",
+   "value": -7.6,
+   "reasoning_tokens": 0,
+   "completion": 628,
+   "cost": 0.025655,
+   "finish": "stop",
+   "mol_id": "(3R)-3,7-Dimethylocta-1,6-dien-3-yl acetate",
+   "truth": -2.49
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar short strings:\n- ABABA: -3.05\n- ABAAB: 2.13 (od",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 246,
+   "cost": 0.01598,
+   "finish": "stop",
+   "mol_id": "methoxyethane",
+   "truth": -2.1
+  },
+  {
+   "text": "-8.70",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010085,
+   "finish": "stop",
+   "mol_id": "sulfolane",
+   "truth": -8.61
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, structures with many branching groups",
+   "value": -14.0,
+   "reasoning_tokens": 0,
+   "completion": 494,
+   "cost": 0.022315,
+   "finish": "stop",
+   "mol_id": "octafluorocyclobutane",
+   "truth": 3.43
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures in the training data:\n\n- `AAaraaaaar",
+   "value": -3.16,
+   "reasoning_tokens": 0,
+   "completion": 472,
+   "cost": 0.02165,
+   "finish": "stop",
+   "mol_id": "3-ethylpyridine",
+   "truth": -4.59
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar branched structures with Z terminals:\n\n- `A{AZ}A",
+   "value": -3.85,
+   "reasoning_tokens": 0,
+   "completion": 334,
+   "cost": 0.018215,
+   "finish": "stop",
+   "mol_id": "1,4-dichlorobutane",
+   "truth": -2.32
+  },
+  {
+   "text": "Looking at similar structures: AA{A}A{~B}B-type patterns and branched strings wi",
+   "value": -7.0,
+   "reasoning_tokens": 0,
+   "completion": 153,
+   "cost": 0.013715,
+   "finish": "stop",
+   "mol_id": "methyl 2,2-dimethylpropanoate",
+   "truth": -2.4
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to decrease with",
+   "value": -4.1,
+   "reasoning_tokens": 0,
+   "completion": 668,
+   "cost": 0.02664,
+   "finish": "stop",
+   "mol_id": "2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-ethane",
+   "truth": 0.1
+  },
+  {
+   "text": "**Analysis**\n\nLooking at the training data, the property appears to decrease (be",
+   "value": -4.35,
+   "reasoning_tokens": 0,
+   "completion": 468,
+   "cost": 0.02159,
+   "finish": "stop",
+   "mol_id": "2-methylpentan-3-ol",
+   "truth": -3.88
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures in the training data:\n\n- `araa{a{a{ar",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 564,
+   "cost": 0.024125,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(2,3,4,6-tetrachlorophenyl)benzene",
+   "truth": -4.61
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to become more n",
+   "value": -6.8,
+   "reasoning_tokens": 0,
+   "completion": 581,
+   "cost": 0.024515,
+   "finish": "stop",
+   "mol_id": "1,2,3,4,7-pentachlorodibenzo-p-dioxin",
+   "truth": -4.15
+  },
+  {
+   "text": "-11.9",
+   "value": -11.9,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01005,
+   "finish": "stop",
+   "mol_id": "111-trifluoropropan-2-ol",
+   "truth": -4.2
+  },
+  {
+   "text": "<thinking>\nLet's look at similar samples: \"AH\" = -1.14 (?) Let's map carefully.\n",
+   "value": -0.1,
+   "reasoning_tokens": 0,
+   "completion": 3710,
+   "cost": 0.1026,
+   "finish": "stop",
+   "mol_id": "1-iodohexane",
+   "truth": 0.08
+  },
+  {
+   "text": "<thinking>Let me look for similar patterns.\n\nRelated samples: AA{A}A \u2192 -0.99? Le",
+   "value": 0.2,
+   "reasoning_tokens": 0,
+   "completion": 4000,
+   "cost": 0.109865,
+   "finish": "length",
+   "mol_id": "2-chloro-2-methyl-propane",
+   "truth": 1.09
+  },
+  {
+   "text": "**-4.20**",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 8,
+   "cost": 0.010065,
+   "finish": "stop",
+   "mol_id": "methyl 2-chloroacetate",
+   "truth": -4.0
+  },
+  {
+   "text": "Looking at the patterns: branched structures with special tokens tend to have mo",
+   "value": -8.5,
+   "reasoning_tokens": 0,
+   "completion": 157,
+   "cost": 0.0138,
+   "finish": "stop",
+   "mol_id": "pentan-2-ol",
+   "truth": -4.39
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to decrease (bec",
+   "value": -8.9,
+   "reasoning_tokens": 0,
+   "completion": 527,
+   "cost": 0.02308,
+   "finish": "stop",
+   "mol_id": "1,2-dimethylcyclohexane",
+   "truth": 1.58
+  },
+  {
+   "text": "Looking at the training data, strings containing \"{~B}\" and \"{dH}\" branches plus",
+   "value": -9.5,
+   "reasoning_tokens": 0,
+   "completion": 208,
+   "cost": 0.015125,
+   "finish": "stop",
+   "mol_id": "6-chlorouracil",
+   "truth": -15.83
+  },
+  {
+   "text": "<thinking>Let me look at similar structures.\n\n\"ABF{~E}{BA}EAdra{~B}asaaaaasddr\" ",
+   "value": -7.5,
+   "reasoning_tokens": 0,
+   "completion": 321,
+   "cost": 0.017935,
+   "finish": "stop",
+   "mol_id": "1,1,1-trifluoro-2,2,2-trimethoxyethane",
+   "truth": -0.8
+  },
+  {
+   "text": "-9.85",
+   "value": -9.85,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.0101,
+   "finish": "stop",
+   "mol_id": "(2R,5R)-2-methyl-5-(1-methylethenyl)-cyclohexanone",
+   "truth": -3.75
+  },
+  {
+   "text": "## Reasoning\n\nThe string \"ABA{AZ}{BA}BA\" contains branching with multiple substi",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 493,
+   "cost": 0.02221,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trimethoxy-ethane",
+   "truth": -4.59
+  },
+  {
+   "text": "-9.50",
+   "value": -9.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01011,
+   "finish": "stop",
+   "mol_id": "N,N-dimethyl-4-nitro-benzamide",
+   "truth": -11.95
+  },
+  {
+   "text": "**Analysis**\n\nComparing similar structures:\n- `araaa{a{ar}D}Z` \u2192 -2.93\n- `araaa{",
+   "value": -3.6,
+   "reasoning_tokens": 0,
+   "completion": 248,
+   "cost": 0.016075,
+   "finish": "stop",
+   "mol_id": "2-iodophenol",
+   "truth": -6.2
+  },
+  {
+   "text": "**Reasoning:**\n\nThe training set includes \"AAA{D%}{~B}{B_}\" with property -2.86 ",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 208,
+   "cost": 0.0151,
+   "finish": "stop",
+   "mol_id": "1-nitropentane",
+   "truth": -2.82
+  },
+  {
+   "text": "## Analysis\n\nComparing to similar training samples:\n- `AABA{~B}araaaaar` \u2192 -6.09",
+   "value": -7.5,
+   "reasoning_tokens": 0,
+   "completion": 317,
+   "cost": 0.01782,
+   "finish": "stop",
+   "mol_id": "propyl paraben",
+   "truth": -9.37
+  },
+  {
+   "text": "**Reasoning:**\n\nComparing similar strings:\n- `AD{A}araaaaar` \u2192 -3.48\n- `AA{A}{A}",
+   "value": -7.0,
+   "reasoning_tokens": 0,
+   "completion": 311,
+   "cost": 0.017685,
+   "finish": "stop",
+   "mol_id": "4-methoxy-N,N-dimethyl-benzamide",
+   "truth": -11.01
+  },
+  {
+   "text": "# Analysis\n\nLooking at the training data, the property appears to correlate stro",
+   "value": -12.4,
+   "reasoning_tokens": 0,
+   "completion": 976,
+   "cost": 0.03448,
+   "finish": "stop",
+   "mol_id": "nitralin",
+   "truth": -7.98
+  },
+  {
+   "text": "-6.90",
+   "value": -6.9,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010035,
+   "finish": "stop",
+   "mol_id": "3-hydroxybenzaldehyde",
+   "truth": -9.52
+  },
+  {
+   "text": "**Reasoning:**\n\nLooking at the training data, short/simple strings tend to have ",
+   "value": 1.5,
+   "reasoning_tokens": 0,
+   "completion": 446,
+   "cost": 0.02097,
+   "finish": "stop",
+   "mol_id": "hydrogen sulfide",
+   "truth": -0.7
+  },
+  {
+   "text": "## Analyzing the structure\n\nThe test string `A{A{G}{G}G}Z` is a branched structu",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 487,
+   "cost": 0.022055,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trifluoro-ethane",
+   "truth": 0.06
+  },
+  {
+   "text": "Looking at the training data, deeply nested structures with many branches and Z ",
+   "value": -3.9,
+   "reasoning_tokens": 0,
+   "completion": 332,
+   "cost": 0.0183,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(2,3,4-trichlorophenyl)benzene",
+   "truth": -4.4
+  },
+  {
+   "text": "-2.50",
+   "value": -2.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01002,
+   "finish": "stop",
+   "mol_id": "(E)-1,2-dichloroethylene",
+   "truth": -0.78
+  },
+  {
+   "text": "## Reasoning\n\nThe string is complex with multiple branches: a base A with branch",
+   "value": -9.5,
+   "reasoning_tokens": 0,
+   "completion": 385,
+   "cost": 0.019605,
+   "finish": "stop",
+   "mol_id": "ketoprofen",
+   "truth": -10.78
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to decrease (bec",
+   "value": -6.7,
+   "reasoning_tokens": 0,
+   "completion": 507,
+   "cost": 0.022575,
+   "finish": "stop",
+   "mol_id": "methyl 4-methoxybenzoate",
+   "truth": -5.33
+  },
+  {
+   "text": "Looking at similar structures: \"araaasa{ar}A{~B}ata{aaa{atAs~B}D}D\" has -8.70, \"",
+   "value": -7.9,
+   "reasoning_tokens": 0,
+   "completion": 155,
+   "cost": 0.01382,
+   "finish": "stop",
+   "mol_id": "2-amino-9,10-anthraquinone",
+   "truth": -11.53
+  },
+  {
+   "text": "**Analysis**\n\nLooking at the training data, short simple strings tend to have va",
+   "value": 0.5,
+   "reasoning_tokens": 0,
+   "completion": 317,
+   "cost": 0.01775,
+   "finish": "stop",
+   "mol_id": "hydrazine",
+   "truth": -9.3
+  },
+  {
+   "text": "-8.70",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01007,
+   "finish": "stop",
+   "mol_id": "2-bromo-2-chloro-1,1,1-trifluoro-ethane",
+   "truth": -0.11
+  },
+  {
+   "text": "**Analysis**\n\nThe string `ABara{a{a{a{arZ}A~B}Z}BA}B` is a large, heavily branch",
+   "value": -9.2,
+   "reasoning_tokens": 0,
+   "completion": 878,
+   "cost": 0.03189,
+   "finish": "stop",
+   "mol_id": "2,6-dichlorosyringaldehyde",
+   "truth": -8.68
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar training samples:\n\n- `ABA{~B}araaaaar` \u2192 -3.92\n-",
+   "value": -3.6,
+   "reasoning_tokens": 0,
+   "completion": 387,
+   "cost": 0.01955,
+   "finish": "stop",
+   "mol_id": "methyl cyclopropanecarboxylate",
+   "truth": -4.1
+  },
+  {
+   "text": "## Analysis\n\nThe structure is large and branched, containing multiple branches i",
+   "value": -10.2,
+   "reasoning_tokens": 0,
+   "completion": 500,
+   "cost": 0.02247,
+   "finish": "stop",
+   "mol_id": "flurbiprofen",
+   "truth": -8.42
+  },
+  {
+   "text": "Looking at similar deeply nested branched structures with multiple Z termination",
+   "value": -11.5,
+   "reasoning_tokens": 0,
+   "completion": 345,
+   "cost": 0.01863,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(3,4,5-trichlorophenyl)benzene",
+   "truth": -3.17
+  },
+  {
+   "text": "# Analysis\n\nLooking at similar short strings:\n- ABABA: -1.96\n- ABAAB: -0.4 (or -",
+   "value": -1.3,
+   "reasoning_tokens": 0,
+   "completion": 305,
+   "cost": 0.017465,
+   "finish": "stop",
+   "mol_id": "2-methoxyethanamine",
+   "truth": -6.55
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar training samples containing \"ar...ar\" loop motif",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 516,
+   "cost": 0.022755,
+   "finish": "stop",
+   "mol_id": "pyridine-4-carbaldehyde",
+   "truth": -7.0
+  },
+  {
+   "text": "**-6.30**",
+   "value": -6.3,
+   "reasoning_tokens": 0,
+   "completion": 8,
+   "cost": 0.01009,
+   "finish": "stop",
+   "mol_id": "3,3,3-trimethoxypropanenitrile",
+   "truth": -6.4
+  },
+  {
+   "text": "## Reasoning\n\nThe string is long and complex, with many branches, heteroatom-lik",
+   "value": -11.5,
+   "reasoning_tokens": 0,
+   "completion": 502,
+   "cost": 0.02257,
+   "finish": "stop",
+   "mol_id": "captan",
+   "truth": -9.01
+  },
+  {
+   "text": "**Analysis**\n\nThe string \"AAAABA{A*H}{A}B\" is fairly long with branching, multip",
+   "value": -6.5,
+   "reasoning_tokens": 0,
+   "completion": 336,
+   "cost": 0.018285,
+   "finish": "stop",
+   "mol_id": "1-butoxy-2-propanol",
+   "truth": -5.73
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures in the training data:\n\n- `Aaraaa{aarA",
+   "value": -5.8,
+   "reasoning_tokens": 0,
+   "completion": 294,
+   "cost": 0.017225,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylphenol",
+   "truth": -6.16
+  },
+  {
+   "text": "**Analysis**\n\nLooking at related training samples:\n- `AAA{D%}{~B}{B_}` \u2192 -1.34\n-",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 310,
+   "cost": 0.017645,
+   "finish": "stop",
+   "mol_id": "1-nitrobutane",
+   "truth": -3.09
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar short strings with 'E':\n- AEA: -1.61\n- AAE: -3.",
+   "value": -2.3,
+   "reasoning_tokens": 0,
+   "completion": 192,
+   "cost": 0.014635,
+   "finish": "stop",
+   "mol_id": "methylsulfanylethane",
+   "truth": -1.5
+  },
+  {
+   "text": "-2.50",
+   "value": -2.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01003,
+   "finish": "stop",
+   "mol_id": "oct-2-enal",
+   "truth": -3.43
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, this sample closely matches:\n\n**araaa",
+   "value": -8.3,
+   "reasoning_tokens": 0,
+   "completion": 305,
+   "cost": 0.017585,
+   "finish": "stop",
+   "mol_id": "1-amino-4-hydroxy-9,10-anthracenedione",
+   "truth": -9.53
+  },
+  {
+   "text": "**Reasoning:**\n\nLooking at the training data, strings composed mainly of \"A\" wit",
+   "value": -4.3,
+   "reasoning_tokens": 0,
+   "completion": 446,
+   "cost": 0.02104,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylpentane",
+   "truth": 2.52
+  },
+  {
+   "text": "**Analysis**\n\nComparing to similar training samples:\n- \"ABF{~B}{BA}BA\" \u2192 -3.65\n-",
+   "value": -8.3,
+   "reasoning_tokens": 0,
+   "completion": 421,
+   "cost": 0.02049,
+   "finish": "stop",
+   "mol_id": "(1R)-2,2,2-trichloro-1-dimethoxyphosphoryl-ethanol",
+   "truth": -12.74
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to decrease (bec",
+   "value": -9.5,
+   "reasoning_tokens": 0,
+   "completion": 610,
+   "cost": 0.025175,
+   "finish": "stop",
+   "mol_id": "2-chlorosyringaldehyde",
+   "truth": -7.78
+  },
+  {
+   "text": "## Analyzing the Structure\n\nThe string `AA{G}G` contains two \"G\" groups plus a s",
+   "value": 0.85,
+   "reasoning_tokens": 0,
+   "completion": 539,
+   "cost": 0.02332,
+   "finish": "stop",
+   "mol_id": "1,1-difluoroethane",
+   "truth": -0.11
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to become more n",
+   "value": -5.6,
+   "reasoning_tokens": 0,
+   "completion": 442,
+   "cost": 0.02094,
+   "finish": "stop",
+   "mol_id": "diethoxymethoxybenzene",
+   "truth": -5.23
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar training samples with long chains of A's ending ",
+   "value": -1.5,
+   "reasoning_tokens": 0,
+   "completion": 336,
+   "cost": 0.018255,
+   "finish": "stop",
+   "mol_id": "heptan-1-amine",
+   "truth": -3.79
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, structures containing \"Y\" tend to hav",
+   "value": 0.7,
+   "reasoning_tokens": 0,
+   "completion": 369,
+   "cost": 0.01909,
+   "finish": "stop",
+   "mol_id": "2-bromo-2-methyl-propane",
+   "truth": 0.84
+  },
+  {
+   "text": "Looking at the training data, the property becomes strongly negative with increa",
+   "value": -16.5,
+   "reasoning_tokens": 0,
+   "completion": 128,
+   "cost": 0.013235,
+   "finish": "stop",
+   "mol_id": "(2R,3R,4S,5S,6R)-6-(hydroxymethyl)tetrahydropyran-2,3,4,5-tetrol",
+   "truth": -25.47
+  },
+  {
+   "text": "-8.70",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01009,
+   "finish": "stop",
+   "mol_id": "6-isopropyl-3-methyl-1-cyclohex-2-enone",
+   "truth": -4.51
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures with multiple branches and terminal l",
+   "value": 2.3,
+   "reasoning_tokens": 0,
+   "completion": 356,
+   "cost": 0.018775,
+   "finish": "stop",
+   "mol_id": "bromo-trifluoro-methane",
+   "truth": 1.79
+  },
+  {
+   "text": "**Analysis**\n\nComparing similar training samples:\n\n- `araaa{a{ar}D}Z` \u2192 -4.05\n- ",
+   "value": -4.8,
+   "reasoning_tokens": 0,
+   "completion": 364,
+   "cost": 0.018975,
+   "finish": "stop",
+   "mol_id": "2-fluorophenol",
+   "truth": -5.29
+  },
+  {
+   "text": "-6.50",
+   "value": -6.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010065,
+   "finish": "stop",
+   "mol_id": "(2E)-3,7-dimethylocta-2,6-dien-1-ol",
+   "truth": -4.45
+  },
+  {
+   "text": "# Analysis\n\nLooking at similar structures containing ring/chain motifs like \"ara",
+   "value": -1.6,
+   "reasoning_tokens": 0,
+   "completion": 454,
+   "cost": 0.021195,
+   "finish": "stop",
+   "mol_id": "1-methylpyrrole",
+   "truth": -2.89
+  },
+  {
+   "text": "## Analysis\n\nThe training data shows the property becomes more negative with inc",
+   "value": -14.5,
+   "reasoning_tokens": 0,
+   "completion": 684,
+   "cost": 0.027225,
+   "finish": "stop",
+   "mol_id": "heptachlor",
+   "truth": -2.55
+  },
+  {
+   "text": "**-9.20**",
+   "value": -9.2,
+   "reasoning_tokens": 0,
+   "completion": 8,
+   "cost": 0.01016,
+   "finish": "stop",
+   "mol_id": "(2S,5R)-2-isopropyl-5-methylcyclohexanone",
+   "truth": -2.53
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, similar complex branched structures w",
+   "value": -6.0,
+   "reasoning_tokens": 0,
+   "completion": 444,
+   "cost": 0.02106,
+   "finish": "stop",
+   "mol_id": "1-(2-hydroxyethylamino)-9,10-anthraquinone",
+   "truth": -14.21
+  },
+  {
+   "text": "<answer>-13.4</answer>",
+   "value": -13.4,
+   "reasoning_tokens": 0,
+   "completion": 14,
+   "cost": 0.010295,
+   "finish": "stop",
+   "mol_id": "m-bis(trifluoromethyl)benzene",
+   "truth": 1.07
+  },
+  {
+   "text": "## Reasoning\n\nLooking at similar structures with branched terminal groups:\n\n- `A",
+   "value": -3.6,
+   "reasoning_tokens": 0,
+   "completion": 424,
+   "cost": 0.02046,
+   "finish": "stop",
+   "mol_id": "chloro-difluoro-methane",
+   "truth": -0.5
+  },
+  {
+   "text": "# Analysis\n\nLooking at the training data, I need to identify patterns in these s",
+   "value": -1.85,
+   "reasoning_tokens": 0,
+   "completion": 667,
+   "cost": 0.02655,
+   "finish": "stop",
+   "mol_id": "nonanal",
+   "truth": -2.07
+  },
+  {
+   "text": "-4.05",
+   "value": -4.05,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01001,
+   "finish": "stop",
+   "mol_id": "trimethoxymethane",
+   "truth": -4.42
+  },
+  {
+   "text": "## Analysis\n\nThe target string `A{A**H}{araaasaa{aaasar}BA}A{~B}B` is large and ",
+   "value": -13.6,
+   "reasoning_tokens": 0,
+   "completion": 439,
+   "cost": 0.020925,
+   "finish": "stop",
+   "mol_id": "naproxen",
+   "truth": -10.21
+  },
+  {
+   "text": "\\boxed{-8.70}",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 12,
+   "cost": 0.010175,
+   "finish": "stop",
+   "mol_id": "1,1,1-trimethoxyethane",
+   "truth": -4.42
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures with a chain of A's terminating in a",
+   "value": -5.9,
+   "reasoning_tokens": 0,
+   "completion": 353,
+   "cost": 0.01869,
+   "finish": "stop",
+   "mol_id": "pentanoic acid",
+   "truth": -6.16
+  },
+  {
+   "text": "<thinking>Let me look at similar patterns. \"araadaar\" has -3.24. \"araa{dH}ar\" \u2014 ",
+   "value": -3.1,
+   "reasoning_tokens": 0,
+   "completion": 231,
+   "cost": 0.01563,
+   "finish": "stop",
+   "mol_id": "pyrrole",
+   "truth": -4.78
+  },
+  {
+   "text": "-6.10",
+   "value": -6.1,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01001,
+   "finish": "stop",
+   "mol_id": "pyridine-3-carbaldehyde",
+   "truth": -7.1
+  },
+  {
+   "text": "# Analysis\n\nThe structure `Ar{A*H}{{A**H}{{A*H}{{A*H}{Br}B}B}B}B` is highly bran",
+   "value": -12.5,
+   "reasoning_tokens": 0,
+   "completion": 610,
+   "cost": 0.02525,
+   "finish": "stop",
+   "mol_id": "(2S,3R,4S,5R)-oxane-2,3,4,5-tetrol",
+   "truth": -20.52
+  },
+  {
+   "text": "**Analysis**\n\nLooking at the training data, the property appears to decrease (be",
+   "value": -11.5,
+   "reasoning_tokens": 0,
+   "completion": 419,
+   "cost": 0.020395,
+   "finish": "stop",
+   "mol_id": "1,2,2-trifluoroethoxybenzene",
+   "truth": -1.29
+  },
+  {
+   "text": "Looking at similar structures: \"AAAArAAAAr\" (-0.4), \"ArAAAAr\" (-1.43), \"AA{~B}Ba",
+   "value": -3.5,
+   "reasoning_tokens": 0,
+   "completion": 215,
+   "cost": 0.01526,
+   "finish": "stop",
+   "mol_id": "1-cyclohexylethanone",
+   "truth": -3.9
+  },
+  {
+   "text": "**Analysis**\n\nThe string is long and highly branched, containing several special",
+   "value": -9.8,
+   "reasoning_tokens": 0,
+   "completion": 439,
+   "cost": 0.020955,
+   "finish": "stop",
+   "mol_id": "bromacil",
+   "truth": -9.73
+  },
+  {
+   "text": "**Reasoning:**\n\nLooking at similar branched structures:\n- araa{a{aarZ}Z}Z: -4.87",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 265,
+   "cost": 0.016485,
+   "finish": "stop",
+   "mol_id": "4-fluorophenol",
+   "truth": -6.19
+  },
+  {
+   "text": "**Reasoning:**\n\nComparing similar strings:\n- AAA{D%}{~B}{B_} \u2192 -3.65 (from list ",
+   "value": -6.1,
+   "reasoning_tokens": 0,
+   "completion": 264,
+   "cost": 0.016515,
+   "finish": "stop",
+   "mol_id": "nitroxyacetone",
+   "truth": -5.99
+  },
+  {
+   "text": "-8.70",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01006,
+   "finish": "stop",
+   "mol_id": "2,5-dimethyltetrahydrofuran",
+   "truth": -2.92
+  },
+  {
+   "text": "-9.50",
+   "value": -9.5,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010125,
+   "finish": "stop",
+   "mol_id": "(1R,2S,5R)-2-isopropyl-5-methylcyclohexanol",
+   "truth": -3.2
+  },
+  {
+   "text": "Looking at similar structures: \"araaasa{ar}Bata{aa{a{atBs}Z}Z}Z\" = -2.13, \"araaa",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 219,
+   "cost": 0.015395,
+   "finish": "stop",
+   "mol_id": "1-chlorodibenzo-p-dioxin",
+   "truth": -3.52
+  },
+  {
+   "text": "<answer>-8.70</answer>",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 14,
+   "cost": 0.01024,
+   "finish": "stop",
+   "mol_id": "methyl 2,2,2-trifluoroacetate",
+   "truth": -1.1
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar training samples containing the \"Aaraaa{aar}\" r",
+   "value": -6.7,
+   "reasoning_tokens": 0,
+   "completion": 484,
+   "cost": 0.022015,
+   "finish": "stop",
+   "mol_id": "N,N-4-trimethylbenzamide",
+   "truth": -9.76
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures with G branches:\n- `A{Y}Y` \u2192 2.30, `",
+   "value": 1.2,
+   "reasoning_tokens": 0,
+   "completion": 343,
+   "cost": 0.018445,
+   "finish": "stop",
+   "mol_id": "tetrafluoromethane",
+   "truth": 3.12
+  },
+  {
+   "text": "## Reasoning\n\nLooking at the training data, the property appears related to stru",
+   "value": -5.1,
+   "reasoning_tokens": 0,
+   "completion": 322,
+   "cost": 0.017935,
+   "finish": "stop",
+   "mol_id": "1,1,1,2-tetramethoxyethane",
+   "truth": -5.73
+  },
+  {
+   "text": "<promptSubject>Prediction reasoning</promptSubject>\n\nLooking at similar structur",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 1501,
+   "cost": 0.047455,
+   "finish": "stop",
+   "mol_id": "1,3,5-trichloro-2-phenyl-benzene",
+   "truth": -2.16
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures in the training data:\n\n- `AABA{~B}ara",
+   "value": -7.35,
+   "reasoning_tokens": 0,
+   "completion": 302,
+   "cost": 0.01745,
+   "finish": "stop",
+   "mol_id": "butyl paraben",
+   "truth": -8.72
+  },
+  {
+   "text": "**Analysis**\n\nLooking at the training data, the property appears to correlate wi",
+   "value": -2.9,
+   "reasoning_tokens": 0,
+   "completion": 624,
+   "cost": 0.02545,
+   "finish": "stop",
+   "mol_id": "2-ethylpyrazine",
+   "truth": -5.45
+  },
+  {
+   "text": "-8.70",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01008,
+   "finish": "stop",
+   "mol_id": "[(2S)-butan-2-yl] nitrate",
+   "truth": -1.82
+  },
+  {
+   "text": "## Analysis\n\nLooking at similar structures in the training data:\n\n- `araaa{aar}B",
+   "value": -6.95,
+   "reasoning_tokens": 0,
+   "completion": 395,
+   "cost": 0.019755,
+   "finish": "stop",
+   "mol_id": "1-benzylimidazole",
+   "truth": -7.63
+  },
+  {
+   "text": "<answer>-14.2</answer>",
+   "value": -14.2,
+   "reasoning_tokens": 0,
+   "completion": 14,
+   "cost": 0.010295,
+   "finish": "stop",
+   "mol_id": "1,2-bis(trifluoromethyl)benzene",
+   "truth": 1.07
+  },
+  {
+   "text": "-2.10",
+   "value": -2.1,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.010035,
+   "finish": "stop",
+   "mol_id": "3-methylheptane",
+   "truth": 2.97
+  },
+  {
+   "text": "Looking at similar structures: \"araaasa{ar}AataaaaatAs\" = -9.71, \"araaasa{ar}Bat",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 220,
+   "cost": 0.01542,
+   "finish": "stop",
+   "mol_id": "2-chlorodibenzo-p-dioxin",
+   "truth": -3.1
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures:\n- `AAaraaaaar` \u2192 -1.46\n- `araadaar`",
+   "value": -1.3,
+   "reasoning_tokens": 0,
+   "completion": 310,
+   "cost": 0.0176,
+   "finish": "stop",
+   "mol_id": "4-ethylpyridine",
+   "truth": -4.73
+  },
+  {
+   "text": "-2.20",
+   "value": -2.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01003,
+   "finish": "stop",
+   "mol_id": "3-methylhexane",
+   "truth": 2.71
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, the property appears to decrease (bec",
+   "value": -12.0,
+   "reasoning_tokens": 0,
+   "completion": 698,
+   "cost": 0.027365,
+   "finish": "stop",
+   "mol_id": "2-bromo-1,1,1,2-tetrafluoro-ethane",
+   "truth": 0.5
+  },
+  {
+   "text": "<thinking>Let me analyze. The similar sample: \"ara{a{~B}{dH}a{~B}{dH}r}A{G}{G}G\"",
+   "value": -15.5,
+   "reasoning_tokens": 0,
+   "completion": 3192,
+   "cost": 0.089735,
+   "finish": "stop",
+   "mol_id": "5-iodouracil",
+   "truth": -18.72
+  },
+  {
+   "text": "-15.0",
+   "value": -15.0,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01009,
+   "finish": "stop",
+   "mol_id": "5-chlorouracil",
+   "truth": -17.74
+  },
+  {
+   "text": "**Analysis**\n\nLooking at similar structures in the training set:\n\n- `ArAAA{AAr}B",
+   "value": -4.7,
+   "reasoning_tokens": 0,
+   "completion": 336,
+   "cost": 0.01827,
+   "finish": "stop",
+   "mol_id": "cyclopentanol",
+   "truth": -5.49
+  },
+  {
+   "text": "-3.20",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.01002,
+   "finish": "stop",
+   "mol_id": "(2E)-hex-2-enal",
+   "truth": -3.68
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, patterns emerge based on structure co",
+   "value": 1.05,
+   "reasoning_tokens": 0,
+   "completion": 612,
+   "cost": 0.025145,
+   "finish": "stop",
+   "mol_id": "chloro-fluoro-methane",
+   "truth": -0.77
+  },
+  {
+   "text": "## Analysis\n\nLooking at the training data, simple all-\"A\" chains and lightly bra",
+   "value": -2.2,
+   "reasoning_tokens": 0,
+   "completion": 483,
+   "cost": 0.021935,
+   "finish": "stop",
+   "mol_id": "2-methylhexane",
+   "truth": 2.93
+  }
+ ]
+}

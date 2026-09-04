@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "esol",
+  "tag": "opus5",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "none",
+  "disjoint_from": "freesolv,ld50",
+  "cost": 4.189175,
+  "timestamp": "2026-07-28T15:48:12"
+ },
+ "calls": [
+  {
+   "text": "**Analysis**\n\nMedrogestone is a steroidal progestin (C23H32O2, MW ~340). Steroid",
+   "value": -5.06,
+   "reasoning_tokens": 0,
+   "completion": 224,
+   "cost": 0.02643,
+   "finish": "stop",
+   "mol_id": "Medrogestone",
+   "truth": -5.27
+  },
+  {
+   "text": "**Analysis**\n\nAndrosterone (androsterone, 3-hydroxy-5\u03b1-androstan-17-one) is a C1",
+   "value": -4.4,
+   "reasoning_tokens": 0,
+   "completion": 269,
+   "cost": 0.027485,
+   "finish": "stop",
+   "mol_id": "Androsterone",
+   "truth": -4.402
+  },
+  {
+   "text": "## Analysis\n\nN,N-Diethylaniline is aniline (logS = -0.41) with two ethyl groups ",
+   "value": -3.03,
+   "reasoning_tokens": 0,
+   "completion": 350,
+   "cost": 0.029445,
+   "finish": "stop",
+   "mol_id": "N,N-Diethylaniline",
+   "truth": -3.03
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n2-Bromotoluene is a monosubstituted-ring aromatic hyd",
+   "value": -3.03,
+   "reasoning_tokens": 0,
+   "completion": 185,
+   "cost": 0.0253,
+   "finish": "stop",
+   "mol_id": "2-Bromotoluene",
+   "truth": -2.23
+  },
+  {
+   "text": "**Analysis**\n\nHexestrol (4,4'-(1,2-diethylethylene)diphenol) is a synthetic nons",
+   "value": -5.1,
+   "reasoning_tokens": 0,
+   "completion": 467,
+   "cost": 0.032435,
+   "finish": "stop",
+   "mol_id": "Hexestrol",
+   "truth": -4.43
+  },
+  {
+   "text": "## Analysis\n\nEthirimol is a pyrimidinol fungicide (5-butyl-2-ethylamino-6-methyl",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 461,
+   "cost": 0.03225,
+   "finish": "stop",
+   "mol_id": "Ethirimol",
+   "truth": -3.028
+  },
+  {
+   "text": "## Analysis\n\n**Molecular structure:** 2,3',5-Trichlorobiphenyl \u2014 a trichlorinate",
+   "value": -5.6,
+   "reasoning_tokens": 0,
+   "completion": 435,
+   "cost": 0.03163,
+   "finish": "stop",
+   "mol_id": "2,3',5-PCB",
+   "truth": -6.01
+  },
+  {
+   "text": "<thinking>Triphenylene solubility: log S \u2248 -6.7 (experimental ~ -6.73).</thinkin",
+   "value": -6.73,
+   "reasoning_tokens": 0,
+   "completion": 49,
+   "cost": 0.02195,
+   "finish": "stop",
+   "mol_id": "Triphenylene",
+   "truth": -6.726
+  },
+  {
+   "text": "**Reasoning:**\n\nChloropropylate is the dichloro analog of bromopropylate (isopro",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 189,
+   "cost": 0.02554,
+   "finish": "stop",
+   "mol_id": "chloropropylate",
+   "truth": -4.53
+  },
+  {
+   "text": "Acetazolamide is a sulfonamide diuretic with limited water solubility (~0.7\u20131 g/",
+   "value": -2.45,
+   "reasoning_tokens": 0,
+   "completion": 79,
+   "cost": 0.02271,
+   "finish": "stop",
+   "mol_id": "acetazolamide",
+   "truth": -2.36
+  },
+  {
+   "text": "Triamcinolone diacetate is a corticosteroid diester with moderate polarity. Cort",
+   "value": -4.1,
+   "reasoning_tokens": 0,
+   "completion": 101,
+   "cost": 0.02347,
+   "finish": "stop",
+   "mol_id": "triamcinolone diacetate",
+   "truth": -4.13
+  },
+  {
+   "text": "Flumethasone is a corticosteroid with multiple hydroxyl groups and a ketone side",
+   "value": -3.8,
+   "reasoning_tokens": 0,
+   "completion": 132,
+   "cost": 0.024185,
+   "finish": "stop",
+   "mol_id": "Flumethasone",
+   "truth": -5.613
+  },
+  {
+   "text": "## Analysis\n\nInositol is a cyclohexanehexol \u2014 a highly hydrophilic polyol with s",
+   "value": -0.14,
+   "reasoning_tokens": 0,
+   "completion": 430,
+   "cost": 0.031455,
+   "finish": "stop",
+   "mol_id": "d-inositol",
+   "truth": 0.35
+  },
+  {
+   "text": "**Analysis**\n\nTriforine is a piperazine fungicide with two trichloromethyl-forma",
+   "value": 6.9e-05,
+   "reasoning_tokens": 0,
+   "completion": 188,
+   "cost": 0.02555,
+   "finish": "stop",
+   "mol_id": "triforine",
+   "truth": -4.19
+  },
+  {
+   "text": "**Analysis:**\n\n2,4-Dimethyl-2-pentanol is a branched C7 tertiary alcohol (heptan",
+   "value": -1.15,
+   "reasoning_tokens": 0,
+   "completion": 258,
+   "cost": 0.02718,
+   "finish": "stop",
+   "mol_id": "2,4-Dimethyl-2-pentanol",
+   "truth": -0.92
+  },
+  {
+   "text": "# Analysis\n\n2,2-Dimethylpropanol (neopentyl alcohol) is a C5 branched primary al",
+   "value": -0.4,
+   "reasoning_tokens": 0,
+   "completion": 336,
+   "cost": 0.02909,
+   "finish": "stop",
+   "mol_id": "2,2-Dimethylpropanol",
+   "truth": -0.4
+  },
+  {
+   "text": "Etofenprox is a highly lipophilic non-ester pyrethroid (logP ~7), with reported ",
+   "value": 2.7e-09,
+   "reasoning_tokens": 0,
+   "completion": 102,
+   "cost": 0.02335,
+   "finish": "stop",
+   "mol_id": "Etofenprox",
+   "truth": -8.6
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** 2,4'-dichlorobiphenyl \u2014 a dichlorinated biphenyl (MW",
+   "value": -5.28,
+   "reasoning_tokens": 0,
+   "completion": 482,
+   "cost": 0.032775,
+   "finish": "stop",
+   "mol_id": "2,4'-PCB",
+   "truth": -5.28
+  },
+  {
+   "text": "# Analysis\n\n**Estrone** (C18H22O2, MW 270.4) is a steroid with a phenolic A-ring",
+   "value": -4.3,
+   "reasoning_tokens": 0,
+   "completion": 487,
+   "cost": 0.03292,
+   "finish": "stop",
+   "mol_id": "Estrone",
+   "truth": -3.955
+  },
+  {
+   "text": "**Analysis:**\n\nEstriol is a steroid with three hydroxyl groups (one phenolic, tw",
+   "value": -4.02,
+   "reasoning_tokens": 0,
+   "completion": 198,
+   "cost": 0.0257,
+   "finish": "stop",
+   "mol_id": "estriol",
+   "truth": -4.955
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a barbituric acid with a spiro-cyclopropane at C5. B",
+   "value": -1.6,
+   "reasoning_tokens": 0,
+   "completion": 512,
+   "cost": 0.03359,
+   "finish": "stop",
+   "mol_id": "Cyclopropyl-5-spirobarbituric acid",
+   "truth": -1.886
+  },
+  {
+   "text": "# Analysis\n\nThe test molecule is a dipyrido-diazepinone (nevirapine-like) revers",
+   "value": -3.5,
+   "reasoning_tokens": 0,
+   "completion": 584,
+   "cost": 0.03535,
+   "finish": "stop",
+   "mol_id": "RTI 15",
+   "truth": -4.553999999999999
+  },
+  {
+   "text": "Looking at the homologous series: 3-Pentanol (-0.24), 2-Heptanol (-1.55), 3-Hept",
+   "value": -0.96,
+   "reasoning_tokens": 0,
+   "completion": 143,
+   "cost": 0.02423,
+   "finish": "stop",
+   "mol_id": "2-Hexanol",
+   "truth": -0.89
+  },
+  {
+   "text": "**Analysis:**\n\n2,2,3-Trimethylbutane is a branched C7 alkane (triptane). Compari",
+   "value": -4.3,
+   "reasoning_tokens": 0,
+   "completion": 230,
+   "cost": 0.02646,
+   "finish": "stop",
+   "mol_id": "2,2,3-Trimethylbutane",
+   "truth": -4.36
+  },
+  {
+   "text": "## Analysis\n\n3,3-Dimethyl-2-butanol (pinacolyl alcohol) is a C6 branched seconda",
+   "value": -0.6,
+   "reasoning_tokens": 0,
+   "completion": 333,
+   "cost": 0.029045,
+   "finish": "stop",
+   "mol_id": "3,3-Dimethyl-2-butanol",
+   "truth": -0.62
+  },
+  {
+   "text": "## Analysis\n\np-Bromoiodobenzene is a highly hydrophobic, symmetric halogenated b",
+   "value": -4.6,
+   "reasoning_tokens": 0,
+   "completion": 333,
+   "cost": 0.02902,
+   "finish": "stop",
+   "mol_id": "p-Bromoiodobenzene",
+   "truth": -4.56
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n2,3,4-Trichlorophenol is a solid chlorophenol. Known ",
+   "value": -2.67,
+   "reasoning_tokens": 0,
+   "completion": 210,
+   "cost": 0.02601,
+   "finish": "stop",
+   "mol_id": "2,3,4-Trichlorophenol",
+   "truth": -2.67
+  },
+  {
+   "text": "Mebendazole is a benzimidazole carbamate with very low aqueous solubility (~0.03",
+   "value": -5.0,
+   "reasoning_tokens": 0,
+   "completion": 180,
+   "cost": 0.02529,
+   "finish": "stop",
+   "mol_id": "Mebendazole",
+   "truth": -3.88
+  },
+  {
+   "text": "**Analysis**\n\nThis is a heptachlorobiphenyl (7 chlorines). Comparing with traini",
+   "value": -7.92,
+   "reasoning_tokens": 0,
+   "completion": 322,
+   "cost": 0.02895,
+   "finish": "stop",
+   "mol_id": "2,2',3,4,5,5',6-PCB",
+   "truth": -8.94
+  },
+  {
+   "text": "## Analysis\n\nThe test molecule is a pyrido-benzoxazepinone (RTI series), similar",
+   "value": -2.55,
+   "reasoning_tokens": 0,
+   "completion": 478,
+   "cost": 0.03267,
+   "finish": "stop",
+   "mol_id": "RTI 10",
+   "truth": -3.672
+  },
+  {
+   "text": "# Analysis\n\n**Target:** 2,2',4,4',6,6'-Hexachlorobiphenyl (PCB-155), SMILES: Clc",
+   "value": -7.0,
+   "reasoning_tokens": 0,
+   "completion": 453,
+   "cost": 0.032195,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',6,6'-PCB",
+   "truth": -8.71
+  },
+  {
+   "text": "Allantoin is a small, highly polar molecule with multiple urea/hydantoin NH and ",
+   "value": -1.5,
+   "reasoning_tokens": 0,
+   "completion": 166,
+   "cost": 0.02484,
+   "finish": "stop",
+   "mol_id": "allantoin",
+   "truth": -1.6
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n3,5-Dichlorophenol is a moderately polar aromatic com",
+   "value": -1.66,
+   "reasoning_tokens": 0,
+   "completion": 208,
+   "cost": 0.025935,
+   "finish": "stop",
+   "mol_id": "3,5-Dichlorophenol",
+   "truth": -1.34
+  },
+  {
+   "text": "Butamben (butyl 4-aminobenzoate) is a moderately hydrophobic aromatic ester with",
+   "value": -3.1,
+   "reasoning_tokens": 0,
+   "completion": 229,
+   "cost": 0.02642,
+   "finish": "stop",
+   "mol_id": "Butamben",
+   "truth": -3.082
+  },
+  {
+   "text": "# Analysis\n\nHydrocortisone 21-acetate (cortisol acetate) is a corticosteroid est",
+   "value": -4.7,
+   "reasoning_tokens": 0,
+   "completion": 252,
+   "cost": 0.0272,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone 21-acetate",
+   "truth": -4.88
+  },
+  {
+   "text": "**Reasoning:**\n\nThis is probarbital, which appears in the training data itself: ",
+   "value": -2.33,
+   "reasoning_tokens": 0,
+   "completion": 73,
+   "cost": 0.02264,
+   "finish": "stop",
+   "mol_id": "5-Ethyl-5-isopropylbarbituric acid",
+   "truth": -2.148
+  },
+  {
+   "text": "## Analysis\n\n**Target: 2-Methyl-3-pentanol (C6H14O, branched secondary alcohol)*",
+   "value": -0.71,
+   "reasoning_tokens": 0,
+   "completion": 428,
+   "cost": 0.031395,
+   "finish": "stop",
+   "mol_id": "2-Methyl-3-pentanol",
+   "truth": -0.7
+  },
+  {
+   "text": "# Analysis\n\nEquilenin is a naphthalenic steroid (aromatic A/B rings) with a phen",
+   "value": -5.4,
+   "reasoning_tokens": 0,
+   "completion": 352,
+   "cost": 0.02955,
+   "finish": "stop",
+   "mol_id": "Equilenin",
+   "truth": -5.24
+  },
+  {
+   "text": "Carbazole is a tricyclic aromatic amine, similar in size to fluorene (-5.0) but ",
+   "value": -5.2,
+   "reasoning_tokens": 0,
+   "completion": 222,
+   "cost": 0.026255,
+   "finish": "stop",
+   "mol_id": "Carbazole",
+   "truth": -5.27
+  },
+  {
+   "text": "# Analysis\n\nm-Chloroiodobenzene is a halogenated benzene with both Cl and I subs",
+   "value": -3.75,
+   "reasoning_tokens": 0,
+   "completion": 391,
+   "cost": 0.030465,
+   "finish": "stop",
+   "mol_id": "m-Chloroiodobenzene",
+   "truth": -3.55
+  },
+  {
+   "text": "Tetrachlorobiphenyls typically have log S around -6.3 to -6.6. Given 2,3',4',5-P",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 255,
+   "cost": 0.02717,
+   "finish": "stop",
+   "mol_id": "2,2',3,5'-PCB",
+   "truth": -6.47
+  },
+  {
+   "text": "# Analysis\n\nCorticosterone is a steroid hormone (C21H30O4, MW 346.5) with two hy",
+   "value": -3.24,
+   "reasoning_tokens": 0,
+   "completion": 329,
+   "cost": 0.029035,
+   "finish": "stop",
+   "mol_id": "Corticosterone",
+   "truth": -3.24
+  },
+  {
+   "text": "**Answer: -3.68**",
+   "value": -3.68,
+   "reasoning_tokens": 0,
+   "completion": 12,
+   "cost": 0.021155,
+   "finish": "stop",
+   "mol_id": "Riboflavin",
+   "truth": -3.685
+  },
+  {
+   "text": "# Analysis\n\n**Stanolone** (dihydrotestosterone, 5\u03b1-androstan-17\u03b2-ol-3-one) is a ",
+   "value": -4.2,
+   "reasoning_tokens": 0,
+   "completion": 397,
+   "cost": 0.03068,
+   "finish": "stop",
+   "mol_id": "Stanolone",
+   "truth": -4.743
+  },
+  {
+   "text": "**Analysis**\n\nThe molecule is a pentachlorobiphenyl (5 Cl atoms, despite the nam",
+   "value": -7.1,
+   "reasoning_tokens": 0,
+   "completion": 315,
+   "cost": 0.0287,
+   "finish": "stop",
+   "mol_id": "2,3',4,4'-PCB",
+   "truth": -7.8
+  },
+  {
+   "text": "**Analysis:**\n\nParabanic acid (imidazolidine-2,4,5-trione) is a very small, high",
+   "value": -1.0,
+   "reasoning_tokens": 0,
+   "completion": 358,
+   "cost": 0.029635,
+   "finish": "stop",
+   "mol_id": "parabanic acid",
+   "truth": -0.4
+  },
+  {
+   "text": "## Analysis\n\nThe test molecule \"RTI 22\" belongs to the same series as RTI 2 (CCN",
+   "value": -4.1,
+   "reasoning_tokens": 0,
+   "completion": 597,
+   "cost": 0.035695,
+   "finish": "stop",
+   "mol_id": "RTI 22",
+   "truth": -4.871
+  },
+  {
+   "text": "# Analysis\n\nTetradecane (C14H30) is a long-chain saturated hydrocarbon \u2014 extreme",
+   "value": -7.6,
+   "reasoning_tokens": 0,
+   "completion": 366,
+   "cost": 0.02982,
+   "finish": "stop",
+   "mol_id": "Tetradecane",
+   "truth": -7.96
+  },
+  {
+   "text": "## Analysis\n\nPicene is a pentacyclic aromatic hydrocarbon (C22H14), an angular/f",
+   "value": -8.7,
+   "reasoning_tokens": 0,
+   "completion": 366,
+   "cost": 0.029895,
+   "finish": "stop",
+   "mol_id": "Picene",
+   "truth": -7.87
+  },
+  {
+   "text": "Menadione (2-methyl-1,4-naphthoquinone) is a moderately polar solid with MW 172,",
+   "value": -3.03,
+   "reasoning_tokens": 0,
+   "completion": 207,
+   "cost": 0.02587,
+   "finish": "stop",
+   "mol_id": "Menadione",
+   "truth": -3.03
+  },
+  {
+   "text": "<thinking>Diosgenin is a steroidal sapogenin, MW 414, very poorly water soluble.",
+   "value": -6.7,
+   "reasoning_tokens": 0,
+   "completion": 509,
+   "cost": 0.033585,
+   "finish": "stop",
+   "mol_id": "Diosgenin",
+   "truth": -7.32
+  },
+  {
+   "text": "Anthracene has logS \u2248 -6.6; 9-methylanthracene is slightly more soluble in log t",
+   "value": -5.89,
+   "reasoning_tokens": 0,
+   "completion": 83,
+   "cost": 0.02279,
+   "finish": "stop",
+   "mol_id": "9-Methylanthracene",
+   "truth": -5.89
+  },
+  {
+   "text": "## Analysis\n\nThe test molecule SMILES `CCC(C)CCO` is actually 3-methyl-1-pentano",
+   "value": -0.89,
+   "reasoning_tokens": 0,
+   "completion": 379,
+   "cost": 0.03016,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-pentanol",
+   "truth": -0.71
+  },
+  {
+   "text": "## Analysis\n\nBenzo(a)fluorene is a C17H12 PAH \u2014 fluorene with an extra fused ben",
+   "value": -6.68,
+   "reasoning_tokens": 0,
+   "completion": 264,
+   "cost": 0.027335,
+   "finish": "stop",
+   "mol_id": "Benzo(a)fluorene",
+   "truth": -6.68
+  },
+  {
+   "text": "# Analysis\n\nHexacosane (C26H54) is a very long-chain n-alkane. Aqueous solubilit",
+   "value": -8.33,
+   "reasoning_tokens": 0,
+   "completion": 273,
+   "cost": 0.02755,
+   "finish": "stop",
+   "mol_id": "hexacosane",
+   "truth": -8.334
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nPregnenolone is a C21 steroid with a hydroxyl and a k",
+   "value": -4.65,
+   "reasoning_tokens": 0,
+   "completion": 181,
+   "cost": 0.025315,
+   "finish": "stop",
+   "mol_id": "pregnenolone",
+   "truth": -4.65
+  },
+  {
+   "text": "**Analysis**\n\n2-Methyl-2-heptanol is a C8 tertiary alcohol (octanol isomer). Com",
+   "value": -1.85,
+   "reasoning_tokens": 0,
+   "completion": 368,
+   "cost": 0.029905,
+   "finish": "stop",
+   "mol_id": "2-Methyl-2-heptanol",
+   "truth": -1.72
+  },
+  {
+   "text": "**Reasoning:**\n\nAniline has logS = -0.41. Adding an N-ethyl group typically decr",
+   "value": -1.7,
+   "reasoning_tokens": 0,
+   "completion": 187,
+   "cost": 0.02534,
+   "finish": "stop",
+   "mol_id": "N-Ethylaniline",
+   "truth": -1.7
+  },
+  {
+   "text": "Tricresyl phosphate is a large, highly hydrophobic triaryl phosphate ester (MW 3",
+   "value": -6.0,
+   "reasoning_tokens": 0,
+   "completion": 92,
+   "cost": 0.02313,
+   "finish": "stop",
+   "mol_id": "Tricresyl phosphate",
+   "truth": -6.01
+  },
+  {
+   "text": "**Analysis:**\n\nHematein is the oxidized form of hematoxylin, a polyhydroxylated ",
+   "value": -3.1,
+   "reasoning_tokens": 0,
+   "completion": 338,
+   "cost": 0.02925,
+   "finish": "stop",
+   "mol_id": "hematein",
+   "truth": -2.7
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is 5-allyl-5-ethylbarbituric acid, a small barbiturate.",
+   "value": -1.55,
+   "reasoning_tokens": 0,
+   "completion": 421,
+   "cost": 0.03131,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-ethylbarbital",
+   "truth": -1.614
+  },
+  {
+   "text": "-4.88",
+   "value": -4.88,
+   "reasoning_tokens": 0,
+   "completion": 6,
+   "cost": 0.02088,
+   "finish": "stop",
+   "mol_id": "3-Chlorobiphenyl",
+   "truth": -4.88
+  },
+  {
+   "text": "# Analysis\n\nThe RTI series compounds in the training data are dipyrido-diazepino",
+   "value": -1.7,
+   "reasoning_tokens": 0,
+   "completion": 595,
+   "cost": 0.035645,
+   "finish": "stop",
+   "mol_id": "RTI 6",
+   "truth": -3.36
+  },
+  {
+   "text": "17\u03b1-Hydroxyprogesterone: steroid with ketone, enone, and tertiary OH. Progestero",
+   "value": -3.86,
+   "reasoning_tokens": 0,
+   "completion": 134,
+   "cost": 0.0242,
+   "finish": "stop",
+   "mol_id": "Hydroxyprogesterone-17a",
+   "truth": -3.817
+  },
+  {
+   "text": "1-Bromonaphthalene is a fairly hydrophobic aromatic halide (logP ~4.1). Naphthal",
+   "value": -4.35,
+   "reasoning_tokens": 0,
+   "completion": 88,
+   "cost": 0.02289,
+   "finish": "stop",
+   "mol_id": "1-Bromonapthalene",
+   "truth": -4.35
+  },
+  {
+   "text": "## Analysis\n\nAdenine is a small, highly polar purine base with amino and multipl",
+   "value": -2.12,
+   "reasoning_tokens": 0,
+   "completion": 534,
+   "cost": 0.03402,
+   "finish": "stop",
+   "mol_id": "adenine",
+   "truth": -2.12
+  },
+  {
+   "text": "**Analysis**\n\nFluorometholone is a fluorinated corticosteroid (MW \u2248 376). Cortic",
+   "value": -4.7,
+   "reasoning_tokens": 0,
+   "completion": 280,
+   "cost": 0.02788,
+   "finish": "stop",
+   "mol_id": "Fluoromethalone",
+   "truth": -4.099
+  },
+  {
+   "text": "Hypoxanthine is a purine base with limited water solubility (~0.7 g/L, MW 136). ",
+   "value": -2.28,
+   "reasoning_tokens": 0,
+   "completion": 147,
+   "cost": 0.024385,
+   "finish": "stop",
+   "mol_id": "Hypoxanthine",
+   "truth": -2.296
+  },
+  {
+   "text": "# Analysis\n\n**Allicin** (diallyl thiosulfinate, C\u2086H\u2081\u2080OS\u2082, MW \u2248 162.3) contains a",
+   "value": -1.1,
+   "reasoning_tokens": 0,
+   "completion": 551,
+   "cost": 0.03443,
+   "finish": "stop",
+   "mol_id": "allicin",
+   "truth": -0.83
+  },
+  {
+   "text": "## Analysis\n\n1,2-Dichlorotetrafluoroethane (CFC-114) is a highly volatile, very ",
+   "value": -3.1,
+   "reasoning_tokens": 0,
+   "completion": 262,
+   "cost": 0.027315,
+   "finish": "stop",
+   "mol_id": "1,2-Dichlorotetrafluoroethane",
+   "truth": -2.74
+  },
+  {
+   "text": "Looking at similar barbiturates in the training data:\n- Talbutal (CCC(C)C1(CC=C)",
+   "value": -2.42,
+   "reasoning_tokens": 0,
+   "completion": 195,
+   "cost": 0.02563,
+   "finish": "stop",
+   "mol_id": "Secobarbital",
+   "truth": -2.356
+  },
+  {
+   "text": "# Analysis\n\nThe test molecule, RTI 19, is a dibenzo-fused diazepinone-type tricy",
+   "value": -4.9,
+   "reasoning_tokens": 0,
+   "completion": 506,
+   "cost": 0.03338,
+   "finish": "stop",
+   "mol_id": "RTI 19",
+   "truth": -4.749
+  },
+  {
+   "text": "# Analysis\n\n2,2',4,4',5,5'-Hexachlorobiphenyl is a highly hydrophobic hexachlori",
+   "value": -7.92,
+   "reasoning_tokens": 0,
+   "completion": 288,
+   "cost": 0.02806,
+   "finish": "stop",
+   "mol_id": "2,2',4,4',5,5'-PCB",
+   "truth": -8.56
+  },
+  {
+   "text": "# Analysis\n\n1-Iodonaphthalene is a halogenated naphthalene. Naphthalene itself h",
+   "value": -4.55,
+   "reasoning_tokens": 0,
+   "completion": 253,
+   "cost": 0.027015,
+   "finish": "stop",
+   "mol_id": "1-Iodonapthalene",
+   "truth": -4.55
+  },
+  {
+   "text": "<br>\n\nThe training set contains the close analog 3-Hexanoyloxymethylphenytoin (S",
+   "value": -5.34,
+   "reasoning_tokens": 0,
+   "completion": 193,
+   "cost": 0.025705,
+   "finish": "stop",
+   "mol_id": "3-Pentanoyloxymethylphenytoin",
+   "truth": -4.678
+  },
+  {
+   "text": "# Analysis\n\nHexadecane is a long-chain n-alkane (C16), extremely hydrophobic wit",
+   "value": -8.4,
+   "reasoning_tokens": 0,
+   "completion": 225,
+   "cost": 0.026305,
+   "finish": "stop",
+   "mol_id": "Hexadecane",
+   "truth": -8.4
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n3-Methyl-2-butanol is a C5 branched alcohol. Comparab",
+   "value": -0.18,
+   "reasoning_tokens": 0,
+   "completion": 146,
+   "cost": 0.024335,
+   "finish": "stop",
+   "mol_id": "3-Methyl-2-butanol",
+   "truth": -0.18
+  },
+  {
+   "text": "# Analysis\n\nDyphylline (dyprophylline) is theophylline with a 2,3-dihydroxypropy",
+   "value": -0.02,
+   "reasoning_tokens": 0,
+   "completion": 319,
+   "cost": 0.02874,
+   "finish": "stop",
+   "mol_id": "Dyphylline",
+   "truth": -0.17
+  },
+  {
+   "text": "**Analysis:**\n\nUracil is a small, highly polar pyrimidinedione capable of extens",
+   "value": -1.49,
+   "reasoning_tokens": 0,
+   "completion": 198,
+   "cost": 0.025635,
+   "finish": "stop",
+   "mol_id": "uracil",
+   "truth": -1.4880000000000002
+  },
+  {
+   "text": "# Analysis\n\n1-Methyluracil is a small, highly polar pyrimidinedione with H-bond ",
+   "value": -1.05,
+   "reasoning_tokens": 0,
+   "completion": 296,
+   "cost": 0.028105,
+   "finish": "stop",
+   "mol_id": "1-methyluracil",
+   "truth": -0.807
+  },
+  {
+   "text": "# Analysis\n\ncis-1,2-Dimethylcyclohexane is a C8 saturated cyclic hydrocarbon (MW",
+   "value": -4.27,
+   "reasoning_tokens": 0,
+   "completion": 346,
+   "cost": 0.02937,
+   "finish": "stop",
+   "mol_id": "cis-1,2-Dimethylcyclohexane",
+   "truth": -4.3
+  },
+  {
+   "text": "# Analysis\n\nFuran is a small, volatile, aromatic five-membered heterocycle (C\u2084H\u2084",
+   "value": -0.82,
+   "reasoning_tokens": 0,
+   "completion": 264,
+   "cost": 0.02722,
+   "finish": "stop",
+   "mol_id": "Furane",
+   "truth": -0.82
+  },
+  {
+   "text": "Spironolactone is a steroidal lactone with reported aqueous solubility around 22",
+   "value": -4.28,
+   "reasoning_tokens": 0,
+   "completion": 78,
+   "cost": 0.022815,
+   "finish": "stop",
+   "mol_id": "Spironolactone",
+   "truth": -4.173
+  },
+  {
+   "text": "## Analysis\n\n**3-Chloroanisole (COc1cccc(Cl)c1)** \u2014 a monochlorinated anisole.\n\n",
+   "value": -2.6,
+   "reasoning_tokens": 0,
+   "completion": 296,
+   "cost": 0.028085,
+   "finish": "stop",
+   "mol_id": "3-Chloroanisole",
+   "truth": -2.78
+  },
+  {
+   "text": "<thinking>\nCycloheptene aqueous solubility. Cyclohexene logS ~ -2.58. Cyclohepte",
+   "value": -3.18,
+   "reasoning_tokens": 0,
+   "completion": 173,
+   "cost": 0.02498,
+   "finish": "stop",
+   "mol_id": "Cycloheptene",
+   "truth": -3.18
+  },
+  {
+   "text": "Eicosane is a very long-chain n-alkane (C20), extremely hydrophobic with negligi",
+   "value": -8.17,
+   "reasoning_tokens": 0,
+   "completion": 113,
+   "cost": 0.02352,
+   "finish": "stop",
+   "mol_id": "Eicosane",
+   "truth": -8.172
+  },
+  {
+   "text": "**Prediction reasoning:**\n\nEthylcyclohexane is a saturated hydrocarbon (C8H16), ",
+   "value": -4.25,
+   "reasoning_tokens": 0,
+   "completion": 180,
+   "cost": 0.02517,
+   "finish": "stop",
+   "mol_id": "Ethylcyclohexane",
+   "truth": -4.25
+  },
+  {
+   "text": "# Analysis\n\n**Trimazosin** is a quinazoline-based antihypertensive (prazosin ana",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 516,
+   "cost": 0.033755,
+   "finish": "stop",
+   "mol_id": "Trimazosin",
+   "truth": -3.638
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is 5-allyl-5-phenylbarbituric acid (related to phenobar",
+   "value": -2.68,
+   "reasoning_tokens": 0,
+   "completion": 371,
+   "cost": 0.030085,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-phenylbarbital",
+   "truth": -2.369
+  },
+  {
+   "text": "# Analysis\n\n2-Octanol is a secondary C8 alcohol. Using the training data trend f",
+   "value": -2.15,
+   "reasoning_tokens": 0,
+   "completion": 234,
+   "cost": 0.02651,
+   "finish": "stop",
+   "mol_id": "2-Octanol",
+   "truth": -2.09
+  },
+  {
+   "text": "## Analysis\n\n**Structure:** A barbituric acid with a spiro-fused cyclooctane rin",
+   "value": -3.0,
+   "reasoning_tokens": 0,
+   "completion": 483,
+   "cost": 0.03289,
+   "finish": "stop",
+   "mol_id": "Cyclooctyl-5-spirobarbituric acid",
+   "truth": -2.982
+  },
+  {
+   "text": "# Analysis\n\nAllopurinol is a small, highly polar purine analog (pyrazolo[3,4-d]p",
+   "value": -2.42,
+   "reasoning_tokens": 0,
+   "completion": 440,
+   "cost": 0.031695,
+   "finish": "stop",
+   "mol_id": "allopurinol",
+   "truth": -2.266
+  },
+  {
+   "text": "**Answer: -3.54**",
+   "value": -3.54,
+   "reasoning_tokens": 0,
+   "completion": 12,
+   "cost": 0.021,
+   "finish": "stop",
+   "mol_id": "1,3-Dibromobenzene",
+   "truth": -3.54
+  },
+  {
+   "text": "# Reasoning\n\nPerylene is a large, planar, highly symmetric PAH (C20H12) with ver",
+   "value": -8.8,
+   "reasoning_tokens": 0,
+   "completion": 209,
+   "cost": 0.02596,
+   "finish": "stop",
+   "mol_id": "Perylene",
+   "truth": -8.804
+  },
+  {
+   "text": "Dibenzothiophene is a tricyclic aromatic sulfur heterocycle, structurally analog",
+   "value": -5.1,
+   "reasoning_tokens": 0,
+   "completion": 112,
+   "cost": 0.02351,
+   "finish": "stop",
+   "mol_id": "Dibenzothiophene",
+   "truth": -4.38
+  },
+  {
+   "text": "# Analysis\n\nMethyl laurate (methyl dodecanoate) is a long-chain fatty acid methy",
+   "value": -5.14,
+   "reasoning_tokens": 0,
+   "completion": 249,
+   "cost": 0.026915,
+   "finish": "stop",
+   "mol_id": "methyl laurate",
+   "truth": -4.69
+  },
+  {
+   "text": "**Analysis**\n\nThe training set contains the closely related analog 3-Hexanoyloxy",
+   "value": -6.44,
+   "reasoning_tokens": 0,
+   "completion": 260,
+   "cost": 0.02739,
+   "finish": "stop",
+   "mol_id": "3-Heptanoyloxymethylphenytoin",
+   "truth": -6.301
+  },
+  {
+   "text": "# Analysis\n\nThiopental is a thiobarbiturate with a 5-ethyl-5-(1-methylbutyl) sub",
+   "value": -3.36,
+   "reasoning_tokens": 0,
+   "completion": 401,
+   "cost": 0.03076,
+   "finish": "stop",
+   "mol_id": "thiopental",
+   "truth": -3.36
+  },
+  {
+   "text": "# Analysis\n\nSimetryn-like: methylthio-triazine. Compare with:\n- Prometryn (SMe, ",
+   "value": -2.66,
+   "reasoning_tokens": 0,
+   "completion": 272,
+   "cost": 0.027515,
+   "finish": "stop",
+   "mol_id": "Simetryn",
+   "truth": -2.676
+  },
+  {
+   "text": "# Analysis\n\nDibenzofuran is a tricyclic aromatic compound (two benzene rings fus",
+   "value": -4.6,
+   "reasoning_tokens": 0,
+   "completion": 299,
+   "cost": 0.028165,
+   "finish": "stop",
+   "mol_id": "Dibenzofurane",
+   "truth": -4.6
+  },
+  {
+   "text": "## Analysis\n\n**Benznidazole** (N-benzyl-2-(2-nitroimidazol-1-yl)acetamide, MW \u2248 ",
+   "value": -2.81,
+   "reasoning_tokens": 0,
+   "completion": 610,
+   "cost": 0.036,
+   "finish": "stop",
+   "mol_id": "Benznidazole",
+   "truth": -2.81
+  },
+  {
+   "text": "Benzo(e)pyrene is a five-ring PAH (C20H12), isomeric with benzo(a)pyrene (log S ",
+   "value": -7.8,
+   "reasoning_tokens": 0,
+   "completion": 191,
+   "cost": 0.025545,
+   "finish": "stop",
+   "mol_id": "Benzo(e)pyrene",
+   "truth": -7.8
+  },
+  {
+   "text": "## Analysis\n\nPrednisolone acetate is a corticosteroid ester. Prednisolone itself",
+   "value": -4.4,
+   "reasoning_tokens": 0,
+   "completion": 214,
+   "cost": 0.026225,
+   "finish": "stop",
+   "mol_id": "prednisolone acetate",
+   "truth": -4.37
+  },
+  {
+   "text": "**Analysis**\n\nThe molecule is a trichlorobiphenyl (2,4',6-trichlorobiphenyl). Co",
+   "value": -5.6,
+   "reasoning_tokens": 0,
+   "completion": 341,
+   "cost": 0.02928,
+   "finish": "stop",
+   "mol_id": "2,4,6-PCB",
+   "truth": -6.14
+  },
+  {
+   "text": "**Analysis**\n\nm-Chlorobromobenzene is a small, rigid, nonpolar halogenated aroma",
+   "value": -3.27,
+   "reasoning_tokens": 0,
+   "completion": 297,
+   "cost": 0.02812,
+   "finish": "stop",
+   "mol_id": "m-Chlorobromobenzene",
+   "truth": -3.21
+  },
+  {
+   "text": "## Analysis\n\nCoronene is a large, highly symmetric, planar polycyclic aromatic h",
+   "value": -9.33,
+   "reasoning_tokens": 0,
+   "completion": 434,
+   "cost": 0.031625,
+   "finish": "stop",
+   "mol_id": "Coronene",
+   "truth": -9.332
+  },
+  {
+   "text": "1,3,5-Tribromobenzene is a highly symmetric, high-melting (120 \u00b0C) halogenated a",
+   "value": -5.6,
+   "reasoning_tokens": 0,
+   "completion": 160,
+   "cost": 0.024735,
+   "finish": "stop",
+   "mol_id": "1,3,5-Tribromobenzene",
+   "truth": -5.6
+  },
+  {
+   "text": "# Analysis\n\nEthyl hexanoate has measured logS = -2.35. Adding one CH\u2082 typically ",
+   "value": -2.9,
+   "reasoning_tokens": 0,
+   "completion": 105,
+   "cost": 0.023315,
+   "finish": "stop",
+   "mol_id": "Ethyl heptanoate",
+   "truth": -2.74
+  },
+  {
+   "text": "**Analysis**\n\n5-Allyl-5-methylbarbituric acid is a small, low-molecular-weight b",
+   "value": -0.7,
+   "reasoning_tokens": 0,
+   "completion": 351,
+   "cost": 0.02955,
+   "finish": "stop",
+   "mol_id": "5-Allyl-5-methylbarbital",
+   "truth": -1.16
+  },
+  {
+   "text": "**Analysis**\n\n5,6-Dimethylchrysene is a tetracyclic PAH (chrysene, MW 228, logS ",
+   "value": -7.02,
+   "reasoning_tokens": 0,
+   "completion": 345,
+   "cost": 0.029405,
+   "finish": "stop",
+   "mol_id": "5,6-Dimethylchrysene",
+   "truth": -7.01
+  },
+  {
+   "text": "## Analysis\n\n**Target:** 2-Undecanol (C11H24O), a secondary aliphatic alcohol wi",
+   "value": -4.05,
+   "reasoning_tokens": 0,
+   "completion": 395,
+   "cost": 0.030555,
+   "finish": "stop",
+   "mol_id": "2-Undecanol",
+   "truth": -2.94
+  },
+  {
+   "text": "**Analysis**\n\n5,5-Diallylbarbituric acid (allobarbital) \u2014 barbiturates in the tr",
+   "value": -1.8,
+   "reasoning_tokens": 0,
+   "completion": 180,
+   "cost": 0.025275,
+   "finish": "stop",
+   "mol_id": "5,5-Diallylbarbital",
+   "truth": -2.077
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a 5,5-disubstituted barbituric acid with isopropyl a",
+   "value": -2.9,
+   "reasoning_tokens": 0,
+   "completion": 475,
+   "cost": 0.032755,
+   "finish": "stop",
+   "mol_id": "5-(3-Methyl-2-butenyl)-5-isoPrbarbital",
+   "truth": -2.593
+  },
+  {
+   "text": "<reasoning>Methyltestosterone itself has solubility ~ -4.0 (log). Acetate ester ",
+   "value": -5.28,
+   "reasoning_tokens": 0,
+   "completion": 257,
+   "cost": 0.02726,
+   "finish": "stop",
+   "mol_id": "methyltestosterone acetate",
+   "truth": -5.284
+  },
+  {
+   "text": "Naphthacene (tetracene) is a linear four-ring PAH, extremely insoluble. Literatu",
+   "value": -8.6,
+   "reasoning_tokens": 0,
+   "completion": 142,
+   "cost": 0.02427,
+   "finish": "stop",
+   "mol_id": "Napthacene",
+   "truth": -8.6
+  },
+  {
+   "text": "**Reasoning:**\n\n2-Methyl-1-butene is a C5 branched alkene. Comparable compounds ",
+   "value": -2.7,
+   "reasoning_tokens": 0,
+   "completion": 219,
+   "cost": 0.02615,
+   "finish": "stop",
+   "mol_id": "2-Methyl-1-Butene",
+   "truth": -2.73
+  },
+  {
+   "text": "# Analysis\n\nThe test molecule is a dipyridodiazepinone (nevirapine-like) analog:",
+   "value": -3.3,
+   "reasoning_tokens": 0,
+   "completion": 435,
+   "cost": 0.031635,
+   "finish": "stop",
+   "mol_id": "RTI 12",
+   "truth": -4.114
+  },
+  {
+   "text": "1,3-Dinitrobenzene in the training data is -2.29. 1,2-Dinitrobenzene is somewhat",
+   "value": 0.003,
+   "reasoning_tokens": 0,
+   "completion": 265,
+   "cost": 0.02737,
+   "finish": "stop",
+   "mol_id": "1,2-Dinitrobenzene",
+   "truth": -3.1
+  },
+  {
+   "text": "# Analysis\n\nTetrabromomethane (carbon tetrabromide, CBr\u2084) is a highly halogenate",
+   "value": -3.14,
+   "reasoning_tokens": 0,
+   "completion": 243,
+   "cost": 0.026755,
+   "finish": "stop",
+   "mol_id": "Tetrabromomethane",
+   "truth": -3.14
+  },
+  {
+   "text": "# Analysis\n\nHydrocortisone (cortisol) is a corticosteroid with MW 362.5. It cont",
+   "value": -3.09,
+   "reasoning_tokens": 0,
+   "completion": 428,
+   "cost": 0.031535,
+   "finish": "stop",
+   "mol_id": "Hydrocortisone",
+   "truth": -3.09
+  },
+  {
+   "text": "# Analysis\n\n**Quinethazone** is a quinazolinone diuretic (sulfonamide-containing",
+   "value": -3.5,
+   "reasoning_tokens": 0,
+   "completion": 483,
+   "cost": 0.03286,
+   "finish": "stop",
+   "mol_id": "Quinethazone",
+   "truth": -3.29
+  },
+  {
+   "text": "## Analysis\n\n**2-Methylanthracene** is a tricyclic PAH with a methyl substituent",
+   "value": -6.95,
+   "reasoning_tokens": 0,
+   "completion": 324,
+   "cost": 0.028825,
+   "finish": "stop",
+   "mol_id": "2-Methylanthracene",
+   "truth": -6.96
+  },
+  {
+   "text": "## Analysis\n\n**Benzo(b)fluorene** (C\u2081\u2087H\u2081\u2082) is a tetracyclic aromatic hydrocarbon",
+   "value": -6.7,
+   "reasoning_tokens": 0,
+   "completion": 436,
+   "cost": 0.031635,
+   "finish": "stop",
+   "mol_id": "Benzo(b)fluorene",
+   "truth": -8.04
+  },
+  {
+   "text": "**Prediction reasoning:** Diethylstilbestrol (MW 268) is a rigid, planar bis-phe",
+   "value": -4.52,
+   "reasoning_tokens": 0,
+   "completion": 116,
+   "cost": 0.02368,
+   "finish": "stop",
+   "mol_id": "diethylstilbestrol",
+   "truth": -4.07
+  },
+  {
+   "text": "cis-2-Pentene is -2.54; trans isomer is typically slightly less soluble (~-2.54 ",
+   "value": -2.56,
+   "reasoning_tokens": 0,
+   "completion": 52,
+   "cost": 0.021955,
+   "finish": "stop",
+   "mol_id": "trans-2-Pentene",
+   "truth": -2.54
+  },
+  {
+   "text": "# Analysis\n\n**Deoxycorticosterone acetate (DOCA)** is a C21 steroid ester (MW \u2248 ",
+   "value": -4.67,
+   "reasoning_tokens": 0,
+   "completion": 372,
+   "cost": 0.03016,
+   "finish": "stop",
+   "mol_id": "deoxycorticosterone acetate",
+   "truth": -4.63
+  },
+  {
+   "text": "Nevirapine is a rigid, planar tricyclic dipyridodiazepinone with limited water s",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 202,
+   "cost": 0.02581,
+   "finish": "stop",
+   "mol_id": "nevirapine",
+   "truth": -3.19
+  },
+  {
+   "text": "# Analysis\n\n2-Methyltetrahydrofuran is a small cyclic ether (C5H10O, MW 86). Tet",
+   "value": 0.15,
+   "reasoning_tokens": 0,
+   "completion": 392,
+   "cost": 0.030485,
+   "finish": "stop",
+   "mol_id": "2-Methyltetrahydrofurane",
+   "truth": 0.11
+  },
+  {
+   "text": "**Analysis**\n\nMefenacet (2-(1,3-benzothiazol-2-yloxy)-N-methyl-N-phenylacetamide",
+   "value": -4.87,
+   "reasoning_tokens": 0,
+   "completion": 155,
+   "cost": 0.02462,
+   "finish": "stop",
+   "mol_id": "Mefenacet",
+   "truth": -4.873
+  },
+  {
+   "text": "# Analysis\n\nThe training set contains related pteridines:\n- 7-methylpteridine: \u2212",
+   "value": -0.89,
+   "reasoning_tokens": 0,
+   "completion": 260,
+   "cost": 0.027185,
+   "finish": "stop",
+   "mol_id": "4-methylpteridine",
+   "truth": -0.466
+  },
+  {
+   "text": "# Analysis\n\n**Bendroflumethiazide** is a thiazide diuretic with:\n- Two sulfonami",
+   "value": -3.6,
+   "reasoning_tokens": 0,
+   "completion": 396,
+   "cost": 0.030775,
+   "finish": "stop",
+   "mol_id": "Bendroflumethiazide",
+   "truth": -3.59
+  },
+  {
+   "text": "# Analysis\n\nThe molecule is a hexachlorobiphenyl (PCB with 6 chlorines). Looking",
+   "value": -7.3,
+   "reasoning_tokens": 0,
+   "completion": 521,
+   "cost": 0.03389,
+   "finish": "stop",
+   "mol_id": "2,2',3,5,5',6-PCB",
+   "truth": -7.42
+  },
+  {
+   "text": "Analyzing \"stadacaine\": ethyl 4-butoxy-2-(diethylamino)benzoate. It is a fairly ",
+   "value": -4.4,
+   "reasoning_tokens": 0,
+   "completion": 137,
+   "cost": 0.02418,
+   "finish": "stop",
+   "mol_id": "stadacaine",
+   "truth": -3.84
+  },
+  {
+   "text": "# Analysis\n\nChlorthalidone is a sulfonamide diuretic with MW ~338.8. It contains",
+   "value": -3.4,
+   "reasoning_tokens": 0,
+   "completion": 532,
+   "cost": 0.034115,
+   "finish": "stop",
+   "mol_id": "Chlorthalidone",
+   "truth": -3.451
+  },
+  {
+   "text": "## Analysis\n\n**2-Methylheptane** (C8H18) is a branched alkane. Comparable traini",
+   "value": -5.0,
+   "reasoning_tokens": 0,
+   "completion": 246,
+   "cost": 0.026815,
+   "finish": "stop",
+   "mol_id": "2-Methylheptane",
+   "truth": -5.08
+  },
+  {
+   "text": "2,6-Dichlorophenol is a relatively small, polar phenol with two chlorines. Pheno",
+   "value": -1.79,
+   "reasoning_tokens": 0,
+   "completion": 189,
+   "cost": 0.025445,
+   "finish": "stop",
+   "mol_id": "2,6-Dichlorophenol",
+   "truth": -1.79
+  },
+  {
+   "text": "**Prediction Reasoning:**\n\nEtomidate is an imidazole carboxylate ester with a mo",
+   "value": -3.2,
+   "reasoning_tokens": 0,
+   "completion": 155,
+   "cost": 0.024595,
+   "finish": "stop",
+   "mol_id": "Etomidate",
+   "truth": -4.735
+  },
+  {
+   "text": "**Analysis**\n\nt-Pentylbenzene (neopentylbenzene, C11H16) is a highly hydrophobic",
+   "value": -4.15,
+   "reasoning_tokens": 0,
+   "completion": 334,
+   "cost": 0.029055,
+   "finish": "stop",
+   "mol_id": "t-Pentylbenzene",
+   "truth": -4.15
+  },
+  {
+   "text": "# Analysis\n\n**Target:** o,p'-DDD \u2014 1-chloro-2-(2,2-dichloro-1-(4-chlorophenyl)et",
+   "value": -6.2,
+   "reasoning_tokens": 0,
+   "completion": 389,
+   "cost": 0.030505,
+   "finish": "stop",
+   "mol_id": "O,P'-DDD",
+   "truth": -6.51
+  },
+  {
+   "text": "# Analysis\n\nInosine is a nucleoside (hypoxanthine + ribose). It's highly polar w",
+   "value": -1.2,
+   "reasoning_tokens": 0,
+   "completion": 389,
+   "cost": 0.030465,
+   "finish": "stop",
+   "mol_id": "Inosine",
+   "truth": -1.23
+  },
+  {
+   "text": "Looking at analogous alcohols: 3-pentanol (-0.24), 3-hexanol (~-0.8), 3-heptanol",
+   "value": -0.45,
+   "reasoning_tokens": 0,
+   "completion": 172,
+   "cost": 0.02498,
+   "finish": "stop",
+   "mol_id": "1-Hexene-3-ol",
+   "truth": -0.59
+  },
+  {
+   "text": "Looking at the training data, the related compounds \"RTI 2\" (CCN2c1ncccc1N(CC)C(",
+   "value": -4.5,
+   "reasoning_tokens": 0,
+   "completion": 404,
+   "cost": 0.030845,
+   "finish": "stop",
+   "mol_id": "RTI 24",
+   "truth": -5.36
+  },
+  {
+   "text": "**Analysis:**\n\nThe RTI series in the training data are pyrido-benzodiazepinone-t",
+   "value": -4.1,
+   "reasoning_tokens": 0,
+   "completion": 313,
+   "cost": 0.02858,
+   "finish": "stop",
+   "mol_id": "RTI 23",
+   "truth": -5.153
+  },
+  {
+   "text": "## Analysis\n\n**Cyclooctanol (C\u2088H\u2081\u2086O)** is a cyclic secondary alcohol.\n\n**Referen",
+   "value": -1.6,
+   "reasoning_tokens": 0,
+   "completion": 453,
+   "cost": 0.03199,
+   "finish": "stop",
+   "mol_id": "Cyclooctanol",
+   "truth": -1.29
+  },
+  {
+   "text": "# Analysis\n\nPyrimidine is a small, highly polar diazine heterocycle. It is compl",
+   "value": 1.1,
+   "reasoning_tokens": 0,
+   "completion": 255,
+   "cost": 0.027015,
+   "finish": "stop",
+   "mol_id": "Pyrimidine",
+   "truth": 1.1
+  },
+  {
+   "text": "**Prediction reasoning:**\n\n2,2',3,3'-Tetrachlorobiphenyl is an ortho-substituted",
+   "value": -6.5,
+   "reasoning_tokens": 0,
+   "completion": 220,
+   "cost": 0.02628,
+   "finish": "stop",
+   "mol_id": "2,2',3,3'-PCB",
+   "truth": -7.28
+  },
+  {
+   "text": "**Analysis**\n\n2,7-Dimethylquinoline is a bicyclic aromatic N-heterocycle. Quinol",
+   "value": -2.2,
+   "reasoning_tokens": 0,
+   "completion": 318,
+   "cost": 0.028685,
+   "finish": "stop",
+   "mol_id": "2,7-dimethylquinoline",
+   "truth": -1.94
+  },
+  {
+   "text": "**Prediction reasoning:** Danazol is a large steroid with fused isoxazole, one h",
+   "value": -5.0,
+   "reasoning_tokens": 0,
+   "completion": 118,
+   "cost": 0.023745,
+   "finish": "stop",
+   "mol_id": "Danazol",
+   "truth": -5.507000000000001
+  },
+  {
+   "text": "4,4'-Dichlorobiphenyl is a symmetric, planar, highly hydrophobic PCB congener (l",
+   "value": -6.56,
+   "reasoning_tokens": 0,
+   "completion": 228,
+   "cost": 0.02644,
+   "finish": "stop",
+   "mol_id": "4,4'-PCB",
+   "truth": -6.56
+  },
+  {
+   "text": "Cortisone is a corticosteroid with moderate water solubility (~280 mg/L; MW 360.",
+   "value": -3.11,
+   "reasoning_tokens": 0,
+   "completion": 73,
+   "cost": 0.02265,
+   "finish": "stop",
+   "mol_id": "Cortisone",
+   "truth": -3.11
+  }
+ ]
+}

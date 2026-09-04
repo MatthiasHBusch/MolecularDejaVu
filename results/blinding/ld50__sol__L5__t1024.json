@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "ld50",
+  "tag": "sol",
+  "level": "L5",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 9.499713750000002,
+  "timestamp": "2026-08-10T21:27:56"
+ },
+ "calls": [
+  {
+   "text": "5.20",
+   "value": 5.2,
+   "reasoning_tokens": 4434,
+   "completion": 4443,
+   "cost": 0.07483375,
+   "finish": "stop",
+   "mol_id": "Propionic acid, 2-(p-chlorophenoxy)-2-methyl-, 1,3-propanediyl ester",
+   "truth": 1.808
+  },
+  {
+   "text": "4.73",
+   "value": 4.73,
+   "reasoning_tokens": 1744,
+   "completion": 1753,
+   "cost": 0.03443375,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,6-dibromo-2-(trifluoromethyl)-",
+   "truth": 4.76
+  },
+  {
+   "text": "2.88",
+   "value": 2.88,
+   "reasoning_tokens": 4568,
+   "completion": 4577,
+   "cost": 0.076771875,
+   "finish": "stop",
+   "mol_id": "Phosphonodithioic acid, methyl-, O-(benzo(b)thien-4-yl) S-propyl ester",
+   "truth": 3.782
+  },
+  {
+   "text": "1.90",
+   "value": 1.9,
+   "reasoning_tokens": 4859,
+   "completion": 4868,
+   "cost": 0.081143125,
+   "finish": "stop",
+   "mol_id": "Phenol, 3-(diethylamino)-, methylcarbamate (ester) (9CI)",
+   "truth": 3.388
+  },
+  {
+   "text": "2.57",
+   "value": 2.57,
+   "reasoning_tokens": 2334,
+   "completion": 2343,
+   "cost": 0.043249375,
+   "finish": "stop",
+   "mol_id": "Butane, 1,2,3,4-tetrachloro-",
+   "truth": 2.94
+  },
+  {
+   "text": "1.50",
+   "value": 1.5,
+   "reasoning_tokens": 1256,
+   "completion": 1265,
+   "cost": 0.027098125,
+   "finish": "stop",
+   "mol_id": "Benzaldehyde, 4-nitro-",
+   "truth": 1.507
+  },
+  {
+   "text": "3.38",
+   "value": 3.38,
+   "reasoning_tokens": 4636,
+   "completion": 4645,
+   "cost": 0.0778075,
+   "finish": "stop",
+   "mol_id": "Cyclopropanecarboxanilide, 3',4'-dichloro-",
+   "truth": 3.029
+  },
+  {
+   "text": "4.46",
+   "value": 4.46,
+   "reasoning_tokens": 3773,
+   "completion": 3782,
+   "cost": 0.064909375,
+   "finish": "stop",
+   "mol_id": "3,5-Pyridinedicarboxylic acid, 4-(2,3-dichlorophenyl)-1,4-dihydro-2,6-dimethyl-, ethyl methyl ester, (+-)-",
+   "truth": 2.563
+  },
+  {
+   "text": "1.18",
+   "value": 1.18,
+   "reasoning_tokens": 4718,
+   "completion": 4727,
+   "cost": 0.0789875,
+   "finish": "stop",
+   "mol_id": "Trimethylenediamine",
+   "truth": 2.326
+  },
+  {
+   "text": "1.92",
+   "value": 1.92,
+   "reasoning_tokens": 3332,
+   "completion": 3341,
+   "cost": 0.05821625,
+   "finish": "stop",
+   "mol_id": "Silane, chloromethyl-trimethoxy-",
+   "truth": 2.533
+  },
+  {
+   "text": "3.90",
+   "value": 3.9,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.062586875,
+   "finish": "stop",
+   "mol_id": "Benzothiazole, 2-(butylthio)-",
+   "truth": 2.245
+  },
+  {
+   "text": "2.22",
+   "value": 2.22,
+   "reasoning_tokens": 3421,
+   "completion": 3430,
+   "cost": 0.059591875,
+   "finish": "stop",
+   "mol_id": "1,8-Naphthalenedicarboxylic acid, 4-chloro-",
+   "truth": 1.855
+  },
+  {
+   "text": "1.74",
+   "value": 1.74,
+   "reasoning_tokens": 4619,
+   "completion": 4628,
+   "cost": 0.0775775,
+   "finish": "stop",
+   "mol_id": "Maleic anhydride, dihydroxy-, dibutyrate",
+   "truth": 1.256
+  },
+  {
+   "text": "2.12",
+   "value": 2.12,
+   "reasoning_tokens": 3783,
+   "completion": 3792,
+   "cost": 0.064978125,
+   "finish": "stop",
+   "mol_id": "2H-1-Benzopyran-2-one, octahydro-",
+   "truth": 1.597
+  },
+  {
+   "text": "2.18",
+   "value": 2.18,
+   "reasoning_tokens": 4660,
+   "completion": 4669,
+   "cost": 0.0781675,
+   "finish": "stop",
+   "mol_id": "Acetic acid, ((6-(4-methylphenoxy)-4-pyrimidinyl)thio)-, hydrazide",
+   "truth": 2.8
+  },
+  {
+   "text": "1.42",
+   "value": 1.42,
+   "reasoning_tokens": 2571,
+   "completion": 2580,
+   "cost": 0.046810625,
+   "finish": "stop",
+   "mol_id": "3-Buten-2-one, 3-methyl-",
+   "truth": 2.67
+  },
+  {
+   "text": "2.13",
+   "value": 2.13,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.047065625,
+   "finish": "stop",
+   "mol_id": "Benzeneacetic acid, 2-propenyl ester",
+   "truth": 2.4330000000000003
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 3597,
+   "completion": 3606,
+   "cost": 0.062213125,
+   "finish": "stop",
+   "mol_id": "Benzoic acid, 3,6-dichloro-2-methoxy-",
+   "truth": 2.3280000000000003
+  },
+  {
+   "text": "2.91",
+   "value": 2.91,
+   "reasoning_tokens": 5085,
+   "completion": 5094,
+   "cost": 0.084551875,
+   "finish": "stop",
+   "mol_id": "2,4-Pyrimidinediamine, 5-((4-(dimethylamino)-3,5-dimethoxyphenyl)methyl)-",
+   "truth": 2.335
+  },
+  {
+   "text": "4.22",
+   "value": 4.22,
+   "reasoning_tokens": 5031,
+   "completion": 5040,
+   "cost": 0.083695,
+   "finish": "stop",
+   "mol_id": "Acetic acid, fluoro-",
+   "truth": 4.222
+  },
+  {
+   "text": "5.80",
+   "value": 5.8,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.0626275,
+   "finish": "stop",
+   "mol_id": "Dibenzofuran, 2,3,4,7,8-pentachloro-",
+   "truth": 5.57
+  },
+  {
+   "text": "2.24",
+   "value": 2.24,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.05488875,
+   "finish": "stop",
+   "mol_id": "Succinanilic acid, 4'-sulfanilamido-",
+   "truth": 2.384
+  },
+  {
+   "text": "4.02",
+   "value": 4.02,
+   "reasoning_tokens": 4469,
+   "completion": 4478,
+   "cost": 0.075305625,
+   "finish": "stop",
+   "mol_id": "1H-Tetrazole, 5-(o-(alpha,alpha,alpha-trifluoro-m-toluidino)phenyl)-",
+   "truth": 2.827
+  },
+  {
+   "text": "2.41",
+   "value": 2.41,
+   "reasoning_tokens": 2563,
+   "completion": 2572,
+   "cost": 0.046746875,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-Butanetetracarboxylic acid",
+   "truth": 2.134
+  },
+  {
+   "text": "1.12",
+   "value": 1.12,
+   "reasoning_tokens": 2683,
+   "completion": 2692,
+   "cost": 0.048471875,
+   "finish": "stop",
+   "mol_id": "Carbonic acid, dimethyl ester",
+   "truth": 0.841
+  },
+  {
+   "text": "1.84",
+   "value": 1.84,
+   "reasoning_tokens": 1394,
+   "completion": 1403,
+   "cost": 0.029168125,
+   "finish": "stop",
+   "mol_id": "Butanamide, N,N-diethyl-3-oxo-",
+   "truth": 1.521
+  },
+  {
+   "text": "3.21",
+   "value": 3.21,
+   "reasoning_tokens": 4635,
+   "completion": 4644,
+   "cost": 0.07778625,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-((5-methoxy-1,3,4-thiadiazol-2-yl)methyl) ester",
+   "truth": 3.966
+  },
+  {
+   "text": "2.40",
+   "value": 2.4,
+   "reasoning_tokens": 1552,
+   "completion": 1561,
+   "cost": 0.031535,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-hydroxymethyl O,O-dimethyl ester, acetate",
+   "truth": 3.394
+  },
+  {
+   "text": "1.80",
+   "value": 1.8,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.054841875,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 2-methyl-, 2-propenyl ester",
+   "truth": 2.467
+  },
+  {
+   "text": "2.03",
+   "value": 2.03,
+   "reasoning_tokens": 2796,
+   "completion": 2805,
+   "cost": 0.0501575,
+   "finish": "stop",
+   "mol_id": "1-Hexanamine",
+   "truth": 2.1790000000000003
+  },
+  {
+   "text": "4.10",
+   "value": 4.1,
+   "reasoning_tokens": 3866,
+   "completion": 3875,
+   "cost": 0.066254375,
+   "finish": "stop",
+   "mol_id": "Cyclohexanol, 5-methyl-2-(1-methylethyl)-, acetate (8CI)",
+   "truth": 1.415
+  },
+  {
+   "text": "2.78",
+   "value": 2.78,
+   "reasoning_tokens": 5517,
+   "completion": 5526,
+   "cost": 0.091069375,
+   "finish": "stop",
+   "mol_id": "4H-Pyrido(1,2-a)pyrimidine-3-acetic acid, 9-((4-acetyl-3-hydroxy-2-propylphenoxy)methyl)-4-oxo-",
+   "truth": 2.011
+  },
+  {
+   "text": "1.55",
+   "value": 1.55,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.04705625,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2-(2-(2-methoxyethoxy)ethoxy)ethyl ester",
+   "truth": 1.273
+  },
+  {
+   "text": "1.85",
+   "value": 1.85,
+   "reasoning_tokens": 4506,
+   "completion": 4515,
+   "cost": 0.075841875,
+   "finish": "stop",
+   "mol_id": "Imidocarbonic acid, (dimethoxyphosphinothioyl)dithio-, cyclic ethylene ester",
+   "truth": 4.386
+  },
+  {
+   "text": "0.910",
+   "value": 0.91,
+   "reasoning_tokens": 2972,
+   "completion": 2981,
+   "cost": 0.05284125,
+   "finish": "stop",
+   "mol_id": "Pteridine, 6-o-tolyl-2,4,7-triamino-",
+   "truth": 2.172
+  },
+  {
+   "text": "1.92",
+   "value": 1.92,
+   "reasoning_tokens": 4270,
+   "completion": 4279,
+   "cost": 0.072345625,
+   "finish": "stop",
+   "mol_id": "1,4-Benzenedicarboxylic acid, 2,3,5,6-tetrachloro-, dimethyl ester",
+   "truth": 2.044
+  },
+  {
+   "text": "2.12",
+   "value": 2.12,
+   "reasoning_tokens": 4644,
+   "completion": 4653,
+   "cost": 0.07789,
+   "finish": "stop",
+   "mol_id": "3,6,9,12,15-Pentaoxaheptadecane-1,17-diol",
+   "truth": 0.946
+  },
+  {
+   "text": "1.46",
+   "value": 1.46,
+   "reasoning_tokens": 4108,
+   "completion": 4117,
+   "cost": 0.069865625,
+   "finish": "stop",
+   "mol_id": "Thiocyanic acid, 4-(dimethylamino)phenyl ester (9CI)",
+   "truth": 2.552
+  },
+  {
+   "text": "2.30",
+   "value": 2.3,
+   "reasoning_tokens": 2521,
+   "completion": 2530,
+   "cost": 0.0460575,
+   "finish": "stop",
+   "mol_id": "Ethane, 1,2-difluoro-1,1,2-trichloro-",
+   "truth": 1.337
+  },
+  {
+   "text": "1.49",
+   "value": 1.49,
+   "reasoning_tokens": 1963,
+   "completion": 1972,
+   "cost": 0.03766875,
+   "finish": "stop",
+   "mol_id": "1,3-Dioxolane, 2-methyl-",
+   "truth": 1.4680000000000002
+  },
+  {
+   "text": "1.50",
+   "value": 1.5,
+   "reasoning_tokens": 4183,
+   "completion": 4192,
+   "cost": 0.07096875,
+   "finish": "stop",
+   "mol_id": "2-Furancarboxaldehyde",
+   "truth": 3.17
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.054845,
+   "finish": "stop",
+   "mol_id": "Phosphinothioic acid, dimethyl-, O-(3-methyl-4-(methylthio)phenyl) ester",
+   "truth": 3.148
+  },
+  {
+   "text": "1.90",
+   "value": 1.9,
+   "reasoning_tokens": 3286,
+   "completion": 3295,
+   "cost": 0.057529375,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 1-butoxy-3-phenoxy-",
+   "truth": 1.976
+  },
+  {
+   "text": "4.95",
+   "value": 4.95,
+   "reasoning_tokens": 4142,
+   "completion": 4151,
+   "cost": 0.070394375,
+   "finish": "stop",
+   "mol_id": "Benzamide, 4-(decyloxy)-3,5-dimethoxy-",
+   "truth": 2.311
+  },
+  {
+   "text": "5.40",
+   "value": 5.4,
+   "reasoning_tokens": 4142,
+   "completion": 4151,
+   "cost": 0.07042875,
+   "finish": "stop",
+   "mol_id": "5,8-Epoxy-1,4-methanonaphthalene, 1,2,3,4,10,10-hexachloro-1,4,4a,5,8,8a-hexahydro- (9CI)",
+   "truth": 3.732
+  },
+  {
+   "text": "1.48",
+   "value": 1.48,
+   "reasoning_tokens": 5923,
+   "completion": 5932,
+   "cost": 0.09710625,
+   "finish": "stop",
+   "mol_id": "Methane, trichloronitro-",
+   "truth": 2.818
+  },
+  {
+   "text": "0.780",
+   "value": 0.78,
+   "reasoning_tokens": 3698,
+   "completion": 3707,
+   "cost": 0.063725,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, methyl-, S-(2-(dimethylamino)ethyl) O-ethyl ester",
+   "truth": 6.238
+  },
+  {
+   "text": "2.68",
+   "value": 2.68,
+   "reasoning_tokens": 3790,
+   "completion": 3799,
+   "cost": 0.065145625,
+   "finish": "stop",
+   "mol_id": "Caffeine, 8-(p-aminobenzyl)-",
+   "truth": 2.893
+  },
+  {
+   "text": "1.88",
+   "value": 1.88,
+   "reasoning_tokens": 4444,
+   "completion": 4453,
+   "cost": 0.07490875,
+   "finish": "stop",
+   "mol_id": "Acrylamide, N-(hydroxymethyl)-2-methyl- (6CI,8CI)",
+   "truth": 2.611
+  },
+  {
+   "text": "2.30",
+   "value": 2.3,
+   "reasoning_tokens": 4572,
+   "completion": 4581,
+   "cost": 0.076835,
+   "finish": "stop",
+   "mol_id": "Phosphinothioic amide, N,N-dimethyl-P-imidazol-1-yl-P-phenyl-",
+   "truth": 2.224
+  },
+  {
+   "text": "2.78",
+   "value": 2.78,
+   "reasoning_tokens": 5178,
+   "completion": 5187,
+   "cost": 0.08590625,
+   "finish": "stop",
+   "mol_id": "7-Oxabicyclo(4.1.0)hepta-2,4,6-triene, 3-oxiranyl-",
+   "truth": 1.676
+  },
+  {
+   "text": "4.31",
+   "value": 4.31,
+   "reasoning_tokens": 4647,
+   "completion": 4656,
+   "cost": 0.077981875,
+   "finish": "stop",
+   "mol_id": "1-Piperidinepropanol, alpha,alpha-diphenyl-, methanesulfonate (ester)",
+   "truth": 2.479
+  },
+  {
+   "text": "3.13",
+   "value": 3.13,
+   "reasoning_tokens": 2957,
+   "completion": 2966,
+   "cost": 0.05262875,
+   "finish": "stop",
+   "mol_id": "1,4-Naphthalenedione, 2,3-dichloro-",
+   "truth": 3.152
+  },
+  {
+   "text": "3.34",
+   "value": 3.34,
+   "reasoning_tokens": 4599,
+   "completion": 4608,
+   "cost": 0.077249375,
+   "finish": "stop",
+   "mol_id": "1,3,5-Triazine-2,4-diamine, 6-chloro-N,N'-bis(1-methylethyl)-",
+   "truth": 1.777
+  },
+  {
+   "text": "3.37",
+   "value": 3.37,
+   "reasoning_tokens": 3171,
+   "completion": 3180,
+   "cost": 0.05582625,
+   "finish": "stop",
+   "mol_id": "Phenol, 2-chloro-5-(1-methylethyl)-, methylcarbamate (9CI)",
+   "truth": 4.035
+  },
+  {
+   "text": "1.47",
+   "value": 1.47,
+   "reasoning_tokens": 3810,
+   "completion": 3819,
+   "cost": 0.0653925,
+   "finish": "stop",
+   "mol_id": "Benzenesulphonamide",
+   "truth": 2.2
+  },
+  {
+   "text": "2.18",
+   "value": 2.18,
+   "reasoning_tokens": 5238,
+   "completion": 5247,
+   "cost": 0.08681875,
+   "finish": "stop",
+   "mol_id": "4(1H)-Pyridone, 3-hydroxy-1,2-dimethyl- (8CI)",
+   "truth": 1.842
+  },
+  {
+   "text": "2.05",
+   "value": 2.05,
+   "reasoning_tokens": 4142,
+   "completion": 4151,
+   "cost": 0.070388125,
+   "finish": "stop",
+   "mol_id": "1H-Isoindole-1,3(2H)-dione, 2-butyl-3a,4,7,7a-tetrahydro- (9CI)",
+   "truth": 1.934
+  },
+  {
+   "text": "1.65",
+   "value": 1.65,
+   "reasoning_tokens": 2734,
+   "completion": 2743,
+   "cost": 0.049236875,
+   "finish": "stop",
+   "mol_id": "Pyrazine, 2,5-dimethyl-",
+   "truth": 2.025
+  },
+  {
+   "text": "4.45",
+   "value": 4.45,
+   "reasoning_tokens": 5973,
+   "completion": 5982,
+   "cost": 0.09786875,
+   "finish": "stop",
+   "mol_id": "Phenethylamine, beta-(sec-butyl)-3-chloro-N,N-dimethyl-4-propoxy-",
+   "truth": 2.604
+  },
+  {
+   "text": "3.60",
+   "value": 3.6,
+   "reasoning_tokens": 2896,
+   "completion": 2905,
+   "cost": 0.05171375,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 3,4,5,6-tetrahydro-2-(3-chloro-alpha-ethoxybenzyl)-5,5-dimethyl-",
+   "truth": 3.471
+  },
+  {
+   "text": "1.58",
+   "value": 1.58,
+   "reasoning_tokens": 5472,
+   "completion": 5481,
+   "cost": 0.090363125,
+   "finish": "stop",
+   "mol_id": "6-Quinolinemethanol, 1,2,3,4-tetrahydro-2-(((1-methylethyl)amino)methyl)-7-nitro-",
+   "truth": 3.969
+  },
+  {
+   "text": "5.29",
+   "value": 5.29,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.047140625,
+   "finish": "stop",
+   "mol_id": "p-Toluidine, N-butyl-N-ethyl-alpha,alpha,alpha-trifluoro-2,6-dinitro-",
+   "truth": 1.525
+  },
+  {
+   "text": "1.75",
+   "value": 1.75,
+   "reasoning_tokens": 4082,
+   "completion": 4091,
+   "cost": 0.069469375,
+   "finish": "stop",
+   "mol_id": "Benzo(b)thiophene-2-carboximidic acid, 3-hydroxy-, ethyl ester",
+   "truth": 1.743
+  },
+  {
+   "text": "2.84",
+   "value": 2.84,
+   "reasoning_tokens": 2467,
+   "completion": 2476,
+   "cost": 0.04522875,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 1,3-dichloro-",
+   "truth": 3.069
+  },
+  {
+   "text": "3.60",
+   "value": 3.6,
+   "reasoning_tokens": 5545,
+   "completion": 5554,
+   "cost": 0.09143,
+   "finish": "stop",
+   "mol_id": "Phosphonamidothioic acid, P-methyl-N-(1-naphthalenyloxy)-, O-ethyl ester",
+   "truth": 3.051
+  },
+  {
+   "text": "1.28",
+   "value": 1.28,
+   "reasoning_tokens": 3463,
+   "completion": 3472,
+   "cost": 0.0601875,
+   "finish": "stop",
+   "mol_id": "Hydantoin, 5-methyl-2-thio-",
+   "truth": 2.093
+  },
+  {
+   "text": "2.10",
+   "value": 2.1,
+   "reasoning_tokens": 3830,
+   "completion": 3839,
+   "cost": 0.065701875,
+   "finish": "stop",
+   "mol_id": "1-Propanol, 2,3-epoxy-, nitrate",
+   "truth": 2.4130000000000003
+  },
+  {
+   "text": "2.80",
+   "value": 2.8,
+   "reasoning_tokens": 3186,
+   "completion": 3195,
+   "cost": 0.05601375,
+   "finish": "stop",
+   "mol_id": "Benzene, (2-bromoethyl)-",
+   "truth": 2.358
+  },
+  {
+   "text": "1.17",
+   "value": 1.17,
+   "reasoning_tokens": 3888,
+   "completion": 3897,
+   "cost": 0.066559375,
+   "finish": "stop",
+   "mol_id": "Butanoic acid, 3-methoxy-",
+   "truth": 1.591
+  },
+  {
+   "text": "1.82",
+   "value": 1.82,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.062615,
+   "finish": "stop",
+   "mol_id": "Hexanedial, 2-hydroxy-2,5-dimethyl- (9CI)",
+   "truth": 1.429
+  },
+  {
+   "text": "1.20",
+   "value": 1.2,
+   "reasoning_tokens": 5258,
+   "completion": 5267,
+   "cost": 0.087121875,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (trimethylsilyl)-",
+   "truth": 1.644
+  },
+  {
+   "text": "-3.30",
+   "value": -3.3,
+   "reasoning_tokens": 4556,
+   "completion": 4566,
+   "cost": 0.076631875,
+   "finish": "stop",
+   "mol_id": "1H-Imidazole-4-carboxamide, 5-hydroxy-1-beta-D-ribofuranosyl-",
+   "truth": 1.922
+  },
+  {
+   "text": "3.34",
+   "value": 3.34,
+   "reasoning_tokens": 5881,
+   "completion": 5890,
+   "cost": 0.09652625,
+   "finish": "stop",
+   "mol_id": "Glycine, N,N-diisobutyl-, 2-(5-nitrofurfurylidene)hydrazide",
+   "truth": 2.557
+  },
+  {
+   "text": "1.78",
+   "value": 1.78,
+   "reasoning_tokens": 4660,
+   "completion": 4669,
+   "cost": 0.07826125,
+   "finish": "stop",
+   "mol_id": "1H-Naphtho(2,1-b)pyran-1-one, dodecahydro-5-(acetyloxy)-3-ethenyl-3,4a,7,7,10a-pentamethyl-6,10,10b-trihydroxy-, (3R-(3-alpha,4a-beta,5-beta,6-beta,6a-alpha,10-alpha,10a-beta,10b-alpha))-",
+   "truth": 2.207
+  },
+  {
+   "text": "3.14",
+   "value": 3.14,
+   "reasoning_tokens": 3443,
+   "completion": 3452,
+   "cost": 0.0599,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2,6-bis(1-methylethyl)-",
+   "truth": 1.743
+  },
+  {
+   "text": "2.47",
+   "value": 2.47,
+   "reasoning_tokens": 2397,
+   "completion": 2406,
+   "cost": 0.044244375,
+   "finish": "stop",
+   "mol_id": "Morpholine, 4-(3-(4-chlorophenyl)-3-(3,4-dimethoxyphenyl)-1-oxo-2-propenyl)-",
+   "truth": 1.998
+  },
+  {
+   "text": "2.50",
+   "value": 2.5,
+   "reasoning_tokens": 4660,
+   "completion": 4669,
+   "cost": 0.07818625,
+   "finish": "stop",
+   "mol_id": "3H-1,4-Benzodiazepine, 7-chloro-2-(methylamino)-5-phenyl-, 4-oxide",
+   "truth": 2.756
+  },
+  {
+   "text": "2.67",
+   "value": 2.67,
+   "reasoning_tokens": 3225,
+   "completion": 3234,
+   "cost": 0.056626875,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 2-((3,4,4-trifluoro-3-butenyl)thio)-",
+   "truth": 2.459
+  },
+  {
+   "text": "2.90",
+   "value": 2.9,
+   "reasoning_tokens": 3541,
+   "completion": 3550,
+   "cost": 0.0613825,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2,5-dichloro-4-iodophenyl) O,O-dimethyl ester",
+   "truth": 2.249
+  },
+  {
+   "text": "3.80",
+   "value": 3.8,
+   "reasoning_tokens": 3089,
+   "completion": 3098,
+   "cost": 0.054611875,
+   "finish": "stop",
+   "mol_id": "Benzimidazole-6-carbonitrile, 4-chloro-2-(trifluoromethyl)-",
+   "truth": 5.01
+  },
+  {
+   "text": "6.60",
+   "value": 6.6,
+   "reasoning_tokens": 7250,
+   "completion": 7259,
+   "cost": 0.1170675,
+   "finish": "stop",
+   "mol_id": "Cyclopropanecarboxylic acid, 3-(2,2-dichloroethenyl)-2,2-dimethyl-, cyano(6-phenoxy-2-pyridinyl)methyl ester",
+   "truth": 2.958
+  },
+  {
+   "text": "4.20",
+   "value": 4.2,
+   "reasoning_tokens": 4239,
+   "completion": 4248,
+   "cost": 0.07183375,
+   "finish": "stop",
+   "mol_id": "Carbamic acid, methyl-, o-(1,3-dithiolan-2-yl)phenyl ester",
+   "truth": 3.4530000000000003
+  },
+  {
+   "text": "3.20",
+   "value": 3.2,
+   "reasoning_tokens": 4550,
+   "completion": 4559,
+   "cost": 0.07653,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O-ethyl O-methyl ester, S-ester with N-(mercaptomethyl)phthalimide",
+   "truth": 3.821
+  },
+  {
+   "text": "2.34",
+   "value": 2.34,
+   "reasoning_tokens": 4550,
+   "completion": 4559,
+   "cost": 0.07651125,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-amino-N-(1-methyl-1,2-diphenylethyl)-, (-)-",
+   "truth": 2.564
+  },
+  {
+   "text": "3.72",
+   "value": 3.72,
+   "reasoning_tokens": 4012,
+   "completion": 4021,
+   "cost": 0.06844125,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, mono(dichloropropyl) monooctyl ester",
+   "truth": 1.494
+  },
+  {
+   "text": "3.87",
+   "value": 3.87,
+   "reasoning_tokens": 3776,
+   "completion": 3785,
+   "cost": 0.06486375,
+   "finish": "stop",
+   "mol_id": "2-Propenenitrile",
+   "truth": 2.833
+  },
+  {
+   "text": "2.86",
+   "value": 2.86,
+   "reasoning_tokens": 2926,
+   "completion": 2935,
+   "cost": 0.052123125,
+   "finish": "stop",
+   "mol_id": "Phenol, 2-(1-methylpropyl)-",
+   "truth": 2.672
+  },
+  {
+   "text": "2.70",
+   "value": 2.7,
+   "reasoning_tokens": 2994,
+   "completion": 3003,
+   "cost": 0.053161875,
+   "finish": "stop",
+   "mol_id": "Cyclohexanone, 4-(1,1-dimethylpropyl)-",
+   "truth": 1.554
+  },
+  {
+   "text": "1.72",
+   "value": 1.72,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.054810625,
+   "finish": "stop",
+   "mol_id": "Ethane, 1-butoxy-2-ethoxy-",
+   "truth": 1.713
+  },
+  {
+   "text": "2.49",
+   "value": 2.49,
+   "reasoning_tokens": 1491,
+   "completion": 1500,
+   "cost": 0.030616875,
+   "finish": "stop",
+   "mol_id": "2(3H)-Benzoxazolone, 5-chloro-",
+   "truth": 2.347
+  },
+  {
+   "text": "1.45",
+   "value": 1.45,
+   "reasoning_tokens": 4477,
+   "completion": 4486,
+   "cost": 0.075400625,
+   "finish": "stop",
+   "mol_id": "p-Acetotoluidide, 2-fluoro-",
+   "truth": 4.378
+  },
+  {
+   "text": "2.41",
+   "value": 2.41,
+   "reasoning_tokens": 4931,
+   "completion": 4940,
+   "cost": 0.082216875,
+   "finish": "stop",
+   "mol_id": "Acetic acid, mercapto-, 1,4-butanediyl ester",
+   "truth": 2.77
+  },
+  {
+   "text": "3.68",
+   "value": 3.68,
+   "reasoning_tokens": 3654,
+   "completion": 3663,
+   "cost": 0.063111875,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-dimethyl ester, S-ester with 2-mercapto-N,N'-dimethoxy-N,N'-dimethylsuccinamide",
+   "truth": 4.4110000000000005
+  },
+  {
+   "text": "1.74",
+   "value": 1.74,
+   "reasoning_tokens": 3323,
+   "completion": 3332,
+   "cost": 0.058103125,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-ethyl S-(4-methylphenyl) ester (9CI)",
+   "truth": 3.667
+  },
+  {
+   "text": "2.86",
+   "value": 2.86,
+   "reasoning_tokens": 245,
+   "completion": 254,
+   "cost": 0.011964375,
+   "finish": "stop",
+   "mol_id": "2(1H)-Quinolinone, 3,4-dihydro-6-(1-oxo-3-(4-(phenylmethyl)-1-piperidinyl)propyl)-",
+   "truth": 2.877
+  },
+  {
+   "text": "1.54",
+   "value": 1.54,
+   "reasoning_tokens": 2995,
+   "completion": 3004,
+   "cost": 0.05317375,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, N-methyl-, O-isopropyl ester",
+   "truth": 2.325
+  },
+  {
+   "text": "1.20",
+   "value": 1.2,
+   "reasoning_tokens": 4363,
+   "completion": 4372,
+   "cost": 0.07368125,
+   "finish": "stop",
+   "mol_id": "Methanesulfonamide, 1-chloro-",
+   "truth": 1.331
+  },
+  {
+   "text": "3.72",
+   "value": 3.72,
+   "reasoning_tokens": 2216,
+   "completion": 2225,
+   "cost": 0.041510625,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-(4,6-dimethyl-2-pyrimidinyl) O-ethyl O-propyl ester",
+   "truth": 3.589
+  },
+  {
+   "text": "1.67",
+   "value": 1.67,
+   "reasoning_tokens": 3281,
+   "completion": 3290,
+   "cost": 0.05747,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, (4-chlorobutyryl)-, O,S-dimethyl ester",
+   "truth": 4.913
+  },
+  {
+   "text": "1.08",
+   "value": 1.08,
+   "reasoning_tokens": 3096,
+   "completion": 3105,
+   "cost": 0.05467,
+   "finish": "stop",
+   "mol_id": "Ethanol, 2-methoxy-, carbamate",
+   "truth": 1.035
+  },
+  {
+   "text": "4.14",
+   "value": 4.14,
+   "reasoning_tokens": 792,
+   "completion": 801,
+   "cost": 0.020119375,
+   "finish": "stop",
+   "mol_id": "1,3-Dithiolan-4-one, O-((methylamino)carbonyl)oxime",
+   "truth": 4.17
+  },
+  {
+   "text": "2.24",
+   "value": 2.24,
+   "reasoning_tokens": 3881,
+   "completion": 3890,
+   "cost": 0.066498125,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester, S-ester with N,N-diallyl-2-mercaptoacetamide",
+   "truth": 3.829
+  },
+  {
+   "text": "4.30",
+   "value": 4.3,
+   "reasoning_tokens": 3018,
+   "completion": 3027,
+   "cost": 0.05353125,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, ethyl-, O-2,5-dichlorophenyl O-ethyl ester",
+   "truth": 4.197
+  },
+  {
+   "text": "4.75",
+   "value": 4.75,
+   "reasoning_tokens": 5586,
+   "completion": 5595,
+   "cost": 0.092073125,
+   "finish": "stop",
+   "mol_id": "Isocyanic acid, methylene(3,5,5-trimethyl-3,1-cyclohexylene) ester",
+   "truth": 1.663
+  },
+  {
+   "text": "2.48",
+   "value": 2.48,
+   "reasoning_tokens": 2886,
+   "completion": 2895,
+   "cost": 0.05155125,
+   "finish": "stop",
+   "mol_id": "Acetamide, N,N'-m-phenylenebis- (6CI,7CI,8CI)",
+   "truth": 1.254
+  },
+  {
+   "text": "2.68",
+   "value": 2.68,
+   "reasoning_tokens": 2566,
+   "completion": 2575,
+   "cost": 0.04676375,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2-(diethylamino)-6-methyl-4-pyrimidinyl) O,O-dimethyl ester",
+   "truth": 2.388
+  },
+  {
+   "text": "1.20",
+   "value": 1.2,
+   "reasoning_tokens": 2574,
+   "completion": 2583,
+   "cost": 0.04684,
+   "finish": "stop",
+   "mol_id": "Propanenitrile, 3,3'-oxybis-",
+   "truth": 1.642
+  },
+  {
+   "text": "2.93",
+   "value": 2.93,
+   "reasoning_tokens": 3494,
+   "completion": 3503,
+   "cost": 0.0606775,
+   "finish": "stop",
+   "mol_id": "2H-1,4-Benzodiazepin-2-one, 7-chloro-5-(2-chlorophenyl)-1,3-dihydro- (9CI)",
+   "truth": 2.1830000000000003
+  },
+  {
+   "text": "0.500",
+   "value": 0.5,
+   "reasoning_tokens": 4408,
+   "completion": 4417,
+   "cost": 0.0743375,
+   "finish": "stop",
+   "mol_id": "Pyridine, 4-amino-",
+   "truth": 3.651
+  },
+  {
+   "text": "1.50",
+   "value": 1.5,
+   "reasoning_tokens": 1986,
+   "completion": 1995,
+   "cost": 0.0380325,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester",
+   "truth": 1.616
+  },
+  {
+   "text": "2.98",
+   "value": 2.98,
+   "reasoning_tokens": 3449,
+   "completion": 3458,
+   "cost": 0.06002125,
+   "finish": "stop",
+   "mol_id": "2-Furanpropanoic acid, tetrahydro-alpha-(1-naphthalenylmethyl)-, 2-(diethylamino)ethyl ester",
+   "truth": 2.307
+  },
+  {
+   "text": "0.900",
+   "value": 0.9,
+   "reasoning_tokens": 4997,
+   "completion": 5006,
+   "cost": 0.08319125,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O,O-trimethyl ester",
+   "truth": 2.444
+  },
+  {
+   "text": "3.78",
+   "value": 3.78,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.04713125,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl)- (8CI)",
+   "truth": 5.957000000000001
+  },
+  {
+   "text": "1.12",
+   "value": 1.12,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.05482,
+   "finish": "stop",
+   "mol_id": "2H-Pyran-2-one, tetrahydro-3-methyl-",
+   "truth": 0.944
+  },
+  {
+   "text": "2.72",
+   "value": 2.72,
+   "reasoning_tokens": 1670,
+   "completion": 1679,
+   "cost": 0.03328,
+   "finish": "stop",
+   "mol_id": "1-Butene, 3-bromo-1-chloro-",
+   "truth": 3.36
+  },
+  {
+   "text": "2.12",
+   "value": 2.12,
+   "reasoning_tokens": 3306,
+   "completion": 3315,
+   "cost": 0.057848125,
+   "finish": "stop",
+   "mol_id": "Benzenepropanoic acid, beta-(aminomethyl)-4-chloro-(9CI)",
+   "truth": 3.168
+  },
+  {
+   "text": "4.10",
+   "value": 4.1,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.047096875,
+   "finish": "stop",
+   "mol_id": "Benzene, 2,4-dichloro-1-(4-nitrophenoxy)-",
+   "truth": 2.584
+  },
+  {
+   "text": "3.08",
+   "value": 3.08,
+   "reasoning_tokens": 3997,
+   "completion": 4006,
+   "cost": 0.06820375,
+   "finish": "stop",
+   "mol_id": "Acetic acid, butylnitrosaminomethyl ester",
+   "truth": 2.065
+  },
+  {
+   "text": "2.02",
+   "value": 2.02,
+   "reasoning_tokens": 5150,
+   "completion": 5159,
+   "cost": 0.08548,
+   "finish": "stop",
+   "mol_id": "Oxetane, 3-(chloromethyl)-3-ethyl-",
+   "truth": 2.373
+  },
+  {
+   "text": "2.28",
+   "value": 2.28,
+   "reasoning_tokens": 4187,
+   "completion": 4196,
+   "cost": 0.07109125,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-((6-chloro-2-oxo-3(2H)-benzoxazolyl)methyl) O,O-diethyl ester",
+   "truth": 3.636
+  },
+  {
+   "text": "2.06",
+   "value": 2.06,
+   "reasoning_tokens": 4979,
+   "completion": 4988,
+   "cost": 0.0829275,
+   "finish": "stop",
+   "mol_id": "3-Buten-2-one, 4-phenyl-",
+   "truth": 1.857
+  },
+  {
+   "text": "1.95",
+   "value": 1.95,
+   "reasoning_tokens": 3928,
+   "completion": 3937,
+   "cost": 0.067184375,
+   "finish": "stop",
+   "mol_id": "4(1H)-Pyrimidinone, 6-methyl-2-(1-methylethyl)-",
+   "truth": 1.751
+  },
+  {
+   "text": "1.43",
+   "value": 1.43,
+   "reasoning_tokens": 4949,
+   "completion": 4958,
+   "cost": 0.082465,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazole, 4-methyl-",
+   "truth": 2.101
+  },
+  {
+   "text": "5.78",
+   "value": 5.78,
+   "reasoning_tokens": 2938,
+   "completion": 2947,
+   "cost": 0.052321875,
+   "finish": "stop",
+   "mol_id": "Ether, alpha-(bromomethyl)-p-cyclohexylbenzyl hexyl",
+   "truth": 3.167
+  },
+  {
+   "text": "5.17",
+   "value": 5.17,
+   "reasoning_tokens": 5801,
+   "completion": 5810,
+   "cost": 0.095466875,
+   "finish": "stop",
+   "mol_id": "Solanid-5-ene, 3-beta-((O-6-deoxy-alpha-L-mannopyranosyl-(1-2)-O-(beta-D-glucopyranosyl-(1-3))-beta-D-galactopyranosyl)oxy)-",
+   "truth": 3.168
+  },
+  {
+   "text": "9.10",
+   "value": 9.1,
+   "reasoning_tokens": 4590,
+   "completion": 4599,
+   "cost": 0.07711125,
+   "finish": "stop",
+   "mol_id": "Octadecanoic acid, 9,10-epoxy-, 2-ethylhexyl ester",
+   "truth": 1.125
+  },
+  {
+   "text": "2.47",
+   "value": 2.47,
+   "reasoning_tokens": 3944,
+   "completion": 3953,
+   "cost": 0.067436875,
+   "finish": "stop",
+   "mol_id": "1,2,4-Triazin-5(4H)-one, 4-amino-6-(2,2-dichloro-1-methylcyclopropyl)-3-(methylthio)-",
+   "truth": 2.365
+  },
+  {
+   "text": "2.67",
+   "value": 2.67,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.06264,
+   "finish": "stop",
+   "mol_id": "2-Cyclopenten-1-one, 2,3,4,4,5,5-hexachloro-",
+   "truth": 3.21
+  },
+  {
+   "text": "1.12",
+   "value": 1.12,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.05482,
+   "finish": "stop",
+   "mol_id": "Carbonochloridic acid, ethyl ester",
+   "truth": 2.604
+  },
+  {
+   "text": "2.74",
+   "value": 2.74,
+   "reasoning_tokens": 3054,
+   "completion": 3063,
+   "cost": 0.0541025,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-chloro-2,2-difluoro-N-(2-methyl-4-(((methylamino)carbonyl)oxy)phenyl)-",
+   "truth": 3.781
+  },
+  {
+   "text": "1.05",
+   "value": 1.05,
+   "reasoning_tokens": 2405,
+   "completion": 2414,
+   "cost": 0.044333125,
+   "finish": "stop",
+   "mol_id": "2,6-Octadienoic acid, 3,7-dimethyl-",
+   "truth": 1.658
+  },
+  {
+   "text": "3.42",
+   "value": 3.42,
+   "reasoning_tokens": 3985,
+   "completion": 3994,
+   "cost": 0.06799875,
+   "finish": "stop",
+   "mol_id": "Benzene, 1-chloro-2-methyl-",
+   "truth": 1.511
+  },
+  {
+   "text": "2.68",
+   "value": 2.68,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.047090625,
+   "finish": "stop",
+   "mol_id": "6-Octen-1-yn-3-ol, 3,7-dimethyl-, acetate",
+   "truth": 1.305
+  },
+  {
+   "text": "3.58",
+   "value": 3.58,
+   "reasoning_tokens": 4308,
+   "completion": 4317,
+   "cost": 0.07289375,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2-((1H-benzimidazol-2-ylsulfinyl)methyl)-N,N-dimethyl-",
+   "truth": 2.362
+  },
+  {
+   "text": "1.17",
+   "value": 1.17,
+   "reasoning_tokens": 3437,
+   "completion": 3446,
+   "cost": 0.059794375,
+   "finish": "stop",
+   "mol_id": "Acetic acid, phenoxy-",
+   "truth": 1.614
+  },
+  {
+   "text": "1.48",
+   "value": 1.48,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.05486375,
+   "finish": "stop",
+   "mol_id": "2-Propene-1,1-diol, 2-methyl-, diacetate",
+   "truth": 2.593
+  },
+  {
+   "text": "2.62",
+   "value": 2.62,
+   "reasoning_tokens": 2975,
+   "completion": 2984,
+   "cost": 0.052889375,
+   "finish": "stop",
+   "mol_id": "2-Imidazolidinone, 4-((3-(cyclopentyloxy)-4-methoxyphenyl)methyl)-",
+   "truth": 2.685
+  },
+  {
+   "text": "2.88",
+   "value": 2.88,
+   "reasoning_tokens": 2666,
+   "completion": 2675,
+   "cost": 0.04825125,
+   "finish": "stop",
+   "mol_id": "Pyrrolidine, 1-butyl-2-((3,4-dichlorophenyl)imino)-",
+   "truth": 1.971
+  },
+  {
+   "text": "3.10",
+   "value": 3.1,
+   "reasoning_tokens": 4032,
+   "completion": 4041,
+   "cost": 0.068769375,
+   "finish": "stop",
+   "mol_id": "Phosphonodithioic acid, methyl-, O-isobutyl ester, S-ester with N-(mercaptomethyl)phthalimide",
+   "truth": 3.968
+  },
+  {
+   "text": "4.52",
+   "value": 4.52,
+   "reasoning_tokens": 3568,
+   "completion": 3577,
+   "cost": 0.061840625,
+   "finish": "stop",
+   "mol_id": "Ether, (p-nitrophenyl) (alpha,alpha,alpha-trifluoro-2-nitro-p-tolyl)",
+   "truth": 1.5619999999999998
+  },
+  {
+   "text": "2.28",
+   "value": 2.28,
+   "reasoning_tokens": 4473,
+   "completion": 4482,
+   "cost": 0.0753875,
+   "finish": "stop",
+   "mol_id": "1-Piperazineethanol, 4-((5-chloro-2-oxo-3(2H)-benzothiazolyl)acetyl)- (9CI)",
+   "truth": 1.995
+  },
+  {
+   "text": "3.68",
+   "value": 3.68,
+   "reasoning_tokens": 3447,
+   "completion": 3456,
+   "cost": 0.059963125,
+   "finish": "stop",
+   "mol_id": "1,4-Oxathiin, 2,3-dihydro-5,6-diphenyl-",
+   "truth": 1.928
+  },
+  {
+   "text": "1.48",
+   "value": 1.48,
+   "reasoning_tokens": 3700,
+   "completion": 3709,
+   "cost": 0.063758125,
+   "finish": "stop",
+   "mol_id": "Ethanol, 2,2,2-trichloro-, dihydrogen phosphate",
+   "truth": 2.212
+  },
+  {
+   "text": "1.42",
+   "value": 1.42,
+   "reasoning_tokens": 2912,
+   "completion": 2921,
+   "cost": 0.05194125,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-((ethylsulfinyl)methyl) ester",
+   "truth": 5.14
+  },
+  {
+   "text": "2.98",
+   "value": 2.98,
+   "reasoning_tokens": 139,
+   "completion": 148,
+   "cost": 0.01039625,
+   "finish": "stop",
+   "mol_id": "20-Norcrotalanan-11,15-dione, 14,19-dihydro-12,13-dihydroxy-, (13-alpha,14-alpha)- (9CI)",
+   "truth": 3.693
+  },
+  {
+   "text": "3.47",
+   "value": 3.47,
+   "reasoning_tokens": 4385,
+   "completion": 4394,
+   "cost": 0.074070625,
+   "finish": "stop",
+   "mol_id": "Coumarin, 3-chloro-7-hydroxy-4-methyl-, bis(3-chloropropyl) phosphate",
+   "truth": 3.323
+  },
+  {
+   "text": "2.18",
+   "value": 2.18,
+   "reasoning_tokens": 4478,
+   "completion": 4487,
+   "cost": 0.075440625,
+   "finish": "stop",
+   "mol_id": "2-Aziridinecarboxamide, 1-(1-(2-cyano-1-aziridinyl)-1-methylethyl)-",
+   "truth": 1.797
+  },
+  {
+   "text": "2.78",
+   "value": 2.78,
+   "reasoning_tokens": 6053,
+   "completion": 6062,
+   "cost": 0.09906875,
+   "finish": "stop",
+   "mol_id": "1H-Isoindole-1,3(2H)-dione, 3a,4,7,7a-tetrahydro-2-((trichloromethyl)thio)-",
+   "truth": 1.524
+  },
+  {
+   "text": "5.30",
+   "value": 5.3,
+   "reasoning_tokens": 2406,
+   "completion": 2415,
+   "cost": 0.04442625,
+   "finish": "stop",
+   "mol_id": "4-Benzimidazolesulfonamide, N,N-dimethyl-5,6,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.92
+  }
+ ]
+}

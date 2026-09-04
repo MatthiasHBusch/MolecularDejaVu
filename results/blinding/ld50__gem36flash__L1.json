@@ -1,0 +1,1516 @@
+{
+ "meta": {
+  "dataset": "ld50",
+  "tag": "gem36flash",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:128",
+  "disjoint_from": "esol,freesolv",
+  "cost": 0.9805115249999993,
+  "timestamp": "2026-07-28T18:01:44"
+ },
+ "calls": [
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 2(3H)-furanone, ",
+   "value": 1.37,
+   "reasoning_tokens": 527,
+   "completion": 817,
+   "cost": 0.00693975,
+   "finish": "stop",
+   "mol_id": "2(3H)-Furanone, dihydro-5-pentyl-",
+   "truth": 1.374
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats for 3-(3,4-dihydro-2H-pyrro",
+   "value": 2.89,
+   "reasoning_tokens": 635,
+   "completion": 887,
+   "cost": 0.007212,
+   "finish": "stop",
+   "mol_id": "Pyridine, 3-(3,4-dihydro-2H-pyrrol-5-yl)- (9CI)",
+   "truth": 1.892
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **cis-1-Acetyl-4-(4-((2-(2,4",
+   "value": 3.05,
+   "reasoning_tokens": 563,
+   "completion": 890,
+   "cost": 0.00726075,
+   "finish": "stop",
+   "mol_id": "Piperazine, 1-acetyl-4-(4-((2-(2,4-dichlorophenyl)-2-(1H-imidazol-1-ylmethyl)-1,3-dioxolan-4-yl)methoxy)phenyl)-, cis-",
+   "truth": 3.505
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **Phosphorodithioic acid, S-",
+   "value": 3.68,
+   "reasoning_tokens": 938,
+   "completion": 1160,
+   "cost": 0.00825,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-(4,6-dimethyl-2-pyrimidinyl) O-ethyl O-(1-methylethyl) ester (9CI)",
+   "truth": 3.654
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for 1,2-Ethanediamine, N,N'-dime",
+   "value": 3.17,
+   "reasoning_tokens": 953,
+   "completion": 1226,
+   "cost": 0.00848325,
+   "finish": "stop",
+   "mol_id": "1,2-Ethanediamine, N,N'-dimethyl-N,N'-dinitroso- (9CI)",
+   "truth": 2.989
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 3-((2-(acetyloxy",
+   "value": 2.55,
+   "reasoning_tokens": 634,
+   "completion": 859,
+   "cost": 0.007104,
+   "finish": "stop",
+   "mol_id": "Propanenitrile, 3-((2-(acetyloxy)ethyl)phenylamino)-",
+   "truth": 2.05
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 2-Propenoic acid",
+   "value": 1.77,
+   "reasoning_tokens": 785,
+   "completion": 980,
+   "cost": 0.007551,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 3-phenyl-",
+   "truth": 1.773
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **Benzamide, N,N-diethyl-** ",
+   "value": 1.95,
+   "reasoning_tokens": 663,
+   "completion": 842,
+   "cost": 0.00702975,
+   "finish": "stop",
+   "mol_id": "Benzamide, N,N-diethyl-",
+   "truth": 1.948
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **cis-2-hyd",
+   "value": 2.12,
+   "reasoning_tokens": 712,
+   "completion": 975,
+   "cost": 0.00753975,
+   "finish": "stop",
+   "mol_id": "Cyclohexanecarboxylic acid, 2-hydroxy-2-phenyl-, cis-",
+   "truth": 2.147
+  },
+  {
+   "text": "To predict the acute oral toxicity ($-\\log_{10}(\\text{mol/kg})$) of **Propionic ",
+   "value": 2.62,
+   "reasoning_tokens": 681,
+   "completion": 937,
+   "cost": 0.0074115,
+   "finish": "stop",
+   "mol_id": "Propionic acid, 2-(N-(3-chloro-4-fluorophenyl)benzamido)-, methyl ester",
+   "truth": 2.447
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for propenylbenzene ",
+   "value": 1.69,
+   "reasoning_tokens": 725,
+   "completion": 911,
+   "cost": 0.00728775,
+   "finish": "stop",
+   "mol_id": "Benzene, propenyl- (VAN) (8CI)",
+   "truth": 1.516
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for Verapamil (",
+   "value": 3.58,
+   "reasoning_tokens": 776,
+   "completion": 1085,
+   "cost": 0.007983,
+   "finish": "stop",
+   "mol_id": "Benzeneacetonitrile, alpha-(3-((2-(3,4-dimethoxyphenyl)ethyl)methylamino)propyl)-3,4-dimethoxy-alpha-(1-methylethyl)-",
+   "truth": 3.445
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Acetic ac",
+   "value": 2.64,
+   "reasoning_tokens": 424,
+   "completion": 717,
+   "cost": 0.00657825,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2,4,5-trichlorophenoxy-, 2-butoxypropyl ester",
+   "truth": 2.869
+  },
+  {
+   "text": "2.15",
+   "value": 2.15,
+   "reasoning_tokens": 810,
+   "completion": 814,
+   "cost": 0.00693975,
+   "finish": "stop",
+   "mol_id": "Cychohexanecarbonitrile, 1,3,3-trimethyl-5-oxo-",
+   "truth": 3.429
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **Benzimidazole, 4,5,7-trich",
+   "value": 4.15,
+   "reasoning_tokens": 498,
+   "completion": 652,
+   "cost": 0.004962975,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,5,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.66
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for 4-Biphenylacetic acid, 2'-fl",
+   "value": 3.32,
+   "reasoning_tokens": 614,
+   "completion": 811,
+   "cost": 0.006927,
+   "finish": "stop",
+   "mol_id": "4-Biphenylacetic acid, 2'-fluoro-alpha-methyl-",
+   "truth": 2.86
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) in rats for **1,4-Naphthalenedion",
+   "value": 2.95,
+   "reasoning_tokens": 690,
+   "completion": 948,
+   "cost": 0.0074535,
+   "finish": "stop",
+   "mol_id": "1,4-Naphthalenedione, 2-(3,3-dichloro-2-propenyl)-3-hydroxy-",
+   "truth": 3.003
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for Propanoic acid, ",
+   "value": 1.85,
+   "reasoning_tokens": 582,
+   "completion": 818,
+   "cost": 0.006942,
+   "finish": "stop",
+   "mol_id": "Propanoic acid, 3,3'-thiobis-",
+   "truth": 1.774
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for 2,3,5-trime",
+   "value": 2.65,
+   "reasoning_tokens": 496,
+   "completion": 682,
+   "cost": 0.005074725,
+   "finish": "stop",
+   "mol_id": "2,5-Cyclohexadiene-1,4-dione, 2,3,5-trimethyl-",
+   "truth": 2.8760000000000003
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) in rats for **1,3,5-Triazine-2,4-",
+   "value": 2.05,
+   "reasoning_tokens": 1065,
+   "completion": 1258,
+   "cost": 0.0086145,
+   "finish": "stop",
+   "mol_id": "1,3,5-Triazine-2,4-diamine, 6-methoxy-N-methyl-N'-(1-methylethyl)- (9CI)",
+   "truth": 1.915
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats ($-\\log_{10}(\\text{m",
+   "value": 2.73,
+   "reasoning_tokens": 736,
+   "completion": 947,
+   "cost": 0.00743175,
+   "finish": "stop",
+   "mol_id": "Benzopyran-2-one, 6,7-dimethoxy- (9CI)",
+   "truth": 2.849
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in rats, expressed as $-\\log_{10}(",
+   "value": 2.85,
+   "reasoning_tokens": 518,
+   "completion": 779,
+   "cost": 0.006804,
+   "finish": "stop",
+   "mol_id": "Indazole, 3-((3-morpholinopropyl)amino)-",
+   "truth": 2.456
+  },
+  {
+   "text": "1.35",
+   "value": 1.35,
+   "reasoning_tokens": 753,
+   "completion": 757,
+   "cost": 0.00671175,
+   "finish": "stop",
+   "mol_id": "Propanoic acid, 2-methyl-, methyl ester",
+   "truth": 0.805
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for 4H-Pyran-4-one, 3-hydroxy-2-",
+   "value": 1.95,
+   "reasoning_tokens": 388,
+   "completion": 621,
+   "cost": 0.004835475,
+   "finish": "stop",
+   "mol_id": "4H-Pyran-4-one, 3-hydroxy-2-methyl-",
+   "truth": 1.952
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) in rats for **Phosphorothioic aci",
+   "value": 2.55,
+   "reasoning_tokens": 801,
+   "completion": 1189,
+   "cost": 0.00833925,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-diethyl O-(1-methylethyl) ester",
+   "truth": 2.327
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 2-(diethylamino)",
+   "value": 2.87,
+   "reasoning_tokens": 514,
+   "completion": 789,
+   "cost": 0.0068415,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-(diethylamino)-N-(2,6-dimethylphenyl)-",
+   "truth": 2.869
+  },
+  {
+   "text": "2.95",
+   "value": 2.95,
+   "reasoning_tokens": 513,
+   "completion": 517,
+   "cost": 0.005844,
+   "finish": "stop",
+   "mol_id": "5H-(1)Benzopyrano(3,4-c)pyridin-5-one, 1,2,3,4-tetrahydro-3-(2-(ethylamino)propyl)-",
+   "truth": 2.98
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 1-chloro-1-prope",
+   "value": 1.82,
+   "reasoning_tokens": 793,
+   "completion": 949,
+   "cost": 0.00742575,
+   "finish": "stop",
+   "mol_id": "1-Propene, 1-chloro-",
+   "truth": 1.594
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **N-Nitroso(2,2,2-trifluoroe",
+   "value": 2.78,
+   "reasoning_tokens": 805,
+   "completion": 1076,
+   "cost": 0.006540975,
+   "finish": "stop",
+   "mol_id": "N-Nitroso(2,2,2-trifluoroethyl)ethylamine",
+   "truth": 2.211
+  },
+  {
+   "text": "2.65",
+   "value": 2.65,
+   "reasoning_tokens": 567,
+   "completion": 571,
+   "cost": 0.004683225,
+   "finish": "stop",
+   "mol_id": "Phosphonic acid, (1-(((2-chloroethoxy)(2-chloroethyl)phosphinyl)oxy)ethyl)-, 1-(bis(2-chloroethoxy)phosphinyl)ethyl 2-chloroethyl ester",
+   "truth": 2.3480000000000003
+  },
+  {
+   "text": "2.82",
+   "value": 2.82,
+   "reasoning_tokens": 432,
+   "completion": 436,
+   "cost": 0.004155975,
+   "finish": "stop",
+   "mol_id": "5H-Dibenzo(a,d)cyclohepten-10-amine, 10,11-dihydro-N-isopropyl-",
+   "truth": 2.701
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 2-((p-methylbenz",
+   "value": 2.85,
+   "reasoning_tokens": 637,
+   "completion": 829,
+   "cost": 0.005616225,
+   "finish": "stop",
+   "mol_id": "2-Thiazoline, 2-((p-methylbenzyl)amino)-",
+   "truth": 3.013
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for Ethanethioamide,",
+   "value": 2.75,
+   "reasoning_tokens": 701,
+   "completion": 945,
+   "cost": 0.006040725,
+   "finish": "stop",
+   "mol_id": "Ethanethioamide, N-phenyl-",
+   "truth": 1.759
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) of the molecule **Pyrazole-4-carb",
+   "value": 2.55,
+   "reasoning_tokens": 519,
+   "completion": 706,
+   "cost": 0.00655125,
+   "finish": "stop",
+   "mol_id": "Pyrazole-4-carboxylic acid, 5-(3,4-dihydro-2-ethyl-4-oxoquinazolin-3-yl)-1-methyl-, ethyl ester",
+   "truth": 2.252
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **2-Butanon",
+   "value": 2.75,
+   "reasoning_tokens": 825,
+   "completion": 1097,
+   "cost": 0.006624975,
+   "finish": "stop",
+   "mol_id": "2-Butanone, 3,3-dimethyl-1-(methylsulfinyl)-, oxime",
+   "truth": 1.948
+  },
+  {
+   "text": "2.28",
+   "value": 2.28,
+   "reasoning_tokens": 717,
+   "completion": 721,
+   "cost": 0.006609,
+   "finish": "stop",
+   "mol_id": "4-Thiazolidinecarboxylic acid, 3-(1-(p-chlorophenoxy)cyclohexylcarbonyl)-5,5-dimethyl-",
+   "truth": 1.961
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for 2,3,4,5,6-p",
+   "value": 2.45,
+   "reasoning_tokens": 835,
+   "completion": 1052,
+   "cost": 0.007836,
+   "finish": "stop",
+   "mol_id": "Benzenemethanol, 2,3,4,5,6-pentafluoro- (9CI)",
+   "truth": 2.343
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) of Ethanedial, dioxime (glyoxime)",
+   "value": 2.55,
+   "reasoning_tokens": 554,
+   "completion": 770,
+   "cost": 0.00675225,
+   "finish": "stop",
+   "mol_id": "Ethanedial, dioxime",
+   "truth": 2.869
+  },
+  {
+   "text": "3.45",
+   "value": 3.45,
+   "reasoning_tokens": 854,
+   "completion": 858,
+   "cost": 0.00713025,
+   "finish": "stop",
+   "mol_id": "2,4,6-Quinazolinetriamine, N(sup 6)-((3,4-dichlorophenyl)methyl)-N(sup 6)-nitroso- (9CI)",
+   "truth": 3.059
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **Butyric acid, 4-(2,4-dichl",
+   "value": 2.32,
+   "reasoning_tokens": 795,
+   "completion": 1020,
+   "cost": 0.006336975,
+   "finish": "stop",
+   "mol_id": "Butyric acid, 4-(2,4-dichlorophenoxy)-, isobutyl ester",
+   "truth": 3.007
+  },
+  {
+   "text": "3.10",
+   "value": 3.1,
+   "reasoning_tokens": 469,
+   "completion": 473,
+   "cost": 0.004309725,
+   "finish": "stop",
+   "mol_id": "1-Butanone, 1-(10-(3-(4-methyl-1-piperazinyl)propyl)-10H-phenothiazin-2-yl)-",
+   "truth": 2.834
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{LD}_{50}$ in -log10(mol/kg)) for divi",
+   "value": 3.57,
+   "reasoning_tokens": 795,
+   "completion": 1104,
+   "cost": 0.00801525,
+   "finish": "stop",
+   "mol_id": "Ethene, 1,1'-sulfonylbis-",
+   "truth": 3.567
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats for 3-Isoxazolecarboxylic a",
+   "value": 2.33,
+   "reasoning_tokens": 558,
+   "completion": 815,
+   "cost": 0.0069405,
+   "finish": "stop",
+   "mol_id": "3-Isoxazolecarboxylic acid, 4-acetyl-5-methyl-, ethyl ester",
+   "truth": 2.295
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) in rats for 2,4-Imidazolidinedion",
+   "value": 2.13,
+   "reasoning_tokens": 526,
+   "completion": 736,
+   "cost": 0.00664425,
+   "finish": "stop",
+   "mol_id": "2,4-Imidazolidinedione, 3-ethyl-5-phenyl-",
+   "truth": 2.134
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for ethene, (methyls",
+   "value": 3.21,
+   "reasoning_tokens": 639,
+   "completion": 813,
+   "cost": 0.005548725,
+   "finish": "stop",
+   "mol_id": "Ethene, (methylsulfonyl)- (9CI)",
+   "truth": 2.27
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for the given molecu",
+   "value": 2.23,
+   "reasoning_tokens": 721,
+   "completion": 1016,
+   "cost": 0.006349725,
+   "finish": "stop",
+   "mol_id": "1-Piperazinemethanamine, N-(2-(((5-((dimethylamino)methyl)-2-furanyl)methyl)thio)ethyl)-4-methyl-alpha-(nitromethylene)-",
+   "truth": 1.843
+  },
+  {
+   "text": "2.64",
+   "value": 2.64,
+   "reasoning_tokens": 498,
+   "completion": 502,
+   "cost": 0.004407225,
+   "finish": "stop",
+   "mol_id": "5-Pyrimidinemethanol, alpha-(1-methylethyl)-alpha-(4-(trifluoromethoxy)phenyl)-",
+   "truth": 2.644
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **N-(3,5-di",
+   "value": 2.28,
+   "reasoning_tokens": 781,
+   "completion": 1054,
+   "cost": 0.006462975,
+   "finish": "stop",
+   "mol_id": "Succinimide, N-(3,5-dichlorophenyl)-",
+   "truth": 2.438
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for 1,2-Diethyldiaziridine, we a",
+   "value": 2.68,
+   "reasoning_tokens": 449,
+   "completion": 571,
+   "cost": 0.004637475,
+   "finish": "stop",
+   "mol_id": "1,2-Diethyldiaziridine",
+   "truth": 1.399
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in rats, expressed as $-\\log_{10}(",
+   "value": 4.45,
+   "reasoning_tokens": 650,
+   "completion": 993,
+   "cost": 0.006258975,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(1-butyl-1,6-dihydro-5-methoxy-6-oxo-4-pyridazinyl) O-ethyl O-(1-methylethyl) ester",
+   "truth": 4.218999999999999
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for **Phosphonothioi",
+   "value": 3.38,
+   "reasoning_tokens": 883,
+   "completion": 1141,
+   "cost": 0.006782475,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, ethyl-, O,S-dipropyl ester",
+   "truth": 5.0680000000000005
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Phosphoro",
+   "value": 3.95,
+   "reasoning_tokens": 992,
+   "completion": 1254,
+   "cost": 0.007221225,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-diethyl S-pentachlorophenyl ester",
+   "truth": 2.656
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ (-log10(mol/kg)) for **Tricy",
+   "value": 2.62,
+   "reasoning_tokens": 1020,
+   "completion": 1335,
+   "cost": 0.0089385,
+   "finish": "stop",
+   "mol_id": "Tricyclo(3.3.1.1(sup 3,7))decane-1-carboxylic acid, 2,5-dihydro-4-butyl-1,2-diphenyl-5-oxo-1H-pyrazol-3-yl ester",
+   "truth": 2.443
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for Carbamic acid, (",
+   "value": 2.87,
+   "reasoning_tokens": 701,
+   "completion": 909,
+   "cost": 0.005931225,
+   "finish": "stop",
+   "mol_id": "Carbamic acid, (3-benzoylphenyl)((trifluoromethyl)sulfonyl)-, ethyl ester",
+   "truth": 1.931
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 1,4-Benzodioxin-",
+   "value": 2.27,
+   "reasoning_tokens": 636,
+   "completion": 892,
+   "cost": 0.005859975,
+   "finish": "stop",
+   "mol_id": "1,4-Benzodioxin-2-carboxylic acid, 2,3-dihydro-, propyl ester (9CI)",
+   "truth": 1.475
+  },
+  {
+   "text": "Based on the analysis of the molecular structure, functional groups, and compari",
+   "value": 2.45,
+   "reasoning_tokens": 602,
+   "completion": 664,
+   "cost": 0.005001975,
+   "finish": "stop",
+   "mol_id": "Benzamide, 5-amino-N-butyl-2-(2-propynyloxy)-",
+   "truth": 2.455
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats for Phosphorotrithious acid",
+   "value": 3.03,
+   "reasoning_tokens": 706,
+   "completion": 903,
+   "cost": 0.005882475,
+   "finish": "stop",
+   "mol_id": "Phosphorotrithious acid, triethyl ester",
+   "truth": 2.781
+  },
+  {
+   "text": "Based on the structure-activity relationships, molecular properties, and compara",
+   "value": 2.55,
+   "reasoning_tokens": 768,
+   "completion": 820,
+   "cost": 0.006957,
+   "finish": "stop",
+   "mol_id": "Cyclohexanamine, N-cyclohexyl-N-nitroso- (9CI)",
+   "truth": 1.624
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for **Phosphorodithi",
+   "value": 3.58,
+   "reasoning_tokens": 867,
+   "completion": 1141,
+   "cost": 0.006782475,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,S,S-tripropyl ester",
+   "truth": 3.298
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 2-Naphthalenesul",
+   "value": 2.18,
+   "reasoning_tokens": 735,
+   "completion": 924,
+   "cost": 0.0073695,
+   "finish": "stop",
+   "mol_id": "2-Naphthalenesulfonic acid, 5,6'-iminobis(1-hydroxy-",
+   "truth": 1.6230000000000002
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats ($-\\log_{10}(\\text{mol/kg})",
+   "value": 2.35,
+   "reasoning_tokens": 538,
+   "completion": 901,
+   "cost": 0.005901225,
+   "finish": "stop",
+   "mol_id": "1,3-Benzenedicarboxamide, N,N'-bis(3-pyridinylmethyl)-4-methoxy-",
+   "truth": 2.099
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Acetic ac",
+   "value": 2.43,
+   "reasoning_tokens": 744,
+   "completion": 1028,
+   "cost": 0.006369975,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (4-chloro-2-methylphenoxy)-, isooctyl ester (9CI)",
+   "truth": 2.65
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 1H-Imidazol-2-am",
+   "value": 3.26,
+   "reasoning_tokens": 628,
+   "completion": 819,
+   "cost": 0.00696075,
+   "finish": "stop",
+   "mol_id": "1H-Imidazol-2-amine, N-(2,6-dichlorophenyl)-4,5-dihydro-",
+   "truth": 3.1660000000000004
+  },
+  {
+   "text": "Based on the chemical structure, molecular weight, and structural similarity to ",
+   "value": 3.18,
+   "reasoning_tokens": 774,
+   "completion": 823,
+   "cost": 0.00697575,
+   "finish": "stop",
+   "mol_id": "1-(2-Benzyloxyethyl)-4-phenylpiperidine-4-carboxylic acid ethyl ester",
+   "truth": 3.112
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **Cyclohexanemethylamine, al",
+   "value": 2.68,
+   "reasoning_tokens": 677,
+   "completion": 909,
+   "cost": 0.00729075,
+   "finish": "stop",
+   "mol_id": "Cyclohexanemethylamine, alpha-methyl-4-phenyl-, (E)-",
+   "truth": 2.469
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Phosphoro",
+   "value": 3.72,
+   "reasoning_tokens": 629,
+   "completion": 862,
+   "cost": 0.00711975,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-m-nitrobenzyl ester",
+   "truth": 3.109
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for 2,4-difluoro-1-nitrobenzene,",
+   "value": 2.42,
+   "reasoning_tokens": 568,
+   "completion": 690,
+   "cost": 0.005094975,
+   "finish": "stop",
+   "mol_id": "Benzene, 2,4-difluoro-1-nitro-",
+   "truth": 2.901
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **Isopentyl alcohol, benzoat",
+   "value": 1.48,
+   "reasoning_tokens": 442,
+   "completion": 650,
+   "cost": 0.004940475,
+   "finish": "stop",
+   "mol_id": "Isopentyl alcohol, benzoate (6CI,8CI)",
+   "truth": 1.482
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 3,4-dihydrocouma",
+   "value": 2.01,
+   "reasoning_tokens": 714,
+   "completion": 972,
+   "cost": 0.0075255,
+   "finish": "stop",
+   "mol_id": "2H-1-Benzopyran-2-one, 3,4-dihydro-",
+   "truth": 2.006
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ (-log10(mol/kg)) for **Propa",
+   "value": 1.42,
+   "reasoning_tokens": 558,
+   "completion": 849,
+   "cost": 0.0070605,
+   "finish": "stop",
+   "mol_id": "Propanol, 1(or 2)-(2-methoxymethylethoxy)-",
+   "truth": 1.46
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for 2-Propanol,",
+   "value": 2.54,
+   "reasoning_tokens": 900,
+   "completion": 1280,
+   "cost": 0.0086835,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 2-((1-dimethylethyl)azo)-",
+   "truth": 2.642
+  },
+  {
+   "text": "2.28",
+   "value": 2.28,
+   "reasoning_tokens": 634,
+   "completion": 638,
+   "cost": 0.004900725,
+   "finish": "stop",
+   "mol_id": "1,2-Propanedione, 1-phenyl-, 2-oxime",
+   "truth": 1.585
+  },
+  {
+   "text": "2.68",
+   "value": 2.68,
+   "reasoning_tokens": 476,
+   "completion": 480,
+   "cost": 0.004299975,
+   "finish": "stop",
+   "mol_id": "Pyridazine, 3-(2-methylphenoxy)-",
+   "truth": 1.78
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{LD}_{50}$ in rats, expressed as $-\\lo",
+   "value": 1.75,
+   "reasoning_tokens": 765,
+   "completion": 1103,
+   "cost": 0.00801075,
+   "finish": "stop",
+   "mol_id": "Benzene, methyl(1-phenylethyl)-",
+   "truth": 2.05
+  },
+  {
+   "text": "Based on the chemical structure of 1,2,4-Benzenetricarboxylic acid, 1-(2-((1-oxo",
+   "value": 2.05,
+   "reasoning_tokens": 538,
+   "completion": 616,
+   "cost": 0.004841475,
+   "finish": "stop",
+   "mol_id": "1,2,4-Benzenetricarboxylic acid, 1-(2-((1-oxo-2-propenyl)oxy)ethyl) ester",
+   "truth": 1.985
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats for 4-fluoroaniline (Nc1ccc",
+   "value": 2.43,
+   "reasoning_tokens": 382,
+   "completion": 520,
+   "cost": 0.00582225,
+   "finish": "stop",
+   "mol_id": "Aniline, p-fluoro- (8CI)",
+   "truth": 2.426
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{LD}_{50}$ in rats, expressed as $-\\lo",
+   "value": 1.82,
+   "reasoning_tokens": 669,
+   "completion": 1005,
+   "cost": 0.006276975,
+   "finish": "stop",
+   "mol_id": "Benzene, 1,1'-methylenebis(methyl- (9CI)",
+   "truth": 1.713
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats for 4-amino-3-methylbenzoph",
+   "value": 2.18,
+   "reasoning_tokens": 686,
+   "completion": 926,
+   "cost": 0.005977725,
+   "finish": "stop",
+   "mol_id": "Benzophenone, 4-amino-3-methyl-",
+   "truth": 2.48
+  },
+  {
+   "text": "4.02",
+   "value": 4.02,
+   "reasoning_tokens": 964,
+   "completion": 968,
+   "cost": 0.006147225,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, diethyl 3,5,6-trichloro-2-pyridinyl ester (9CI)",
+   "truth": 3.394
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats ($-\\log_{10}(\\text{m",
+   "value": 2.86,
+   "reasoning_tokens": 708,
+   "completion": 1006,
+   "cost": 0.007662,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(3-(4-morpholinyl)propyl)-",
+   "truth": 2.514
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{LD}_{50}$ in rats, expressed as $-\\lo",
+   "value": 3.55,
+   "reasoning_tokens": 669,
+   "completion": 861,
+   "cost": 0.005744475,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, (4-chlorophenyl)(dimethoxyphosphinyl)methyl dimethyl ester",
+   "truth": 2.05
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats for Acetic acid, 2-propenyl",
+   "value": 2.89,
+   "reasoning_tokens": 528,
+   "completion": 705,
+   "cost": 0.005141475,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2-propenyl ester",
+   "truth": 2.887
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 1-Piperazineetha",
+   "value": 2.75,
+   "reasoning_tokens": 723,
+   "completion": 965,
+   "cost": 0.006150225,
+   "finish": "stop",
+   "mol_id": "1-Piperazineethanol, 4-((5-chloro-2-oxo-3(2H)-benzothiazolyl)acetyl)- (9CI)",
+   "truth": 1.995
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in rats, expressed as $-\\log_{10}(",
+   "value": 2.45,
+   "reasoning_tokens": 873,
+   "completion": 1265,
+   "cost": 0.0086595,
+   "finish": "stop",
+   "mol_id": "Nicotinic acid, 1,1,3,3-tetraester with 2-hydroxy-1,1,3,3-cyclohexanetetramethanol",
+   "truth": 1.807
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for 2,4(1H,3H)-Pyridinedione, 3,",
+   "value": 2.58,
+   "reasoning_tokens": 566,
+   "completion": 724,
+   "cost": 0.005241225,
+   "finish": "stop",
+   "mol_id": "2,4(1H,3H)-Pyridinedione, 3,3-diethyl-1-(4-morpholinylmethyl)- (9CI)",
+   "truth": 2.135
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for the given molecule, **Benzqu",
+   "value": 2.66,
+   "reasoning_tokens": 560,
+   "completion": 873,
+   "cost": 0.005835975,
+   "finish": "stop",
+   "mol_id": "2H-Benzo(a)quinolizine-3-carboxamide, 2-(acetyloxy)-N,N-diethyl-1,3,4,6,7,11b-hexahydro-9,10-dimethoxy-, (2alpha,3beta,11balpha)- (9CI)",
+   "truth": 2.5860000000000003
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats (-log10(mol/kg)) for N-(6-c",
+   "value": 2.78,
+   "reasoning_tokens": 949,
+   "completion": 1247,
+   "cost": 0.00856125,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazole-1-carboxamide, N-(6-chlorohexyl)-3-methyl-",
+   "truth": 1.6669999999999998
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 1,4-Benzenediami",
+   "value": 2.04,
+   "reasoning_tokens": 497,
+   "completion": 748,
+   "cost": 0.005314725,
+   "finish": "stop",
+   "mol_id": "1,4-Benzenediamine, N,N'-diphenyl-",
+   "truth": 2.041
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **2-Benzoxa",
+   "value": 2.52,
+   "reasoning_tokens": 850,
+   "completion": 1075,
+   "cost": 0.007914,
+   "finish": "stop",
+   "mol_id": "2-Benzoxazoleacetamide, 5-chloro- (9CI)",
+   "truth": 2.448
+  },
+  {
+   "text": "2.42",
+   "value": 2.42,
+   "reasoning_tokens": 661,
+   "completion": 665,
+   "cost": 0.005007975,
+   "finish": "stop",
+   "mol_id": "1-Piperidinecarbothioic acid, S-(1-methyl-1-phenylethyl) ester",
+   "truth": 2.445
+  },
+  {
+   "text": "Based on the chemical structure of Ethanimidothioic acid, N-(((methylamino)carbo",
+   "value": 4.25,
+   "reasoning_tokens": 944,
+   "completion": 1074,
+   "cost": 0.007917,
+   "finish": "stop",
+   "mol_id": "Ethanimidothioic acid, N-(((methylamino)carbonyl)oxy)-, 2-amino-2-oxoethyl ester",
+   "truth": 3.559
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{LD}_{50}$ in rats, expressed as $-\\lo",
+   "value": 2.14,
+   "reasoning_tokens": 699,
+   "completion": 1081,
+   "cost": 0.00792825,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2-ethyl-6-methyl-",
+   "truth": 2.184
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Silane, t",
+   "value": 1.5,
+   "reasoning_tokens": 1054,
+   "completion": 1345,
+   "cost": 0.00892275,
+   "finish": "stop",
+   "mol_id": "Silane, trimethoxy(3-(oxiranylmethoxy)propyl)-",
+   "truth": 1.012
+  },
+  {
+   "text": "Based on the structural characteristics of the molecule\u2014a bis-carbamate/oxime ca",
+   "value": 3.85,
+   "reasoning_tokens": 1183,
+   "completion": 1314,
+   "cost": 0.007492725,
+   "finish": "stop",
+   "mol_id": "6,11-Dioxa-3-thia-2,4,7,10-tetraazadodeca-7,9-dienoic acid, 8-((dimethylamino)carbonyl)-5-oxo-2,4,9-trimethyl-, 1-naphthalenyl ester",
+   "truth": 3.4730000000000003
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) of 9-chlorononanoic acid in rats,",
+   "value": 1.92,
+   "reasoning_tokens": 642,
+   "completion": 835,
+   "cost": 0.0070005,
+   "finish": "stop",
+   "mol_id": "Nonanoic acid, 9-chloro-",
+   "truth": 1.808
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) in rats for **1-Piperidinebutanam",
+   "value": 3.35,
+   "reasoning_tokens": 1169,
+   "completion": 1566,
+   "cost": 0.0097935,
+   "finish": "stop",
+   "mol_id": "1-Piperidinebutanamide, 4-(4-chlorophenyl)-4-hydroxy-N,N-dimethyl-alpha,alpha-diphenyl-, 1-oxide, (E)-",
+   "truth": 3.457
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in -log10(mol/kg)) of the test mol",
+   "value": 2.55,
+   "reasoning_tokens": 789,
+   "completion": 1040,
+   "cost": 0.006439725,
+   "finish": "stop",
+   "mol_id": "3,5-Pyridinedicarboxylic acid, 1,4-dihydro-4-(1,3-benzodioxol-4-yl)-2,6-dimethyl-, ethyl methyl ester",
+   "truth": 2.514
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 10H-Phenothiazin",
+   "value": 2.59,
+   "reasoning_tokens": 599,
+   "completion": 816,
+   "cost": 0.005586225,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(2-(1-methyl-2-piperidinyl)ethyl)-2-(methylthio)-",
+   "truth": 2.571
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats ($-\\log_{10}(\\text{m",
+   "value": 1.92,
+   "reasoning_tokens": 468,
+   "completion": 623,
+   "cost": 0.004841475,
+   "finish": "stop",
+   "mol_id": "Isocyanic acid, p-tolyl ester (7CI,8CI)",
+   "truth": 1.92
+  },
+  {
+   "text": "2.25",
+   "value": 2.25,
+   "reasoning_tokens": 795,
+   "completion": 799,
+   "cost": 0.005506725,
+   "finish": "stop",
+   "mol_id": "3,4-Xylenol, 6-tert-butyl-",
+   "truth": 2.238
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Benzamide",
+   "value": 2.1,
+   "reasoning_tokens": 497,
+   "completion": 651,
+   "cost": 0.004949475,
+   "finish": "stop",
+   "mol_id": "Benzamide, 5-acetyl-2-hydroxy-",
+   "truth": 2.023
+  },
+  {
+   "text": "2.45",
+   "value": 2.45,
+   "reasoning_tokens": 643,
+   "completion": 647,
+   "cost": 0.004935975,
+   "finish": "stop",
+   "mol_id": "Benzenemethanol, 4-(2-(1H-imidazol-1-yl)ethoxy)-",
+   "truth": 1.652
+  },
+  {
+   "text": "Based on the structural characteristics of the molecule\u2014specifically the presenc",
+   "value": 3.85,
+   "reasoning_tokens": 688,
+   "completion": 751,
+   "cost": 0.005370225,
+   "finish": "stop",
+   "mol_id": "Ethanimidothioic acid, N-((5-ethoxy-2-methyl-4-(1-methylethyl)-1-oxo-6-oxa-3-thia-2,4-diaza-5-phosphaoct-1-yl)oxy)-, methyl ester, P-oxide",
+   "truth": 3.588
+  },
+  {
+   "text": "To predict the acute oral toxicity ($-\\log_{10}(\\text{mol/kg})$ LD50) of **Benzi",
+   "value": 4.25,
+   "reasoning_tokens": 1615,
+   "completion": 1816,
+   "cost": 0.009337725,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4-(dimethylamino)-5,6,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.178999999999999
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{LD}_{50}$ in rats, expressed as $-\\lo",
+   "value": 3.15,
+   "reasoning_tokens": 1241,
+   "completion": 1588,
+   "cost": 0.008468475,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2,4-dichlorophenyl) O-ethyl S-propyl ester",
+   "truth": 3.012
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for 2-Propanone, 1,1,3-trichloro",
+   "value": 3.08,
+   "reasoning_tokens": 535,
+   "completion": 730,
+   "cost": 0.005255475,
+   "finish": "stop",
+   "mol_id": "2-Propanone, 1,1,3-trichloro-1,3,3-trifluoro-",
+   "truth": 2.891
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) in rats for **9-Octadecenoic acid",
+   "value": 1.83,
+   "reasoning_tokens": 589,
+   "completion": 841,
+   "cost": 0.005661975,
+   "finish": "stop",
+   "mol_id": "9-Octadecenoic acid (Z)-, oxiranylmethyl ester (9CI)",
+   "truth": 1.983
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for 2-Propanone, 1,1,1,3,3,3-hex",
+   "value": 3.04,
+   "reasoning_tokens": 592,
+   "completion": 836,
+   "cost": 0.00702525,
+   "finish": "stop",
+   "mol_id": "2-Propanone, 1,1,1,3,3,3-hexachloro-",
+   "truth": 3.043
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 5-chloro-2-imino",
+   "value": 3.06,
+   "reasoning_tokens": 745,
+   "completion": 960,
+   "cost": 0.006108975,
+   "finish": "stop",
+   "mol_id": "Benzoxazoline, 5-chloro-2-imino-3-methyl-",
+   "truth": 2.262
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{pLD}_{50}$ in $-\\log_{10}(\\text{mol/k",
+   "value": 1.81,
+   "reasoning_tokens": 626,
+   "completion": 918,
+   "cost": 0.005961975,
+   "finish": "stop",
+   "mol_id": "Butane, 1,1',1'',1'''-(1,2-ethanediylidenetetrakis(oxy))tetrakis- (9CI)",
+   "truth": 1.554
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in rats, expressed as $-\\log_{10}(",
+   "value": 2.03,
+   "reasoning_tokens": 364,
+   "completion": 621,
+   "cost": 0.004824225,
+   "finish": "stop",
+   "mol_id": "Cyclohexanone, 2-methyl-",
+   "truth": 1.719
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for the given molecu",
+   "value": 4.73,
+   "reasoning_tokens": 604,
+   "completion": 864,
+   "cost": 0.005824725,
+   "finish": "stop",
+   "mol_id": "21,23-Dioxa(13)cytochalasa-13,19-diene-1,17,22-trione, 6,7-epoxy-18-hydroxy-16,18-dimethyl-10-phenyl-, (7S,13E,16S,18R,19E)-",
+   "truth": 4.736000000000001
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 2-Propenoic acid",
+   "value": 2.78,
+   "reasoning_tokens": 585,
+   "completion": 788,
+   "cost": 0.00683475,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 2-chloro-, methyl ester (9CI)",
+   "truth": 3.249
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for (alpha-RS)-alpha",
+   "value": 3.05,
+   "reasoning_tokens": 609,
+   "completion": 867,
+   "cost": 0.0071505,
+   "finish": "stop",
+   "mol_id": "(alpha-RS)-alpha-Cyano-6-methylergoline-8beta-propionamide",
+   "truth": 2.508
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **10H-Pheno",
+   "value": 2.84,
+   "reasoning_tokens": 620,
+   "completion": 992,
+   "cost": 0.006245475,
+   "finish": "stop",
+   "mol_id": "10H-Phenothiazine, 10-(2-(1-methyl-2-piperidinyl)ethyl)-2-(methylsulfinyl)-",
+   "truth": 2.778
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats ($-\\log_{10}(\\text{m",
+   "value": 2.62,
+   "reasoning_tokens": 694,
+   "completion": 964,
+   "cost": 0.006123975,
+   "finish": "stop",
+   "mol_id": "2-Propynylamine, 1,1-dimethyl- (6CI,7CI,8CI)",
+   "truth": 1.7519999999999998
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) in rats for the given compound, *",
+   "value": 2.84,
+   "reasoning_tokens": 515,
+   "completion": 756,
+   "cost": 0.005352225,
+   "finish": "stop",
+   "mol_id": "Benzenepropanamine, N-methyl-gamma-(4-(trifluoromethyl)phenoxy)-, (+-)-",
+   "truth": 2.574
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in rats, expressed as $-\\log_{10}(",
+   "value": 3.28,
+   "reasoning_tokens": 1200,
+   "completion": 1482,
+   "cost": 0.008133975,
+   "finish": "stop",
+   "mol_id": "4,7-Methano-1H-indene, 1,2,3,4,5,6,7,8,8-nonachlor-2,3,3a,4,7,7a-hexahydro-, (1-alpha,2-beta,3-alpha,3a-alpha,4-beta,7-beta,7a-alpha)-",
+   "truth": 2.949
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in rats, expressed as $-\\log_{10}(",
+   "value": 3.58,
+   "reasoning_tokens": 770,
+   "completion": 979,
+   "cost": 0.00756525,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester, S-ester with 3-(mercaptomethyl)-2-benzothiazolinone",
+   "truth": 3.543
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats for 2-Propenamide, N-hydrox",
+   "value": 2.52,
+   "reasoning_tokens": 676,
+   "completion": 928,
+   "cost": 0.005987475,
+   "finish": "stop",
+   "mol_id": "2-Propenamide, N-hydroxy-3-phenyl- (9CI)",
+   "truth": 1.882
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{LD}_{50}$ in rats, expressed as $-\\lo",
+   "value": 2.76,
+   "reasoning_tokens": 737,
+   "completion": 1015,
+   "cost": 0.006308475,
+   "finish": "stop",
+   "mol_id": "Piperidine, 2-methyl-N-nitroso-, R(-)-",
+   "truth": 2.33
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in rats, expressed as $-\\log_{10}(",
+   "value": 3.65,
+   "reasoning_tokens": 657,
+   "completion": 934,
+   "cost": 0.006003225,
+   "finish": "stop",
+   "mol_id": "Diacetamide, 2,2'-diiodo-",
+   "truth": 2.735
+  },
+  {
+   "text": "1.05",
+   "value": 1.05,
+   "reasoning_tokens": 760,
+   "completion": 764,
+   "cost": 0.005361225,
+   "finish": "stop",
+   "mol_id": "Silane, methyltrimethoxy-",
+   "truth": 1.037
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for **Thiomorpholine",
+   "value": 2.35,
+   "reasoning_tokens": 718,
+   "completion": 979,
+   "cost": 0.006209475,
+   "finish": "stop",
+   "mol_id": "Thiomorpholine, 4-(4-((2,6-dichloro-4-nitrophenyl)azo)phenyl)-, 1,1-dioxide",
+   "truth": 2.128
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats ($-\\log_{10}(\\text{m",
+   "value": 1.9,
+   "reasoning_tokens": 544,
+   "completion": 795,
+   "cost": 0.005475225,
+   "finish": "stop",
+   "mol_id": "Ethylene glycol, diformate",
+   "truth": 1.893
+  },
+  {
+   "text": "Based on the structural characteristics of the molecule\u2014a organodithioate ester ",
+   "value": 3.42,
+   "reasoning_tokens": 1153,
+   "completion": 1232,
+   "cost": 0.007143975,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O-ethyl, O-isopropyl ester, S-ester N-(mercaptomethyl)phthalimide",
+   "truth": 3.857
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **5-chloro-4-fluoro-2-(trifl",
+   "value": 4.42,
+   "reasoning_tokens": 816,
+   "completion": 1092,
+   "cost": 0.006609225,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 5-chloro-4-fluoro-2-(trifluoromethyl)-",
+   "truth": 4.62
+  },
+  {
+   "text": "To predict the acute oral toxicity ($-\\log_{10}(\\text{mol/kg})$) of **Ethane, 1,",
+   "value": 3.26,
+   "reasoning_tokens": 606,
+   "completion": 907,
+   "cost": 0.005906475,
+   "finish": "stop",
+   "mol_id": "Ethane, 1,2-diisothiocyanato- (9CI)",
+   "truth": 3.11
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$) in rats for Hexanoic acid, 2-ethy",
+   "value": 2.32,
+   "reasoning_tokens": 555,
+   "completion": 875,
+   "cost": 0.005801475,
+   "finish": "stop",
+   "mol_id": "Hexanoic acid, 2-ethyl-, methylsilylidyne ester",
+   "truth": 2.317
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **Glycine, N-(4-chlorobenzoy",
+   "value": 2.12,
+   "reasoning_tokens": 593,
+   "completion": 880,
+   "cost": 0.005808975,
+   "finish": "stop",
+   "mol_id": "Glycine, N-(4-chlorobenzoyl)- (9CI)",
+   "truth": 1.981
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Urea, 1,1",
+   "value": 2.72,
+   "reasoning_tokens": 685,
+   "completion": 1010,
+   "cost": 0.006294975,
+   "finish": "stop",
+   "mol_id": "Urea, 1,1,3-trimethyl-3-nitroso-",
+   "truth": 2.738
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for **Propanamide, 2",
+   "value": 2.17,
+   "reasoning_tokens": 622,
+   "completion": 815,
+   "cost": 0.005565975,
+   "finish": "stop",
+   "mol_id": "Propanamide, 2-methyl-2-(methylsulfinyl)- (9CI)",
+   "truth": 0.97
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats for **Methacrylic acid, 2-butylo",
+   "value": 1.42,
+   "reasoning_tokens": 603,
+   "completion": 751,
+   "cost": 0.005320725,
+   "finish": "stop",
+   "mol_id": "Methacrylic acid, 2-butyloctyl ester",
+   "truth": 0.991
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats ($-\\log_{10}(\\text{m",
+   "value": 4.15,
+   "reasoning_tokens": 691,
+   "completion": 923,
+   "cost": 0.005983725,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O-bis(p-nitrophenyl) O-methyl ester",
+   "truth": 3.074
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Phosphora",
+   "value": 3.28,
+   "reasoning_tokens": 1428,
+   "completion": 1759,
+   "cost": 0.0104865,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, O-methyl O-(2,4,5-trichlorophenyl) ester",
+   "truth": 2.641
+  },
+  {
+   "text": "Based on the structural analysis of the target molecule (**Chlorfenvinphos**), i",
+   "value": 4.38,
+   "reasoning_tokens": 1235,
+   "completion": 1359,
+   "cost": 0.007619475,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, 2,2-dichloro-1-(2,4-dichlorophenyl)ethenyl diethyl ester (9CI)",
+   "truth": 4.1160000000000005
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ of 1H-Pyrazolo(3,4-d)pyrimid",
+   "value": 2.85,
+   "reasoning_tokens": 789,
+   "completion": 1015,
+   "cost": 0.007686,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazolo(3,4-d)pyrimidine, 4-amino-",
+   "truth": 2.982
+  },
+  {
+   "text": "To predict the acute oral toxicity $LD_{50}$ in rats for N-ethyl-2-phenylacetami",
+   "value": 2.08,
+   "reasoning_tokens": 635,
+   "completion": 899,
+   "cost": 0.005873475,
+   "finish": "stop",
+   "mol_id": "Acetamide, N-ethyl-2-phenyl- (7CI)",
+   "truth": 2.334
+  },
+  {
+   "text": "Based on the quantitative structure-activity relationships (QSAR) for organophos",
+   "value": 4.12,
+   "reasoning_tokens": 1168,
+   "completion": 1252,
+   "cost": 0.007207725,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, 3-chloro-4-nitrophenyl diethyl ester",
+   "truth": 4.792
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats (-log10(mol/kg)) for",
+   "value": 2.19,
+   "reasoning_tokens": 493,
+   "completion": 746,
+   "cost": 0.005293725,
+   "finish": "stop",
+   "mol_id": "Benzaldehyde, 2-chloro-",
+   "truth": 1.813
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for Dodecanoic acid,",
+   "value": 2.48,
+   "reasoning_tokens": 602,
+   "completion": 906,
+   "cost": 0.005902725,
+   "finish": "stop",
+   "mol_id": "Dodecanoic acid, 2-thiocyanatoethyl ester (9CI)",
+   "truth": 2.757
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for **Sulfasala",
+   "value": 1.41,
+   "reasoning_tokens": 685,
+   "completion": 1008,
+   "cost": 0.006309225,
+   "finish": "stop",
+   "mol_id": "Benzoic acid, 2-hydroxy-5-((4-((2-pyridinylamino)sulfonyl)phenyl)azo)-",
+   "truth": 1.4069999999999998
+  },
+  {
+   "text": "To predict the acute oral toxicity LD50 in rats (-log10(mol/kg)) for 5-Heptenoic",
+   "value": 3.0,
+   "reasoning_tokens": 692,
+   "completion": 885,
+   "cost": 0.005850975,
+   "finish": "stop",
+   "mol_id": "5-Heptenoic acid, 7-(3-hydroxy-2-(3-hydroxy-1-octenyl)-5-oxocyclopentyl)- (8CI)",
+   "truth": 2.8480000000000003
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats ($-\\log_{10}(\\text{m",
+   "value": 4.22,
+   "reasoning_tokens": 671,
+   "completion": 921,
+   "cost": 0.005978475,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 6-bromo-5,7-dichloro-4-methyl-2-(trifluoromethyl)-",
+   "truth": 4.28
+  },
+  {
+   "text": "To predict the acute oral toxicity ($-\\log_{10}(\\text{mol/kg})$) of the given mo",
+   "value": 3.78,
+   "reasoning_tokens": 1019,
+   "completion": 1314,
+   "cost": 0.007465725,
+   "finish": "stop",
+   "mol_id": "Indole-3-acetic acid, 1-(p-chlorobenzoyl)-5-methoxy-2-methyl-, ester with salicylic acid",
+   "truth": 3.905
+  },
+  {
+   "text": "To predict the acute oral toxicity ($\\text{LD}_{50}$ in rats, expressed as $-\\lo",
+   "value": 2.12,
+   "reasoning_tokens": 699,
+   "completion": 986,
+   "cost": 0.00757575,
+   "finish": "stop",
+   "mol_id": "Benzoyl chloride, 3,5-dichloro-",
+   "truth": 2.421
+  },
+  {
+   "text": "Based on the structural analysis of Benzeneacetamide, N-ethyl-alpha-(hydroxymeth",
+   "value": 2.52,
+   "reasoning_tokens": 475,
+   "completion": 555,
+   "cost": 0.004595475,
+   "finish": "stop",
+   "mol_id": "Benzeneacetamide, N-ethyl-alpha-(hydroxymethyl)-N-(4-pyridinylmethyl)-",
+   "truth": 2.517
+  },
+  {
+   "text": "To predict the acute oral toxicity ($LD_{50}$ in rats, expressed as $-\\log_{10}(",
+   "value": 4.52,
+   "reasoning_tokens": 812,
+   "completion": 1104,
+   "cost": 0.006660975,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,6-dinitro-2-(trifluoromethyl)-",
+   "truth": 4.38
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 5-Pyrimidinemeth",
+   "value": 3.25,
+   "reasoning_tokens": 1177,
+   "completion": 1431,
+   "cost": 0.007882725,
+   "finish": "stop",
+   "mol_id": "5-Pyrimidinemethanol, alpha-(2,4-dichlorophenyl)-alpha-phenyl-",
+   "truth": 2.742
+  },
+  {
+   "text": "To predict the acute oral toxicity $\\text{LD}_{50}$ in rats for 4-methoxy-2-(5-m",
+   "value": 2.37,
+   "reasoning_tokens": 447,
+   "completion": 765,
+   "cost": 0.005391225,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 4-methoxy-2-(5-methoxy-3-methyl-1H-pyrazol-1-yl)-6-methyl-",
+   "truth": 2.721
+  }
+ ]
+}

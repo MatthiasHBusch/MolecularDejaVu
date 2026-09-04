@@ -1,0 +1,183 @@
+  opus5           none            reasoning=    0 completion=    6 $0.00112
+  opus5           minimal         reasoning=   60 completion=   81 $0.00300
+  opus5           low             reasoning=   70 completion=   84 $0.00308
+  opus5           max_tokens:128  reasoning=   77 completion=  108 $0.00367
+  opus5           -> CHOSEN none (0 reasoning tokens, $0.00112/call)
+
+  opus48          none            reasoning=    0 completion=    6 $0.00112
+  opus48          minimal         reasoning=    0 completion=    6 $0.00112
+  opus48          low             reasoning=    0 completion=    6 $0.00112
+  opus48          max_tokens:128  reasoning=    0 completion=    6 $0.00112
+  opus48          -> CHOSEN none (0 reasoning tokens, $0.00112/call)
+
+  opus45          none            reasoning=    0 completion=    7 $0.00095
+  opus45          minimal         reasoning=    0 completion=    7 $0.00095
+  opus45          low             reasoning=    0 completion=    7 $0.00095
+  opus45          max_tokens:128  reasoning=  247 completion=  293 $0.00825
+  opus45          -> CHOSEN none (0 reasoning tokens, $0.00095/call)
+
+  sonnet5         none            reasoning=    0 completion=    6 $0.00045
+  sonnet5         minimal         reasoning=    0 completion=    6 $0.00045
+  sonnet5         low             reasoning=    0 completion=    6 $0.00045
+  sonnet5         max_tokens:128  reasoning=    0 completion=    6 $0.00045
+  sonnet5         -> CHOSEN none (0 reasoning tokens, $0.00045/call)
+
+  haiku45         none            reasoning=    0 completion=    7 $0.00019
+  haiku45         minimal         reasoning=    0 completion=    7 $0.00019
+  haiku45         low             reasoning=    0 completion=    7 $0.00019
+  haiku45         max_tokens:128  reasoning=  509 completion=  714 $0.00376
+  haiku45         -> CHOSEN none (0 reasoning tokens, $0.00019/call)
+
+  gem36flash      none            HTTP 400 (rejected)
+  gem36flash      minimal         reasoning=    0 completion=    5 $0.00011
+  gem36flash      low             reasoning=  764 completion=  769 $0.00298
+  gem36flash      max_tokens:128  reasoning=  489 completion=  494 $0.00195
+  gem36flash      -> CHOSEN minimal (0 reasoning tokens, $0.00011/call)
+
+  gem35flash      none            HTTP 400 (rejected)
+  gem35flash      minimal         reasoning=    0 completion=    6 $0.00012
+  gem35flash      low             reasoning=  643 completion=  648 $0.00301
+  gem35flash      max_tokens:128  reasoning=  513 completion=  518 $0.00243
+  gem35flash      -> CHOSEN minimal (0 reasoning tokens, $0.00012/call)
+
+  gem31pro        none            HTTP 400 (rejected)
+  gem31pro        minimal         reasoning=  252 completion=  257 $0.00167
+  gem31pro        low             reasoning=  340 completion=  345 $0.00220
+  gem31pro        max_tokens:128  reasoning=  236 completion=  241 $0.00157
+  gem31pro        -> CHOSEN max_tokens:128 (236 reasoning tokens, $0.00157/call)
+
+  gem31flashlite  none            reasoning=    0 completion=    5 $0.00002
+  gem31flashlite  minimal         reasoning=    0 completion=    5 $0.00002
+  gem31flashlite  low             reasoning=  141 completion=  146 $0.00013
+  gem31flashlite  max_tokens:128  reasoning=  130 completion=  135 $0.00012
+  gem31flashlite  -> CHOSEN none (0 reasoning tokens, $0.00002/call)
+
+  gem3flash       none            reasoning=    0 completion=    6 $0.00004
+  gem3flash       minimal         reasoning=    0 completion=    6 $0.00004
+  gem3flash       low             reasoning=  253 completion=  259 $0.00042
+  gem3flash       max_tokens:128  reasoning=  470 completion=  476 $0.00075
+  gem3flash       -> CHOSEN none (0 reasoning tokens, $0.00004/call)
+
+  gem25pro        none            HTTP 400 (rejected)
+  gem25pro        minimal         reasoning=   62 completion=   67 $0.00041
+  gem25pro        low             reasoning=  144 completion=  147 $0.00081
+  gem25pro        max_tokens:128  reasoning=   92 completion=   95 $0.00055
+  gem25pro        -> CHOSEN minimal (62 reasoning tokens, $0.00041/call)
+
+  terra           none            reasoning=    0 completion=    8 $0.00024
+  terra           minimal         reasoning=  800 completion=  800 $0.00618  NO ANSWER
+  terra           low             reasoning=  800 completion=  800 $0.00618  NO ANSWER
+  terra           max_tokens:128  reasoning=  363 completion=  373 $0.00298
+  terra           -> CHOSEN none (0 reasoning tokens, $0.00024/call)
+
+  luna            none            reasoning=    0 completion=    8 $0.00010
+  luna            minimal         reasoning=  800 completion=  800 $0.00247  NO ANSWER
+  luna            low             reasoning=  800 completion=  800 $0.00247  NO ANSWER
+  luna            max_tokens:128  reasoning=  800 completion=  800 $0.00247  NO ANSWER
+  luna            -> CHOSEN none (0 reasoning tokens, $0.00010/call)
+
+  sol             none            reasoning=    0 completion=    8 $0.00047
+  sol             minimal         reasoning=  610 completion=  620 $0.00966
+  sol             low             reasoning=  782 completion=  792 $0.01223
+  sol             max_tokens:128  reasoning=  800 completion=  800 $0.01235  NO ANSWER
+  sol             -> CHOSEN none (0 reasoning tokens, $0.00047/call)
+
+  gpt55           none            reasoning=    0 completion=    8 $0.00047
+  gpt55           minimal         reasoning=  516 completion=  526 $0.00825
+  gpt55           low             reasoning=  800 completion=  800 $0.01235  NO ANSWER
+  gpt55           max_tokens:128  reasoning=  800 completion=  800 $0.01235  NO ANSWER
+  gpt55           -> CHOSEN none (0 reasoning tokens, $0.00047/call)
+
+  gpt5            none            HTTP 400 (rejected)
+  gpt5            minimal         reasoning=    0 completion=   22 $0.00040
+  gpt5            low             reasoning=  768 completion=  768 $0.00786  NO ANSWER
+  gpt5            max_tokens:128  reasoning=  768 completion=  768 $0.00786  NO ANSWER
+  gpt5            -> CHOSEN minimal (0 reasoning tokens, $0.00040/call)
+
+  gpt41           none            reasoning=    0 completion=    5 $0.00033
+  gpt41           minimal         reasoning=    0 completion=    5 $0.00033
+  gpt41           low             reasoning=    0 completion=    5 $0.00033
+  gpt41           max_tokens:128  reasoning=    0 completion=    5 $0.00033
+  gpt41           -> CHOSEN none (0 reasoning tokens, $0.00033/call)
+
+  grok45          none            HTTP 400 (rejected)
+  grok45          minimal         reasoning=  279 completion=  283 $0.00193
+  grok45          low             reasoning=  198 completion=  202 $0.00145
+  grok45          max_tokens:128  reasoning=  709 completion=  713 $0.00451
+  grok45          -> CHOSEN low (198 reasoning tokens, $0.00145/call)
+
+  grok43          none            reasoning=    0 completion=    4 $0.00026
+  grok43          minimal         reasoning=  786 completion=  886 $0.00234
+  grok43          low             reasoning=  443 completion=  537 $0.00154
+  grok43          max_tokens:128  reasoning= 2609 completion= 2720 $0.00693
+  grok43          -> CHOSEN none (0 reasoning tokens, $0.00026/call)
+
+  kimik3          none            reasoning=    0 completion=   14 $0.00026
+  kimik3          minimal         reasoning=  797 completion=  800 $0.01207  NO ANSWER
+  kimik3          low             reasoning=  797 completion=  800 $0.01207  NO ANSWER
+  kimik3          max_tokens:128  reasoning=  467 completion=  486 $0.00736
+  kimik3          -> CHOSEN none (0 reasoning tokens, $0.00026/call)
+
+  kimik26         none            reasoning=    0 completion=    5 $0.00016
+  kimik26         minimal         reasoning=  800 completion=  800 $0.00222  NO ANSWER
+  kimik26         low             reasoning=  800 completion=  800 $0.00222  NO ANSWER
+  kimik26         max_tokens:128  reasoning=  800 completion=  800 $0.00222  NO ANSWER
+  kimik26         -> CHOSEN none (0 reasoning tokens, $0.00016/call)
+
+  dsv4pro         none            reasoning=    0 completion=    5 $0.00009
+  dsv4pro         minimal         reasoning=  800 completion=  800 $0.00109  NO ANSWER
+  dsv4pro         low             reasoning=  800 completion=  800 $0.00109  NO ANSWER
+  dsv4pro         max_tokens:128  reasoning=  800 completion=  800 $0.00109  NO ANSWER
+  dsv4pro         -> CHOSEN none (0 reasoning tokens, $0.00009/call)
+
+  glm52           none            reasoning=    0 completion=    5 $0.00012
+  glm52           minimal         reasoning=  538 completion=  800 $0.00373  NO ANSWER
+  glm52           low             reasoning=  578 completion=  800 $0.00205  NO ANSWER
+  glm52           max_tokens:128  reasoning=  128 completion=  132 $0.00073
+  glm52           -> CHOSEN none (0 reasoning tokens, $0.00012/call)
+
+  glm5            none            reasoning=    0 completion=    4 $0.00015
+  glm5            minimal         reasoning=    0 completion=  800 $0.00156  NO ANSWER
+  glm5            low             reasoning=    0 completion=  800 $0.00156  NO ANSWER
+  glm5            max_tokens:128  reasoning=    0 completion=  800 $0.00156  NO ANSWER
+  glm5            -> CHOSEN none (0 reasoning tokens, $0.00015/call)
+
+  qwen35          none            reasoning=    0 completion=    6 $0.00009
+  qwen35          minimal         reasoning=  678 completion=  800 $0.00288  NO ANSWER
+  qwen35          low             reasoning=  628 completion=  800 $0.00296  NO ANSWER
+  qwen35          max_tokens:128  reasoning=  128 completion=  138 $0.00038
+  qwen35          -> CHOSEN none (0 reasoning tokens, $0.00009/call)
+
+  qwen3           none            reasoning=    0 completion=    6 $0.00003
+  qwen3           minimal         reasoning=    0 completion=    2 $0.00004
+  qwen3           low             reasoning=    0 completion=    6 $0.00003
+  qwen3           max_tokens:128  reasoning=    0 completion=    6 $0.00003
+  qwen3           -> CHOSEN max_tokens:128 (0 reasoning tokens, $0.00003/call)
+
+  llama4mav       none            reasoning=    0 completion=    5 $0.00003
+  llama4mav       minimal         reasoning=    0 completion=    5 $0.00004
+  llama4mav       low             reasoning=    0 completion=    5 $0.00005
+  llama4mav       max_tokens:128  reasoning=    0 completion=    5 $0.00003
+  llama4mav       -> CHOSEN none (0 reasoning tokens, $0.00003/call)
+
+  nemotron3u      none            reasoning=    0 completion=    6 $0.00006
+  nemotron3u      minimal         reasoning=    0 completion=  800 $0.00181
+  nemotron3u      low             reasoning=  667 completion=  717 $0.00163
+  nemotron3u      max_tokens:128  reasoning=    0 completion=  800 $0.00181
+  nemotron3u      -> CHOSEN none (0 reasoning tokens, $0.00006/call)
+
+  mistrall        none            reasoning=    0 completion=    6 $0.00008
+  mistrall        minimal         reasoning=    0 completion=    6 $0.00003
+  mistrall        low             reasoning=    0 completion=    6 $0.00003
+  mistrall        max_tokens:128  reasoning=    0 completion=    6 $0.00003
+  mistrall        -> CHOSEN minimal (0 reasoning tokens, $0.00003/call)
+
+  minimaxm3       none            reasoning=    0 completion=    5 $0.00005
+  minimaxm3       minimal         reasoning=  746 completion=  799 $0.00079  NO ANSWER
+  minimaxm3       low             reasoning=  734 completion=  799 $0.00079  NO ANSWER
+  minimaxm3       max_tokens:128  reasoning=  735 completion=  800 $0.00081  NO ANSWER
+  minimaxm3       -> CHOSEN none (0 reasoning tokens, $0.00005/call)
+
+
+probe cost $0.247; saved results\meta\reasoning_calibration.json
+registry updated

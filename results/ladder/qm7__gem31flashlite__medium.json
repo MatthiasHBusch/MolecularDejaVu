@@ -1,0 +1,1635 @@
+{
+ "meta": {
+  "dataset": "qm7",
+  "tag": "gem31flashlite",
+  "endpoint": "google/gemini-3.1-flash-lite-preview",
+  "level": "medium",
+  "n_mol": 60,
+  "iters": 3,
+  "max_tokens": 8000,
+  "cost": 0.13125562500000854,
+  "timestamp": "2026-08-15T02:39:43"
+ },
+ "calls": [
+  {
+   "text": "1774.2",
+   "value": 1774.2,
+   "reasoning_tokens": 647,
+   "completion": 653,
+   "cost": 0.00050275,
+   "finish": "stop",
+   "mol_id": "COCCN"
+  },
+  {
+   "text": "2377.93",
+   "value": 2377.93,
+   "reasoning_tokens": 623,
+   "completion": 630,
+   "cost": 0.0004855,
+   "finish": "stop",
+   "mol_id": "COCCN"
+  },
+  {
+   "text": "1205.69",
+   "value": 1205.69,
+   "reasoning_tokens": 792,
+   "completion": 799,
+   "cost": 0.00061225,
+   "finish": "stop",
+   "mol_id": "COCCN"
+  },
+  {
+   "text": "1548.81",
+   "value": 1548.81,
+   "reasoning_tokens": 1283,
+   "completion": 1290,
+   "cost": 0.0009815,
+   "finish": "stop",
+   "mol_id": "C=C1CN2CC1C2"
+  },
+  {
+   "text": "1205.37",
+   "value": 1205.37,
+   "reasoning_tokens": 982,
+   "completion": 989,
+   "cost": 0.00075575,
+   "finish": "stop",
+   "mol_id": "C=C1CN2CC1C2"
+  },
+  {
+   "text": "1908.4",
+   "value": 1908.4,
+   "reasoning_tokens": 876,
+   "completion": 882,
+   "cost": 0.0006755,
+   "finish": "stop",
+   "mol_id": "C=C1CN2CC1C2"
+  },
+  {
+   "text": "1269.87",
+   "value": 1269.87,
+   "reasoning_tokens": 798,
+   "completion": 805,
+   "cost": 0.00061725,
+   "finish": "stop",
+   "mol_id": "CNCC(=O)OC"
+  },
+  {
+   "text": "1121.27",
+   "value": 1121.27,
+   "reasoning_tokens": 725,
+   "completion": 732,
+   "cost": 0.0005625,
+   "finish": "stop",
+   "mol_id": "CNCC(=O)OC"
+  },
+  {
+   "text": "1332.2",
+   "value": 1332.2,
+   "reasoning_tokens": 901,
+   "completion": 907,
+   "cost": 0.00069375,
+   "finish": "stop",
+   "mol_id": "CNCC(=O)OC"
+  },
+  {
+   "text": "1445.69",
+   "value": 1445.69,
+   "reasoning_tokens": 963,
+   "completion": 970,
+   "cost": 0.000741625,
+   "finish": "stop",
+   "mol_id": "C#CC(C)C(C)C"
+  },
+  {
+   "text": "1461.34",
+   "value": 1461.34,
+   "reasoning_tokens": 1013,
+   "completion": 1020,
+   "cost": 0.000779125,
+   "finish": "stop",
+   "mol_id": "C#CC(C)C(C)C"
+  },
+  {
+   "text": "1694.02",
+   "value": 1694.02,
+   "reasoning_tokens": 949,
+   "completion": 956,
+   "cost": 0.000731125,
+   "finish": "stop",
+   "mol_id": "C#CC(C)C(C)C"
+  },
+  {
+   "text": "1184.22",
+   "value": 1184.22,
+   "reasoning_tokens": 1058,
+   "completion": 1065,
+   "cost": 0.000812375,
+   "finish": "stop",
+   "mol_id": "CCC(O)CC#N"
+  },
+  {
+   "text": "1442.86",
+   "value": 1442.86,
+   "reasoning_tokens": 1060,
+   "completion": 1067,
+   "cost": 0.000813875,
+   "finish": "stop",
+   "mol_id": "CCC(O)CC#N"
+  },
+  {
+   "text": "1378.18",
+   "value": 1378.18,
+   "reasoning_tokens": 891,
+   "completion": 898,
+   "cost": 0.000687125,
+   "finish": "stop",
+   "mol_id": "CCC(O)CC#N"
+  },
+  {
+   "text": "-1636.57",
+   "value": -1636.57,
+   "reasoning_tokens": 1019,
+   "completion": 1027,
+   "cost": 0.00078375,
+   "finish": "stop",
+   "mol_id": "ON=C1CCCN1"
+  },
+  {
+   "text": "1354.1",
+   "value": 1354.1,
+   "reasoning_tokens": 843,
+   "completion": 849,
+   "cost": 0.00065025,
+   "finish": "stop",
+   "mol_id": "ON=C1CCCN1"
+  },
+  {
+   "text": "1630.95",
+   "value": 1630.95,
+   "reasoning_tokens": 854,
+   "completion": 861,
+   "cost": 0.00065925,
+   "finish": "stop",
+   "mol_id": "ON=C1CCCN1"
+  },
+  {
+   "text": "1572.6",
+   "value": 1572.6,
+   "reasoning_tokens": 913,
+   "completion": 919,
+   "cost": 0.000702625,
+   "finish": "stop",
+   "mol_id": "CC1NC1CCN"
+  },
+  {
+   "text": "-1753.8",
+   "value": -1753.8,
+   "reasoning_tokens": 1017,
+   "completion": 1024,
+   "cost": 0.000781375,
+   "finish": "stop",
+   "mol_id": "CC1NC1CCN"
+  },
+  {
+   "text": "967.6",
+   "value": 967.6,
+   "reasoning_tokens": 934,
+   "completion": 939,
+   "cost": 0.000717625,
+   "finish": "stop",
+   "mol_id": "CC1NC1CCN"
+  },
+  {
+   "text": "1390.95",
+   "value": 1390.95,
+   "reasoning_tokens": 1085,
+   "completion": 1092,
+   "cost": 0.000832625,
+   "finish": "stop",
+   "mol_id": "CC1CC1NC=N"
+  },
+  {
+   "text": "1476.35",
+   "value": 1476.35,
+   "reasoning_tokens": 955,
+   "completion": 962,
+   "cost": 0.000735125,
+   "finish": "stop",
+   "mol_id": "CC1CC1NC=N"
+  },
+  {
+   "text": "1547.46",
+   "value": 1547.46,
+   "reasoning_tokens": 773,
+   "completion": 780,
+   "cost": 0.000598625,
+   "finish": "stop",
+   "mol_id": "CC1CC1NC=N"
+  },
+  {
+   "text": "1493.45",
+   "value": 1493.45,
+   "reasoning_tokens": 764,
+   "completion": 771,
+   "cost": 0.000592375,
+   "finish": "stop",
+   "mol_id": "CC1=NN=C(C)C1"
+  },
+  {
+   "text": "1774.2",
+   "value": 1774.2,
+   "reasoning_tokens": 859,
+   "completion": 865,
+   "cost": 0.000662875,
+   "finish": "stop",
+   "mol_id": "CC1=NN=C(C)C1"
+  },
+  {
+   "text": "1446.4",
+   "value": 1446.4,
+   "reasoning_tokens": 1120,
+   "completion": 1126,
+   "cost": 0.000858625,
+   "finish": "stop",
+   "mol_id": "CC1=NN=C(C)C1"
+  },
+  {
+   "text": "-1393.30",
+   "value": -1393.3,
+   "reasoning_tokens": 1019,
+   "completion": 1027,
+   "cost": 0.000783875,
+   "finish": "stop",
+   "mol_id": "CC1NN=CC1O"
+  },
+  {
+   "text": "1445.69",
+   "value": 1445.69,
+   "reasoning_tokens": 1076,
+   "completion": 1083,
+   "cost": 0.000825875,
+   "finish": "stop",
+   "mol_id": "CC1NN=CC1O"
+  },
+  {
+   "text": "1118.89",
+   "value": 1118.89,
+   "reasoning_tokens": 907,
+   "completion": 914,
+   "cost": 0.000699125,
+   "finish": "stop",
+   "mol_id": "CC1NN=CC1O"
+  },
+  {
+   "text": "1664.1",
+   "value": 1664.1,
+   "reasoning_tokens": 908,
+   "completion": 914,
+   "cost": 0.0006995,
+   "finish": "stop",
+   "mol_id": "CC1C=CC(=O)O1"
+  },
+  {
+   "text": "1845.54",
+   "value": 1845.54,
+   "reasoning_tokens": 823,
+   "completion": 830,
+   "cost": 0.0006365,
+   "finish": "stop",
+   "mol_id": "CC1C=CC(=O)O1"
+  },
+  {
+   "text": "1856.40",
+   "value": 1856.4,
+   "reasoning_tokens": 821,
+   "completion": 828,
+   "cost": 0.000635,
+   "finish": "stop",
+   "mol_id": "CC1C=CC(=O)O1"
+  },
+  {
+   "text": "1549.92",
+   "value": 1549.92,
+   "reasoning_tokens": 974,
+   "completion": 981,
+   "cost": 0.0007495,
+   "finish": "stop",
+   "mol_id": "NC1CC1C1CO1"
+  },
+  {
+   "text": "1445.65",
+   "value": 1445.65,
+   "reasoning_tokens": 758,
+   "completion": 765,
+   "cost": 0.0005875,
+   "finish": "stop",
+   "mol_id": "NC1CC1C1CO1"
+  },
+  {
+   "text": "1182.2",
+   "value": 1182.2,
+   "reasoning_tokens": 928,
+   "completion": 934,
+   "cost": 0.00071425,
+   "finish": "stop",
+   "mol_id": "NC1CC1C1CO1"
+  },
+  {
+   "text": "1445.62",
+   "value": 1445.62,
+   "reasoning_tokens": 651,
+   "completion": 658,
+   "cost": 0.00050725,
+   "finish": "stop",
+   "mol_id": "COC(=O)C1CC1"
+  },
+  {
+   "text": "1572.63",
+   "value": 1572.63,
+   "reasoning_tokens": 776,
+   "completion": 783,
+   "cost": 0.000601,
+   "finish": "stop",
+   "mol_id": "COC(=O)C1CC1"
+  },
+  {
+   "text": "1356.12",
+   "value": 1356.12,
+   "reasoning_tokens": 680,
+   "completion": 687,
+   "cost": 0.000529,
+   "finish": "stop",
+   "mol_id": "COC(=O)C1CC1"
+  },
+  {
+   "text": "-1349.52",
+   "value": -1349.52,
+   "reasoning_tokens": 868,
+   "completion": 876,
+   "cost": 0.000671,
+   "finish": "stop",
+   "mol_id": "C#CCN(C)[N][CH2]"
+  },
+  {
+   "text": "1145.41",
+   "value": 1145.41,
+   "reasoning_tokens": 1090,
+   "completion": 1097,
+   "cost": 0.00083675,
+   "finish": "stop",
+   "mol_id": "C#CCN(C)[N][CH2]"
+  },
+  {
+   "text": "1563.8",
+   "value": 1563.8,
+   "reasoning_tokens": 1268,
+   "completion": 1274,
+   "cost": 0.0009695,
+   "finish": "stop",
+   "mol_id": "C#CCN(C)[N][CH2]"
+  },
+  {
+   "text": "1401.81",
+   "value": 1401.81,
+   "reasoning_tokens": 1159,
+   "completion": 1166,
+   "cost": 0.000887625,
+   "finish": "stop",
+   "mol_id": "CCC=CCOC"
+  },
+  {
+   "text": "1836.7",
+   "value": 1836.7,
+   "reasoning_tokens": 731,
+   "completion": 737,
+   "cost": 0.000565875,
+   "finish": "stop",
+   "mol_id": "CCC=CCOC"
+  },
+  {
+   "text": "1572.78",
+   "value": 1572.78,
+   "reasoning_tokens": 914,
+   "completion": 921,
+   "cost": 0.000703875,
+   "finish": "stop",
+   "mol_id": "CCC=CCOC"
+  },
+  {
+   "text": "-1725.1",
+   "value": -1725.1,
+   "reasoning_tokens": 921,
+   "completion": 928,
+   "cost": 0.000709375,
+   "finish": "stop",
+   "mol_id": "CNC1CCC1O"
+  },
+  {
+   "text": "1429.35",
+   "value": 1429.35,
+   "reasoning_tokens": 889,
+   "completion": 896,
+   "cost": 0.000685375,
+   "finish": "stop",
+   "mol_id": "CNC1CCC1O"
+  },
+  {
+   "text": "2011.59",
+   "value": 2011.59,
+   "reasoning_tokens": 986,
+   "completion": 993,
+   "cost": 0.000758125,
+   "finish": "stop",
+   "mol_id": "CNC1CCC1O"
+  },
+  {
+   "text": "1569.17",
+   "value": 1569.17,
+   "reasoning_tokens": 940,
+   "completion": 947,
+   "cost": 0.000723875,
+   "finish": "stop",
+   "mol_id": "OCC1C=NOC1"
+  },
+  {
+   "text": "-1734.1",
+   "value": -1734.1,
+   "reasoning_tokens": 893,
+   "completion": 900,
+   "cost": 0.000688625,
+   "finish": "stop",
+   "mol_id": "OCC1C=NOC1"
+  },
+  {
+   "text": "1684.8",
+   "value": 1684.8,
+   "reasoning_tokens": 776,
+   "completion": 782,
+   "cost": 0.000600125,
+   "finish": "stop",
+   "mol_id": "OCC1C=NOC1"
+  },
+  {
+   "text": "1473.4",
+   "value": 1473.4,
+   "reasoning_tokens": 1073,
+   "completion": 1079,
+   "cost": 0.000823125,
+   "finish": "stop",
+   "mol_id": "CCC(O)[CH][N]O"
+  },
+  {
+   "text": "1469.76",
+   "value": 1469.76,
+   "reasoning_tokens": 1032,
+   "completion": 1039,
+   "cost": 0.000793125,
+   "finish": "stop",
+   "mol_id": "CCC(O)[CH][N]O"
+  },
+  {
+   "text": "1345.58",
+   "value": 1345.58,
+   "reasoning_tokens": 976,
+   "completion": 983,
+   "cost": 0.000751125,
+   "finish": "stop",
+   "mol_id": "CCC(O)[CH][N]O"
+  },
+  {
+   "text": "-1249.2",
+   "value": -1249.2,
+   "reasoning_tokens": 760,
+   "completion": 767,
+   "cost": 0.000588625,
+   "finish": "stop",
+   "mol_id": "CC1CN1CCN"
+  },
+  {
+   "text": "1464.71",
+   "value": 1464.71,
+   "reasoning_tokens": 1001,
+   "completion": 1008,
+   "cost": 0.000769375,
+   "finish": "stop",
+   "mol_id": "CC1CN1CCN"
+  },
+  {
+   "text": "1763.4",
+   "value": 1763.4,
+   "reasoning_tokens": 1055,
+   "completion": 1061,
+   "cost": 0.000809125,
+   "finish": "stop",
+   "mol_id": "CC1CN1CCN"
+  },
+  {
+   "text": "1547.88",
+   "value": 1547.88,
+   "reasoning_tokens": 766,
+   "completion": 773,
+   "cost": 0.00059325,
+   "finish": "stop",
+   "mol_id": "C#CC1CCNC1"
+  },
+  {
+   "text": "1176.67",
+   "value": 1176.67,
+   "reasoning_tokens": 966,
+   "completion": 973,
+   "cost": 0.00074325,
+   "finish": "stop",
+   "mol_id": "C#CC1CCNC1"
+  },
+  {
+   "text": "1655.2",
+   "value": 1655.2,
+   "reasoning_tokens": 908,
+   "completion": 914,
+   "cost": 0.000699,
+   "finish": "stop",
+   "mol_id": "C#CC1CCNC1"
+  },
+  {
+   "text": "1445.8",
+   "value": 1445.8,
+   "reasoning_tokens": 893,
+   "completion": 899,
+   "cost": 0.000687625,
+   "finish": "stop",
+   "mol_id": "CCCC(C)=NN"
+  },
+  {
+   "text": "1886.73",
+   "value": 1886.73,
+   "reasoning_tokens": 992,
+   "completion": 999,
+   "cost": 0.000762625,
+   "finish": "stop",
+   "mol_id": "CCCC(C)=NN"
+  },
+  {
+   "text": "1302.2",
+   "value": 1302.2,
+   "reasoning_tokens": 739,
+   "completion": 745,
+   "cost": 0.000572125,
+   "finish": "stop",
+   "mol_id": "CCCC(C)=NN"
+  },
+  {
+   "text": "1734.0",
+   "value": 1734.0,
+   "reasoning_tokens": 913,
+   "completion": 919,
+   "cost": 0.000703,
+   "finish": "stop",
+   "mol_id": "CNC(=O)C1CC1"
+  },
+  {
+   "text": "-1279.35",
+   "value": -1279.35,
+   "reasoning_tokens": 907,
+   "completion": 915,
+   "cost": 0.0007,
+   "finish": "stop",
+   "mol_id": "CNC(=O)C1CC1"
+  },
+  {
+   "text": "1519.8",
+   "value": 1519.8,
+   "reasoning_tokens": 933,
+   "completion": 939,
+   "cost": 0.000718,
+   "finish": "stop",
+   "mol_id": "CNC(=O)C1CC1"
+  },
+  {
+   "text": "1108.97",
+   "value": 1108.97,
+   "reasoning_tokens": 873,
+   "completion": 880,
+   "cost": 0.000673625,
+   "finish": "stop",
+   "mol_id": "C#CC(CC)CO"
+  },
+  {
+   "text": "1445.54",
+   "value": 1445.54,
+   "reasoning_tokens": 933,
+   "completion": 940,
+   "cost": 0.000718625,
+   "finish": "stop",
+   "mol_id": "C#CC(CC)CO"
+  },
+  {
+   "text": "1616.89",
+   "value": 1616.89,
+   "reasoning_tokens": 851,
+   "completion": 858,
+   "cost": 0.000657125,
+   "finish": "stop",
+   "mol_id": "C#CC(CC)CO"
+  },
+  {
+   "text": "1167.3",
+   "value": 1167.3,
+   "reasoning_tokens": 939,
+   "completion": 945,
+   "cost": 0.000722125,
+   "finish": "stop",
+   "mol_id": "CCC(CO)=NN"
+  },
+  {
+   "text": "1214.39",
+   "value": 1214.39,
+   "reasoning_tokens": 1052,
+   "completion": 1059,
+   "cost": 0.000807625,
+   "finish": "stop",
+   "mol_id": "CCC(CO)=NN"
+  },
+  {
+   "text": "1331.43",
+   "value": 1331.43,
+   "reasoning_tokens": 944,
+   "completion": 951,
+   "cost": 0.000726625,
+   "finish": "stop",
+   "mol_id": "CCC(CO)=NN"
+  },
+  {
+   "text": "1255.67",
+   "value": 1255.67,
+   "reasoning_tokens": 874,
+   "completion": 881,
+   "cost": 0.00067425,
+   "finish": "stop",
+   "mol_id": "C=CC1CC1"
+  },
+  {
+   "text": "1584.87",
+   "value": 1584.87,
+   "reasoning_tokens": 790,
+   "completion": 797,
+   "cost": 0.00061125,
+   "finish": "stop",
+   "mol_id": "C=CC1CC1"
+  },
+  {
+   "text": "1245.89",
+   "value": 1245.89,
+   "reasoning_tokens": 587,
+   "completion": 594,
+   "cost": 0.000459,
+   "finish": "stop",
+   "mol_id": "C=CC1CC1"
+  },
+  {
+   "text": "1533.8",
+   "value": 1533.8,
+   "reasoning_tokens": 679,
+   "completion": 685,
+   "cost": 0.000527375,
+   "finish": "stop",
+   "mol_id": "C=C(CC)OC"
+  },
+  {
+   "text": "1572.63",
+   "value": 1572.63,
+   "reasoning_tokens": 1115,
+   "completion": 1122,
+   "cost": 0.000855125,
+   "finish": "stop",
+   "mol_id": "C=C(CC)OC"
+  },
+  {
+   "text": "1565.98",
+   "value": 1565.98,
+   "reasoning_tokens": 700,
+   "completion": 707,
+   "cost": 0.000543875,
+   "finish": "stop",
+   "mol_id": "C=C(CC)OC"
+  },
+  {
+   "text": "1538.2",
+   "value": 1538.2,
+   "reasoning_tokens": 1157,
+   "completion": 1163,
+   "cost": 0.000886125,
+   "finish": "stop",
+   "mol_id": "C#CCC(=C)C=O"
+  },
+  {
+   "text": "1461.35",
+   "value": 1461.35,
+   "reasoning_tokens": 998,
+   "completion": 1005,
+   "cost": 0.000767625,
+   "finish": "stop",
+   "mol_id": "C#CCC(=C)C=O"
+  },
+  {
+   "text": "1438.25",
+   "value": 1438.25,
+   "reasoning_tokens": 913,
+   "completion": 920,
+   "cost": 0.000703875,
+   "finish": "stop",
+   "mol_id": "C#CCC(=C)C=O"
+  },
+  {
+   "text": "1582.5",
+   "value": 1582.5,
+   "reasoning_tokens": 1061,
+   "completion": 1067,
+   "cost": 0.000814,
+   "finish": "stop",
+   "mol_id": "C1NC2CC1C2"
+  },
+  {
+   "text": "1898.39",
+   "value": 1898.39,
+   "reasoning_tokens": 827,
+   "completion": 834,
+   "cost": 0.00063925,
+   "finish": "stop",
+   "mol_id": "C1NC2CC1C2"
+  },
+  {
+   "text": "2242.0",
+   "value": 2242.0,
+   "reasoning_tokens": 937,
+   "completion": 943,
+   "cost": 0.000721,
+   "finish": "stop",
+   "mol_id": "C1NC2CC1C2"
+  },
+  {
+   "text": "1618.52",
+   "value": 1618.52,
+   "reasoning_tokens": 1006,
+   "completion": 1013,
+   "cost": 0.000773875,
+   "finish": "stop",
+   "mol_id": "C1=COC2(CC2)O1"
+  },
+  {
+   "text": "1642.1",
+   "value": 1642.1,
+   "reasoning_tokens": 891,
+   "completion": 897,
+   "cost": 0.000686875,
+   "finish": "stop",
+   "mol_id": "C1=COC2(CC2)O1"
+  },
+  {
+   "text": "1616.51",
+   "value": 1616.51,
+   "reasoning_tokens": 1086,
+   "completion": 1093,
+   "cost": 0.000833875,
+   "finish": "stop",
+   "mol_id": "C1=COC2(CC2)O1"
+  },
+  {
+   "text": "1176.49",
+   "value": 1176.49,
+   "reasoning_tokens": 825,
+   "completion": 832,
+   "cost": 0.000637375,
+   "finish": "stop",
+   "mol_id": "C=CCOC=C"
+  },
+  {
+   "text": "1547.46",
+   "value": 1547.46,
+   "reasoning_tokens": 778,
+   "completion": 785,
+   "cost": 0.000602125,
+   "finish": "stop",
+   "mol_id": "C=CCOC=C"
+  },
+  {
+   "text": "1162.77",
+   "value": 1162.77,
+   "reasoning_tokens": 1001,
+   "completion": 1008,
+   "cost": 0.000769375,
+   "finish": "stop",
+   "mol_id": "C=CCOC=C"
+  },
+  {
+   "text": "1221.78",
+   "value": 1221.78,
+   "reasoning_tokens": 904,
+   "completion": 911,
+   "cost": 0.000697,
+   "finish": "stop",
+   "mol_id": "ON=C1C=CCN1"
+  },
+  {
+   "text": "1258.64",
+   "value": 1258.64,
+   "reasoning_tokens": 999,
+   "completion": 1006,
+   "cost": 0.00076825,
+   "finish": "stop",
+   "mol_id": "ON=C1C=CCN1"
+  },
+  {
+   "text": "-1052.75",
+   "value": -1052.75,
+   "reasoning_tokens": 918,
+   "completion": 926,
+   "cost": 0.00070825,
+   "finish": "stop",
+   "mol_id": "ON=C1C=CCN1"
+  },
+  {
+   "text": "1446.73",
+   "value": 1446.73,
+   "reasoning_tokens": 1050,
+   "completion": 1057,
+   "cost": 0.000806875,
+   "finish": "stop",
+   "mol_id": "C#CC(O)C(=C)C"
+  },
+  {
+   "text": "1573.52",
+   "value": 1573.52,
+   "reasoning_tokens": 1153,
+   "completion": 1160,
+   "cost": 0.000884125,
+   "finish": "stop",
+   "mol_id": "C#CC(O)C(=C)C"
+  },
+  {
+   "text": "1104.99",
+   "value": 1104.99,
+   "reasoning_tokens": 1048,
+   "completion": 1055,
+   "cost": 0.000805375,
+   "finish": "stop",
+   "mol_id": "C#CC(O)C(=C)C"
+  },
+  {
+   "text": "1251.52",
+   "value": 1251.52,
+   "reasoning_tokens": 1600,
+   "completion": 1607,
+   "cost": 0.001218875,
+   "finish": "stop",
+   "mol_id": "NCC1(N)CCC1"
+  },
+  {
+   "text": "-1793.00",
+   "value": -1793.0,
+   "reasoning_tokens": 846,
+   "completion": 854,
+   "cost": 0.000654125,
+   "finish": "stop",
+   "mol_id": "NCC1(N)CCC1"
+  },
+  {
+   "text": "1476.95",
+   "value": 1476.95,
+   "reasoning_tokens": 1199,
+   "completion": 1206,
+   "cost": 0.000918125,
+   "finish": "stop",
+   "mol_id": "NCC1(N)CCC1"
+  },
+  {
+   "text": "-1369.24",
+   "value": -1369.24,
+   "reasoning_tokens": 978,
+   "completion": 986,
+   "cost": 0.000753375,
+   "finish": "stop",
+   "mol_id": "CN1N=CC2CC21"
+  },
+  {
+   "text": "1486.2",
+   "value": 1486.2,
+   "reasoning_tokens": 1015,
+   "completion": 1021,
+   "cost": 0.000779625,
+   "finish": "stop",
+   "mol_id": "CN1N=CC2CC21"
+  },
+  {
+   "text": "1537.49",
+   "value": 1537.49,
+   "reasoning_tokens": 932,
+   "completion": 939,
+   "cost": 0.000718125,
+   "finish": "stop",
+   "mol_id": "CN1N=CC2CC21"
+  },
+  {
+   "text": "2386.95",
+   "value": 2386.95,
+   "reasoning_tokens": 1091,
+   "completion": 1098,
+   "cost": 0.000837125,
+   "finish": "stop",
+   "mol_id": "CC1CCC2NC12"
+  },
+  {
+   "text": "1656.33",
+   "value": 1656.33,
+   "reasoning_tokens": 916,
+   "completion": 923,
+   "cost": 0.000705875,
+   "finish": "stop",
+   "mol_id": "CC1CCC2NC12"
+  },
+  {
+   "text": "1493.59",
+   "value": 1493.59,
+   "reasoning_tokens": 1113,
+   "completion": 1120,
+   "cost": 0.000853625,
+   "finish": "stop",
+   "mol_id": "CC1CCC2NC12"
+  },
+  {
+   "text": "1370.7",
+   "value": 1370.7,
+   "reasoning_tokens": 881,
+   "completion": 887,
+   "cost": 0.000678625,
+   "finish": "stop",
+   "mol_id": "C=CCCC=C"
+  },
+  {
+   "text": "1445.65",
+   "value": 1445.65,
+   "reasoning_tokens": 733,
+   "completion": 740,
+   "cost": 0.000568375,
+   "finish": "stop",
+   "mol_id": "C=CCCC=C"
+  },
+  {
+   "text": "1774.24",
+   "value": 1774.24,
+   "reasoning_tokens": 919,
+   "completion": 926,
+   "cost": 0.000707875,
+   "finish": "stop",
+   "mol_id": "C=CCCC=C"
+  },
+  {
+   "text": "1515.36",
+   "value": 1515.36,
+   "reasoning_tokens": 1120,
+   "completion": 1127,
+   "cost": 0.000858625,
+   "finish": "stop",
+   "mol_id": "C#CC#CCCC"
+  },
+  {
+   "text": "1945.74",
+   "value": 1945.74,
+   "reasoning_tokens": 1606,
+   "completion": 1613,
+   "cost": 0.001223125,
+   "finish": "stop",
+   "mol_id": "C#CC#CCCC"
+  },
+  {
+   "text": "1469.76",
+   "value": 1469.76,
+   "reasoning_tokens": 911,
+   "completion": 918,
+   "cost": 0.000701875,
+   "finish": "stop",
+   "mol_id": "C#CC#CCCC"
+  },
+  {
+   "text": "1675.2",
+   "value": 1675.2,
+   "reasoning_tokens": 1086,
+   "completion": 1092,
+   "cost": 0.00083275,
+   "finish": "stop",
+   "mol_id": "C=CN1C=NCC1"
+  },
+  {
+   "text": "1648.77",
+   "value": 1648.77,
+   "reasoning_tokens": 784,
+   "completion": 791,
+   "cost": 0.000607,
+   "finish": "stop",
+   "mol_id": "C=CN1C=NCC1"
+  },
+  {
+   "text": "-1360.27",
+   "value": -1360.27,
+   "reasoning_tokens": 920,
+   "completion": 928,
+   "cost": 0.00070975,
+   "finish": "stop",
+   "mol_id": "C=CN1C=NCC1"
+  },
+  {
+   "text": "1437.03",
+   "value": 1437.03,
+   "reasoning_tokens": 1062,
+   "completion": 1069,
+   "cost": 0.00081525,
+   "finish": "stop",
+   "mol_id": "Cc1occc1O"
+  },
+  {
+   "text": "1805.86",
+   "value": 1805.86,
+   "reasoning_tokens": 958,
+   "completion": 965,
+   "cost": 0.00073725,
+   "finish": "stop",
+   "mol_id": "Cc1occc1O"
+  },
+  {
+   "text": "1845.89",
+   "value": 1845.89,
+   "reasoning_tokens": 796,
+   "completion": 803,
+   "cost": 0.00061575,
+   "finish": "stop",
+   "mol_id": "Cc1occc1O"
+  },
+  {
+   "text": "1686.04",
+   "value": 1686.04,
+   "reasoning_tokens": 887,
+   "completion": 894,
+   "cost": 0.00068425,
+   "finish": "stop",
+   "mol_id": "NC1CC2CC1N2"
+  },
+  {
+   "text": "1451.3",
+   "value": 1451.3,
+   "reasoning_tokens": 829,
+   "completion": 835,
+   "cost": 0.00064,
+   "finish": "stop",
+   "mol_id": "NC1CC2CC1N2"
+  },
+  {
+   "text": "1876.32",
+   "value": 1876.32,
+   "reasoning_tokens": 923,
+   "completion": 930,
+   "cost": 0.00071125,
+   "finish": "stop",
+   "mol_id": "NC1CC2CC1N2"
+  },
+  {
+   "text": "1965.8",
+   "value": 1965.8,
+   "reasoning_tokens": 1151,
+   "completion": 1157,
+   "cost": 0.00088125,
+   "finish": "stop",
+   "mol_id": "CC=CC1CNC1"
+  },
+  {
+   "text": "1856",
+   "value": 1856.0,
+   "reasoning_tokens": 1356,
+   "completion": 1360,
+   "cost": 0.0010335,
+   "finish": "stop",
+   "mol_id": "CC=CC1CNC1"
+  },
+  {
+   "text": "1256.42",
+   "value": 1256.42,
+   "reasoning_tokens": 1099,
+   "completion": 1106,
+   "cost": 0.000843,
+   "finish": "stop",
+   "mol_id": "CC=CC1CNC1"
+  },
+  {
+   "text": "1575.46",
+   "value": 1575.46,
+   "reasoning_tokens": 1055,
+   "completion": 1062,
+   "cost": 0.00081,
+   "finish": "stop",
+   "mol_id": "CC#CC1CCO1"
+  },
+  {
+   "text": "1445.69",
+   "value": 1445.69,
+   "reasoning_tokens": 967,
+   "completion": 974,
+   "cost": 0.000744,
+   "finish": "stop",
+   "mol_id": "CC#CC1CCO1"
+  },
+  {
+   "text": "1530.68",
+   "value": 1530.68,
+   "reasoning_tokens": 963,
+   "completion": 970,
+   "cost": 0.000741,
+   "finish": "stop",
+   "mol_id": "CC#CC1CCO1"
+  },
+  {
+   "text": "1642.6",
+   "value": 1642.6,
+   "reasoning_tokens": 774,
+   "completion": 780,
+   "cost": 0.00059825,
+   "finish": "stop",
+   "mol_id": "Cn1cccc1"
+  },
+  {
+   "text": "1547.78",
+   "value": 1547.78,
+   "reasoning_tokens": 743,
+   "completion": 750,
+   "cost": 0.00057575,
+   "finish": "stop",
+   "mol_id": "Cn1cccc1"
+  },
+  {
+   "text": "1429.62",
+   "value": 1429.62,
+   "reasoning_tokens": 781,
+   "completion": 788,
+   "cost": 0.00060425,
+   "finish": "stop",
+   "mol_id": "Cn1cccc1"
+  },
+  {
+   "text": "1293.99",
+   "value": 1293.99,
+   "reasoning_tokens": 918,
+   "completion": 925,
+   "cost": 0.000707875,
+   "finish": "stop",
+   "mol_id": "C#CC=C(C)C#C"
+  },
+  {
+   "text": "1494.0",
+   "value": 1494.0,
+   "reasoning_tokens": 1357,
+   "completion": 1363,
+   "cost": 0.001036375,
+   "finish": "stop",
+   "mol_id": "C#CC=C(C)C#C"
+  },
+  {
+   "text": "1703.11",
+   "value": 1703.11,
+   "reasoning_tokens": 1275,
+   "completion": 1282,
+   "cost": 0.000975625,
+   "finish": "stop",
+   "mol_id": "C#CC=C(C)C#C"
+  },
+  {
+   "text": "2037.49",
+   "value": 2037.49,
+   "reasoning_tokens": 980,
+   "completion": 987,
+   "cost": 0.000753875,
+   "finish": "stop",
+   "mol_id": "CCC(C#N)=CN"
+  },
+  {
+   "text": "1249.49",
+   "value": 1249.49,
+   "reasoning_tokens": 924,
+   "completion": 931,
+   "cost": 0.000711875,
+   "finish": "stop",
+   "mol_id": "CCC(C#N)=CN"
+  },
+  {
+   "text": "1673.1",
+   "value": 1673.1,
+   "reasoning_tokens": 864,
+   "completion": 870,
+   "cost": 0.000666125,
+   "finish": "stop",
+   "mol_id": "CCC(C#N)=CN"
+  },
+  {
+   "text": "1477.53",
+   "value": 1477.53,
+   "reasoning_tokens": 942,
+   "completion": 949,
+   "cost": 0.000725625,
+   "finish": "stop",
+   "mol_id": "CCC(C)N(C)C"
+  },
+  {
+   "text": "1581.38",
+   "value": 1581.38,
+   "reasoning_tokens": 904,
+   "completion": 911,
+   "cost": 0.000697125,
+   "finish": "stop",
+   "mol_id": "CCC(C)N(C)C"
+  },
+  {
+   "text": "1729.77",
+   "value": 1729.77,
+   "reasoning_tokens": 1088,
+   "completion": 1095,
+   "cost": 0.000835125,
+   "finish": "stop",
+   "mol_id": "CCC(C)N(C)C"
+  },
+  {
+   "text": "1673.72",
+   "value": 1673.72,
+   "reasoning_tokens": 1010,
+   "completion": 1017,
+   "cost": 0.000776125,
+   "finish": "stop",
+   "mol_id": "CC=CC=COC"
+  },
+  {
+   "text": "1726.0",
+   "value": 1726.0,
+   "reasoning_tokens": 943,
+   "completion": 949,
+   "cost": 0.000725125,
+   "finish": "stop",
+   "mol_id": "CC=CC=COC"
+  },
+  {
+   "text": "1378.0",
+   "value": 1378.0,
+   "reasoning_tokens": 846,
+   "completion": 852,
+   "cost": 0.000652375,
+   "finish": "stop",
+   "mol_id": "CC=CC=COC"
+  },
+  {
+   "text": "1921.6",
+   "value": 1921.6,
+   "reasoning_tokens": 1169,
+   "completion": 1175,
+   "cost": 0.000894875,
+   "finish": "stop",
+   "mol_id": "CC#CC(C)=CC"
+  },
+  {
+   "text": "1968.46",
+   "value": 1968.46,
+   "reasoning_tokens": 1053,
+   "completion": 1060,
+   "cost": 0.000808625,
+   "finish": "stop",
+   "mol_id": "CC#CC(C)=CC"
+  },
+  {
+   "text": "1533.68",
+   "value": 1533.68,
+   "reasoning_tokens": 1328,
+   "completion": 1335,
+   "cost": 0.001014875,
+   "finish": "stop",
+   "mol_id": "CC#CC(C)=CC"
+  },
+  {
+   "text": "1445.89",
+   "value": 1445.89,
+   "reasoning_tokens": 964,
+   "completion": 971,
+   "cost": 0.000741875,
+   "finish": "stop",
+   "mol_id": "C=C1CCNC1C"
+  },
+  {
+   "text": "1774.29",
+   "value": 1774.29,
+   "reasoning_tokens": 876,
+   "completion": 883,
+   "cost": 0.000675875,
+   "finish": "stop",
+   "mol_id": "C=C1CCNC1C"
+  },
+  {
+   "text": "1415.89",
+   "value": 1415.89,
+   "reasoning_tokens": 1542,
+   "completion": 1549,
+   "cost": 0.001175375,
+   "finish": "stop",
+   "mol_id": "C=C1CCNC1C"
+  },
+  {
+   "text": "1568.61",
+   "value": 1568.61,
+   "reasoning_tokens": 695,
+   "completion": 702,
+   "cost": 0.000539875,
+   "finish": "stop",
+   "mol_id": "CCC(CC)OC"
+  },
+  {
+   "text": "-1972.63",
+   "value": -1972.63,
+   "reasoning_tokens": 1015,
+   "completion": 1023,
+   "cost": 0.000780625,
+   "finish": "stop",
+   "mol_id": "CCC(CC)OC"
+  },
+  {
+   "text": "2035.75",
+   "value": 2035.75,
+   "reasoning_tokens": 838,
+   "completion": 845,
+   "cost": 0.000647125,
+   "finish": "stop",
+   "mol_id": "CCC(CC)OC"
+  },
+  {
+   "text": "1266.3",
+   "value": 1266.3,
+   "reasoning_tokens": 984,
+   "completion": 990,
+   "cost": 0.000756125,
+   "finish": "stop",
+   "mol_id": "CCC[CH][N]O"
+  },
+  {
+   "text": "1348.6",
+   "value": 1348.6,
+   "reasoning_tokens": 1027,
+   "completion": 1033,
+   "cost": 0.000788375,
+   "finish": "stop",
+   "mol_id": "CCC[CH][N]O"
+  },
+  {
+   "text": "1053.64",
+   "value": 1053.64,
+   "reasoning_tokens": 911,
+   "completion": 918,
+   "cost": 0.000702125,
+   "finish": "stop",
+   "mol_id": "CCC[CH][N]O"
+  },
+  {
+   "text": "1726.6",
+   "value": 1726.6,
+   "reasoning_tokens": 871,
+   "completion": 877,
+   "cost": 0.000671125,
+   "finish": "stop",
+   "mol_id": "CCOC=CC=O"
+  },
+  {
+   "text": "1733.93",
+   "value": 1733.93,
+   "reasoning_tokens": 1047,
+   "completion": 1054,
+   "cost": 0.000803875,
+   "finish": "stop",
+   "mol_id": "CCOC=CC=O"
+  },
+  {
+   "text": "1449.19",
+   "value": 1449.19,
+   "reasoning_tokens": 852,
+   "completion": 859,
+   "cost": 0.000657625,
+   "finish": "stop",
+   "mol_id": "CCOC=CC=O"
+  },
+  {
+   "text": "1384.6",
+   "value": 1384.6,
+   "reasoning_tokens": 814,
+   "completion": 820,
+   "cost": 0.000628375,
+   "finish": "stop",
+   "mol_id": "CCN(C)C"
+  },
+  {
+   "text": "1269.8",
+   "value": 1269.8,
+   "reasoning_tokens": 772,
+   "completion": 778,
+   "cost": 0.000596875,
+   "finish": "stop",
+   "mol_id": "CCN(C)C"
+  },
+  {
+   "text": "1445.7",
+   "value": 1445.7,
+   "reasoning_tokens": 597,
+   "completion": 603,
+   "cost": 0.000465625,
+   "finish": "stop",
+   "mol_id": "CCN(C)C"
+  },
+  {
+   "text": "1103.49",
+   "value": 1103.49,
+   "reasoning_tokens": 1000,
+   "completion": 1007,
+   "cost": 0.000769125,
+   "finish": "stop",
+   "mol_id": "C=CC1(N)CCC1"
+  },
+  {
+   "text": "1568.12",
+   "value": 1568.12,
+   "reasoning_tokens": 1350,
+   "completion": 1357,
+   "cost": 0.001031625,
+   "finish": "stop",
+   "mol_id": "C=CC1(N)CCC1"
+  },
+  {
+   "text": "1441.51",
+   "value": 1441.51,
+   "reasoning_tokens": 1248,
+   "completion": 1255,
+   "cost": 0.000955125,
+   "finish": "stop",
+   "mol_id": "C=CC1(N)CCC1"
+  },
+  {
+   "text": "1584.2",
+   "value": 1584.2,
+   "reasoning_tokens": 967,
+   "completion": 973,
+   "cost": 0.000743375,
+   "finish": "stop",
+   "mol_id": "CC1=CCC=CO1"
+  },
+  {
+   "text": "1445.69",
+   "value": 1445.69,
+   "reasoning_tokens": 729,
+   "completion": 736,
+   "cost": 0.000565625,
+   "finish": "stop",
+   "mol_id": "CC1=CCC=CO1"
+  },
+  {
+   "text": "1358.33",
+   "value": 1358.33,
+   "reasoning_tokens": 801,
+   "completion": 808,
+   "cost": 0.000619625,
+   "finish": "stop",
+   "mol_id": "CC1=CCC=CO1"
+  },
+  {
+   "text": "1031.94",
+   "value": 1031.94,
+   "reasoning_tokens": 999,
+   "completion": 1006,
+   "cost": 0.00076775,
+   "finish": "stop",
+   "mol_id": "CCNC=O"
+  },
+  {
+   "text": "1060.36",
+   "value": 1060.36,
+   "reasoning_tokens": 982,
+   "completion": 989,
+   "cost": 0.000755,
+   "finish": "stop",
+   "mol_id": "CCNC=O"
+  },
+  {
+   "text": "1222.0",
+   "value": 1222.0,
+   "reasoning_tokens": 947,
+   "completion": 953,
+   "cost": 0.000728,
+   "finish": "stop",
+   "mol_id": "CCNC=O"
+  },
+  {
+   "text": "1442.27",
+   "value": 1442.27,
+   "reasoning_tokens": 879,
+   "completion": 886,
+   "cost": 0.000678,
+   "finish": "stop",
+   "mol_id": "CCNCC(=O)O"
+  },
+  {
+   "text": "1335.5",
+   "value": 1335.5,
+   "reasoning_tokens": 942,
+   "completion": 948,
+   "cost": 0.0007245,
+   "finish": "stop",
+   "mol_id": "CCNCC(=O)O"
+  },
+  {
+   "text": "1463.14",
+   "value": 1463.14,
+   "reasoning_tokens": 787,
+   "completion": 794,
+   "cost": 0.000609,
+   "finish": "stop",
+   "mol_id": "CCNCC(=O)O"
+  },
+  {
+   "text": "1354.49",
+   "value": 1354.49,
+   "reasoning_tokens": 1029,
+   "completion": 1036,
+   "cost": 0.0007905,
+   "finish": "stop",
+   "mol_id": "NC1COCC1O"
+  },
+  {
+   "text": "-1748.24",
+   "value": -1748.24,
+   "reasoning_tokens": 1211,
+   "completion": 1219,
+   "cost": 0.00092775,
+   "finish": "stop",
+   "mol_id": "NC1COCC1O"
+  },
+  {
+   "text": "1075.05",
+   "value": 1075.05,
+   "reasoning_tokens": 1107,
+   "completion": 1114,
+   "cost": 0.000849,
+   "finish": "stop",
+   "mol_id": "NC1COCC1O"
+  },
+  {
+   "text": "1146.4251",
+   "value": 1146.4251,
+   "reasoning_tokens": 876,
+   "completion": 885,
+   "cost": 0.000676875,
+   "finish": "stop",
+   "mol_id": "C=CCCN"
+  },
+  {
+   "text": "1411.5",
+   "value": 1411.5,
+   "reasoning_tokens": 580,
+   "completion": 586,
+   "cost": 0.000452625,
+   "finish": "stop",
+   "mol_id": "C=CCCN"
+  },
+  {
+   "text": "1149.49",
+   "value": 1149.49,
+   "reasoning_tokens": 693,
+   "completion": 700,
+   "cost": 0.000538125,
+   "finish": "stop",
+   "mol_id": "C=CCCN"
+  },
+  {
+   "text": "-1774.29",
+   "value": -1774.29,
+   "reasoning_tokens": 766,
+   "completion": 774,
+   "cost": 0.0005945,
+   "finish": "stop",
+   "mol_id": "O=C1C2CCC1C2"
+  },
+  {
+   "text": "-1875.05",
+   "value": -1875.05,
+   "reasoning_tokens": 1070,
+   "completion": 1078,
+   "cost": 0.0008225,
+   "finish": "stop",
+   "mol_id": "O=C1C2CCC1C2"
+  },
+  {
+   "text": "1545.9",
+   "value": 1545.9,
+   "reasoning_tokens": 898,
+   "completion": 904,
+   "cost": 0.000692,
+   "finish": "stop",
+   "mol_id": "O=C1C2CCC1C2"
+  }
+ ]
+}

@@ -1,0 +1,1095 @@
+{
+ "meta": {
+  "dataset": "ld50",
+  "tag": "gpt55",
+  "endpoint": "openai/gpt-5.5",
+  "level": "high",
+  "n_mol": 60,
+  "iters": 2,
+  "max_tokens": 8000,
+  "cost": 9.084504999999996,
+  "timestamp": "2026-07-28T10:04:56"
+ },
+ "calls": [
+  {
+   "text": "2.598",
+   "value": 2.598,
+   "reasoning_tokens": 4641,
+   "completion": 4650,
+   "cost": 0.070155,
+   "finish": "stop",
+   "mol_id": "Diazene, diphenyl-, 1-oxide"
+  },
+  {
+   "text": "2.491",
+   "value": 2.491,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.04713,
+   "finish": "stop",
+   "mol_id": "Diazene, diphenyl-, 1-oxide"
+  },
+  {
+   "text": "2.343",
+   "value": 2.343,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.03933,
+   "finish": "stop",
+   "mol_id": "Methane, tribromo-"
+  },
+  {
+   "text": "2.343095",
+   "value": 2.343095,
+   "reasoning_tokens": 3106,
+   "completion": 3116,
+   "cost": 0.047115,
+   "finish": "stop",
+   "mol_id": "Methane, tribromo-"
+  },
+  {
+   "text": "2.3302",
+   "value": 2.3302,
+   "reasoning_tokens": 4019,
+   "completion": 4029,
+   "cost": 0.0608025,
+   "finish": "stop",
+   "mol_id": "Bromoethene (9CI)"
+  },
+  {
+   "text": "2.330207",
+   "value": 2.330207,
+   "reasoning_tokens": 1034,
+   "completion": 1044,
+   "cost": 0.0160275,
+   "finish": "stop",
+   "mol_id": "Bromoethene (9CI)"
+  },
+  {
+   "text": "1.465",
+   "value": 1.465,
+   "reasoning_tokens": 6038,
+   "completion": 6047,
+   "cost": 0.09112,
+   "finish": "stop",
+   "mol_id": "1,1'-Biphenyl, hexabromo-"
+  },
+  {
+   "text": "1.4652",
+   "value": 1.4652,
+   "reasoning_tokens": 6732,
+   "completion": 6742,
+   "cost": 0.101545,
+   "finish": "stop",
+   "mol_id": "1,1'-Biphenyl, hexabromo-"
+  },
+  {
+   "text": "2.85",
+   "value": 2.85,
+   "reasoning_tokens": 6398,
+   "completion": 6407,
+   "cost": 0.0964925,
+   "finish": "stop",
+   "mol_id": "Isothiocyanic acid, p-bromophenyl ester"
+  },
+  {
+   "text": "2.73",
+   "value": 2.73,
+   "reasoning_tokens": 5688,
+   "completion": 5697,
+   "cost": 0.0858425,
+   "finish": "stop",
+   "mol_id": "Isothiocyanic acid, p-bromophenyl ester"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1204,
+   "finish": "length",
+   "mol_id": "2(3H)-Benzoxazolone, 6-bromo- (9CI)"
+  },
+  {
+   "text": "2.52",
+   "value": 2.52,
+   "reasoning_tokens": 6732,
+   "completion": 6741,
+   "cost": 0.101515,
+   "finish": "stop",
+   "mol_id": "2(3H)-Benzoxazolone, 6-bromo- (9CI)"
+  },
+  {
+   "text": "1.765",
+   "value": 1.765,
+   "reasoning_tokens": 1034,
+   "completion": 1043,
+   "cost": 0.01602,
+   "finish": "stop",
+   "mol_id": "Benzene, bromo-"
+  },
+  {
+   "text": "1.819",
+   "value": 1.819,
+   "reasoning_tokens": 1552,
+   "completion": 1561,
+   "cost": 0.02379,
+   "finish": "stop",
+   "mol_id": "Benzene, bromo-"
+  },
+  {
+   "text": "2.023",
+   "value": 2.023,
+   "reasoning_tokens": 7573,
+   "completion": 7582,
+   "cost": 0.11414,
+   "finish": "stop",
+   "mol_id": "2H-1,4-Benzodiazepin-2-one, 7-bromo-1,3-dihydro-5-(2-pyridinyl)-"
+  },
+  {
+   "text": "2.188",
+   "value": 2.188,
+   "reasoning_tokens": 5113,
+   "completion": 5122,
+   "cost": 0.07724,
+   "finish": "stop",
+   "mol_id": "2H-1,4-Benzodiazepin-2-one, 7-bromo-1,3-dihydro-5-(2-pyridinyl)-"
+  },
+  {
+   "text": "3.0068",
+   "value": 3.0068,
+   "reasoning_tokens": 7250,
+   "completion": 7260,
+   "cost": 0.109295,
+   "finish": "stop",
+   "mol_id": "1H-Imidazole, 2,4,5-tribromo-"
+  },
+  {
+   "text": "2.609",
+   "value": 2.609,
+   "reasoning_tokens": 6061,
+   "completion": 6070,
+   "cost": 0.091445,
+   "finish": "stop",
+   "mol_id": "1H-Imidazole, 2,4,5-tribromo-"
+  },
+  {
+   "text": "3.207",
+   "value": 3.207,
+   "reasoning_tokens": 2070,
+   "completion": 2079,
+   "cost": 0.0315525,
+   "finish": "stop",
+   "mol_id": "Methane, dibromo-"
+  },
+  {
+   "text": "3.2067",
+   "value": 3.2067,
+   "reasoning_tokens": 5664,
+   "completion": 5674,
+   "cost": 0.0854775,
+   "finish": "stop",
+   "mol_id": "Methane, dibromo-"
+  },
+  {
+   "text": "3.0105",
+   "value": 3.0105,
+   "reasoning_tokens": 3624,
+   "completion": 3634,
+   "cost": 0.0549325,
+   "finish": "stop",
+   "mol_id": "1-Propanol, 2,3-dibromo-, phosphate (3:1)"
+  },
+  {
+   "text": "3.077",
+   "value": 3.077,
+   "reasoning_tokens": 516,
+   "completion": 525,
+   "cost": 0.0082975,
+   "finish": "stop",
+   "mol_id": "1-Propanol, 2,3-dibromo-, phosphate (3:1)"
+  },
+  {
+   "text": "3.38",
+   "value": 3.38,
+   "reasoning_tokens": 6667,
+   "completion": 6676,
+   "cost": 0.1005125,
+   "finish": "stop",
+   "mol_id": "2-Butene, 1,4-dibromo-"
+  },
+  {
+   "text": "3.47",
+   "value": 3.47,
+   "reasoning_tokens": 7675,
+   "completion": 7684,
+   "cost": 0.1156325,
+   "finish": "stop",
+   "mol_id": "2-Butene, 1,4-dibromo-"
+  },
+  {
+   "text": "3.24",
+   "value": 3.24,
+   "reasoning_tokens": 516,
+   "completion": 525,
+   "cost": 0.0082425,
+   "finish": "stop",
+   "mol_id": "Ethane, 1,2-dibromo-"
+  },
+  {
+   "text": "3.11",
+   "value": 3.11,
+   "reasoning_tokens": 516,
+   "completion": 525,
+   "cost": 0.0082425,
+   "finish": "stop",
+   "mol_id": "Ethane, 1,2-dibromo-"
+  },
+  {
+   "text": "2.95",
+   "value": 2.95,
+   "reasoning_tokens": 5868,
+   "completion": 5877,
+   "cost": 0.0885625,
+   "finish": "stop",
+   "mol_id": "Piperazine, 1,4-bis(3-bromo-1-oxopropyl)-"
+  },
+  {
+   "text": "3.12",
+   "value": 3.12,
+   "reasoning_tokens": 5696,
+   "completion": 5705,
+   "cost": 0.0859825,
+   "finish": "stop",
+   "mol_id": "Piperazine, 1,4-bis(3-bromo-1-oxopropyl)-"
+  },
+  {
+   "text": "2.459",
+   "value": 2.459,
+   "reasoning_tokens": 6214,
+   "completion": 6223,
+   "cost": 0.09372,
+   "finish": "stop",
+   "mol_id": "1,6-Heptadiyne"
+  },
+  {
+   "text": "2.04",
+   "value": 2.04,
+   "reasoning_tokens": 516,
+   "completion": 525,
+   "cost": 0.00825,
+   "finish": "stop",
+   "mol_id": "1,6-Heptadiyne"
+  },
+  {
+   "text": "3.08",
+   "value": 3.08,
+   "reasoning_tokens": 5359,
+   "completion": 5368,
+   "cost": 0.0808975,
+   "finish": "stop",
+   "mol_id": "2-Propynyl ether"
+  },
+  {
+   "text": "2.93",
+   "value": 2.93,
+   "reasoning_tokens": 4142,
+   "completion": 4151,
+   "cost": 0.0626425,
+   "finish": "stop",
+   "mol_id": "2-Propynyl ether"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1203875,
+   "finish": "length",
+   "mol_id": "Ether, bis(3,4-epoxybutyl)"
+  },
+  {
+   "text": "2.50",
+   "value": 2.5,
+   "reasoning_tokens": 7250,
+   "completion": 7259,
+   "cost": 0.1092725,
+   "finish": "stop",
+   "mol_id": "Ether, bis(3,4-epoxybutyl)"
+  },
+  {
+   "text": "2.3605",
+   "value": 2.3605,
+   "reasoning_tokens": 7237,
+   "completion": 7247,
+   "cost": 0.1090925,
+   "finish": "stop",
+   "mol_id": "Oxirane, 2,2'-(1,4-butanediyl)bis- (9CI)"
+  },
+  {
+   "text": "2.75",
+   "value": 2.75,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.0393425,
+   "finish": "stop",
+   "mol_id": "Oxirane, 2,2'-(1,4-butanediyl)bis- (9CI)"
+  },
+  {
+   "text": "1.917",
+   "value": 1.917,
+   "reasoning_tokens": 3611,
+   "completion": 3620,
+   "cost": 0.0546925,
+   "finish": "stop",
+   "mol_id": "Benzene, 1,1'-(oxybis(methylene))bis-"
+  },
+  {
+   "text": "1.77",
+   "value": 1.77,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.0548875,
+   "finish": "stop",
+   "mol_id": "Benzene, 1,1'-(oxybis(methylene))bis-"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1203875,
+   "finish": "length",
+   "mol_id": "Oxirane, 2,2'-(oxybis(methylene))bis-"
+  },
+  {
+   "text": "2.67",
+   "value": 2.67,
+   "reasoning_tokens": 6732,
+   "completion": 6741,
+   "cost": 0.1015025,
+   "finish": "stop",
+   "mol_id": "Oxirane, 2,2'-(oxybis(methylene))bis-"
+  },
+  {
+   "text": "2.021",
+   "value": 2.021,
+   "reasoning_tokens": 7938,
+   "completion": 7947,
+   "cost": 0.119645,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, tris(trimethylsilyl) ester"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.12044,
+   "finish": "length",
+   "mol_id": "Phosphoric acid, tris(trimethylsilyl) ester"
+  },
+  {
+   "text": "2.16",
+   "value": 2.16,
+   "reasoning_tokens": 7163,
+   "completion": 7172,
+   "cost": 0.1079675,
+   "finish": "stop",
+   "mol_id": "Butanenitrile, 4-(dichloromethylsilyl)-"
+  },
+  {
+   "text": "2.056",
+   "value": 2.056,
+   "reasoning_tokens": 5133,
+   "completion": 5142,
+   "cost": 0.0775175,
+   "finish": "stop",
+   "mol_id": "Butanenitrile, 4-(dichloromethylsilyl)-"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1204325,
+   "finish": "length",
+   "mol_id": "Succinimide, 2-methylene-N-(m-nitrophenyl)-"
+  },
+  {
+   "text": "2.67",
+   "value": 2.67,
+   "reasoning_tokens": 4142,
+   "completion": 4151,
+   "cost": 0.0626975,
+   "finish": "stop",
+   "mol_id": "Succinimide, 2-methylene-N-(m-nitrophenyl)-"
+  },
+  {
+   "text": "2.1765",
+   "value": 2.1765,
+   "reasoning_tokens": 6214,
+   "completion": 6224,
+   "cost": 0.093745,
+   "finish": "stop",
+   "mol_id": "2-Oxetanone, 4-methylene-"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 858,
+   "completion": 858,
+   "cost": 0.0,
+   "finish": "error",
+   "mol_id": "2-Oxetanone, 4-methylene-"
+  },
+  {
+   "text": "2.81",
+   "value": 2.81,
+   "reasoning_tokens": 5696,
+   "completion": 5705,
+   "cost": 0.0859475,
+   "finish": "stop",
+   "mol_id": "2-Propenenitrile"
+  },
+  {
+   "text": "2.811",
+   "value": 2.811,
+   "reasoning_tokens": 5696,
+   "completion": 5705,
+   "cost": 0.0859475,
+   "finish": "stop",
+   "mol_id": "2-Propenenitrile"
+  },
+  {
+   "text": "2.597",
+   "value": 2.597,
+   "reasoning_tokens": 1520,
+   "completion": 1529,
+   "cost": 0.0233325,
+   "finish": "stop",
+   "mol_id": "2-Propenamide, N,N'-methylenebis-"
+  },
+  {
+   "text": "2.597",
+   "value": 2.597,
+   "reasoning_tokens": 1034,
+   "completion": 1043,
+   "cost": 0.0160425,
+   "finish": "stop",
+   "mol_id": "2-Propenamide, N,N'-methylenebis-"
+  },
+  {
+   "text": "1.52",
+   "value": 1.52,
+   "reasoning_tokens": 5178,
+   "completion": 5187,
+   "cost": 0.0782025,
+   "finish": "stop",
+   "mol_id": "Acrylic acid, 2-norbornyl ester"
+  },
+  {
+   "text": "1.522",
+   "value": 1.522,
+   "reasoning_tokens": 5417,
+   "completion": 5426,
+   "cost": 0.0817875,
+   "finish": "stop",
+   "mol_id": "Acrylic acid, 2-norbornyl ester"
+  },
+  {
+   "text": "2.71",
+   "value": 2.71,
+   "reasoning_tokens": 4660,
+   "completion": 4669,
+   "cost": 0.070425,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, oxiranylmethyl ester"
+  },
+  {
+   "text": "2.70",
+   "value": 2.7,
+   "reasoning_tokens": 4660,
+   "completion": 4669,
+   "cost": 0.070425,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, oxiranylmethyl ester"
+  },
+  {
+   "text": "2.408",
+   "value": 2.408,
+   "reasoning_tokens": 4142,
+   "completion": 4151,
+   "cost": 0.0626525,
+   "finish": "stop",
+   "mol_id": "Acrylic acid, ester with hydracrylonitrile"
+  },
+  {
+   "text": "2.408",
+   "value": 2.408,
+   "reasoning_tokens": 7421,
+   "completion": 7430,
+   "cost": 0.1118375,
+   "finish": "stop",
+   "mol_id": "Acrylic acid, ester with hydracrylonitrile"
+  },
+  {
+   "text": "2.46",
+   "value": 2.46,
+   "reasoning_tokens": 5178,
+   "completion": 5187,
+   "cost": 0.078205,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 1,2-ethanediyl ester"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1204,
+   "finish": "length",
+   "mol_id": "2-Propenoic acid, 1,2-ethanediyl ester"
+  },
+  {
+   "text": "1.5848",
+   "value": 1.5848,
+   "reasoning_tokens": 2513,
+   "completion": 2523,
+   "cost": 0.03824,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 2-phenoxyethyl ester"
+  },
+  {
+   "text": "1.585",
+   "value": 1.585,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.05489,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 2-phenoxyethyl ester"
+  },
+  {
+   "text": "2.53",
+   "value": 2.53,
+   "reasoning_tokens": 7768,
+   "completion": 7777,
+   "cost": 0.1170475,
+   "finish": "stop",
+   "mol_id": "Acrylic acid, 2-(2-cyanoethoxy)ethyl ester"
+  },
+  {
+   "text": "2.529",
+   "value": 2.529,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.0548875,
+   "finish": "stop",
+   "mol_id": "Acrylic acid, 2-(2-cyanoethoxy)ethyl ester"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120405,
+   "finish": "length",
+   "mol_id": "2-Propenoic acid, oxydi-2,1-ethanediyl ester"
+  },
+  {
+   "text": "2.297427",
+   "value": 2.297427,
+   "reasoning_tokens": 1552,
+   "completion": 1562,
+   "cost": 0.023835,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, oxydi-2,1-ethanediyl ester"
+  },
+  {
+   "text": "0.994",
+   "value": 0.994,
+   "reasoning_tokens": 1034,
+   "completion": 1043,
+   "cost": 0.016015,
+   "finish": "stop",
+   "mol_id": "1,3-Butadiene"
+  },
+  {
+   "text": "0.9943",
+   "value": 0.9943,
+   "reasoning_tokens": 2858,
+   "completion": 2868,
+   "cost": 0.04339,
+   "finish": "stop",
+   "mol_id": "1,3-Butadiene"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120375,
+   "finish": "length",
+   "mol_id": "Hexa-1,3,5-triene, mixed isomers"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120375,
+   "finish": "length",
+   "mol_id": "Hexa-1,3,5-triene, mixed isomers"
+  },
+  {
+   "text": "2.864",
+   "value": 2.864,
+   "reasoning_tokens": 5473,
+   "completion": 5482,
+   "cost": 0.082615,
+   "finish": "stop",
+   "mol_id": "2-Propenal, phenylhydrazone (9CI)"
+  },
+  {
+   "text": "3.16",
+   "value": 3.16,
+   "reasoning_tokens": 2578,
+   "completion": 2587,
+   "cost": 0.03919,
+   "finish": "stop",
+   "mol_id": "2-Propenal, phenylhydrazone (9CI)"
+  },
+  {
+   "text": "3.086",
+   "value": 3.086,
+   "reasoning_tokens": 3624,
+   "completion": 3633,
+   "cost": 0.0548675,
+   "finish": "stop",
+   "mol_id": "Acrylaldehyde"
+  },
+  {
+   "text": "3.086",
+   "value": 3.086,
+   "reasoning_tokens": 1034,
+   "completion": 1043,
+   "cost": 0.0160175,
+   "finish": "stop",
+   "mol_id": "Acrylaldehyde"
+  },
+  {
+   "text": "1.5944",
+   "value": 1.5944,
+   "reasoning_tokens": 7215,
+   "completion": 7225,
+   "cost": 0.1087525,
+   "finish": "stop",
+   "mol_id": "Benzene, ethenyl-"
+  },
+  {
+   "text": "1.5944",
+   "value": 1.5944,
+   "reasoning_tokens": 6732,
+   "completion": 6742,
+   "cost": 0.1015075,
+   "finish": "stop",
+   "mol_id": "Benzene, ethenyl-"
+  },
+  {
+   "text": "3.02",
+   "value": 3.02,
+   "reasoning_tokens": 5269,
+   "completion": 5278,
+   "cost": 0.0795475,
+   "finish": "stop",
+   "mol_id": "Pyridine, 2-ethenyl-"
+  },
+  {
+   "text": "3.022",
+   "value": 3.022,
+   "reasoning_tokens": 1034,
+   "completion": 1043,
+   "cost": 0.0160225,
+   "finish": "stop",
+   "mol_id": "Pyridine, 2-ethenyl-"
+  },
+  {
+   "text": "3.02",
+   "value": 3.02,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.039335,
+   "finish": "stop",
+   "mol_id": "Pyridine, 4-ethenyl-"
+  },
+  {
+   "text": "3.02",
+   "value": 3.02,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.047105,
+   "finish": "stop",
+   "mol_id": "Pyridine, 4-ethenyl-"
+  },
+  {
+   "text": "1.628",
+   "value": 1.628,
+   "reasoning_tokens": 6350,
+   "completion": 6359,
+   "cost": 0.095775,
+   "finish": "stop",
+   "mol_id": "Bicyclo(2.2.1)hept-2-ene, 5-ethenyl-"
+  },
+  {
+   "text": "1.628",
+   "value": 1.628,
+   "reasoning_tokens": 6645,
+   "completion": 6654,
+   "cost": 0.1002,
+   "finish": "stop",
+   "mol_id": "Bicyclo(2.2.1)hept-2-ene, 5-ethenyl-"
+  },
+  {
+   "text": "1.798",
+   "value": 1.798,
+   "reasoning_tokens": 6484,
+   "completion": 6493,
+   "cost": 0.09778,
+   "finish": "stop",
+   "mol_id": "2H-Pyran, 2,5-diethenyltetrahydro- (9CI)"
+  },
+  {
+   "text": "1.73",
+   "value": 1.73,
+   "reasoning_tokens": 7250,
+   "completion": 7259,
+   "cost": 0.10927,
+   "finish": "stop",
+   "mol_id": "2H-Pyran, 2,5-diethenyltetrahydro- (9CI)"
+  },
+  {
+   "text": "1.626",
+   "value": 1.626,
+   "reasoning_tokens": 3400,
+   "completion": 3409,
+   "cost": 0.051515,
+   "finish": "stop",
+   "mol_id": "Cyclohexene, 4-vinyl- (8CI)"
+  },
+  {
+   "text": "1.626",
+   "value": 1.626,
+   "reasoning_tokens": 3360,
+   "completion": 3369,
+   "cost": 0.050915,
+   "finish": "stop",
+   "mol_id": "Cyclohexene, 4-vinyl- (8CI)"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120385,
+   "finish": "length",
+   "mol_id": "7-Oxabicyclo(4.1.0)heptane, 3-ethenyl-"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120385,
+   "finish": "length",
+   "mol_id": "7-Oxabicyclo(4.1.0)heptane, 3-ethenyl-"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120405,
+   "finish": "length",
+   "mol_id": "2,4,8,10-Tetraoxaspiro(5,5)undecane, 3,9-diethenyl- (9CI)"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120405,
+   "finish": "length",
+   "mol_id": "2,4,8,10-Tetraoxaspiro(5,5)undecane, 3,9-diethenyl- (9CI)"
+  },
+  {
+   "text": "2.766",
+   "value": 2.766,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.0470975,
+   "finish": "stop",
+   "mol_id": "3-Butenenitrile"
+  },
+  {
+   "text": "2.75",
+   "value": 2.75,
+   "reasoning_tokens": 6528,
+   "completion": 6537,
+   "cost": 0.0984275,
+   "finish": "stop",
+   "mol_id": "3-Butenenitrile"
+  },
+  {
+   "text": "1.92",
+   "value": 1.92,
+   "reasoning_tokens": 3010,
+   "completion": 3019,
+   "cost": 0.04568,
+   "finish": "stop",
+   "mol_id": "Benzene, 4-allyl-1,2-(methylenedioxy)-"
+  },
+  {
+   "text": "1.92",
+   "value": 1.92,
+   "reasoning_tokens": 2070,
+   "completion": 2079,
+   "cost": 0.03158,
+   "finish": "stop",
+   "mol_id": "Benzene, 4-allyl-1,2-(methylenedioxy)-"
+  },
+  {
+   "text": "2.30",
+   "value": 2.3,
+   "reasoning_tokens": 4133,
+   "completion": 4142,
+   "cost": 0.0625275,
+   "finish": "stop",
+   "mol_id": "Ether, 2,6-diallylphenyl 2,3-epoxypropyl"
+  },
+  {
+   "text": "1.96",
+   "value": 1.96,
+   "reasoning_tokens": 7964,
+   "completion": 7973,
+   "cost": 0.1199925,
+   "finish": "stop",
+   "mol_id": "Ether, 2,6-diallylphenyl 2,3-epoxypropyl"
+  },
+  {
+   "text": "1.94",
+   "value": 1.94,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.0471175,
+   "finish": "stop",
+   "mol_id": "3-Allyl(dihydro)furan-2,5-dione"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1203925,
+   "finish": "length",
+   "mol_id": "3-Allyl(dihydro)furan-2,5-dione"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1203725,
+   "finish": "length",
+   "mol_id": "4-Pentenal"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1203725,
+   "finish": "length",
+   "mol_id": "4-Pentenal"
+  },
+  {
+   "text": "3.1288",
+   "value": 3.1288,
+   "reasoning_tokens": 4899,
+   "completion": 4909,
+   "cost": 0.0740175,
+   "finish": "stop",
+   "mol_id": "2-Propen-1-amine, N,N-di-2-propenyl-"
+  },
+  {
+   "text": "3.2236",
+   "value": 3.2236,
+   "reasoning_tokens": 5140,
+   "completion": 5150,
+   "cost": 0.0776325,
+   "finish": "stop",
+   "mol_id": "2-Propen-1-amine, N,N-di-2-propenyl-"
+  },
+  {
+   "text": "3.385",
+   "value": 3.385,
+   "reasoning_tokens": 3106,
+   "completion": 3115,
+   "cost": 0.04711,
+   "finish": "stop",
+   "mol_id": "2-Propen-1-amine, N-nitroso-N-2-propenyl- (9CI)"
+  },
+  {
+   "text": "2.98",
+   "value": 2.98,
+   "reasoning_tokens": 5178,
+   "completion": 5187,
+   "cost": 0.07819,
+   "finish": "stop",
+   "mol_id": "2-Propen-1-amine, N-nitroso-N-2-propenyl- (9CI)"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120375,
+   "finish": "length",
+   "mol_id": "Isothiocyanic acid, allyl ester"
+  },
+  {
+   "text": "2.947",
+   "value": 2.947,
+   "reasoning_tokens": 1752,
+   "completion": 1761,
+   "cost": 0.02679,
+   "finish": "stop",
+   "mol_id": "Isothiocyanic acid, allyl ester"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.120375,
+   "finish": "length",
+   "mol_id": "2-Propen-1-amine, N-2-propenyl-"
+  },
+  {
+   "text": "2.979",
+   "value": 2.979,
+   "reasoning_tokens": 3050,
+   "completion": 3059,
+   "cost": 0.04626,
+   "finish": "stop",
+   "mol_id": "2-Propen-1-amine, N-2-propenyl-"
+  },
+  {
+   "text": "2.476",
+   "value": 2.476,
+   "reasoning_tokens": 6196,
+   "completion": 6205,
+   "cost": 0.09348,
+   "finish": "stop",
+   "mol_id": "2-Butenedioic acid (Z)-, di-2-propenyl ester (9CI)"
+  },
+  {
+   "text": "2.3428",
+   "value": 2.3428,
+   "reasoning_tokens": 6839,
+   "completion": 6849,
+   "cost": 0.10314,
+   "finish": "stop",
+   "mol_id": "2-Butenedioic acid (Z)-, di-2-propenyl ester (9CI)"
+  },
+  {
+   "text": "2.574",
+   "value": 2.574,
+   "reasoning_tokens": 2588,
+   "completion": 2597,
+   "cost": 0.039365,
+   "finish": "stop",
+   "mol_id": "1,2-Benzenedicarboxylic acid, di-2-propenyl ester"
+  },
+  {
+   "text": "2.5745",
+   "value": 2.5745,
+   "reasoning_tokens": 1552,
+   "completion": 1562,
+   "cost": 0.02384,
+   "finish": "stop",
+   "mol_id": "1,2-Benzenedicarboxylic acid, di-2-propenyl ester"
+  },
+  {
+   "text": "2.04",
+   "value": 2.04,
+   "reasoning_tokens": 4658,
+   "completion": 4667,
+   "cost": 0.0703975,
+   "finish": "stop",
+   "mol_id": "Benzeneacetic acid, 2-propenyl ester"
+  },
+  {
+   "text": "2.225",
+   "value": 2.225,
+   "reasoning_tokens": 4274,
+   "completion": 4283,
+   "cost": 0.0646375,
+   "finish": "stop",
+   "mol_id": "Benzeneacetic acid, 2-propenyl ester"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1203925,
+   "finish": "length",
+   "mol_id": "Cyclohexaneacetic acid, 2-propenyl ester"
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 8000,
+   "completion": 8000,
+   "cost": 0.1203925,
+   "finish": "length",
+   "mol_id": "Cyclohexaneacetic acid, 2-propenyl ester"
+  },
+  {
+   "text": "2.46",
+   "value": 2.46,
+   "reasoning_tokens": 5178,
+   "completion": 5187,
+   "cost": 0.0781975,
+   "finish": "stop",
+   "mol_id": "Cyclohexanepropanoic acid, 2-propenyl ester"
+  },
+  {
+   "text": "1.9544",
+   "value": 1.9544,
+   "reasoning_tokens": 2588,
+   "completion": 2598,
+   "cost": 0.0393625,
+   "finish": "stop",
+   "mol_id": "Cyclohexanepropanoic acid, 2-propenyl ester"
+  },
+  {
+   "text": "2.34",
+   "value": 2.34,
+   "reasoning_tokens": 6117,
+   "completion": 6126,
+   "cost": 0.09229,
+   "finish": "stop",
+   "mol_id": "1-Propene, 3,3',3'',3'''-(1,2-ethanediylidenetetrakis(oxy))tetrakis- (9CI)"
+  },
+  {
+   "text": "2.14",
+   "value": 2.14,
+   "reasoning_tokens": 7543,
+   "completion": 7552,
+   "cost": 0.11368,
+   "finish": "stop",
+   "mol_id": "1-Propene, 3,3',3'',3'''-(1,2-ethanediylidenetetrakis(oxy))tetrakis- (9CI)"
+  }
+ ]
+}

@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "ld50",
+  "tag": "grok45",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 3.7120332,
+  "timestamp": "2026-08-10T20:14:00"
+ },
+ "calls": [
+  {
+   "text": "The test compound is the symmetric 1,3-propanediyl diester of 2-(4-chlorophenoxy",
+   "value": 2.5,
+   "reasoning_tokens": 3414,
+   "completion": 3702,
+   "cost": 0.0326244,
+   "finish": "stop",
+   "mol_id": "Propionic acid, 2-(p-chlorophenoxy)-2-methyl-, 1,3-propanediyl ester",
+   "truth": 1.808
+  },
+  {
+   "text": "The training set contains multiple 2-(trifluoromethyl)benzimidazole derivatives ",
+   "value": 5.05,
+   "reasoning_tokens": 1128,
+   "completion": 1344,
+   "cost": 0.0184284,
+   "finish": "stop",
+   "mol_id": "Benzimidazole, 4,6-dibromo-2-(trifluoromethyl)-",
+   "truth": 4.76
+  },
+  {
+   "text": "The target molecule is an \\(O\\)-aryl \\(S\\)-alkyl methylphosphonodithioate. Withi",
+   "value": 3.5,
+   "reasoning_tokens": 3913,
+   "completion": 4179,
+   "cost": 0.0354404,
+   "finish": "stop",
+   "mol_id": "Phosphonodithioic acid, methyl-, O-(benzo(b)thien-4-yl) S-propyl ester",
+   "truth": 3.782
+  },
+  {
+   "text": "The target compound is a phenolic \\(N\\)-methylcarbamate bearing a meta-diethylam",
+   "value": 3.55,
+   "reasoning_tokens": 3278,
+   "completion": 3585,
+   "cost": 0.0318664,
+   "finish": "stop",
+   "mol_id": "Phenol, 3-(diethylamino)-, methylcarbamate (ester) (9CI)",
+   "truth": 3.388
+  },
+  {
+   "text": "The test compound (1,2,3,4-tetrachlorobutane) is a small polychlorinated aliphat",
+   "value": 2.35,
+   "reasoning_tokens": 4269,
+   "completion": 4490,
+   "cost": 0.0372744,
+   "finish": "stop",
+   "mol_id": "Butane, 1,2,3,4-tetrachloro-",
+   "truth": 2.94
+  },
+  {
+   "text": "The target molecule is 4-nitrobenzaldehyde, an electron-deficient aromatic aldeh",
+   "value": 2.51,
+   "reasoning_tokens": 1443,
+   "completion": 1643,
+   "cost": 0.0201884,
+   "finish": "stop",
+   "mol_id": "Benzaldehyde, 4-nitro-",
+   "truth": 1.507
+  },
+  {
+   "text": "The target molecule is the secondary carboxanilide \\(N\\)-(3,4-dichlorophenyl)cyc",
+   "value": 2.3,
+   "reasoning_tokens": 2907,
+   "completion": 3225,
+   "cost": 0.0297044,
+   "finish": "stop",
+   "mol_id": "Cyclopropanecarboxanilide, 3',4'-dichloro-",
+   "truth": 3.029
+  },
+  {
+   "text": "The test compound is a 1,4-dihydropyridine derivative (felodipine) bearing an or",
+   "value": 2.56,
+   "reasoning_tokens": 2065,
+   "completion": 2322,
+   "cost": 0.0243704,
+   "finish": "stop",
+   "mol_id": "3,5-Pyridinedicarboxylic acid, 4-(2,3-dichlorophenyl)-1,4-dihydro-2,6-dimethyl-, ethyl methyl ester, (+-)-",
+   "truth": 2.563
+  },
+  {
+   "text": "The target compound (trimethylenediamine, also known as 1,3-diaminopropane) is a",
+   "value": 2.17,
+   "reasoning_tokens": 1476,
+   "completion": 1744,
+   "cost": 0.0207584,
+   "finish": "stop",
+   "mol_id": "Trimethylenediamine",
+   "truth": 2.326
+  },
+  {
+   "text": "The target compound (chloromethyltrimethoxysilane) is a compact organosilicon mo",
+   "value": 2.45,
+   "reasoning_tokens": 374,
+   "completion": 681,
+   "cost": 0.0144084,
+   "finish": "stop",
+   "mol_id": "Silane, chloromethyl-trimethoxy-",
+   "truth": 2.533
+  },
+  {
+   "text": "The training set consists of 100 organic molecules spanning a wide range of stru",
+   "value": 2.58,
+   "reasoning_tokens": 4103,
+   "completion": 4378,
+   "cost": 0.0365924,
+   "finish": "stop",
+   "mol_id": "Benzothiazole, 2-(butylthio)-",
+   "truth": 2.245
+  },
+  {
+   "text": "The query molecule is a chlorinated aromatic dicarboxylic acid (specifically, a ",
+   "value": 1.95,
+   "reasoning_tokens": 2523,
+   "completion": 2874,
+   "cost": 0.0276084,
+   "finish": "stop",
+   "mol_id": "1,8-Naphthalenedicarboxylic acid, 4-chloro-",
+   "truth": 1.855
+  },
+  {
+   "text": "The target compound is a cyclic unsaturated anhydride bearing two butyrate ester",
+   "value": 2.6,
+   "reasoning_tokens": 1522,
+   "completion": 1725,
+   "cost": 0.0207004,
+   "finish": "stop",
+   "mol_id": "Maleic anhydride, dihydroxy-, dibutyrate",
+   "truth": 1.256
+  },
+  {
+   "text": "The query molecule (octahydro-2H-chromen-2-one) is a fully saturated bicyclic \\(",
+   "value": 1.82,
+   "reasoning_tokens": 1708,
+   "completion": 1975,
+   "cost": 0.0221864,
+   "finish": "stop",
+   "mol_id": "2H-1-Benzopyran-2-one, octahydro-",
+   "truth": 1.597
+  },
+  {
+   "text": "The training data include several carboxylic acid hydrazides and closely related",
+   "value": 2.5,
+   "reasoning_tokens": 1891,
+   "completion": 2118,
+   "cost": 0.0230804,
+   "finish": "stop",
+   "mol_id": "Acetic acid, ((6-(4-methylphenoxy)-4-pyrimidinyl)thio)-, hydrazide",
+   "truth": 2.8
+  },
+  {
+   "text": "The test molecule (3-methylbut-3-en-2-one) is a low-molecular-weight aliphatic \\",
+   "value": 20000.0,
+   "reasoning_tokens": 2872,
+   "completion": 3160,
+   "cost": 0.02951,
+   "finish": "stop",
+   "mol_id": "3-Buten-2-one, 3-methyl-",
+   "truth": 2.67
+  },
+  {
+   "text": "The test molecule (allyl phenylacetate) is a simple monofunctional carboxylic es",
+   "value": 1.68,
+   "reasoning_tokens": 2976,
+   "completion": 3222,
+   "cost": 0.0296644,
+   "finish": "stop",
+   "mol_id": "Benzeneacetic acid, 2-propenyl ester",
+   "truth": 2.4330000000000003
+  },
+  {
+   "text": "The target molecule is a substituted benzoic acid (specifically 3,6-dichloro-2-m",
+   "value": 2.25,
+   "reasoning_tokens": 1383,
+   "completion": 1659,
+   "cost": 0.0203024,
+   "finish": "stop",
+   "mol_id": "Benzoic acid, 3,6-dichloro-2-methoxy-",
+   "truth": 2.3280000000000003
+  },
+  {
+   "text": "The target molecule is a 2,4-diaminopyrimidine bearing a 4-(dimethylamino)-3,5-d",
+   "value": 2.4,
+   "reasoning_tokens": 2538,
+   "completion": 2815,
+   "cost": 0.0272824,
+   "finish": "stop",
+   "mol_id": "2,4-Pyrimidinediamine, 5-((4-(dimethylamino)-3,5-dimethoxyphenyl)methyl)-",
+   "truth": 2.335
+  },
+  {
+   "text": "The query molecule is fluoroacetic acid, a monohalogenated acetic acid derivativ",
+   "value": 4.23,
+   "reasoning_tokens": 2704,
+   "completion": 3048,
+   "cost": 0.0285944,
+   "finish": "stop",
+   "mol_id": "Acetic acid, fluoro-",
+   "truth": 4.222
+  },
+  {
+   "text": "The training data reveal that acute oral toxicity (as \\(-\\log_{10}(\\mathrm{mol/k",
+   "value": 5.12,
+   "reasoning_tokens": 3089,
+   "completion": 3365,
+   "cost": 0.0305624,
+   "finish": "stop",
+   "mol_id": "Dibenzofuran, 2,3,4,7,8-pentachloro-",
+   "truth": 5.57
+  },
+  {
+   "text": "The target compound (4'-sulfanilamido-succinanilic acid) is a polar, multifuncti",
+   "value": 2.31,
+   "reasoning_tokens": 2555,
+   "completion": 2844,
+   "cost": 0.0274324,
+   "finish": "stop",
+   "mol_id": "Succinanilic acid, 4'-sulfanilamido-",
+   "truth": 2.384
+  },
+  {
+   "text": "The training set reveals clear structure-toxicity trends for acute oral rat LD50",
+   "value": 3.21,
+   "reasoning_tokens": 5596,
+   "completion": 5934,
+   "cost": 0.037516,
+   "finish": "stop",
+   "mol_id": "1H-Tetrazole, 5-(o-(alpha,alpha,alpha-trifluoro-m-toluidino)phenyl)-",
+   "truth": 2.827
+  },
+  {
+   "text": "The target compound is a small, highly polar aliphatic polycarboxylic acid (four",
+   "value": 1.75,
+   "reasoning_tokens": 1355,
+   "completion": 1563,
+   "cost": 0.0197444,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-Butanetetracarboxylic acid",
+   "truth": 2.134
+  },
+  {
+   "text": "The training data reveal a clear inverse relationship between the presence/absen",
+   "value": 0.84,
+   "reasoning_tokens": 2171,
+   "completion": 2497,
+   "cost": 0.0252884,
+   "finish": "stop",
+   "mol_id": "Carbonic acid, dimethyl ester",
+   "truth": 0.841
+  },
+  {
+   "text": "The target compound (N,N-diethyl-3-oxobutanamide) is a low-molecular-weight alip",
+   "value": 1.9,
+   "reasoning_tokens": 7161,
+   "completion": 7558,
+   "cost": 0.0556864,
+   "finish": "stop",
+   "mol_id": "Butanamide, N,N-diethyl-3-oxo-",
+   "truth": 1.521
+  },
+  {
+   "text": "The test compound is an organophosphorus pesticide derivative (specifically a ph",
+   "value": 3.9,
+   "reasoning_tokens": 3279,
+   "completion": 3568,
+   "cost": 0.0318004,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-((5-methoxy-1,3,4-thiadiazol-2-yl)methyl) ester",
+   "truth": 3.966
+  },
+  {
+   "text": "The target molecule (O,O-dimethyl S-(acetoxymethyl) phosphorodithioate) belongs ",
+   "value": 2.87,
+   "reasoning_tokens": 3448,
+   "completion": 3853,
+   "cost": 0.024978,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-hydroxymethyl O,O-dimethyl ester, acetate",
+   "truth": 3.394
+  },
+  {
+   "text": "The target molecule (allyl methacrylate) is a low-molecular-weight unsaturated e",
+   "value": 2.49,
+   "reasoning_tokens": 1550,
+   "completion": 1776,
+   "cost": 0.0210064,
+   "finish": "stop",
+   "mol_id": "2-Propenoic acid, 2-methyl-, 2-propenyl ester",
+   "truth": 2.467
+  },
+  {
+   "text": "The training data include multiple aliphatic nitrogen-containing compounds (prim",
+   "value": 2.18,
+   "reasoning_tokens": 1964,
+   "completion": 2209,
+   "cost": 0.0235544,
+   "finish": "stop",
+   "mol_id": "1-Hexanamine",
+   "truth": 2.1790000000000003
+  },
+  {
+   "text": "The query molecule (menthyl acetate) is a monoterpenoid secondary-alcohol acetat",
+   "value": 1.83,
+   "reasoning_tokens": 1301,
+   "completion": 1575,
+   "cost": 0.0198104,
+   "finish": "stop",
+   "mol_id": "Cyclohexanol, 5-methyl-2-(1-methylethyl)-, acetate (8CI)",
+   "truth": 1.415
+  },
+  {
+   "text": "The test compound contains a 4-oxopyrido[1,2-a]pyrimidine core bearing a free ac",
+   "value": 2.45,
+   "reasoning_tokens": 3231,
+   "completion": 3471,
+   "cost": 0.0312704,
+   "finish": "stop",
+   "mol_id": "4H-Pyrido(1,2-a)pyrimidine-3-acetic acid, 9-((4-acetyl-3-hydroxy-2-propylphenoxy)methyl)-4-oxo-",
+   "truth": 2.011
+  },
+  {
+   "text": "The test compound (triethylene glycol monomethyl ether acetate) is a low-molecul",
+   "value": 1.31,
+   "reasoning_tokens": 2025,
+   "completion": 2221,
+   "cost": 0.0236684,
+   "finish": "stop",
+   "mol_id": "Acetic acid, 2-(2-(2-methoxyethoxy)ethoxy)ethyl ester",
+   "truth": 1.273
+  },
+  {
+   "text": "The target molecule is an organophosphorus compound featuring a dimethoxyphospho",
+   "value": 4.02,
+   "reasoning_tokens": 2733,
+   "completion": 2987,
+   "cost": 0.0282764,
+   "finish": "stop",
+   "mol_id": "Imidocarbonic acid, (dimethoxyphosphinothioyl)dithio-, cyclic ethylene ester",
+   "truth": 4.386
+  },
+  {
+   "text": "The acute oral toxicity endpoint (-log10(mol/kg)) is a continuous property that ",
+   "value": 2.83,
+   "reasoning_tokens": 3847,
+   "completion": 4128,
+   "cost": 0.026652,
+   "finish": "stop",
+   "mol_id": "Pteridine, 6-o-tolyl-2,4,7-triamino-",
+   "truth": 2.172
+  },
+  {
+   "text": "The test molecule (dimethyl 2,3,5,6-tetrachloroterephthalate) is a fully substit",
+   "value": 2.2,
+   "reasoning_tokens": 7243,
+   "completion": 7594,
+   "cost": 0.047474,
+   "finish": "stop",
+   "mol_id": "1,4-Benzenedicarboxylic acid, 2,3,5,6-tetrachloro-, dimethyl ester",
+   "truth": 2.044
+  },
+  {
+   "text": "The query molecule (hexaethylene glycol) is a high-molecular-weight aliphatic po",
+   "value": 1.15,
+   "reasoning_tokens": 1827,
+   "completion": 2073,
+   "cost": 0.0227944,
+   "finish": "stop",
+   "mol_id": "3,6,9,12,15-Pentaoxaheptadecane-1,17-diol",
+   "truth": 0.946
+  },
+  {
+   "text": "The target compound is an aryl thiocyanate bearing a para-dimethylamino substitu",
+   "value": 2.58,
+   "reasoning_tokens": 1909,
+   "completion": 2130,
+   "cost": 0.0231224,
+   "finish": "stop",
+   "mol_id": "Thiocyanic acid, 4-(dimethylamino)phenyl ester (9CI)",
+   "truth": 2.552
+  },
+  {
+   "text": "The target molecule (CHFCl\u2013CFCl_{2}) is a small, fully saturated polyhalogenated",
+   "value": 2.25,
+   "reasoning_tokens": 3307,
+   "completion": 3609,
+   "cost": 0.0319984,
+   "finish": "stop",
+   "mol_id": "Ethane, 1,2-difluoro-1,1,2-trichloro-",
+   "truth": 1.337
+  },
+  {
+   "text": "The query molecule (2-methyl-1,3-dioxolane) is a small, neutral cyclic acetal/et",
+   "value": 1.52,
+   "reasoning_tokens": 2277,
+   "completion": 2599,
+   "cost": 0.0259144,
+   "finish": "stop",
+   "mol_id": "1,3-Dioxolane, 2-methyl-",
+   "truth": 1.4680000000000002
+  },
+  {
+   "text": "The acute oral toxicity endpoint of interest is expressed on a continuous scale ",
+   "value": 20000.0,
+   "reasoning_tokens": 1011,
+   "completion": 1455,
+   "cost": 0.0190404,
+   "finish": "stop",
+   "mol_id": "2-Furancarboxaldehyde",
+   "truth": 3.17
+  },
+  {
+   "text": "The target molecule is an \\(O\\)-aryl dimethylphosphinothioate. Molecules in the ",
+   "value": 3.15,
+   "reasoning_tokens": 3384,
+   "completion": 3661,
+   "cost": 0.0323284,
+   "finish": "stop",
+   "mol_id": "Phosphinothioic acid, dimethyl-, O-(3-methyl-4-(methylthio)phenyl) ester",
+   "truth": 3.148
+  },
+  {
+   "text": "The target molecule (1-butoxy-3-phenoxypropan-2-ol) is a neutral aliphatic/aroma",
+   "value": 2.05,
+   "reasoning_tokens": 2924,
+   "completion": 3204,
+   "cost": 0.0295644,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 1-butoxy-3-phenoxy-",
+   "truth": 1.976
+  },
+  {
+   "text": "The target compound is a substituted benzamide (specifically 3,5-dimethoxy-4-(de",
+   "value": 2.3,
+   "reasoning_tokens": 2360,
+   "completion": 2640,
+   "cost": 0.0261944,
+   "finish": "stop",
+   "mol_id": "Benzamide, 4-(decyloxy)-3,5-dimethoxy-",
+   "truth": 2.311
+  },
+  {
+   "text": "The test molecule is a polychlorinated polycyclic compound featuring a norbornen",
+   "value": 3.96,
+   "reasoning_tokens": 8179,
+   "completion": 8636,
+   "cost": 0.0622824,
+   "finish": "stop",
+   "mol_id": "5,8-Epoxy-1,4-methanonaphthalene, 1,2,3,4,10,10-hexachloro-1,4,4a,5,8,8a-hexahydro- (9CI)",
+   "truth": 3.732
+  },
+  {
+   "text": "The target compound (trichloronitromethane, chloropicrin) is a compact, highly h",
+   "value": 2.82,
+   "reasoning_tokens": 1934,
+   "completion": 2236,
+   "cost": 0.015258,
+   "finish": "stop",
+   "mol_id": "Methane, trichloronitro-",
+   "truth": 2.818
+  },
+  {
+   "text": "The test molecule \\(\\mathrm{CCOP(C)(=O)SCCN(C)C}\\) is an organophosphorus compou",
+   "value": 5.3,
+   "reasoning_tokens": 3299,
+   "completion": 3746,
+   "cost": 0.0328304,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, methyl-, S-(2-(dimethylamino)ethyl) O-ethyl ester",
+   "truth": 6.238
+  },
+  {
+   "text": "The target compound is an 8-substituted derivative of caffeine (1,3,7-trimethylx",
+   "value": 2.83,
+   "reasoning_tokens": 1862,
+   "completion": 2136,
+   "cost": 0.014704,
+   "finish": "stop",
+   "mol_id": "Caffeine, 8-(p-aminobenzyl)-",
+   "truth": 2.893
+  },
+  {
+   "text": "The training data include multiple \\(\\alpha,\\beta\\)-unsaturated carbonyl compoun",
+   "value": 2.15,
+   "reasoning_tokens": 3047,
+   "completion": 3282,
+   "cost": 0.0300364,
+   "finish": "stop",
+   "mol_id": "Acrylamide, N-(hydroxymethyl)-2-methyl- (6CI,8CI)",
+   "truth": 2.611
+  },
+  {
+   "text": "The target molecule is an organophosphorus compound featuring a central pentaval",
+   "value": 3.45,
+   "reasoning_tokens": 1649,
+   "completion": 1940,
+   "cost": 0.0220104,
+   "finish": "stop",
+   "mol_id": "Phosphinothioic amide, N,N-dimethyl-P-imidazol-1-yl-P-phenyl-",
+   "truth": 2.224
+  },
+  {
+   "text": "The test compound contains two epoxide moieties (one fused arene oxide and one p",
+   "value": 3.04,
+   "reasoning_tokens": 2292,
+   "completion": 2527,
+   "cost": 0.0255364,
+   "finish": "stop",
+   "mol_id": "7-Oxabicyclo(4.1.0)hepta-2,4,6-triene, 3-oxiranyl-",
+   "truth": 1.676
+  },
+  {
+   "text": "The molecule of interest (pridinol mesylate) is a tertiary diarylcarbinol methan",
+   "value": 2.77,
+   "reasoning_tokens": 5005,
+   "completion": 5316,
+   "cost": 0.03379,
+   "finish": "stop",
+   "mol_id": "1-Piperidinepropanol, alpha,alpha-diphenyl-, methanesulfonate (ester)",
+   "truth": 2.479
+  },
+  {
+   "text": "The target compound is 2,3-dichloro-1,4-naphthoquinone (dichlone). Its structure",
+   "value": 2.24,
+   "reasoning_tokens": 1989,
+   "completion": 2206,
+   "cost": 0.0235964,
+   "finish": "stop",
+   "mol_id": "1,4-Naphthalenedione, 2,3-dichloro-",
+   "truth": 3.152
+  },
+  {
+   "text": "The target molecule (propazine) is a symmetrically substituted chloro-s-triazine",
+   "value": 2.15,
+   "reasoning_tokens": 1851,
+   "completion": 2166,
+   "cost": 0.0233844,
+   "finish": "stop",
+   "mol_id": "1,3,5-Triazine-2,4-diamine, 6-chloro-N,N'-bis(1-methylethyl)-",
+   "truth": 1.777
+  },
+  {
+   "text": "The target molecule is an aryl methylcarbamate (specifically, the methylcarbamat",
+   "value": 3.51,
+   "reasoning_tokens": 3543,
+   "completion": 3749,
+   "cost": 0.0328544,
+   "finish": "stop",
+   "mol_id": "Phenol, 2-chloro-5-(1-methylethyl)-, methylcarbamate (9CI)",
+   "truth": 4.035
+  },
+  {
+   "text": "The acute oral toxicity endpoint of interest is expressed on a normalized scale ",
+   "value": 2.15,
+   "reasoning_tokens": 1822,
+   "completion": 2229,
+   "cost": 0.0236904,
+   "finish": "stop",
+   "mol_id": "Benzenesulphonamide",
+   "truth": 2.2
+  },
+  {
+   "text": "The target molecule (3-hydroxy-1,2-dimethylpyridin-4(1H)-one) is a compact, non-",
+   "value": 2.3,
+   "reasoning_tokens": 3232,
+   "completion": 3513,
+   "cost": 0.022948,
+   "finish": "stop",
+   "mol_id": "4(1H)-Pyridone, 3-hydroxy-1,2-dimethyl- (8CI)",
+   "truth": 1.842
+  },
+  {
+   "text": "The query molecule is an \\(N\\)-butyl-substituted 3a,4,7,7a-tetrahydroisoindole-1",
+   "value": 2.35,
+   "reasoning_tokens": 2656,
+   "completion": 2990,
+   "cost": 0.019846,
+   "finish": "stop",
+   "mol_id": "1H-Isoindole-1,3(2H)-dione, 2-butyl-3a,4,7,7a-tetrahydro- (9CI)",
+   "truth": 1.934
+  },
+  {
+   "text": "The training set contains the closely related structural analogue Pyrazine, 2-et",
+   "value": 2.08,
+   "reasoning_tokens": 1325,
+   "completion": 1538,
+   "cost": 0.01106,
+   "finish": "stop",
+   "mol_id": "Pyrazine, 2,5-dimethyl-",
+   "truth": 2.025
+  },
+  {
+   "text": "The target molecule is a substituted phenethylamine featuring a 1,2,4-trisubstit",
+   "value": 2.68,
+   "reasoning_tokens": 3489,
+   "completion": 3723,
+   "cost": 0.024226,
+   "finish": "stop",
+   "mol_id": "Phenethylamine, beta-(sec-butyl)-3-chloro-N,N-dimethyl-4-propoxy-",
+   "truth": 2.604
+  },
+  {
+   "text": "The test compound is a close structural analog of the training-set molecule pyri",
+   "value": 2.5,
+   "reasoning_tokens": 1037,
+   "completion": 1264,
+   "cost": 0.0179804,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 3,4,5,6-tetrahydro-2-(3-chloro-alpha-ethoxybenzyl)-5,5-dimethyl-",
+   "truth": 3.471
+  },
+  {
+   "text": "The target compound (oxamniquine) is a 1,2,3,4-tetrahydroquinoline bearing a bas",
+   "value": 2.33,
+   "reasoning_tokens": 2633,
+   "completion": 2962,
+   "cost": 0.019694,
+   "finish": "stop",
+   "mol_id": "6-Quinolinemethanol, 1,2,3,4-tetrahydro-2-(((1-methylethyl)amino)methyl)-7-nitro-",
+   "truth": 3.969
+  },
+  {
+   "text": "The query molecule (benfluralin) is a 2,6-dinitro-4-(trifluoromethyl)-N,N-dialky",
+   "value": 1.83,
+   "reasoning_tokens": 3447,
+   "completion": 3714,
+   "cost": 0.0327064,
+   "finish": "stop",
+   "mol_id": "p-Toluidine, N-butyl-N-ethyl-alpha,alpha,alpha-trifluoro-2,6-dinitro-",
+   "truth": 1.525
+  },
+  {
+   "text": "The molecule of interest (ethyl 3-hydroxy-1-benzothiophene-2-carboximidate) cont",
+   "value": 2.5,
+   "reasoning_tokens": 4248,
+   "completion": 4569,
+   "cost": 0.0377724,
+   "finish": "stop",
+   "mol_id": "Benzo(b)thiophene-2-carboximidic acid, 3-hydroxy-, ethyl ester",
+   "truth": 1.743
+  },
+  {
+   "text": "The target molecule (1,3-dichloro-2-propanol) is a small, bifunctional aliphatic",
+   "value": 3.02,
+   "reasoning_tokens": 1872,
+   "completion": 2117,
+   "cost": 0.0230264,
+   "finish": "stop",
+   "mol_id": "2-Propanol, 1,3-dichloro-",
+   "truth": 3.069
+  },
+  {
+   "text": "The target molecule is an organophosphorus compound (specifically a phosphonamid",
+   "value": 3.73,
+   "reasoning_tokens": 2864,
+   "completion": 3196,
+   "cost": 0.021056,
+   "finish": "stop",
+   "mol_id": "Phosphonamidothioic acid, P-methyl-N-(1-naphthalenyloxy)-, O-ethyl ester",
+   "truth": 3.051
+  },
+  {
+   "text": "The target compound (5-methyl-2-thiohydantoin) is a compact, polar five-membered",
+   "value": 2.5,
+   "reasoning_tokens": 1775,
+   "completion": 2008,
+   "cost": 0.013888,
+   "finish": "stop",
+   "mol_id": "Hydantoin, 5-methyl-2-thio-",
+   "truth": 2.093
+  },
+  {
+   "text": "The target compound (glycidyl nitrate) is a low-molecular-weight aliphatic molec",
+   "value": 2.75,
+   "reasoning_tokens": 2187,
+   "completion": 2423,
+   "cost": 0.01639,
+   "finish": "stop",
+   "mol_id": "1-Propanol, 2,3-epoxy-, nitrate",
+   "truth": 2.4130000000000003
+  },
+  {
+   "text": "The training data comprise 100 diverse organic molecules with experimental rat a",
+   "value": 2.36,
+   "reasoning_tokens": 4941,
+   "completion": 5309,
+   "cost": 0.0421684,
+   "finish": "stop",
+   "mol_id": "Benzene, (2-bromoethyl)-",
+   "truth": 2.358
+  },
+  {
+   "text": "The target molecule (3-methoxybutanoic acid) is a low-molecular-weight aliphatic",
+   "value": 1.78,
+   "reasoning_tokens": 2960,
+   "completion": 3195,
+   "cost": 0.0294884,
+   "finish": "stop",
+   "mol_id": "Butanoic acid, 3-methoxy-",
+   "truth": 1.591
+  },
+  {
+   "text": "The target compound is an aliphatic \\(\\alpha\\)-hydroxy dialdehyde (MW 158). With",
+   "value": 20000.0,
+   "reasoning_tokens": 1496,
+   "completion": 1705,
+   "cost": 0.012094,
+   "finish": "stop",
+   "mol_id": "Hexanedial, 2-hydroxy-2,5-dimethyl- (9CI)",
+   "truth": 1.429
+  },
+  {
+   "text": "The target compound is a simple aliphatic carboxylic acid bearing a hydrophobic ",
+   "value": 1.8,
+   "reasoning_tokens": 2127,
+   "completion": 2359,
+   "cost": 0.015998,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (trimethylsilyl)-",
+   "truth": 1.644
+  },
+  {
+   "text": "The test compound (mizoribine) is a highly polar, polyhydroxylated imidazole nuc",
+   "value": 1.95,
+   "reasoning_tokens": 3323,
+   "completion": 3568,
+   "cost": 0.0317964,
+   "finish": "stop",
+   "mol_id": "1H-Imidazole-4-carboxamide, 5-hydroxy-1-beta-D-ribofuranosyl-",
+   "truth": 1.922
+  },
+  {
+   "text": "The training set contains a close structural analogue sharing the key 5-nitro-2-",
+   "value": 2.75,
+   "reasoning_tokens": 1950,
+   "completion": 2206,
+   "cost": 0.0236324,
+   "finish": "stop",
+   "mol_id": "Glycine, N,N-diisobutyl-, 2-(5-nitrofurfurylidene)hydrazide",
+   "truth": 2.557
+  },
+  {
+   "text": "The query molecule (forskolin) is a densely functionalized labdane diterpene con",
+   "value": 2.25,
+   "reasoning_tokens": 4375,
+   "completion": 4672,
+   "cost": 0.0386284,
+   "finish": "stop",
+   "mol_id": "1H-Naphtho(2,1-b)pyran-1-one, dodecahydro-5-(acetyloxy)-3-ethenyl-3,4a,7,7,10a-pentamethyl-6,10,10b-trihydroxy-, (3R-(3-alpha,4a-beta,5-beta,6-beta,6a-alpha,10-alpha,10a-beta,10b-alpha))-",
+   "truth": 2.207
+  },
+  {
+   "text": "The query molecule is 2,6-diisopropylaniline (an ortho-dialkylated primary aroma",
+   "value": 2.08,
+   "reasoning_tokens": 1445,
+   "completion": 1725,
+   "cost": 0.012212,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2,6-bis(1-methylethyl)-",
+   "truth": 1.743
+  },
+  {
+   "text": "The test compound is an \\(N\\)-acylmorpholine featuring a diaryl-substituted enon",
+   "value": 2.71,
+   "reasoning_tokens": 3501,
+   "completion": 3852,
+   "cost": 0.0335204,
+   "finish": "stop",
+   "mol_id": "Morpholine, 4-(3-(4-chlorophenyl)-3-(3,4-dimethoxyphenyl)-1-oxo-2-propenyl)-",
+   "truth": 1.998
+  },
+  {
+   "text": "The target molecule is the 1,4-benzodiazepine derivative chlordiazepoxide (7-chl",
+   "value": 2.75,
+   "reasoning_tokens": 1185,
+   "completion": 1517,
+   "cost": 0.0195004,
+   "finish": "stop",
+   "mol_id": "3H-1,4-Benzodiazepine, 7-chloro-2-(methylamino)-5-phenyl-, 4-oxide",
+   "truth": 2.756
+  },
+  {
+   "text": "The target compound contains a 2-thiopyrimidine core linked to a short-chain tri",
+   "value": 2.75,
+   "reasoning_tokens": 2530,
+   "completion": 2756,
+   "cost": 0.0268944,
+   "finish": "stop",
+   "mol_id": "Pyrimidine, 2-((3,4,4-trifluoro-3-butenyl)thio)-",
+   "truth": 2.459
+  },
+  {
+   "text": "The training set contains several organophosphorus compounds that share key subs",
+   "value": 2.31,
+   "reasoning_tokens": 4094,
+   "completion": 4422,
+   "cost": 0.028422,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2,5-dichloro-4-iodophenyl) O,O-dimethyl ester",
+   "truth": 2.249
+  },
+  {
+   "text": "The training set contains multiple 2-(trifluoromethyl)benzimidazole analogues be",
+   "value": 4.95,
+   "reasoning_tokens": 1453,
+   "completion": 1705,
+   "cost": 0.0206044,
+   "finish": "stop",
+   "mol_id": "Benzimidazole-6-carbonitrile, 4-chloro-2-(trifluoromethyl)-",
+   "truth": 5.01
+  },
+  {
+   "text": "The test molecule is a type-II pyrethroid ester (dichlorovinyl-substituted chrys",
+   "value": 3.25,
+   "reasoning_tokens": 2547,
+   "completion": 2749,
+   "cost": 0.018448,
+   "finish": "stop",
+   "mol_id": "Cyclopropanecarboxylic acid, 3-(2,2-dichloroethenyl)-2,2-dimethyl-, cyano(6-phenoxy-2-pyridinyl)methyl ester",
+   "truth": 2.958
+  },
+  {
+   "text": "The test molecule is an N-methyl aryl carbamate featuring an ortho-1,3-dithiolan",
+   "value": 3.52,
+   "reasoning_tokens": 2408,
+   "completion": 2691,
+   "cost": 0.018016,
+   "finish": "stop",
+   "mol_id": "Carbamic acid, methyl-, o-(1,3-dithiolan-2-yl)phenyl ester",
+   "truth": 3.4530000000000003
+  },
+  {
+   "text": "The target molecule is an organophosphorus (specifically phosphorodithioate) ins",
+   "value": 3.2,
+   "reasoning_tokens": 4259,
+   "completion": 4579,
+   "cost": 0.0378544,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O-ethyl O-methyl ester, S-ester with N-(mercaptomethyl)phthalimide",
+   "truth": 3.821
+  },
+  {
+   "text": "The target molecule (C17H20N2O) contains two phenyl rings attached to a tertiary",
+   "value": 2.48,
+   "reasoning_tokens": 2373,
+   "completion": 2624,
+   "cost": 0.0261164,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-amino-N-(1-methyl-1,2-diphenylethyl)-, (-)-",
+   "truth": 2.564
+  },
+  {
+   "text": "The target compound is an aliphatic phosphoric acid diester (specifically, a mon",
+   "value": 2.55,
+   "reasoning_tokens": 4976,
+   "completion": 5267,
+   "cost": 0.0419464,
+   "finish": "stop",
+   "mol_id": "Phosphoric acid, mono(dichloropropyl) monooctyl ester",
+   "truth": 1.494
+  },
+  {
+   "text": "The molecule 2-propenenitrile (acrylonitrile) is a small, volatile aliphatic nit",
+   "value": 2.83,
+   "reasoning_tokens": 1035,
+   "completion": 1297,
+   "cost": 0.0180884,
+   "finish": "stop",
+   "mol_id": "2-Propenenitrile",
+   "truth": 2.833
+  },
+  {
+   "text": "The training set contains multiple phenolic compounds, of which the closest stru",
+   "value": 2.4,
+   "reasoning_tokens": 1223,
+   "completion": 1421,
+   "cost": 0.010364,
+   "finish": "stop",
+   "mol_id": "Phenol, 2-(1-methylpropyl)-",
+   "truth": 2.672
+  },
+  {
+   "text": "The test compound is a simple alicyclic mono-ketone (4-(1,1-dimethylpropyl)cyclo",
+   "value": 1.85,
+   "reasoning_tokens": 4164,
+   "completion": 4431,
+   "cost": 0.028442,
+   "finish": "stop",
+   "mol_id": "Cyclohexanone, 4-(1,1-dimethylpropyl)-",
+   "truth": 1.554
+  },
+  {
+   "text": "The test molecule (1-butoxy-2-ethoxyethane) is a simple, unreactive aliphatic di",
+   "value": 1.55,
+   "reasoning_tokens": 1652,
+   "completion": 1907,
+   "cost": 0.013272,
+   "finish": "stop",
+   "mol_id": "Ethane, 1-butoxy-2-ethoxy-",
+   "truth": 1.713
+  },
+  {
+   "text": "The training set contains two closely related benzoxazolone analogues that permi",
+   "value": 2.49,
+   "reasoning_tokens": 1166,
+   "completion": 1429,
+   "cost": 0.0189224,
+   "finish": "stop",
+   "mol_id": "2(3H)-Benzoxazolone, 5-chloro-",
+   "truth": 2.347
+  },
+  {
+   "text": "The query molecule (2-fluoro-\\(N\\)-(4-methylphenyl)acetamide) is a simple second",
+   "value": 2.63,
+   "reasoning_tokens": 2913,
+   "completion": 3141,
+   "cost": 0.02069,
+   "finish": "stop",
+   "mol_id": "p-Acetotoluidide, 2-fluoro-",
+   "truth": 4.378
+  },
+  {
+   "text": "The query molecule (1,4-butanediyl bis(mercaptoacetate)) is a flexible aliphatic",
+   "value": 2.3,
+   "reasoning_tokens": 3299,
+   "completion": 3582,
+   "cost": 0.0318364,
+   "finish": "stop",
+   "mol_id": "Acetic acid, mercapto-, 1,4-butanediyl ester",
+   "truth": 2.77
+  },
+  {
+   "text": "The target compound is an O,O-dimethyl phosphorodithioate esterified through sul",
+   "value": 2.85,
+   "reasoning_tokens": 3653,
+   "completion": 3866,
+   "cost": 0.025128,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-dimethyl ester, S-ester with 2-mercapto-N,N'-dimethoxy-N,N'-dimethylsuccinamide",
+   "truth": 4.4110000000000005
+  },
+  {
+   "text": "The target molecule is an organothiophosphate (specifically, an O-ethyl S-aryl h",
+   "value": 2.95,
+   "reasoning_tokens": 1931,
+   "completion": 2316,
+   "cost": 0.015766,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-ethyl S-(4-methylphenyl) ester (9CI)",
+   "truth": 3.667
+  },
+  {
+   "text": "The training set contains a close structural analog of the query molecule: 2(1H)",
+   "value": 2.85,
+   "reasoning_tokens": 956,
+   "completion": 1238,
+   "cost": 0.009362,
+   "finish": "stop",
+   "mol_id": "2(1H)-Quinolinone, 3,4-dihydro-6-(1-oxo-3-(4-(phenylmethyl)-1-piperidinyl)propyl)-",
+   "truth": 2.877
+  },
+  {
+   "text": "The target molecule is a simple monofunctional phosphoramidothioate (MeNH-P(=S)(",
+   "value": 3.25,
+   "reasoning_tokens": 2019,
+   "completion": 2386,
+   "cost": 0.0246564,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, N-methyl-, O-isopropyl ester",
+   "truth": 2.325
+  },
+  {
+   "text": "The test molecule (chloromethanesulfonamide) is a low-molecular-weight, polar co",
+   "value": 3.1,
+   "reasoning_tokens": 4785,
+   "completion": 5028,
+   "cost": 0.032002,
+   "finish": "stop",
+   "mol_id": "Methanesulfonamide, 1-chloro-",
+   "truth": 1.331
+  },
+  {
+   "text": "The training set contains multiple organophosphorus compounds that provide relev",
+   "value": 3.05,
+   "reasoning_tokens": 2205,
+   "completion": 2455,
+   "cost": 0.016622,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-(4,6-dimethyl-2-pyrimidinyl) O-ethyl O-propyl ester",
+   "truth": 3.589
+  },
+  {
+   "text": "The native structure is an \\(N\\)-acyl \\(O,S\\)-dimethyl phosphoramidothioate. Org",
+   "value": 3.05,
+   "reasoning_tokens": 3550,
+   "completion": 3843,
+   "cost": 0.024926,
+   "finish": "stop",
+   "mol_id": "Phosphoramidothioic acid, (4-chlorobutyryl)-, O,S-dimethyl ester",
+   "truth": 4.913
+  },
+  {
+   "text": "The target molecule (2-methoxyethyl carbamate) is a low-molecular-weight aliphat",
+   "value": 1.7,
+   "reasoning_tokens": 4074,
+   "completion": 4258,
+   "cost": 0.027378,
+   "finish": "stop",
+   "mol_id": "Ethanol, 2-methoxy-, carbamate",
+   "truth": 1.035
+  },
+  {
+   "text": "The test compound contains a methylcarbamoyloxime toxicophore attached to a five",
+   "value": 4.14,
+   "reasoning_tokens": 2787,
+   "completion": 3101,
+   "cost": 0.0289564,
+   "finish": "stop",
+   "mol_id": "1,3-Dithiolan-4-one, O-((methylamino)carbonyl)oxime",
+   "truth": 4.17
+  },
+  {
+   "text": "The test compound is an O,O-diethyl phosphorodithioate featuring an S-linked N,N",
+   "value": 3.14,
+   "reasoning_tokens": 3037,
+   "completion": 3329,
+   "cost": 0.02188,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester, S-ester with N,N-diallyl-2-mercaptoacetamide",
+   "truth": 3.829
+  },
+  {
+   "text": "The target molecule is an organophosphorus compound (specifically an O-aryl alky",
+   "value": 3.8,
+   "reasoning_tokens": 2110,
+   "completion": 2424,
+   "cost": 0.0249044,
+   "finish": "stop",
+   "mol_id": "Phosphonothioic acid, ethyl-, O-2,5-dichlorophenyl O-ethyl ester",
+   "truth": 4.197
+  },
+  {
+   "text": "The test compound is a bifunctional aliphatic diisocyanate (isophorone diisocyan",
+   "value": 1.66,
+   "reasoning_tokens": 2828,
+   "completion": 3050,
+   "cost": 0.020196,
+   "finish": "stop",
+   "mol_id": "Isocyanic acid, methylene(3,5,5-trimethyl-3,1-cyclohexylene) ester",
+   "truth": 1.663
+  },
+  {
+   "text": "The target compound (N,N'-m-phenylenebis(acetamide)) is a simple aromatic bis-ac",
+   "value": 2.18,
+   "reasoning_tokens": 2218,
+   "completion": 2543,
+   "cost": 0.0256144,
+   "finish": "stop",
+   "mol_id": "Acetamide, N,N'-m-phenylenebis- (6CI,7CI,8CI)",
+   "truth": 1.254
+  },
+  {
+   "text": "The target molecule (pirimiphos-methyl) is a dimethyl phosphorothionate ester of",
+   "value": 2.17,
+   "reasoning_tokens": 4406,
+   "completion": 4870,
+   "cost": 0.0396124,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O-(2-(diethylamino)-6-methyl-4-pyrimidinyl) O,O-dimethyl ester",
+   "truth": 2.388
+  },
+  {
+   "text": "The target compound (3,3'-oxydipropanenitrile) is the direct oxygen analog of th",
+   "value": 1.3,
+   "reasoning_tokens": 2534,
+   "completion": 2739,
+   "cost": 0.0267544,
+   "finish": "stop",
+   "mol_id": "Propanenitrile, 3,3'-oxybis-",
+   "truth": 1.642
+  },
+  {
+   "text": "The query molecule is a 1,4-benzodiazepin-2-one bearing chlorine substituents at",
+   "value": 2.48,
+   "reasoning_tokens": 2395,
+   "completion": 2729,
+   "cost": 0.018294,
+   "finish": "stop",
+   "mol_id": "2H-1,4-Benzodiazepin-2-one, 7-chloro-5-(2-chlorophenyl)-1,3-dihydro- (9CI)",
+   "truth": 2.1830000000000003
+  },
+  {
+   "text": "The target compound is the simple aminopyridine 4-aminopyridine. Direct analogue",
+   "value": 3.65,
+   "reasoning_tokens": 1011,
+   "completion": 1292,
+   "cost": 0.009574,
+   "finish": "stop",
+   "mol_id": "Pyridine, 4-amino-",
+   "truth": 3.651
+  },
+  {
+   "text": "The training data contain multiple organophosphorus compounds whose acute oral t",
+   "value": 2.75,
+   "reasoning_tokens": 2709,
+   "completion": 2919,
+   "cost": 0.0278424,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl ester",
+   "truth": 1.616
+  },
+  {
+   "text": "The test compound is a basic aliphatic tertiary amine (diethylaminoethyl ester) ",
+   "value": 2.5,
+   "reasoning_tokens": 2412,
+   "completion": 2687,
+   "cost": 0.01803,
+   "finish": "stop",
+   "mol_id": "2-Furanpropanoic acid, tetrahydro-alpha-(1-naphthalenylmethyl)-, 2-(diethylamino)ethyl ester",
+   "truth": 2.307
+  },
+  {
+   "text": "The training set contains multiple phosphorus-containing molecules, including se",
+   "value": 2.25,
+   "reasoning_tokens": 4040,
+   "completion": 4314,
+   "cost": 0.027726,
+   "finish": "stop",
+   "mol_id": "Phosphorothioic acid, O,O,O-trimethyl ester",
+   "truth": 2.444
+  },
+  {
+   "text": "The target compound is 3,5-diiodo-4-(4-hydroxy-3,5-diiodophenoxy)phenylacetic ac",
+   "value": 2.85,
+   "reasoning_tokens": 1856,
+   "completion": 2049,
+   "cost": 0.0227124,
+   "finish": "stop",
+   "mol_id": "Acetic acid, (4-(4-hydroxy-3,5-diiodophenoxy)-3,5-diiodophenyl)- (8CI)",
+   "truth": 5.957000000000001
+  },
+  {
+   "text": "The test molecule (3-methyltetrahydro-2H-pyran-2-one) is a simple saturated alip",
+   "value": 1.75,
+   "reasoning_tokens": 2410,
+   "completion": 2641,
+   "cost": 0.01769,
+   "finish": "stop",
+   "mol_id": "2H-Pyran-2-one, tetrahydro-3-methyl-",
+   "truth": 0.944
+  },
+  {
+   "text": "The target compound (3-bromo-1-chlorobut-1-ene) is a small aliphatic molecule co",
+   "value": 2.87,
+   "reasoning_tokens": 1366,
+   "completion": 1633,
+   "cost": 0.011638,
+   "finish": "stop",
+   "mol_id": "1-Butene, 3-bromo-1-chloro-",
+   "truth": 3.36
+  },
+  {
+   "text": "The test molecule (SMILES: NCC(CC(=O)O)c1ccc(Cl)cc1) corresponds to baclofen, or",
+   "value": 3.17,
+   "reasoning_tokens": 2240,
+   "completion": 2600,
+   "cost": 0.017462,
+   "finish": "stop",
+   "mol_id": "Benzenepropanoic acid, beta-(aminomethyl)-4-chloro-(9CI)",
+   "truth": 3.168
+  },
+  {
+   "text": "The query molecule (nitrofen) is a polychlorinated nitrodiphenyl ether. Its stru",
+   "value": 2.58,
+   "reasoning_tokens": 2029,
+   "completion": 2342,
+   "cost": 0.0244204,
+   "finish": "stop",
+   "mol_id": "Benzene, 2,4-dichloro-1-(4-nitrophenoxy)-",
+   "truth": 2.584
+  },
+  {
+   "text": "The target compound (acetic acid, butylnitrosaminomethyl ester) contains an \\(N\\",
+   "value": 3.76,
+   "reasoning_tokens": 3875,
+   "completion": 4196,
+   "cost": 0.027016,
+   "finish": "stop",
+   "mol_id": "Acetic acid, butylnitrosaminomethyl ester",
+   "truth": 2.065
+  },
+  {
+   "text": "The target molecule (3-(chloromethyl)-3-ethyloxetane) is a small, saturated cycl",
+   "value": 2.35,
+   "reasoning_tokens": 1934,
+   "completion": 2239,
+   "cost": 0.015274,
+   "finish": "stop",
+   "mol_id": "Oxetane, 3-(chloromethyl)-3-ethyl-",
+   "truth": 2.373
+  },
+  {
+   "text": "The target molecule is an organophosphorodithioate ester (phosalone) featuring a",
+   "value": 3.48,
+   "reasoning_tokens": 1889,
+   "completion": 2317,
+   "cost": 0.015816,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, S-((6-chloro-2-oxo-3(2H)-benzoxazolyl)methyl) O,O-diethyl ester",
+   "truth": 3.636
+  },
+  {
+   "text": "The target compound (benzylideneacetone) is a simple aromatic \\(\\alpha,\\beta\\)-u",
+   "value": 2.25,
+   "reasoning_tokens": 1673,
+   "completion": 1910,
+   "cost": 0.013306,
+   "finish": "stop",
+   "mol_id": "3-Buten-2-one, 4-phenyl-",
+   "truth": 1.857
+  },
+  {
+   "text": "The target compound is a small, relatively polar alkyl-substituted pyrimidinone ",
+   "value": 2.25,
+   "reasoning_tokens": 2200,
+   "completion": 2470,
+   "cost": 0.0167,
+   "finish": "stop",
+   "mol_id": "4(1H)-Pyrimidinone, 6-methyl-2-(1-methylethyl)-",
+   "truth": 1.751
+  },
+  {
+   "text": "The acute oral toxicity value to be predicted is defined on a negative logarithm",
+   "value": 1.86,
+   "reasoning_tokens": 1427,
+   "completion": 1678,
+   "cost": 0.0203904,
+   "finish": "stop",
+   "mol_id": "1H-Pyrazole, 4-methyl-",
+   "truth": 2.101
+  },
+  {
+   "text": "The target molecule is a bulky, hydrophobic secondary ether bearing a primary al",
+   "value": 2.87,
+   "reasoning_tokens": 7829,
+   "completion": 8124,
+   "cost": 0.050608,
+   "finish": "stop",
+   "mol_id": "Ether, alpha-(bromomethyl)-p-cyclohexylbenzyl hexyl",
+   "truth": 3.167
+  },
+  {
+   "text": "The target compound is the steroidal glycoalkaloid \\(\\alpha\\)-solanine (solanidi",
+   "value": 3.17,
+   "reasoning_tokens": 1094,
+   "completion": 1360,
+   "cost": 0.01024,
+   "finish": "stop",
+   "mol_id": "Solanid-5-ene, 3-beta-((O-6-deoxy-alpha-L-mannopyranosyl-(1-2)-O-(beta-D-glucopyranosyl-(1-3))-beta-D-galactopyranosyl)oxy)-",
+   "truth": 3.168
+  },
+  {
+   "text": "The target molecule is a high-MW (\\(C_{26}H_{50}O_3\\)) aliphatic mono-epoxide es",
+   "value": 2.15,
+   "reasoning_tokens": 2379,
+   "completion": 2590,
+   "cost": 0.0258884,
+   "finish": "stop",
+   "mol_id": "Octadecanoic acid, 9,10-epoxy-, 2-ethylhexyl ester",
+   "truth": 1.125
+  },
+  {
+   "text": "The target compound is a substituted 1,2,4-triazin-5(4H)-one bearing an N-amino ",
+   "value": 2.71,
+   "reasoning_tokens": 2014,
+   "completion": 2366,
+   "cost": 0.016126,
+   "finish": "stop",
+   "mol_id": "1,2,4-Triazin-5(4H)-one, 4-amino-6-(2,2-dichloro-1-methylcyclopropyl)-3-(methylthio)-",
+   "truth": 2.365
+  },
+  {
+   "text": "The target molecule is a highly chlorinated \\(\\alpha,\\beta\\)-unsaturated cyclic ",
+   "value": 3.52,
+   "reasoning_tokens": 2932,
+   "completion": 3217,
+   "cost": 0.021202,
+   "finish": "stop",
+   "mol_id": "2-Cyclopenten-1-one, 2,3,4,4,5,5-hexachloro-",
+   "truth": 3.21
+  },
+  {
+   "text": "The query molecule (ethyl chloroformate) is a low-molecular-weight, highly elect",
+   "value": 2.6,
+   "reasoning_tokens": 974,
+   "completion": 1200,
+   "cost": 0.009024,
+   "finish": "stop",
+   "mol_id": "Carbonochloridic acid, ethyl ester",
+   "truth": 2.604
+  },
+  {
+   "text": "The target molecule contains two key structural motifs known to influence acute ",
+   "value": 2.85,
+   "reasoning_tokens": 3621,
+   "completion": 3922,
+   "cost": 0.025448,
+   "finish": "stop",
+   "mol_id": "Acetamide, 2-chloro-2,2-difluoro-N-(2-methyl-4-(((methylamino)carbonyl)oxy)phenyl)-",
+   "truth": 3.781
+  },
+  {
+   "text": "The target molecule (geranic acid) is an aliphatic, monoterpene-derived \\(\\alpha",
+   "value": 1.85,
+   "reasoning_tokens": 3618,
+   "completion": 3887,
+   "cost": 0.0336644,
+   "finish": "stop",
+   "mol_id": "2,6-Octadienoic acid, 3,7-dimethyl-",
+   "truth": 1.658
+  },
+  {
+   "text": "The acute oral toxicity endpoint \\(- \\log_{10}(\\text{LD}_{50}/\\text{mol kg}^{-1}",
+   "value": 1.9,
+   "reasoning_tokens": 2362,
+   "completion": 2628,
+   "cost": 0.017598,
+   "finish": "stop",
+   "mol_id": "Benzene, 1-chloro-2-methyl-",
+   "truth": 1.511
+  },
+  {
+   "text": "The query molecule (dehydrolinalyl acetate) is a simple aliphatic tertiary aceta",
+   "value": 1.82,
+   "reasoning_tokens": 2672,
+   "completion": 2981,
+   "cost": 0.019766,
+   "finish": "stop",
+   "mol_id": "6-Octen-1-yn-3-ol, 3,7-dimethyl-, acetate",
+   "truth": 1.305
+  },
+  {
+   "text": "The target compound contains a benzimidazole core linked via a sulfinyl-methyl b",
+   "value": 2.55,
+   "reasoning_tokens": 4616,
+   "completion": 4833,
+   "cost": 0.0393824,
+   "finish": "stop",
+   "mol_id": "Benzenamine, 2-((1H-benzimidazol-2-ylsulfinyl)methyl)-N,N-dimethyl-",
+   "truth": 2.362
+  },
+  {
+   "text": "The acute oral toxicity endpoint \\(- \\log_{10}(\\mathrm{mol/kg})\\) is known to co",
+   "value": 1.99,
+   "reasoning_tokens": 3425,
+   "completion": 3800,
+   "cost": 0.024632,
+   "finish": "stop",
+   "mol_id": "Acetic acid, phenoxy-",
+   "truth": 1.614
+  },
+  {
+   "text": "The query molecule (methacrolein diacetate) is a non-aromatic, halogen-free unsa",
+   "value": 2.25,
+   "reasoning_tokens": 3714,
+   "completion": 3931,
+   "cost": 0.02546,
+   "finish": "stop",
+   "mol_id": "2-Propene-1,1-diol, 2-methyl-, diacetate",
+   "truth": 2.593
+  },
+  {
+   "text": "The test compound is a moderately complex drug-like molecule (approximate MW 290",
+   "value": 2.58,
+   "reasoning_tokens": 3849,
+   "completion": 4139,
+   "cost": 0.026722,
+   "finish": "stop",
+   "mol_id": "2-Imidazolidinone, 4-((3-(cyclopentyloxy)-4-methoxyphenyl)methyl)-",
+   "truth": 2.685
+  },
+  {
+   "text": "The test compound (1-butyl-\\(N\\)-(3,4-dichlorophenyl)pyrrolidin-2-imine) contain",
+   "value": 2.71,
+   "reasoning_tokens": 3095,
+   "completion": 3364,
+   "cost": 0.0305464,
+   "finish": "stop",
+   "mol_id": "Pyrrolidine, 1-butyl-2-((3,4-dichlorophenyl)imino)-",
+   "truth": 1.971
+  },
+  {
+   "text": "The target compound is an organophosphorus (phosphonodithioate) insecticide anal",
+   "value": 3.92,
+   "reasoning_tokens": 2389,
+   "completion": 2691,
+   "cost": 0.018048,
+   "finish": "stop",
+   "mol_id": "Phosphonodithioic acid, methyl-, O-isobutyl ester, S-ester with N-(mercaptomethyl)phthalimide",
+   "truth": 3.968
+  },
+  {
+   "text": "The query molecule is a substituted diaryl ether (fluorodifen) bearing two aroma",
+   "value": 2.75,
+   "reasoning_tokens": 3060,
+   "completion": 3309,
+   "cost": 0.02178,
+   "finish": "stop",
+   "mol_id": "Ether, (p-nitrophenyl) (alpha,alpha,alpha-trifluoro-2-nitro-p-tolyl)",
+   "truth": 1.5619999999999998
+  },
+  {
+   "text": "The training set contains diverse organic molecules with measured rat oral LD50 ",
+   "value": 2.62,
+   "reasoning_tokens": 6503,
+   "completion": 6904,
+   "cost": 0.043346,
+   "finish": "stop",
+   "mol_id": "1-Piperazineethanol, 4-((5-chloro-2-oxo-3(2H)-benzothiazolyl)acetyl)- (9CI)",
+   "truth": 1.995
+  },
+  {
+   "text": "The test molecule (2,3-dihydro-5,6-diphenyl-1,4-oxathiin) is a non-ionizable, mo",
+   "value": 2.5,
+   "reasoning_tokens": 2352,
+   "completion": 2638,
+   "cost": 0.017708,
+   "finish": "stop",
+   "mol_id": "1,4-Oxathiin, 2,3-dihydro-5,6-diphenyl-",
+   "truth": 1.928
+  },
+  {
+   "text": "The target compound (triclofos free acid) is the monoester formed between phosph",
+   "value": 2.47,
+   "reasoning_tokens": 3061,
+   "completion": 3371,
+   "cost": 0.022086,
+   "finish": "stop",
+   "mol_id": "Ethanol, 2,2,2-trichloro-, dihydrogen phosphate",
+   "truth": 2.212
+  },
+  {
+   "text": "The target molecule is an aliphatic phosphorodithioate featuring the (EtO)_{2}P(",
+   "value": 4.22,
+   "reasoning_tokens": 3502,
+   "completion": 3861,
+   "cost": 0.025034,
+   "finish": "stop",
+   "mol_id": "Phosphorodithioic acid, O,O-diethyl S-((ethylsulfinyl)methyl) ester",
+   "truth": 5.14
+  },
+  {
+   "text": "The test compound is a macrocyclic pyrrolizidine alkaloid (specifically monocrot",
+   "value": 3.64,
+   "reasoning_tokens": 1481,
+   "completion": 1666,
+   "cost": 0.011946,
+   "finish": "stop",
+   "mol_id": "20-Norcrotalanan-11,15-dione, 14,19-dihydro-12,13-dihydroxy-, (13-alpha,14-alpha)- (9CI)",
+   "truth": 3.693
+  },
+  {
+   "text": "The target molecule is a coumarin-7-yl phosphate diester bearing two 3-chloropro",
+   "value": 3.73,
+   "reasoning_tokens": 2595,
+   "completion": 2941,
+   "cost": 0.019548,
+   "finish": "stop",
+   "mol_id": "Coumarin, 3-chloro-7-hydroxy-4-methyl-, bis(3-chloropropyl) phosphate",
+   "truth": 3.323
+  },
+  {
+   "text": "The test molecule contains two aziridine rings (one substituted with a nitrile a",
+   "value": 3.55,
+   "reasoning_tokens": 1897,
+   "completion": 2119,
+   "cost": 0.0231024,
+   "finish": "stop",
+   "mol_id": "2-Aziridinecarboxamide, 1-(1-(2-cyano-1-aziridinyl)-1-methylethyl)-",
+   "truth": 1.797
+  },
+  {
+   "text": "The test compound (captan) is a tetrahydroisoindoledione bearing an \\(N\\)-(trich",
+   "value": 1.52,
+   "reasoning_tokens": 1183,
+   "completion": 1498,
+   "cost": 0.01091,
+   "finish": "stop",
+   "mol_id": "1H-Isoindole-1,3(2H)-dione, 3a,4,7,7a-tetrahydro-2-((trichloromethyl)thio)-",
+   "truth": 1.524
+  },
+  {
+   "text": "The test compound is a polyhalogenated 2-(trifluoromethyl)benzimidazole bearing ",
+   "value": 4.97,
+   "reasoning_tokens": 1079,
+   "completion": 1392,
+   "cost": 0.0187804,
+   "finish": "stop",
+   "mol_id": "4-Benzimidazolesulfonamide, N,N-dimethyl-5,6,7-trichloro-2-(trifluoromethyl)-",
+   "truth": 4.92
+  }
+ ]
+}

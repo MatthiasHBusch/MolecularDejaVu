@@ -1,0 +1,1518 @@
+{
+ "meta": {
+  "dataset": "freesolv",
+  "tag": "grok45",
+  "level": "L1",
+  "ntest": 150,
+  "shots": 100,
+  "seed": 42,
+  "reasoning": "max_tokens:1024",
+  "arm": "t1024",
+  "max_tokens": 20000,
+  "disjoint_from": "",
+  "cost": 4.2998172,
+  "timestamp": "2026-08-10T17:22:08"
+ },
+ "calls": [
+  {
+   "text": "The hydration free energy (\\(\\Delta G_{\\text{hyd}}\\)) quantifies the free-energy",
+   "value": -5.05,
+   "reasoning_tokens": 1682,
+   "completion": 2092,
+   "cost": 0.0182904,
+   "finish": "stop",
+   "mol_id": "1,4-dioxane",
+   "truth": -5.06
+  },
+  {
+   "text": "The hydration free energy (HFE) quantifies the free-energy change associated wit",
+   "value": 1.96,
+   "reasoning_tokens": 1230,
+   "completion": 1620,
+   "cost": 0.0154364,
+   "finish": "stop",
+   "mol_id": "propane",
+   "truth": 2.0
+  },
+  {
+   "text": "The hydration free energy quantifies the free-energy change associated with tran",
+   "value": -9.56,
+   "reasoning_tokens": 4445,
+   "completion": 4773,
+   "cost": 0.0344064,
+   "finish": "stop",
+   "mol_id": "diflunisal",
+   "truth": -9.4
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects a balance between favorable polar inter",
+   "value": -4.6,
+   "reasoning_tokens": 2181,
+   "completion": 2536,
+   "cost": 0.0209524,
+   "finish": "stop",
+   "mol_id": "4-ethylpyridine",
+   "truth": -4.73
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -1.38,
+   "reasoning_tokens": 983,
+   "completion": 1335,
+   "cost": 0.0137444,
+   "finish": "stop",
+   "mol_id": "2-methylthiophene",
+   "truth": -1.38
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -0.41,
+   "reasoning_tokens": 4208,
+   "completion": 4632,
+   "cost": 0.0335204,
+   "finish": "stop",
+   "mol_id": "1-iodohexane",
+   "truth": 0.08
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects a balance between solute-water interact",
+   "value": -5.66,
+   "reasoning_tokens": 5223,
+   "completion": 5552,
+   "cost": 0.0390484,
+   "finish": "stop",
+   "mol_id": "2-ethylphenol",
+   "truth": -5.66
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects the free-energy change associated with ",
+   "value": -4.51,
+   "reasoning_tokens": 1840,
+   "completion": 2303,
+   "cost": 0.0195704,
+   "finish": "stop",
+   "mol_id": "2-methylbutan-1-ol",
+   "truth": -4.42
+  },
+  {
+   "text": "The hydration free energy can be estimated via a group-contribution analysis anc",
+   "value": -14.5,
+   "reasoning_tokens": 10538,
+   "completion": 10976,
+   "cost": 0.0716524,
+   "finish": "stop",
+   "mol_id": "1-(2-hydroxyethylamino)-9,10-anthraquinone",
+   "truth": -14.21
+  },
+  {
+   "text": "The hydration free energy of a solute is governed primarily by the balance betwe",
+   "value": 2.51,
+   "reasoning_tokens": 1612,
+   "completion": 1890,
+   "cost": 0.0170744,
+   "finish": "stop",
+   "mol_id": "3-methylpentane",
+   "truth": 2.51
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects the free-energy change associated with ",
+   "value": -9.71,
+   "reasoning_tokens": 3179,
+   "completion": 3627,
+   "cost": 0.0275124,
+   "finish": "stop",
+   "mol_id": "4-nitroaniline",
+   "truth": -9.82
+  },
+  {
+   "text": "The experimental hydration free energies in the training data exhibit clear tren",
+   "value": -4.02,
+   "reasoning_tokens": 1156,
+   "completion": 1514,
+   "cost": 0.0148204,
+   "finish": "stop",
+   "mol_id": "benzaldehyde",
+   "truth": -4.02
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -0.77,
+   "reasoning_tokens": 796,
+   "completion": 1198,
+   "cost": 0.0129224,
+   "finish": "stop",
+   "mol_id": "chloro-fluoro-methane",
+   "truth": -0.77
+  },
+  {
+   "text": "The hydration free energy reports the transfer free energy of a neutral molecule",
+   "value": -9.74,
+   "reasoning_tokens": 1772,
+   "completion": 2192,
+   "cost": 0.0189284,
+   "finish": "stop",
+   "mol_id": "bromacil",
+   "truth": -9.73
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the balance between polar gro",
+   "value": -3.28,
+   "reasoning_tokens": 2036,
+   "completion": 2385,
+   "cost": 0.0200524,
+   "finish": "stop",
+   "mol_id": "1,1-diethoxyethane",
+   "truth": -3.28
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects the free-energy change associated with ",
+   "value": -3.5,
+   "reasoning_tokens": 910,
+   "completion": 1211,
+   "cost": 0.0129884,
+   "finish": "stop",
+   "mol_id": "acetaldehyde",
+   "truth": -3.5
+  },
+  {
+   "text": "The hydration free energy (HFE) contributions of functional groups can be derive",
+   "value": -5.03,
+   "reasoning_tokens": 13287,
+   "completion": 13637,
+   "cost": 0.0875944,
+   "finish": "stop",
+   "mol_id": "3-nitrooxypropyl nitrate",
+   "truth": -4.8
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the ability of a solute to en",
+   "value": -13.0,
+   "reasoning_tokens": 4900,
+   "completion": 5232,
+   "cost": 0.0371764,
+   "finish": "stop",
+   "mol_id": "N,N-dimethyl-4-nitro-benzamide",
+   "truth": -11.95
+  },
+  {
+   "text": "The training data contain multiple aliphatic esters whose experimental hydration",
+   "value": -2.5,
+   "reasoning_tokens": 3066,
+   "completion": 3432,
+   "cost": 0.0263264,
+   "finish": "stop",
+   "mol_id": "pentyl acetate",
+   "truth": -2.51
+  },
+  {
+   "text": "The hydration free energy (HFE) quantifies the free-energy change associated wit",
+   "value": 2.89,
+   "reasoning_tokens": 778,
+   "completion": 1109,
+   "cost": 0.0123764,
+   "finish": "stop",
+   "mol_id": "octane",
+   "truth": 2.88
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -9.45,
+   "reasoning_tokens": 2760,
+   "completion": 3143,
+   "cost": 0.0246184,
+   "finish": "stop",
+   "mol_id": "naphthalen-1-yl N-methylcarbamate",
+   "truth": -9.45
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_{\\rm hyd}\\)) quantifies the free-energy ch",
+   "value": -0.81,
+   "reasoning_tokens": 1345,
+   "completion": 1723,
+   "cost": 0.0160744,
+   "finish": "stop",
+   "mol_id": "p-xylene",
+   "truth": -0.8
+  },
+  {
+   "text": "The training set contains multiple nitroaromatic compounds (and close analogs) t",
+   "value": -2.65,
+   "reasoning_tokens": 2201,
+   "completion": 2579,
+   "cost": 0.0212764,
+   "finish": "stop",
+   "mol_id": "trifluralin",
+   "truth": -3.25
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -2.13,
+   "reasoning_tokens": 2847,
+   "completion": 3245,
+   "cost": 0.0252044,
+   "finish": "stop",
+   "mol_id": "bromoform",
+   "truth": -2.13
+  },
+  {
+   "text": "The hydration free energy of a solute quantifies the free-energy change associat",
+   "value": 1.7,
+   "reasoning_tokens": 1865,
+   "completion": 2195,
+   "cost": 0.0189144,
+   "finish": "stop",
+   "mol_id": "1,4-dimethylcyclohexane",
+   "truth": 2.11
+  },
+  {
+   "text": "The training data include chloromethane (SMILES: CCl) with an experimental hydra",
+   "value": -0.82,
+   "reasoning_tokens": 997,
+   "completion": 1227,
+   "cost": 0.0130824,
+   "finish": "stop",
+   "mol_id": "bromomethane",
+   "truth": -0.82
+  },
+  {
+   "text": "The hydration free energy ( \\(\\Delta G_\\text{hyd}\\) ) quantifies the free-energy",
+   "value": -0.56,
+   "reasoning_tokens": 2978,
+   "completion": 3346,
+   "cost": 0.0258044,
+   "finish": "stop",
+   "mol_id": "1-iodobutane",
+   "truth": -0.25
+  },
+  {
+   "text": "The hydration free energy of a solute reflects a balance between favorable polar",
+   "value": -1.66,
+   "reasoning_tokens": 1143,
+   "completion": 1529,
+   "cost": 0.0149024,
+   "finish": "stop",
+   "mol_id": "1-methoxypropane",
+   "truth": -1.66
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -1.0,
+   "reasoning_tokens": 3140,
+   "completion": 3577,
+   "cost": 0.0272464,
+   "finish": "stop",
+   "mol_id": "2-bromo-1,1,1,2-tetrafluoro-ethane",
+   "truth": 0.5
+  },
+  {
+   "text": "The training set contains the closely related molecule 5-fluorouracil (SMILES: \\",
+   "value": -16.6,
+   "reasoning_tokens": 1890,
+   "completion": 2176,
+   "cost": 0.0142548,
+   "finish": "stop",
+   "mol_id": "5-bromouracil",
+   "truth": -18.17
+  },
+  {
+   "text": "The hydration free energy can be estimated via a group-contribution (additivity)",
+   "value": -8.4,
+   "reasoning_tokens": 7102,
+   "completion": 7453,
+   "cost": 0.0504824,
+   "finish": "stop",
+   "mol_id": "3-nitroaniline",
+   "truth": -8.84
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) reflects the balance between",
+   "value": -2.09,
+   "reasoning_tokens": 9043,
+   "completion": 9405,
+   "cost": 0.0622124,
+   "finish": "stop",
+   "mol_id": "1,3,5-trichloro-2-phenyl-benzene",
+   "truth": -2.16
+  },
+  {
+   "text": "The hydration free energy (HFE) quantifies the free-energy change associated wit",
+   "value": 1.27,
+   "reasoning_tokens": 808,
+   "completion": 1095,
+   "cost": 0.0122904,
+   "finish": "stop",
+   "mol_id": "ethylene",
+   "truth": 1.28
+  },
+  {
+   "text": "The experimental hydration free energies in the training set exhibit clear, chem",
+   "value": -3.64,
+   "reasoning_tokens": 876,
+   "completion": 1252,
+   "cost": 0.0132384,
+   "finish": "stop",
+   "mol_id": "butanenitrile",
+   "truth": -3.64
+  },
+  {
+   "text": "The training set contains a close structural analogue to the target molecule, na",
+   "value": -15.5,
+   "reasoning_tokens": 3255,
+   "completion": 3655,
+   "cost": 0.0231448,
+   "finish": "stop",
+   "mol_id": "5-trifluoromethyluracil",
+   "truth": -15.46
+  },
+  {
+   "text": "The training set contains imidazole (SMILES \\(\\mathrm{c1cnc[nH]1}\\)) with an exp",
+   "value": -9.01,
+   "reasoning_tokens": 4513,
+   "completion": 4829,
+   "cost": 0.0347224,
+   "finish": "stop",
+   "mol_id": "4-methyl-1H-imidazole",
+   "truth": -10.27
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the balance between the favor",
+   "value": -2.22,
+   "reasoning_tokens": 3188,
+   "completion": 3535,
+   "cost": 0.0269484,
+   "finish": "stop",
+   "mol_id": "isopentyl formate",
+   "truth": -2.13
+  },
+  {
+   "text": "The training set contains multiple chlorinated alkanes that enable a direct stru",
+   "value": -2.37,
+   "reasoning_tokens": 1264,
+   "completion": 1587,
+   "cost": 0.0152844,
+   "finish": "stop",
+   "mol_id": "1,1,2,2-tetrachloroethane",
+   "truth": -2.37
+  },
+  {
+   "text": "The experimental hydration free energies of nonpolar solutes are governed primar",
+   "value": -0.8,
+   "reasoning_tokens": 778,
+   "completion": 1005,
+   "cost": 0.0071968,
+   "finish": "stop",
+   "mol_id": "m-xylene",
+   "truth": -0.83
+  },
+  {
+   "text": "The hydration free energy can be estimated via group-contribution reasoning anch",
+   "value": -8.9,
+   "reasoning_tokens": 9820,
+   "completion": 10165,
+   "cost": 0.0621688,
+   "finish": "stop",
+   "mol_id": "propyl paraben",
+   "truth": -9.37
+  },
+  {
+   "text": "The training data include experimental hydration free energies for the closely r",
+   "value": -0.33,
+   "reasoning_tokens": 1008,
+   "completion": 1286,
+   "cost": 0.0134444,
+   "finish": "stop",
+   "mol_id": "1-chloropropane",
+   "truth": -0.33
+  },
+  {
+   "text": "The hydration free energy quantifies the free-energy change associated with tran",
+   "value": -3.56,
+   "reasoning_tokens": 17066,
+   "completion": 17553,
+   "cost": 0.1111844,
+   "finish": "stop",
+   "mol_id": "1,2,3,4,5-pentachloro-6-(2,3,4,5,6-pentachlorophenyl)benzene",
+   "truth": -2.98
+  },
+  {
+   "text": "The experimental hydration free energies in the training set exhibit clear, chem",
+   "value": -4.31,
+   "reasoning_tokens": 627,
+   "completion": 980,
+   "cost": 0.0070268,
+   "finish": "stop",
+   "mol_id": "ammonia",
+   "truth": -4.29
+  },
+  {
+   "text": "The hydration free energy \\(\\Delta G_\\text{hyd}\\) quantifies the free-energy cha",
+   "value": -3.85,
+   "reasoning_tokens": 3188,
+   "completion": 3616,
+   "cost": 0.0274284,
+   "finish": "stop",
+   "mol_id": "nonan-1-ol",
+   "truth": -3.88
+  },
+  {
+   "text": "The hydration free energy of nonpolar solutes is governed primarily by the cavit",
+   "value": 2.34,
+   "reasoning_tokens": 1796,
+   "completion": 2091,
+   "cost": 0.0182924,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylbutane",
+   "truth": 2.34
+  },
+  {
+   "text": "The hydration free energy correlates strongly with the balance of nonpolar surfa",
+   "value": -0.6,
+   "reasoning_tokens": 2752,
+   "completion": 3149,
+   "cost": 0.0246324,
+   "finish": "stop",
+   "mol_id": "3-chloroprop-1-ene",
+   "truth": -0.57
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_{\\rm hyd}\\)) quantifies the free-energy ch",
+   "value": -8.42,
+   "reasoning_tokens": 1577,
+   "completion": 2083,
+   "cost": 0.0182764,
+   "finish": "stop",
+   "mol_id": "flurbiprofen",
+   "truth": -8.42
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the transfer free energy of a neutral mo",
+   "value": -4.42,
+   "reasoning_tokens": 2930,
+   "completion": 3179,
+   "cost": 0.0202528,
+   "finish": "stop",
+   "mol_id": "1,1,1-trimethoxyethane",
+   "truth": -4.42
+  },
+  {
+   "text": "The hydration free energy can be estimated using an experimental group-contribut",
+   "value": -3.53,
+   "reasoning_tokens": 9126,
+   "completion": 9470,
+   "cost": 0.0625664,
+   "finish": "stop",
+   "mol_id": "methyl cyclohexanecarboxylate",
+   "truth": -3.3
+  },
+  {
+   "text": "The hydration free energy of a solute is governed by a balance between unfavorab",
+   "value": -2.47,
+   "reasoning_tokens": 2827,
+   "completion": 3292,
+   "cost": 0.0255224,
+   "finish": "stop",
+   "mol_id": "1,4-dichloro-2-phenyl-benzene",
+   "truth": -2.46
+  },
+  {
+   "text": "",
+   "value": null,
+   "reasoning_tokens": 885,
+   "completion": 886,
+   "cost": 0.0110524,
+   "finish": "stop",
+   "mol_id": "triethylphosphate",
+   "truth": -7.5
+  },
+  {
+   "text": "The training data include the closely related cyclic ethers tetrahydrofuran (THF",
+   "value": -3.2,
+   "reasoning_tokens": 1101,
+   "completion": 1415,
+   "cost": 0.0096648,
+   "finish": "stop",
+   "mol_id": "2-methyltetrahydrofuran",
+   "truth": -3.3
+  },
+  {
+   "text": "The training data include multiple linear aldehydes that form a clear homologous",
+   "value": -2.3,
+   "reasoning_tokens": 2048,
+   "completion": 2281,
+   "cost": 0.0148408,
+   "finish": "stop",
+   "mol_id": "nonanal",
+   "truth": -2.07
+  },
+  {
+   "text": "The hydration free energy (HFE) is governed primarily by the balance between non",
+   "value": -3.78,
+   "reasoning_tokens": 2657,
+   "completion": 2992,
+   "cost": 0.0237124,
+   "finish": "stop",
+   "mol_id": "9,10-dihydroanthracene",
+   "truth": -3.78
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": 0.56,
+   "reasoning_tokens": 1512,
+   "completion": 1821,
+   "cost": 0.0166564,
+   "finish": "stop",
+   "mol_id": "cyclopentene",
+   "truth": 0.56
+  },
+  {
+   "text": "The hydration free energy of a solute is determined primarily by the balance bet",
+   "value": 1.88,
+   "reasoning_tokens": 2765,
+   "completion": 3200,
+   "cost": 0.0249384,
+   "finish": "stop",
+   "mol_id": "hept-2-ene",
+   "truth": 1.68
+  },
+  {
+   "text": "The training data include the closely related regioisomer 3-hydroxybenzaldehyde ",
+   "value": -9.52,
+   "reasoning_tokens": 1568,
+   "completion": 1882,
+   "cost": 0.0124688,
+   "finish": "stop",
+   "mol_id": "4-hydroxybenzaldehyde",
+   "truth": -8.83
+  },
+  {
+   "text": "The hydration free energy (HFE) is governed primarily by the balance between fav",
+   "value": -0.54,
+   "reasoning_tokens": 13413,
+   "completion": 13890,
+   "cost": 0.0845148,
+   "finish": "stop",
+   "mol_id": "1-bromo-2-methyl-propane",
+   "truth": -0.03
+  },
+  {
+   "text": "The hydration free energy of a solute quantifies the free-energy change associat",
+   "value": -5.76,
+   "reasoning_tokens": 3762,
+   "completion": 4205,
+   "cost": 0.0264448,
+   "finish": "stop",
+   "mol_id": "dialifor",
+   "truth": -5.74
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_{\\rm hyd}\\)) quantifies the free-energy ch",
+   "value": -2.55,
+   "reasoning_tokens": 989,
+   "completion": 1437,
+   "cost": 0.0097888,
+   "finish": "stop",
+   "mol_id": "benzenethiol",
+   "truth": -2.55
+  },
+  {
+   "text": "The most structurally analogous molecule in the training set is 3,5,5-trimethylc",
+   "value": -5.0,
+   "reasoning_tokens": 2141,
+   "completion": 2419,
+   "cost": 0.0203044,
+   "finish": "stop",
+   "mol_id": "6-isopropyl-3-methyl-1-cyclohex-2-enone",
+   "truth": -4.51
+  },
+  {
+   "text": "The hydration free energy (HFE) correlates strongly with the number, placement a",
+   "value": -1.14,
+   "reasoning_tokens": 3017,
+   "completion": 3460,
+   "cost": 0.0265224,
+   "finish": "stop",
+   "mol_id": "1,1,1,2-tetrachloroethane",
+   "truth": -1.43
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -0.86,
+   "reasoning_tokens": 1905,
+   "completion": 2256,
+   "cost": 0.0192904,
+   "finish": "stop",
+   "mol_id": "1,2,4-trimethylbenzene",
+   "truth": -0.86
+  },
+  {
+   "text": "The hydration free energy (HFE) quantifies the free-energy change associated wit",
+   "value": -0.44,
+   "reasoning_tokens": 1821,
+   "completion": 2162,
+   "cost": 0.0187164,
+   "finish": "stop",
+   "mol_id": "tert-butylbenzene",
+   "truth": -0.44
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects the free-energy change associated with ",
+   "value": -1.27,
+   "reasoning_tokens": 2638,
+   "completion": 3032,
+   "cost": 0.0239444,
+   "finish": "stop",
+   "mol_id": "1,2-dichloropropane",
+   "truth": -1.27
+  },
+  {
+   "text": "The hydration free energy reports the transfer free energy of a neutral solute f",
+   "value": -3.04,
+   "reasoning_tokens": 2447,
+   "completion": 2787,
+   "cost": 0.0224644,
+   "finish": "stop",
+   "mol_id": "N,N-diethylethanamine",
+   "truth": -3.22
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the presence and identity of ",
+   "value": -5.4,
+   "reasoning_tokens": 8581,
+   "completion": 8997,
+   "cost": 0.0597204,
+   "finish": "stop",
+   "mol_id": "methyl 2-chloroacetate",
+   "truth": -4.0
+  },
+  {
+   "text": "The training data include multiple terminal alkynes that establish a clear chain",
+   "value": 0.3,
+   "reasoning_tokens": 1718,
+   "completion": 1966,
+   "cost": 0.0129568,
+   "finish": "stop",
+   "mol_id": "hex-1-yne",
+   "truth": 0.29
+  },
+  {
+   "text": "The hydration free energy (HFE) correlates strongly with the presence, number, a",
+   "value": 0.11,
+   "reasoning_tokens": 6673,
+   "completion": 7039,
+   "cost": 0.0480004,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trifluoro-ethane",
+   "truth": 0.06
+  },
+  {
+   "text": "The hydration free energy of organic molecules becomes systematically less favor",
+   "value": -3.62,
+   "reasoning_tokens": 2492,
+   "completion": 2829,
+   "cost": 0.0227064,
+   "finish": "stop",
+   "mol_id": "octan-1-amine",
+   "truth": -3.65
+  },
+  {
+   "text": "The hydration free energy can be estimated via analysis of closely related ether",
+   "value": -5.35,
+   "reasoning_tokens": 12817,
+   "completion": 13227,
+   "cost": 0.0851044,
+   "finish": "stop",
+   "mol_id": "2-ethoxyethyl acetate",
+   "truth": -5.31
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -0.55,
+   "reasoning_tokens": 1522,
+   "completion": 1895,
+   "cost": 0.0171124,
+   "finish": "stop",
+   "mol_id": "chloro-difluoro-methane",
+   "truth": -0.5
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) of a nonpolar solute is gove",
+   "value": 1.3,
+   "reasoning_tokens": 2910,
+   "completion": 3281,
+   "cost": 0.0254464,
+   "finish": "stop",
+   "mol_id": "2,3-dimethylbuta-1,3-diene",
+   "truth": 0.4
+  },
+  {
+   "text": "The hydration free energy of organic molecules is governed primarily by the pres",
+   "value": -5.5,
+   "reasoning_tokens": 15209,
+   "completion": 15669,
+   "cost": 0.0952228,
+   "finish": "stop",
+   "mol_id": "3,5-dichloro-2,6-dimethoxyphenol",
+   "truth": -6.44
+  },
+  {
+   "text": "The training data include multiple terminal alkynes (1-pentyne, 1-heptyne and 1-",
+   "value": -0.45,
+   "reasoning_tokens": 4795,
+   "completion": 4998,
+   "cost": 0.0357164,
+   "finish": "stop",
+   "mol_id": "prop-1-yne",
+   "truth": -0.48
+  },
+  {
+   "text": "The experimental hydration free energies of linear aliphatic aldehydes become sy",
+   "value": -3.43,
+   "reasoning_tokens": 1703,
+   "completion": 1960,
+   "cost": 0.0174824,
+   "finish": "stop",
+   "mol_id": "propanal",
+   "truth": -3.43
+  },
+  {
+   "text": "The hydration free energy (CFE) reports the free-energy change associated with t",
+   "value": -6.5,
+   "reasoning_tokens": 8780,
+   "completion": 9213,
+   "cost": 0.0611084,
+   "finish": "stop",
+   "mol_id": "2-[(1R)-1-methylpropyl]-4,6-dinitro-phenolate",
+   "truth": -6.23
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the balance between favorable",
+   "value": -3.8,
+   "reasoning_tokens": 3729,
+   "completion": 4102,
+   "cost": 0.0258488,
+   "finish": "stop",
+   "mol_id": "(2R,5R)-2-methyl-5-(1-methylethenyl)-cyclohexanone",
+   "truth": -3.75
+  },
+  {
+   "text": "The hydration free energy reports the transfer free energy of a neutral molecule",
+   "value": -3.71,
+   "reasoning_tokens": 1119,
+   "completion": 1553,
+   "cost": 0.0150604,
+   "finish": "stop",
+   "mol_id": "1-nitroethane",
+   "truth": -3.71
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the balance between polar fun",
+   "value": -10.2,
+   "reasoning_tokens": 880,
+   "completion": 1179,
+   "cost": 0.0082728,
+   "finish": "stop",
+   "mol_id": "naproxen",
+   "truth": -10.21
+  },
+  {
+   "text": "The experimental hydration free energies of organic molecules are governed prima",
+   "value": -0.7,
+   "reasoning_tokens": 1450,
+   "completion": 1786,
+   "cost": 0.0164384,
+   "finish": "stop",
+   "mol_id": "bromoethane",
+   "truth": -0.74
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) correlates strongly with the",
+   "value": -1.47,
+   "reasoning_tokens": 12036,
+   "completion": 12337,
+   "cost": 0.0797984,
+   "finish": "stop",
+   "mol_id": "1,2,2-trifluoroethoxybenzene",
+   "truth": -1.29
+  },
+  {
+   "text": "The hydration free energy is governed by a balance between favorable polar inter",
+   "value": -4.97,
+   "reasoning_tokens": 2266,
+   "completion": 2542,
+   "cost": 0.0164268,
+   "finish": "stop",
+   "mol_id": "3,5-dimethylpyridine",
+   "truth": -4.84
+  },
+  {
+   "text": "The hydration free energy can be estimated via free-energy group additivity by q",
+   "value": -8.51,
+   "reasoning_tokens": 2534,
+   "completion": 2789,
+   "cost": 0.0224864,
+   "finish": "stop",
+   "mol_id": "1-(4-pyridyl)ethanone",
+   "truth": -7.62
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects the free-energy change associated with ",
+   "value": -6.11,
+   "reasoning_tokens": 4712,
+   "completion": 5130,
+   "cost": 0.0319508,
+   "finish": "stop",
+   "mol_id": "2-methoxyaniline",
+   "truth": -6.12
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -7.81,
+   "reasoning_tokens": 1717,
+   "completion": 2079,
+   "cost": 0.0136448,
+   "finish": "stop",
+   "mol_id": "N,N-dimethylformamide",
+   "truth": -7.81
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) is governed by a balance bet",
+   "value": -0.25,
+   "reasoning_tokens": 2662,
+   "completion": 3021,
+   "cost": 0.0193048,
+   "finish": "stop",
+   "mol_id": "trifluoromethylbenzene",
+   "truth": -0.25
+  },
+  {
+   "text": "The hydration free energy reports the transfer free energy of a solute from the ",
+   "value": -3.2,
+   "reasoning_tokens": 7064,
+   "completion": 7383,
+   "cost": 0.0501084,
+   "finish": "stop",
+   "mol_id": "1,2,3-trichloro-5-(2,5-dichlorophenyl)benzene",
+   "truth": -3.61
+  },
+  {
+   "text": "The training set contains multiple pyridine derivatives that enable a robust ana",
+   "value": -4.85,
+   "reasoning_tokens": 1317,
+   "completion": 1542,
+   "cost": 0.0104268,
+   "finish": "stop",
+   "mol_id": "2,4-dimethylpyridine",
+   "truth": -4.86
+  },
+  {
+   "text": "The hydration free energy (HFE) of a neutral organic molecule is governed primar",
+   "value": -3.73,
+   "reasoning_tokens": 1768,
+   "completion": 2108,
+   "cost": 0.0138388,
+   "finish": "stop",
+   "mol_id": "4-methylpentan-2-ol",
+   "truth": -3.73
+  },
+  {
+   "text": "The experimental hydration free energies of nonpolar hydrocarbons are uniformly ",
+   "value": 0.75,
+   "reasoning_tokens": 1188,
+   "completion": 1456,
+   "cost": 0.0098928,
+   "finish": "stop",
+   "mol_id": "cyclopropane",
+   "truth": 0.75
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -4.47,
+   "reasoning_tokens": 1336,
+   "completion": 1675,
+   "cost": 0.0112108,
+   "finish": "stop",
+   "mol_id": "pentan-1-ol",
+   "truth": -4.57
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -2.27,
+   "reasoning_tokens": 5286,
+   "completion": 5619,
+   "cost": 0.0348908,
+   "finish": "stop",
+   "mol_id": "1,4-dibromobenzene",
+   "truth": -2.3
+  },
+  {
+   "text": "The test molecule (phorate) contains a central phosphorodithioate core identical",
+   "value": -4.42,
+   "reasoning_tokens": 1526,
+   "completion": 1765,
+   "cost": 0.0117928,
+   "finish": "stop",
+   "mol_id": "diethoxy-(ethylsulfanylmethylsulfanyl)-thioxo-$l^{5}-phosphane",
+   "truth": -4.37
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -0.57,
+   "reasoning_tokens": 4654,
+   "completion": 5090,
+   "cost": 0.0317188,
+   "finish": "stop",
+   "mol_id": "2-bromo-2-methyl-propane",
+   "truth": 0.84
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_{hyd}\\)) quantifies the free-energy change",
+   "value": 2.38,
+   "reasoning_tokens": 1021,
+   "completion": 1419,
+   "cost": 0.0142424,
+   "finish": "stop",
+   "mol_id": "isopentane",
+   "truth": 2.38
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the solute\u2019s ability to form ",
+   "value": -18.1,
+   "reasoning_tokens": 1347,
+   "completion": 1670,
+   "cost": 0.0112208,
+   "finish": "stop",
+   "mol_id": "cyanuric acid",
+   "truth": -18.06
+  },
+  {
+   "text": "The training data include multiple chloroalkanes that provide useful reference p",
+   "value": -1.79,
+   "reasoning_tokens": 1074,
+   "completion": 1470,
+   "cost": 0.0145604,
+   "finish": "stop",
+   "mol_id": "1,2-dichloroethane",
+   "truth": -1.79
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -4.35,
+   "reasoning_tokens": 8846,
+   "completion": 9311,
+   "cost": 0.0616284,
+   "finish": "stop",
+   "mol_id": "2-chloro-1,1,1-trimethoxy-ethane",
+   "truth": -4.59
+  },
+  {
+   "text": "The hydration free energy is strongly influenced by the balance between nonpolar",
+   "value": -0.45,
+   "reasoning_tokens": 8137,
+   "completion": 8542,
+   "cost": 0.0524248,
+   "finish": "stop",
+   "mol_id": "mesitylene",
+   "truth": -0.9
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -6.09,
+   "reasoning_tokens": 2790,
+   "completion": 3231,
+   "cost": 0.0205608,
+   "finish": "stop",
+   "mol_id": "3-methylbutanoic acid",
+   "truth": -6.09
+  },
+  {
+   "text": "The hydration free energy of an organic molecule is governed primarily by the ba",
+   "value": -5.29,
+   "reasoning_tokens": 17912,
+   "completion": 18356,
+   "cost": 0.1158844,
+   "finish": "stop",
+   "mol_id": "2-acetoxyethyl acetate",
+   "truth": -6.34
+  },
+  {
+   "text": "The training data include multiple aliphatic esters whose experimental hydration",
+   "value": -2.24,
+   "reasoning_tokens": 1766,
+   "completion": 2156,
+   "cost": 0.0186684,
+   "finish": "stop",
+   "mol_id": "ethyl hexanoate",
+   "truth": -2.23
+  },
+  {
+   "text": "The training data include multiple halogenated compounds that enable a structure",
+   "value": -1.15,
+   "reasoning_tokens": 1244,
+   "completion": 1548,
+   "cost": 0.0104488,
+   "finish": "stop",
+   "mol_id": "chloroform",
+   "truth": -1.08
+  },
+  {
+   "text": "The hydration free energy quantifies the free-energy change associated with tran",
+   "value": -9.3,
+   "reasoning_tokens": 1120,
+   "completion": 1415,
+   "cost": 0.0096468,
+   "finish": "stop",
+   "mol_id": "ethylene glycol",
+   "truth": -9.3
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -3.72,
+   "reasoning_tokens": 6843,
+   "completion": 7363,
+   "cost": 0.0453548,
+   "finish": "stop",
+   "mol_id": "N-isopropylpropan-2-amine",
+   "truth": -3.22
+  },
+  {
+   "text": "The molecules 1-amino-9,10-anthracenedione and 2-amino-9,10-anthraquinone are po",
+   "value": -9.53,
+   "reasoning_tokens": 2335,
+   "completion": 2767,
+   "cost": 0.0178188,
+   "finish": "stop",
+   "mol_id": "1-amino-9,10-anthracenedione",
+   "truth": -9.44
+  },
+  {
+   "text": "The hydration free energy of organic molecules is governed primarily by the free",
+   "value": -3.8,
+   "reasoning_tokens": 7548,
+   "completion": 7940,
+   "cost": 0.0533924,
+   "finish": "stop",
+   "mol_id": "methyl 4-methoxybenzoate",
+   "truth": -5.33
+  },
+  {
+   "text": "The hydration free energy reflects the balance of solute-water primary interacti",
+   "value": -8.5,
+   "reasoning_tokens": 2674,
+   "completion": 3128,
+   "cost": 0.0245564,
+   "finish": "stop",
+   "mol_id": "captan",
+   "truth": -9.01
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -8.25,
+   "reasoning_tokens": 2329,
+   "completion": 2627,
+   "cost": 0.0215684,
+   "finish": "stop",
+   "mol_id": "diethyl (2R)-2-dimethoxyphosphinothioylsulfanylbutanedioate",
+   "truth": -8.15
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -10.1,
+   "reasoning_tokens": 872,
+   "completion": 1213,
+   "cost": 0.0084408,
+   "finish": "stop",
+   "mol_id": "N-methylacetamide",
+   "truth": -10.0
+  },
+  {
+   "text": "The hydration free energy of nonpolar hydrocarbons is governed primarily by mole",
+   "value": 1.99,
+   "reasoning_tokens": 4597,
+   "completion": 4888,
+   "cost": 0.0350704,
+   "finish": "stop",
+   "mol_id": "2-methylpent-1-ene",
+   "truth": 1.47
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -0.3,
+   "reasoning_tokens": 2595,
+   "completion": 2932,
+   "cost": 0.0233244,
+   "finish": "stop",
+   "mol_id": "pentylbenzene",
+   "truth": -0.23
+  },
+  {
+   "text": "The hydration free energy quantifies the free-energy change associated with tran",
+   "value": -0.56,
+   "reasoning_tokens": 1826,
+   "completion": 2202,
+   "cost": 0.0143728,
+   "finish": "stop",
+   "mol_id": "propylbenzene",
+   "truth": -0.53
+  },
+  {
+   "text": "The hydration free energy of organic molecules is governed primarily by the inco",
+   "value": -6.55,
+   "reasoning_tokens": 14592,
+   "completion": 15048,
+   "cost": 0.0960184,
+   "finish": "stop",
+   "mol_id": "2-methoxyethanamine",
+   "truth": -6.55
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -0.4,
+   "reasoning_tokens": 1410,
+   "completion": 1704,
+   "cost": 0.0159524,
+   "finish": "stop",
+   "mol_id": "butylbenzene",
+   "truth": -0.4
+  },
+  {
+   "text": "The hydration free energy quantifies the transfer free-energy change from the 1 ",
+   "value": -1.16,
+   "reasoning_tokens": 21989,
+   "completion": 22508,
+   "cost": 0.1408264,
+   "finish": "stop",
+   "mol_id": "2,2-dichloro-1,1-difluoro-1-methoxy-ethane",
+   "truth": -1.12
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects a balance between cavity formation (unf",
+   "value": -4.42,
+   "reasoning_tokens": 1540,
+   "completion": 1935,
+   "cost": 0.0127848,
+   "finish": "stop",
+   "mol_id": "3-methylbutan-1-ol",
+   "truth": -4.42
+  },
+  {
+   "text": "The training data include multiple nonpolar hydrocarbons that establish clear tr",
+   "value": 1.66,
+   "reasoning_tokens": 1882,
+   "completion": 2231,
+   "cost": 0.0145468,
+   "finish": "stop",
+   "mol_id": "hex-1-ene",
+   "truth": 1.58
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -0.41,
+   "reasoning_tokens": 1655,
+   "completion": 2044,
+   "cost": 0.0180124,
+   "finish": "stop",
+   "mol_id": "sec-butylbenzene",
+   "truth": -0.45
+  },
+  {
+   "text": "The hydration free energy of a solute is governed primarily by the presence, num",
+   "value": -4.68,
+   "reasoning_tokens": 2604,
+   "completion": 3120,
+   "cost": 0.0244724,
+   "finish": "stop",
+   "mol_id": "2-hydroxybenzaldehyde",
+   "truth": -4.68
+  },
+  {
+   "text": "The hydration free energy quantifies the free-energy change associated with tran",
+   "value": -2.11,
+   "reasoning_tokens": 1964,
+   "completion": 2245,
+   "cost": 0.0146408,
+   "finish": "stop",
+   "mol_id": "1,2-dibromoethane",
+   "truth": -2.33
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -0.48,
+   "reasoning_tokens": 4552,
+   "completion": 4980,
+   "cost": 0.0310448,
+   "finish": "stop",
+   "mol_id": "2-bromopropane",
+   "truth": -0.48
+  },
+  {
+   "text": "The hydration free energy is strongly influenced by the presence of hydrogen-bon",
+   "value": -6.02,
+   "reasoning_tokens": 1891,
+   "completion": 2186,
+   "cost": 0.0142888,
+   "finish": "stop",
+   "mol_id": "4-chlorophenol",
+   "truth": -7.03
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects the free-energy change associated with ",
+   "value": -6.47,
+   "reasoning_tokens": 1290,
+   "completion": 1694,
+   "cost": 0.0158964,
+   "finish": "stop",
+   "mol_id": "butyric acid",
+   "truth": -6.35
+  },
+  {
+   "text": "The experimental hydration free energies of organic molecules exhibit clear, sys",
+   "value": -4.4,
+   "reasoning_tokens": 1065,
+   "completion": 1412,
+   "cost": 0.0096328,
+   "finish": "stop",
+   "mol_id": "hexan-1-ol",
+   "truth": -4.4
+  },
+  {
+   "text": "The hydration free energy (HFE) correlates strongly with molecular size, hydroph",
+   "value": -2.39,
+   "reasoning_tokens": 1115,
+   "completion": 1392,
+   "cost": 0.0095168,
+   "finish": "stop",
+   "mol_id": "naphthalene",
+   "truth": -2.4
+  },
+  {
+   "text": "The hydration free energy of a solute is governed primarily by the valence polar",
+   "value": -8.5,
+   "reasoning_tokens": 10960,
+   "completion": 11367,
+   "cost": 0.0739544,
+   "finish": "stop",
+   "mol_id": "dicamba",
+   "truth": -9.86
+  },
+  {
+   "text": "The experimental hydration free energies of esters in the training data exhibit ",
+   "value": -2.2,
+   "reasoning_tokens": 1810,
+   "completion": 2123,
+   "cost": 0.0184944,
+   "finish": "stop",
+   "mol_id": "isobutyl 2-methylpropanoate",
+   "truth": -1.69
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects the free-energy change associated with ",
+   "value": -0.8,
+   "reasoning_tokens": 1070,
+   "completion": 1324,
+   "cost": 0.0091068,
+   "finish": "stop",
+   "mol_id": "fluorobenzene",
+   "truth": -0.8
+  },
+  {
+   "text": "The hydration free energy (HFE) reflects the free-energy change associated with ",
+   "value": -1.17,
+   "reasoning_tokens": 1077,
+   "completion": 1472,
+   "cost": 0.0145784,
+   "finish": "stop",
+   "mol_id": "(Z)-1,2-dichloroethylene",
+   "truth": -1.17
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -1.5,
+   "reasoning_tokens": 7954,
+   "completion": 8432,
+   "cost": 0.0564104,
+   "finish": "stop",
+   "mol_id": "1,2,4,5-tetrachloro-3-(3,4-dichlorophenyl)benzene",
+   "truth": -4.38
+  },
+  {
+   "text": "The hydration free energy of a solute is governed primarily by the balance betwe",
+   "value": -4.73,
+   "reasoning_tokens": 2400,
+   "completion": 2765,
+   "cost": 0.0223384,
+   "finish": "stop",
+   "mol_id": "2-chloroaniline",
+   "truth": -4.91
+  },
+  {
+   "text": "The hydration free energy (\\(\\Delta G_\\text{hyd}\\)) quantifies the free-energy c",
+   "value": -0.46,
+   "reasoning_tokens": 3033,
+   "completion": 3372,
+   "cost": 0.0259624,
+   "finish": "stop",
+   "mol_id": "1-iodopentane",
+   "truth": -0.14
+  },
+  {
+   "text": "The training data contain multiple aliphatic methyl esters whose hydration free ",
+   "value": -2.78,
+   "reasoning_tokens": 2524,
+   "completion": 2762,
+   "cost": 0.0177328,
+   "finish": "stop",
+   "mol_id": "methyl butanoate",
+   "truth": -2.83
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -5.91,
+   "reasoning_tokens": 2716,
+   "completion": 3091,
+   "cost": 0.0197328,
+   "finish": "stop",
+   "mol_id": "4-tert-butylphenol",
+   "truth": -5.91
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the balance between polar fun",
+   "value": -5.55,
+   "reasoning_tokens": 11808,
+   "completion": 12239,
+   "cost": 0.0792344,
+   "finish": "stop",
+   "mol_id": "nitralin",
+   "truth": -7.98
+  },
+  {
+   "text": "The hydration free energy is governed primarily by the balance between hydrophob",
+   "value": -5.97,
+   "reasoning_tokens": 1962,
+   "completion": 2310,
+   "cost": 0.0196044,
+   "finish": "stop",
+   "mol_id": "2,6-dimethylphenol",
+   "truth": -5.26
+  },
+  {
+   "text": "The hydration free energy quantifies the free-energy change associated with tran",
+   "value": -1.85,
+   "reasoning_tokens": 4183,
+   "completion": 4570,
+   "cost": 0.0286808,
+   "finish": "stop",
+   "mol_id": "1,2,3,4-tetrachloro-5-(2,3,4-trichlorophenyl)benzene",
+   "truth": -4.4
+  },
+  {
+   "text": "The hydration free energy becomes systematically less favorable (more positive) ",
+   "value": -3.8,
+   "reasoning_tokens": 4546,
+   "completion": 4889,
+   "cost": 0.0304848,
+   "finish": "stop",
+   "mol_id": "formaldehyde",
+   "truth": -2.75
+  },
+  {
+   "text": "The hydration free energy can be estimated via a group-contribution approach par",
+   "value": -5.85,
+   "reasoning_tokens": 7929,
+   "completion": 8267,
+   "cost": 0.0508268,
+   "finish": "stop",
+   "mol_id": "1,3-bis-(nitrooxy)butane",
+   "truth": -4.29
+  },
+  {
+   "text": "The hydration free energy (HFE) reports the free-energy change associated with t",
+   "value": -3.34,
+   "reasoning_tokens": 1858,
+   "completion": 2400,
+   "cost": 0.0155728,
+   "finish": "stop",
+   "mol_id": "1-nitropropane",
+   "truth": -3.34
+  },
+  {
+   "text": "The hydration free energy (HFE) correlates strongly with the presence, type, and",
+   "value": -3.28,
+   "reasoning_tokens": 2788,
+   "completion": 3077,
+   "cost": 0.0196288,
+   "finish": "stop",
+   "mol_id": "hexan-2-one",
+   "truth": -3.28
+  },
+  {
+   "text": "The hydration free energy of an organic molecule is governed primarily by the id",
+   "value": -2.5,
+   "reasoning_tokens": 3180,
+   "completion": 3565,
+   "cost": 0.0225748,
+   "finish": "stop",
+   "mol_id": "methyl 2,2-dimethylpropanoate",
+   "truth": -2.4
+  },
+  {
+   "text": "The training set contains a closely related analog, 2-chlorodibenzo-p-dioxin (ex",
+   "value": -2.8,
+   "reasoning_tokens": 3173,
+   "completion": 3483,
+   "cost": 0.0221288,
+   "finish": "stop",
+   "mol_id": "1,2,4-trichlorodibenzo-p-dioxin",
+   "truth": -4.05
+  },
+  {
+   "text": "The hydration free energy reflects the balance of favorable solute\u2013water interac",
+   "value": -2.5,
+   "reasoning_tokens": 1961,
+   "completion": 2213,
+   "cost": 0.0144408,
+   "finish": "stop",
+   "mol_id": "1-methylpyrrole",
+   "truth": -2.89
+  },
+  {
+   "text": "The experimental hydration free energy correlates strongly with the presence, nu",
+   "value": -6.93,
+   "reasoning_tokens": 3364,
+   "completion": 3671,
+   "cost": 0.0231888,
+   "finish": "stop",
+   "mol_id": "1-methylimidazole",
+   "truth": -8.41
+  },
+  {
+   "text": "The hydration free energy (HFE) correlates strongly with the polarity and hydrog",
+   "value": -2.6,
+   "reasoning_tokens": 4501,
+   "completion": 4920,
+   "cost": 0.0307108,
+   "finish": "stop",
+   "mol_id": "methyl 2,2,2-trifluoroacetate",
+   "truth": -1.1
+  },
+  {
+   "text": "The hydration free energy of ethers is governed primarily by the number of ether",
+   "value": -4.52,
+   "reasoning_tokens": 2659,
+   "completion": 3063,
+   "cost": 0.0195468,
+   "finish": "stop",
+   "mol_id": "1,2-diethoxyethane",
+   "truth": -3.54
+  },
+  {
+   "text": "The hydration free energy of organic molecules becomes systematically less favor",
+   "value": -2.5,
+   "reasoning_tokens": 1642,
+   "completion": 1966,
+   "cost": 0.0129608,
+   "finish": "stop",
+   "mol_id": "propyl propanoate",
+   "truth": -2.44
+  }
+ ]
+}
